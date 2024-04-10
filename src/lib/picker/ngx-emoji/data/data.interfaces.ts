@@ -17,7 +17,7 @@ export interface CompressedEmojiData {
   sheet?: [number, number];
   tags?: string[];
   hidden?: string[];
-  emoticons?: string[];
+  emoticon?: string | string[];
   text?: string;
   skins?: EmojiVariation[];
   obsoletedBy?: string;
@@ -33,7 +33,7 @@ export interface EmojiData {
   sheet: [number, number];
   tags: string[];
   hidden: string[];
-  emoticons: string[];
+  emoticon: string | string[];
   text: string;
   set?: Emoji['set'];
   skins: EmojiVariation[];

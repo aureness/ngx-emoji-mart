@@ -109,7 +109,14 @@ export class PreviewComponent implements OnChanges {
     ) as EmojiData;
     const knownEmoticons: string[] = [];
     const listedEmoticons: string[] = [];
-    const emoitcons = this.emojiData.emoticons || [];
+    let emoitcons = [];
+    
+    if (typeof this.emojiData.emoticon === 'string') {
+      emoitcons.push(this.emojiData.emoticon)
+    } else if (Array.isArray(this.emojiData.emoticon)) {
+      emoitcons.push(...this.emojiData.emoticon);
+    }
+
     emoitcons.forEach((emoticon: string) => {
       if (knownEmoticons.indexOf(emoticon.toLowerCase()) >= 0) {
         return;
