@@ -153,7 +153,8 @@ export class PickerComponent implements OnInit, OnDestroy {
   @Input()
   backgroundImageFn: Emoji['backgroundImageFn'] = (set: string, sheetSize: number) =>
     `https://cdn.jsdelivr.net/npm/emoji-datasource-${set}@14.0.0/img/${set}/sheets-256/${sheetSize}.png`;
-  @Input() emojibase?: EmojibaseEmoji[];
+  @Input() emojibase!: EmojibaseEmoji[];
+  @Input() spriteSheetCoords?: any;
 
   constructor(
     private ngZone: NgZone,

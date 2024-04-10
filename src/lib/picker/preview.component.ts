@@ -110,7 +110,7 @@ export class PreviewComponent implements OnChanges {
     const knownEmoticons: string[] = [];
     const listedEmoticons: string[] = [];
     let emoitcons = [];
-    
+
     if (typeof this.emojiData.emoticon === 'string') {
       emoitcons.push(this.emojiData.emoticon)
     } else if (Array.isArray(this.emojiData.emoticon)) {

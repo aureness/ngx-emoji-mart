@@ -19,10 +19,7 @@ export class EmojiService {
   emojibase: EmojibaseEmoji[] = [];
 
   constructor() {
-    if (!this.uncompressed) {
-      this.uncompress(emojis);
-      this.uncompressed = true;
-    }
+
   }
 
   uncompress(list: CompressedEmojiData[]) {
@@ -46,6 +43,10 @@ export class EmojiService {
 
       if (!data.sheet) {
         data.sheet = [0, 0];
+        const defaultEmoji = emojis.find(emoji => emoji.unified === data.hexcode);
+        if (defaultEmoji) {
+          data.sheet = defaultEmoji.sheet;
+        }
       }
 
       if (!data.emoticons) {
