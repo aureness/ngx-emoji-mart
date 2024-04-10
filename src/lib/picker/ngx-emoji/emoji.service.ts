@@ -28,11 +28,12 @@ export class EmojiService {
   uncompress(list: CompressedEmojiData[]) {
     this.emojis = list.map(emoji => {
       const data: any = { ...emoji };
-      if (!data.shortNames) {
-        data.shortNames = [];
+      if (!data.shortcodes) {
+        data.shortcodes = [];
+      } else {
+        data.shortcode = data.shortcodes[0];
       }
-      data.shortNames.unshift(data.shortName);
-      data.id = data.shortName;
+      data.id = data.shortcode;
       data.native = this.unifiedToNative(data.hexcode);
 
       if (!data.skinVariations) {
@@ -64,15 +65,15 @@ export class EmojiService {
         const f = list.find(x => x.hexcode === data.obsoletes);
         if (f) {
           if (f.tags) {
-            data.tags = [...data.tags, ...f.tags, f.shortName];
+            data.tags = [...data.tags, ...f.tags, f.shortcode];
           } else {
-            data.tags = [...data.tags, f.shortName];
+            data.tags = [...data.tags, f.shortcode];
           }
         }
       }
 
       this.names[data.hexcode] = data;
-      for (const n of data.shortNames) {
+      for (const n of data.shortcodes) {
         this.names[n] = data;
       }
       return data;
@@ -86,6 +87,7 @@ export class EmojiService {
 
   getData(emoji: EmojiData | string, skin?: Emoji['skin'], set?: Emoji['set']): EmojiData | null {
     let emojiData: any;
+
     // TODO investigate
     if (!emoji) {
       return null;
@@ -175,7 +177,7 @@ export class EmojiService {
     if (emoji === null) {
       return null;
     }
-    const id = emoji.id || emoji.shortNames[0];
+    const id = emoji.id || emoji.shortcodes[0];
     let colons = `:${id}:`;
     if (emoji.skinTone) {
       colons += `:skin-tone-${emoji.skinTone}:`;

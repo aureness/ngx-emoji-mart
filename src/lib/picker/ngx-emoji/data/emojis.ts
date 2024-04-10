@@ -14,7 +14,7 @@ export const emojis: CompressedEmojiData[] = [
       'grin'
     ],
     sheet: [32, 20],
-    shortName: 'grinning'
+    shortcode: 'grinning'
   },
   {
     label: 'Smiling Face with Open Mouth',
@@ -33,7 +33,7 @@ export const emojis: CompressedEmojiData[] = [
       'funny'
     ],
     sheet: [32, 23],
-    shortName: 'smiley'
+    shortcode: 'smiley'
   },
   {
     label: 'Smiling Face with Open Mouth and Smiling Eyes',
@@ -54,7 +54,7 @@ export const emojis: CompressedEmojiData[] = [
       'smile'
     ],
     sheet: [32, 24],
-    shortName: 'smile'
+    shortcode: 'smile'
   },
   {
     label: 'Grinning Face with Smiling Eyes',
@@ -68,7 +68,7 @@ export const emojis: CompressedEmojiData[] = [
       'kawaii'
     ],
     sheet: [32, 21],
-    shortName: 'grin'
+    shortcode: 'grin'
   },
   {
     label: 'Smiling Face with Open Mouth and Tightly-Closed Eyes',
@@ -87,8 +87,8 @@ export const emojis: CompressedEmojiData[] = [
       'laugh'
     ],
     sheet: [32, 26],
-    shortNames: ['satisfied'],
-    shortName: 'laughing'
+    shortcodes: ['satisfied'],
+    shortcode: 'laughing'
   },
   {
     label: 'Smiling Face with Open Mouth and Cold Sweat',
@@ -104,7 +104,7 @@ export const emojis: CompressedEmojiData[] = [
       'relief'
     ],
     sheet: [32, 25],
-    shortName: 'sweat_smile'
+    shortcode: 'sweat_smile'
   },
   {
     label: 'Rolling on the Floor Laughing',
@@ -120,7 +120,7 @@ export const emojis: CompressedEmojiData[] = [
       'rofl'
     ],
     sheet: [40, 15],
-    shortName: 'rolling_on_the_floor_laughing'
+    shortcode: 'rolling_on_the_floor_laughing'
   },
   {
     label: 'Face with Tears of Joy',
@@ -136,7 +136,7 @@ export const emojis: CompressedEmojiData[] = [
       'haha'
     ],
     sheet: [32, 22],
-    shortName: 'joy'
+    shortcode: 'joy'
   },
   {
     label: 'Slightly Smiling Face',
@@ -148,7 +148,7 @@ export const emojis: CompressedEmojiData[] = [
       'smile'
     ],
     sheet: [33, 28],
-    shortName: 'slightly_smiling_face'
+    shortcode: 'slightly_smiling_face'
   },
   {
     label: 'Upside-Down Face',
@@ -161,7 +161,7 @@ export const emojis: CompressedEmojiData[] = [
       'smile'
     ],
     sheet: [33, 29],
-    shortName: 'upside_down_face'
+    shortcode: 'upside_down_face'
   },
   {
     label: 'Melting Face',
@@ -173,7 +173,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 12],
     hidden: ['facebook'],
-    shortName: 'melting_face'
+    shortcode: 'melting_face'
   },
   {
     label: 'Winking Face',
@@ -191,7 +191,7 @@ export const emojis: CompressedEmojiData[] = [
       'eye'
     ],
     sheet: [32, 29],
-    shortName: 'wink'
+    shortcode: 'wink'
   },
   {
     label: 'Smiling Face with Smiling Eyes',
@@ -209,7 +209,7 @@ export const emojis: CompressedEmojiData[] = [
       'joy'
     ],
     sheet: [32, 30],
-    shortName: 'blush'
+    shortcode: 'blush'
   },
   {
     label: 'Smiling Face with Halo',
@@ -223,7 +223,7 @@ export const emojis: CompressedEmojiData[] = [
       'innocent'
     ],
     sheet: [32, 27],
-    shortName: 'innocent'
+    shortcode: 'innocent'
   },
   {
     label: 'Smiling Face with Smiling Eyes and Three Hearts',
@@ -241,7 +241,7 @@ export const emojis: CompressedEmojiData[] = [
       'adore'
     ],
     sheet: [43, 58],
-    shortName: 'smiling_face_with_3_hearts'
+    shortcode: 'smiling_face_with_3_hearts'
   },
   {
     label: 'Smiling Face with Heart-Shaped Eyes',
@@ -258,7 +258,7 @@ export const emojis: CompressedEmojiData[] = [
       'heart'
     ],
     sheet: [32, 33],
-    shortName: 'heart_eyes'
+    shortcode: 'heart_eyes'
   },
   {
     label: 'Grinning Face with Star Eyes',
@@ -272,10 +272,10 @@ export const emojis: CompressedEmojiData[] = [
       'grinning'
     ],
     sheet: [40, 38],
-    shortNames: [
+    shortcodes: [
       'grinning_face_with_star_eyes'
     ],
-    shortName: 'star-struck'
+    shortcode: 'star-struck'
   },
   {
     label: 'Face Throwing a Kiss',
@@ -292,7 +292,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiss'
     ],
     sheet: [32, 44],
-    shortName: 'kissing_heart'
+    shortcode: 'kissing_heart'
   },
   {
     label: 'Kissing Face',
@@ -308,7 +308,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiss'
     ],
     sheet: [32, 43],
-    shortName: 'kissing'
+    shortcode: 'kissing'
   },
   {
     label: 'White Smiling Face',
@@ -321,7 +321,7 @@ export const emojis: CompressedEmojiData[] = [
       'happiness'
     ],
     sheet: [57, 4],
-    shortName: 'relaxed'
+    shortcode: 'relaxed'
   },
   {
     label: 'Kissing Face with Closed Eyes',
@@ -337,7 +337,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiss'
     ],
     sheet: [32, 46],
-    shortName: 'kissing_closed_eyes'
+    shortcode: 'kissing_closed_eyes'
   },
   {
     label: 'Kissing Face with Smiling Eyes',
@@ -351,7 +351,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiss'
     ],
     sheet: [32, 45],
-    shortName: 'kissing_smiling_eyes'
+    shortcode: 'kissing_smiling_eyes'
   },
   {
     label: 'Smiling Face with Tear',
@@ -363,7 +363,7 @@ export const emojis: CompressedEmojiData[] = [
       'pretend'
     ],
     sheet: [43, 60],
-    shortName: 'smiling_face_with_tear'
+    shortcode: 'smiling_face_with_tear'
   },
   {
     label: 'Face Savouring Delicious Food',
@@ -382,7 +382,7 @@ export const emojis: CompressedEmojiData[] = [
       'savouring'
     ],
     sheet: [32, 31],
-    shortName: 'yum'
+    shortcode: 'yum'
   },
   {
     label: 'Face with Stuck-out Tongue',
@@ -407,7 +407,7 @@ export const emojis: CompressedEmojiData[] = [
       'tongue'
     ],
     sheet: [32, 47],
-    shortName: 'stuck_out_tongue'
+    shortcode: 'stuck_out_tongue'
   },
   {
     label: 'Face with Stuck-out Tongue and Winking Eye',
@@ -433,7 +433,7 @@ export const emojis: CompressedEmojiData[] = [
       'tongue'
     ],
     sheet: [32, 48],
-    shortName: 'stuck_out_tongue_winking_eye'
+    shortcode: 'stuck_out_tongue_winking_eye'
   },
   {
     label: 'Grinning Face with One Large and One Small Eye',
@@ -445,10 +445,10 @@ export const emojis: CompressedEmojiData[] = [
       'crazy'
     ],
     sheet: [40, 39],
-    shortNames: [
+    shortcodes: [
       'grinning_face_with_one_large_and_one_small_eye'
     ],
-    shortName: 'zany_face'
+    shortcode: 'zany_face'
   },
   {
     label: 'Face with Stuck-out Tongue and Tightly-Closed Eyes',
@@ -463,7 +463,7 @@ export const emojis: CompressedEmojiData[] = [
       'tongue'
     ],
     sheet: [32, 49],
-    shortName: 'stuck_out_tongue_closed_eyes'
+    shortcode: 'stuck_out_tongue_closed_eyes'
   },
   {
     label: 'Money-Mouth Face',
@@ -476,7 +476,7 @@ export const emojis: CompressedEmojiData[] = [
       'money'
     ],
     sheet: [38, 59],
-    shortName: 'money_mouth_face'
+    shortcode: 'money_mouth_face'
   },
   {
     label: 'Hugging Face',
@@ -488,7 +488,7 @@ export const emojis: CompressedEmojiData[] = [
       'hug'
     ],
     sheet: [39, 4],
-    shortName: 'hugging_face'
+    shortcode: 'hugging_face'
   },
   {
     label: 'Smiling Face with Smiling Eyes and Hand Covering Mouth',
@@ -501,10 +501,10 @@ export const emojis: CompressedEmojiData[] = [
       'surprise'
     ],
     sheet: [40, 42],
-    shortNames: [
+    shortcodes: [
       'smiling_face_with_smiling_eyes_and_hand_covering_mouth'
     ],
-    shortName: 'face_with_hand_over_mouth'
+    shortcode: 'face_with_hand_over_mouth'
   },
   {
     label: 'Face with Open Eyes and Hand over Mouth',
@@ -518,7 +518,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 14],
     hidden: ['facebook'],
-    shortName: 'face_with_open_eyes_and_hand_over_mouth'
+    shortcode: 'face_with_open_eyes_and_hand_over_mouth'
   },
   {
     label: 'Face with Peeking Eye',
@@ -532,7 +532,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 15],
     hidden: ['facebook'],
-    shortName: 'face_with_peeking_eye'
+    shortcode: 'face_with_peeking_eye'
   },
   {
     label: 'Face with Finger Covering Closed Lips',
@@ -544,10 +544,10 @@ export const emojis: CompressedEmojiData[] = [
       'shhh'
     ],
     sheet: [40, 40],
-    shortNames: [
+    shortcodes: [
       'face_with_finger_covering_closed_lips'
     ],
-    shortName: 'shushing_face'
+    shortcode: 'shushing_face'
   },
   {
     label: 'Thinking Face',
@@ -560,7 +560,7 @@ export const emojis: CompressedEmojiData[] = [
       'consider'
     ],
     sheet: [39, 1],
-    shortName: 'thinking_face'
+    shortcode: 'thinking_face'
   },
   {
     label: 'Saluting Face',
@@ -572,7 +572,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 13],
     hidden: ['facebook'],
-    shortName: 'saluting_face'
+    shortcode: 'saluting_face'
   },
   {
     label: 'Zipper-Mouth Face',
@@ -585,7 +585,7 @@ export const emojis: CompressedEmojiData[] = [
       'secret'
     ],
     sheet: [38, 58],
-    shortName: 'zipper_mouth_face'
+    shortcode: 'zipper_mouth_face'
   },
   {
     label: 'Face with One Eyebrow Raised',
@@ -600,10 +600,10 @@ export const emojis: CompressedEmojiData[] = [
       'surprise'
     ],
     sheet: [40, 37],
-    shortNames: [
+    shortcodes: [
       'face_with_one_eyebrow_raised'
     ],
-    shortName: 'face_with_raised_eyebrow'
+    shortcode: 'face_with_raised_eyebrow'
   },
   {
     label: 'Neutral Face',
@@ -617,7 +617,7 @@ export const emojis: CompressedEmojiData[] = [
       'neutral'
     ],
     sheet: [32, 36],
-    shortName: 'neutral_face'
+    shortcode: 'neutral_face'
   },
   {
     label: 'Expressionless Face',
@@ -631,7 +631,7 @@ export const emojis: CompressedEmojiData[] = [
       'deadpan'
     ],
     sheet: [32, 37],
-    shortName: 'expressionless'
+    shortcode: 'expressionless'
   },
   {
     label: 'Face Without Mouth',
@@ -642,7 +642,7 @@ export const emojis: CompressedEmojiData[] = [
       'hellokitty'
     ],
     sheet: [33, 16],
-    shortName: 'no_mouth'
+    shortcode: 'no_mouth'
   },
   {
     label: 'Dotted Line Face',
@@ -656,7 +656,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 17],
     hidden: ['facebook'],
-    shortName: 'dotted_line_face'
+    shortcode: 'dotted_line_face'
   },
   {
     label: 'Face in Clouds',
@@ -669,7 +669,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [33, 15],
     hidden: ['facebook'],
-    shortName: 'face_in_clouds'
+    shortcode: 'face_in_clouds'
   },
   {
     label: 'Smirking Face',
@@ -684,7 +684,7 @@ export const emojis: CompressedEmojiData[] = [
       'sarcasm'
     ],
     sheet: [32, 35],
-    shortName: 'smirk'
+    shortcode: 'smirk'
   },
   {
     label: 'Unamused Face',
@@ -703,7 +703,7 @@ export const emojis: CompressedEmojiData[] = [
       'side_eye'
     ],
     sheet: [32, 38],
-    shortName: 'unamused'
+    shortcode: 'unamused'
   },
   {
     label: 'Face with Rolling Eyes',
@@ -715,7 +715,7 @@ export const emojis: CompressedEmojiData[] = [
       'frustrated'
     ],
     sheet: [33, 30],
-    shortName: 'face_with_rolling_eyes'
+    shortcode: 'face_with_rolling_eyes'
   },
   {
     label: 'Grimacing Face',
@@ -727,7 +727,7 @@ export const emojis: CompressedEmojiData[] = [
       'teeth'
     ],
     sheet: [33, 3],
-    shortName: 'grimacing'
+    shortcode: 'grimacing'
   },
   {
     label: 'Face Exhaling',
@@ -741,7 +741,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [33, 5],
     hidden: ['facebook'],
-    shortName: 'face_exhaling'
+    shortcode: 'face_exhaling'
   },
   {
     label: 'Lying Face',
@@ -753,7 +753,7 @@ export const emojis: CompressedEmojiData[] = [
       'pinocchio'
     ],
     sheet: [40, 17],
-    shortName: 'lying_face'
+    shortcode: 'lying_face'
   },
   {
     label: 'Relieved Face',
@@ -767,7 +767,7 @@ export const emojis: CompressedEmojiData[] = [
       'happiness'
     ],
     sheet: [32, 32],
-    shortName: 'relieved'
+    shortcode: 'relieved'
   },
   {
     label: 'Pensive Face',
@@ -780,7 +780,7 @@ export const emojis: CompressedEmojiData[] = [
       'upset'
     ],
     sheet: [32, 40],
-    shortName: 'pensive'
+    shortcode: 'pensive'
   },
   {
     label: 'Sleepy Face',
@@ -793,14 +793,14 @@ export const emojis: CompressedEmojiData[] = [
       'nap'
     ],
     sheet: [33, 1],
-    shortName: 'sleepy'
+    shortcode: 'sleepy'
   },
   {
     label: 'Drooling Face',
     hexcode: '1F924',
     tags: ['drooling_face', 'face'],
     sheet: [40, 16],
-    shortName: 'drooling_face'
+    shortcode: 'drooling_face'
   },
   {
     label: 'Sleeping Face',
@@ -814,7 +814,7 @@ export const emojis: CompressedEmojiData[] = [
       'zzz'
     ],
     sheet: [33, 12],
-    shortName: 'sleeping'
+    shortcode: 'sleeping'
   },
   {
     label: 'Face with Medical Mask',
@@ -828,7 +828,7 @@ export const emojis: CompressedEmojiData[] = [
       'covid'
     ],
     sheet: [33, 17],
-    shortName: 'mask'
+    shortcode: 'mask'
   },
   {
     label: 'Face with Thermometer',
@@ -843,7 +843,7 @@ export const emojis: CompressedEmojiData[] = [
       'covid'
     ],
     sheet: [38, 60],
-    shortName: 'face_with_thermometer'
+    shortcode: 'face_with_thermometer'
   },
   {
     label: 'Face with Head-Bandage',
@@ -856,7 +856,7 @@ export const emojis: CompressedEmojiData[] = [
       'hurt'
     ],
     sheet: [39, 2],
-    shortName: 'face_with_head_bandage'
+    shortcode: 'face_with_head_bandage'
   },
   {
     label: 'Nauseated Face',
@@ -872,7 +872,7 @@ export const emojis: CompressedEmojiData[] = [
       'ill'
     ],
     sheet: [40, 14],
-    shortName: 'nauseated_face'
+    shortcode: 'nauseated_face'
   },
   {
     label: 'Face with Open Mouth Vomiting',
@@ -883,10 +883,10 @@ export const emojis: CompressedEmojiData[] = [
       'sick'
     ],
     sheet: [40, 43],
-    shortNames: [
+    shortcodes: [
       'face_with_open_mouth_vomiting'
     ],
-    shortName: 'face_vomiting'
+    shortcode: 'face_vomiting'
   },
   {
     label: 'Sneezing Face',
@@ -900,7 +900,7 @@ export const emojis: CompressedEmojiData[] = [
       'allergy'
     ],
     sheet: [40, 36],
-    shortName: 'sneezing_face'
+    shortcode: 'sneezing_face'
   },
   {
     label: 'Overheated Face',
@@ -914,7 +914,7 @@ export const emojis: CompressedEmojiData[] = [
       'sweating'
     ],
     sheet: [44, 2],
-    shortName: 'hot_face'
+    shortcode: 'hot_face'
   },
   {
     label: 'Freezing Face',
@@ -929,7 +929,7 @@ export const emojis: CompressedEmojiData[] = [
       'icicles'
     ],
     sheet: [44, 3],
-    shortName: 'cold_face'
+    shortcode: 'cold_face'
   },
   {
     label: 'Face with Uneven Eyes and Wavy Mouth',
@@ -943,7 +943,7 @@ export const emojis: CompressedEmojiData[] = [
       'wavy'
     ],
     sheet: [44, 1],
-    shortName: 'woozy_face'
+    shortcode: 'woozy_face'
   },
   {
     label: 'Dizzy Face',
@@ -956,7 +956,7 @@ export const emojis: CompressedEmojiData[] = [
       'dizzy'
     ],
     sheet: [33, 14],
-    shortName: 'dizzy_face'
+    shortcode: 'dizzy_face'
   },
   {
     label: 'Face with Spiral Eyes',
@@ -971,7 +971,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [33, 13],
     hidden: ['facebook'],
-    shortName: 'face_with_spiral_eyes'
+    shortcode: 'face_with_spiral_eyes'
   },
   {
     label: 'Shocked Face with Exploding Head',
@@ -984,10 +984,10 @@ export const emojis: CompressedEmojiData[] = [
       'blown'
     ],
     sheet: [40, 44],
-    shortNames: [
+    shortcodes: [
       'shocked_face_with_exploding_head'
     ],
-    shortName: 'exploding_head'
+    shortcode: 'exploding_head'
   },
   {
     label: 'Face with Cowboy Hat',
@@ -999,7 +999,7 @@ export const emojis: CompressedEmojiData[] = [
       'hat'
     ],
     sheet: [40, 12],
-    shortName: 'face_with_cowboy_hat'
+    shortcode: 'face_with_cowboy_hat'
   },
   {
     label: 'Face with Party Horn and Party Hat',
@@ -1011,7 +1011,7 @@ export const emojis: CompressedEmojiData[] = [
       'woohoo'
     ],
     sheet: [44, 0],
-    shortName: 'partying_face'
+    shortcode: 'partying_face'
   },
   {
     label: 'Disguised Face',
@@ -1024,7 +1024,7 @@ export const emojis: CompressedEmojiData[] = [
       'moustache'
     ],
     sheet: [44, 10],
-    shortName: 'disguised_face'
+    shortcode: 'disguised_face'
   },
   {
     label: 'Smiling Face with Sunglasses',
@@ -1040,7 +1040,7 @@ export const emojis: CompressedEmojiData[] = [
       'sunglass'
     ],
     sheet: [32, 34],
-    shortName: 'sunglasses'
+    shortcode: 'sunglasses'
   },
   {
     label: 'Nerd Face',
@@ -1053,7 +1053,7 @@ export const emojis: CompressedEmojiData[] = [
       'dork'
     ],
     sheet: [39, 0],
-    shortName: 'nerd_face'
+    shortcode: 'nerd_face'
   },
   {
     label: 'Face with Monocle',
@@ -1065,7 +1065,7 @@ export const emojis: CompressedEmojiData[] = [
       'wealthy'
     ],
     sheet: [47, 11],
-    shortName: 'face_with_monocle'
+    shortcode: 'face_with_monocle'
   },
   {
     label: 'Confused Face',
@@ -1086,7 +1086,7 @@ export const emojis: CompressedEmojiData[] = [
       ':/'
     ],
     sheet: [32, 41],
-    shortName: 'confused'
+    shortcode: 'confused'
   },
   {
     label: 'Face with Diagonal Mouth',
@@ -1100,7 +1100,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 16],
     hidden: ['facebook'],
-    shortName: 'face_with_diagonal_mouth'
+    shortcode: 'face_with_diagonal_mouth'
   },
   {
     label: 'Worried Face',
@@ -1113,7 +1113,7 @@ export const emojis: CompressedEmojiData[] = [
       ':('
     ],
     sheet: [32, 51],
-    shortName: 'worried'
+    shortcode: 'worried'
   },
   {
     label: 'Slightly Frowning Face',
@@ -1127,7 +1127,7 @@ export const emojis: CompressedEmojiData[] = [
       'upset'
     ],
     sheet: [33, 27],
-    shortName: 'slightly_frowning_face'
+    shortcode: 'slightly_frowning_face'
   },
   {
     label: 'Frowning Face',
@@ -1140,7 +1140,7 @@ export const emojis: CompressedEmojiData[] = [
       'frown'
     ],
     sheet: [57, 3],
-    shortName: 'white_frowning_face'
+    shortcode: 'white_frowning_face'
   },
   {
     label: 'Face with Open Mouth',
@@ -1161,7 +1161,7 @@ export const emojis: CompressedEmojiData[] = [
       ':O'
     ],
     sheet: [33, 6],
-    shortName: 'open_mouth'
+    shortcode: 'open_mouth'
   },
   {
     label: 'Hushed Face',
@@ -1173,7 +1173,7 @@ export const emojis: CompressedEmojiData[] = [
       'shh'
     ],
     sheet: [33, 7],
-    shortName: 'hushed'
+    shortcode: 'hushed'
   },
   {
     label: 'Astonished Face',
@@ -1186,7 +1186,7 @@ export const emojis: CompressedEmojiData[] = [
       'poisoned'
     ],
     sheet: [33, 10],
-    shortName: 'astonished'
+    shortcode: 'astonished'
   },
   {
     label: 'Flushed Face',
@@ -1199,7 +1199,7 @@ export const emojis: CompressedEmojiData[] = [
       'flattered'
     ],
     sheet: [33, 11],
-    shortName: 'flushed'
+    shortcode: 'flushed'
   },
   {
     label: 'Face with Pleading Eyes',
@@ -1215,7 +1215,7 @@ export const emojis: CompressedEmojiData[] = [
       'grievance'
     ],
     sheet: [44, 12],
-    shortName: 'pleading_face'
+    shortcode: 'pleading_face'
   },
   {
     label: 'Face Holding Back Tears',
@@ -1228,7 +1228,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [44, 11],
     hidden: ['facebook'],
-    shortName: 'face_holding_back_tears'
+    shortcode: 'face_holding_back_tears'
   },
   {
     label: 'Frowning Face with Open Mouth',
@@ -1240,7 +1240,7 @@ export const emojis: CompressedEmojiData[] = [
       'what'
     ],
     sheet: [32, 58],
-    shortName: 'frowning'
+    shortcode: 'frowning'
   },
   {
     label: 'Anguished Face',
@@ -1253,7 +1253,7 @@ export const emojis: CompressedEmojiData[] = [
       'nervous'
     ],
     sheet: [32, 59],
-    shortName: 'anguished'
+    shortcode: 'anguished'
   },
   {
     label: 'Fearful Face',
@@ -1266,7 +1266,7 @@ export const emojis: CompressedEmojiData[] = [
       'nervous'
     ],
     sheet: [32, 60],
-    shortName: 'fearful'
+    shortcode: 'fearful'
   },
   {
     label: 'Face with Open Mouth and Cold Sweat',
@@ -1278,7 +1278,7 @@ export const emojis: CompressedEmojiData[] = [
       'sweat'
     ],
     sheet: [33, 8],
-    shortName: 'cold_sweat'
+    shortcode: 'cold_sweat'
   },
   {
     label: 'Disappointed but Relieved Face',
@@ -1291,7 +1291,7 @@ export const emojis: CompressedEmojiData[] = [
       'nervous'
     ],
     sheet: [32, 57],
-    shortName: 'disappointed_relieved'
+    shortcode: 'disappointed_relieved'
   },
   {
     label: 'Crying Face',
@@ -1308,7 +1308,7 @@ export const emojis: CompressedEmojiData[] = [
       ':\'('
     ],
     sheet: [32, 54],
-    shortName: 'cry'
+    shortcode: 'cry'
   },
   {
     label: 'Loudly Crying Face',
@@ -1324,7 +1324,7 @@ export const emojis: CompressedEmojiData[] = [
       'depressed'
     ],
     sheet: [33, 4],
-    shortName: 'sob'
+    shortcode: 'sob'
   },
   {
     label: 'Face Screaming in Fear',
@@ -1337,7 +1337,7 @@ export const emojis: CompressedEmojiData[] = [
       'omg'
     ],
     sheet: [33, 9],
-    shortName: 'scream'
+    shortcode: 'scream'
   },
   {
     label: 'Confounded Face',
@@ -1352,7 +1352,7 @@ export const emojis: CompressedEmojiData[] = [
       ':S'
     ],
     sheet: [32, 42],
-    shortName: 'confounded'
+    shortcode: 'confounded'
   },
   {
     label: 'Persevering Face',
@@ -1366,7 +1366,7 @@ export const emojis: CompressedEmojiData[] = [
       'oops'
     ],
     sheet: [32, 55],
-    shortName: 'persevere'
+    shortcode: 'persevere'
   },
   {
     label: 'Disappointed Face',
@@ -1382,7 +1382,7 @@ export const emojis: CompressedEmojiData[] = [
       ':('
     ],
     sheet: [32, 50],
-    shortName: 'disappointed'
+    shortcode: 'disappointed'
   },
   {
     label: 'Face with Cold Sweat',
@@ -1396,7 +1396,7 @@ export const emojis: CompressedEmojiData[] = [
       'exercise'
     ],
     sheet: [32, 39],
-    shortName: 'sweat'
+    shortcode: 'sweat'
   },
   {
     label: 'Weary Face',
@@ -1411,7 +1411,7 @@ export const emojis: CompressedEmojiData[] = [
       'upset'
     ],
     sheet: [33, 0],
-    shortName: 'weary'
+    shortcode: 'weary'
   },
   {
     label: 'Tired Face',
@@ -1424,7 +1424,7 @@ export const emojis: CompressedEmojiData[] = [
       'frustrated'
     ],
     sheet: [33, 2],
-    shortName: 'tired_face'
+    shortcode: 'tired_face'
   },
   {
     label: 'Yawning Face',
@@ -1435,7 +1435,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleepy'
     ],
     sheet: [43, 59],
-    shortName: 'yawning_face'
+    shortcode: 'yawning_face'
   },
   {
     label: 'Face with Look of Triumph',
@@ -1449,7 +1449,7 @@ export const emojis: CompressedEmojiData[] = [
       'pride'
     ],
     sheet: [32, 56],
-    shortName: 'triumph'
+    shortcode: 'triumph'
   },
   {
     label: 'Pouting Face',
@@ -1462,7 +1462,7 @@ export const emojis: CompressedEmojiData[] = [
       'despise'
     ],
     sheet: [32, 53],
-    shortName: 'rage'
+    shortcode: 'rage'
   },
   {
     label: 'Angry Face',
@@ -1476,7 +1476,7 @@ export const emojis: CompressedEmojiData[] = [
       'frustrated'
     ],
     sheet: [32, 52],
-    shortName: 'angry'
+    shortcode: 'angry'
   },
   {
     label: 'Serious Face with Symbols Covering Mouth',
@@ -1491,10 +1491,10 @@ export const emojis: CompressedEmojiData[] = [
       'expletive'
     ],
     sheet: [40, 41],
-    shortNames: [
+    shortcodes: [
       'serious_face_with_symbols_covering_mouth'
     ],
-    shortName: 'face_with_symbols_on_mouth'
+    shortcode: 'face_with_symbols_on_mouth'
   },
   {
     label: 'Smiling Face with Horns',
@@ -1505,7 +1505,7 @@ export const emojis: CompressedEmojiData[] = [
       'horns'
     ],
     sheet: [32, 28],
-    shortName: 'smiling_imp'
+    shortcode: 'smiling_imp'
   },
   {
     label: 'Imp',
@@ -1517,7 +1517,7 @@ export const emojis: CompressedEmojiData[] = [
       'horns'
     ],
     sheet: [25, 8],
-    shortName: 'imp'
+    shortcode: 'imp'
   },
   {
     label: 'Skull',
@@ -1530,7 +1530,7 @@ export const emojis: CompressedEmojiData[] = [
       'death'
     ],
     sheet: [25, 9],
-    shortName: 'skull'
+    shortcode: 'skull'
   },
   {
     label: 'Skull and Crossbones',
@@ -1546,7 +1546,7 @@ export const emojis: CompressedEmojiData[] = [
       'evil'
     ],
     sheet: [56, 56],
-    shortName: 'skull_and_crossbones'
+    shortcode: 'skull_and_crossbones'
   },
   {
     label: 'Pile of Poo',
@@ -1560,15 +1560,15 @@ export const emojis: CompressedEmojiData[] = [
       'shit'
     ],
     sheet: [27, 56],
-    shortNames: ['poop', 'shit'],
-    shortName: 'hankey'
+    shortcodes: ['poop', 'shit'],
+    shortcode: 'hankey'
   },
   {
     label: 'Clown Face',
     hexcode: '1F921',
     tags: ['clown_face', 'face'],
     sheet: [40, 13],
-    shortName: 'clown_face'
+    shortcode: 'clown_face'
   },
   {
     label: 'Japanese Ogre',
@@ -1587,7 +1587,7 @@ export const emojis: CompressedEmojiData[] = [
       'ogre'
     ],
     sheet: [24, 58],
-    shortName: 'japanese_ogre'
+    shortcode: 'japanese_ogre'
   },
   {
     label: 'Japanese Goblin',
@@ -1604,7 +1604,7 @@ export const emojis: CompressedEmojiData[] = [
       'goblin'
     ],
     sheet: [24, 59],
-    shortName: 'japanese_goblin'
+    shortcode: 'japanese_goblin'
   },
   {
     label: 'Ghost',
@@ -1616,7 +1616,7 @@ export const emojis: CompressedEmojiData[] = [
       'scary'
     ],
     sheet: [24, 60],
-    shortName: 'ghost'
+    shortcode: 'ghost'
   },
   {
     label: 'Extraterrestrial Alien',
@@ -1629,7 +1629,7 @@ export const emojis: CompressedEmojiData[] = [
       'outer_space'
     ],
     sheet: [25, 6],
-    shortName: 'alien'
+    shortcode: 'alien'
   },
   {
     label: 'Alien Monster',
@@ -1641,7 +1641,7 @@ export const emojis: CompressedEmojiData[] = [
       'play'
     ],
     sheet: [25, 7],
-    shortName: 'space_invader'
+    shortcode: 'space_invader'
   },
   {
     label: 'Robot Face',
@@ -1653,7 +1653,7 @@ export const emojis: CompressedEmojiData[] = [
       'bot'
     ],
     sheet: [39, 3],
-    shortName: 'robot_face'
+    shortcode: 'robot_face'
   },
   {
     label: 'Smiling Cat Face with Open Mouth',
@@ -1666,7 +1666,7 @@ export const emojis: CompressedEmojiData[] = [
       'smile'
     ],
     sheet: [33, 20],
-    shortName: 'smiley_cat'
+    shortcode: 'smiley_cat'
   },
   {
     label: 'Grinning Cat Face with Smiling Eyes',
@@ -1678,7 +1678,7 @@ export const emojis: CompressedEmojiData[] = [
       'smile'
     ],
     sheet: [33, 18],
-    shortName: 'smile_cat'
+    shortcode: 'smile_cat'
   },
   {
     label: 'Cat Face with Tears of Joy',
@@ -1692,7 +1692,7 @@ export const emojis: CompressedEmojiData[] = [
       'tears'
     ],
     sheet: [33, 19],
-    shortName: 'joy_cat'
+    shortcode: 'joy_cat'
   },
   {
     label: 'Smiling Cat Face with Heart-Shaped Eyes',
@@ -1708,7 +1708,7 @@ export const emojis: CompressedEmojiData[] = [
       'heart'
     ],
     sheet: [33, 21],
-    shortName: 'heart_eyes_cat'
+    shortcode: 'heart_eyes_cat'
   },
   {
     label: 'Cat Face with Wry Smile',
@@ -1720,7 +1720,7 @@ export const emojis: CompressedEmojiData[] = [
       'smirk'
     ],
     sheet: [33, 22],
-    shortName: 'smirk_cat'
+    shortcode: 'smirk_cat'
   },
   {
     label: 'Kissing Cat Face with Closed Eyes',
@@ -1732,7 +1732,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiss'
     ],
     sheet: [33, 23],
-    shortName: 'kissing_cat'
+    shortcode: 'kissing_cat'
   },
   {
     label: 'Weary Cat Face',
@@ -1746,7 +1746,7 @@ export const emojis: CompressedEmojiData[] = [
       'scream'
     ],
     sheet: [33, 26],
-    shortName: 'scream_cat'
+    shortcode: 'scream_cat'
   },
   {
     label: 'Crying Cat Face',
@@ -1762,7 +1762,7 @@ export const emojis: CompressedEmojiData[] = [
       'cry'
     ],
     sheet: [33, 25],
-    shortName: 'crying_cat_face'
+    shortcode: 'crying_cat_face'
   },
   {
     label: 'Pouting Cat Face',
@@ -1773,7 +1773,7 @@ export const emojis: CompressedEmojiData[] = [
       'cats'
     ],
     sheet: [33, 24],
-    shortName: 'pouting_cat'
+    shortcode: 'pouting_cat'
   },
   {
     label: 'See-No-Evil Monkey',
@@ -1786,7 +1786,7 @@ export const emojis: CompressedEmojiData[] = [
       'haha'
     ],
     sheet: [34, 24],
-    shortName: 'see_no_evil'
+    shortcode: 'see_no_evil'
   },
   {
     label: 'Hear-No-Evil Monkey',
@@ -1798,7 +1798,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [34, 25],
-    shortName: 'hear_no_evil'
+    shortcode: 'hear_no_evil'
   },
   {
     label: 'Speak-No-Evil Monkey',
@@ -1811,7 +1811,7 @@ export const emojis: CompressedEmojiData[] = [
       'omg'
     ],
     sheet: [34, 26],
-    shortName: 'speak_no_evil'
+    shortcode: 'speak_no_evil'
   },
   {
     label: 'Kiss Mark',
@@ -1826,7 +1826,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [26, 37],
-    shortName: 'kiss'
+    shortcode: 'kiss'
   },
   {
     label: 'Love Letter',
@@ -1840,7 +1840,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [26, 38],
-    shortName: 'love_letter'
+    shortcode: 'love_letter'
   },
   {
     label: 'Heart with Arrow',
@@ -1854,7 +1854,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 39],
-    shortName: 'cupid'
+    shortcode: 'cupid'
   },
   {
     label: 'Heart with Ribbon',
@@ -1865,7 +1865,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 44],
-    shortName: 'gift_heart'
+    shortcode: 'gift_heart'
   },
   {
     label: 'Sparkling Heart',
@@ -1878,7 +1878,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 37],
-    shortName: 'sparkling_heart'
+    shortcode: 'sparkling_heart'
   },
   {
     label: 'Growing Heart',
@@ -1892,7 +1892,7 @@ export const emojis: CompressedEmojiData[] = [
       'pink'
     ],
     sheet: [27, 38],
-    shortName: 'heartpulse'
+    shortcode: 'heartpulse'
   },
   {
     label: 'Beating Heart',
@@ -1907,7 +1907,7 @@ export const emojis: CompressedEmojiData[] = [
       'heart'
     ],
     sheet: [27, 34],
-    shortName: 'heartbeat'
+    shortcode: 'heartbeat'
   },
   {
     label: 'Revolving Hearts',
@@ -1920,7 +1920,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 45],
-    shortName: 'revolving_hearts'
+    shortcode: 'revolving_hearts'
   },
   {
     label: 'Two Hearts',
@@ -1934,7 +1934,7 @@ export const emojis: CompressedEmojiData[] = [
       'heart'
     ],
     sheet: [27, 36],
-    shortName: 'two_hearts'
+    shortcode: 'two_hearts'
   },
   {
     label: 'Heart Decoration',
@@ -1946,7 +1946,7 @@ export const emojis: CompressedEmojiData[] = [
       'like'
     ],
     sheet: [27, 46],
-    shortName: 'heart_decoration'
+    shortcode: 'heart_decoration'
   },
   {
     label: 'Heart Exclamation',
@@ -1957,7 +1957,7 @@ export const emojis: CompressedEmojiData[] = [
       'love'
     ],
     sheet: [59, 7],
-    shortName: 'heavy_heart_exclamation_mark_ornament'
+    shortcode: 'heavy_heart_exclamation_mark_ornament'
   },
   {
     label: 'Broken Heart',
@@ -1973,7 +1973,7 @@ export const emojis: CompressedEmojiData[] = [
       'heartbreak'
     ],
     sheet: [27, 35],
-    shortName: 'broken_heart'
+    shortcode: 'broken_heart'
   },
   {
     label: 'Heart on Fire',
@@ -1985,7 +1985,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [59, 8],
     hidden: ['facebook'],
-    shortName: 'heart_on_fire'
+    shortcode: 'heart_on_fire'
   },
   {
     label: 'Mending Heart',
@@ -1998,7 +1998,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [59, 9],
     hidden: ['facebook'],
-    shortName: 'mending_heart'
+    shortcode: 'mending_heart'
   },
   {
     label: 'Heavy Black Heart',
@@ -2012,7 +2012,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [59, 10],
-    shortName: 'heart'
+    shortcode: 'heart'
   },
   {
     label: 'Orange Heart',
@@ -2025,7 +2025,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [53, 15],
-    shortName: 'orange_heart'
+    shortcode: 'orange_heart'
   },
   {
     label: 'Yellow Heart',
@@ -2039,7 +2039,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 42],
-    shortName: 'yellow_heart'
+    shortcode: 'yellow_heart'
   },
   {
     label: 'Green Heart',
@@ -2053,7 +2053,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 41],
-    shortName: 'green_heart'
+    shortcode: 'green_heart'
   },
   {
     label: 'Blue Heart',
@@ -2067,7 +2067,7 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 40],
-    shortName: 'blue_heart'
+    shortcode: 'blue_heart'
   },
   {
     label: 'Purple Heart',
@@ -2081,28 +2081,28 @@ export const emojis: CompressedEmojiData[] = [
       'valentines'
     ],
     sheet: [27, 43],
-    shortName: 'purple_heart'
+    shortcode: 'purple_heart'
   },
   {
     label: 'Brown Heart',
     hexcode: '1F90E',
     tags: ['brown_heart', 'coffee'],
     sheet: [38, 51],
-    shortName: 'brown_heart'
+    shortcode: 'brown_heart'
   },
   {
     label: 'Black Heart',
     hexcode: '1F5A4',
     tags: ['black_heart', 'evil'],
     sheet: [31, 55],
-    shortName: 'black_heart'
+    shortcode: 'black_heart'
   },
   {
     label: 'White Heart',
     hexcode: '1F90D',
     tags: ['white_heart', 'pure'],
     sheet: [38, 50],
-    shortName: 'white_heart'
+    shortcode: 'white_heart'
   },
   {
     label: 'Hundred Points Symbol',
@@ -2120,7 +2120,7 @@ export const emojis: CompressedEmojiData[] = [
       'hundred'
     ],
     sheet: [28, 6],
-    shortName: '100'
+    shortcode: '100'
   },
   {
     label: 'Anger Symbol',
@@ -2131,7 +2131,7 @@ export const emojis: CompressedEmojiData[] = [
       'mad'
     ],
     sheet: [27, 49],
-    shortName: 'anger'
+    shortcode: 'anger'
   },
   {
     label: 'Collision Symbol',
@@ -2145,8 +2145,8 @@ export const emojis: CompressedEmojiData[] = [
       'blown'
     ],
     sheet: [27, 52],
-    shortNames: ['collision'],
-    shortName: 'boom'
+    shortcodes: ['collision'],
+    shortcode: 'boom'
   },
   {
     label: 'Dizzy Symbol',
@@ -2159,7 +2159,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [28, 2],
-    shortName: 'dizzy'
+    shortcode: 'dizzy'
   },
   {
     label: 'Splashing Sweat Symbol',
@@ -2171,7 +2171,7 @@ export const emojis: CompressedEmojiData[] = [
       'oops'
     ],
     sheet: [27, 53],
-    shortName: 'sweat_drops'
+    shortcode: 'sweat_drops'
   },
   {
     label: 'Dash Symbol',
@@ -2187,14 +2187,14 @@ export const emojis: CompressedEmojiData[] = [
       'puff'
     ],
     sheet: [27, 55],
-    shortName: 'dash'
+    shortcode: 'dash'
   },
   {
     label: 'Hole',
     hexcode: '1F573-FE0F',
     tags: ['hole', 'embarrassing'],
     sheet: [30, 58],
-    shortName: 'hole'
+    shortcode: 'hole'
   },
   {
     label: 'Bomb',
@@ -2207,7 +2207,7 @@ export const emojis: CompressedEmojiData[] = [
       'terrorism'
     ],
     sheet: [27, 50],
-    shortName: 'bomb'
+    shortcode: 'bomb'
   },
   {
     label: 'Speech Balloon',
@@ -2221,7 +2221,7 @@ export const emojis: CompressedEmojiData[] = [
       'chatting'
     ],
     sheet: [28, 3],
-    shortName: 'speech_balloon'
+    shortcode: 'speech_balloon'
   },
   {
     label: 'Eye in Speech Bubble',
@@ -2232,7 +2232,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [11, 53],
     hidden: ['facebook'],
-    shortName: 'eye-in-speech-bubble'
+    shortcode: 'eye-in-speech-bubble'
   },
   {
     label: 'Left Speech Bubble',
@@ -2245,7 +2245,7 @@ export const emojis: CompressedEmojiData[] = [
       'chatting'
     ],
     sheet: [32, 11],
-    shortName: 'left_speech_bubble'
+    shortcode: 'left_speech_bubble'
   },
   {
     label: 'Right Anger Bubble',
@@ -2258,7 +2258,7 @@ export const emojis: CompressedEmojiData[] = [
       'mad'
     ],
     sheet: [32, 12],
-    shortName: 'right_anger_bubble'
+    shortcode: 'right_anger_bubble'
   },
   {
     label: 'Thought Balloon',
@@ -2272,7 +2272,7 @@ export const emojis: CompressedEmojiData[] = [
       'dream'
     ],
     sheet: [28, 4],
-    shortName: 'thought_balloon'
+    shortcode: 'thought_balloon'
   },
   {
     label: 'Sleeping Symbol',
@@ -2284,7 +2284,7 @@ export const emojis: CompressedEmojiData[] = [
       'dream'
     ],
     sheet: [27, 51],
-    shortName: 'zzz'
+    shortcode: 'zzz'
   },
   {
     label: 'Waving Hand Sign',
@@ -2323,7 +2323,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 43]
       }
     ],
-    shortName: 'wave'
+    shortcode: 'wave'
   },
   {
     label: 'Raised Back of Hand',
@@ -2357,7 +2357,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [39, 22]
       }
     ],
-    shortName: 'raised_back_of_hand'
+    shortcode: 'raised_back_of_hand'
   },
   {
     label: 'Hand with Fingers Splayed',
@@ -2391,7 +2391,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 42]
       }
     ],
-    shortName: 'raised_hand_with_fingers_splayed'
+    shortcode: 'raised_hand_with_fingers_splayed'
   },
   {
     label: 'Raised Hand',
@@ -2427,8 +2427,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 38]
       }
     ],
-    shortNames: ['raised_hand'],
-    shortName: 'hand'
+    shortcodes: ['raised_hand'],
+    shortcode: 'hand'
   },
   {
     label: 'Raised Hand with Part Between Middle and Ring Fingers',
@@ -2463,7 +2463,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 54]
       }
     ],
-    shortName: 'spock-hand'
+    shortcode: 'spock-hand'
   },
   {
     label: 'Rightwards Hand',
@@ -2502,7 +2502,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'rightwards_hand'
+    shortcode: 'rightwards_hand'
   },
   {
     label: 'Leftwards Hand',
@@ -2541,7 +2541,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'leftwards_hand'
+    shortcode: 'leftwards_hand'
   },
   {
     label: 'Palm Down Hand',
@@ -2580,7 +2580,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'palm_down_hand'
+    shortcode: 'palm_down_hand'
   },
   {
     label: 'Palm Up Hand',
@@ -2620,7 +2620,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'palm_up_hand'
+    shortcode: 'palm_up_hand'
   },
   {
     label: 'Ok Hand Sign',
@@ -2656,7 +2656,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 49]
       }
     ],
-    shortName: 'ok_hand'
+    shortcode: 'ok_hand'
   },
   {
     label: 'Pinched Fingers',
@@ -2690,7 +2690,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [38, 49]
       }
     ],
-    shortName: 'pinched_fingers'
+    shortcode: 'pinched_fingers'
   },
   {
     label: 'Pinching Hand',
@@ -2724,7 +2724,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [38, 57]
       }
     ],
-    shortName: 'pinching_hand'
+    shortcode: 'pinching_hand'
   },
   {
     label: 'Victory Hand',
@@ -2761,7 +2761,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 44]
       }
     ],
-    shortName: 'v'
+    shortcode: 'v'
   },
   {
     label: 'Hand with Index and Middle Fingers Crossed',
@@ -2794,10 +2794,10 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 5]
       }
     ],
-    shortNames: [
+    shortcodes: [
       'hand_with_index_and_middle_fingers_crossed'
     ],
-    shortName: 'crossed_fingers'
+    shortcode: 'crossed_fingers'
   },
   {
     label: 'Hand with Index Finger and Thumb Crossed',
@@ -2838,7 +2838,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'hand_with_index_finger_and_thumb_crossed'
+    shortcode: 'hand_with_index_finger_and_thumb_crossed'
   },
   {
     label: 'I Love You Hand Sign',
@@ -2872,7 +2872,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 11]
       }
     ],
-    shortName: 'i_love_you_hand_sign'
+    shortcode: 'i_love_you_hand_sign'
   },
   {
     label: 'Sign of the Horns',
@@ -2908,8 +2908,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [39, 10]
       }
     ],
-    shortNames: ['sign_of_the_horns'],
-    shortName: 'the_horns'
+    shortcodes: ['sign_of_the_horns'],
+    shortcode: 'the_horns'
   },
   {
     label: 'Call Me Hand',
@@ -2943,7 +2943,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [39, 16]
       }
     ],
-    shortName: 'call_me_hand'
+    shortcode: 'call_me_hand'
   },
   {
     label: 'White Left Pointing Backhand Index',
@@ -2978,7 +2978,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 25]
       }
     ],
-    shortName: 'point_left'
+    shortcode: 'point_left'
   },
   {
     label: 'White Right Pointing Backhand Index',
@@ -3013,7 +3013,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 31]
       }
     ],
-    shortName: 'point_right'
+    shortcode: 'point_right'
   },
   {
     label: 'White Up Pointing Backhand Index',
@@ -3048,7 +3048,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 13]
       }
     ],
-    shortName: 'point_up_2'
+    shortcode: 'point_up_2'
   },
   {
     label: 'Reversed Hand with Middle Finger Extended',
@@ -3084,10 +3084,10 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 48]
       }
     ],
-    shortNames: [
+    shortcodes: [
       'reversed_hand_with_middle_finger_extended'
     ],
-    shortName: 'middle_finger'
+    shortcode: 'middle_finger'
   },
   {
     label: 'White Down Pointing Backhand Index',
@@ -3122,7 +3122,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 19]
       }
     ],
-    shortName: 'point_down'
+    shortcode: 'point_down'
   },
   {
     label: 'White Up Pointing Index',
@@ -3157,7 +3157,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [56, 55]
       }
     ],
-    shortName: 'point_up'
+    shortcode: 'point_up'
   },
   {
     label: 'Index Pointing at the Viewer',
@@ -3196,7 +3196,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'index_pointing_at_the_viewer'
+    shortcode: 'index_pointing_at_the_viewer'
   },
   {
     label: 'Thumbs Up Sign',
@@ -3237,8 +3237,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 55]
       }
     ],
-    shortNames: ['thumbsup'],
-    shortName: '+1'
+    shortcodes: ['thumbsup'],
+    shortcode: '+1'
   },
   {
     label: 'Thumbs Down Sign',
@@ -3274,8 +3274,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 0]
       }
     ],
-    shortNames: ['thumbsdown'],
-    shortName: '-1'
+    shortcodes: ['thumbsdown'],
+    shortcode: '-1'
   },
   {
     label: 'Raised Fist',
@@ -3309,7 +3309,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 32]
       }
     ],
-    shortName: 'fist'
+    shortcode: 'fist'
   },
   {
     label: 'Fisted Hand Sign',
@@ -3346,8 +3346,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 37]
       }
     ],
-    shortNames: ['punch'],
-    shortName: 'facepunch'
+    shortcodes: ['punch'],
+    shortcode: 'facepunch'
   },
   {
     label: 'Left-Facing Fist',
@@ -3380,7 +3380,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [39, 28]
       }
     ],
-    shortName: 'left-facing_fist'
+    shortcode: 'left-facing_fist'
   },
   {
     label: 'Right-Facing Fist',
@@ -3413,7 +3413,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [39, 34]
       }
     ],
-    shortName: 'right-facing_fist'
+    shortcode: 'right-facing_fist'
   },
   {
     label: 'Clapping Hands Sign',
@@ -3449,7 +3449,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 6]
       }
     ],
-    shortName: 'clap'
+    shortcode: 'clap'
   },
   {
     label: 'Person Raising Both Hands in Celebration',
@@ -3485,7 +3485,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 50]
       }
     ],
-    shortName: 'raised_hands'
+    shortcode: 'raised_hands'
   },
   {
     label: 'Heart Hands',
@@ -3525,7 +3525,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'heart_hands'
+    shortcode: 'heart_hands'
   },
   {
     label: 'Open Hands Sign',
@@ -3560,7 +3560,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 12]
       }
     ],
-    shortName: 'open_hands'
+    shortcode: 'open_hands'
   },
   {
     label: 'Palms Up Together',
@@ -3595,7 +3595,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 1]
       }
     ],
-    shortName: 'palms_up_together'
+    shortcode: 'palms_up_together'
   },
   {
     label: 'Handshake',
@@ -3728,7 +3728,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'handshake'
+    shortcode: 'handshake'
   },
   {
     label: 'Person with Folded Hands',
@@ -3768,7 +3768,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [35, 31]
       }
     ],
-    shortName: 'pray'
+    shortcode: 'pray'
   },
   {
     label: 'Writing Hand',
@@ -3803,7 +3803,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 50]
       }
     ],
-    shortName: 'writing_hand'
+    shortcode: 'writing_hand'
   },
   {
     label: 'Nail Polish',
@@ -3839,7 +3839,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 58]
       }
     ],
-    shortName: 'nail_care'
+    shortcode: 'nail_care'
   },
   {
     label: 'Selfie',
@@ -3872,7 +3872,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 7]
       }
     ],
-    shortName: 'selfie'
+    shortcode: 'selfie'
   },
   {
     label: 'Flexed Biceps',
@@ -3909,7 +3909,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [28, 1]
       }
     ],
-    shortName: 'muscle'
+    shortcode: 'muscle'
   },
   {
     label: 'Mechanical Arm',
@@ -3919,7 +3919,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessibility'
     ],
     sheet: [46, 3],
-    shortName: 'mechanical_arm'
+    shortcode: 'mechanical_arm'
   },
   {
     label: 'Mechanical Leg',
@@ -3929,7 +3929,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessibility'
     ],
     sheet: [46, 4],
-    shortName: 'mechanical_leg'
+    shortcode: 'mechanical_leg'
   },
   {
     label: 'Leg',
@@ -3958,7 +3958,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 11]
       }
     ],
-    shortName: 'leg'
+    shortcode: 'leg'
   },
   {
     label: 'Foot',
@@ -3987,7 +3987,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 17]
       }
     ],
-    shortName: 'foot'
+    shortcode: 'foot'
   },
   {
     label: 'Ear',
@@ -4022,7 +4022,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [11, 60]
       }
     ],
-    shortName: 'ear'
+    shortcode: 'ear'
   },
   {
     label: 'Ear with Hearing Aid',
@@ -4054,7 +4054,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 0]
       }
     ],
-    shortName: 'ear_with_hearing_aid'
+    shortcode: 'ear_with_hearing_aid'
   },
   {
     label: 'Nose',
@@ -4087,7 +4087,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [12, 5]
       }
     ],
-    shortName: 'nose'
+    shortcode: 'nose'
   },
   {
     label: 'Brain',
@@ -4098,7 +4098,7 @@ export const emojis: CompressedEmojiData[] = [
       'intelligent'
     ],
     sheet: [53, 14],
-    shortName: 'brain'
+    shortcode: 'brain'
   },
   {
     label: 'Anatomical Heart',
@@ -4109,14 +4109,14 @@ export const emojis: CompressedEmojiData[] = [
       'heartbeat'
     ],
     sheet: [54, 42],
-    shortName: 'anatomical_heart'
+    shortcode: 'anatomical_heart'
   },
   {
     label: 'Lungs',
     hexcode: '1FAC1',
     tags: ['lungs', 'breathe'],
     sheet: [54, 43],
-    shortName: 'lungs'
+    shortcode: 'lungs'
   },
   {
     label: 'Tooth',
@@ -4127,14 +4127,14 @@ export const emojis: CompressedEmojiData[] = [
       'dentist'
     ],
     sheet: [45, 18],
-    shortName: 'tooth'
+    shortcode: 'tooth'
   },
   {
     label: 'Bone',
     hexcode: '1F9B4',
     tags: ['bone', 'skeleton'],
     sheet: [45, 5],
-    shortName: 'bone'
+    shortcode: 'bone'
   },
   {
     label: 'Eyes',
@@ -4148,7 +4148,7 @@ export const emojis: CompressedEmojiData[] = [
       'see'
     ],
     sheet: [11, 52],
-    shortName: 'eyes'
+    shortcode: 'eyes'
   },
   {
     label: 'Eye',
@@ -4162,7 +4162,7 @@ export const emojis: CompressedEmojiData[] = [
       'stare'
     ],
     sheet: [11, 54],
-    shortName: 'eye'
+    shortcode: 'eye'
   },
   {
     label: 'Tongue',
@@ -4173,7 +4173,7 @@ export const emojis: CompressedEmojiData[] = [
       'playful'
     ],
     sheet: [12, 7],
-    shortName: 'tongue'
+    shortcode: 'tongue'
   },
   {
     label: 'Mouth',
@@ -4184,7 +4184,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiss'
     ],
     sheet: [12, 6],
-    shortName: 'lips'
+    shortcode: 'lips'
   },
   {
     label: 'Biting Lip',
@@ -4198,7 +4198,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 18],
     hidden: ['facebook'],
-    shortName: 'biting_lip'
+    shortcode: 'biting_lip'
   },
   {
     label: 'Baby',
@@ -4233,7 +4233,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 33]
       }
     ],
-    shortName: 'baby'
+    shortcode: 'baby'
   },
   {
     label: 'Child',
@@ -4266,7 +4266,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 16]
       }
     ],
-    shortName: 'child'
+    shortcode: 'child'
   },
   {
     label: 'Boy',
@@ -4301,7 +4301,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 39]
       }
     ],
-    shortName: 'boy'
+    shortcode: 'boy'
   },
   {
     label: 'Girl',
@@ -4335,7 +4335,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 45]
       }
     ],
-    shortName: 'girl'
+    shortcode: 'girl'
   },
   {
     label: 'Adult',
@@ -4368,7 +4368,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 10]
       }
     ],
-    shortName: 'adult'
+    shortcode: 'adult'
   },
   {
     label: 'Person with Blond Hair',
@@ -4400,7 +4400,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 52]
       }
     ],
-    shortName: 'person_with_blond_hair',
+    shortcode: 'person_with_blond_hair',
     obsoletedBy: '1F471-200D-2642-FE0F'
   },
   {
@@ -4439,7 +4439,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 18]
       }
     ],
-    shortName: 'man'
+    shortcode: 'man'
   },
   {
     label: 'Bearded Person',
@@ -4472,7 +4472,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 40]
       }
     ],
-    shortName: 'bearded_person'
+    shortcode: 'bearded_person'
   },
   {
     label: 'Man: Beard',
@@ -4510,7 +4510,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'man_with_beard'
+    shortcode: 'man_with_beard'
   },
   {
     label: 'Woman: Beard',
@@ -4548,7 +4548,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'woman_with_beard'
+    shortcode: 'woman_with_beard'
   },
   {
     label: 'Man: Red Hair',
@@ -4580,7 +4580,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 34]
       }
     ],
-    shortName: 'red_haired_man'
+    shortcode: 'red_haired_man'
   },
   {
     label: 'Man: Curly Hair',
@@ -4612,7 +4612,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 40]
       }
     ],
-    shortName: 'curly_haired_man'
+    shortcode: 'curly_haired_man'
   },
   {
     label: 'Man: White Hair',
@@ -4645,7 +4645,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 52]
       }
     ],
-    shortName: 'white_haired_man'
+    shortcode: 'white_haired_man'
   },
   {
     label: 'Man: Bald',
@@ -4674,7 +4674,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 46]
       }
     ],
-    shortName: 'bald_man'
+    shortcode: 'bald_man'
   },
   {
     label: 'Woman',
@@ -4708,7 +4708,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [21, 38]
       }
     ],
-    shortName: 'woman'
+    shortcode: 'woman'
   },
   {
     label: 'Woman: Red Hair',
@@ -4740,7 +4740,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 2]
       }
     ],
-    shortName: 'red_haired_woman'
+    shortcode: 'red_haired_woman'
   },
   {
     label: 'Person: Red Hair',
@@ -4772,7 +4772,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 17]
       }
     ],
-    shortName: 'red_haired_person'
+    shortcode: 'red_haired_person'
   },
   {
     label: 'Woman: Curly Hair',
@@ -4804,7 +4804,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 8]
       }
     ],
-    shortName: 'curly_haired_woman'
+    shortcode: 'curly_haired_woman'
   },
   {
     label: 'Person: Curly Hair',
@@ -4836,7 +4836,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 23]
       }
     ],
-    shortName: 'curly_haired_person'
+    shortcode: 'curly_haired_person'
   },
   {
     label: 'Woman: White Hair',
@@ -4869,7 +4869,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 20]
       }
     ],
-    shortName: 'white_haired_woman'
+    shortcode: 'white_haired_woman'
   },
   {
     label: 'Person: White Hair',
@@ -4908,7 +4908,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'white_haired_person'
+    shortcode: 'white_haired_person'
   },
   {
     label: 'Woman: Bald',
@@ -4940,7 +4940,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 14]
       }
     ],
-    shortName: 'bald_woman'
+    shortcode: 'bald_woman'
   },
   {
     label: 'Person: Bald',
@@ -4978,7 +4978,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'bald_person'
+    shortcode: 'bald_person'
   },
   {
     label: 'Woman: Blond Hair',
@@ -5014,7 +5014,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 40]
       }
     ],
-    shortName: 'blond-haired-woman'
+    shortcode: 'blond-haired-woman'
   },
   {
     label: 'Man: Blond Hair',
@@ -5052,7 +5052,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 46]
       }
     ],
-    shortName: 'blond-haired-man'
+    shortcode: 'blond-haired-man'
   },
   {
     label: 'Older Adult',
@@ -5087,7 +5087,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 22]
       }
     ],
-    shortName: 'older_adult'
+    shortcode: 'older_adult'
   },
   {
     label: 'Older Man',
@@ -5124,7 +5124,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 21]
       }
     ],
-    shortName: 'older_man'
+    shortcode: 'older_man'
   },
   {
     label: 'Older Woman',
@@ -5162,7 +5162,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 27]
       }
     ],
-    shortName: 'older_woman'
+    shortcode: 'older_woman'
   },
   {
     label: 'Person Frowning',
@@ -5194,7 +5194,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [35, 7]
       }
     ],
-    shortName: 'person_frowning',
+    shortcode: 'person_frowning',
     obsoletedBy: '1F64D-200D-2640-FE0F'
   },
   {
@@ -5233,7 +5233,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [35, 1]
       }
     ],
-    shortName: 'man-frowning'
+    shortcode: 'man-frowning'
   },
   {
     label: 'Woman Frowning',
@@ -5272,7 +5272,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 56]
       }
     ],
-    shortName: 'woman-frowning'
+    shortcode: 'woman-frowning'
   },
   {
     label: 'Person with Pouting Face',
@@ -5304,7 +5304,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [35, 25]
       }
     ],
-    shortName: 'person_with_pouting_face',
+    shortcode: 'person_with_pouting_face',
     obsoletedBy: '1F64E-200D-2640-FE0F'
   },
   {
@@ -5339,7 +5339,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [35, 19]
       }
     ],
-    shortName: 'man-pouting'
+    shortcode: 'man-pouting'
   },
   {
     label: 'Woman Pouting',
@@ -5374,7 +5374,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [35, 13]
       }
     ],
-    shortName: 'woman-pouting'
+    shortcode: 'woman-pouting'
   },
   {
     label: 'Face with No Good Gesture',
@@ -5406,7 +5406,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [33, 48]
       }
     ],
-    shortName: 'no_good',
+    shortcode: 'no_good',
     obsoletedBy: '1F645-200D-2640-FE0F'
   },
   {
@@ -5442,7 +5442,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [33, 42]
       }
     ],
-    shortName: 'man-gesturing-no'
+    shortcode: 'man-gesturing-no'
   },
   {
     label: 'Woman Gesturing No',
@@ -5478,7 +5478,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [33, 36]
       }
     ],
-    shortName: 'woman-gesturing-no'
+    shortcode: 'woman-gesturing-no'
   },
   {
     label: 'Face with Ok Gesture',
@@ -5510,7 +5510,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 5]
       }
     ],
-    shortName: 'ok_woman',
+    shortcode: 'ok_woman',
     obsoletedBy: '1F646-200D-2640-FE0F'
   },
   {
@@ -5548,7 +5548,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [33, 60]
       }
     ],
-    shortName: 'man-gesturing-ok'
+    shortcode: 'man-gesturing-ok'
   },
   {
     label: 'Woman Gesturing Ok',
@@ -5586,7 +5586,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [33, 54]
       }
     ],
-    shortName: 'woman-gesturing-ok'
+    shortcode: 'woman-gesturing-ok'
   },
   {
     label: 'Information Desk Person',
@@ -5618,7 +5618,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 27]
       }
     ],
-    shortName: 'information_desk_person',
+    shortcode: 'information_desk_person',
     obsoletedBy: '1F481-200D-2640-FE0F'
   },
   {
@@ -5655,7 +5655,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 21]
       }
     ],
-    shortName: 'man-tipping-hand'
+    shortcode: 'man-tipping-hand'
   },
   {
     label: 'Woman Tipping Hand',
@@ -5692,7 +5692,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 15]
       }
     ],
-    shortName: 'woman-tipping-hand'
+    shortcode: 'woman-tipping-hand'
   },
   {
     label: 'Happy Person Raising One Hand',
@@ -5724,7 +5724,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 44]
       }
     ],
-    shortName: 'raising_hand',
+    shortcode: 'raising_hand',
     obsoletedBy: '1F64B-200D-2640-FE0F'
   },
   {
@@ -5759,7 +5759,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 38]
       }
     ],
-    shortName: 'man-raising-hand'
+    shortcode: 'man-raising-hand'
   },
   {
     label: 'Woman Raising Hand',
@@ -5794,7 +5794,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 32]
       }
     ],
-    shortName: 'woman-raising-hand'
+    shortcode: 'woman-raising-hand'
   },
   {
     label: 'Deaf Person',
@@ -5826,7 +5826,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 10]
       }
     ],
-    shortName: 'deaf_person'
+    shortcode: 'deaf_person'
   },
   {
     label: 'Deaf Man',
@@ -5858,7 +5858,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 4]
       }
     ],
-    shortName: 'deaf_man'
+    shortcode: 'deaf_man'
   },
   {
     label: 'Deaf Woman',
@@ -5890,7 +5890,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 59]
       }
     ],
-    shortName: 'deaf_woman'
+    shortcode: 'deaf_woman'
   },
   {
     label: 'Person Bowing Deeply',
@@ -5922,7 +5922,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 23]
       }
     ],
-    shortName: 'bow',
+    shortcode: 'bow',
     obsoletedBy: '1F647-200D-2642-FE0F'
   },
   {
@@ -5958,7 +5958,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 17]
       }
     ],
-    shortName: 'man-bowing'
+    shortcode: 'man-bowing'
   },
   {
     label: 'Woman Bowing',
@@ -5992,7 +5992,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [34, 11]
       }
     ],
-    shortName: 'woman-bowing'
+    shortcode: 'woman-bowing'
   },
   {
     label: 'Face Palm',
@@ -6024,7 +6024,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 35]
       }
     ],
-    shortName: 'face_palm'
+    shortcode: 'face_palm'
   },
   {
     label: 'Man Facepalming',
@@ -6059,7 +6059,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 29]
       }
     ],
-    shortName: 'man-facepalming'
+    shortcode: 'man-facepalming'
   },
   {
     label: 'Woman Facepalming',
@@ -6094,7 +6094,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 23]
       }
     ],
-    shortName: 'woman-facepalming'
+    shortcode: 'woman-facepalming'
   },
   {
     label: 'Shrug',
@@ -6126,7 +6126,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 55]
       }
     ],
-    shortName: 'shrug'
+    shortcode: 'shrug'
   },
   {
     label: 'Man Shrugging',
@@ -6163,7 +6163,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 49]
       }
     ],
-    shortName: 'man-shrugging'
+    shortcode: 'man-shrugging'
   },
   {
     label: 'Woman Shrugging',
@@ -6200,7 +6200,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 43]
       }
     ],
-    shortName: 'woman-shrugging'
+    shortcode: 'woman-shrugging'
   },
   {
     label: 'Health Worker',
@@ -6232,7 +6232,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 53]
       }
     ],
-    shortName: 'health_worker'
+    shortcode: 'health_worker'
   },
   {
     label: 'Man Health Worker',
@@ -6269,7 +6269,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [16, 9]
       }
     ],
-    shortName: 'male-doctor'
+    shortcode: 'male-doctor'
   },
   {
     label: 'Woman Health Worker',
@@ -6306,7 +6306,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 38]
       }
     ],
-    shortName: 'female-doctor'
+    shortcode: 'female-doctor'
   },
   {
     label: 'Student',
@@ -6335,7 +6335,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 41]
       }
     ],
-    shortName: 'student'
+    shortcode: 'student'
   },
   {
     label: 'Man Student',
@@ -6369,7 +6369,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 8]
       }
     ],
-    shortName: 'male-student'
+    shortcode: 'male-student'
   },
   {
     label: 'Woman Student',
@@ -6403,7 +6403,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 42]
       }
     ],
-    shortName: 'female-student'
+    shortcode: 'female-student'
   },
   {
     label: 'Teacher',
@@ -6432,7 +6432,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 59]
       }
     ],
-    shortName: 'teacher'
+    shortcode: 'teacher'
   },
   {
     label: 'Man Teacher',
@@ -6467,7 +6467,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 26]
       }
     ],
-    shortName: 'male-teacher'
+    shortcode: 'male-teacher'
   },
   {
     label: 'Woman Teacher',
@@ -6502,7 +6502,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 60]
       }
     ],
-    shortName: 'female-teacher'
+    shortcode: 'female-teacher'
   },
   {
     label: 'Judge',
@@ -6531,7 +6531,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 59]
       }
     ],
-    shortName: 'judge'
+    shortcode: 'judge'
   },
   {
     label: 'Man Judge',
@@ -6566,7 +6566,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [16, 15]
       }
     ],
-    shortName: 'male-judge'
+    shortcode: 'male-judge'
   },
   {
     label: 'Woman Judge',
@@ -6601,7 +6601,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 44]
       }
     ],
-    shortName: 'female-judge'
+    shortcode: 'female-judge'
   },
   {
     label: 'Farmer',
@@ -6630,7 +6630,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 17]
       }
     ],
-    shortName: 'farmer'
+    shortcode: 'farmer'
   },
   {
     label: 'Man Farmer',
@@ -6665,7 +6665,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 51]
       }
     ],
-    shortName: 'male-farmer'
+    shortcode: 'male-farmer'
   },
   {
     label: 'Woman Farmer',
@@ -6700,7 +6700,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 24]
       }
     ],
-    shortName: 'female-farmer'
+    shortcode: 'female-farmer'
   },
   {
     label: 'Cook',
@@ -6734,7 +6734,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 23]
       }
     ],
-    shortName: 'cook'
+    shortcode: 'cook'
   },
   {
     label: 'Man Cook',
@@ -6768,7 +6768,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [13, 57]
       }
     ],
-    shortName: 'male-cook'
+    shortcode: 'male-cook'
   },
   {
     label: 'Woman Cook',
@@ -6802,7 +6802,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 30]
       }
     ],
-    shortName: 'female-cook'
+    shortcode: 'female-cook'
   },
   {
     label: 'Mechanic',
@@ -6835,7 +6835,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 22]
       }
     ],
-    shortName: 'mechanic'
+    shortcode: 'mechanic'
   },
   {
     label: 'Man Mechanic',
@@ -6870,7 +6870,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 4]
       }
     ],
-    shortName: 'male-mechanic'
+    shortcode: 'male-mechanic'
   },
   {
     label: 'Woman Mechanic',
@@ -6905,7 +6905,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 33]
       }
     ],
-    shortName: 'female-mechanic'
+    shortcode: 'female-mechanic'
   },
   {
     label: 'Factory Worker',
@@ -6937,7 +6937,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 4]
       }
     ],
-    shortName: 'factory_worker'
+    shortcode: 'factory_worker'
   },
   {
     label: 'Man Factory Worker',
@@ -6972,7 +6972,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 32]
       }
     ],
-    shortName: 'male-factory-worker'
+    shortcode: 'male-factory-worker'
   },
   {
     label: 'Woman Factory Worker',
@@ -7007,7 +7007,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 5]
       }
     ],
-    shortName: 'female-factory-worker'
+    shortcode: 'female-factory-worker'
   },
   {
     label: 'Office Worker',
@@ -7039,7 +7039,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 16]
       }
     ],
-    shortName: 'office_worker'
+    shortcode: 'office_worker'
   },
   {
     label: 'Man Office Worker',
@@ -7074,7 +7074,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 59]
       }
     ],
-    shortName: 'male-office-worker'
+    shortcode: 'male-office-worker'
   },
   {
     label: 'Woman Office Worker',
@@ -7109,7 +7109,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 27]
       }
     ],
-    shortName: 'female-office-worker'
+    shortcode: 'female-office-worker'
   },
   {
     label: 'Scientist',
@@ -7141,7 +7141,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 28]
       }
     ],
-    shortName: 'scientist'
+    shortcode: 'scientist'
   },
   {
     label: 'Man Scientist',
@@ -7178,7 +7178,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 10]
       }
     ],
-    shortName: 'male-scientist'
+    shortcode: 'male-scientist'
   },
   {
     label: 'Woman Scientist',
@@ -7215,7 +7215,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 39]
       }
     ],
-    shortName: 'female-scientist'
+    shortcode: 'female-scientist'
   },
   {
     label: 'Technologist',
@@ -7247,7 +7247,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 10]
       }
     ],
-    shortName: 'technologist'
+    shortcode: 'technologist'
   },
   {
     label: 'Man Technologist',
@@ -7287,7 +7287,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 53]
       }
     ],
-    shortName: 'male-technologist'
+    shortcode: 'male-technologist'
   },
   {
     label: 'Woman Technologist',
@@ -7327,7 +7327,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 21]
       }
     ],
-    shortName: 'female-technologist'
+    shortcode: 'female-technologist'
   },
   {
     label: 'Singer',
@@ -7361,7 +7361,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 47]
       }
     ],
-    shortName: 'singer'
+    shortcode: 'singer'
   },
   {
     label: 'Man Singer',
@@ -7396,7 +7396,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 14]
       }
     ],
-    shortName: 'male-singer'
+    shortcode: 'male-singer'
   },
   {
     label: 'Woman Singer',
@@ -7431,7 +7431,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 48]
       }
     ],
-    shortName: 'female-singer'
+    shortcode: 'female-singer'
   },
   {
     label: 'Artist',
@@ -7465,7 +7465,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 53]
       }
     ],
-    shortName: 'artist'
+    shortcode: 'artist'
   },
   {
     label: 'Man Artist',
@@ -7499,7 +7499,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 20]
       }
     ],
-    shortName: 'male-artist'
+    shortcode: 'male-artist'
   },
   {
     label: 'Woman Artist',
@@ -7533,7 +7533,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 54]
       }
     ],
-    shortName: 'female-artist'
+    shortcode: 'female-artist'
   },
   {
     label: 'Pilot',
@@ -7567,7 +7567,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 4]
       }
     ],
-    shortName: 'pilot'
+    shortcode: 'pilot'
   },
   {
     label: 'Man Pilot',
@@ -7602,7 +7602,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [16, 21]
       }
     ],
-    shortName: 'male-pilot'
+    shortcode: 'male-pilot'
   },
   {
     label: 'Woman Pilot',
@@ -7637,7 +7637,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 50]
       }
     ],
-    shortName: 'female-pilot'
+    shortcode: 'female-pilot'
   },
   {
     label: 'Astronaut',
@@ -7669,7 +7669,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 34]
       }
     ],
-    shortName: 'astronaut'
+    shortcode: 'astronaut'
   },
   {
     label: 'Man Astronaut',
@@ -7704,7 +7704,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 16]
       }
     ],
-    shortName: 'male-astronaut'
+    shortcode: 'male-astronaut'
   },
   {
     label: 'Woman Astronaut',
@@ -7739,7 +7739,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 45]
       }
     ],
-    shortName: 'female-astronaut'
+    shortcode: 'female-astronaut'
   },
   {
     label: 'Firefighter',
@@ -7768,7 +7768,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [48, 40]
       }
     ],
-    shortName: 'firefighter'
+    shortcode: 'firefighter'
   },
   {
     label: 'Man Firefighter',
@@ -7802,7 +7802,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 22]
       }
     ],
-    shortName: 'male-firefighter'
+    shortcode: 'male-firefighter'
   },
   {
     label: 'Woman Firefighter',
@@ -7836,7 +7836,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 51]
       }
     ],
-    shortName: 'female-firefighter'
+    shortcode: 'female-firefighter'
   },
   {
     label: 'Police Officer',
@@ -7865,7 +7865,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 13]
       }
     ],
-    shortName: 'cop',
+    shortcode: 'cop',
     obsoletedBy: '1F46E-200D-2642-FE0F'
   },
   {
@@ -7905,7 +7905,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 7]
       }
     ],
-    shortName: 'male-police-officer'
+    shortcode: 'male-police-officer'
   },
   {
     label: 'Woman Police Officer',
@@ -7944,7 +7944,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 1]
       }
     ],
-    shortName: 'female-police-officer'
+    shortcode: 'female-police-officer'
   },
   {
     label: 'Detective',
@@ -7978,7 +7978,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 21]
       }
     ],
-    shortName: 'sleuth_or_spy',
+    shortcode: 'sleuth_or_spy',
     obsoletedBy: '1F575-FE0F-200D-2642-FE0F'
   },
   {
@@ -8013,7 +8013,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 15]
       }
     ],
-    shortName: 'male-detective'
+    shortcode: 'male-detective'
   },
   {
     label: 'Woman Detective',
@@ -8050,7 +8050,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 9]
       }
     ],
-    shortName: 'female-detective'
+    shortcode: 'female-detective'
   },
   {
     label: 'Guardsman',
@@ -8079,7 +8079,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 45]
       }
     ],
-    shortName: 'guardsman',
+    shortcode: 'guardsman',
     obsoletedBy: '1F482-200D-2642-FE0F'
   },
   {
@@ -8118,7 +8118,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 39]
       }
     ],
-    shortName: 'male-guard'
+    shortcode: 'male-guard'
   },
   {
     label: 'Woman Guard',
@@ -8155,7 +8155,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 33]
       }
     ],
-    shortName: 'female-guard'
+    shortcode: 'female-guard'
   },
   {
     label: 'Ninja',
@@ -8189,7 +8189,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [44, 9]
       }
     ],
-    shortName: 'ninja'
+    shortcode: 'ninja'
   },
   {
     label: 'Construction Worker',
@@ -8222,7 +8222,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 51]
       }
     ],
-    shortName: 'construction_worker',
+    shortcode: 'construction_worker',
     obsoletedBy: '1F477-200D-2642-FE0F'
   },
   {
@@ -8263,7 +8263,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 45]
       }
     ],
-    shortName: 'male-construction-worker'
+    shortcode: 'male-construction-worker'
   },
   {
     label: 'Woman Construction Worker',
@@ -8302,7 +8302,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 39]
       }
     ],
-    shortName: 'female-construction-worker'
+    shortcode: 'female-construction-worker'
   },
   {
     label: 'Person with Crown',
@@ -8341,7 +8341,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'person_with_crown'
+    shortcode: 'person_with_crown'
   },
   {
     label: 'Prince',
@@ -8378,7 +8378,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 13]
       }
     ],
-    shortName: 'prince'
+    shortcode: 'prince'
   },
   {
     label: 'Princess',
@@ -8416,7 +8416,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 57]
       }
     ],
-    shortName: 'princess'
+    shortcode: 'princess'
   },
   {
     label: 'Man with Turban',
@@ -8448,7 +8448,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 15]
       }
     ],
-    shortName: 'man_with_turban',
+    shortcode: 'man_with_turban',
     obsoletedBy: '1F473-200D-2642-FE0F'
   },
   {
@@ -8485,7 +8485,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 9]
       }
     ],
-    shortName: 'man-wearing-turban'
+    shortcode: 'man-wearing-turban'
   },
   {
     label: 'Woman Wearing Turban',
@@ -8521,7 +8521,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [24, 3]
       }
     ],
-    shortName: 'woman-wearing-turban'
+    shortcode: 'woman-wearing-turban'
   },
   {
     label: 'Man with Gua Pi Mao',
@@ -8555,7 +8555,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 58]
       }
     ],
-    shortName: 'man_with_gua_pi_mao'
+    shortcode: 'man_with_gua_pi_mao'
   },
   {
     label: 'Person with Headscarf',
@@ -8590,7 +8590,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 46]
       }
     ],
-    shortName: 'person_with_headscarf'
+    shortcode: 'person_with_headscarf'
   },
   {
     label: 'Man in Tuxedo',
@@ -8625,7 +8625,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 31]
       }
     ],
-    shortName: 'person_in_tuxedo'
+    shortcode: 'person_in_tuxedo'
   },
   {
     label: 'Man in Tuxedo',
@@ -8658,7 +8658,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 25]
       }
     ],
-    shortName: 'man_in_tuxedo'
+    shortcode: 'man_in_tuxedo'
   },
   {
     label: 'Woman in Tuxedo',
@@ -8691,7 +8691,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 19]
       }
     ],
-    shortName: 'woman_in_tuxedo'
+    shortcode: 'woman_in_tuxedo'
   },
   {
     label: 'Bride with Veil',
@@ -8727,7 +8727,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 34]
       }
     ],
-    shortName: 'bride_with_veil'
+    shortcode: 'bride_with_veil'
   },
   {
     label: 'Man with Veil',
@@ -8760,7 +8760,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 28]
       }
     ],
-    shortName: 'man_with_veil'
+    shortcode: 'man_with_veil'
   },
   {
     label: 'Woman with Veil',
@@ -8793,7 +8793,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [23, 22]
       }
     ],
-    shortName: 'woman_with_veil'
+    shortcode: 'woman_with_veil'
   },
   {
     label: 'Pregnant Woman',
@@ -8825,7 +8825,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 50]
       }
     ],
-    shortName: 'pregnant_woman'
+    shortcode: 'pregnant_woman'
   },
   {
     label: 'Pregnant Man',
@@ -8864,7 +8864,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'pregnant_man'
+    shortcode: 'pregnant_man'
   },
   {
     label: 'Pregnant Person',
@@ -8903,7 +8903,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'pregnant_person'
+    shortcode: 'pregnant_person'
   },
   {
     label: 'Breast-Feeding',
@@ -8936,7 +8936,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [40, 56]
       }
     ],
-    shortName: 'breast-feeding'
+    shortcode: 'breast-feeding'
   },
   {
     label: 'Woman Feeding Baby',
@@ -8969,7 +8969,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [17, 36]
       }
     ],
-    shortName: 'woman_feeding_baby'
+    shortcode: 'woman_feeding_baby'
   },
   {
     label: 'Man Feeding Baby',
@@ -9002,7 +9002,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [14, 2]
       }
     ],
-    shortName: 'man_feeding_baby'
+    shortcode: 'man_feeding_baby'
   },
   {
     label: 'Person Feeding Baby',
@@ -9035,7 +9035,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 29]
       }
     ],
-    shortName: 'person_feeding_baby'
+    shortcode: 'person_feeding_baby'
   },
   {
     label: 'Baby Angel',
@@ -9069,7 +9069,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 5]
       }
     ],
-    shortName: 'angel'
+    shortcode: 'angel'
   },
   {
     label: 'Father Christmas',
@@ -9105,7 +9105,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [7, 13]
       }
     ],
-    shortName: 'santa'
+    shortcode: 'santa'
   },
   {
     label: 'Mother Christmas',
@@ -9140,8 +9140,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [41, 37]
       }
     ],
-    shortNames: ['mother_christmas'],
-    shortName: 'mrs_claus'
+    shortcodes: ['mother_christmas'],
+    shortcode: 'mrs_claus'
   },
   {
     label: 'Mx Claus',
@@ -9170,7 +9170,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [47, 35]
       }
     ],
-    shortName: 'mx_claus'
+    shortcode: 'mx_claus'
   },
   {
     label: 'Superhero',
@@ -9199,7 +9199,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 36]
       }
     ],
-    shortName: 'superhero'
+    shortcode: 'superhero'
   },
   {
     label: 'Man Superhero',
@@ -9235,7 +9235,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 30]
       }
     ],
-    shortName: 'male_superhero'
+    shortcode: 'male_superhero'
   },
   {
     label: 'Woman Superhero',
@@ -9271,7 +9271,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 24]
       }
     ],
-    shortName: 'female_superhero'
+    shortcode: 'female_superhero'
   },
   {
     label: 'Supervillain',
@@ -9303,7 +9303,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 54]
       }
     ],
-    shortName: 'supervillain'
+    shortcode: 'supervillain'
   },
   {
     label: 'Man Supervillain',
@@ -9341,7 +9341,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 48]
       }
     ],
-    shortName: 'male_supervillain'
+    shortcode: 'male_supervillain'
   },
   {
     label: 'Woman Supervillain',
@@ -9379,7 +9379,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [45, 42]
       }
     ],
-    shortName: 'female_supervillain'
+    shortcode: 'female_supervillain'
   },
   {
     label: 'Mage',
@@ -9408,7 +9408,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 57]
       }
     ],
-    shortName: 'mage',
+    shortcode: 'mage',
     obsoletedBy: '1F9D9-200D-2640-FE0F'
   },
   {
@@ -9444,7 +9444,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 51]
       }
     ],
-    shortName: 'male_mage'
+    shortcode: 'male_mage'
   },
   {
     label: 'Woman Mage',
@@ -9480,7 +9480,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 45]
       }
     ],
-    shortName: 'female_mage'
+    shortcode: 'female_mage'
   },
   {
     label: 'Fairy',
@@ -9513,7 +9513,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 14]
       }
     ],
-    shortName: 'fairy',
+    shortcode: 'fairy',
     obsoletedBy: '1F9DA-200D-2640-FE0F'
   },
   {
@@ -9547,7 +9547,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 8]
       }
     ],
-    shortName: 'male_fairy'
+    shortcode: 'male_fairy'
   },
   {
     label: 'Woman Fairy',
@@ -9581,7 +9581,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 2]
       }
     ],
-    shortName: 'female_fairy'
+    shortcode: 'female_fairy'
   },
   {
     label: 'Vampire',
@@ -9614,7 +9614,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 32]
       }
     ],
-    shortName: 'vampire',
+    shortcode: 'vampire',
     obsoletedBy: '1F9DB-200D-2640-FE0F'
   },
   {
@@ -9649,7 +9649,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 26]
       }
     ],
-    shortName: 'male_vampire'
+    shortcode: 'male_vampire'
   },
   {
     label: 'Woman Vampire',
@@ -9683,7 +9683,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 20]
       }
     ],
-    shortName: 'female_vampire'
+    shortcode: 'female_vampire'
   },
   {
     label: 'Merperson',
@@ -9712,7 +9712,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 50]
       }
     ],
-    shortName: 'merperson',
+    shortcode: 'merperson',
     obsoletedBy: '1F9DC-200D-2642-FE0F'
   },
   {
@@ -9748,7 +9748,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 44]
       }
     ],
-    shortName: 'merman'
+    shortcode: 'merman'
   },
   {
     label: 'Mermaid',
@@ -9783,7 +9783,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 38]
       }
     ],
-    shortName: 'mermaid'
+    shortcode: 'mermaid'
   },
   {
     label: 'Elf',
@@ -9812,7 +9812,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [53, 7]
       }
     ],
-    shortName: 'elf',
+    shortcode: 'elf',
     obsoletedBy: '1F9DD-200D-2642-FE0F'
   },
   {
@@ -9847,7 +9847,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [53, 1]
       }
     ],
-    shortName: 'male_elf'
+    shortcode: 'male_elf'
   },
   {
     label: 'Woman Elf',
@@ -9880,7 +9880,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [52, 56]
       }
     ],
-    shortName: 'female_elf'
+    shortcode: 'female_elf'
   },
   {
     label: 'Genie',
@@ -9891,7 +9891,7 @@ export const emojis: CompressedEmojiData[] = [
       'wishes'
     ],
     sheet: [53, 10],
-    shortName: 'genie',
+    shortcode: 'genie',
     obsoletedBy: '1F9DE-200D-2642-FE0F'
   },
   {
@@ -9904,7 +9904,7 @@ export const emojis: CompressedEmojiData[] = [
       'male'
     ],
     sheet: [53, 9],
-    shortName: 'male_genie'
+    shortcode: 'male_genie'
   },
   {
     label: 'Woman Genie',
@@ -9915,14 +9915,14 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [53, 8],
-    shortName: 'female_genie'
+    shortcode: 'female_genie'
   },
   {
     label: 'Zombie',
     hexcode: '1F9DF',
     tags: ['zombie', 'dead'],
     sheet: [53, 13],
-    shortName: 'zombie',
+    shortcode: 'zombie',
     obsoletedBy: '1F9DF-200D-2642-FE0F'
   },
   {
@@ -9938,7 +9938,7 @@ export const emojis: CompressedEmojiData[] = [
       'walking dead'
     ],
     sheet: [53, 12],
-    shortName: 'male_zombie'
+    shortcode: 'male_zombie'
   },
   {
     label: 'Woman Zombie',
@@ -9951,7 +9951,7 @@ export const emojis: CompressedEmojiData[] = [
       'walking dead'
     ],
     sheet: [53, 11],
-    shortName: 'female_zombie'
+    shortcode: 'female_zombie'
   },
   {
     label: 'Troll',
@@ -9963,7 +9963,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [46, 17],
     hidden: ['facebook'],
-    shortName: 'troll'
+    shortcode: 'troll'
   },
   {
     label: 'Face Massage',
@@ -9995,7 +9995,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [26, 15]
       }
     ],
-    shortName: 'massage',
+    shortcode: 'massage',
     obsoletedBy: '1F486-200D-2640-FE0F'
   },
   {
@@ -10031,7 +10031,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [26, 9]
       }
     ],
-    shortName: 'man-getting-massage'
+    shortcode: 'man-getting-massage'
   },
   {
     label: 'Woman Getting Massage',
@@ -10067,7 +10067,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [26, 3]
       }
     ],
-    shortName: 'woman-getting-massage'
+    shortcode: 'woman-getting-massage'
   },
   {
     label: 'Haircut',
@@ -10099,7 +10099,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [26, 33]
       }
     ],
-    shortName: 'haircut',
+    shortcode: 'haircut',
     obsoletedBy: '1F487-200D-2640-FE0F'
   },
   {
@@ -10134,7 +10134,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [26, 27]
       }
     ],
-    shortName: 'man-getting-haircut'
+    shortcode: 'man-getting-haircut'
   },
   {
     label: 'Woman Getting Haircut',
@@ -10169,7 +10169,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [26, 21]
       }
     ],
-    shortName: 'woman-getting-haircut'
+    shortcode: 'woman-getting-haircut'
   },
   {
     label: 'Pedestrian',
@@ -10201,7 +10201,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 32]
       }
     ],
-    shortName: 'walking',
+    shortcode: 'walking',
     obsoletedBy: '1F6B6-200D-2642-FE0F'
   },
   {
@@ -10237,7 +10237,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 26]
       }
     ],
-    shortName: 'man-walking'
+    shortcode: 'man-walking'
   },
   {
     label: 'Woman Walking',
@@ -10273,7 +10273,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 20]
       }
     ],
-    shortName: 'woman-walking'
+    shortcode: 'woman-walking'
   },
   {
     label: 'Standing Person',
@@ -10305,7 +10305,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 35]
       }
     ],
-    shortName: 'standing_person'
+    shortcode: 'standing_person'
   },
   {
     label: 'Man Standing',
@@ -10334,7 +10334,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 29]
       }
     ],
-    shortName: 'man_standing'
+    shortcode: 'man_standing'
   },
   {
     label: 'Woman Standing',
@@ -10366,7 +10366,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 23]
       }
     ],
-    shortName: 'woman_standing'
+    shortcode: 'woman_standing'
   },
   {
     label: 'Kneeling Person',
@@ -10399,7 +10399,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 53]
       }
     ],
-    shortName: 'kneeling_person'
+    shortcode: 'kneeling_person'
   },
   {
     label: 'Man Kneeling',
@@ -10432,7 +10432,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 47]
       }
     ],
-    shortName: 'man_kneeling'
+    shortcode: 'man_kneeling'
   },
   {
     label: 'Woman Kneeling',
@@ -10465,7 +10465,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [46, 41]
       }
     ],
-    shortName: 'woman_kneeling'
+    shortcode: 'woman_kneeling'
   },
   {
     label: 'Person with White Cane',
@@ -10497,7 +10497,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 11]
       }
     ],
-    shortName: 'person_with_probing_cane'
+    shortcode: 'person_with_probing_cane'
   },
   {
     label: 'Man with White Cane',
@@ -10529,7 +10529,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 28]
       }
     ],
-    shortName: 'man_with_probing_cane'
+    shortcode: 'man_with_probing_cane'
   },
   {
     label: 'Woman with White Cane',
@@ -10561,7 +10561,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [18, 57]
       }
     ],
-    shortName: 'woman_with_probing_cane'
+    shortcode: 'woman_with_probing_cane'
   },
   {
     label: 'Person in Motorized Wheelchair',
@@ -10594,7 +10594,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 41]
       }
     ],
-    shortName: 'person_in_motorized_wheelchair'
+    shortcode: 'person_in_motorized_wheelchair'
   },
   {
     label: 'Man in Motorized Wheelchair',
@@ -10627,7 +10627,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [15, 58]
       }
     ],
-    shortName: 'man_in_motorized_wheelchair'
+    shortcode: 'man_in_motorized_wheelchair'
   },
   {
     label: 'Woman in Motorized Wheelchair',
@@ -10660,7 +10660,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 26]
       }
     ],
-    shortName: 'woman_in_motorized_wheelchair'
+    shortcode: 'woman_in_motorized_wheelchair'
   },
   {
     label: 'Person in Manual Wheelchair',
@@ -10693,7 +10693,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 47]
       }
     ],
-    shortName: 'person_in_manual_wheelchair'
+    shortcode: 'person_in_manual_wheelchair'
   },
   {
     label: 'Man in Manual Wheelchair',
@@ -10726,7 +10726,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [16, 3]
       }
     ],
-    shortName: 'man_in_manual_wheelchair'
+    shortcode: 'man_in_manual_wheelchair'
   },
   {
     label: 'Woman in Manual Wheelchair',
@@ -10759,7 +10759,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [19, 32]
       }
     ],
-    shortName: 'woman_in_manual_wheelchair'
+    shortcode: 'woman_in_manual_wheelchair'
   },
   {
     label: 'Runner',
@@ -10791,8 +10791,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 31]
       }
     ],
-    shortNames: ['running'],
-    shortName: 'runner',
+    shortcodes: ['running'],
+    shortcode: 'runner',
     obsoletedBy: '1F3C3-200D-2642-FE0F'
   },
   {
@@ -10830,7 +10830,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 25]
       }
     ],
-    shortName: 'man-running'
+    shortcode: 'man-running'
   },
   {
     label: 'Woman Running',
@@ -10867,7 +10867,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 19]
       }
     ],
-    shortName: 'woman-running'
+    shortcode: 'woman-running'
   },
   {
     label: 'Dancer',
@@ -10902,7 +10902,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [25, 51]
       }
     ],
-    shortName: 'dancer'
+    shortcode: 'dancer'
   },
   {
     label: 'Man Dancing',
@@ -10937,7 +10937,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 31]
       }
     ],
-    shortName: 'man_dancing'
+    shortcode: 'man_dancing'
   },
   {
     label: 'Person in Suit Levitating',
@@ -10973,7 +10973,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [31, 3]
       }
     ],
-    shortName: 'man_in_business_suit_levitating'
+    shortcode: 'man_in_business_suit_levitating'
   },
   {
     label: 'Woman with Bunny Ears',
@@ -10984,7 +10984,7 @@ export const emojis: CompressedEmojiData[] = [
       'costume'
     ],
     sheet: [23, 16],
-    shortName: 'dancers',
+    shortcode: 'dancers',
     obsoletedBy: '1F46F-200D-2640-FE0F'
   },
   {
@@ -10998,10 +10998,10 @@ export const emojis: CompressedEmojiData[] = [
       'boys'
     ],
     sheet: [23, 15],
-    shortNames: [
+    shortcodes: [
       'man-with-bunny-ears-partying'
     ],
-    shortName: 'men-with-bunny-ears-partying'
+    shortcode: 'men-with-bunny-ears-partying'
   },
   {
     label: 'Women with Bunny Ears',
@@ -11015,10 +11015,10 @@ export const emojis: CompressedEmojiData[] = [
       'girls'
     ],
     sheet: [23, 14],
-    shortNames: [
+    shortcodes: [
       'woman-with-bunny-ears-partying'
     ],
-    shortName: 'women-with-bunny-ears-partying'
+    shortcode: 'women-with-bunny-ears-partying'
   },
   {
     label: 'Person in Steamy Room',
@@ -11051,7 +11051,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 3]
       }
     ],
-    shortName: 'person_in_steamy_room',
+    shortcode: 'person_in_steamy_room',
     obsoletedBy: '1F9D6-200D-2642-FE0F'
   },
   {
@@ -11089,7 +11089,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 58]
       }
     ],
-    shortName: 'man_in_steamy_room'
+    shortcode: 'man_in_steamy_room'
   },
   {
     label: 'Woman in Steamy Room',
@@ -11125,7 +11125,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [50, 52]
       }
     ],
-    shortName: 'woman_in_steamy_room'
+    shortcode: 'woman_in_steamy_room'
   },
   {
     label: 'Person Climbing',
@@ -11157,7 +11157,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 21]
       }
     ],
-    shortName: 'person_climbing',
+    shortcode: 'person_climbing',
     obsoletedBy: '1F9D7-200D-2640-FE0F'
   },
   {
@@ -11194,7 +11194,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 15]
       }
     ],
-    shortName: 'man_climbing'
+    shortcode: 'man_climbing'
   },
   {
     label: 'Woman Climbing',
@@ -11231,7 +11231,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 9]
       }
     ],
-    shortName: 'woman_climbing'
+    shortcode: 'woman_climbing'
   },
   {
     label: 'Fencer',
@@ -11243,7 +11243,7 @@ export const emojis: CompressedEmojiData[] = [
       'sword'
     ],
     sheet: [42, 31],
-    shortName: 'fencer'
+    shortcode: 'fencer'
   },
   {
     label: 'Horse Racing',
@@ -11279,7 +11279,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 57]
       }
     ],
-    shortName: 'horse_racing'
+    shortcode: 'horse_racing'
   },
   {
     label: 'Skier',
@@ -11291,7 +11291,7 @@ export const emojis: CompressedEmojiData[] = [
       'snow'
     ],
     sheet: [58, 1],
-    shortName: 'skier'
+    shortcode: 'skier'
   },
   {
     label: 'Snowboarder',
@@ -11324,7 +11324,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 13]
       }
     ],
-    shortName: 'snowboarder'
+    shortcode: 'snowboarder'
   },
   {
     label: 'Person Golfing',
@@ -11357,7 +11357,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 52]
       }
     ],
-    shortName: 'golfer',
+    shortcode: 'golfer',
     obsoletedBy: '1F3CC-FE0F-200D-2642-FE0F'
   },
   {
@@ -11389,7 +11389,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 46]
       }
     ],
-    shortName: 'man-golfing'
+    shortcode: 'man-golfing'
   },
   {
     label: 'Woman Golfing',
@@ -11425,7 +11425,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 40]
       }
     ],
-    shortName: 'woman-golfing'
+    shortcode: 'woman-golfing'
   },
   {
     label: 'Surfer',
@@ -11458,7 +11458,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 49]
       }
     ],
-    shortName: 'surfer',
+    shortcode: 'surfer',
     obsoletedBy: '1F3C4-200D-2642-FE0F'
   },
   {
@@ -11496,7 +11496,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 43]
       }
     ],
-    shortName: 'man-surfing'
+    shortcode: 'man-surfing'
   },
   {
     label: 'Woman Surfing',
@@ -11534,7 +11534,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [8, 37]
       }
     ],
-    shortName: 'woman-surfing'
+    shortcode: 'woman-surfing'
   },
   {
     label: 'Rowboat',
@@ -11567,7 +11567,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [36, 23]
       }
     ],
-    shortName: 'rowboat',
+    shortcode: 'rowboat',
     obsoletedBy: '1F6A3-200D-2642-FE0F'
   },
   {
@@ -11604,7 +11604,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [36, 17]
       }
     ],
-    shortName: 'man-rowing-boat'
+    shortcode: 'man-rowing-boat'
   },
   {
     label: 'Woman Rowing Boat',
@@ -11641,7 +11641,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [36, 11]
       }
     ],
-    shortName: 'woman-rowing-boat'
+    shortcode: 'woman-rowing-boat'
   },
   {
     label: 'Swimmer',
@@ -11674,7 +11674,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 16]
       }
     ],
-    shortName: 'swimmer',
+    shortcode: 'swimmer',
     obsoletedBy: '1F3CA-200D-2642-FE0F'
   },
   {
@@ -11713,7 +11713,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 10]
       }
     ],
-    shortName: 'man-swimming'
+    shortcode: 'man-swimming'
   },
   {
     label: 'Woman Swimming',
@@ -11752,7 +11752,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 4]
       }
     ],
-    shortName: 'woman-swimming'
+    shortcode: 'woman-swimming'
   },
   {
     label: 'Person Bouncing Ball',
@@ -11785,7 +11785,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 20]
       }
     ],
-    shortName: 'person_with_ball',
+    shortcode: 'person_with_ball',
     obsoletedBy: '26F9-FE0F-200D-2642-FE0F'
   },
   {
@@ -11820,7 +11820,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 14]
       }
     ],
-    shortName: 'man-bouncing-ball'
+    shortcode: 'man-bouncing-ball'
   },
   {
     label: 'Woman Bouncing Ball',
@@ -11856,7 +11856,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [58, 8]
       }
     ],
-    shortName: 'woman-bouncing-ball'
+    shortcode: 'woman-bouncing-ball'
   },
   {
     label: 'Person Lifting Weights',
@@ -11890,7 +11890,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 34]
       }
     ],
-    shortName: 'weight_lifter',
+    shortcode: 'weight_lifter',
     obsoletedBy: '1F3CB-FE0F-200D-2642-FE0F'
   },
   {
@@ -11925,7 +11925,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 28]
       }
     ],
-    shortName: 'man-lifting-weights'
+    shortcode: 'man-lifting-weights'
   },
   {
     label: 'Woman Lifting Weights',
@@ -11962,7 +11962,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [9, 22]
       }
     ],
-    shortName: 'woman-lifting-weights'
+    shortcode: 'woman-lifting-weights'
   },
   {
     label: 'Bicyclist',
@@ -11995,7 +11995,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [36, 57]
       }
     ],
-    shortName: 'bicyclist',
+    shortcode: 'bicyclist',
     obsoletedBy: '1F6B4-200D-2642-FE0F'
   },
   {
@@ -12032,7 +12032,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [36, 51]
       }
     ],
-    shortName: 'man-biking'
+    shortcode: 'man-biking'
   },
   {
     label: 'Woman Biking',
@@ -12069,7 +12069,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [36, 45]
       }
     ],
-    shortName: 'woman-biking'
+    shortcode: 'woman-biking'
   },
   {
     label: 'Mountain Bicyclist',
@@ -12102,7 +12102,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 14]
       }
     ],
-    shortName: 'mountain_bicyclist',
+    shortcode: 'mountain_bicyclist',
     obsoletedBy: '1F6B5-200D-2642-FE0F'
   },
   {
@@ -12140,7 +12140,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 8]
       }
     ],
-    shortName: 'man-mountain-biking'
+    shortcode: 'man-mountain-biking'
   },
   {
     label: 'Woman Mountain Biking',
@@ -12178,7 +12178,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 2]
       }
     ],
-    shortName: 'woman-mountain-biking'
+    shortcode: 'woman-mountain-biking'
   },
   {
     label: 'Person Doing Cartwheel',
@@ -12211,7 +12211,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 12]
       }
     ],
-    shortName: 'person_doing_cartwheel'
+    shortcode: 'person_doing_cartwheel'
   },
   {
     label: 'Man Cartwheeling',
@@ -12243,7 +12243,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 6]
       }
     ],
-    shortName: 'man-cartwheeling'
+    shortcode: 'man-cartwheeling'
   },
   {
     label: 'Woman Cartwheeling',
@@ -12275,7 +12275,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 0]
       }
     ],
-    shortName: 'woman-cartwheeling'
+    shortcode: 'woman-cartwheeling'
   },
   {
     label: 'Wrestlers',
@@ -12285,7 +12285,7 @@ export const emojis: CompressedEmojiData[] = [
       'sport'
     ],
     sheet: [42, 34],
-    shortName: 'wrestlers'
+    shortcode: 'wrestlers'
   },
   {
     label: 'Men Wrestling',
@@ -12296,7 +12296,7 @@ export const emojis: CompressedEmojiData[] = [
       'wrestlers'
     ],
     sheet: [42, 33],
-    shortName: 'man-wrestling'
+    shortcode: 'man-wrestling'
   },
   {
     label: 'Women Wrestling',
@@ -12307,7 +12307,7 @@ export const emojis: CompressedEmojiData[] = [
       'wrestlers'
     ],
     sheet: [42, 32],
-    shortName: 'woman-wrestling'
+    shortcode: 'woman-wrestling'
   },
   {
     label: 'Water Polo',
@@ -12339,7 +12339,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 52]
       }
     ],
-    shortName: 'water_polo'
+    shortcode: 'water_polo'
   },
   {
     label: 'Man Playing Water Polo',
@@ -12372,7 +12372,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 46]
       }
     ],
-    shortName: 'man-playing-water-polo'
+    shortcode: 'man-playing-water-polo'
   },
   {
     label: 'Woman Playing Water Polo',
@@ -12405,7 +12405,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 40]
       }
     ],
-    shortName: 'woman-playing-water-polo'
+    shortcode: 'woman-playing-water-polo'
   },
   {
     label: 'Handball',
@@ -12437,7 +12437,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [43, 9]
       }
     ],
-    shortName: 'handball'
+    shortcode: 'handball'
   },
   {
     label: 'Man Playing Handball',
@@ -12469,7 +12469,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [43, 3]
       }
     ],
-    shortName: 'man-playing-handball'
+    shortcode: 'man-playing-handball'
   },
   {
     label: 'Woman Playing Handball',
@@ -12501,7 +12501,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 58]
       }
     ],
-    shortName: 'woman-playing-handball'
+    shortcode: 'woman-playing-handball'
   },
   {
     label: 'Juggling',
@@ -12534,7 +12534,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 30]
       }
     ],
-    shortName: 'juggling'
+    shortcode: 'juggling'
   },
   {
     label: 'Man Juggling',
@@ -12569,7 +12569,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 24]
       }
     ],
-    shortName: 'man-juggling'
+    shortcode: 'man-juggling'
   },
   {
     label: 'Woman Juggling',
@@ -12604,7 +12604,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [42, 18]
       }
     ],
-    shortName: 'woman-juggling'
+    shortcode: 'woman-juggling'
   },
   {
     label: 'Person in Lotus Position',
@@ -12636,7 +12636,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 39]
       }
     ],
-    shortName: 'person_in_lotus_position',
+    shortcode: 'person_in_lotus_position',
     obsoletedBy: '1F9D8-200D-2640-FE0F'
   },
   {
@@ -12675,7 +12675,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 33]
       }
     ],
-    shortName: 'man_in_lotus_position'
+    shortcode: 'man_in_lotus_position'
   },
   {
     label: 'Woman in Lotus Position',
@@ -12714,7 +12714,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [51, 27]
       }
     ],
-    shortName: 'woman_in_lotus_position'
+    shortcode: 'woman_in_lotus_position'
   },
   {
     label: 'Bath',
@@ -12748,7 +12748,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 47]
       }
     ],
-    shortName: 'bath'
+    shortcode: 'bath'
   },
   {
     label: 'Sleeping Accommodation',
@@ -12781,7 +12781,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [37, 59]
       }
     ],
-    shortName: 'sleeping_accommodation'
+    shortcode: 'sleeping_accommodation'
   },
   {
     label: 'People Holding Hands',
@@ -12903,7 +12903,7 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [49, 5]
       }
     ],
-    shortName: 'people_holding_hands'
+    shortcode: 'people_holding_hands'
   },
   {
     label: 'Two Women Holding Hands',
@@ -13032,8 +13032,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [22, 56]
       }
     ],
-    shortNames: ['women_holding_hands'],
-    shortName: 'two_women_holding_hands'
+    shortcodes: ['women_holding_hands'],
+    shortcode: 'two_women_holding_hands'
   },
   {
     label: 'Man and Woman Holding Hands',
@@ -13154,11 +13154,11 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [22, 4]
       }
     ],
-    shortNames: [
+    shortcodes: [
       'woman_and_man_holding_hands',
       'couple'
     ],
-    shortName: 'man_and_woman_holding_hands'
+    shortcode: 'man_and_woman_holding_hands'
   },
   {
     label: 'Two Men Holding Hands',
@@ -13287,8 +13287,8 @@ export const emojis: CompressedEmojiData[] = [
         sheet: [22, 30]
       }
     ],
-    shortNames: ['men_holding_hands'],
-    shortName: 'two_men_holding_hands'
+    shortcodes: ['men_holding_hands'],
+    shortcode: 'two_men_holding_hands'
   },
   {
     label: 'Kiss',
@@ -13425,7 +13425,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'couplekiss'
+    shortcode: 'couplekiss'
   },
   {
     label: 'Kiss: Woman, Man',
@@ -13562,7 +13562,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'woman-kiss-man'
+    shortcode: 'woman-kiss-man'
   },
   {
     label: 'Kiss: Man, Man',
@@ -13704,7 +13704,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'man-kiss-man'
+    shortcode: 'man-kiss-man'
   },
   {
     label: 'Kiss: Woman, Woman',
@@ -13846,7 +13846,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'woman-kiss-woman'
+    shortcode: 'woman-kiss-woman'
   },
   {
     label: 'Couple with Heart',
@@ -13985,7 +13985,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'couple_with_heart'
+    shortcode: 'couple_with_heart'
   },
   {
     label: 'Couple with Heart: Woman, Man',
@@ -14122,7 +14122,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'woman-heart-man'
+    shortcode: 'woman-heart-man'
   },
   {
     label: 'Couple with Heart: Man, Man',
@@ -14266,7 +14266,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'man-heart-man'
+    shortcode: 'man-heart-man'
   },
   {
     label: 'Couple with Heart: Woman, Woman',
@@ -14410,7 +14410,7 @@ export const emojis: CompressedEmojiData[] = [
         hidden: ['facebook']
       }
     ],
-    shortName: 'woman-heart-woman'
+    shortcode: 'woman-heart-woman'
   },
   {
     label: 'Family',
@@ -14428,7 +14428,7 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [21, 39],
-    shortName: 'family',
+    shortcode: 'family',
     obsoletedBy: '1F468-200D-1F469-200D-1F466'
   },
   {
@@ -14440,7 +14440,7 @@ export const emojis: CompressedEmojiData[] = [
       'love'
     ],
     sheet: [14, 43],
-    shortName: 'man-woman-boy'
+    shortcode: 'man-woman-boy'
   },
   {
     label: 'Family: Man, Woman, Girl',
@@ -14454,7 +14454,7 @@ export const emojis: CompressedEmojiData[] = [
       'child'
     ],
     sheet: [14, 45],
-    shortName: 'man-woman-girl'
+    shortcode: 'man-woman-girl'
   },
   {
     label: 'Family: Man, Woman, Girl, Boy',
@@ -14468,7 +14468,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 46],
-    shortName: 'man-woman-girl-boy'
+    shortcode: 'man-woman-girl-boy'
   },
   {
     label: 'Family: Man, Woman, Boy, Boy',
@@ -14482,7 +14482,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 44],
-    shortName: 'man-woman-boy-boy'
+    shortcode: 'man-woman-boy-boy'
   },
   {
     label: 'Family: Man, Woman, Girl, Girl',
@@ -14496,7 +14496,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 47],
-    shortName: 'man-woman-girl-girl'
+    shortcode: 'man-woman-girl-girl'
   },
   {
     label: 'Family: Man, Man, Boy',
@@ -14510,7 +14510,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 38],
-    shortName: 'man-man-boy'
+    shortcode: 'man-man-boy'
   },
   {
     label: 'Family: Man, Man, Girl',
@@ -14524,7 +14524,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 40],
-    shortName: 'man-man-girl'
+    shortcode: 'man-man-girl'
   },
   {
     label: 'Family: Man, Man, Girl, Boy',
@@ -14538,7 +14538,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 41],
-    shortName: 'man-man-girl-boy'
+    shortcode: 'man-man-girl-boy'
   },
   {
     label: 'Family: Man, Man, Boy, Boy',
@@ -14552,7 +14552,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 39],
-    shortName: 'man-man-boy-boy'
+    shortcode: 'man-man-boy-boy'
   },
   {
     label: 'Family: Man, Man, Girl, Girl',
@@ -14566,7 +14566,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 42],
-    shortName: 'man-man-girl-girl'
+    shortcode: 'man-man-girl-girl'
   },
   {
     label: 'Family: Woman, Woman, Boy',
@@ -14580,7 +14580,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 11],
-    shortName: 'woman-woman-boy'
+    shortcode: 'woman-woman-boy'
   },
   {
     label: 'Family: Woman, Woman, Girl',
@@ -14594,7 +14594,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 13],
-    shortName: 'woman-woman-girl'
+    shortcode: 'woman-woman-girl'
   },
   {
     label: 'Family: Woman, Woman, Girl, Boy',
@@ -14608,7 +14608,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 14],
-    shortName: 'woman-woman-girl-boy'
+    shortcode: 'woman-woman-girl-boy'
   },
   {
     label: 'Family: Woman, Woman, Boy, Boy',
@@ -14622,7 +14622,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 12],
-    shortName: 'woman-woman-boy-boy'
+    shortcode: 'woman-woman-boy-boy'
   },
   {
     label: 'Family: Woman, Woman, Girl, Girl',
@@ -14636,7 +14636,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 15],
-    shortName: 'woman-woman-girl-girl'
+    shortcode: 'woman-woman-girl-girl'
   },
   {
     label: 'Family: Man, Boy',
@@ -14650,7 +14650,7 @@ export const emojis: CompressedEmojiData[] = [
       'child'
     ],
     sheet: [14, 34],
-    shortName: 'man-boy'
+    shortcode: 'man-boy'
   },
   {
     label: 'Family: Man, Boy, Boy',
@@ -14664,7 +14664,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 33],
-    shortName: 'man-boy-boy'
+    shortcode: 'man-boy-boy'
   },
   {
     label: 'Family: Man, Girl',
@@ -14678,7 +14678,7 @@ export const emojis: CompressedEmojiData[] = [
       'child'
     ],
     sheet: [14, 37],
-    shortName: 'man-girl'
+    shortcode: 'man-girl'
   },
   {
     label: 'Family: Man, Girl, Boy',
@@ -14692,7 +14692,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 35],
-    shortName: 'man-girl-boy'
+    shortcode: 'man-girl-boy'
   },
   {
     label: 'Family: Man, Girl, Girl',
@@ -14706,7 +14706,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [14, 36],
-    shortName: 'man-girl-girl'
+    shortcode: 'man-girl-girl'
   },
   {
     label: 'Family: Woman, Boy',
@@ -14720,7 +14720,7 @@ export const emojis: CompressedEmojiData[] = [
       'child'
     ],
     sheet: [18, 7],
-    shortName: 'woman-boy'
+    shortcode: 'woman-boy'
   },
   {
     label: 'Family: Woman, Boy, Boy',
@@ -14734,7 +14734,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 6],
-    shortName: 'woman-boy-boy'
+    shortcode: 'woman-boy-boy'
   },
   {
     label: 'Family: Woman, Girl',
@@ -14748,7 +14748,7 @@ export const emojis: CompressedEmojiData[] = [
       'child'
     ],
     sheet: [18, 10],
-    shortName: 'woman-girl'
+    shortcode: 'woman-girl'
   },
   {
     label: 'Family: Woman, Girl, Boy',
@@ -14762,7 +14762,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 8],
-    shortName: 'woman-girl-boy'
+    shortcode: 'woman-girl-boy'
   },
   {
     label: 'Family: Woman, Girl, Girl',
@@ -14776,7 +14776,7 @@ export const emojis: CompressedEmojiData[] = [
       'children'
     ],
     sheet: [18, 9],
-    shortName: 'woman-girl-girl'
+    shortcode: 'woman-girl-girl'
   },
   {
     label: 'Speaking Head',
@@ -14791,7 +14791,7 @@ export const emojis: CompressedEmojiData[] = [
       'talk'
     ],
     sheet: [32, 10],
-    shortName: 'speaking_head_in_silhouette'
+    shortcode: 'speaking_head_in_silhouette'
   },
   {
     label: 'Bust in Silhouette',
@@ -14803,7 +14803,7 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [13, 32],
-    shortName: 'bust_in_silhouette'
+    shortcode: 'bust_in_silhouette'
   },
   {
     label: 'Busts in Silhouette',
@@ -14817,7 +14817,7 @@ export const emojis: CompressedEmojiData[] = [
       'team'
     ],
     sheet: [13, 33],
-    shortName: 'busts_in_silhouette'
+    shortcode: 'busts_in_silhouette'
   },
   {
     label: 'People Hugging',
@@ -14827,7 +14827,7 @@ export const emojis: CompressedEmojiData[] = [
       'care'
     ],
     sheet: [54, 44],
-    shortName: 'people_hugging'
+    shortcode: 'people_hugging'
   },
   {
     label: 'Footprints',
@@ -14840,37 +14840,37 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [13, 31],
-    shortName: 'footprints'
+    shortcode: 'footprints'
   },
   {
     label: 'Emoji Modifier Fitzpatrick Type-1-2',
     hexcode: '1F3FB',
     sheet: [10, 41],
-    shortName: 'skin-tone-2'
+    shortcode: 'skin-tone-2'
   },
   {
     label: 'Emoji Modifier Fitzpatrick Type-3',
     hexcode: '1F3FC',
     sheet: [10, 42],
-    shortName: 'skin-tone-3'
+    shortcode: 'skin-tone-3'
   },
   {
     label: 'Emoji Modifier Fitzpatrick Type-4',
     hexcode: '1F3FD',
     sheet: [10, 43],
-    shortName: 'skin-tone-4'
+    shortcode: 'skin-tone-4'
   },
   {
     label: 'Emoji Modifier Fitzpatrick Type-5',
     hexcode: '1F3FE',
     sheet: [10, 44],
-    shortName: 'skin-tone-5'
+    shortcode: 'skin-tone-5'
   },
   {
     label: 'Emoji Modifier Fitzpatrick Type-6',
     hexcode: '1F3FF',
     sheet: [10, 45],
-    shortName: 'skin-tone-6'
+    shortcode: 'skin-tone-6'
   },
   {
     label: 'Monkey Face',
@@ -14883,7 +14883,7 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [11, 40],
-    shortName: 'monkey_face'
+    shortcode: 'monkey_face'
   },
   {
     label: 'Monkey',
@@ -14896,7 +14896,7 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [11, 4],
-    shortName: 'monkey'
+    shortcode: 'monkey'
   },
   {
     label: 'Gorilla',
@@ -14908,14 +14908,14 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [44, 31],
-    shortName: 'gorilla'
+    shortcode: 'gorilla'
   },
   {
     label: 'Orangutan',
     hexcode: '1F9A7',
     tags: ['orangutan', 'animal'],
     sheet: [44, 57],
-    shortName: 'orangutan'
+    shortcode: 'orangutan'
   },
   {
     label: 'Dog Face',
@@ -14931,7 +14931,7 @@ export const emojis: CompressedEmojiData[] = [
       'faithful'
     ],
     sheet: [11, 41],
-    shortName: 'dog'
+    shortcode: 'dog'
   },
   {
     label: 'Dog',
@@ -14946,7 +14946,7 @@ export const emojis: CompressedEmojiData[] = [
       'faithful'
     ],
     sheet: [11, 8],
-    shortName: 'dog2'
+    shortcode: 'dog2'
   },
   {
     label: 'Guide Dog',
@@ -14957,7 +14957,7 @@ export const emojis: CompressedEmojiData[] = [
       'blind'
     ],
     sheet: [45, 3],
-    shortName: 'guide_dog'
+    shortcode: 'guide_dog'
   },
   {
     label: 'Service Dog',
@@ -14968,7 +14968,7 @@ export const emojis: CompressedEmojiData[] = [
       'animal'
     ],
     sheet: [11, 7],
-    shortName: 'service_dog'
+    shortcode: 'service_dog'
   },
   {
     label: 'Poodle',
@@ -14982,7 +14982,7 @@ export const emojis: CompressedEmojiData[] = [
       'pet'
     ],
     sheet: [11, 28],
-    shortName: 'poodle'
+    shortcode: 'poodle'
   },
   {
     label: 'Wolf Face',
@@ -14994,7 +14994,7 @@ export const emojis: CompressedEmojiData[] = [
       'wild'
     ],
     sheet: [11, 45],
-    shortName: 'wolf'
+    shortcode: 'wolf'
   },
   {
     label: 'Fox Face',
@@ -15006,7 +15006,7 @@ export const emojis: CompressedEmojiData[] = [
       'face'
     ],
     sheet: [44, 28],
-    shortName: 'fox_face'
+    shortcode: 'fox_face'
   },
   {
     label: 'Raccoon',
@@ -15017,7 +15017,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [44, 47],
-    shortName: 'raccoon'
+    shortcode: 'raccoon'
   },
   {
     label: 'Cat Face',
@@ -15031,7 +15031,7 @@ export const emojis: CompressedEmojiData[] = [
       'kitten'
     ],
     sheet: [11, 36],
-    shortName: 'cat'
+    shortcode: 'cat'
   },
   {
     label: 'Cat',
@@ -15044,7 +15044,7 @@ export const emojis: CompressedEmojiData[] = [
       'cats'
     ],
     sheet: [10, 55],
-    shortName: 'cat2'
+    shortcode: 'cat2'
   },
   {
     label: 'Black Cat',
@@ -15055,7 +15055,7 @@ export const emojis: CompressedEmojiData[] = [
       'luck'
     ],
     sheet: [10, 54],
-    shortName: 'black_cat'
+    shortcode: 'black_cat'
   },
   {
     label: 'Lion Face',
@@ -15066,7 +15066,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [44, 19],
-    shortName: 'lion_face'
+    shortcode: 'lion_face'
   },
   {
     label: 'Tiger Face',
@@ -15081,7 +15081,7 @@ export const emojis: CompressedEmojiData[] = [
       'roar'
     ],
     sheet: [11, 34],
-    shortName: 'tiger'
+    shortcode: 'tiger'
   },
   {
     label: 'Tiger',
@@ -15093,7 +15093,7 @@ export const emojis: CompressedEmojiData[] = [
       'roar'
     ],
     sheet: [10, 51],
-    shortName: 'tiger2'
+    shortcode: 'tiger2'
   },
   {
     label: 'Leopard',
@@ -15104,7 +15104,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [10, 52],
-    shortName: 'leopard'
+    shortcode: 'leopard'
   },
   {
     label: 'Horse Face',
@@ -15116,7 +15116,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 39],
-    shortName: 'horse'
+    shortcode: 'horse'
   },
   {
     label: 'Horse',
@@ -15128,7 +15128,7 @@ export const emojis: CompressedEmojiData[] = [
       'luck'
     ],
     sheet: [11, 0],
-    shortName: 'racehorse'
+    shortcode: 'racehorse'
   },
   {
     label: 'Unicorn Face',
@@ -15140,7 +15140,7 @@ export const emojis: CompressedEmojiData[] = [
       'mystical'
     ],
     sheet: [44, 22],
-    shortName: 'unicorn_face'
+    shortcode: 'unicorn_face'
   },
   {
     label: 'Zebra Face',
@@ -15153,7 +15153,7 @@ export const emojis: CompressedEmojiData[] = [
       'safari'
     ],
     sheet: [44, 37],
-    shortName: 'zebra_face'
+    shortcode: 'zebra_face'
   },
   {
     label: 'Deer',
@@ -15166,14 +15166,14 @@ export const emojis: CompressedEmojiData[] = [
       'venison'
     ],
     sheet: [44, 30],
-    shortName: 'deer'
+    shortcode: 'deer'
   },
   {
     label: 'Bison',
     hexcode: '1F9AC',
     tags: ['bison', 'ox'],
     sheet: [45, 1],
-    shortName: 'bison'
+    shortcode: 'bison'
   },
   {
     label: 'Cow Face',
@@ -15188,7 +15188,7 @@ export const emojis: CompressedEmojiData[] = [
       'milk'
     ],
     sheet: [11, 33],
-    shortName: 'cow'
+    shortcode: 'cow'
   },
   {
     label: 'Ox',
@@ -15200,7 +15200,7 @@ export const emojis: CompressedEmojiData[] = [
       'beef'
     ],
     sheet: [10, 48],
-    shortName: 'ox'
+    shortcode: 'ox'
   },
   {
     label: 'Water Buffalo',
@@ -15213,7 +15213,7 @@ export const emojis: CompressedEmojiData[] = [
       'cow'
     ],
     sheet: [10, 49],
-    shortName: 'water_buffalo'
+    shortcode: 'water_buffalo'
   },
   {
     label: 'Cow',
@@ -15228,7 +15228,7 @@ export const emojis: CompressedEmojiData[] = [
       'milk'
     ],
     sheet: [10, 50],
-    shortName: 'cow2'
+    shortcode: 'cow2'
   },
   {
     label: 'Pig Face',
@@ -15240,7 +15240,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 42],
-    shortName: 'pig'
+    shortcode: 'pig'
   },
   {
     label: 'Pig',
@@ -15251,7 +15251,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 9],
-    shortName: 'pig2'
+    shortcode: 'pig2'
   },
   {
     label: 'Boar',
@@ -15262,7 +15262,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 10],
-    shortName: 'boar'
+    shortcode: 'boar'
   },
   {
     label: 'Pig Nose',
@@ -15273,7 +15273,7 @@ export const emojis: CompressedEmojiData[] = [
       'oink'
     ],
     sheet: [11, 49],
-    shortName: 'pig_nose'
+    shortcode: 'pig_nose'
   },
   {
     label: 'Ram',
@@ -15285,7 +15285,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 1],
-    shortName: 'ram'
+    shortcode: 'ram'
   },
   {
     label: 'Sheep',
@@ -15298,7 +15298,7 @@ export const emojis: CompressedEmojiData[] = [
       'shipit'
     ],
     sheet: [11, 3],
-    shortName: 'sheep'
+    shortcode: 'sheep'
   },
   {
     label: 'Goat',
@@ -15309,7 +15309,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 2],
-    shortName: 'goat'
+    shortcode: 'goat'
   },
   {
     label: 'Dromedary Camel',
@@ -15322,7 +15322,7 @@ export const emojis: CompressedEmojiData[] = [
       'hump'
     ],
     sheet: [11, 29],
-    shortName: 'dromedary_camel'
+    shortcode: 'dromedary_camel'
   },
   {
     label: 'Bactrian Camel',
@@ -15336,7 +15336,7 @@ export const emojis: CompressedEmojiData[] = [
       'hump'
     ],
     sheet: [11, 30],
-    shortName: 'camel'
+    shortcode: 'camel'
   },
   {
     label: 'Llama',
@@ -15348,7 +15348,7 @@ export const emojis: CompressedEmojiData[] = [
       'alpaca'
     ],
     sheet: [44, 43],
-    shortName: 'llama'
+    shortcode: 'llama'
   },
   {
     label: 'Giraffe Face',
@@ -15361,7 +15361,7 @@ export const emojis: CompressedEmojiData[] = [
       'safari'
     ],
     sheet: [44, 36],
-    shortName: 'giraffe_face'
+    shortcode: 'giraffe_face'
   },
   {
     label: 'Elephant',
@@ -15375,7 +15375,7 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [11, 11],
-    shortName: 'elephant'
+    shortcode: 'elephant'
   },
   {
     label: 'Mammoth',
@@ -15386,7 +15386,7 @@ export const emojis: CompressedEmojiData[] = [
       'tusks'
     ],
     sheet: [44, 53],
-    shortName: 'mammoth'
+    shortcode: 'mammoth'
   },
   {
     label: 'Rhinoceros',
@@ -15398,7 +15398,7 @@ export const emojis: CompressedEmojiData[] = [
       'horn'
     ],
     sheet: [44, 33],
-    shortName: 'rhinoceros'
+    shortcode: 'rhinoceros'
   },
   {
     label: 'Hippopotamus',
@@ -15409,7 +15409,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [44, 45],
-    shortName: 'hippopotamus'
+    shortcode: 'hippopotamus'
   },
   {
     label: 'Mouse Face',
@@ -15422,7 +15422,7 @@ export const emojis: CompressedEmojiData[] = [
       'rodent'
     ],
     sheet: [11, 32],
-    shortName: 'mouse'
+    shortcode: 'mouse'
   },
   {
     label: 'Mouse',
@@ -15434,7 +15434,7 @@ export const emojis: CompressedEmojiData[] = [
       'rodent'
     ],
     sheet: [10, 47],
-    shortName: 'mouse2'
+    shortcode: 'mouse2'
   },
   {
     label: 'Rat',
@@ -15446,7 +15446,7 @@ export const emojis: CompressedEmojiData[] = [
       'rodent'
     ],
     sheet: [10, 46],
-    shortName: 'rat'
+    shortcode: 'rat'
   },
   {
     label: 'Hamster Face',
@@ -15457,7 +15457,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 44],
-    shortName: 'hamster'
+    shortcode: 'hamster'
   },
   {
     label: 'Rabbit Face',
@@ -15472,7 +15472,7 @@ export const emojis: CompressedEmojiData[] = [
       'bunny'
     ],
     sheet: [11, 35],
-    shortName: 'rabbit'
+    shortcode: 'rabbit'
   },
   {
     label: 'Rabbit',
@@ -15486,7 +15486,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [10, 53],
-    shortName: 'rabbit2'
+    shortcode: 'rabbit2'
   },
   {
     label: 'Chipmunk',
@@ -15499,7 +15499,7 @@ export const emojis: CompressedEmojiData[] = [
       'squirrel'
     ],
     sheet: [11, 51],
-    shortName: 'chipmunk'
+    shortcode: 'chipmunk'
   },
   {
     label: 'Beaver',
@@ -15510,7 +15510,7 @@ export const emojis: CompressedEmojiData[] = [
       'rodent'
     ],
     sheet: [45, 0],
-    shortName: 'beaver'
+    shortcode: 'beaver'
   },
   {
     label: 'Hedgehog',
@@ -15522,7 +15522,7 @@ export const emojis: CompressedEmojiData[] = [
       'spiny'
     ],
     sheet: [44, 38],
-    shortName: 'hedgehog'
+    shortcode: 'hedgehog'
   },
   {
     label: 'Bat',
@@ -15535,7 +15535,7 @@ export const emojis: CompressedEmojiData[] = [
       'vampire'
     ],
     sheet: [44, 25],
-    shortName: 'bat'
+    shortcode: 'bat'
   },
   {
     label: 'Bear Face',
@@ -15547,7 +15547,7 @@ export const emojis: CompressedEmojiData[] = [
       'wild'
     ],
     sheet: [11, 47],
-    shortName: 'bear'
+    shortcode: 'bear'
   },
   {
     label: 'Polar Bear',
@@ -15558,7 +15558,7 @@ export const emojis: CompressedEmojiData[] = [
       'arctic'
     ],
     sheet: [11, 46],
-    shortName: 'polar_bear'
+    shortcode: 'polar_bear'
   },
   {
     label: 'Koala',
@@ -15569,7 +15569,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 27],
-    shortName: 'koala'
+    shortcode: 'koala'
   },
   {
     label: 'Panda Face',
@@ -15581,28 +15581,28 @@ export const emojis: CompressedEmojiData[] = [
       'panda'
     ],
     sheet: [11, 48],
-    shortName: 'panda_face'
+    shortcode: 'panda_face'
   },
   {
     label: 'Sloth',
     hexcode: '1F9A5',
     tags: ['sloth', 'animal'],
     sheet: [44, 55],
-    shortName: 'sloth'
+    shortcode: 'sloth'
   },
   {
     label: 'Otter',
     hexcode: '1F9A6',
     tags: ['otter', 'animal'],
     sheet: [44, 56],
-    shortName: 'otter'
+    shortcode: 'otter'
   },
   {
     label: 'Skunk',
     hexcode: '1F9A8',
     tags: ['skunk', 'animal'],
     sheet: [44, 58],
-    shortName: 'skunk'
+    shortcode: 'skunk'
   },
   {
     label: 'Kangaroo',
@@ -15617,7 +15617,7 @@ export const emojis: CompressedEmojiData[] = [
       'marsupial'
     ],
     sheet: [44, 42],
-    shortName: 'kangaroo'
+    shortcode: 'kangaroo'
   },
   {
     label: 'Badger',
@@ -15629,7 +15629,7 @@ export const emojis: CompressedEmojiData[] = [
       'honey'
     ],
     sheet: [44, 51],
-    shortName: 'badger'
+    shortcode: 'badger'
   },
   {
     label: 'Paw Prints',
@@ -15645,8 +15645,8 @@ export const emojis: CompressedEmojiData[] = [
       'feet'
     ],
     sheet: [11, 50],
-    shortNames: ['paw_prints'],
-    shortName: 'feet'
+    shortcodes: ['paw_prints'],
+    shortcode: 'feet'
   },
   {
     label: 'Turkey',
@@ -15657,7 +15657,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [44, 21],
-    shortName: 'turkey'
+    shortcode: 'turkey'
   },
   {
     label: 'Chicken',
@@ -15670,7 +15670,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [11, 6],
-    shortName: 'chicken'
+    shortcode: 'chicken'
   },
   {
     label: 'Rooster',
@@ -15682,7 +15682,7 @@ export const emojis: CompressedEmojiData[] = [
       'chicken'
     ],
     sheet: [11, 5],
-    shortName: 'rooster'
+    shortcode: 'rooster'
   },
   {
     label: 'Hatching Chick',
@@ -15697,7 +15697,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [11, 22],
-    shortName: 'hatching_chick'
+    shortcode: 'hatching_chick'
   },
   {
     label: 'Baby Chick',
@@ -15709,7 +15709,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [11, 23],
-    shortName: 'baby_chick'
+    shortcode: 'baby_chick'
   },
   {
     label: 'Front-Facing Baby Chick',
@@ -15722,7 +15722,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [11, 24],
-    shortName: 'hatched_chick'
+    shortcode: 'hatched_chick'
   },
   {
     label: 'Bird',
@@ -15736,7 +15736,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [11, 25],
-    shortName: 'bird'
+    shortcode: 'bird'
   },
   {
     label: 'Penguin',
@@ -15747,7 +15747,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 26],
-    shortName: 'penguin'
+    shortcode: 'penguin'
   },
   {
     label: 'Dove',
@@ -15758,7 +15758,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [30, 27],
-    shortName: 'dove_of_peace'
+    shortcode: 'dove_of_peace'
   },
   {
     label: 'Eagle',
@@ -15770,7 +15770,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [44, 23],
-    shortName: 'eagle'
+    shortcode: 'eagle'
   },
   {
     label: 'Duck',
@@ -15783,7 +15783,7 @@ export const emojis: CompressedEmojiData[] = [
       'mallard'
     ],
     sheet: [44, 24],
-    shortName: 'duck'
+    shortcode: 'duck'
   },
   {
     label: 'Swan',
@@ -15795,7 +15795,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [44, 52],
-    shortName: 'swan'
+    shortcode: 'swan'
   },
   {
     label: 'Owl',
@@ -15808,7 +15808,7 @@ export const emojis: CompressedEmojiData[] = [
       'hoot'
     ],
     sheet: [44, 27],
-    shortName: 'owl'
+    shortcode: 'owl'
   },
   {
     label: 'Dodo',
@@ -15819,7 +15819,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [44, 54],
-    shortName: 'dodo'
+    shortcode: 'dodo'
   },
   {
     label: 'Feather',
@@ -15830,14 +15830,14 @@ export const emojis: CompressedEmojiData[] = [
       'fly'
     ],
     sheet: [54, 37],
-    shortName: 'feather'
+    shortcode: 'feather'
   },
   {
     label: 'Flamingo',
     hexcode: '1F9A9',
     tags: ['flamingo', 'animal'],
     sheet: [44, 59],
-    shortName: 'flamingo'
+    shortcode: 'flamingo'
   },
   {
     label: 'Peacock',
@@ -15850,7 +15850,7 @@ export const emojis: CompressedEmojiData[] = [
       'bird'
     ],
     sheet: [44, 44],
-    shortName: 'peacock'
+    shortcode: 'peacock'
   },
   {
     label: 'Parrot',
@@ -15864,7 +15864,7 @@ export const emojis: CompressedEmojiData[] = [
       'talk'
     ],
     sheet: [44, 46],
-    shortName: 'parrot'
+    shortcode: 'parrot'
   },
   {
     label: 'Frog Face',
@@ -15877,7 +15877,7 @@ export const emojis: CompressedEmojiData[] = [
       'toad'
     ],
     sheet: [11, 43],
-    shortName: 'frog'
+    shortcode: 'frog'
   },
   {
     label: 'Crocodile',
@@ -15891,7 +15891,7 @@ export const emojis: CompressedEmojiData[] = [
       'alligator'
     ],
     sheet: [10, 57],
-    shortName: 'crocodile'
+    shortcode: 'crocodile'
   },
   {
     label: 'Turtle',
@@ -15904,7 +15904,7 @@ export const emojis: CompressedEmojiData[] = [
       'tortoise'
     ],
     sheet: [11, 21],
-    shortName: 'turtle'
+    shortcode: 'turtle'
   },
   {
     label: 'Lizard',
@@ -15916,7 +15916,7 @@ export const emojis: CompressedEmojiData[] = [
       'reptile'
     ],
     sheet: [44, 32],
-    shortName: 'lizard'
+    shortcode: 'lizard'
   },
   {
     label: 'Snake',
@@ -15930,7 +15930,7 @@ export const emojis: CompressedEmojiData[] = [
       'python'
     ],
     sheet: [10, 60],
-    shortName: 'snake'
+    shortcode: 'snake'
   },
   {
     label: 'Dragon Face',
@@ -15944,7 +15944,7 @@ export const emojis: CompressedEmojiData[] = [
       'green'
     ],
     sheet: [11, 37],
-    shortName: 'dragon_face'
+    shortcode: 'dragon_face'
   },
   {
     label: 'Dragon',
@@ -15958,7 +15958,7 @@ export const emojis: CompressedEmojiData[] = [
       'green'
     ],
     sheet: [10, 56],
-    shortName: 'dragon'
+    shortcode: 'dragon'
   },
   {
     label: 'Sauropod',
@@ -15974,7 +15974,7 @@ export const emojis: CompressedEmojiData[] = [
       'extinct'
     ],
     sheet: [44, 39],
-    shortName: 'sauropod'
+    shortcode: 'sauropod'
   },
   {
     label: 'T-Rex',
@@ -15988,7 +15988,7 @@ export const emojis: CompressedEmojiData[] = [
       'extinct'
     ],
     sheet: [44, 40],
-    shortName: 't-rex'
+    shortcode: 't-rex'
   },
   {
     label: 'Spouting Whale',
@@ -16001,7 +16001,7 @@ export const emojis: CompressedEmojiData[] = [
       'ocean'
     ],
     sheet: [11, 38],
-    shortName: 'whale'
+    shortcode: 'whale'
   },
   {
     label: 'Whale',
@@ -16014,7 +16014,7 @@ export const emojis: CompressedEmojiData[] = [
       'ocean'
     ],
     sheet: [10, 58],
-    shortName: 'whale2'
+    shortcode: 'whale2'
   },
   {
     label: 'Dolphin',
@@ -16031,8 +16031,8 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [11, 31],
-    shortNames: ['flipper'],
-    shortName: 'dolphin'
+    shortcodes: ['flipper'],
+    shortcode: 'dolphin'
   },
   {
     label: 'Seal',
@@ -16044,7 +16044,7 @@ export const emojis: CompressedEmojiData[] = [
       'sea'
     ],
     sheet: [45, 2],
-    shortName: 'seal'
+    shortcode: 'seal'
   },
   {
     label: 'Fish',
@@ -16056,7 +16056,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [11, 18],
-    shortName: 'fish'
+    shortcode: 'fish'
   },
   {
     label: 'Tropical Fish',
@@ -16070,7 +16070,7 @@ export const emojis: CompressedEmojiData[] = [
       'nemo'
     ],
     sheet: [11, 19],
-    shortName: 'tropical_fish'
+    shortcode: 'tropical_fish'
   },
   {
     label: 'Blowfish',
@@ -16084,7 +16084,7 @@ export const emojis: CompressedEmojiData[] = [
       'ocean'
     ],
     sheet: [11, 20],
-    shortName: 'blowfish'
+    shortcode: 'blowfish'
   },
   {
     label: 'Shark',
@@ -16101,7 +16101,7 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [44, 26],
-    shortName: 'shark'
+    shortcode: 'shark'
   },
   {
     label: 'Octopus',
@@ -16116,7 +16116,7 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [11, 12],
-    shortName: 'octopus'
+    shortcode: 'octopus'
   },
   {
     label: 'Spiral Shell',
@@ -16128,7 +16128,7 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [11, 13],
-    shortName: 'shell'
+    shortcode: 'shell'
   },
   {
     label: 'Coral',
@@ -16141,7 +16141,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 39],
     hidden: ['facebook'],
-    shortName: 'coral'
+    shortcode: 'coral'
   },
   {
     label: 'Snail',
@@ -16153,7 +16153,7 @@ export const emojis: CompressedEmojiData[] = [
       'shell'
     ],
     sheet: [10, 59],
-    shortName: 'snail'
+    shortcode: 'snail'
   },
   {
     label: 'Butterfly',
@@ -16166,7 +16166,7 @@ export const emojis: CompressedEmojiData[] = [
       'caterpillar'
     ],
     sheet: [44, 29],
-    shortName: 'butterfly'
+    shortcode: 'butterfly'
   },
   {
     label: 'Bug',
@@ -16179,7 +16179,7 @@ export const emojis: CompressedEmojiData[] = [
       'worm'
     ],
     sheet: [11, 14],
-    shortName: 'bug'
+    shortcode: 'bug'
   },
   {
     label: 'Ant',
@@ -16192,7 +16192,7 @@ export const emojis: CompressedEmojiData[] = [
       'bug'
     ],
     sheet: [11, 15],
-    shortName: 'ant'
+    shortcode: 'ant'
   },
   {
     label: 'Honeybee',
@@ -16207,15 +16207,15 @@ export const emojis: CompressedEmojiData[] = [
       'honey'
     ],
     sheet: [11, 16],
-    shortNames: ['honeybee'],
-    shortName: 'bee'
+    shortcodes: ['honeybee'],
+    shortcode: 'bee'
   },
   {
     label: 'Beetle',
     hexcode: '1FAB2',
     tags: ['beetle', 'insect'],
     sheet: [54, 33],
-    shortName: 'beetle'
+    shortcode: 'beetle'
   },
   {
     label: 'Lady Beetle',
@@ -16228,8 +16228,8 @@ export const emojis: CompressedEmojiData[] = [
       'ladybug'
     ],
     sheet: [11, 17],
-    shortNames: ['lady_beetle'],
-    shortName: 'ladybug'
+    shortcodes: ['lady_beetle'],
+    shortcode: 'ladybug'
   },
   {
     label: 'Cricket',
@@ -16241,7 +16241,7 @@ export const emojis: CompressedEmojiData[] = [
       'chirp'
     ],
     sheet: [44, 41],
-    shortName: 'cricket'
+    shortcode: 'cricket'
   },
   {
     label: 'Cockroach',
@@ -16252,7 +16252,7 @@ export const emojis: CompressedEmojiData[] = [
       'pests'
     ],
     sheet: [54, 34],
-    shortName: 'cockroach'
+    shortcode: 'cockroach'
   },
   {
     label: 'Spider',
@@ -16263,7 +16263,7 @@ export const emojis: CompressedEmojiData[] = [
       'arachnid'
     ],
     sheet: [31, 23],
-    shortName: 'spider'
+    shortcode: 'spider'
   },
   {
     label: 'Spider Web',
@@ -16276,7 +16276,7 @@ export const emojis: CompressedEmojiData[] = [
       'silk'
     ],
     sheet: [31, 24],
-    shortName: 'spider_web'
+    shortcode: 'spider_web'
   },
   {
     label: 'Scorpion',
@@ -16287,7 +16287,7 @@ export const emojis: CompressedEmojiData[] = [
       'arachnid'
     ],
     sheet: [44, 20],
-    shortName: 'scorpion'
+    shortcode: 'scorpion'
   },
   {
     label: 'Mosquito',
@@ -16300,21 +16300,21 @@ export const emojis: CompressedEmojiData[] = [
       'malaria'
     ],
     sheet: [44, 49],
-    shortName: 'mosquito'
+    shortcode: 'mosquito'
   },
   {
     label: 'Fly',
     hexcode: '1FAB0',
     tags: ['fly', 'insect'],
     sheet: [54, 31],
-    shortName: 'fly'
+    shortcode: 'fly'
   },
   {
     label: 'Worm',
     hexcode: '1FAB1',
     tags: ['worm', 'animal'],
     sheet: [54, 32],
-    shortName: 'worm'
+    shortcode: 'worm'
   },
   {
     label: 'Microbe',
@@ -16328,7 +16328,7 @@ export const emojis: CompressedEmojiData[] = [
       'covid'
     ],
     sheet: [44, 50],
-    shortName: 'microbe'
+    shortcode: 'microbe'
   },
   {
     label: 'Bouquet',
@@ -16340,7 +16340,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [27, 6],
-    shortName: 'bouquet'
+    shortcode: 'bouquet'
   },
   {
     label: 'Cherry Blossom',
@@ -16353,7 +16353,7 @@ export const emojis: CompressedEmojiData[] = [
       'flower'
     ],
     sheet: [5, 53],
-    shortName: 'cherry_blossom'
+    shortcode: 'cherry_blossom'
   },
   {
     label: 'White Flower',
@@ -16364,7 +16364,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [28, 5],
-    shortName: 'white_flower'
+    shortcode: 'white_flower'
   },
   {
     label: 'Lotus',
@@ -16377,7 +16377,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 38],
     hidden: ['facebook'],
-    shortName: 'lotus'
+    shortcode: 'lotus'
   },
   {
     label: 'Rosette',
@@ -16389,7 +16389,7 @@ export const emojis: CompressedEmojiData[] = [
       'military'
     ],
     sheet: [10, 36],
-    shortName: 'rosette'
+    shortcode: 'rosette'
   },
   {
     label: 'Rose',
@@ -16402,7 +16402,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [5, 54],
-    shortName: 'rose'
+    shortcode: 'rose'
   },
   {
     label: 'Wilted Flower',
@@ -16415,7 +16415,7 @@ export const emojis: CompressedEmojiData[] = [
       'rose'
     ],
     sheet: [43, 11],
-    shortName: 'wilted_flower'
+    shortcode: 'wilted_flower'
   },
   {
     label: 'Hibiscus',
@@ -16428,7 +16428,7 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [5, 55],
-    shortName: 'hibiscus'
+    shortcode: 'hibiscus'
   },
   {
     label: 'Sunflower',
@@ -16440,7 +16440,7 @@ export const emojis: CompressedEmojiData[] = [
       'fall'
     ],
     sheet: [5, 56],
-    shortName: 'sunflower'
+    shortcode: 'sunflower'
   },
   {
     label: 'Blossom',
@@ -16452,7 +16452,7 @@ export const emojis: CompressedEmojiData[] = [
       'yellow'
     ],
     sheet: [5, 57],
-    shortName: 'blossom'
+    shortcode: 'blossom'
   },
   {
     label: 'Tulip',
@@ -16466,7 +16466,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [5, 52],
-    shortName: 'tulip'
+    shortcode: 'tulip'
   },
   {
     label: 'Seedling',
@@ -16480,7 +16480,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [5, 46],
-    shortName: 'seedling'
+    shortcode: 'seedling'
   },
   {
     label: 'Potted Plant',
@@ -16491,7 +16491,7 @@ export const emojis: CompressedEmojiData[] = [
       'house'
     ],
     sheet: [54, 35],
-    shortName: 'potted_plant'
+    shortcode: 'potted_plant'
   },
   {
     label: 'Evergreen Tree',
@@ -16502,7 +16502,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [5, 47],
-    shortName: 'evergreen_tree'
+    shortcode: 'evergreen_tree'
   },
   {
     label: 'Deciduous Tree',
@@ -16513,7 +16513,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [5, 48],
-    shortName: 'deciduous_tree'
+    shortcode: 'deciduous_tree'
   },
   {
     label: 'Palm Tree',
@@ -16529,7 +16529,7 @@ export const emojis: CompressedEmojiData[] = [
       'tropical'
     ],
     sheet: [5, 49],
-    shortName: 'palm_tree'
+    shortcode: 'palm_tree'
   },
   {
     label: 'Cactus',
@@ -16541,7 +16541,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [5, 50],
-    shortName: 'cactus'
+    shortcode: 'cactus'
   },
   {
     label: 'Ear of Rice',
@@ -16552,7 +16552,7 @@ export const emojis: CompressedEmojiData[] = [
       'plant'
     ],
     sheet: [5, 59],
-    shortName: 'ear_of_rice'
+    shortcode: 'ear_of_rice'
   },
   {
     label: 'Herb',
@@ -16567,7 +16567,7 @@ export const emojis: CompressedEmojiData[] = [
       'lawn'
     ],
     sheet: [5, 60],
-    shortName: 'herb'
+    shortcode: 'herb'
   },
   {
     label: 'Shamrock',
@@ -16581,7 +16581,7 @@ export const emojis: CompressedEmojiData[] = [
       'clover'
     ],
     sheet: [56, 49],
-    shortName: 'shamrock'
+    shortcode: 'shamrock'
   },
   {
     label: 'Four Leaf Clover',
@@ -16595,7 +16595,7 @@ export const emojis: CompressedEmojiData[] = [
       'irish'
     ],
     sheet: [6, 0],
-    shortName: 'four_leaf_clover'
+    shortcode: 'four_leaf_clover'
   },
   {
     label: 'Maple Leaf',
@@ -16609,7 +16609,7 @@ export const emojis: CompressedEmojiData[] = [
       'fall'
     ],
     sheet: [6, 1],
-    shortName: 'maple_leaf'
+    shortcode: 'maple_leaf'
   },
   {
     label: 'Fallen Leaf',
@@ -16622,7 +16622,7 @@ export const emojis: CompressedEmojiData[] = [
       'leaves'
     ],
     sheet: [6, 2],
-    shortName: 'fallen_leaf'
+    shortcode: 'fallen_leaf'
   },
   {
     label: 'Leaf Fluttering in Wind',
@@ -16638,7 +16638,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [6, 3],
-    shortName: 'leaves'
+    shortcode: 'leaves'
   },
   {
     label: 'Empty Nest',
@@ -16646,7 +16646,7 @@ export const emojis: CompressedEmojiData[] = [
     tags: ['empty nest', 'bird'],
     sheet: [54, 40],
     hidden: ['facebook'],
-    shortName: 'empty_nest'
+    shortcode: 'empty_nest'
   },
   {
     label: 'Nest with Eggs',
@@ -16657,7 +16657,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 41],
     hidden: ['facebook'],
-    shortName: 'nest_with_eggs'
+    shortcode: 'nest_with_eggs'
   },
   {
     label: 'Grapes',
@@ -16669,7 +16669,7 @@ export const emojis: CompressedEmojiData[] = [
       'wine'
     ],
     sheet: [6, 7],
-    shortName: 'grapes'
+    shortcode: 'grapes'
   },
   {
     label: 'Melon',
@@ -16681,7 +16681,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [6, 8],
-    shortName: 'melon'
+    shortcode: 'melon'
   },
   {
     label: 'Watermelon',
@@ -16694,7 +16694,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [6, 9],
-    shortName: 'watermelon'
+    shortcode: 'watermelon'
   },
   {
     label: 'Tangerine',
@@ -16707,7 +16707,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange'
     ],
     sheet: [6, 10],
-    shortName: 'tangerine'
+    shortcode: 'tangerine'
   },
   {
     label: 'Lemon',
@@ -16718,7 +16718,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [6, 11],
-    shortName: 'lemon'
+    shortcode: 'lemon'
   },
   {
     label: 'Banana',
@@ -16730,7 +16730,7 @@ export const emojis: CompressedEmojiData[] = [
       'monkey'
     ],
     sheet: [6, 12],
-    shortName: 'banana'
+    shortcode: 'banana'
   },
   {
     label: 'Pineapple',
@@ -16742,7 +16742,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [6, 13],
-    shortName: 'pineapple'
+    shortcode: 'pineapple'
   },
   {
     label: 'Mango',
@@ -16754,7 +16754,7 @@ export const emojis: CompressedEmojiData[] = [
       'tropical'
     ],
     sheet: [43, 55],
-    shortName: 'mango'
+    shortcode: 'mango'
   },
   {
     label: 'Red Apple',
@@ -16766,7 +16766,7 @@ export const emojis: CompressedEmojiData[] = [
       'school'
     ],
     sheet: [6, 14],
-    shortName: 'apple'
+    shortcode: 'apple'
   },
   {
     label: 'Green Apple',
@@ -16777,7 +16777,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [6, 15],
-    shortName: 'green_apple'
+    shortcode: 'green_apple'
   },
   {
     label: 'Pear',
@@ -16789,7 +16789,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [6, 16],
-    shortName: 'pear'
+    shortcode: 'pear'
   },
   {
     label: 'Peach',
@@ -16801,7 +16801,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [6, 17],
-    shortName: 'peach'
+    shortcode: 'peach'
   },
   {
     label: 'Cherries',
@@ -16812,7 +16812,7 @@ export const emojis: CompressedEmojiData[] = [
       'fruit'
     ],
     sheet: [6, 18],
-    shortName: 'cherries'
+    shortcode: 'cherries'
   },
   {
     label: 'Strawberry',
@@ -16824,14 +16824,14 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [6, 19],
-    shortName: 'strawberry'
+    shortcode: 'strawberry'
   },
   {
     label: 'Blueberries',
     hexcode: '1FAD0',
     tags: ['blueberries', 'fruit'],
     sheet: [55, 2],
-    shortName: 'blueberries'
+    shortcode: 'blueberries'
   },
   {
     label: 'Kiwifruit',
@@ -16842,7 +16842,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [43, 39],
-    shortName: 'kiwifruit'
+    shortcode: 'kiwifruit'
   },
   {
     label: 'Tomato',
@@ -16855,14 +16855,14 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [6, 5],
-    shortName: 'tomato'
+    shortcode: 'tomato'
   },
   {
     label: 'Olive',
     hexcode: '1FAD2',
     tags: ['olive', 'fruit'],
     sheet: [55, 4],
-    shortName: 'olive'
+    shortcode: 'olive'
   },
   {
     label: 'Coconut',
@@ -16875,7 +16875,7 @@ export const emojis: CompressedEmojiData[] = [
       'palm'
     ],
     sheet: [43, 47],
-    shortName: 'coconut'
+    shortcode: 'coconut'
   },
   {
     label: 'Avocado',
@@ -16886,7 +16886,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [43, 27],
-    shortName: 'avocado'
+    shortcode: 'avocado'
   },
   {
     label: 'Aubergine',
@@ -16899,7 +16899,7 @@ export const emojis: CompressedEmojiData[] = [
       'aubergine'
     ],
     sheet: [6, 6],
-    shortName: 'eggplant'
+    shortcode: 'eggplant'
   },
   {
     label: 'Potato',
@@ -16912,7 +16912,7 @@ export const emojis: CompressedEmojiData[] = [
       'starch'
     ],
     sheet: [43, 30],
-    shortName: 'potato'
+    shortcode: 'potato'
   },
   {
     label: 'Carrot',
@@ -16924,7 +16924,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange'
     ],
     sheet: [43, 31],
-    shortName: 'carrot'
+    shortcode: 'carrot'
   },
   {
     label: 'Ear of Maize',
@@ -16936,7 +16936,7 @@ export const emojis: CompressedEmojiData[] = [
       'plant'
     ],
     sheet: [5, 58],
-    shortName: 'corn'
+    shortcode: 'corn'
   },
   {
     label: 'Hot Pepper',
@@ -16949,7 +16949,7 @@ export const emojis: CompressedEmojiData[] = [
       'chili'
     ],
     sheet: [5, 51],
-    shortName: 'hot_pepper'
+    shortcode: 'hot_pepper'
   },
   {
     label: 'Bell Pepper',
@@ -16960,7 +16960,7 @@ export const emojis: CompressedEmojiData[] = [
       'plant'
     ],
     sheet: [55, 3],
-    shortName: 'bell_pepper'
+    shortcode: 'bell_pepper'
   },
   {
     label: 'Cucumber',
@@ -16972,7 +16972,7 @@ export const emojis: CompressedEmojiData[] = [
       'pickle'
     ],
     sheet: [43, 28],
-    shortName: 'cucumber'
+    shortcode: 'cucumber'
   },
   {
     label: 'Leafy Green',
@@ -16988,7 +16988,7 @@ export const emojis: CompressedEmojiData[] = [
       'lettuce'
     ],
     sheet: [43, 54],
-    shortName: 'leafy_green'
+    shortcode: 'leafy_green'
   },
   {
     label: 'Broccoli',
@@ -17000,7 +17000,7 @@ export const emojis: CompressedEmojiData[] = [
       'vegetable'
     ],
     sheet: [43, 48],
-    shortName: 'broccoli'
+    shortcode: 'broccoli'
   },
   {
     label: 'Garlic',
@@ -17012,7 +17012,7 @@ export const emojis: CompressedEmojiData[] = [
       'cook'
     ],
     sheet: [46, 9],
-    shortName: 'garlic'
+    shortcode: 'garlic'
   },
   {
     label: 'Onion',
@@ -17024,7 +17024,7 @@ export const emojis: CompressedEmojiData[] = [
       'spice'
     ],
     sheet: [46, 10],
-    shortName: 'onion'
+    shortcode: 'onion'
   },
   {
     label: 'Mushroom',
@@ -17035,7 +17035,7 @@ export const emojis: CompressedEmojiData[] = [
       'vegetable'
     ],
     sheet: [6, 4],
-    shortName: 'mushroom'
+    shortcode: 'mushroom'
   },
   {
     label: 'Peanuts',
@@ -17046,7 +17046,7 @@ export const emojis: CompressedEmojiData[] = [
       'nut'
     ],
     sheet: [43, 38],
-    shortName: 'peanuts'
+    shortcode: 'peanuts'
   },
   {
     label: 'Beans',
@@ -17054,7 +17054,7 @@ export const emojis: CompressedEmojiData[] = [
     tags: ['beans', 'food'],
     sheet: [55, 10],
     hidden: ['facebook'],
-    shortName: 'beans'
+    shortcode: 'beans'
   },
   {
     label: 'Chestnut',
@@ -17065,7 +17065,7 @@ export const emojis: CompressedEmojiData[] = [
       'squirrel'
     ],
     sheet: [5, 45],
-    shortName: 'chestnut'
+    shortcode: 'chestnut'
   },
   {
     label: 'Bread',
@@ -17078,7 +17078,7 @@ export const emojis: CompressedEmojiData[] = [
       'toast'
     ],
     sheet: [6, 30],
-    shortName: 'bread'
+    shortcode: 'bread'
   },
   {
     label: 'Croissant',
@@ -17090,7 +17090,7 @@ export const emojis: CompressedEmojiData[] = [
       'french'
     ],
     sheet: [43, 26],
-    shortName: 'croissant'
+    shortcode: 'croissant'
   },
   {
     label: 'Baguette Bread',
@@ -17104,7 +17104,7 @@ export const emojis: CompressedEmojiData[] = [
       'bakery'
     ],
     sheet: [43, 32],
-    shortName: 'baguette_bread'
+    shortcode: 'baguette_bread'
   },
   {
     label: 'Flatbread',
@@ -17116,7 +17116,7 @@ export const emojis: CompressedEmojiData[] = [
       'bakery'
     ],
     sheet: [55, 5],
-    shortName: 'flatbread'
+    shortcode: 'flatbread'
   },
   {
     label: 'Pretzel',
@@ -17130,7 +17130,7 @@ export const emojis: CompressedEmojiData[] = [
       'bakery'
     ],
     sheet: [43, 50],
-    shortName: 'pretzel'
+    shortcode: 'pretzel'
   },
   {
     label: 'Bagel',
@@ -17145,7 +17145,7 @@ export const emojis: CompressedEmojiData[] = [
       'bakery'
     ],
     sheet: [43, 57],
-    shortName: 'bagel'
+    shortcode: 'bagel'
   },
   {
     label: 'Pancakes',
@@ -17159,7 +17159,7 @@ export const emojis: CompressedEmojiData[] = [
       'brunch'
     ],
     sheet: [43, 40],
-    shortName: 'pancakes'
+    shortcode: 'pancakes'
   },
   {
     label: 'Waffle',
@@ -17171,7 +17171,7 @@ export const emojis: CompressedEmojiData[] = [
       'brunch'
     ],
     sheet: [46, 12],
-    shortName: 'waffle'
+    shortcode: 'waffle'
   },
   {
     label: 'Cheese Wedge',
@@ -17183,7 +17183,7 @@ export const emojis: CompressedEmojiData[] = [
       'swiss'
     ],
     sheet: [46, 5],
-    shortName: 'cheese_wedge'
+    shortcode: 'cheese_wedge'
   },
   {
     label: 'Meat on Bone',
@@ -17195,7 +17195,7 @@ export const emojis: CompressedEmojiData[] = [
       'drumstick'
     ],
     sheet: [6, 22],
-    shortName: 'meat_on_bone'
+    shortcode: 'meat_on_bone'
   },
   {
     label: 'Poultry Leg',
@@ -17210,7 +17210,7 @@ export const emojis: CompressedEmojiData[] = [
       'turkey'
     ],
     sheet: [6, 23],
-    shortName: 'poultry_leg'
+    shortcode: 'poultry_leg'
   },
   {
     label: 'Cut of Meat',
@@ -17226,7 +17226,7 @@ export const emojis: CompressedEmojiData[] = [
       'porkchop'
     ],
     sheet: [43, 51],
-    shortName: 'cut_of_meat'
+    shortcode: 'cut_of_meat'
   },
   {
     label: 'Bacon',
@@ -17241,7 +17241,7 @@ export const emojis: CompressedEmojiData[] = [
       'brunch'
     ],
     sheet: [43, 29],
-    shortName: 'bacon'
+    shortcode: 'bacon'
   },
   {
     label: 'Hamburger',
@@ -17256,7 +17256,7 @@ export const emojis: CompressedEmojiData[] = [
       'burger king'
     ],
     sheet: [6, 20],
-    shortName: 'hamburger'
+    shortcode: 'hamburger'
   },
   {
     label: 'French Fries',
@@ -17269,7 +17269,7 @@ export const emojis: CompressedEmojiData[] = [
       'potato'
     ],
     sheet: [6, 31],
-    shortName: 'fries'
+    shortcode: 'fries'
   },
   {
     label: 'Slice of Pizza',
@@ -17281,7 +17281,7 @@ export const emojis: CompressedEmojiData[] = [
       'italy'
     ],
     sheet: [6, 21],
-    shortName: 'pizza'
+    shortcode: 'pizza'
   },
   {
     label: 'Hot Dog',
@@ -17293,7 +17293,7 @@ export const emojis: CompressedEmojiData[] = [
       'america'
     ],
     sheet: [5, 42],
-    shortName: 'hotdog'
+    shortcode: 'hotdog'
   },
   {
     label: 'Sandwich',
@@ -17307,7 +17307,7 @@ export const emojis: CompressedEmojiData[] = [
       'bakery'
     ],
     sheet: [43, 52],
-    shortName: 'sandwich'
+    shortcode: 'sandwich'
   },
   {
     label: 'Taco',
@@ -17318,7 +17318,7 @@ export const emojis: CompressedEmojiData[] = [
       'mexican'
     ],
     sheet: [5, 43],
-    shortName: 'taco'
+    shortcode: 'taco'
   },
   {
     label: 'Burrito',
@@ -17329,7 +17329,7 @@ export const emojis: CompressedEmojiData[] = [
       'mexican'
     ],
     sheet: [5, 44],
-    shortName: 'burrito'
+    shortcode: 'burrito'
   },
   {
     label: 'Tamale',
@@ -17340,7 +17340,7 @@ export const emojis: CompressedEmojiData[] = [
       'masa'
     ],
     sheet: [55, 6],
-    shortName: 'tamale'
+    shortcode: 'tamale'
   },
   {
     label: 'Stuffed Flatbread',
@@ -17354,7 +17354,7 @@ export const emojis: CompressedEmojiData[] = [
       'mediterranean'
     ],
     sheet: [43, 35],
-    shortName: 'stuffed_flatbread'
+    shortcode: 'stuffed_flatbread'
   },
   {
     label: 'Falafel',
@@ -17365,7 +17365,7 @@ export const emojis: CompressedEmojiData[] = [
       'mediterranean'
     ],
     sheet: [46, 11],
-    shortName: 'falafel'
+    shortcode: 'falafel'
   },
   {
     label: 'Egg',
@@ -17377,7 +17377,7 @@ export const emojis: CompressedEmojiData[] = [
       'breakfast'
     ],
     sheet: [43, 36],
-    shortName: 'egg'
+    shortcode: 'egg'
   },
   {
     label: 'Cooking',
@@ -17391,8 +17391,8 @@ export const emojis: CompressedEmojiData[] = [
       'skillet'
     ],
     sheet: [6, 51],
-    shortNames: ['cooking'],
-    shortName: 'fried_egg'
+    shortcodes: ['cooking'],
+    shortcode: 'fried_egg'
   },
   {
     label: 'Shallow Pan of Food',
@@ -17406,7 +17406,7 @@ export const emojis: CompressedEmojiData[] = [
       'skillet'
     ],
     sheet: [43, 34],
-    shortName: 'shallow_pan_of_food'
+    shortcode: 'shallow_pan_of_food'
   },
   {
     label: 'Pot of Food',
@@ -17419,7 +17419,7 @@ export const emojis: CompressedEmojiData[] = [
       'hot pot'
     ],
     sheet: [6, 50],
-    shortName: 'stew'
+    shortcode: 'stew'
   },
   {
     label: 'Fondue',
@@ -17431,7 +17431,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [55, 7],
-    shortName: 'fondue'
+    shortcode: 'fondue'
   },
   {
     label: 'Bowl with Spoon',
@@ -17445,7 +17445,7 @@ export const emojis: CompressedEmojiData[] = [
       'porridge'
     ],
     sheet: [43, 45],
-    shortName: 'bowl_with_spoon'
+    shortcode: 'bowl_with_spoon'
   },
   {
     label: 'Green Salad',
@@ -17458,7 +17458,7 @@ export const emojis: CompressedEmojiData[] = [
       'vegetable'
     ],
     sheet: [43, 33],
-    shortName: 'green_salad'
+    shortcode: 'green_salad'
   },
   {
     label: 'Popcorn',
@@ -17472,7 +17472,7 @@ export const emojis: CompressedEmojiData[] = [
       'drama'
     ],
     sheet: [7, 2],
-    shortName: 'popcorn'
+    shortcode: 'popcorn'
   },
   {
     label: 'Butter',
@@ -17483,7 +17483,7 @@ export const emojis: CompressedEmojiData[] = [
       'cook'
     ],
     sheet: [46, 13],
-    shortName: 'butter'
+    shortcode: 'butter'
   },
   {
     label: 'Salt Shaker',
@@ -17494,7 +17494,7 @@ export const emojis: CompressedEmojiData[] = [
       'shaker'
     ],
     sheet: [46, 7],
-    shortName: 'salt'
+    shortcode: 'salt'
   },
   {
     label: 'Canned Food',
@@ -17506,7 +17506,7 @@ export const emojis: CompressedEmojiData[] = [
       'tomatoes'
     ],
     sheet: [43, 53],
-    shortName: 'canned_food'
+    shortcode: 'canned_food'
   },
   {
     label: 'Bento Box',
@@ -17519,7 +17519,7 @@ export const emojis: CompressedEmojiData[] = [
       'lunch'
     ],
     sheet: [6, 49],
-    shortName: 'bento'
+    shortcode: 'bento'
   },
   {
     label: 'Rice Cracker',
@@ -17531,7 +17531,7 @@ export const emojis: CompressedEmojiData[] = [
       'snack'
     ],
     sheet: [6, 24],
-    shortName: 'rice_cracker'
+    shortcode: 'rice_cracker'
   },
   {
     label: 'Rice Ball',
@@ -17542,7 +17542,7 @@ export const emojis: CompressedEmojiData[] = [
       'japanese'
     ],
     sheet: [6, 25],
-    shortName: 'rice_ball'
+    shortcode: 'rice_ball'
   },
   {
     label: 'Cooked Rice',
@@ -17553,7 +17553,7 @@ export const emojis: CompressedEmojiData[] = [
       'asian'
     ],
     sheet: [6, 26],
-    shortName: 'rice'
+    shortcode: 'rice'
   },
   {
     label: 'Curry and Rice',
@@ -17566,7 +17566,7 @@ export const emojis: CompressedEmojiData[] = [
       'indian'
     ],
     sheet: [6, 27],
-    shortName: 'curry'
+    shortcode: 'curry'
   },
   {
     label: 'Steaming Bowl',
@@ -17580,7 +17580,7 @@ export const emojis: CompressedEmojiData[] = [
       'ramen'
     ],
     sheet: [6, 28],
-    shortName: 'ramen'
+    shortcode: 'ramen'
   },
   {
     label: 'Spaghetti',
@@ -17593,7 +17593,7 @@ export const emojis: CompressedEmojiData[] = [
       'noodle'
     ],
     sheet: [6, 29],
-    shortName: 'spaghetti'
+    shortcode: 'spaghetti'
   },
   {
     label: 'Roasted Sweet Potato',
@@ -17605,7 +17605,7 @@ export const emojis: CompressedEmojiData[] = [
       'plant'
     ],
     sheet: [6, 32],
-    shortName: 'sweet_potato'
+    shortcode: 'sweet_potato'
   },
   {
     label: 'Oden',
@@ -17616,7 +17616,7 @@ export const emojis: CompressedEmojiData[] = [
       'japanese'
     ],
     sheet: [6, 34],
-    shortName: 'oden'
+    shortcode: 'oden'
   },
   {
     label: 'Sushi',
@@ -17629,7 +17629,7 @@ export const emojis: CompressedEmojiData[] = [
       'rice'
     ],
     sheet: [6, 35],
-    shortName: 'sushi'
+    shortcode: 'sushi'
   },
   {
     label: 'Fried Shrimp',
@@ -17642,7 +17642,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [6, 36],
-    shortName: 'fried_shrimp'
+    shortcode: 'fried_shrimp'
   },
   {
     label: 'Fish Cake with Swirl Design',
@@ -17661,7 +17661,7 @@ export const emojis: CompressedEmojiData[] = [
       'ramen'
     ],
     sheet: [6, 37],
-    shortName: 'fish_cake'
+    shortcode: 'fish_cake'
   },
   {
     label: 'Moon Cake',
@@ -17673,7 +17673,7 @@ export const emojis: CompressedEmojiData[] = [
       'dessert'
     ],
     sheet: [43, 56],
-    shortName: 'moon_cake'
+    shortcode: 'moon_cake'
   },
   {
     label: 'Dango',
@@ -17688,7 +17688,7 @@ export const emojis: CompressedEmojiData[] = [
       'meat'
     ],
     sheet: [6, 33],
-    shortName: 'dango'
+    shortcode: 'dango'
   },
   {
     label: 'Dumpling',
@@ -17702,7 +17702,7 @@ export const emojis: CompressedEmojiData[] = [
       'gyoza'
     ],
     sheet: [43, 41],
-    shortName: 'dumpling'
+    shortcode: 'dumpling'
   },
   {
     label: 'Fortune Cookie',
@@ -17714,7 +17714,7 @@ export const emojis: CompressedEmojiData[] = [
       'dessert'
     ],
     sheet: [43, 42],
-    shortName: 'fortune_cookie'
+    shortcode: 'fortune_cookie'
   },
   {
     label: 'Takeout Box',
@@ -17725,7 +17725,7 @@ export const emojis: CompressedEmojiData[] = [
       'leftovers'
     ],
     sheet: [43, 43],
-    shortName: 'takeout_box'
+    shortcode: 'takeout_box'
   },
   {
     label: 'Crab',
@@ -17736,7 +17736,7 @@ export const emojis: CompressedEmojiData[] = [
       'crustacean'
     ],
     sheet: [44, 18],
-    shortName: 'crab'
+    shortcode: 'crab'
   },
   {
     label: 'Lobster',
@@ -17750,7 +17750,7 @@ export const emojis: CompressedEmojiData[] = [
       'seafood'
     ],
     sheet: [44, 48],
-    shortName: 'lobster'
+    shortcode: 'lobster'
   },
   {
     label: 'Shrimp',
@@ -17763,7 +17763,7 @@ export const emojis: CompressedEmojiData[] = [
       'seafood'
     ],
     sheet: [44, 34],
-    shortName: 'shrimp'
+    shortcode: 'shrimp'
   },
   {
     label: 'Squid',
@@ -17776,14 +17776,14 @@ export const emojis: CompressedEmojiData[] = [
       'sea'
     ],
     sheet: [44, 35],
-    shortName: 'squid'
+    shortcode: 'squid'
   },
   {
     label: 'Oyster',
     hexcode: '1F9AA',
     tags: ['oyster', 'food'],
     sheet: [44, 60],
-    shortName: 'oyster'
+    shortcode: 'oyster'
   },
   {
     label: 'Soft Ice Cream',
@@ -17796,7 +17796,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [6, 38],
-    shortName: 'icecream'
+    shortcode: 'icecream'
   },
   {
     label: 'Shaved Ice',
@@ -17808,7 +17808,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [6, 39],
-    shortName: 'shaved_ice'
+    shortcode: 'shaved_ice'
   },
   {
     label: 'Ice Cream',
@@ -17820,7 +17820,7 @@ export const emojis: CompressedEmojiData[] = [
       'dessert'
     ],
     sheet: [6, 40],
-    shortName: 'ice_cream'
+    shortcode: 'ice_cream'
   },
   {
     label: 'Doughnut',
@@ -17834,7 +17834,7 @@ export const emojis: CompressedEmojiData[] = [
       'donut'
     ],
     sheet: [6, 41],
-    shortName: 'doughnut'
+    shortcode: 'doughnut'
   },
   {
     label: 'Cookie',
@@ -17849,7 +17849,7 @@ export const emojis: CompressedEmojiData[] = [
       'dessert'
     ],
     sheet: [6, 42],
-    shortName: 'cookie'
+    shortcode: 'cookie'
   },
   {
     label: 'Birthday Cake',
@@ -17861,7 +17861,7 @@ export const emojis: CompressedEmojiData[] = [
       'cake'
     ],
     sheet: [7, 5],
-    shortName: 'birthday'
+    shortcode: 'birthday'
   },
   {
     label: 'Shortcake',
@@ -17872,7 +17872,7 @@ export const emojis: CompressedEmojiData[] = [
       'dessert'
     ],
     sheet: [6, 48],
-    shortName: 'cake'
+    shortcode: 'cake'
   },
   {
     label: 'Cupcake',
@@ -17885,7 +17885,7 @@ export const emojis: CompressedEmojiData[] = [
       'sweet'
     ],
     sheet: [46, 6],
-    shortName: 'cupcake'
+    shortcode: 'cupcake'
   },
   {
     label: 'Pie',
@@ -17897,7 +17897,7 @@ export const emojis: CompressedEmojiData[] = [
       'pastry'
     ],
     sheet: [43, 49],
-    shortName: 'pie'
+    shortcode: 'pie'
   },
   {
     label: 'Chocolate Bar',
@@ -17910,7 +17910,7 @@ export const emojis: CompressedEmojiData[] = [
       'sweet'
     ],
     sheet: [6, 43],
-    shortName: 'chocolate_bar'
+    shortcode: 'chocolate_bar'
   },
   {
     label: 'Candy',
@@ -17923,7 +17923,7 @@ export const emojis: CompressedEmojiData[] = [
       'lolly'
     ],
     sheet: [6, 44],
-    shortName: 'candy'
+    shortcode: 'candy'
   },
   {
     label: 'Lollipop',
@@ -17936,7 +17936,7 @@ export const emojis: CompressedEmojiData[] = [
       'sweet'
     ],
     sheet: [6, 45],
-    shortName: 'lollipop'
+    shortcode: 'lollipop'
   },
   {
     label: 'Custard',
@@ -17947,7 +17947,7 @@ export const emojis: CompressedEmojiData[] = [
       'food'
     ],
     sheet: [6, 46],
-    shortName: 'custard'
+    shortcode: 'custard'
   },
   {
     label: 'Honey Pot',
@@ -17959,7 +17959,7 @@ export const emojis: CompressedEmojiData[] = [
       'kitchen'
     ],
     sheet: [6, 47],
-    shortName: 'honey_pot'
+    shortcode: 'honey_pot'
   },
   {
     label: 'Baby Bottle',
@@ -17971,7 +17971,7 @@ export const emojis: CompressedEmojiData[] = [
       'milk'
     ],
     sheet: [6, 60],
-    shortName: 'baby_bottle'
+    shortcode: 'baby_bottle'
   },
   {
     label: 'Glass of Milk',
@@ -17983,7 +17983,7 @@ export const emojis: CompressedEmojiData[] = [
       'cow'
     ],
     sheet: [43, 37],
-    shortName: 'glass_of_milk'
+    shortcode: 'glass_of_milk'
   },
   {
     label: 'Hot Beverage',
@@ -17998,7 +17998,7 @@ export const emojis: CompressedEmojiData[] = [
       'mug'
     ],
     sheet: [56, 48],
-    shortName: 'coffee'
+    shortcode: 'coffee'
   },
   {
     label: 'Teapot',
@@ -18009,7 +18009,7 @@ export const emojis: CompressedEmojiData[] = [
       'hot'
     ],
     sheet: [55, 8],
-    shortName: 'teapot'
+    shortcode: 'teapot'
   },
   {
     label: 'Teacup Without Handle',
@@ -18023,7 +18023,7 @@ export const emojis: CompressedEmojiData[] = [
       'british'
     ],
     sheet: [6, 53],
-    shortName: 'tea'
+    shortcode: 'tea'
   },
   {
     label: 'Sake Bottle and Cup',
@@ -18039,7 +18039,7 @@ export const emojis: CompressedEmojiData[] = [
       'booze'
     ],
     sheet: [6, 54],
-    shortName: 'sake'
+    shortcode: 'sake'
   },
   {
     label: 'Bottle with Popping Cork',
@@ -18052,7 +18052,7 @@ export const emojis: CompressedEmojiData[] = [
       'celebration'
     ],
     sheet: [7, 1],
-    shortName: 'champagne'
+    shortcode: 'champagne'
   },
   {
     label: 'Wine Glass',
@@ -18066,7 +18066,7 @@ export const emojis: CompressedEmojiData[] = [
       'booze'
     ],
     sheet: [6, 55],
-    shortName: 'wine_glass'
+    shortcode: 'wine_glass'
   },
   {
     label: 'Cocktail Glass',
@@ -18081,7 +18081,7 @@ export const emojis: CompressedEmojiData[] = [
       'mojito'
     ],
     sheet: [6, 56],
-    shortName: 'cocktail'
+    shortcode: 'cocktail'
   },
   {
     label: 'Tropical Drink',
@@ -18097,7 +18097,7 @@ export const emojis: CompressedEmojiData[] = [
       'mojito'
     ],
     sheet: [6, 57],
-    shortName: 'tropical_drink'
+    shortcode: 'tropical_drink'
   },
   {
     label: 'Beer Mug',
@@ -18115,7 +18115,7 @@ export const emojis: CompressedEmojiData[] = [
       'booze'
     ],
     sheet: [6, 58],
-    shortName: 'beer'
+    shortcode: 'beer'
   },
   {
     label: 'Clinking Beer Mugs',
@@ -18133,7 +18133,7 @@ export const emojis: CompressedEmojiData[] = [
       'booze'
     ],
     sheet: [6, 59],
-    shortName: 'beers'
+    shortcode: 'beers'
   },
   {
     label: 'Clinking Glasses',
@@ -18151,7 +18151,7 @@ export const emojis: CompressedEmojiData[] = [
       'toast'
     ],
     sheet: [43, 13],
-    shortName: 'clinking_glasses'
+    shortcode: 'clinking_glasses'
   },
   {
     label: 'Tumbler Glass',
@@ -18171,7 +18171,7 @@ export const emojis: CompressedEmojiData[] = [
       'shot'
     ],
     sheet: [43, 14],
-    shortName: 'tumbler_glass'
+    shortcode: 'tumbler_glass'
   },
   {
     label: 'Pouring Liquid',
@@ -18183,7 +18183,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 9],
     hidden: ['facebook'],
-    shortName: 'pouring_liquid'
+    shortcode: 'pouring_liquid'
   },
   {
     label: 'Cup with Straw',
@@ -18194,7 +18194,7 @@ export const emojis: CompressedEmojiData[] = [
       'soda'
     ],
     sheet: [43, 46],
-    shortName: 'cup_with_straw'
+    shortcode: 'cup_with_straw'
   },
   {
     label: 'Bubble Tea',
@@ -18207,14 +18207,14 @@ export const emojis: CompressedEmojiData[] = [
       'straw'
     ],
     sheet: [46, 16],
-    shortName: 'bubble_tea'
+    shortcode: 'bubble_tea'
   },
   {
     label: 'Beverage Box',
     hexcode: '1F9C3',
     tags: ['beverage_box', 'drink'],
     sheet: [46, 8],
-    shortName: 'beverage_box'
+    shortcode: 'beverage_box'
   },
   {
     label: 'Mate Drink',
@@ -18226,21 +18226,21 @@ export const emojis: CompressedEmojiData[] = [
       'beverage'
     ],
     sheet: [46, 14],
-    shortName: 'mate_drink'
+    shortcode: 'mate_drink'
   },
   {
     label: 'Ice Cube',
     hexcode: '1F9CA',
     tags: ['ice', 'water', 'cold'],
     sheet: [46, 15],
-    shortName: 'ice_cube'
+    shortcode: 'ice_cube'
   },
   {
     label: 'Chopsticks',
     hexcode: '1F962',
     tags: ['chopsticks', 'food'],
     sheet: [43, 44],
-    shortName: 'chopsticks'
+    shortcode: 'chopsticks'
   },
   {
     label: 'Fork and Knife with Plate',
@@ -18255,7 +18255,7 @@ export const emojis: CompressedEmojiData[] = [
       'restaurant'
     ],
     sheet: [7, 0],
-    shortName: 'knife_fork_plate'
+    shortcode: 'knife_fork_plate'
   },
   {
     label: 'Fork and Knife',
@@ -18266,7 +18266,7 @@ export const emojis: CompressedEmojiData[] = [
       'kitchen'
     ],
     sheet: [6, 52],
-    shortName: 'fork_and_knife'
+    shortcode: 'fork_and_knife'
   },
   {
     label: 'Spoon',
@@ -18278,7 +18278,7 @@ export const emojis: CompressedEmojiData[] = [
       'tableware'
     ],
     sheet: [43, 15],
-    shortName: 'spoon'
+    shortcode: 'spoon'
   },
   {
     label: 'Hocho',
@@ -18292,8 +18292,8 @@ export const emojis: CompressedEmojiData[] = [
       'weapon'
     ],
     sheet: [30, 6],
-    shortNames: ['knife'],
-    shortName: 'hocho'
+    shortcodes: ['knife'],
+    shortcode: 'hocho'
   },
   {
     label: 'Jar',
@@ -18305,7 +18305,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 11],
     hidden: ['facebook'],
-    shortName: 'jar'
+    shortcode: 'jar'
   },
   {
     label: 'Amphora',
@@ -18316,7 +18316,7 @@ export const emojis: CompressedEmojiData[] = [
       'jar'
     ],
     sheet: [10, 40],
-    shortName: 'amphora'
+    shortcode: 'amphora'
   },
   {
     label: 'Earth Globe Europe-Africa',
@@ -18328,7 +18328,7 @@ export const emojis: CompressedEmojiData[] = [
       'international'
     ],
     sheet: [5, 12],
-    shortName: 'earth_africa'
+    shortcode: 'earth_africa'
   },
   {
     label: 'Earth Globe Americas',
@@ -18341,7 +18341,7 @@ export const emojis: CompressedEmojiData[] = [
       'international'
     ],
     sheet: [5, 13],
-    shortName: 'earth_americas'
+    shortcode: 'earth_americas'
   },
   {
     label: 'Earth Globe Asia-Australia',
@@ -18354,7 +18354,7 @@ export const emojis: CompressedEmojiData[] = [
       'international'
     ],
     sheet: [5, 14],
-    shortName: 'earth_asia'
+    shortcode: 'earth_asia'
   },
   {
     label: 'Globe with Meridians',
@@ -18369,7 +18369,7 @@ export const emojis: CompressedEmojiData[] = [
       'i18n'
     ],
     sheet: [5, 15],
-    shortName: 'globe_with_meridians'
+    shortcode: 'globe_with_meridians'
   },
   {
     label: 'World Map',
@@ -18380,7 +18380,7 @@ export const emojis: CompressedEmojiData[] = [
       'direction'
     ],
     sheet: [32, 14],
-    shortName: 'world_map'
+    shortcode: 'world_map'
   },
   {
     label: 'Silhouette of Japan',
@@ -18393,7 +18393,7 @@ export const emojis: CompressedEmojiData[] = [
       'asia'
     ],
     sheet: [32, 18],
-    shortName: 'japan'
+    shortcode: 'japan'
   },
   {
     label: 'Compass',
@@ -18405,7 +18405,7 @@ export const emojis: CompressedEmojiData[] = [
       'orienteering'
     ],
     sheet: [53, 27],
-    shortName: 'compass'
+    shortcode: 'compass'
   },
   {
     label: 'Snow-Capped Mountain',
@@ -18419,7 +18419,7 @@ export const emojis: CompressedEmojiData[] = [
       'cold'
     ],
     sheet: [9, 60],
-    shortName: 'snow_capped_mountain'
+    shortcode: 'snow_capped_mountain'
   },
   {
     label: 'Mountain',
@@ -18431,7 +18431,7 @@ export const emojis: CompressedEmojiData[] = [
       'environment'
     ],
     sheet: [57, 56],
-    shortName: 'mountain'
+    shortcode: 'mountain'
   },
   {
     label: 'Volcano',
@@ -18443,7 +18443,7 @@ export const emojis: CompressedEmojiData[] = [
       'disaster'
     ],
     sheet: [5, 10],
-    shortName: 'volcano'
+    shortcode: 'volcano'
   },
   {
     label: 'Mount Fuji',
@@ -18456,7 +18456,7 @@ export const emojis: CompressedEmojiData[] = [
       'japanese'
     ],
     sheet: [32, 15],
-    shortName: 'mount_fuji'
+    shortcode: 'mount_fuji'
   },
   {
     label: 'Camping',
@@ -18468,7 +18468,7 @@ export const emojis: CompressedEmojiData[] = [
       'tent'
     ],
     sheet: [10, 0],
-    shortName: 'camping'
+    shortcode: 'camping'
   },
   {
     label: 'Beach with Umbrella',
@@ -18482,7 +18482,7 @@ export const emojis: CompressedEmojiData[] = [
       'mojito'
     ],
     sheet: [10, 1],
-    shortName: 'beach_with_umbrella'
+    shortcode: 'beach_with_umbrella'
   },
   {
     label: 'Desert',
@@ -18494,7 +18494,7 @@ export const emojis: CompressedEmojiData[] = [
       'saharah'
     ],
     sheet: [10, 7],
-    shortName: 'desert'
+    shortcode: 'desert'
   },
   {
     label: 'Desert Island',
@@ -18506,7 +18506,7 @@ export const emojis: CompressedEmojiData[] = [
       'mojito'
     ],
     sheet: [10, 8],
-    shortName: 'desert_island'
+    shortcode: 'desert_island'
   },
   {
     label: 'National Park',
@@ -18518,7 +18518,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [10, 9],
-    shortName: 'national_park'
+    shortcode: 'national_park'
   },
   {
     label: 'Stadium',
@@ -18532,7 +18532,7 @@ export const emojis: CompressedEmojiData[] = [
       'venue'
     ],
     sheet: [10, 10],
-    shortName: 'stadium'
+    shortcode: 'stadium'
   },
   {
     label: 'Classical Building',
@@ -18544,7 +18544,7 @@ export const emojis: CompressedEmojiData[] = [
       'history'
     ],
     sheet: [10, 6],
-    shortName: 'classical_building'
+    shortcode: 'classical_building'
   },
   {
     label: 'Building Construction',
@@ -18556,21 +18556,21 @@ export const emojis: CompressedEmojiData[] = [
       'progress'
     ],
     sheet: [10, 2],
-    shortName: 'building_construction'
+    shortcode: 'building_construction'
   },
   {
     label: 'Brick',
     hexcode: '1F9F1',
     tags: ['brick', 'bricks'],
     sheet: [53, 31],
-    shortName: 'bricks'
+    shortcode: 'bricks'
   },
   {
     label: 'Rock',
     hexcode: '1FAA8',
     tags: ['rock', 'stone'],
     sheet: [54, 26],
-    shortName: 'rock'
+    shortcode: 'rock'
   },
   {
     label: 'Wood',
@@ -18582,7 +18582,7 @@ export const emojis: CompressedEmojiData[] = [
       'trunk'
     ],
     sheet: [54, 36],
-    shortName: 'wood'
+    shortcode: 'wood'
   },
   {
     label: 'Hut',
@@ -18593,7 +18593,7 @@ export const emojis: CompressedEmojiData[] = [
       'structure'
     ],
     sheet: [38, 6],
-    shortName: 'hut'
+    shortcode: 'hut'
   },
   {
     label: 'Houses',
@@ -18604,7 +18604,7 @@ export const emojis: CompressedEmojiData[] = [
       'photo'
     ],
     sheet: [10, 3],
-    shortName: 'house_buildings'
+    shortcode: 'house_buildings'
   },
   {
     label: 'Derelict House',
@@ -18617,7 +18617,7 @@ export const emojis: CompressedEmojiData[] = [
       'building'
     ],
     sheet: [10, 5],
-    shortName: 'derelict_house_building'
+    shortcode: 'derelict_house_building'
   },
   {
     label: 'House Building',
@@ -18628,7 +18628,7 @@ export const emojis: CompressedEmojiData[] = [
       'home'
     ],
     sheet: [10, 11],
-    shortName: 'house'
+    shortcode: 'house'
   },
   {
     label: 'House with Garden',
@@ -18640,7 +18640,7 @@ export const emojis: CompressedEmojiData[] = [
       'nature'
     ],
     sheet: [10, 12],
-    shortName: 'house_with_garden'
+    shortcode: 'house_with_garden'
   },
   {
     label: 'Office Building',
@@ -18652,7 +18652,7 @@ export const emojis: CompressedEmojiData[] = [
       'work'
     ],
     sheet: [10, 13],
-    shortName: 'office'
+    shortcode: 'office'
   },
   {
     label: 'Japanese Post Office',
@@ -18664,7 +18664,7 @@ export const emojis: CompressedEmojiData[] = [
       'communication'
     ],
     sheet: [10, 14],
-    shortName: 'post_office'
+    shortcode: 'post_office'
   },
   {
     label: 'European Post Office',
@@ -18675,7 +18675,7 @@ export const emojis: CompressedEmojiData[] = [
       'email'
     ],
     sheet: [10, 15],
-    shortName: 'european_post_office'
+    shortcode: 'european_post_office'
   },
   {
     label: 'Hospital',
@@ -18688,7 +18688,7 @@ export const emojis: CompressedEmojiData[] = [
       'doctor'
     ],
     sheet: [10, 16],
-    shortName: 'hospital'
+    shortcode: 'hospital'
   },
   {
     label: 'Bank',
@@ -18703,7 +18703,7 @@ export const emojis: CompressedEmojiData[] = [
       'enterprise'
     ],
     sheet: [10, 17],
-    shortName: 'bank'
+    shortcode: 'bank'
   },
   {
     label: 'Hotel',
@@ -18715,7 +18715,7 @@ export const emojis: CompressedEmojiData[] = [
       'checkin'
     ],
     sheet: [10, 19],
-    shortName: 'hotel'
+    shortcode: 'hotel'
   },
   {
     label: 'Love Hotel',
@@ -18727,7 +18727,7 @@ export const emojis: CompressedEmojiData[] = [
       'dating'
     ],
     sheet: [10, 20],
-    shortName: 'love_hotel'
+    shortcode: 'love_hotel'
   },
   {
     label: 'Convenience Store',
@@ -18739,7 +18739,7 @@ export const emojis: CompressedEmojiData[] = [
       'groceries'
     ],
     sheet: [10, 21],
-    shortName: 'convenience_store'
+    shortcode: 'convenience_store'
   },
   {
     label: 'School',
@@ -18753,7 +18753,7 @@ export const emojis: CompressedEmojiData[] = [
       'teach'
     ],
     sheet: [10, 22],
-    shortName: 'school'
+    shortcode: 'school'
   },
   {
     label: 'Department Store',
@@ -18765,7 +18765,7 @@ export const emojis: CompressedEmojiData[] = [
       'mall'
     ],
     sheet: [10, 23],
-    shortName: 'department_store'
+    shortcode: 'department_store'
   },
   {
     label: 'Factory',
@@ -18778,7 +18778,7 @@ export const emojis: CompressedEmojiData[] = [
       'smoke'
     ],
     sheet: [10, 24],
-    shortName: 'factory'
+    shortcode: 'factory'
   },
   {
     label: 'Japanese Castle',
@@ -18789,7 +18789,7 @@ export const emojis: CompressedEmojiData[] = [
       'building'
     ],
     sheet: [10, 26],
-    shortName: 'japanese_castle'
+    shortcode: 'japanese_castle'
   },
   {
     label: 'European Castle',
@@ -18801,7 +18801,7 @@ export const emojis: CompressedEmojiData[] = [
       'history'
     ],
     sheet: [10, 27],
-    shortName: 'european_castle'
+    shortcode: 'european_castle'
   },
   {
     label: 'Wedding',
@@ -18817,7 +18817,7 @@ export const emojis: CompressedEmojiData[] = [
       'groom'
     ],
     sheet: [27, 33],
-    shortName: 'wedding'
+    shortcode: 'wedding'
   },
   {
     label: 'Tokyo Tower',
@@ -18828,7 +18828,7 @@ export const emojis: CompressedEmojiData[] = [
       'japanese'
     ],
     sheet: [32, 16],
-    shortName: 'tokyo_tower'
+    shortcode: 'tokyo_tower'
   },
   {
     label: 'Statue of Liberty',
@@ -18839,7 +18839,7 @@ export const emojis: CompressedEmojiData[] = [
       'newyork'
     ],
     sheet: [32, 17],
-    shortName: 'statue_of_liberty'
+    shortcode: 'statue_of_liberty'
   },
   {
     label: 'Church',
@@ -18851,7 +18851,7 @@ export const emojis: CompressedEmojiData[] = [
       'christ'
     ],
     sheet: [57, 55],
-    shortName: 'church'
+    shortcode: 'church'
   },
   {
     label: 'Mosque',
@@ -18863,7 +18863,7 @@ export const emojis: CompressedEmojiData[] = [
       'minaret'
     ],
     sheet: [30, 29],
-    shortName: 'mosque'
+    shortcode: 'mosque'
   },
   {
     label: 'Hindu Temple',
@@ -18873,7 +18873,7 @@ export const emojis: CompressedEmojiData[] = [
       'religion'
     ],
     sheet: [38, 5],
-    shortName: 'hindu_temple'
+    shortcode: 'hindu_temple'
   },
   {
     label: 'Synagogue',
@@ -18886,7 +18886,7 @@ export const emojis: CompressedEmojiData[] = [
       'jewish'
     ],
     sheet: [30, 30],
-    shortName: 'synagogue'
+    shortcode: 'synagogue'
   },
   {
     label: 'Shinto Shrine',
@@ -18898,7 +18898,7 @@ export const emojis: CompressedEmojiData[] = [
       'kyoto'
     ],
     sheet: [57, 54],
-    shortName: 'shinto_shrine'
+    shortcode: 'shinto_shrine'
   },
   {
     label: 'Kaaba',
@@ -18910,7 +18910,7 @@ export const emojis: CompressedEmojiData[] = [
       'islam'
     ],
     sheet: [30, 28],
-    shortName: 'kaaba'
+    shortcode: 'kaaba'
   },
   {
     label: 'Fountain',
@@ -18923,7 +18923,7 @@ export const emojis: CompressedEmojiData[] = [
       'fresh'
     ],
     sheet: [57, 58],
-    shortName: 'fountain'
+    shortcode: 'fountain'
   },
   {
     label: 'Tent',
@@ -18935,7 +18935,7 @@ export const emojis: CompressedEmojiData[] = [
       'outdoors'
     ],
     sheet: [58, 21],
-    shortName: 'tent'
+    shortcode: 'tent'
   },
   {
     label: 'Foggy',
@@ -18946,7 +18946,7 @@ export const emojis: CompressedEmojiData[] = [
       'mountain'
     ],
     sheet: [5, 0],
-    shortName: 'foggy'
+    shortcode: 'foggy'
   },
   {
     label: 'Night with Stars',
@@ -18958,7 +18958,7 @@ export const emojis: CompressedEmojiData[] = [
       'downtown'
     ],
     sheet: [5, 2],
-    shortName: 'night_with_stars'
+    shortcode: 'night_with_stars'
   },
   {
     label: 'Cityscape',
@@ -18970,7 +18970,7 @@ export const emojis: CompressedEmojiData[] = [
       'urban'
     ],
     sheet: [10, 4],
-    shortName: 'cityscape'
+    shortcode: 'cityscape'
   },
   {
     label: 'Sunrise over Mountains',
@@ -18982,7 +18982,7 @@ export const emojis: CompressedEmojiData[] = [
       'photo'
     ],
     sheet: [5, 3],
-    shortName: 'sunrise_over_mountains'
+    shortcode: 'sunrise_over_mountains'
   },
   {
     label: 'Sunrise',
@@ -18995,7 +18995,7 @@ export const emojis: CompressedEmojiData[] = [
       'photo'
     ],
     sheet: [5, 4],
-    shortName: 'sunrise'
+    shortcode: 'sunrise'
   },
   {
     label: 'Cityscape at Dusk',
@@ -19008,7 +19008,7 @@ export const emojis: CompressedEmojiData[] = [
       'buildings'
     ],
     sheet: [5, 5],
-    shortName: 'city_sunset'
+    shortcode: 'city_sunset'
   },
   {
     label: 'Sunset over Buildings',
@@ -19020,7 +19020,7 @@ export const emojis: CompressedEmojiData[] = [
       'dawn'
     ],
     sheet: [5, 6],
-    shortName: 'city_sunrise'
+    shortcode: 'city_sunrise'
   },
   {
     label: 'Bridge at Night',
@@ -19031,7 +19031,7 @@ export const emojis: CompressedEmojiData[] = [
       'sanfrancisco'
     ],
     sheet: [5, 8],
-    shortName: 'bridge_at_night'
+    shortcode: 'bridge_at_night'
   },
   {
     label: 'Hot Springs',
@@ -19043,7 +19043,7 @@ export const emojis: CompressedEmojiData[] = [
       'relax'
     ],
     sheet: [57, 24],
-    shortName: 'hotsprings'
+    shortcode: 'hotsprings'
   },
   {
     label: 'Carousel Horse',
@@ -19054,7 +19054,7 @@ export const emojis: CompressedEmojiData[] = [
       'carnival'
     ],
     sheet: [7, 35],
-    shortName: 'carousel_horse'
+    shortcode: 'carousel_horse'
   },
   {
     label: 'Playground Slide',
@@ -19066,7 +19066,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [38, 8],
     hidden: ['facebook'],
-    shortName: 'playground_slide'
+    shortcode: 'playground_slide'
   },
   {
     label: 'Ferris Wheel',
@@ -19078,7 +19078,7 @@ export const emojis: CompressedEmojiData[] = [
       'londoneye'
     ],
     sheet: [7, 36],
-    shortName: 'ferris_wheel'
+    shortcode: 'ferris_wheel'
   },
   {
     label: 'Roller Coaster',
@@ -19091,7 +19091,7 @@ export const emojis: CompressedEmojiData[] = [
       'fun'
     ],
     sheet: [7, 37],
-    shortName: 'roller_coaster'
+    shortcode: 'roller_coaster'
   },
   {
     label: 'Barber Pole',
@@ -19103,7 +19103,7 @@ export const emojis: CompressedEmojiData[] = [
       'style'
     ],
     sheet: [26, 34],
-    shortName: 'barber'
+    shortcode: 'barber'
   },
   {
     label: 'Circus Tent',
@@ -19115,7 +19115,7 @@ export const emojis: CompressedEmojiData[] = [
       'party'
     ],
     sheet: [7, 45],
-    shortName: 'circus_tent'
+    shortcode: 'circus_tent'
   },
   {
     label: 'Steam Locomotive',
@@ -19127,7 +19127,7 @@ export const emojis: CompressedEmojiData[] = [
       'train'
     ],
     sheet: [35, 34],
-    shortName: 'steam_locomotive'
+    shortcode: 'steam_locomotive'
   },
   {
     label: 'Railway Car',
@@ -19138,7 +19138,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 35],
-    shortName: 'railway_car'
+    shortcode: 'railway_car'
   },
   {
     label: 'High-Speed Train',
@@ -19149,7 +19149,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 36],
-    shortName: 'bullettrain_side'
+    shortcode: 'bullettrain_side'
   },
   {
     label: 'High-Speed Train with Bullet Nose',
@@ -19164,7 +19164,7 @@ export const emojis: CompressedEmojiData[] = [
       'travel'
     ],
     sheet: [35, 37],
-    shortName: 'bullettrain_front'
+    shortcode: 'bullettrain_front'
   },
   {
     label: 'Train',
@@ -19175,7 +19175,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 38],
-    shortName: 'train2'
+    shortcode: 'train2'
   },
   {
     label: 'Metro',
@@ -19189,7 +19189,7 @@ export const emojis: CompressedEmojiData[] = [
       'tube'
     ],
     sheet: [35, 39],
-    shortName: 'metro'
+    shortcode: 'metro'
   },
   {
     label: 'Light Rail',
@@ -19200,7 +19200,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 40],
-    shortName: 'light_rail'
+    shortcode: 'light_rail'
   },
   {
     label: 'Station',
@@ -19212,7 +19212,7 @@ export const emojis: CompressedEmojiData[] = [
       'public'
     ],
     sheet: [35, 41],
-    shortName: 'station'
+    shortcode: 'station'
   },
   {
     label: 'Tram',
@@ -19223,7 +19223,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 42],
-    shortName: 'tram'
+    shortcode: 'tram'
   },
   {
     label: 'Monorail',
@@ -19234,7 +19234,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [36, 0],
-    shortName: 'monorail'
+    shortcode: 'monorail'
   },
   {
     label: 'Mountain Railway',
@@ -19245,7 +19245,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [36, 1],
-    shortName: 'mountain_railway'
+    shortcode: 'mountain_railway'
   },
   {
     label: 'Tram Car',
@@ -19259,7 +19259,7 @@ export const emojis: CompressedEmojiData[] = [
       'travel'
     ],
     sheet: [35, 43],
-    shortName: 'train'
+    shortcode: 'train'
   },
   {
     label: 'Bus',
@@ -19271,7 +19271,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [35, 44],
-    shortName: 'bus'
+    shortcode: 'bus'
   },
   {
     label: 'Oncoming Bus',
@@ -19282,7 +19282,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [35, 45],
-    shortName: 'oncoming_bus'
+    shortcode: 'oncoming_bus'
   },
   {
     label: 'Trolleybus',
@@ -19294,7 +19294,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 46],
-    shortName: 'trolleybus'
+    shortcode: 'trolleybus'
   },
   {
     label: 'Minibus',
@@ -19306,7 +19306,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [35, 48],
-    shortName: 'minibus'
+    shortcode: 'minibus'
   },
   {
     label: 'Ambulance',
@@ -19318,7 +19318,7 @@ export const emojis: CompressedEmojiData[] = [
       'hospital'
     ],
     sheet: [35, 49],
-    shortName: 'ambulance'
+    shortcode: 'ambulance'
   },
   {
     label: 'Fire Engine',
@@ -19330,7 +19330,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 50],
-    shortName: 'fire_engine'
+    shortcode: 'fire_engine'
   },
   {
     label: 'Police Car',
@@ -19345,7 +19345,7 @@ export const emojis: CompressedEmojiData[] = [
       'enforcement'
     ],
     sheet: [35, 51],
-    shortName: 'police_car'
+    shortcode: 'police_car'
   },
   {
     label: 'Oncoming Police Car',
@@ -19359,7 +19359,7 @@ export const emojis: CompressedEmojiData[] = [
       '911'
     ],
     sheet: [35, 52],
-    shortName: 'oncoming_police_car'
+    shortcode: 'oncoming_police_car'
   },
   {
     label: 'Taxi',
@@ -19372,7 +19372,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [35, 53],
-    shortName: 'taxi'
+    shortcode: 'taxi'
   },
   {
     label: 'Oncoming Taxi',
@@ -19384,7 +19384,7 @@ export const emojis: CompressedEmojiData[] = [
       'uber'
     ],
     sheet: [35, 54],
-    shortName: 'oncoming_taxi'
+    shortcode: 'oncoming_taxi'
   },
   {
     label: 'Automobile',
@@ -19396,8 +19396,8 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 55],
-    shortNames: ['red_car'],
-    shortName: 'car'
+    shortcodes: ['red_car'],
+    shortcode: 'car'
   },
   {
     label: 'Oncoming Automobile',
@@ -19409,7 +19409,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [35, 56],
-    shortName: 'oncoming_automobile'
+    shortcode: 'oncoming_automobile'
   },
   {
     label: 'Recreational Vehicle',
@@ -19420,7 +19420,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [35, 57],
-    shortName: 'blue_car'
+    shortcode: 'blue_car'
   },
   {
     label: 'Pickup Truck',
@@ -19431,7 +19431,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [38, 29],
-    shortName: 'pickup_truck'
+    shortcode: 'pickup_truck'
   },
   {
     label: 'Delivery Truck',
@@ -19442,7 +19442,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [35, 58],
-    shortName: 'truck'
+    shortcode: 'truck'
   },
   {
     label: 'Articulated Lorry',
@@ -19455,7 +19455,7 @@ export const emojis: CompressedEmojiData[] = [
       'express'
     ],
     sheet: [35, 59],
-    shortName: 'articulated_lorry'
+    shortcode: 'articulated_lorry'
   },
   {
     label: 'Tractor',
@@ -19468,7 +19468,7 @@ export const emojis: CompressedEmojiData[] = [
       'agriculture'
     ],
     sheet: [35, 60],
-    shortName: 'tractor'
+    shortcode: 'tractor'
   },
   {
     label: 'Racing Car',
@@ -19482,7 +19482,7 @@ export const emojis: CompressedEmojiData[] = [
       'f1'
     ],
     sheet: [9, 54],
-    shortName: 'racing_car'
+    shortcode: 'racing_car'
   },
   {
     label: 'Motorcycle',
@@ -19494,7 +19494,7 @@ export const emojis: CompressedEmojiData[] = [
       'fast'
     ],
     sheet: [9, 53],
-    shortName: 'racing_motorcycle'
+    shortcode: 'racing_motorcycle'
   },
   {
     label: 'Motor Scooter',
@@ -19506,7 +19506,7 @@ export const emojis: CompressedEmojiData[] = [
       'sasha'
     ],
     sheet: [38, 23],
-    shortName: 'motor_scooter'
+    shortcode: 'motor_scooter'
   },
   {
     label: 'Manual Wheelchair',
@@ -19516,7 +19516,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessibility'
     ],
     sheet: [46, 2],
-    shortName: 'manual_wheelchair'
+    shortcode: 'manual_wheelchair'
   },
   {
     label: 'Motorized Wheelchair',
@@ -19526,7 +19526,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessibility'
     ],
     sheet: [46, 1],
-    shortName: 'motorized_wheelchair'
+    shortcode: 'motorized_wheelchair'
   },
   {
     label: 'Auto Rickshaw',
@@ -19537,7 +19537,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [38, 28],
-    shortName: 'auto_rickshaw'
+    shortcode: 'auto_rickshaw'
   },
   {
     label: 'Bicycle',
@@ -19550,7 +19550,7 @@ export const emojis: CompressedEmojiData[] = [
       'hipster'
     ],
     sheet: [36, 38],
-    shortName: 'bike'
+    shortcode: 'bike'
   },
   {
     label: 'Scooter',
@@ -19562,14 +19562,14 @@ export const emojis: CompressedEmojiData[] = [
       'razor'
     ],
     sheet: [38, 22],
-    shortName: 'scooter'
+    shortcode: 'scooter'
   },
   {
     label: 'Skateboard',
     hexcode: '1F6F9',
     tags: ['skateboard', 'board'],
     sheet: [38, 27],
-    shortName: 'skateboard'
+    shortcode: 'skateboard'
   },
   {
     label: 'Roller Skate',
@@ -19580,7 +19580,7 @@ export const emojis: CompressedEmojiData[] = [
       'sports'
     ],
     sheet: [38, 30],
-    shortName: 'roller_skate'
+    shortcode: 'roller_skate'
   },
   {
     label: 'Bus Stop',
@@ -19591,7 +19591,7 @@ export const emojis: CompressedEmojiData[] = [
       'wait'
     ],
     sheet: [35, 47],
-    shortName: 'busstop'
+    shortcode: 'busstop'
   },
   {
     label: 'Motorway',
@@ -19604,7 +19604,7 @@ export const emojis: CompressedEmojiData[] = [
       'highway'
     ],
     sheet: [38, 14],
-    shortName: 'motorway'
+    shortcode: 'motorway'
   },
   {
     label: 'Railway Track',
@@ -19615,14 +19615,14 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [38, 15],
-    shortName: 'railway_track'
+    shortcode: 'railway_track'
   },
   {
     label: 'Oil Drum',
     hexcode: '1F6E2-FE0F',
     tags: ['oil_drum', 'barrell'],
     sheet: [38, 13],
-    shortName: 'oil_drum'
+    shortcode: 'oil_drum'
   },
   {
     label: 'Fuel Pump',
@@ -19633,7 +19633,7 @@ export const emojis: CompressedEmojiData[] = [
       'petroleum'
     ],
     sheet: [58, 22],
-    shortName: 'fuelpump'
+    shortcode: 'fuelpump'
   },
   {
     label: 'Wheel',
@@ -19645,7 +19645,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [38, 9],
     hidden: ['facebook'],
-    shortName: 'wheel'
+    shortcode: 'wheel'
   },
   {
     label: 'Police Cars Revolving Light',
@@ -19663,7 +19663,7 @@ export const emojis: CompressedEmojiData[] = [
       'legal'
     ],
     sheet: [36, 28],
-    shortName: 'rotating_light'
+    shortcode: 'rotating_light'
   },
   {
     label: 'Horizontal Traffic Light',
@@ -19674,7 +19674,7 @@ export const emojis: CompressedEmojiData[] = [
       'signal'
     ],
     sheet: [36, 25],
-    shortName: 'traffic_light'
+    shortcode: 'traffic_light'
   },
   {
     label: 'Vertical Traffic Light',
@@ -19685,14 +19685,14 @@ export const emojis: CompressedEmojiData[] = [
       'driving'
     ],
     sheet: [36, 26],
-    shortName: 'vertical_traffic_light'
+    shortcode: 'vertical_traffic_light'
   },
   {
     label: 'Octagonal Sign',
     hexcode: '1F6D1',
     tags: ['stop_sign', 'stop'],
     sheet: [38, 3],
-    shortName: 'octagonal_sign'
+    shortcode: 'octagonal_sign'
   },
   {
     label: 'Construction Sign',
@@ -19705,7 +19705,7 @@ export const emojis: CompressedEmojiData[] = [
       'warning'
     ],
     sheet: [36, 27],
-    shortName: 'construction'
+    shortcode: 'construction'
   },
   {
     label: 'Anchor',
@@ -19718,7 +19718,7 @@ export const emojis: CompressedEmojiData[] = [
       'boat'
     ],
     sheet: [57, 29],
-    shortName: 'anchor'
+    shortcode: 'anchor'
   },
   {
     label: 'Ring Buoy',
@@ -19730,7 +19730,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [38, 10],
     hidden: ['facebook'],
-    shortName: 'ring_buoy'
+    shortcode: 'ring_buoy'
   },
   {
     label: 'Sailboat',
@@ -19744,8 +19744,8 @@ export const emojis: CompressedEmojiData[] = [
       'sailing'
     ],
     sheet: [58, 0],
-    shortNames: ['sailboat'],
-    shortName: 'boat'
+    shortcodes: ['sailboat'],
+    shortcode: 'boat'
   },
   {
     label: 'Canoe',
@@ -19758,7 +19758,7 @@ export const emojis: CompressedEmojiData[] = [
       'ship'
     ],
     sheet: [38, 24],
-    shortName: 'canoe'
+    shortcode: 'canoe'
   },
   {
     label: 'Speedboat',
@@ -19771,7 +19771,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [36, 24],
-    shortName: 'speedboat'
+    shortcode: 'speedboat'
   },
   {
     label: 'Passenger Ship',
@@ -19783,7 +19783,7 @@ export const emojis: CompressedEmojiData[] = [
       'ferry'
     ],
     sheet: [38, 21],
-    shortName: 'passenger_ship'
+    shortcode: 'passenger_ship'
   },
   {
     label: 'Ferry',
@@ -19795,14 +19795,14 @@ export const emojis: CompressedEmojiData[] = [
       'yacht'
     ],
     sheet: [57, 60],
-    shortName: 'ferry'
+    shortcode: 'ferry'
   },
   {
     label: 'Motor Boat',
     hexcode: '1F6E5-FE0F',
     tags: ['motor_boat', 'ship'],
     sheet: [38, 16],
-    shortName: 'motor_boat'
+    shortcode: 'motor_boat'
   },
   {
     label: 'Ship',
@@ -19814,7 +19814,7 @@ export const emojis: CompressedEmojiData[] = [
       'deploy'
     ],
     sheet: [36, 5],
-    shortName: 'ship'
+    shortcode: 'ship'
   },
   {
     label: 'Airplane',
@@ -19827,7 +19827,7 @@ export const emojis: CompressedEmojiData[] = [
       'fly'
     ],
     sheet: [58, 25],
-    shortName: 'airplane'
+    shortcode: 'airplane'
   },
   {
     label: 'Small Airplane',
@@ -19840,7 +19840,7 @@ export const emojis: CompressedEmojiData[] = [
       'vehicle'
     ],
     sheet: [38, 17],
-    shortName: 'small_airplane'
+    shortcode: 'small_airplane'
   },
   {
     label: 'Airplane Departure',
@@ -19852,7 +19852,7 @@ export const emojis: CompressedEmojiData[] = [
       'landing'
     ],
     sheet: [38, 18],
-    shortName: 'airplane_departure'
+    shortcode: 'airplane_departure'
   },
   {
     label: 'Airplane Arriving',
@@ -19864,7 +19864,7 @@ export const emojis: CompressedEmojiData[] = [
       'boarding'
     ],
     sheet: [38, 19],
-    shortName: 'airplane_arriving'
+    shortcode: 'airplane_arriving'
   },
   {
     label: 'Parachute',
@@ -19875,7 +19875,7 @@ export const emojis: CompressedEmojiData[] = [
       'glide'
     ],
     sheet: [53, 58],
-    shortName: 'parachute'
+    shortcode: 'parachute'
   },
   {
     label: 'Seat',
@@ -19890,7 +19890,7 @@ export const emojis: CompressedEmojiData[] = [
       'fly'
     ],
     sheet: [28, 17],
-    shortName: 'seat'
+    shortcode: 'seat'
   },
   {
     label: 'Helicopter',
@@ -19902,7 +19902,7 @@ export const emojis: CompressedEmojiData[] = [
       'fly'
     ],
     sheet: [35, 33],
-    shortName: 'helicopter'
+    shortcode: 'helicopter'
   },
   {
     label: 'Suspension Railway',
@@ -19913,7 +19913,7 @@ export const emojis: CompressedEmojiData[] = [
       'transportation'
     ],
     sheet: [36, 2],
-    shortName: 'suspension_railway'
+    shortcode: 'suspension_railway'
   },
   {
     label: 'Mountain Cableway',
@@ -19925,7 +19925,7 @@ export const emojis: CompressedEmojiData[] = [
       'ski'
     ],
     sheet: [36, 3],
-    shortName: 'mountain_cableway'
+    shortcode: 'mountain_cableway'
   },
   {
     label: 'Aerial Tramway',
@@ -19937,7 +19937,7 @@ export const emojis: CompressedEmojiData[] = [
       'ski'
     ],
     sheet: [36, 4],
-    shortName: 'aerial_tramway'
+    shortcode: 'aerial_tramway'
   },
   {
     label: 'Satellite',
@@ -19952,7 +19952,7 @@ export const emojis: CompressedEmojiData[] = [
       'ISS'
     ],
     sheet: [38, 20],
-    shortName: 'satellite'
+    shortcode: 'satellite'
   },
   {
     label: 'Rocket',
@@ -19968,7 +19968,7 @@ export const emojis: CompressedEmojiData[] = [
       'fly'
     ],
     sheet: [35, 32],
-    shortName: 'rocket'
+    shortcode: 'rocket'
   },
   {
     label: 'Flying Saucer',
@@ -19980,7 +19980,7 @@ export const emojis: CompressedEmojiData[] = [
       'ufo'
     ],
     sheet: [38, 26],
-    shortName: 'flying_saucer'
+    shortcode: 'flying_saucer'
   },
   {
     label: 'Bellhop Bell',
@@ -19990,7 +19990,7 @@ export const emojis: CompressedEmojiData[] = [
       'service'
     ],
     sheet: [38, 0],
-    shortName: 'bellhop_bell'
+    shortcode: 'bellhop_bell'
   },
   {
     label: 'Luggage',
@@ -20001,7 +20001,7 @@ export const emojis: CompressedEmojiData[] = [
       'travel'
     ],
     sheet: [53, 33],
-    shortName: 'luggage'
+    shortcode: 'luggage'
   },
   {
     label: 'Hourglass',
@@ -20017,7 +20017,7 @@ export const emojis: CompressedEmojiData[] = [
       'test'
     ],
     sheet: [56, 14],
-    shortName: 'hourglass'
+    shortcode: 'hourglass'
   },
   {
     label: 'Hourglass with Flowing Sand',
@@ -20029,7 +20029,7 @@ export const emojis: CompressedEmojiData[] = [
       'countdown'
     ],
     sheet: [56, 27],
-    shortName: 'hourglass_flowing_sand'
+    shortcode: 'hourglass_flowing_sand'
   },
   {
     label: 'Watch',
@@ -20040,7 +20040,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessories'
     ],
     sheet: [56, 13],
-    shortName: 'watch'
+    shortcode: 'watch'
   },
   {
     label: 'Alarm Clock',
@@ -20051,7 +20051,7 @@ export const emojis: CompressedEmojiData[] = [
       'wake'
     ],
     sheet: [56, 24],
-    shortName: 'alarm_clock'
+    shortcode: 'alarm_clock'
   },
   {
     label: 'Stopwatch',
@@ -20062,14 +20062,14 @@ export const emojis: CompressedEmojiData[] = [
       'deadline'
     ],
     sheet: [56, 25],
-    shortName: 'stopwatch'
+    shortcode: 'stopwatch'
   },
   {
     label: 'Timer Clock',
     hexcode: '23F2-FE0F',
     tags: ['timer_clock', 'alarm'],
     sheet: [56, 26],
-    shortName: 'timer_clock'
+    shortcode: 'timer_clock'
   },
   {
     label: 'Mantelpiece Clock',
@@ -20079,7 +20079,7 @@ export const emojis: CompressedEmojiData[] = [
       'time'
     ],
     sheet: [30, 57],
-    shortName: 'mantelpiece_clock'
+    shortcode: 'mantelpiece_clock'
   },
   {
     label: 'Clock Face Twelve Oclock',
@@ -20100,7 +20100,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 43],
-    shortName: 'clock12'
+    shortcode: 'clock12'
   },
   {
     label: 'Clock Face Twelve-Thirty',
@@ -20117,7 +20117,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 55],
-    shortName: 'clock1230'
+    shortcode: 'clock1230'
   },
   {
     label: 'Clock Face One Oclock',
@@ -20135,7 +20135,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 32],
-    shortName: 'clock1'
+    shortcode: 'clock1'
   },
   {
     label: 'Clock Face One-Thirty',
@@ -20152,7 +20152,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 44],
-    shortName: 'clock130'
+    shortcode: 'clock130'
   },
   {
     label: 'Clock Face Two Oclock',
@@ -20170,7 +20170,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 33],
-    shortName: 'clock2'
+    shortcode: 'clock2'
   },
   {
     label: 'Clock Face Two-Thirty',
@@ -20187,7 +20187,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 45],
-    shortName: 'clock230'
+    shortcode: 'clock230'
   },
   {
     label: 'Clock Face Three Oclock',
@@ -20205,7 +20205,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 34],
-    shortName: 'clock3'
+    shortcode: 'clock3'
   },
   {
     label: 'Clock Face Three-Thirty',
@@ -20222,7 +20222,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 46],
-    shortName: 'clock330'
+    shortcode: 'clock330'
   },
   {
     label: 'Clock Face Four Oclock',
@@ -20240,7 +20240,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 35],
-    shortName: 'clock4'
+    shortcode: 'clock4'
   },
   {
     label: 'Clock Face Four-Thirty',
@@ -20257,7 +20257,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 47],
-    shortName: 'clock430'
+    shortcode: 'clock430'
   },
   {
     label: 'Clock Face Five Oclock',
@@ -20275,7 +20275,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 36],
-    shortName: 'clock5'
+    shortcode: 'clock5'
   },
   {
     label: 'Clock Face Five-Thirty',
@@ -20292,7 +20292,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 48],
-    shortName: 'clock530'
+    shortcode: 'clock530'
   },
   {
     label: 'Clock Face Six Oclock',
@@ -20312,7 +20312,7 @@ export const emojis: CompressedEmojiData[] = [
       'dusk'
     ],
     sheet: [30, 37],
-    shortName: 'clock6'
+    shortcode: 'clock6'
   },
   {
     label: 'Clock Face Six-Thirty',
@@ -20329,7 +20329,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 49],
-    shortName: 'clock630'
+    shortcode: 'clock630'
   },
   {
     label: 'Clock Face Seven Oclock',
@@ -20347,7 +20347,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 38],
-    shortName: 'clock7'
+    shortcode: 'clock7'
   },
   {
     label: 'Clock Face Seven-Thirty',
@@ -20364,7 +20364,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 50],
-    shortName: 'clock730'
+    shortcode: 'clock730'
   },
   {
     label: 'Clock Face Eight Oclock',
@@ -20382,7 +20382,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 39],
-    shortName: 'clock8'
+    shortcode: 'clock8'
   },
   {
     label: 'Clock Face Eight-Thirty',
@@ -20399,7 +20399,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 51],
-    shortName: 'clock830'
+    shortcode: 'clock830'
   },
   {
     label: 'Clock Face Nine Oclock',
@@ -20417,7 +20417,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 40],
-    shortName: 'clock9'
+    shortcode: 'clock9'
   },
   {
     label: 'Clock Face Nine-Thirty',
@@ -20434,7 +20434,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 52],
-    shortName: 'clock930'
+    shortcode: 'clock930'
   },
   {
     label: 'Clock Face Ten Oclock',
@@ -20452,7 +20452,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 41],
-    shortName: 'clock10'
+    shortcode: 'clock10'
   },
   {
     label: 'Clock Face Ten-Thirty',
@@ -20469,7 +20469,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 53],
-    shortName: 'clock1030'
+    shortcode: 'clock1030'
   },
   {
     label: 'Clock Face Eleven Oclock',
@@ -20487,7 +20487,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 42],
-    shortName: 'clock11'
+    shortcode: 'clock11'
   },
   {
     label: 'Clock Face Eleven-Thirty',
@@ -20504,7 +20504,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [30, 54],
-    shortName: 'clock1130'
+    shortcode: 'clock1130'
   },
   {
     label: 'New Moon Symbol',
@@ -20520,7 +20520,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 16],
-    shortName: 'new_moon'
+    shortcode: 'new_moon'
   },
   {
     label: 'Waxing Crescent Moon Symbol',
@@ -20536,7 +20536,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 17],
-    shortName: 'waxing_crescent_moon'
+    shortcode: 'waxing_crescent_moon'
   },
   {
     label: 'First Quarter Moon Symbol',
@@ -20552,7 +20552,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 18],
-    shortName: 'first_quarter_moon'
+    shortcode: 'first_quarter_moon'
   },
   {
     label: 'Waxing Gibbous Moon Symbol',
@@ -20570,8 +20570,8 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 19],
-    shortNames: ['waxing_gibbous_moon'],
-    shortName: 'moon'
+    shortcodes: ['waxing_gibbous_moon'],
+    shortcode: 'moon'
   },
   {
     label: 'Full Moon Symbol',
@@ -20588,7 +20588,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 20],
-    shortName: 'full_moon'
+    shortcode: 'full_moon'
   },
   {
     label: 'Waning Gibbous Moon Symbol',
@@ -20605,7 +20605,7 @@ export const emojis: CompressedEmojiData[] = [
       'waxing_gibbous_moon'
     ],
     sheet: [5, 21],
-    shortName: 'waning_gibbous_moon'
+    shortcode: 'waning_gibbous_moon'
   },
   {
     label: 'Last Quarter Moon Symbol',
@@ -20621,7 +20621,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 22],
-    shortName: 'last_quarter_moon'
+    shortcode: 'last_quarter_moon'
   },
   {
     label: 'Waning Crescent Moon Symbol',
@@ -20637,7 +20637,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 23],
-    shortName: 'waning_crescent_moon'
+    shortcode: 'waning_crescent_moon'
   },
   {
     label: 'Crescent Moon',
@@ -20651,7 +20651,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [5, 24],
-    shortName: 'crescent_moon'
+    shortcode: 'crescent_moon'
   },
   {
     label: 'New Moon with Face',
@@ -20667,7 +20667,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 25],
-    shortName: 'new_moon_with_face'
+    shortcode: 'new_moon_with_face'
   },
   {
     label: 'First Quarter Moon with Face',
@@ -20683,7 +20683,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 26],
-    shortName: 'first_quarter_moon_with_face'
+    shortcode: 'first_quarter_moon_with_face'
   },
   {
     label: 'Last Quarter Moon with Face',
@@ -20699,7 +20699,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 27],
-    shortName: 'last_quarter_moon_with_face'
+    shortcode: 'last_quarter_moon_with_face'
   },
   {
     label: 'Thermometer',
@@ -20712,7 +20712,7 @@ export const emojis: CompressedEmojiData[] = [
       'cold'
     ],
     sheet: [5, 32],
-    shortName: 'thermometer'
+    shortcode: 'thermometer'
   },
   {
     label: 'Black Sun with Rays',
@@ -20727,7 +20727,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [56, 40],
-    shortName: 'sunny'
+    shortcode: 'sunny'
   },
   {
     label: 'Full Moon with Face',
@@ -20743,7 +20743,7 @@ export const emojis: CompressedEmojiData[] = [
       'sleep'
     ],
     sheet: [5, 28],
-    shortName: 'full_moon_with_face'
+    shortcode: 'full_moon_with_face'
   },
   {
     label: 'Sun with Face',
@@ -20755,7 +20755,7 @@ export const emojis: CompressedEmojiData[] = [
       'sky'
     ],
     sheet: [5, 29],
-    shortName: 'sun_with_face'
+    shortcode: 'sun_with_face'
   },
   {
     label: 'Ringed Planet',
@@ -20765,7 +20765,7 @@ export const emojis: CompressedEmojiData[] = [
       'outerspace'
     ],
     sheet: [54, 2],
-    shortName: 'ringed_planet'
+    shortcode: 'ringed_planet'
   },
   {
     label: 'White Medium Star',
@@ -20776,7 +20776,7 @@ export const emojis: CompressedEmojiData[] = [
       'yellow'
     ],
     sheet: [59, 24],
-    shortName: 'star'
+    shortcode: 'star'
   },
   {
     label: 'Glowing Star',
@@ -20790,7 +20790,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [5, 30],
-    shortName: 'star2'
+    shortcode: 'star2'
   },
   {
     label: 'Shooting Star',
@@ -20801,7 +20801,7 @@ export const emojis: CompressedEmojiData[] = [
       'photo'
     ],
     sheet: [5, 31],
-    shortName: 'stars'
+    shortcode: 'stars'
   },
   {
     label: 'Milky Way',
@@ -20813,7 +20813,7 @@ export const emojis: CompressedEmojiData[] = [
       'stars'
     ],
     sheet: [5, 11],
-    shortName: 'milky_way'
+    shortcode: 'milky_way'
   },
   {
     label: 'Cloud',
@@ -20824,7 +20824,7 @@ export const emojis: CompressedEmojiData[] = [
       'sky'
     ],
     sheet: [56, 41],
-    shortName: 'cloud'
+    shortcode: 'cloud'
   },
   {
     label: 'Sun Behind Cloud',
@@ -20839,7 +20839,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [57, 47],
-    shortName: 'partly_sunny'
+    shortcode: 'partly_sunny'
   },
   {
     label: 'Cloud with Lightning and Rain',
@@ -20850,7 +20850,7 @@ export const emojis: CompressedEmojiData[] = [
       'lightning'
     ],
     sheet: [57, 48],
-    shortName: 'thunder_cloud_and_rain'
+    shortcode: 'thunder_cloud_and_rain'
   },
   {
     label: 'Sun Behind Small Cloud',
@@ -20860,8 +20860,8 @@ export const emojis: CompressedEmojiData[] = [
       'weather'
     ],
     sheet: [5, 33],
-    shortNames: ['sun_small_cloud'],
-    shortName: 'mostly_sunny'
+    shortcodes: ['sun_small_cloud'],
+    shortcode: 'mostly_sunny'
   },
   {
     label: 'Sun Behind Large Cloud',
@@ -20871,8 +20871,8 @@ export const emojis: CompressedEmojiData[] = [
       'weather'
     ],
     sheet: [5, 34],
-    shortNames: ['sun_behind_cloud'],
-    shortName: 'barely_sunny'
+    shortcodes: ['sun_behind_cloud'],
+    shortcode: 'barely_sunny'
   },
   {
     label: 'Sun Behind Rain Cloud',
@@ -20882,8 +20882,8 @@ export const emojis: CompressedEmojiData[] = [
       'weather'
     ],
     sheet: [5, 35],
-    shortNames: ['sun_behind_rain_cloud'],
-    shortName: 'partly_sunny_rain'
+    shortcodes: ['sun_behind_rain_cloud'],
+    shortcode: 'partly_sunny_rain'
   },
   {
     label: 'Cloud with Rain',
@@ -20893,7 +20893,7 @@ export const emojis: CompressedEmojiData[] = [
       'weather'
     ],
     sheet: [5, 36],
-    shortName: 'rain_cloud'
+    shortcode: 'rain_cloud'
   },
   {
     label: 'Cloud with Snow',
@@ -20903,7 +20903,7 @@ export const emojis: CompressedEmojiData[] = [
       'weather'
     ],
     sheet: [5, 37],
-    shortName: 'snow_cloud'
+    shortcode: 'snow_cloud'
   },
   {
     label: 'Cloud with Lightning',
@@ -20914,8 +20914,8 @@ export const emojis: CompressedEmojiData[] = [
       'thunder'
     ],
     sheet: [5, 38],
-    shortNames: ['lightning_cloud'],
-    shortName: 'lightning'
+    shortcodes: ['lightning_cloud'],
+    shortcode: 'lightning'
   },
   {
     label: 'Tornado',
@@ -20927,15 +20927,15 @@ export const emojis: CompressedEmojiData[] = [
       'twister'
     ],
     sheet: [5, 39],
-    shortNames: ['tornado_cloud'],
-    shortName: 'tornado'
+    shortcodes: ['tornado_cloud'],
+    shortcode: 'tornado'
   },
   {
     label: 'Fog',
     hexcode: '1F32B-FE0F',
     tags: ['fog', 'weather'],
     sheet: [5, 40],
-    shortName: 'fog'
+    shortcode: 'fog'
   },
   {
     label: 'Wind Face',
@@ -20946,7 +20946,7 @@ export const emojis: CompressedEmojiData[] = [
       'air'
     ],
     sheet: [5, 41],
-    shortName: 'wind_blowing_face'
+    shortcode: 'wind_blowing_face'
   },
   {
     label: 'Cyclone',
@@ -20966,7 +20966,7 @@ export const emojis: CompressedEmojiData[] = [
       'typhoon'
     ],
     sheet: [4, 60],
-    shortName: 'cyclone'
+    shortcode: 'cyclone'
   },
   {
     label: 'Rainbow',
@@ -20981,7 +20981,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [5, 7],
-    shortName: 'rainbow'
+    shortcode: 'rainbow'
   },
   {
     label: 'Closed Umbrella',
@@ -20993,7 +20993,7 @@ export const emojis: CompressedEmojiData[] = [
       'drizzle'
     ],
     sheet: [5, 1],
-    shortName: 'closed_umbrella'
+    shortcode: 'closed_umbrella'
   },
   {
     label: 'Umbrella',
@@ -21004,7 +21004,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [56, 42],
-    shortName: 'umbrella'
+    shortcode: 'umbrella'
   },
   {
     label: 'Umbrella with Rain Drops',
@@ -21016,7 +21016,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [56, 47],
-    shortName: 'umbrella_with_rain_drops'
+    shortcode: 'umbrella_with_rain_drops'
   },
   {
     label: 'Umbrella on Ground',
@@ -21027,7 +21027,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [57, 57],
-    shortName: 'umbrella_on_ground'
+    shortcode: 'umbrella_on_ground'
   },
   {
     label: 'High Voltage Sign',
@@ -21040,7 +21040,7 @@ export const emojis: CompressedEmojiData[] = [
       'fast'
     ],
     sheet: [57, 38],
-    shortName: 'zap'
+    shortcode: 'zap'
   },
   {
     label: 'Snowflake',
@@ -21055,7 +21055,7 @@ export const emojis: CompressedEmojiData[] = [
       'xmas'
     ],
     sheet: [58, 60],
-    shortName: 'snowflake'
+    shortcode: 'snowflake'
   },
   {
     label: 'Snowman',
@@ -21071,7 +21071,7 @@ export const emojis: CompressedEmojiData[] = [
       'frozen'
     ],
     sheet: [56, 43],
-    shortName: 'snowman'
+    shortcode: 'snowman'
   },
   {
     label: 'Snowman Without Snow',
@@ -21088,14 +21088,14 @@ export const emojis: CompressedEmojiData[] = [
       'without_snow'
     ],
     sheet: [57, 46],
-    shortName: 'snowman_without_snow'
+    shortcode: 'snowman_without_snow'
   },
   {
     label: 'Comet',
     hexcode: '2604-FE0F',
     tags: ['comet', 'space'],
     sheet: [56, 44],
-    shortName: 'comet'
+    shortcode: 'comet'
   },
   {
     label: 'Fire',
@@ -21107,7 +21107,7 @@ export const emojis: CompressedEmojiData[] = [
       'flame'
     ],
     sheet: [30, 1],
-    shortName: 'fire'
+    shortcode: 'fire'
   },
   {
     label: 'Droplet',
@@ -21120,7 +21120,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [27, 54],
-    shortName: 'droplet'
+    shortcode: 'droplet'
   },
   {
     label: 'Water Wave',
@@ -21135,7 +21135,7 @@ export const emojis: CompressedEmojiData[] = [
       'disaster'
     ],
     sheet: [5, 9],
-    shortName: 'ocean'
+    shortcode: 'ocean'
   },
   {
     label: 'Jack-O-Lantern',
@@ -21149,7 +21149,7 @@ export const emojis: CompressedEmojiData[] = [
       'fall'
     ],
     sheet: [7, 6],
-    shortName: 'jack_o_lantern'
+    shortcode: 'jack_o_lantern'
   },
   {
     label: 'Christmas Tree',
@@ -21163,7 +21163,7 @@ export const emojis: CompressedEmojiData[] = [
       'celebration'
     ],
     sheet: [7, 7],
-    shortName: 'christmas_tree'
+    shortcode: 'christmas_tree'
   },
   {
     label: 'Fireworks',
@@ -21176,7 +21176,7 @@ export const emojis: CompressedEmojiData[] = [
       'congratulations'
     ],
     sheet: [7, 14],
-    shortName: 'fireworks'
+    shortcode: 'fireworks'
   },
   {
     label: 'Firework Sparkler',
@@ -21188,7 +21188,7 @@ export const emojis: CompressedEmojiData[] = [
       'shine'
     ],
     sheet: [7, 15],
-    shortName: 'sparkler'
+    shortcode: 'sparkler'
   },
   {
     label: 'Firecracker',
@@ -21202,7 +21202,7 @@ export const emojis: CompressedEmojiData[] = [
       'explosive'
     ],
     sheet: [53, 22],
-    shortName: 'firecracker'
+    shortcode: 'firecracker'
   },
   {
     label: 'Sparkles',
@@ -21218,7 +21218,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [58, 57],
-    shortName: 'sparkles'
+    shortcode: 'sparkles'
   },
   {
     label: 'Balloon',
@@ -21231,7 +21231,7 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [7, 16],
-    shortName: 'balloon'
+    shortcode: 'balloon'
   },
   {
     label: 'Party Popper',
@@ -21247,7 +21247,7 @@ export const emojis: CompressedEmojiData[] = [
       'tada'
     ],
     sheet: [7, 17],
-    shortName: 'tada'
+    shortcode: 'tada'
   },
   {
     label: 'Confetti Ball',
@@ -21260,7 +21260,7 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [7, 18],
-    shortName: 'confetti_ball'
+    shortcode: 'confetti_ball'
   },
   {
     label: 'Tanabata Tree',
@@ -21277,7 +21277,7 @@ export const emojis: CompressedEmojiData[] = [
       'tanzaku'
     ],
     sheet: [7, 19],
-    shortName: 'tanabata_tree'
+    shortcode: 'tanabata_tree'
   },
   {
     label: 'Pine Decoration',
@@ -21293,7 +21293,7 @@ export const emojis: CompressedEmojiData[] = [
       'bamboo'
     ],
     sheet: [7, 21],
-    shortName: 'bamboo'
+    shortcode: 'bamboo'
   },
   {
     label: 'Japanese Dolls',
@@ -21305,7 +21305,7 @@ export const emojis: CompressedEmojiData[] = [
       'kimono'
     ],
     sheet: [7, 22],
-    shortName: 'dolls'
+    shortcode: 'dolls'
   },
   {
     label: 'Carp Streamer',
@@ -21319,7 +21319,7 @@ export const emojis: CompressedEmojiData[] = [
       'banner'
     ],
     sheet: [7, 23],
-    shortName: 'flags'
+    shortcode: 'flags'
   },
   {
     label: 'Wind Chime',
@@ -21332,7 +21332,7 @@ export const emojis: CompressedEmojiData[] = [
       'bell'
     ],
     sheet: [7, 24],
-    shortName: 'wind_chime'
+    shortcode: 'wind_chime'
   },
   {
     label: 'Moon Viewing Ceremony',
@@ -21345,14 +21345,14 @@ export const emojis: CompressedEmojiData[] = [
       'tsukimi'
     ],
     sheet: [7, 25],
-    shortName: 'rice_scene'
+    shortcode: 'rice_scene'
   },
   {
     label: 'Red Gift Envelope',
     hexcode: '1F9E7',
     tags: ['red_envelope', 'gift'],
     sheet: [53, 21],
-    shortName: 'red_envelope'
+    shortcode: 'red_envelope'
   },
   {
     label: 'Ribbon',
@@ -21365,7 +21365,7 @@ export const emojis: CompressedEmojiData[] = [
       'bowtie'
     ],
     sheet: [7, 3],
-    shortName: 'ribbon'
+    shortcode: 'ribbon'
   },
   {
     label: 'Wrapped Present',
@@ -21378,7 +21378,7 @@ export const emojis: CompressedEmojiData[] = [
       'xmas'
     ],
     sheet: [7, 4],
-    shortName: 'gift'
+    shortcode: 'gift'
   },
   {
     label: 'Reminder Ribbon',
@@ -21391,7 +21391,7 @@ export const emojis: CompressedEmojiData[] = [
       'awareness'
     ],
     sheet: [7, 29],
-    shortName: 'reminder_ribbon'
+    shortcode: 'reminder_ribbon'
   },
   {
     label: 'Admission Tickets',
@@ -21403,7 +21403,7 @@ export const emojis: CompressedEmojiData[] = [
       'entrance'
     ],
     sheet: [7, 34],
-    shortName: 'admission_tickets'
+    shortcode: 'admission_tickets'
   },
   {
     label: 'Ticket',
@@ -21415,7 +21415,7 @@ export const emojis: CompressedEmojiData[] = [
       'pass'
     ],
     sheet: [7, 46],
-    shortName: 'ticket'
+    shortcode: 'ticket'
   },
   {
     label: 'Military Medal',
@@ -21427,7 +21427,7 @@ export const emojis: CompressedEmojiData[] = [
       'army'
     ],
     sheet: [7, 28],
-    shortName: 'medal'
+    shortcode: 'medal'
   },
   {
     label: 'Trophy',
@@ -21442,7 +21442,7 @@ export const emojis: CompressedEmojiData[] = [
       'ceremony'
     ],
     sheet: [8, 51],
-    shortName: 'trophy'
+    shortcode: 'trophy'
   },
   {
     label: 'Sports Medal',
@@ -21453,7 +21453,7 @@ export const emojis: CompressedEmojiData[] = [
       'winning'
     ],
     sheet: [8, 50],
-    shortName: 'sports_medal'
+    shortcode: 'sports_medal'
   },
   {
     label: 'First Place Medal',
@@ -21465,7 +21465,7 @@ export const emojis: CompressedEmojiData[] = [
       'first'
     ],
     sheet: [43, 17],
-    shortName: 'first_place_medal'
+    shortcode: 'first_place_medal'
   },
   {
     label: 'Second Place Medal',
@@ -21476,7 +21476,7 @@ export const emojis: CompressedEmojiData[] = [
       'second'
     ],
     sheet: [43, 18],
-    shortName: 'second_place_medal'
+    shortcode: 'second_place_medal'
   },
   {
     label: 'Third Place Medal',
@@ -21487,7 +21487,7 @@ export const emojis: CompressedEmojiData[] = [
       'third'
     ],
     sheet: [43, 19],
-    shortName: 'third_place_medal'
+    shortcode: 'third_place_medal'
   },
   {
     label: 'Soccer Ball',
@@ -21498,7 +21498,7 @@ export const emojis: CompressedEmojiData[] = [
       'football'
     ],
     sheet: [57, 44],
-    shortName: 'soccer'
+    shortcode: 'soccer'
   },
   {
     label: 'Baseball',
@@ -21509,7 +21509,7 @@ export const emojis: CompressedEmojiData[] = [
       'balls'
     ],
     sheet: [57, 45],
-    shortName: 'baseball'
+    shortcode: 'baseball'
   },
   {
     label: 'Softball',
@@ -21520,7 +21520,7 @@ export const emojis: CompressedEmojiData[] = [
       'balls'
     ],
     sheet: [43, 24],
-    shortName: 'softball'
+    shortcode: 'softball'
   },
   {
     label: 'Basketball and Hoop',
@@ -21532,7 +21532,7 @@ export const emojis: CompressedEmojiData[] = [
       'NBA'
     ],
     sheet: [8, 6],
-    shortName: 'basketball'
+    shortcode: 'basketball'
   },
   {
     label: 'Volleyball',
@@ -21543,7 +21543,7 @@ export const emojis: CompressedEmojiData[] = [
       'balls'
     ],
     sheet: [9, 56],
-    shortName: 'volleyball'
+    shortcode: 'volleyball'
   },
   {
     label: 'American Football',
@@ -21555,7 +21555,7 @@ export const emojis: CompressedEmojiData[] = [
       'NFL'
     ],
     sheet: [8, 58],
-    shortName: 'football'
+    shortcode: 'football'
   },
   {
     label: 'Rugby Football',
@@ -21566,7 +21566,7 @@ export const emojis: CompressedEmojiData[] = [
       'team'
     ],
     sheet: [8, 59],
-    shortName: 'rugby_football'
+    shortcode: 'rugby_football'
   },
   {
     label: 'Tennis Racquet and Ball',
@@ -21578,7 +21578,7 @@ export const emojis: CompressedEmojiData[] = [
       'green'
     ],
     sheet: [8, 4],
-    shortName: 'tennis'
+    shortcode: 'tennis'
   },
   {
     label: 'Flying Disc',
@@ -21590,7 +21590,7 @@ export const emojis: CompressedEmojiData[] = [
       'ultimate'
     ],
     sheet: [43, 25],
-    shortName: 'flying_disc'
+    shortcode: 'flying_disc'
   },
   {
     label: 'Bowling',
@@ -21602,7 +21602,7 @@ export const emojis: CompressedEmojiData[] = [
       'play'
     ],
     sheet: [7, 54],
-    shortName: 'bowling'
+    shortcode: 'bowling'
   },
   {
     label: 'Cricket Bat and Ball',
@@ -21612,7 +21612,7 @@ export const emojis: CompressedEmojiData[] = [
       'sports'
     ],
     sheet: [9, 55],
-    shortName: 'cricket_bat_and_ball'
+    shortcode: 'cricket_bat_and_ball'
   },
   {
     label: 'Field Hockey Stick and Ball',
@@ -21622,14 +21622,14 @@ export const emojis: CompressedEmojiData[] = [
       'sports'
     ],
     sheet: [9, 57],
-    shortName: 'field_hockey_stick_and_ball'
+    shortcode: 'field_hockey_stick_and_ball'
   },
   {
     label: 'Ice Hockey Stick and Puck',
     hexcode: '1F3D2',
     tags: ['ice_hockey', 'sports'],
     sheet: [9, 58],
-    shortName: 'ice_hockey_stick_and_puck'
+    shortcode: 'ice_hockey_stick_and_puck'
   },
   {
     label: 'Lacrosse Stick and Ball',
@@ -21641,7 +21641,7 @@ export const emojis: CompressedEmojiData[] = [
       'stick'
     ],
     sheet: [43, 23],
-    shortName: 'lacrosse'
+    shortcode: 'lacrosse'
   },
   {
     label: 'Table Tennis Paddle and Ball',
@@ -21652,14 +21652,14 @@ export const emojis: CompressedEmojiData[] = [
       'pingpong'
     ],
     sheet: [9, 59],
-    shortName: 'table_tennis_paddle_and_ball'
+    shortcode: 'table_tennis_paddle_and_ball'
   },
   {
     label: 'Badminton Racquet and Shuttlecock',
     hexcode: '1F3F8',
     tags: ['badminton', 'sports'],
     sheet: [10, 38],
-    shortName: 'badminton_racquet_and_shuttlecock'
+    shortcode: 'badminton_racquet_and_shuttlecock'
   },
   {
     label: 'Boxing Glove',
@@ -21670,7 +21670,7 @@ export const emojis: CompressedEmojiData[] = [
       'fighting'
     ],
     sheet: [43, 20],
-    shortName: 'boxing_glove'
+    shortcode: 'boxing_glove'
   },
   {
     label: 'Martial Arts Uniform',
@@ -21682,14 +21682,14 @@ export const emojis: CompressedEmojiData[] = [
       'taekwondo'
     ],
     sheet: [43, 21],
-    shortName: 'martial_arts_uniform'
+    shortcode: 'martial_arts_uniform'
   },
   {
     label: 'Goal Net',
     hexcode: '1F945',
     tags: ['goal_net', 'sports'],
     sheet: [43, 16],
-    shortName: 'goal_net'
+    shortcode: 'goal_net'
   },
   {
     label: 'Flag in Hole',
@@ -21703,14 +21703,14 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [57, 59],
-    shortName: 'golf'
+    shortcode: 'golf'
   },
   {
     label: 'Ice Skate',
     hexcode: '26F8-FE0F',
     tags: ['ice_skate', 'sports'],
     sheet: [58, 2],
-    shortName: 'ice_skate'
+    shortcode: 'ice_skate'
   },
   {
     label: 'Fishing Pole and Fish',
@@ -21722,7 +21722,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [7, 38],
-    shortName: 'fishing_pole_and_fish'
+    shortcode: 'fishing_pole_and_fish'
   },
   {
     label: 'Diving Mask',
@@ -21733,7 +21733,7 @@ export const emojis: CompressedEmojiData[] = [
       'ocean'
     ],
     sheet: [43, 10],
-    shortName: 'diving_mask'
+    shortcode: 'diving_mask'
   },
   {
     label: 'Running Shirt with Sash',
@@ -21744,7 +21744,7 @@ export const emojis: CompressedEmojiData[] = [
       'pageant'
     ],
     sheet: [8, 3],
-    shortName: 'running_shirt_with_sash'
+    shortcode: 'running_shirt_with_sash'
   },
   {
     label: 'Ski and Ski Boot',
@@ -21757,7 +21757,7 @@ export const emojis: CompressedEmojiData[] = [
       'snow'
     ],
     sheet: [8, 5],
-    shortName: 'ski'
+    shortcode: 'ski'
   },
   {
     label: 'Sled',
@@ -21769,7 +21769,7 @@ export const emojis: CompressedEmojiData[] = [
       'toboggan'
     ],
     sheet: [38, 25],
-    shortName: 'sled'
+    shortcode: 'sled'
   },
   {
     label: 'Curling Stone',
@@ -21779,7 +21779,7 @@ export const emojis: CompressedEmojiData[] = [
       'sports'
     ],
     sheet: [43, 22],
-    shortName: 'curling_stone'
+    shortcode: 'curling_stone'
   },
   {
     label: 'Direct Hit',
@@ -21793,21 +21793,21 @@ export const emojis: CompressedEmojiData[] = [
       'bullseye'
     ],
     sheet: [7, 50],
-    shortName: 'dart'
+    shortcode: 'dart'
   },
   {
     label: 'Yo-Yo',
     hexcode: '1FA80',
     tags: ['yo_yo', 'toy'],
     sheet: [53, 56],
-    shortName: 'yo-yo'
+    shortcode: 'yo-yo'
   },
   {
     label: 'Kite',
     hexcode: '1FA81',
     tags: ['kite', 'wind', 'fly'],
     sheet: [53, 57],
-    shortName: 'kite'
+    shortcode: 'kite'
   },
   {
     label: 'Billiards',
@@ -21821,7 +21821,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [7, 52],
-    shortName: '8ball'
+    shortcode: '8ball'
   },
   {
     label: 'Crystal Ball',
@@ -21835,7 +21835,7 @@ export const emojis: CompressedEmojiData[] = [
       'fortune_teller'
     ],
     sheet: [30, 10],
-    shortName: 'crystal_ball'
+    shortcode: 'crystal_ball'
   },
   {
     label: 'Magic Wand',
@@ -21846,7 +21846,7 @@ export const emojis: CompressedEmojiData[] = [
       'power'
     ],
     sheet: [53, 60],
-    shortName: 'magic_wand'
+    shortcode: 'magic_wand'
   },
   {
     label: 'Nazar Amulet',
@@ -21857,7 +21857,7 @@ export const emojis: CompressedEmojiData[] = [
       'charm'
     ],
     sheet: [53, 45],
-    shortName: 'nazar_amulet'
+    shortcode: 'nazar_amulet'
   },
   {
     label: 'Hamsa',
@@ -21869,7 +21869,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 30],
     hidden: ['facebook'],
-    shortName: 'hamsa'
+    shortcode: 'hamsa'
   },
   {
     label: 'Video Game',
@@ -21882,7 +21882,7 @@ export const emojis: CompressedEmojiData[] = [
       'controller'
     ],
     sheet: [7, 49],
-    shortName: 'video_game'
+    shortcode: 'video_game'
   },
   {
     label: 'Joystick',
@@ -21893,7 +21893,7 @@ export const emojis: CompressedEmojiData[] = [
       'play'
     ],
     sheet: [31, 25],
-    shortName: 'joystick'
+    shortcode: 'joystick'
   },
   {
     label: 'Slot Machine',
@@ -21908,7 +21908,7 @@ export const emojis: CompressedEmojiData[] = [
       'casino'
     ],
     sheet: [7, 51],
-    shortName: 'slot_machine'
+    shortcode: 'slot_machine'
   },
   {
     label: 'Game Die',
@@ -21922,7 +21922,7 @@ export const emojis: CompressedEmojiData[] = [
       'luck'
     ],
     sheet: [7, 53],
-    shortName: 'game_die'
+    shortcode: 'game_die'
   },
   {
     label: 'Jigsaw Puzzle Piece',
@@ -21934,7 +21934,7 @@ export const emojis: CompressedEmojiData[] = [
       'piece'
     ],
     sheet: [53, 23],
-    shortName: 'jigsaw'
+    shortcode: 'jigsaw'
   },
   {
     label: 'Teddy Bear',
@@ -21945,7 +21945,7 @@ export const emojis: CompressedEmojiData[] = [
       'stuffed'
     ],
     sheet: [53, 38],
-    shortName: 'teddy_bear'
+    shortcode: 'teddy_bear'
   },
   {
     label: 'Pinata',
@@ -21957,7 +21957,7 @@ export const emojis: CompressedEmojiData[] = [
       'celebration'
     ],
     sheet: [54, 0],
-    shortName: 'pinata'
+    shortcode: 'pinata'
   },
   {
     label: 'Mirror Ball',
@@ -21970,7 +21970,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 27],
     hidden: ['facebook'],
-    shortName: 'mirror_ball'
+    shortcode: 'mirror_ball'
   },
   {
     label: 'Nesting Dolls',
@@ -21981,7 +21981,7 @@ export const emojis: CompressedEmojiData[] = [
       'toy'
     ],
     sheet: [54, 1],
-    shortName: 'nesting_dolls'
+    shortcode: 'nesting_dolls'
   },
   {
     label: 'Black Spade Suit',
@@ -21994,7 +21994,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [57, 20],
-    shortName: 'spades'
+    shortcode: 'spades'
   },
   {
     label: 'Black Heart Suit',
@@ -22007,7 +22007,7 @@ export const emojis: CompressedEmojiData[] = [
       'suits'
     ],
     sheet: [57, 22],
-    shortName: 'hearts'
+    shortcode: 'hearts'
   },
   {
     label: 'Black Diamond Suit',
@@ -22020,7 +22020,7 @@ export const emojis: CompressedEmojiData[] = [
       'suits'
     ],
     sheet: [57, 23],
-    shortName: 'diamonds'
+    shortcode: 'diamonds'
   },
   {
     label: 'Black Club Suit',
@@ -22033,7 +22033,7 @@ export const emojis: CompressedEmojiData[] = [
       'suits'
     ],
     sheet: [57, 21],
-    shortName: 'clubs'
+    shortcode: 'clubs'
   },
   {
     label: 'Chess Pawn',
@@ -22043,7 +22043,7 @@ export const emojis: CompressedEmojiData[] = [
       'expendable'
     ],
     sheet: [57, 19],
-    shortName: 'chess_pawn'
+    shortcode: 'chess_pawn'
   },
   {
     label: 'Playing Card Black Joker',
@@ -22057,7 +22057,7 @@ export const emojis: CompressedEmojiData[] = [
       'magic'
     ],
     sheet: [0, 15],
-    shortName: 'black_joker'
+    shortcode: 'black_joker'
   },
   {
     label: 'Mahjong Tile Red Dragon',
@@ -22070,7 +22070,7 @@ export const emojis: CompressedEmojiData[] = [
       'kanji'
     ],
     sheet: [0, 14],
-    shortName: 'mahjong'
+    shortcode: 'mahjong'
   },
   {
     label: 'Flower Playing Cards',
@@ -22082,7 +22082,7 @@ export const emojis: CompressedEmojiData[] = [
       'red'
     ],
     sheet: [7, 55],
-    shortName: 'flower_playing_cards'
+    shortcode: 'flower_playing_cards'
   },
   {
     label: 'Performing Arts',
@@ -22094,7 +22094,7 @@ export const emojis: CompressedEmojiData[] = [
       'drama'
     ],
     sheet: [7, 48],
-    shortName: 'performing_arts'
+    shortcode: 'performing_arts'
   },
   {
     label: 'Framed Picture',
@@ -22104,7 +22104,7 @@ export const emojis: CompressedEmojiData[] = [
       'photography'
     ],
     sheet: [31, 60],
-    shortName: 'frame_with_picture'
+    shortcode: 'frame_with_picture'
   },
   {
     label: 'Artist Palette',
@@ -22117,7 +22117,7 @@ export const emojis: CompressedEmojiData[] = [
       'colors'
     ],
     sheet: [7, 43],
-    shortName: 'art'
+    shortcode: 'art'
   },
   {
     label: 'Spool of Thread',
@@ -22130,7 +22130,7 @@ export const emojis: CompressedEmojiData[] = [
       'string'
     ],
     sheet: [53, 35],
-    shortName: 'thread'
+    shortcode: 'thread'
   },
   {
     label: 'Sewing Needle',
@@ -22140,7 +22140,7 @@ export const emojis: CompressedEmojiData[] = [
       'stitches'
     ],
     sheet: [54, 19],
-    shortName: 'sewing_needle'
+    shortcode: 'sewing_needle'
   },
   {
     label: 'Ball of Yarn',
@@ -22152,14 +22152,14 @@ export const emojis: CompressedEmojiData[] = [
       'knit'
     ],
     sheet: [53, 36],
-    shortName: 'yarn'
+    shortcode: 'yarn'
   },
   {
     label: 'Knot',
     hexcode: '1FAA2',
     tags: ['knot', 'rope', 'scout'],
     sheet: [54, 20],
-    shortName: 'knot'
+    shortcode: 'knot'
   },
   {
     label: 'Eyeglasses',
@@ -22174,7 +22174,7 @@ export const emojis: CompressedEmojiData[] = [
       'geek'
     ],
     sheet: [13, 15],
-    shortName: 'eyeglasses'
+    shortcode: 'eyeglasses'
   },
   {
     label: 'Sunglasses',
@@ -22186,7 +22186,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessories'
     ],
     sheet: [31, 22],
-    shortName: 'dark_sunglasses'
+    shortcode: 'dark_sunglasses'
   },
   {
     label: 'Goggles',
@@ -22198,7 +22198,7 @@ export const emojis: CompressedEmojiData[] = [
       'safety'
     ],
     sheet: [44, 15],
-    shortName: 'goggles'
+    shortcode: 'goggles'
   },
   {
     label: 'Lab Coat',
@@ -22211,7 +22211,7 @@ export const emojis: CompressedEmojiData[] = [
       'chemist'
     ],
     sheet: [44, 14],
-    shortName: 'lab_coat'
+    shortcode: 'lab_coat'
   },
   {
     label: 'Safety Vest',
@@ -22221,7 +22221,7 @@ export const emojis: CompressedEmojiData[] = [
       'protection'
     ],
     sheet: [45, 55],
-    shortName: 'safety_vest'
+    shortcode: 'safety_vest'
   },
   {
     label: 'Necktie',
@@ -22236,7 +22236,7 @@ export const emojis: CompressedEmojiData[] = [
       'business'
     ],
     sheet: [13, 16],
-    shortName: 'necktie'
+    shortcode: 'necktie'
   },
   {
     label: 'T-Shirt',
@@ -22250,8 +22250,8 @@ export const emojis: CompressedEmojiData[] = [
       'tee'
     ],
     sheet: [13, 17],
-    shortNames: ['tshirt'],
-    shortName: 'shirt'
+    shortcodes: ['tshirt'],
+    shortcode: 'shirt'
   },
   {
     label: 'Jeans',
@@ -22262,7 +22262,7 @@ export const emojis: CompressedEmojiData[] = [
       'shopping'
     ],
     sheet: [13, 18],
-    shortName: 'jeans'
+    shortcode: 'jeans'
   },
   {
     label: 'Scarf',
@@ -22274,7 +22274,7 @@ export const emojis: CompressedEmojiData[] = [
       'clothes'
     ],
     sheet: [53, 17],
-    shortName: 'scarf'
+    shortcode: 'scarf'
   },
   {
     label: 'Gloves',
@@ -22286,14 +22286,14 @@ export const emojis: CompressedEmojiData[] = [
       'clothes'
     ],
     sheet: [53, 18],
-    shortName: 'gloves'
+    shortcode: 'gloves'
   },
   {
     label: 'Coat',
     hexcode: '1F9E5',
     tags: ['coat', 'jacket'],
     sheet: [53, 19],
-    shortName: 'coat'
+    shortcode: 'coat'
   },
   {
     label: 'Socks',
@@ -22304,7 +22304,7 @@ export const emojis: CompressedEmojiData[] = [
       'clothes'
     ],
     sheet: [53, 20],
-    shortName: 'socks'
+    shortcode: 'socks'
   },
   {
     label: 'Dress',
@@ -22316,7 +22316,7 @@ export const emojis: CompressedEmojiData[] = [
       'shopping'
     ],
     sheet: [13, 19],
-    shortName: 'dress'
+    shortcode: 'dress'
   },
   {
     label: 'Kimono',
@@ -22330,14 +22330,14 @@ export const emojis: CompressedEmojiData[] = [
       'japanese'
     ],
     sheet: [13, 20],
-    shortName: 'kimono'
+    shortcode: 'kimono'
   },
   {
     label: 'Sari',
     hexcode: '1F97B',
     tags: ['sari', 'dress'],
     sheet: [44, 13],
-    shortName: 'sari'
+    shortcode: 'sari'
   },
   {
     label: 'One-Piece Swimsuit',
@@ -22347,21 +22347,21 @@ export const emojis: CompressedEmojiData[] = [
       'fashion'
     ],
     sheet: [53, 47],
-    shortName: 'one-piece_swimsuit'
+    shortcode: 'one-piece_swimsuit'
   },
   {
     label: 'Briefs',
     hexcode: '1FA72',
     tags: ['briefs', 'clothing'],
     sheet: [53, 48],
-    shortName: 'briefs'
+    shortcode: 'briefs'
   },
   {
     label: 'Shorts',
     hexcode: '1FA73',
     tags: ['shorts', 'clothing'],
     sheet: [53, 49],
-    shortName: 'shorts'
+    shortcode: 'shorts'
   },
   {
     label: 'Bikini',
@@ -22377,7 +22377,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [13, 21],
-    shortName: 'bikini'
+    shortcode: 'bikini'
   },
   {
     label: 'Womans Clothes',
@@ -22389,7 +22389,7 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [13, 22],
-    shortName: 'womans_clothes'
+    shortcode: 'womans_clothes'
   },
   {
     label: 'Purse',
@@ -22403,7 +22403,7 @@ export const emojis: CompressedEmojiData[] = [
       'shopping'
     ],
     sheet: [13, 23],
-    shortName: 'purse'
+    shortcode: 'purse'
   },
   {
     label: 'Handbag',
@@ -22416,7 +22416,7 @@ export const emojis: CompressedEmojiData[] = [
       'shopping'
     ],
     sheet: [13, 24],
-    shortName: 'handbag'
+    shortcode: 'handbag'
   },
   {
     label: 'Pouch',
@@ -22428,7 +22428,7 @@ export const emojis: CompressedEmojiData[] = [
       'shopping'
     ],
     sheet: [13, 25],
-    shortName: 'pouch'
+    shortcode: 'pouch'
   },
   {
     label: 'Shopping Bags',
@@ -22440,7 +22440,7 @@ export const emojis: CompressedEmojiData[] = [
       'purchase'
     ],
     sheet: [37, 60],
-    shortName: 'shopping_bags'
+    shortcode: 'shopping_bags'
   },
   {
     label: 'School Satchel',
@@ -22453,7 +22453,7 @@ export const emojis: CompressedEmojiData[] = [
       'backpack'
     ],
     sheet: [7, 26],
-    shortName: 'school_satchel'
+    shortcode: 'school_satchel'
   },
   {
     label: 'Thong Sandal',
@@ -22464,7 +22464,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [53, 50],
-    shortName: 'thong_sandal'
+    shortcode: 'thong_sandal'
   },
   {
     label: 'Mans Shoe',
@@ -22475,8 +22475,8 @@ export const emojis: CompressedEmojiData[] = [
       'male'
     ],
     sheet: [13, 26],
-    shortNames: ['shoe'],
-    shortName: 'mans_shoe'
+    shortcodes: ['shoe'],
+    shortcode: 'mans_shoe'
   },
   {
     label: 'Athletic Shoe',
@@ -22488,7 +22488,7 @@ export const emojis: CompressedEmojiData[] = [
       'sneakers'
     ],
     sheet: [13, 27],
-    shortName: 'athletic_shoe'
+    shortcode: 'athletic_shoe'
   },
   {
     label: 'Hiking Boot',
@@ -22500,7 +22500,7 @@ export const emojis: CompressedEmojiData[] = [
       'hiking'
     ],
     sheet: [44, 16],
-    shortName: 'hiking_boot'
+    shortcode: 'hiking_boot'
   },
   {
     label: 'Flat Shoe',
@@ -22512,7 +22512,7 @@ export const emojis: CompressedEmojiData[] = [
       'slipper'
     ],
     sheet: [44, 17],
-    shortName: 'womans_flat_shoe'
+    shortcode: 'womans_flat_shoe'
   },
   {
     label: 'High-Heeled Shoe',
@@ -22526,7 +22526,7 @@ export const emojis: CompressedEmojiData[] = [
       'stiletto'
     ],
     sheet: [13, 28],
-    shortName: 'high_heel'
+    shortcode: 'high_heel'
   },
   {
     label: 'Womans Sandal',
@@ -22538,14 +22538,14 @@ export const emojis: CompressedEmojiData[] = [
       'flip flops'
     ],
     sheet: [13, 29],
-    shortName: 'sandal'
+    shortcode: 'sandal'
   },
   {
     label: 'Ballet Shoes',
     hexcode: '1FA70',
     tags: ['ballet_shoes', 'dance'],
     sheet: [53, 46],
-    shortName: 'ballet_shoes'
+    shortcode: 'ballet_shoes'
   },
   {
     label: 'Womans Boots',
@@ -22556,7 +22556,7 @@ export const emojis: CompressedEmojiData[] = [
       'fashion'
     ],
     sheet: [13, 30],
-    shortName: 'boot'
+    shortcode: 'boot'
   },
   {
     label: 'Crown',
@@ -22570,7 +22570,7 @@ export const emojis: CompressedEmojiData[] = [
       'lord'
     ],
     sheet: [13, 13],
-    shortName: 'crown'
+    shortcode: 'crown'
   },
   {
     label: 'Womans Hat',
@@ -22584,7 +22584,7 @@ export const emojis: CompressedEmojiData[] = [
       'spring'
     ],
     sheet: [13, 14],
-    shortName: 'womans_hat'
+    shortcode: 'womans_hat'
   },
   {
     label: 'Top Hat',
@@ -22597,7 +22597,7 @@ export const emojis: CompressedEmojiData[] = [
       'circus'
     ],
     sheet: [7, 44],
-    shortName: 'tophat'
+    shortcode: 'tophat'
   },
   {
     label: 'Graduation Cap',
@@ -22616,7 +22616,7 @@ export const emojis: CompressedEmojiData[] = [
       'education'
     ],
     sheet: [7, 27],
-    shortName: 'mortar_board'
+    shortcode: 'mortar_board'
   },
   {
     label: 'Billed Cap',
@@ -22627,7 +22627,7 @@ export const emojis: CompressedEmojiData[] = [
       'baseball'
     ],
     sheet: [53, 16],
-    shortName: 'billed_cap'
+    shortcode: 'billed_cap'
   },
   {
     label: 'Military Helmet',
@@ -22638,7 +22638,7 @@ export const emojis: CompressedEmojiData[] = [
       'protection'
     ],
     sheet: [54, 8],
-    shortName: 'military_helmet'
+    shortcode: 'military_helmet'
   },
   {
     label: 'Rescue Worker’s Helmet',
@@ -22649,7 +22649,7 @@ export const emojis: CompressedEmojiData[] = [
       'build'
     ],
     sheet: [57, 51],
-    shortName: 'helmet_with_white_cross'
+    shortcode: 'helmet_with_white_cross'
   },
   {
     label: 'Prayer Beads',
@@ -22660,7 +22660,7 @@ export const emojis: CompressedEmojiData[] = [
       'religious'
     ],
     sheet: [29, 24],
-    shortName: 'prayer_beads'
+    shortcode: 'prayer_beads'
   },
   {
     label: 'Lipstick',
@@ -22673,7 +22673,7 @@ export const emojis: CompressedEmojiData[] = [
       'woman'
     ],
     sheet: [25, 52],
-    shortName: 'lipstick'
+    shortcode: 'lipstick'
   },
   {
     label: 'Ring',
@@ -22691,7 +22691,7 @@ export const emojis: CompressedEmojiData[] = [
       'engagement'
     ],
     sheet: [26, 39],
-    shortName: 'ring'
+    shortcode: 'ring'
   },
   {
     label: 'Gem Stone',
@@ -22704,7 +22704,7 @@ export const emojis: CompressedEmojiData[] = [
       'jewelry'
     ],
     sheet: [26, 40],
-    shortName: 'gem'
+    shortcode: 'gem'
   },
   {
     label: 'Speaker with Cancellation Stroke',
@@ -22717,7 +22717,7 @@ export const emojis: CompressedEmojiData[] = [
       'quiet'
     ],
     sheet: [29, 32],
-    shortName: 'mute'
+    shortcode: 'mute'
   },
   {
     label: 'Speaker',
@@ -22730,7 +22730,7 @@ export const emojis: CompressedEmojiData[] = [
       'broadcast'
     ],
     sheet: [29, 33],
-    shortName: 'speaker'
+    shortcode: 'speaker'
   },
   {
     label: 'Speaker with One Sound Wave',
@@ -22742,7 +22742,7 @@ export const emojis: CompressedEmojiData[] = [
       'broadcast'
     ],
     sheet: [29, 34],
-    shortName: 'sound'
+    shortcode: 'sound'
   },
   {
     label: 'Speaker with Three Sound Waves',
@@ -22756,7 +22756,7 @@ export const emojis: CompressedEmojiData[] = [
       'broadcast'
     ],
     sheet: [29, 35],
-    shortName: 'loud_sound'
+    shortcode: 'loud_sound'
   },
   {
     label: 'Public Address Loudspeaker',
@@ -22767,7 +22767,7 @@ export const emojis: CompressedEmojiData[] = [
       'sound'
     ],
     sheet: [28, 57],
-    shortName: 'loudspeaker'
+    shortcode: 'loudspeaker'
   },
   {
     label: 'Cheering Megaphone',
@@ -22779,7 +22779,7 @@ export const emojis: CompressedEmojiData[] = [
       'volume'
     ],
     sheet: [28, 58],
-    shortName: 'mega'
+    shortcode: 'mega'
   },
   {
     label: 'Postal Horn',
@@ -22790,7 +22790,7 @@ export const emojis: CompressedEmojiData[] = [
       'music'
     ],
     sheet: [29, 9],
-    shortName: 'postal_horn'
+    shortcode: 'postal_horn'
   },
   {
     label: 'Bell',
@@ -22804,7 +22804,7 @@ export const emojis: CompressedEmojiData[] = [
       'chime'
     ],
     sheet: [29, 45],
-    shortName: 'bell'
+    shortcode: 'bell'
   },
   {
     label: 'Bell with Cancellation Stroke',
@@ -22818,7 +22818,7 @@ export const emojis: CompressedEmojiData[] = [
       'silent'
     ],
     sheet: [29, 46],
-    shortName: 'no_bell'
+    shortcode: 'no_bell'
   },
   {
     label: 'Musical Score',
@@ -22830,7 +22830,7 @@ export const emojis: CompressedEmojiData[] = [
       'compose'
     ],
     sheet: [8, 2],
-    shortName: 'musical_score'
+    shortcode: 'musical_score'
   },
   {
     label: 'Musical Note',
@@ -22842,7 +22842,7 @@ export const emojis: CompressedEmojiData[] = [
       'sound'
     ],
     sheet: [7, 56],
-    shortName: 'musical_note'
+    shortcode: 'musical_note'
   },
   {
     label: 'Multiple Musical Notes',
@@ -22853,7 +22853,7 @@ export const emojis: CompressedEmojiData[] = [
       'score'
     ],
     sheet: [7, 57],
-    shortName: 'notes'
+    shortcode: 'notes'
   },
   {
     label: 'Studio Microphone',
@@ -22866,21 +22866,21 @@ export const emojis: CompressedEmojiData[] = [
       'talkshow'
     ],
     sheet: [7, 30],
-    shortName: 'studio_microphone'
+    shortcode: 'studio_microphone'
   },
   {
     label: 'Level Slider',
     hexcode: '1F39A-FE0F',
     tags: ['level_slider', 'scale'],
     sheet: [7, 31],
-    shortName: 'level_slider'
+    shortcode: 'level_slider'
   },
   {
     label: 'Control Knobs',
     hexcode: '1F39B-FE0F',
     tags: ['control_knobs', 'dial'],
     sheet: [7, 32],
-    shortName: 'control_knobs'
+    shortcode: 'control_knobs'
   },
   {
     label: 'Microphone',
@@ -22894,7 +22894,7 @@ export const emojis: CompressedEmojiData[] = [
       'talkshow'
     ],
     sheet: [7, 39],
-    shortName: 'microphone'
+    shortcode: 'microphone'
   },
   {
     label: 'Headphone',
@@ -22906,7 +22906,7 @@ export const emojis: CompressedEmojiData[] = [
       'gadgets'
     ],
     sheet: [7, 42],
-    shortName: 'headphones'
+    shortcode: 'headphones'
   },
   {
     label: 'Radio',
@@ -22919,7 +22919,7 @@ export const emojis: CompressedEmojiData[] = [
       'program'
     ],
     sheet: [29, 21],
-    shortName: 'radio'
+    shortcode: 'radio'
   },
   {
     label: 'Saxophone',
@@ -22932,14 +22932,14 @@ export const emojis: CompressedEmojiData[] = [
       'blues'
     ],
     sheet: [7, 58],
-    shortName: 'saxophone'
+    shortcode: 'saxophone'
   },
   {
     label: 'Accordion',
     hexcode: '1FA97',
     tags: ['accordion', 'music'],
     sheet: [54, 9],
-    shortName: 'accordion'
+    shortcode: 'accordion'
   },
   {
     label: 'Guitar',
@@ -22950,7 +22950,7 @@ export const emojis: CompressedEmojiData[] = [
       'instrument'
     ],
     sheet: [7, 59],
-    shortName: 'guitar'
+    shortcode: 'guitar'
   },
   {
     label: 'Musical Keyboard',
@@ -22962,7 +22962,7 @@ export const emojis: CompressedEmojiData[] = [
       'compose'
     ],
     sheet: [7, 60],
-    shortName: 'musical_keyboard'
+    shortcode: 'musical_keyboard'
   },
   {
     label: 'Trumpet',
@@ -22973,7 +22973,7 @@ export const emojis: CompressedEmojiData[] = [
       'brass'
     ],
     sheet: [8, 0],
-    shortName: 'trumpet'
+    shortcode: 'trumpet'
   },
   {
     label: 'Violin',
@@ -22986,7 +22986,7 @@ export const emojis: CompressedEmojiData[] = [
       'symphony'
     ],
     sheet: [8, 1],
-    shortName: 'violin'
+    shortcode: 'violin'
   },
   {
     label: 'Banjo',
@@ -22997,7 +22997,7 @@ export const emojis: CompressedEmojiData[] = [
       'instructment'
     ],
     sheet: [54, 7],
-    shortName: 'banjo'
+    shortcode: 'banjo'
   },
   {
     label: 'Drum with Drumsticks',
@@ -23010,14 +23010,14 @@ export const emojis: CompressedEmojiData[] = [
       'snare'
     ],
     sheet: [43, 12],
-    shortName: 'drum_with_drumsticks'
+    shortcode: 'drum_with_drumsticks'
   },
   {
     label: 'Long Drum',
     hexcode: '1FA98',
     tags: ['long drum', 'music'],
     sheet: [54, 10],
-    shortName: 'long_drum'
+    shortcode: 'long_drum'
   },
   {
     label: 'Mobile Phone',
@@ -23030,7 +23030,7 @@ export const emojis: CompressedEmojiData[] = [
       'dial'
     ],
     sheet: [29, 11],
-    shortName: 'iphone'
+    shortcode: 'iphone'
   },
   {
     label: 'Mobile Phone with Rightwards Arrow at Left',
@@ -23041,7 +23041,7 @@ export const emojis: CompressedEmojiData[] = [
       'incoming'
     ],
     sheet: [29, 12],
-    shortName: 'calling'
+    shortcode: 'calling'
   },
   {
     label: 'Black Telephone',
@@ -23054,8 +23054,8 @@ export const emojis: CompressedEmojiData[] = [
       'telephone'
     ],
     sheet: [56, 45],
-    shortNames: ['telephone'],
-    shortName: 'phone'
+    shortcodes: ['telephone'],
+    shortcode: 'phone'
   },
   {
     label: 'Telephone Receiver',
@@ -23067,7 +23067,7 @@ export const emojis: CompressedEmojiData[] = [
       'dial'
     ],
     sheet: [28, 53],
-    shortName: 'telephone_receiver'
+    shortcode: 'telephone_receiver'
   },
   {
     label: 'Pager',
@@ -23079,7 +23079,7 @@ export const emojis: CompressedEmojiData[] = [
       '90s'
     ],
     sheet: [28, 54],
-    shortName: 'pager'
+    shortcode: 'pager'
   },
   {
     label: 'Fax Machine',
@@ -23090,7 +23090,7 @@ export const emojis: CompressedEmojiData[] = [
       'technology'
     ],
     sheet: [28, 55],
-    shortName: 'fax'
+    shortcode: 'fax'
   },
   {
     label: 'Battery',
@@ -23102,7 +23102,7 @@ export const emojis: CompressedEmojiData[] = [
       'sustain'
     ],
     sheet: [29, 36],
-    shortName: 'battery'
+    shortcode: 'battery'
   },
   {
     label: 'Low Battery',
@@ -23114,7 +23114,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 29],
     hidden: ['facebook'],
-    shortName: 'low_battery'
+    shortcode: 'low_battery'
   },
   {
     label: 'Electric Plug',
@@ -23125,7 +23125,7 @@ export const emojis: CompressedEmojiData[] = [
       'power'
     ],
     sheet: [29, 37],
-    shortName: 'electric_plug'
+    shortcode: 'electric_plug'
   },
   {
     label: 'Personal Computer',
@@ -23139,7 +23139,7 @@ export const emojis: CompressedEmojiData[] = [
       'monitor'
     ],
     sheet: [28, 18],
-    shortName: 'computer'
+    shortcode: 'computer'
   },
   {
     label: 'Desktop Computer',
@@ -23151,7 +23151,7 @@ export const emojis: CompressedEmojiData[] = [
       'screen'
     ],
     sheet: [31, 56],
-    shortName: 'desktop_computer'
+    shortcode: 'desktop_computer'
   },
   {
     label: 'Printer',
@@ -23162,7 +23162,7 @@ export const emojis: CompressedEmojiData[] = [
       'ink'
     ],
     sheet: [31, 57],
-    shortName: 'printer'
+    shortcode: 'printer'
   },
   {
     label: 'Keyboard',
@@ -23176,7 +23176,7 @@ export const emojis: CompressedEmojiData[] = [
       'text'
     ],
     sheet: [56, 15],
-    shortName: 'keyboard'
+    shortcode: 'keyboard'
   },
   {
     label: 'Computer Mouse',
@@ -23186,7 +23186,7 @@ export const emojis: CompressedEmojiData[] = [
       'click'
     ],
     sheet: [31, 58],
-    shortName: 'three_button_mouse'
+    shortcode: 'three_button_mouse'
   },
   {
     label: 'Trackball',
@@ -23197,7 +23197,7 @@ export const emojis: CompressedEmojiData[] = [
       'trackpad'
     ],
     sheet: [31, 59],
-    shortName: 'trackball'
+    shortcode: 'trackball'
   },
   {
     label: 'Minidisc',
@@ -23211,7 +23211,7 @@ export const emojis: CompressedEmojiData[] = [
       '90s'
     ],
     sheet: [28, 20],
-    shortName: 'minidisc'
+    shortcode: 'minidisc'
   },
   {
     label: 'Floppy Disk',
@@ -23225,7 +23225,7 @@ export const emojis: CompressedEmojiData[] = [
       '80s'
     ],
     sheet: [28, 21],
-    shortName: 'floppy_disk'
+    shortcode: 'floppy_disk'
   },
   {
     label: 'Optical Disc',
@@ -23239,7 +23239,7 @@ export const emojis: CompressedEmojiData[] = [
       '90s'
     ],
     sheet: [28, 22],
-    shortName: 'cd'
+    shortcode: 'cd'
   },
   {
     label: 'Dvd',
@@ -23251,14 +23251,14 @@ export const emojis: CompressedEmojiData[] = [
       'disc'
     ],
     sheet: [28, 23],
-    shortName: 'dvd'
+    shortcode: 'dvd'
   },
   {
     label: 'Abacus',
     hexcode: '1F9EE',
     tags: ['abacus', 'calculation'],
     sheet: [53, 28],
-    shortName: 'abacus'
+    shortcode: 'abacus'
   },
   {
     label: 'Movie Camera',
@@ -23269,14 +23269,14 @@ export const emojis: CompressedEmojiData[] = [
       'record'
     ],
     sheet: [7, 40],
-    shortName: 'movie_camera'
+    shortcode: 'movie_camera'
   },
   {
     label: 'Film Frames',
     hexcode: '1F39E-FE0F',
     tags: ['film_frames', 'movie'],
     sheet: [7, 33],
-    shortName: 'film_frames'
+    shortcode: 'film_frames'
   },
   {
     label: 'Film Projector',
@@ -23289,7 +23289,7 @@ export const emojis: CompressedEmojiData[] = [
       'movie'
     ],
     sheet: [29, 23],
-    shortName: 'film_projector'
+    shortcode: 'film_projector'
   },
   {
     label: 'Clapper Board',
@@ -23301,7 +23301,7 @@ export const emojis: CompressedEmojiData[] = [
       'record'
     ],
     sheet: [7, 47],
-    shortName: 'clapper'
+    shortcode: 'clapper'
   },
   {
     label: 'Television',
@@ -23315,7 +23315,7 @@ export const emojis: CompressedEmojiData[] = [
       'television'
     ],
     sheet: [29, 20],
-    shortName: 'tv'
+    shortcode: 'tv'
   },
   {
     label: 'Camera',
@@ -23326,7 +23326,7 @@ export const emojis: CompressedEmojiData[] = [
       'photography'
     ],
     sheet: [29, 17],
-    shortName: 'camera'
+    shortcode: 'camera'
   },
   {
     label: 'Camera with Flash',
@@ -23337,7 +23337,7 @@ export const emojis: CompressedEmojiData[] = [
       'gadgets'
     ],
     sheet: [29, 18],
-    shortName: 'camera_with_flash'
+    shortcode: 'camera_with_flash'
   },
   {
     label: 'Video Camera',
@@ -23348,7 +23348,7 @@ export const emojis: CompressedEmojiData[] = [
       'record'
     ],
     sheet: [29, 19],
-    shortName: 'video_camera'
+    shortcode: 'video_camera'
   },
   {
     label: 'Videocassette',
@@ -23362,7 +23362,7 @@ export const emojis: CompressedEmojiData[] = [
       '80s'
     ],
     sheet: [29, 22],
-    shortName: 'vhs'
+    shortcode: 'vhs'
   },
   {
     label: 'Left-Pointing Magnifying Glass',
@@ -23375,7 +23375,7 @@ export const emojis: CompressedEmojiData[] = [
       'detective'
     ],
     sheet: [29, 38],
-    shortName: 'mag'
+    shortcode: 'mag'
   },
   {
     label: 'Right-Pointing Magnifying Glass',
@@ -23388,14 +23388,14 @@ export const emojis: CompressedEmojiData[] = [
       'detective'
     ],
     sheet: [29, 39],
-    shortName: 'mag_right'
+    shortcode: 'mag_right'
   },
   {
     label: 'Candle',
     hexcode: '1F56F-FE0F',
     tags: ['candle', 'fire', 'wax'],
     sheet: [30, 56],
-    shortName: 'candle'
+    shortcode: 'candle'
   },
   {
     label: 'Electric Light Bulb',
@@ -23407,7 +23407,7 @@ export const emojis: CompressedEmojiData[] = [
       'idea'
     ],
     sheet: [27, 48],
-    shortName: 'bulb'
+    shortcode: 'bulb'
   },
   {
     label: 'Electric Torch',
@@ -23420,7 +23420,7 @@ export const emojis: CompressedEmojiData[] = [
       'night'
     ],
     sheet: [30, 2],
-    shortName: 'flashlight'
+    shortcode: 'flashlight'
   },
   {
     label: 'Izakaya Lantern',
@@ -23433,15 +23433,15 @@ export const emojis: CompressedEmojiData[] = [
       'spooky'
     ],
     sheet: [10, 25],
-    shortNames: ['lantern'],
-    shortName: 'izakaya_lantern'
+    shortcodes: ['lantern'],
+    shortcode: 'izakaya_lantern'
   },
   {
     label: 'Diya Lamp',
     hexcode: '1FA94',
     tags: ['diya_lamp', 'lighting'],
     sheet: [54, 6],
-    shortName: 'diya_lamp'
+    shortcode: 'diya_lamp'
   },
   {
     label: 'Notebook with Decorative Cover',
@@ -23455,7 +23455,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 43],
-    shortName: 'notebook_with_decorative_cover'
+    shortcode: 'notebook_with_decorative_cover'
   },
   {
     label: 'Closed Book',
@@ -23469,7 +23469,7 @@ export const emojis: CompressedEmojiData[] = [
       'learn'
     ],
     sheet: [28, 44],
-    shortName: 'closed_book'
+    shortcode: 'closed_book'
   },
   {
     label: 'Open Book',
@@ -23485,8 +23485,8 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 45],
-    shortNames: ['open_book'],
-    shortName: 'book'
+    shortcodes: ['open_book'],
+    shortcode: 'book'
   },
   {
     label: 'Green Book',
@@ -23499,7 +23499,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 46],
-    shortName: 'green_book'
+    shortcode: 'green_book'
   },
   {
     label: 'Blue Book',
@@ -23513,7 +23513,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 47],
-    shortName: 'blue_book'
+    shortcode: 'blue_book'
   },
   {
     label: 'Orange Book',
@@ -23527,7 +23527,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 48],
-    shortName: 'orange_book'
+    shortcode: 'orange_book'
   },
   {
     label: 'Books',
@@ -23539,7 +23539,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 49],
-    shortName: 'books'
+    shortcode: 'books'
   },
   {
     label: 'Notebook',
@@ -23553,7 +23553,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [28, 42],
-    shortName: 'notebook'
+    shortcode: 'notebook'
   },
   {
     label: 'Ledger',
@@ -23564,7 +23564,7 @@ export const emojis: CompressedEmojiData[] = [
       'paper'
     ],
     sheet: [28, 41],
-    shortName: 'ledger'
+    shortcode: 'ledger'
   },
   {
     label: 'Page with Curl',
@@ -23576,7 +23576,7 @@ export const emojis: CompressedEmojiData[] = [
       'paper'
     ],
     sheet: [28, 26],
-    shortName: 'page_with_curl'
+    shortcode: 'page_with_curl'
   },
   {
     label: 'Scroll',
@@ -23589,7 +23589,7 @@ export const emojis: CompressedEmojiData[] = [
       'paper'
     ],
     sheet: [28, 51],
-    shortName: 'scroll'
+    shortcode: 'scroll'
   },
   {
     label: 'Page Facing Up',
@@ -23602,7 +23602,7 @@ export const emojis: CompressedEmojiData[] = [
       'information'
     ],
     sheet: [28, 27],
-    shortName: 'page_facing_up'
+    shortcode: 'page_facing_up'
   },
   {
     label: 'Newspaper',
@@ -23613,7 +23613,7 @@ export const emojis: CompressedEmojiData[] = [
       'headline'
     ],
     sheet: [29, 10],
-    shortName: 'newspaper'
+    shortcode: 'newspaper'
   },
   {
     label: 'Rolled-Up Newspaper',
@@ -23624,7 +23624,7 @@ export const emojis: CompressedEmojiData[] = [
       'headline'
     ],
     sheet: [32, 8],
-    shortName: 'rolled_up_newspaper'
+    shortcode: 'rolled_up_newspaper'
   },
   {
     label: 'Bookmark Tabs',
@@ -23637,7 +23637,7 @@ export const emojis: CompressedEmojiData[] = [
       'tidy'
     ],
     sheet: [28, 40],
-    shortName: 'bookmark_tabs'
+    shortcode: 'bookmark_tabs'
   },
   {
     label: 'Bookmark',
@@ -23649,14 +23649,14 @@ export const emojis: CompressedEmojiData[] = [
       'save'
     ],
     sheet: [29, 47],
-    shortName: 'bookmark'
+    shortcode: 'bookmark'
   },
   {
     label: 'Label',
     hexcode: '1F3F7-FE0F',
     tags: ['label', 'sale', 'tag'],
     sheet: [10, 37],
-    shortName: 'label'
+    shortcode: 'label'
   },
   {
     label: 'Money Bag',
@@ -23669,7 +23669,7 @@ export const emojis: CompressedEmojiData[] = [
       'sale'
     ],
     sheet: [28, 7],
-    shortName: 'moneybag'
+    shortcode: 'moneybag'
   },
   {
     label: 'Coin',
@@ -23680,7 +23680,7 @@ export const emojis: CompressedEmojiData[] = [
       'currency'
     ],
     sheet: [54, 11],
-    shortName: 'coin'
+    shortcode: 'coin'
   },
   {
     label: 'Banknote with Yen Sign',
@@ -23694,7 +23694,7 @@ export const emojis: CompressedEmojiData[] = [
       'currency'
     ],
     sheet: [28, 11],
-    shortName: 'yen'
+    shortcode: 'yen'
   },
   {
     label: 'Banknote with Dollar Sign',
@@ -23707,7 +23707,7 @@ export const emojis: CompressedEmojiData[] = [
       'currency'
     ],
     sheet: [28, 12],
-    shortName: 'dollar'
+    shortcode: 'dollar'
   },
   {
     label: 'Banknote with Euro Sign',
@@ -23720,7 +23720,7 @@ export const emojis: CompressedEmojiData[] = [
       'currency'
     ],
     sheet: [28, 13],
-    shortName: 'euro'
+    shortcode: 'euro'
   },
   {
     label: 'Banknote with Pound Sign',
@@ -23737,7 +23737,7 @@ export const emojis: CompressedEmojiData[] = [
       'currency'
     ],
     sheet: [28, 14],
-    shortName: 'pound'
+    shortcode: 'pound'
   },
   {
     label: 'Money with Wings',
@@ -23750,7 +23750,7 @@ export const emojis: CompressedEmojiData[] = [
       'sale'
     ],
     sheet: [28, 15],
-    shortName: 'money_with_wings'
+    shortcode: 'money_with_wings'
   },
   {
     label: 'Credit Card',
@@ -23765,7 +23765,7 @@ export const emojis: CompressedEmojiData[] = [
       'shopping'
     ],
     sheet: [28, 10],
-    shortName: 'credit_card'
+    shortcode: 'credit_card'
   },
   {
     label: 'Receipt',
@@ -23776,7 +23776,7 @@ export const emojis: CompressedEmojiData[] = [
       'expenses'
     ],
     sheet: [53, 44],
-    shortName: 'receipt'
+    shortcode: 'receipt'
   },
   {
     label: 'Chart with Upwards Trend and Yen Sign',
@@ -23789,7 +23789,7 @@ export const emojis: CompressedEmojiData[] = [
       'stats'
     ],
     sheet: [28, 16],
-    shortName: 'chart'
+    shortcode: 'chart'
   },
   {
     label: 'Envelope',
@@ -23802,8 +23802,8 @@ export const emojis: CompressedEmojiData[] = [
       'communication'
     ],
     sheet: [58, 26],
-    shortNames: ['envelope'],
-    shortName: 'email'
+    shortcodes: ['envelope'],
+    shortcode: 'email'
   },
   {
     label: 'E-Mail Symbol',
@@ -23814,7 +23814,7 @@ export const emojis: CompressedEmojiData[] = [
       'inbox'
     ],
     sheet: [29, 1],
-    shortName: 'e-mail'
+    shortcode: 'e-mail'
   },
   {
     label: 'Incoming Envelope',
@@ -23825,7 +23825,7 @@ export const emojis: CompressedEmojiData[] = [
       'inbox'
     ],
     sheet: [29, 2],
-    shortName: 'incoming_envelope'
+    shortcode: 'incoming_envelope'
   },
   {
     label: 'Envelope with Downwards Arrow Above',
@@ -23836,7 +23836,7 @@ export const emojis: CompressedEmojiData[] = [
       'communication'
     ],
     sheet: [29, 3],
-    shortName: 'envelope_with_arrow'
+    shortcode: 'envelope_with_arrow'
   },
   {
     label: 'Outbox Tray',
@@ -23847,7 +23847,7 @@ export const emojis: CompressedEmojiData[] = [
       'email'
     ],
     sheet: [28, 59],
-    shortName: 'outbox_tray'
+    shortcode: 'outbox_tray'
   },
   {
     label: 'Inbox Tray',
@@ -23858,7 +23858,7 @@ export const emojis: CompressedEmojiData[] = [
       'documents'
     ],
     sheet: [28, 60],
-    shortName: 'inbox_tray'
+    shortcode: 'inbox_tray'
   },
   {
     label: 'Package',
@@ -23872,7 +23872,7 @@ export const emojis: CompressedEmojiData[] = [
       'moving'
     ],
     sheet: [29, 0],
-    shortName: 'package'
+    shortcode: 'package'
   },
   {
     label: 'Closed Mailbox with Raised Flag',
@@ -23884,7 +23884,7 @@ export const emojis: CompressedEmojiData[] = [
       'communication'
     ],
     sheet: [29, 5],
-    shortName: 'mailbox'
+    shortcode: 'mailbox'
   },
   {
     label: 'Closed Mailbox with Lowered Flag',
@@ -23896,7 +23896,7 @@ export const emojis: CompressedEmojiData[] = [
       'inbox'
     ],
     sheet: [29, 4],
-    shortName: 'mailbox_closed'
+    shortcode: 'mailbox_closed'
   },
   {
     label: 'Open Mailbox with Raised Flag',
@@ -23908,7 +23908,7 @@ export const emojis: CompressedEmojiData[] = [
       'communication'
     ],
     sheet: [29, 6],
-    shortName: 'mailbox_with_mail'
+    shortcode: 'mailbox_with_mail'
   },
   {
     label: 'Open Mailbox with Lowered Flag',
@@ -23919,7 +23919,7 @@ export const emojis: CompressedEmojiData[] = [
       'inbox'
     ],
     sheet: [29, 7],
-    shortName: 'mailbox_with_no_mail'
+    shortcode: 'mailbox_with_no_mail'
   },
   {
     label: 'Postbox',
@@ -23931,7 +23931,7 @@ export const emojis: CompressedEmojiData[] = [
       'envelope'
     ],
     sheet: [29, 8],
-    shortName: 'postbox'
+    shortcode: 'postbox'
   },
   {
     label: 'Ballot Box with Ballot',
@@ -23942,7 +23942,7 @@ export const emojis: CompressedEmojiData[] = [
       'vote'
     ],
     sheet: [32, 13],
-    shortName: 'ballot_box_with_ballot'
+    shortcode: 'ballot_box_with_ballot'
   },
   {
     label: 'Pencil',
@@ -23957,7 +23957,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [58, 51],
-    shortName: 'pencil2'
+    shortcode: 'pencil2'
   },
   {
     label: 'Black Nib',
@@ -23970,7 +23970,7 @@ export const emojis: CompressedEmojiData[] = [
       'write'
     ],
     sheet: [58, 52],
-    shortName: 'black_nib'
+    shortcode: 'black_nib'
   },
   {
     label: 'Fountain Pen',
@@ -23982,7 +23982,7 @@ export const emojis: CompressedEmojiData[] = [
       'write'
     ],
     sheet: [31, 34],
-    shortName: 'lower_left_fountain_pen'
+    shortcode: 'lower_left_fountain_pen'
   },
   {
     label: 'Pen',
@@ -23994,7 +23994,7 @@ export const emojis: CompressedEmojiData[] = [
       'write'
     ],
     sheet: [31, 33],
-    shortName: 'lower_left_ballpoint_pen'
+    shortcode: 'lower_left_ballpoint_pen'
   },
   {
     label: 'Paintbrush',
@@ -24006,7 +24006,7 @@ export const emojis: CompressedEmojiData[] = [
       'art'
     ],
     sheet: [31, 35],
-    shortName: 'lower_left_paintbrush'
+    shortcode: 'lower_left_paintbrush'
   },
   {
     label: 'Crayon',
@@ -24017,7 +24017,7 @@ export const emojis: CompressedEmojiData[] = [
       'creativity'
     ],
     sheet: [31, 36],
-    shortName: 'lower_left_crayon'
+    shortcode: 'lower_left_crayon'
   },
   {
     label: 'Memo',
@@ -24038,8 +24038,8 @@ export const emojis: CompressedEmojiData[] = [
       'compose'
     ],
     sheet: [28, 52],
-    shortNames: ['pencil'],
-    shortName: 'memo'
+    shortcodes: ['pencil'],
+    shortcode: 'memo'
   },
   {
     label: 'Briefcase',
@@ -24055,7 +24055,7 @@ export const emojis: CompressedEmojiData[] = [
       'career'
     ],
     sheet: [28, 19],
-    shortName: 'briefcase'
+    shortcode: 'briefcase'
   },
   {
     label: 'File Folder',
@@ -24067,7 +24067,7 @@ export const emojis: CompressedEmojiData[] = [
       'office'
     ],
     sheet: [28, 24],
-    shortName: 'file_folder'
+    shortcode: 'file_folder'
   },
   {
     label: 'Open File Folder',
@@ -24078,7 +24078,7 @@ export const emojis: CompressedEmojiData[] = [
       'load'
     ],
     sheet: [28, 25],
-    shortName: 'open_file_folder'
+    shortcode: 'open_file_folder'
   },
   {
     label: 'Card Index Dividers',
@@ -24090,7 +24090,7 @@ export const emojis: CompressedEmojiData[] = [
       'stationery'
     ],
     sheet: [32, 0],
-    shortName: 'card_index_dividers'
+    shortcode: 'card_index_dividers'
   },
   {
     label: 'Calendar',
@@ -24101,7 +24101,7 @@ export const emojis: CompressedEmojiData[] = [
       'schedule'
     ],
     sheet: [28, 28],
-    shortName: 'date'
+    shortcode: 'date'
   },
   {
     label: 'Tear-off Calendar',
@@ -24113,7 +24113,7 @@ export const emojis: CompressedEmojiData[] = [
       'planning'
     ],
     sheet: [28, 29],
-    shortName: 'calendar'
+    shortcode: 'calendar'
   },
   {
     label: 'Spiral Notepad',
@@ -24124,7 +24124,7 @@ export const emojis: CompressedEmojiData[] = [
       'stationery'
     ],
     sheet: [32, 4],
-    shortName: 'spiral_note_pad'
+    shortcode: 'spiral_note_pad'
   },
   {
     label: 'Spiral Calendar',
@@ -24136,7 +24136,7 @@ export const emojis: CompressedEmojiData[] = [
       'planning'
     ],
     sheet: [32, 5],
-    shortName: 'spiral_calendar_pad'
+    shortcode: 'spiral_calendar_pad'
   },
   {
     label: 'Card Index',
@@ -24147,7 +24147,7 @@ export const emojis: CompressedEmojiData[] = [
       'stationery'
     ],
     sheet: [28, 30],
-    shortName: 'card_index'
+    shortcode: 'card_index'
   },
   {
     label: 'Chart with Upwards Trend',
@@ -24166,7 +24166,7 @@ export const emojis: CompressedEmojiData[] = [
       'success'
     ],
     sheet: [28, 31],
-    shortName: 'chart_with_upwards_trend'
+    shortcode: 'chart_with_upwards_trend'
   },
   {
     label: 'Chart with Downwards Trend',
@@ -24185,7 +24185,7 @@ export const emojis: CompressedEmojiData[] = [
       'failure'
     ],
     sheet: [28, 32],
-    shortName: 'chart_with_downwards_trend'
+    shortcode: 'chart_with_downwards_trend'
   },
   {
     label: 'Bar Chart',
@@ -24197,7 +24197,7 @@ export const emojis: CompressedEmojiData[] = [
       'stats'
     ],
     sheet: [28, 33],
-    shortName: 'bar_chart'
+    shortcode: 'bar_chart'
   },
   {
     label: 'Clipboard',
@@ -24208,7 +24208,7 @@ export const emojis: CompressedEmojiData[] = [
       'documents'
     ],
     sheet: [28, 34],
-    shortName: 'clipboard'
+    shortcode: 'clipboard'
   },
   {
     label: 'Pushpin',
@@ -24220,7 +24220,7 @@ export const emojis: CompressedEmojiData[] = [
       'here'
     ],
     sheet: [28, 35],
-    shortName: 'pushpin'
+    shortcode: 'pushpin'
   },
   {
     label: 'Round Pushpin',
@@ -24233,7 +24233,7 @@ export const emojis: CompressedEmojiData[] = [
       'here'
     ],
     sheet: [28, 36],
-    shortName: 'round_pushpin'
+    shortcode: 'round_pushpin'
   },
   {
     label: 'Paperclip',
@@ -24244,7 +24244,7 @@ export const emojis: CompressedEmojiData[] = [
       'stationery'
     ],
     sheet: [28, 37],
-    shortName: 'paperclip'
+    shortcode: 'paperclip'
   },
   {
     label: 'Linked Paperclips',
@@ -24255,7 +24255,7 @@ export const emojis: CompressedEmojiData[] = [
       'stationery'
     ],
     sheet: [31, 32],
-    shortName: 'linked_paperclips'
+    shortcode: 'linked_paperclips'
   },
   {
     label: 'Straight Ruler',
@@ -24272,7 +24272,7 @@ export const emojis: CompressedEmojiData[] = [
       'sketch'
     ],
     sheet: [28, 38],
-    shortName: 'straight_ruler'
+    shortcode: 'straight_ruler'
   },
   {
     label: 'Triangular Ruler',
@@ -24285,7 +24285,7 @@ export const emojis: CompressedEmojiData[] = [
       'sketch'
     ],
     sheet: [28, 39],
-    shortName: 'triangular_ruler'
+    shortcode: 'triangular_ruler'
   },
   {
     label: 'Black Scissors',
@@ -24296,7 +24296,7 @@ export const emojis: CompressedEmojiData[] = [
       'cut'
     ],
     sheet: [58, 23],
-    shortName: 'scissors'
+    shortcode: 'scissors'
   },
   {
     label: 'Card File Box',
@@ -24307,7 +24307,7 @@ export const emojis: CompressedEmojiData[] = [
       'stationery'
     ],
     sheet: [32, 1],
-    shortName: 'card_file_box'
+    shortcode: 'card_file_box'
   },
   {
     label: 'File Cabinet',
@@ -24318,7 +24318,7 @@ export const emojis: CompressedEmojiData[] = [
       'organizing'
     ],
     sheet: [32, 2],
-    shortName: 'file_cabinet'
+    shortcode: 'file_cabinet'
   },
   {
     label: 'Wastebasket',
@@ -24332,7 +24332,7 @@ export const emojis: CompressedEmojiData[] = [
       'toss'
     ],
     sheet: [32, 3],
-    shortName: 'wastebasket'
+    shortcode: 'wastebasket'
   },
   {
     label: 'Lock',
@@ -24344,7 +24344,7 @@ export const emojis: CompressedEmojiData[] = [
       'padlock'
     ],
     sheet: [29, 43],
-    shortName: 'lock'
+    shortcode: 'lock'
   },
   {
     label: 'Open Lock',
@@ -24355,7 +24355,7 @@ export const emojis: CompressedEmojiData[] = [
       'security'
     ],
     sheet: [29, 44],
-    shortName: 'unlock'
+    shortcode: 'unlock'
   },
   {
     label: 'Lock with Ink Pen',
@@ -24366,7 +24366,7 @@ export const emojis: CompressedEmojiData[] = [
       'secret'
     ],
     sheet: [29, 40],
-    shortName: 'lock_with_ink_pen'
+    shortcode: 'lock_with_ink_pen'
   },
   {
     label: 'Closed Lock with Key',
@@ -24377,7 +24377,7 @@ export const emojis: CompressedEmojiData[] = [
       'privacy'
     ],
     sheet: [29, 41],
-    shortName: 'closed_lock_with_key'
+    shortcode: 'closed_lock_with_key'
   },
   {
     label: 'Key',
@@ -24389,7 +24389,7 @@ export const emojis: CompressedEmojiData[] = [
       'password'
     ],
     sheet: [29, 42],
-    shortName: 'key'
+    shortcode: 'key'
   },
   {
     label: 'Old Key',
@@ -24401,7 +24401,7 @@ export const emojis: CompressedEmojiData[] = [
       'password'
     ],
     sheet: [32, 7],
-    shortName: 'old_key'
+    shortcode: 'old_key'
   },
   {
     label: 'Hammer',
@@ -24413,7 +24413,7 @@ export const emojis: CompressedEmojiData[] = [
       'create'
     ],
     sheet: [30, 4],
-    shortName: 'hammer'
+    shortcode: 'hammer'
   },
   {
     label: 'Axe',
@@ -24425,14 +24425,14 @@ export const emojis: CompressedEmojiData[] = [
       'cut'
     ],
     sheet: [54, 5],
-    shortName: 'axe'
+    shortcode: 'axe'
   },
   {
     label: 'Pick',
     hexcode: '26CF-FE0F',
     tags: ['pick', 'tools', 'dig'],
     sheet: [57, 50],
-    shortName: 'pick'
+    shortcode: 'pick'
   },
   {
     label: 'Hammer and Pick',
@@ -24444,7 +24444,7 @@ export const emojis: CompressedEmojiData[] = [
       'create'
     ],
     sheet: [57, 28],
-    shortName: 'hammer_and_pick'
+    shortcode: 'hammer_and_pick'
   },
   {
     label: 'Hammer and Wrench',
@@ -24456,14 +24456,14 @@ export const emojis: CompressedEmojiData[] = [
       'create'
     ],
     sheet: [38, 11],
-    shortName: 'hammer_and_wrench'
+    shortcode: 'hammer_and_wrench'
   },
   {
     label: 'Dagger',
     hexcode: '1F5E1-FE0F',
     tags: ['dagger', 'weapon'],
     sheet: [32, 9],
-    shortName: 'dagger_knife'
+    shortcode: 'dagger_knife'
   },
   {
     label: 'Crossed Swords',
@@ -24473,7 +24473,7 @@ export const emojis: CompressedEmojiData[] = [
       'weapon'
     ],
     sheet: [57, 30],
-    shortName: 'crossed_swords'
+    shortcode: 'crossed_swords'
   },
   {
     label: 'Pistol',
@@ -24486,14 +24486,14 @@ export const emojis: CompressedEmojiData[] = [
       'revolver'
     ],
     sheet: [30, 7],
-    shortName: 'gun'
+    shortcode: 'gun'
   },
   {
     label: 'Boomerang',
     hexcode: '1FA83',
     tags: ['boomerang', 'weapon'],
     sheet: [53, 59],
-    shortName: 'boomerang'
+    shortcode: 'boomerang'
   },
   {
     label: 'Bow and Arrow',
@@ -24503,7 +24503,7 @@ export const emojis: CompressedEmojiData[] = [
       'sports'
     ],
     sheet: [10, 39],
-    shortName: 'bow_and_arrow'
+    shortcode: 'bow_and_arrow'
   },
   {
     label: 'Shield',
@@ -24514,7 +24514,7 @@ export const emojis: CompressedEmojiData[] = [
       'security'
     ],
     sheet: [38, 12],
-    shortName: 'shield'
+    shortcode: 'shield'
   },
   {
     label: 'Carpentry Saw',
@@ -24525,7 +24525,7 @@ export const emojis: CompressedEmojiData[] = [
       'chop'
     ],
     sheet: [54, 12],
-    shortName: 'carpentry_saw'
+    shortcode: 'carpentry_saw'
   },
   {
     label: 'Wrench',
@@ -24539,14 +24539,14 @@ export const emojis: CompressedEmojiData[] = [
       'maintainer'
     ],
     sheet: [30, 3],
-    shortName: 'wrench'
+    shortcode: 'wrench'
   },
   {
     label: 'Screwdriver',
     hexcode: '1FA9B',
     tags: ['screwdriver', 'tools'],
     sheet: [54, 13],
-    shortName: 'screwdriver'
+    shortcode: 'screwdriver'
   },
   {
     label: 'Nut and Bolt',
@@ -24558,21 +24558,21 @@ export const emojis: CompressedEmojiData[] = [
       'fix'
     ],
     sheet: [30, 5],
-    shortName: 'nut_and_bolt'
+    shortcode: 'nut_and_bolt'
   },
   {
     label: 'Gear',
     hexcode: '2699-FE0F',
     tags: ['gear', 'cog'],
     sheet: [57, 34],
-    shortName: 'gear'
+    shortcode: 'gear'
   },
   {
     label: 'Clamp',
     hexcode: '1F5DC-FE0F',
     tags: ['clamp', 'tool'],
     sheet: [32, 6],
-    shortName: 'compression'
+    shortcode: 'compression'
   },
   {
     label: 'Balance Scale',
@@ -24584,7 +24584,7 @@ export const emojis: CompressedEmojiData[] = [
       'weight'
     ],
     sheet: [57, 32],
-    shortName: 'scales'
+    shortcode: 'scales'
   },
   {
     label: 'Probing Cane',
@@ -24594,14 +24594,14 @@ export const emojis: CompressedEmojiData[] = [
       'accessibility'
     ],
     sheet: [45, 4],
-    shortName: 'probing_cane'
+    shortcode: 'probing_cane'
   },
   {
     label: 'Link Symbol',
     hexcode: '1F517',
     tags: ['link', 'rings', 'url'],
     sheet: [29, 48],
-    shortName: 'link'
+    shortcode: 'link'
   },
   {
     label: 'Chains',
@@ -24612,14 +24612,14 @@ export const emojis: CompressedEmojiData[] = [
       'arrest'
     ],
     sheet: [57, 52],
-    shortName: 'chains'
+    shortcode: 'chains'
   },
   {
     label: 'Hook',
     hexcode: '1FA9D',
     tags: ['hook', 'tools'],
     sheet: [54, 15],
-    shortName: 'hook'
+    shortcode: 'hook'
   },
   {
     label: 'Toolbox',
@@ -24633,7 +24633,7 @@ export const emojis: CompressedEmojiData[] = [
       'mechanic'
     ],
     sheet: [53, 30],
-    shortName: 'toolbox'
+    shortcode: 'toolbox'
   },
   {
     label: 'Magnet',
@@ -24644,14 +24644,14 @@ export const emojis: CompressedEmojiData[] = [
       'magnetic'
     ],
     sheet: [53, 32],
-    shortName: 'magnet'
+    shortcode: 'magnet'
   },
   {
     label: 'Ladder',
     hexcode: '1FA9C',
     tags: ['ladder', 'tools'],
     sheet: [54, 14],
-    shortName: 'ladder'
+    shortcode: 'ladder'
   },
   {
     label: 'Alembic',
@@ -24664,7 +24664,7 @@ export const emojis: CompressedEmojiData[] = [
       'chemistry'
     ],
     sheet: [57, 33],
-    shortName: 'alembic'
+    shortcode: 'alembic'
   },
   {
     label: 'Test Tube',
@@ -24677,7 +24677,7 @@ export const emojis: CompressedEmojiData[] = [
       'science'
     ],
     sheet: [53, 24],
-    shortName: 'test_tube'
+    shortcode: 'test_tube'
   },
   {
     label: 'Petri Dish',
@@ -24690,7 +24690,7 @@ export const emojis: CompressedEmojiData[] = [
       'lab'
     ],
     sheet: [53, 25],
-    shortName: 'petri_dish'
+    shortcode: 'petri_dish'
   },
   {
     label: 'Dna Double Helix',
@@ -24702,7 +24702,7 @@ export const emojis: CompressedEmojiData[] = [
       'life'
     ],
     sheet: [53, 26],
-    shortName: 'dna'
+    shortcode: 'dna'
   },
   {
     label: 'Microscope',
@@ -24716,7 +24716,7 @@ export const emojis: CompressedEmojiData[] = [
       'study'
     ],
     sheet: [30, 8],
-    shortName: 'microscope'
+    shortcode: 'microscope'
   },
   {
     label: 'Telescope',
@@ -24730,7 +24730,7 @@ export const emojis: CompressedEmojiData[] = [
       'astronomy'
     ],
     sheet: [30, 9],
-    shortName: 'telescope'
+    shortcode: 'telescope'
   },
   {
     label: 'Satellite Antenna',
@@ -24743,7 +24743,7 @@ export const emojis: CompressedEmojiData[] = [
       'space'
     ],
     sheet: [28, 56],
-    shortName: 'satellite_antenna'
+    shortcode: 'satellite_antenna'
   },
   {
     label: 'Syringe',
@@ -24760,7 +24760,7 @@ export const emojis: CompressedEmojiData[] = [
       'nurse'
     ],
     sheet: [26, 35],
-    shortName: 'syringe'
+    shortcode: 'syringe'
   },
   {
     label: 'Drop of Blood',
@@ -24773,7 +24773,7 @@ export const emojis: CompressedEmojiData[] = [
       'wound'
     ],
     sheet: [53, 51],
-    shortName: 'drop_of_blood'
+    shortcode: 'drop_of_blood'
   },
   {
     label: 'Pill',
@@ -24787,7 +24787,7 @@ export const emojis: CompressedEmojiData[] = [
       'drug'
     ],
     sheet: [26, 36],
-    shortName: 'pill'
+    shortcode: 'pill'
   },
   {
     label: 'Adhesive Bandage',
@@ -24797,7 +24797,7 @@ export const emojis: CompressedEmojiData[] = [
       'heal'
     ],
     sheet: [53, 52],
-    shortName: 'adhesive_bandage'
+    shortcode: 'adhesive_bandage'
   },
   {
     label: 'Crutch',
@@ -24809,14 +24809,14 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [53, 55],
     hidden: ['facebook'],
-    shortName: 'crutch'
+    shortcode: 'crutch'
   },
   {
     label: 'Stethoscope',
     hexcode: '1FA7A',
     tags: ['stethoscope', 'health'],
     sheet: [53, 53],
-    shortName: 'stethoscope'
+    shortcode: 'stethoscope'
   },
   {
     label: 'X-Ray',
@@ -24828,7 +24828,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [53, 54],
     hidden: ['facebook'],
-    shortName: 'x-ray'
+    shortcode: 'x-ray'
   },
   {
     label: 'Door',
@@ -24840,35 +24840,35 @@ export const emojis: CompressedEmojiData[] = [
       'exit'
     ],
     sheet: [36, 30],
-    shortName: 'door'
+    shortcode: 'door'
   },
   {
     label: 'Elevator',
     hexcode: '1F6D7',
     tags: ['elevator', 'lift'],
     sheet: [38, 7],
-    shortName: 'elevator'
+    shortcode: 'elevator'
   },
   {
     label: 'Mirror',
     hexcode: '1FA9E',
     tags: ['mirror', 'reflection'],
     sheet: [54, 16],
-    shortName: 'mirror'
+    shortcode: 'mirror'
   },
   {
     label: 'Window',
     hexcode: '1FA9F',
     tags: ['window', 'scenery'],
     sheet: [54, 17],
-    shortName: 'window'
+    shortcode: 'window'
   },
   {
     label: 'Bed',
     hexcode: '1F6CF-FE0F',
     tags: ['bed', 'sleep', 'rest'],
     sheet: [38, 1],
-    shortName: 'bed'
+    shortcode: 'bed'
   },
   {
     label: 'Couch and Lamp',
@@ -24879,7 +24879,7 @@ export const emojis: CompressedEmojiData[] = [
       'chill'
     ],
     sheet: [37, 53],
-    shortName: 'couch_and_lamp'
+    shortcode: 'couch_and_lamp'
   },
   {
     label: 'Chair',
@@ -24890,7 +24890,7 @@ export const emojis: CompressedEmojiData[] = [
       'furniture'
     ],
     sheet: [54, 3],
-    shortName: 'chair'
+    shortcode: 'chair'
   },
   {
     label: 'Toilet',
@@ -24904,14 +24904,14 @@ export const emojis: CompressedEmojiData[] = [
       'potty'
     ],
     sheet: [37, 39],
-    shortName: 'toilet'
+    shortcode: 'toilet'
   },
   {
     label: 'Plunger',
     hexcode: '1FAA0',
     tags: ['plunger', 'toilet'],
     sheet: [54, 18],
-    shortName: 'plunger'
+    shortcode: 'plunger'
   },
   {
     label: 'Shower',
@@ -24923,7 +24923,7 @@ export const emojis: CompressedEmojiData[] = [
       'bathroom'
     ],
     sheet: [37, 41],
-    shortName: 'shower'
+    shortcode: 'shower'
   },
   {
     label: 'Bathtub',
@@ -24935,21 +24935,21 @@ export const emojis: CompressedEmojiData[] = [
       'bathroom'
     ],
     sheet: [37, 48],
-    shortName: 'bathtub'
+    shortcode: 'bathtub'
   },
   {
     label: 'Mouse Trap',
     hexcode: '1FAA4',
     tags: ['mouse trap', 'cheese'],
     sheet: [54, 22],
-    shortName: 'mouse_trap'
+    shortcode: 'mouse_trap'
   },
   {
     label: 'Razor',
     hexcode: '1FA92',
     tags: ['razor', 'cut'],
     sheet: [54, 4],
-    shortName: 'razor'
+    shortcode: 'razor'
   },
   {
     label: 'Lotion Bottle',
@@ -24960,14 +24960,14 @@ export const emojis: CompressedEmojiData[] = [
       'sunscreen'
     ],
     sheet: [53, 34],
-    shortName: 'lotion_bottle'
+    shortcode: 'lotion_bottle'
   },
   {
     label: 'Safety Pin',
     hexcode: '1F9F7',
     tags: ['safety_pin', 'diaper'],
     sheet: [53, 37],
-    shortName: 'safety_pin'
+    shortcode: 'safety_pin'
   },
   {
     label: 'Broom',
@@ -24979,21 +24979,21 @@ export const emojis: CompressedEmojiData[] = [
       'witch'
     ],
     sheet: [53, 39],
-    shortName: 'broom'
+    shortcode: 'broom'
   },
   {
     label: 'Basket',
     hexcode: '1F9FA',
     tags: ['basket', 'laundry'],
     sheet: [53, 40],
-    shortName: 'basket'
+    shortcode: 'basket'
   },
   {
     label: 'Roll of Paper',
     hexcode: '1F9FB',
     tags: ['roll_of_paper', 'roll'],
     sheet: [53, 41],
-    shortName: 'roll_of_paper'
+    shortcode: 'roll_of_paper'
   },
   {
     label: 'Bucket',
@@ -25004,7 +25004,7 @@ export const emojis: CompressedEmojiData[] = [
       'container'
     ],
     sheet: [54, 21],
-    shortName: 'bucket'
+    shortcode: 'bucket'
   },
   {
     label: 'Bar of Soap',
@@ -25017,7 +25017,7 @@ export const emojis: CompressedEmojiData[] = [
       'lather'
     ],
     sheet: [53, 42],
-    shortName: 'soap'
+    shortcode: 'soap'
   },
   {
     label: 'Bubbles',
@@ -25031,7 +25031,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 19],
     hidden: ['facebook'],
-    shortName: 'bubbles'
+    shortcode: 'bubbles'
   },
   {
     label: 'Toothbrush',
@@ -25042,7 +25042,7 @@ export const emojis: CompressedEmojiData[] = [
       'dental'
     ],
     sheet: [54, 23],
-    shortName: 'toothbrush'
+    shortcode: 'toothbrush'
   },
   {
     label: 'Sponge',
@@ -25054,7 +25054,7 @@ export const emojis: CompressedEmojiData[] = [
       'porous'
     ],
     sheet: [53, 43],
-    shortName: 'sponge'
+    shortcode: 'sponge'
   },
   {
     label: 'Fire Extinguisher',
@@ -25064,7 +25064,7 @@ export const emojis: CompressedEmojiData[] = [
       'quench'
     ],
     sheet: [53, 29],
-    shortName: 'fire_extinguisher'
+    shortcode: 'fire_extinguisher'
   },
   {
     label: 'Shopping Trolley',
@@ -25074,7 +25074,7 @@ export const emojis: CompressedEmojiData[] = [
       'trolley'
     ],
     sheet: [38, 4],
-    shortName: 'shopping_trolley'
+    shortcode: 'shopping_trolley'
   },
   {
     label: 'Smoking Symbol',
@@ -25088,7 +25088,7 @@ export const emojis: CompressedEmojiData[] = [
       'smoke'
     ],
     sheet: [36, 32],
-    shortName: 'smoking'
+    shortcode: 'smoking'
   },
   {
     label: 'Coffin',
@@ -25107,7 +25107,7 @@ export const emojis: CompressedEmojiData[] = [
       'box'
     ],
     sheet: [57, 42],
-    shortName: 'coffin'
+    shortcode: 'coffin'
   },
   {
     label: 'Headstone',
@@ -25119,7 +25119,7 @@ export const emojis: CompressedEmojiData[] = [
       'grave'
     ],
     sheet: [54, 24],
-    shortName: 'headstone'
+    shortcode: 'headstone'
   },
   {
     label: 'Funeral Urn',
@@ -25133,7 +25133,7 @@ export const emojis: CompressedEmojiData[] = [
       'ashes'
     ],
     sheet: [57, 43],
-    shortName: 'funeral_urn'
+    shortcode: 'funeral_urn'
   },
   {
     label: 'Moyai',
@@ -25145,7 +25145,7 @@ export const emojis: CompressedEmojiData[] = [
       'moai'
     ],
     sheet: [32, 19],
-    shortName: 'moyai'
+    shortcode: 'moyai'
   },
   {
     label: 'Placard',
@@ -25155,7 +25155,7 @@ export const emojis: CompressedEmojiData[] = [
       'announcement'
     ],
     sheet: [54, 25],
-    shortName: 'placard'
+    shortcode: 'placard'
   },
   {
     label: 'Identification Card',
@@ -25166,7 +25166,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [54, 28],
     hidden: ['facebook'],
-    shortName: 'identification_card'
+    shortcode: 'identification_card'
   },
   {
     label: 'Automated Teller Machine',
@@ -25181,7 +25181,7 @@ export const emojis: CompressedEmojiData[] = [
       'bank'
     ],
     sheet: [10, 18],
-    shortName: 'atm'
+    shortcode: 'atm'
   },
   {
     label: 'Put Litter in Its Place Symbol',
@@ -25194,7 +25194,7 @@ export const emojis: CompressedEmojiData[] = [
       'info'
     ],
     sheet: [36, 34],
-    shortName: 'put_litter_in_its_place'
+    shortcode: 'put_litter_in_its_place'
   },
   {
     label: 'Potable Water Symbol',
@@ -25208,7 +25208,7 @@ export const emojis: CompressedEmojiData[] = [
       'faucet'
     ],
     sheet: [36, 36],
-    shortName: 'potable_water'
+    shortcode: 'potable_water'
   },
   {
     label: 'Wheelchair Symbol',
@@ -25220,7 +25220,7 @@ export const emojis: CompressedEmojiData[] = [
       'accessibility'
     ],
     sheet: [57, 27],
-    shortName: 'wheelchair'
+    shortcode: 'wheelchair'
   },
   {
     label: 'Mens Symbol',
@@ -25235,7 +25235,7 @@ export const emojis: CompressedEmojiData[] = [
       'male'
     ],
     sheet: [37, 35],
-    shortName: 'mens'
+    shortcode: 'mens'
   },
   {
     label: 'Womens Symbol',
@@ -25251,7 +25251,7 @@ export const emojis: CompressedEmojiData[] = [
       'gender'
     ],
     sheet: [37, 36],
-    shortName: 'womens'
+    shortcode: 'womens'
   },
   {
     label: 'Restroom',
@@ -25265,7 +25265,7 @@ export const emojis: CompressedEmojiData[] = [
       'gender'
     ],
     sheet: [37, 37],
-    shortName: 'restroom'
+    shortcode: 'restroom'
   },
   {
     label: 'Baby Symbol',
@@ -25276,7 +25276,7 @@ export const emojis: CompressedEmojiData[] = [
       'child'
     ],
     sheet: [37, 38],
-    shortName: 'baby_symbol'
+    shortcode: 'baby_symbol'
   },
   {
     label: 'Water Closet',
@@ -25288,7 +25288,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [37, 40],
-    shortName: 'wc'
+    shortcode: 'wc'
   },
   {
     label: 'Passport Control',
@@ -25299,7 +25299,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [37, 49],
-    shortName: 'passport_control'
+    shortcode: 'passport_control'
   },
   {
     label: 'Customs',
@@ -25311,7 +25311,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [37, 50],
-    shortName: 'customs'
+    shortcode: 'customs'
   },
   {
     label: 'Baggage Claim',
@@ -25323,7 +25323,7 @@ export const emojis: CompressedEmojiData[] = [
       'transport'
     ],
     sheet: [37, 51],
-    shortName: 'baggage_claim'
+    shortcode: 'baggage_claim'
   },
   {
     label: 'Left Luggage',
@@ -25334,7 +25334,7 @@ export const emojis: CompressedEmojiData[] = [
       'travel'
     ],
     sheet: [37, 52],
-    shortName: 'left_luggage'
+    shortcode: 'left_luggage'
   },
   {
     label: 'Warning Sign',
@@ -25349,7 +25349,7 @@ export const emojis: CompressedEmojiData[] = [
       'issue'
     ],
     sheet: [57, 37],
-    shortName: 'warning'
+    shortcode: 'warning'
   },
   {
     label: 'Children Crossing',
@@ -25364,7 +25364,7 @@ export const emojis: CompressedEmojiData[] = [
       'yellow-diamond'
     ],
     sheet: [37, 34],
-    shortName: 'children_crossing'
+    shortcode: 'children_crossing'
   },
   {
     label: 'No Entry',
@@ -25380,7 +25380,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [57, 53],
-    shortName: 'no_entry'
+    shortcode: 'no_entry'
   },
   {
     label: 'No Entry Sign',
@@ -25395,7 +25395,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [36, 31],
-    shortName: 'no_entry_sign'
+    shortcode: 'no_entry_sign'
   },
   {
     label: 'No Bicycles',
@@ -25407,7 +25407,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [36, 39],
-    shortName: 'no_bicycles'
+    shortcode: 'no_bicycles'
   },
   {
     label: 'No Smoking Symbol',
@@ -25420,7 +25420,7 @@ export const emojis: CompressedEmojiData[] = [
       'smoke'
     ],
     sheet: [36, 33],
-    shortName: 'no_smoking'
+    shortcode: 'no_smoking'
   },
   {
     label: 'Do Not Litter Symbol',
@@ -25433,7 +25433,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [36, 35],
-    shortName: 'do_not_litter'
+    shortcode: 'do_not_litter'
   },
   {
     label: 'Non-Potable Water Symbol',
@@ -25446,7 +25446,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [36, 37],
-    shortName: 'non-potable_water'
+    shortcode: 'non-potable_water'
   },
   {
     label: 'No Pedestrians',
@@ -25459,7 +25459,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [37, 33],
-    shortName: 'no_pedestrians'
+    shortcode: 'no_pedestrians'
   },
   {
     label: 'No Mobile Phones',
@@ -25471,7 +25471,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [29, 15],
-    shortName: 'no_mobile_phones'
+    shortcode: 'no_mobile_phones'
   },
   {
     label: 'No One Under Eighteen Symbol',
@@ -25486,7 +25486,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [29, 55],
-    shortName: 'underage'
+    shortcode: 'underage'
   },
   {
     label: 'Radioactive',
@@ -25497,14 +25497,14 @@ export const emojis: CompressedEmojiData[] = [
       'danger'
     ],
     sheet: [56, 57],
-    shortName: 'radioactive_sign'
+    shortcode: 'radioactive_sign'
   },
   {
     label: 'Biohazard',
     hexcode: '2623-FE0F',
     tags: ['biohazard', 'danger'],
     sheet: [56, 58],
-    shortName: 'biohazard_sign'
+    shortcode: 'biohazard_sign'
   },
   {
     label: 'Upwards Black Arrow',
@@ -25517,7 +25517,7 @@ export const emojis: CompressedEmojiData[] = [
       'direction'
     ],
     sheet: [59, 20],
-    shortName: 'arrow_up'
+    shortcode: 'arrow_up'
   },
   {
     label: 'North East Arrow',
@@ -25531,7 +25531,7 @@ export const emojis: CompressedEmojiData[] = [
       'northeast'
     ],
     sheet: [56, 8],
-    shortName: 'arrow_upper_right'
+    shortcode: 'arrow_upper_right'
   },
   {
     label: 'Black Rightwards Arrow',
@@ -25542,7 +25542,7 @@ export const emojis: CompressedEmojiData[] = [
       'next'
     ],
     sheet: [59, 14],
-    shortName: 'arrow_right'
+    shortcode: 'arrow_right'
   },
   {
     label: 'South East Arrow',
@@ -25555,7 +25555,7 @@ export const emojis: CompressedEmojiData[] = [
       'southeast'
     ],
     sheet: [56, 9],
-    shortName: 'arrow_lower_right'
+    shortcode: 'arrow_lower_right'
   },
   {
     label: 'Downwards Black Arrow',
@@ -25567,7 +25567,7 @@ export const emojis: CompressedEmojiData[] = [
       'bottom'
     ],
     sheet: [59, 21],
-    shortName: 'arrow_down'
+    shortcode: 'arrow_down'
   },
   {
     label: 'South West Arrow',
@@ -25580,7 +25580,7 @@ export const emojis: CompressedEmojiData[] = [
       'southwest'
     ],
     sheet: [56, 10],
-    shortName: 'arrow_lower_left'
+    shortcode: 'arrow_lower_left'
   },
   {
     label: 'Leftwards Black Arrow',
@@ -25592,7 +25592,7 @@ export const emojis: CompressedEmojiData[] = [
       'back'
     ],
     sheet: [59, 19],
-    shortName: 'arrow_left'
+    shortcode: 'arrow_left'
   },
   {
     label: 'North West Arrow',
@@ -25606,7 +25606,7 @@ export const emojis: CompressedEmojiData[] = [
       'northwest'
     ],
     sheet: [56, 7],
-    shortName: 'arrow_upper_left'
+    shortcode: 'arrow_upper_left'
   },
   {
     label: 'Up Down Arrow',
@@ -25619,7 +25619,7 @@ export const emojis: CompressedEmojiData[] = [
       'vertical'
     ],
     sheet: [56, 6],
-    shortName: 'arrow_up_down'
+    shortcode: 'arrow_up_down'
   },
   {
     label: 'Left Right Arrow',
@@ -25632,7 +25632,7 @@ export const emojis: CompressedEmojiData[] = [
       'sideways'
     ],
     sheet: [56, 5],
-    shortName: 'left_right_arrow'
+    shortcode: 'left_right_arrow'
   },
   {
     label: 'Leftwards Arrow with Hook',
@@ -25646,7 +25646,7 @@ export const emojis: CompressedEmojiData[] = [
       'enter'
     ],
     sheet: [56, 11],
-    shortName: 'leftwards_arrow_with_hook'
+    shortcode: 'leftwards_arrow_with_hook'
   },
   {
     label: 'Rightwards Arrow with Hook',
@@ -25659,7 +25659,7 @@ export const emojis: CompressedEmojiData[] = [
       'direction'
     ],
     sheet: [56, 12],
-    shortName: 'arrow_right_hook'
+    shortcode: 'arrow_right_hook'
   },
   {
     label: 'Arrow Pointing Rightwards Then Curving Upwards',
@@ -25671,7 +25671,7 @@ export const emojis: CompressedEmojiData[] = [
       'top'
     ],
     sheet: [59, 17],
-    shortName: 'arrow_heading_up'
+    shortcode: 'arrow_heading_up'
   },
   {
     label: 'Arrow Pointing Rightwards Then Curving Downwards',
@@ -25683,7 +25683,7 @@ export const emojis: CompressedEmojiData[] = [
       'bottom'
     ],
     sheet: [59, 18],
-    shortName: 'arrow_heading_down'
+    shortcode: 'arrow_heading_down'
   },
   {
     label: 'Clockwise Downwards and Upwards Open Circle Arrows',
@@ -25696,7 +25696,7 @@ export const emojis: CompressedEmojiData[] = [
       'repeat'
     ],
     sheet: [29, 28],
-    shortName: 'arrows_clockwise'
+    shortcode: 'arrows_clockwise'
   },
   {
     label: 'Anticlockwise Downwards and Upwards Open Circle Arrows',
@@ -25708,7 +25708,7 @@ export const emojis: CompressedEmojiData[] = [
       'cycle'
     ],
     sheet: [29, 29],
-    shortName: 'arrows_counterclockwise'
+    shortcode: 'arrows_counterclockwise'
   },
   {
     label: 'Back with Leftwards Arrow Above',
@@ -25720,7 +25720,7 @@ export const emojis: CompressedEmojiData[] = [
       'return'
     ],
     sheet: [29, 50],
-    shortName: 'back'
+    shortcode: 'back'
   },
   {
     label: 'End with Leftwards Arrow Above',
@@ -25731,7 +25731,7 @@ export const emojis: CompressedEmojiData[] = [
       'arrow'
     ],
     sheet: [29, 51],
-    shortName: 'end'
+    shortcode: 'end'
   },
   {
     label: 'On with Exclamation Mark with Left Right Arrow Above',
@@ -25742,7 +25742,7 @@ export const emojis: CompressedEmojiData[] = [
       'words'
     ],
     sheet: [29, 52],
-    shortName: 'on'
+    shortcode: 'on'
   },
   {
     label: 'Soon with Rightwards Arrow Above',
@@ -25753,7 +25753,7 @@ export const emojis: CompressedEmojiData[] = [
       'words'
     ],
     sheet: [29, 53],
-    shortName: 'soon'
+    shortcode: 'soon'
   },
   {
     label: 'Top with Upwards Arrow Above',
@@ -25764,7 +25764,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [29, 54],
-    shortName: 'top'
+    shortcode: 'top'
   },
   {
     label: 'Place of Worship',
@@ -25777,7 +25777,7 @@ export const emojis: CompressedEmojiData[] = [
       'prayer'
     ],
     sheet: [38, 2],
-    shortName: 'place_of_worship'
+    shortcode: 'place_of_worship'
   },
   {
     label: 'Atom Symbol',
@@ -25789,7 +25789,7 @@ export const emojis: CompressedEmojiData[] = [
       'chemistry'
     ],
     sheet: [57, 35],
-    shortName: 'atom_symbol'
+    shortcode: 'atom_symbol'
   },
   {
     label: 'Om',
@@ -25802,7 +25802,7 @@ export const emojis: CompressedEmojiData[] = [
       'jainism'
     ],
     sheet: [30, 26],
-    shortName: 'om_symbol'
+    shortcode: 'om_symbol'
   },
   {
     label: 'Star of David',
@@ -25812,7 +25812,7 @@ export const emojis: CompressedEmojiData[] = [
       'judaism'
     ],
     sheet: [58, 56],
-    shortName: 'star_of_david'
+    shortcode: 'star_of_david'
   },
   {
     label: 'Wheel of Dharma',
@@ -25825,14 +25825,14 @@ export const emojis: CompressedEmojiData[] = [
       'jainism'
     ],
     sheet: [57, 2],
-    shortName: 'wheel_of_dharma'
+    shortcode: 'wheel_of_dharma'
   },
   {
     label: 'Yin Yang',
     hexcode: '262F-FE0F',
     tags: ['yin_yang', 'balance'],
     sheet: [57, 1],
-    shortName: 'yin_yang'
+    shortcode: 'yin_yang'
   },
   {
     label: 'Latin Cross',
@@ -25842,7 +25842,7 @@ export const emojis: CompressedEmojiData[] = [
       'christianity'
     ],
     sheet: [58, 55],
-    shortName: 'latin_cross'
+    shortcode: 'latin_cross'
   },
   {
     label: 'Orthodox Cross',
@@ -25853,7 +25853,7 @@ export const emojis: CompressedEmojiData[] = [
       'religion'
     ],
     sheet: [56, 59],
-    shortName: 'orthodox_cross'
+    shortcode: 'orthodox_cross'
   },
   {
     label: 'Star and Crescent',
@@ -25863,7 +25863,7 @@ export const emojis: CompressedEmojiData[] = [
       'islam'
     ],
     sheet: [56, 60],
-    shortName: 'star_and_crescent'
+    shortcode: 'star_and_crescent'
   },
   {
     label: 'Peace Symbol',
@@ -25873,7 +25873,7 @@ export const emojis: CompressedEmojiData[] = [
       'hippie'
     ],
     sheet: [57, 0],
-    shortName: 'peace_symbol'
+    shortcode: 'peace_symbol'
   },
   {
     label: 'Menorah with Nine Branches',
@@ -25885,7 +25885,7 @@ export const emojis: CompressedEmojiData[] = [
       'jewish'
     ],
     sheet: [30, 31],
-    shortName: 'menorah_with_nine_branches'
+    shortcode: 'menorah_with_nine_branches'
   },
   {
     label: 'Six Pointed Star with Middle Dot',
@@ -25898,7 +25898,7 @@ export const emojis: CompressedEmojiData[] = [
       'hexagram'
     ],
     sheet: [30, 11],
-    shortName: 'six_pointed_star'
+    shortcode: 'six_pointed_star'
   },
   {
     label: 'Aries',
@@ -25911,7 +25911,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 7],
-    shortName: 'aries'
+    shortcode: 'aries'
   },
   {
     label: 'Taurus',
@@ -25924,7 +25924,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 8],
-    shortName: 'taurus'
+    shortcode: 'taurus'
   },
   {
     label: 'Gemini',
@@ -25937,7 +25937,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 9],
-    shortName: 'gemini'
+    shortcode: 'gemini'
   },
   {
     label: 'Cancer',
@@ -25950,7 +25950,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 10],
-    shortName: 'cancer'
+    shortcode: 'cancer'
   },
   {
     label: 'Leo',
@@ -25963,7 +25963,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 11],
-    shortName: 'leo'
+    shortcode: 'leo'
   },
   {
     label: 'Virgo',
@@ -25976,7 +25976,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 12],
-    shortName: 'virgo'
+    shortcode: 'virgo'
   },
   {
     label: 'Libra',
@@ -25989,7 +25989,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 13],
-    shortName: 'libra'
+    shortcode: 'libra'
   },
   {
     label: 'Scorpius',
@@ -26003,7 +26003,7 @@ export const emojis: CompressedEmojiData[] = [
       'scorpio'
     ],
     sheet: [57, 14],
-    shortName: 'scorpius'
+    shortcode: 'scorpius'
   },
   {
     label: 'Sagittarius',
@@ -26016,7 +26016,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 15],
-    shortName: 'sagittarius'
+    shortcode: 'sagittarius'
   },
   {
     label: 'Capricorn',
@@ -26029,7 +26029,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 16],
-    shortName: 'capricorn'
+    shortcode: 'capricorn'
   },
   {
     label: 'Aquarius',
@@ -26042,7 +26042,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 17],
-    shortName: 'aquarius'
+    shortcode: 'aquarius'
   },
   {
     label: 'Pisces',
@@ -26055,7 +26055,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 18],
-    shortName: 'pisces'
+    shortcode: 'pisces'
   },
   {
     label: 'Ophiuchus',
@@ -26068,7 +26068,7 @@ export const emojis: CompressedEmojiData[] = [
       'astrology'
     ],
     sheet: [57, 49],
-    shortName: 'ophiuchus'
+    shortcode: 'ophiuchus'
   },
   {
     label: 'Twisted Rightwards Arrows',
@@ -26081,7 +26081,7 @@ export const emojis: CompressedEmojiData[] = [
       'random'
     ],
     sheet: [29, 25],
-    shortName: 'twisted_rightwards_arrows'
+    shortcode: 'twisted_rightwards_arrows'
   },
   {
     label: 'Clockwise Rightwards and Leftwards Open Circle Arrows',
@@ -26092,7 +26092,7 @@ export const emojis: CompressedEmojiData[] = [
       'record'
     ],
     sheet: [29, 26],
-    shortName: 'repeat'
+    shortcode: 'repeat'
   },
   {
     label: 'Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay',
@@ -26103,7 +26103,7 @@ export const emojis: CompressedEmojiData[] = [
       'loop'
     ],
     sheet: [29, 27],
-    shortName: 'repeat_one'
+    shortcode: 'repeat_one'
   },
   {
     label: 'Black Right-Pointing Triangle',
@@ -26116,7 +26116,7 @@ export const emojis: CompressedEmojiData[] = [
       'play'
     ],
     sheet: [56, 34],
-    shortName: 'arrow_forward'
+    shortcode: 'arrow_forward'
   },
   {
     label: 'Black Right-Pointing Double Triangle',
@@ -26129,7 +26129,7 @@ export const emojis: CompressedEmojiData[] = [
       'continue'
     ],
     sheet: [56, 17],
-    shortName: 'fast_forward'
+    shortcode: 'fast_forward'
   },
   {
     label: 'Next Track Button',
@@ -26141,7 +26141,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [56, 21],
-    shortName: 'black_right_pointing_double_triangle_with_vertical_bar'
+    shortcode: 'black_right_pointing_double_triangle_with_vertical_bar'
   },
   {
     label: 'Play or Pause Button',
@@ -26153,7 +26153,7 @@ export const emojis: CompressedEmojiData[] = [
       'pause'
     ],
     sheet: [56, 23],
-    shortName: 'black_right_pointing_triangle_with_double_vertical_bar'
+    shortcode: 'black_right_pointing_triangle_with_double_vertical_bar'
   },
   {
     label: 'Black Left-Pointing Triangle',
@@ -26165,7 +26165,7 @@ export const emojis: CompressedEmojiData[] = [
       'direction'
     ],
     sheet: [56, 35],
-    shortName: 'arrow_backward'
+    shortcode: 'arrow_backward'
   },
   {
     label: 'Black Left-Pointing Double Triangle',
@@ -26176,7 +26176,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [56, 18],
-    shortName: 'rewind'
+    shortcode: 'rewind'
   },
   {
     label: 'Last Track Button',
@@ -26186,7 +26186,7 @@ export const emojis: CompressedEmojiData[] = [
       'backward'
     ],
     sheet: [56, 22],
-    shortName: 'black_left_pointing_double_triangle_with_vertical_bar'
+    shortcode: 'black_left_pointing_double_triangle_with_vertical_bar'
   },
   {
     label: 'Up-Pointing Small Red Triangle',
@@ -26201,7 +26201,7 @@ export const emojis: CompressedEmojiData[] = [
       'top'
     ],
     sheet: [30, 24],
-    shortName: 'arrow_up_small'
+    shortcode: 'arrow_up_small'
   },
   {
     label: 'Black Up-Pointing Double Triangle',
@@ -26213,7 +26213,7 @@ export const emojis: CompressedEmojiData[] = [
       'top'
     ],
     sheet: [56, 19],
-    shortName: 'arrow_double_up'
+    shortcode: 'arrow_double_up'
   },
   {
     label: 'Down-Pointing Small Red Triangle',
@@ -26225,7 +26225,7 @@ export const emojis: CompressedEmojiData[] = [
       'bottom'
     ],
     sheet: [30, 25],
-    shortName: 'arrow_down_small'
+    shortcode: 'arrow_down_small'
   },
   {
     label: 'Black Down-Pointing Double Triangle',
@@ -26237,7 +26237,7 @@ export const emojis: CompressedEmojiData[] = [
       'bottom'
     ],
     sheet: [56, 20],
-    shortName: 'arrow_double_down'
+    shortcode: 'arrow_double_down'
   },
   {
     label: 'Pause Button',
@@ -26248,7 +26248,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [56, 28],
-    shortName: 'double_vertical_bar'
+    shortcode: 'double_vertical_bar'
   },
   {
     label: 'Stop Button',
@@ -26258,7 +26258,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [56, 29],
-    shortName: 'black_square_for_stop'
+    shortcode: 'black_square_for_stop'
   },
   {
     label: 'Record Button',
@@ -26268,7 +26268,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [56, 30],
-    shortName: 'black_circle_for_record'
+    shortcode: 'black_circle_for_record'
   },
   {
     label: 'Eject Button',
@@ -26278,7 +26278,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [56, 16],
-    shortName: 'eject'
+    shortcode: 'eject'
   },
   {
     label: 'Cinema',
@@ -26294,7 +26294,7 @@ export const emojis: CompressedEmojiData[] = [
       'theater'
     ],
     sheet: [7, 41],
-    shortName: 'cinema'
+    shortcode: 'cinema'
   },
   {
     label: 'Low Brightness Symbol',
@@ -26307,7 +26307,7 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [29, 30],
-    shortName: 'low_brightness'
+    shortcode: 'low_brightness'
   },
   {
     label: 'High Brightness Symbol',
@@ -26318,7 +26318,7 @@ export const emojis: CompressedEmojiData[] = [
       'light'
     ],
     sheet: [29, 31],
-    shortName: 'high_brightness'
+    shortcode: 'high_brightness'
   },
   {
     label: 'Antenna with Bars',
@@ -26335,7 +26335,7 @@ export const emojis: CompressedEmojiData[] = [
       'bars'
     ],
     sheet: [29, 16],
-    shortName: 'signal_strength'
+    shortcode: 'signal_strength'
   },
   {
     label: 'Vibration Mode',
@@ -26346,7 +26346,7 @@ export const emojis: CompressedEmojiData[] = [
       'phone'
     ],
     sheet: [29, 13],
-    shortName: 'vibration_mode'
+    shortcode: 'vibration_mode'
   },
   {
     label: 'Mobile Phone off',
@@ -26359,7 +26359,7 @@ export const emojis: CompressedEmojiData[] = [
       'quiet'
     ],
     sheet: [29, 14],
-    shortName: 'mobile_phone_off'
+    shortcode: 'mobile_phone_off'
   },
   {
     label: 'Female Sign',
@@ -26373,7 +26373,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [57, 5],
     hidden: ['apple'],
-    shortName: 'female_sign'
+    shortcode: 'female_sign'
   },
   {
     label: 'Male Sign',
@@ -26386,7 +26386,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [57, 6],
     hidden: ['apple'],
-    shortName: 'male_sign'
+    shortcode: 'male_sign'
   },
   {
     label: 'Transgender Symbol',
@@ -26396,7 +26396,7 @@ export const emojis: CompressedEmojiData[] = [
       'lgbtq'
     ],
     sheet: [57, 39],
-    shortName: 'transgender_symbol'
+    shortcode: 'transgender_symbol'
   },
   {
     label: 'Heavy Multiplication X',
@@ -26407,7 +26407,7 @@ export const emojis: CompressedEmojiData[] = [
       'calculation'
     ],
     sheet: [58, 54],
-    shortName: 'heavy_multiplication_x'
+    shortcode: 'heavy_multiplication_x'
   },
   {
     label: 'Heavy Plus Sign',
@@ -26421,7 +26421,7 @@ export const emojis: CompressedEmojiData[] = [
       'increase'
     ],
     sheet: [59, 11],
-    shortName: 'heavy_plus_sign'
+    shortcode: 'heavy_plus_sign'
   },
   {
     label: 'Heavy Minus Sign',
@@ -26434,7 +26434,7 @@ export const emojis: CompressedEmojiData[] = [
       'less'
     ],
     sheet: [59, 12],
-    shortName: 'heavy_minus_sign'
+    shortcode: 'heavy_minus_sign'
   },
   {
     label: 'Heavy Division Sign',
@@ -26446,7 +26446,7 @@ export const emojis: CompressedEmojiData[] = [
       'calculation'
     ],
     sheet: [59, 13],
-    shortName: 'heavy_division_sign'
+    shortcode: 'heavy_division_sign'
   },
   {
     label: 'Heavy Equals Sign',
@@ -26457,14 +26457,14 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [38, 43],
     hidden: ['facebook'],
-    shortName: 'heavy_equals_sign'
+    shortcode: 'heavy_equals_sign'
   },
   {
     label: 'Infinity',
     hexcode: '267E-FE0F',
     tags: ['infinity', 'forever'],
     sheet: [57, 26],
-    shortName: 'infinity'
+    shortcode: 'infinity'
   },
   {
     label: 'Double Exclamation Mark',
@@ -26475,7 +26475,7 @@ export const emojis: CompressedEmojiData[] = [
       'surprise'
     ],
     sheet: [56, 1],
-    shortName: 'bangbang'
+    shortcode: 'bangbang'
   },
   {
     label: 'Exclamation Question Mark',
@@ -26487,7 +26487,7 @@ export const emojis: CompressedEmojiData[] = [
       'surprise'
     ],
     sheet: [56, 2],
-    shortName: 'interrobang'
+    shortcode: 'interrobang'
   },
   {
     label: 'Black Question Mark Ornament',
@@ -26498,7 +26498,7 @@ export const emojis: CompressedEmojiData[] = [
       'confused'
     ],
     sheet: [59, 3],
-    shortName: 'question'
+    shortcode: 'question'
   },
   {
     label: 'White Question Mark Ornament',
@@ -26511,7 +26511,7 @@ export const emojis: CompressedEmojiData[] = [
       'confused'
     ],
     sheet: [59, 4],
-    shortName: 'grey_question'
+    shortcode: 'grey_question'
   },
   {
     label: 'White Exclamation Mark Ornament',
@@ -26525,7 +26525,7 @@ export const emojis: CompressedEmojiData[] = [
       'warning'
     ],
     sheet: [59, 5],
-    shortName: 'grey_exclamation'
+    shortcode: 'grey_exclamation'
   },
   {
     label: 'Heavy Exclamation Mark Symbol',
@@ -26540,10 +26540,10 @@ export const emojis: CompressedEmojiData[] = [
       'warning'
     ],
     sheet: [59, 6],
-    shortNames: [
+    shortcodes: [
       'heavy_exclamation_mark'
     ],
-    shortName: 'exclamation'
+    shortcode: 'exclamation'
   },
   {
     label: 'Wavy Dash',
@@ -26558,7 +26558,7 @@ export const emojis: CompressedEmojiData[] = [
       'scribble'
     ],
     sheet: [59, 26],
-    shortName: 'wavy_dash'
+    shortcode: 'wavy_dash'
   },
   {
     label: 'Currency Exchange',
@@ -26571,7 +26571,7 @@ export const emojis: CompressedEmojiData[] = [
       'travel'
     ],
     sheet: [28, 8],
-    shortName: 'currency_exchange'
+    shortcode: 'currency_exchange'
   },
   {
     label: 'Heavy Dollar Sign',
@@ -26585,7 +26585,7 @@ export const emojis: CompressedEmojiData[] = [
       'buck'
     ],
     sheet: [28, 9],
-    shortName: 'heavy_dollar_sign'
+    shortcode: 'heavy_dollar_sign'
   },
   {
     label: 'Medical Symbol',
@@ -26597,8 +26597,8 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [57, 31],
     hidden: ['apple'],
-    shortNames: ['staff_of_aesculapius'],
-    shortName: 'medical_symbol'
+    shortcodes: ['staff_of_aesculapius'],
+    shortcode: 'medical_symbol'
   },
   {
     label: 'Black Universal Recycling Symbol',
@@ -26611,7 +26611,7 @@ export const emojis: CompressedEmojiData[] = [
       'trash'
     ],
     sheet: [57, 25],
-    shortName: 'recycle'
+    shortcode: 'recycle'
   },
   {
     label: 'Fleur-De-Lis',
@@ -26622,7 +26622,7 @@ export const emojis: CompressedEmojiData[] = [
       'scout'
     ],
     sheet: [57, 36],
-    shortName: 'fleur_de_lis'
+    shortcode: 'fleur_de_lis'
   },
   {
     label: 'Trident Emblem',
@@ -26633,7 +26633,7 @@ export const emojis: CompressedEmojiData[] = [
       'spear'
     ],
     sheet: [30, 13],
-    shortName: 'trident'
+    shortcode: 'trident'
   },
   {
     label: 'Name Badge',
@@ -26644,7 +26644,7 @@ export const emojis: CompressedEmojiData[] = [
       'forbid'
     ],
     sheet: [28, 50],
-    shortName: 'name_badge'
+    shortcode: 'name_badge'
   },
   {
     label: 'Japanese Symbol for Beginner',
@@ -26655,7 +26655,7 @@ export const emojis: CompressedEmojiData[] = [
       'shield'
     ],
     sheet: [30, 12],
-    shortName: 'beginner'
+    shortcode: 'beginner'
   },
   {
     label: 'Heavy Large Circle',
@@ -26666,7 +26666,7 @@ export const emojis: CompressedEmojiData[] = [
       'round'
     ],
     sheet: [59, 25],
-    shortName: 'o'
+    shortcode: 'o'
   },
   {
     label: 'White Heavy Check Mark',
@@ -26682,7 +26682,7 @@ export const emojis: CompressedEmojiData[] = [
       'tick'
     ],
     sheet: [58, 24],
-    shortName: 'white_check_mark'
+    shortcode: 'white_check_mark'
   },
   {
     label: 'Ballot Box with Check',
@@ -26699,7 +26699,7 @@ export const emojis: CompressedEmojiData[] = [
       'tick'
     ],
     sheet: [56, 46],
-    shortName: 'ballot_box_with_check'
+    shortcode: 'ballot_box_with_check'
   },
   {
     label: 'Heavy Check Mark',
@@ -26713,7 +26713,7 @@ export const emojis: CompressedEmojiData[] = [
       'tick'
     ],
     sheet: [58, 53],
-    shortName: 'heavy_check_mark'
+    shortcode: 'heavy_check_mark'
   },
   {
     label: 'Cross Mark',
@@ -26727,7 +26727,7 @@ export const emojis: CompressedEmojiData[] = [
       'red'
     ],
     sheet: [59, 1],
-    shortName: 'x'
+    shortcode: 'x'
   },
   {
     label: 'Negative Squared Cross Mark',
@@ -26740,7 +26740,7 @@ export const emojis: CompressedEmojiData[] = [
       'deny'
     ],
     sheet: [59, 2],
-    shortName: 'negative_squared_cross_mark'
+    shortcode: 'negative_squared_cross_mark'
   },
   {
     label: 'Curly Loop',
@@ -26753,7 +26753,7 @@ export const emojis: CompressedEmojiData[] = [
       'squiggle'
     ],
     sheet: [59, 15],
-    shortName: 'curly_loop'
+    shortcode: 'curly_loop'
   },
   {
     label: 'Double Curly Loop',
@@ -26764,7 +26764,7 @@ export const emojis: CompressedEmojiData[] = [
       'cassette'
     ],
     sheet: [59, 16],
-    shortName: 'loop'
+    shortcode: 'loop'
   },
   {
     label: 'Part Alternation Mark',
@@ -26779,7 +26779,7 @@ export const emojis: CompressedEmojiData[] = [
       'bad'
     ],
     sheet: [59, 27],
-    shortName: 'part_alternation_mark'
+    shortcode: 'part_alternation_mark'
   },
   {
     label: 'Eight Spoked Asterisk',
@@ -26791,7 +26791,7 @@ export const emojis: CompressedEmojiData[] = [
       'green-square'
     ],
     sheet: [58, 58],
-    shortName: 'eight_spoked_asterisk'
+    shortcode: 'eight_spoked_asterisk'
   },
   {
     label: 'Eight Pointed Black Star',
@@ -26803,7 +26803,7 @@ export const emojis: CompressedEmojiData[] = [
       'polygon'
     ],
     sheet: [58, 59],
-    shortName: 'eight_pointed_black_star'
+    shortcode: 'eight_pointed_black_star'
   },
   {
     label: 'Sparkle',
@@ -26817,7 +26817,7 @@ export const emojis: CompressedEmojiData[] = [
       'fireworks'
     ],
     sheet: [59, 0],
-    shortName: 'sparkle'
+    shortcode: 'sparkle'
   },
   {
     label: 'Copyright Sign',
@@ -26832,7 +26832,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 12],
     hidden: ['facebook'],
-    shortName: 'copyright'
+    shortcode: 'copyright'
   },
   {
     label: 'Registered Sign',
@@ -26844,7 +26844,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 13],
     hidden: ['facebook'],
-    shortName: 'registered'
+    shortcode: 'registered'
   },
   {
     label: 'Trade Mark Sign',
@@ -26857,7 +26857,7 @@ export const emojis: CompressedEmojiData[] = [
       'legal'
     ],
     sheet: [56, 3],
-    shortName: 'tm'
+    shortcode: 'tm'
   },
   {
     label: 'Hash Key',
@@ -26870,7 +26870,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 0],
     hidden: ['facebook'],
-    shortName: 'hash'
+    shortcode: 'hash'
   },
   {
     label: 'Keycap: *',
@@ -26882,7 +26882,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 1],
     hidden: ['facebook'],
-    shortName: 'keycap_star'
+    shortcode: 'keycap_star'
   },
   {
     label: 'Keycap 0',
@@ -26896,7 +26896,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 2],
     hidden: ['facebook'],
-    shortName: 'zero'
+    shortcode: 'zero'
   },
   {
     label: 'Keycap 1',
@@ -26909,7 +26909,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 3],
     hidden: ['facebook'],
-    shortName: 'one'
+    shortcode: 'one'
   },
   {
     label: 'Keycap 2',
@@ -26923,7 +26923,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 4],
     hidden: ['facebook'],
-    shortName: 'two'
+    shortcode: 'two'
   },
   {
     label: 'Keycap 3',
@@ -26937,7 +26937,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 5],
     hidden: ['facebook'],
-    shortName: 'three'
+    shortcode: 'three'
   },
   {
     label: 'Keycap 4',
@@ -26950,7 +26950,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 6],
     hidden: ['facebook'],
-    shortName: 'four'
+    shortcode: 'four'
   },
   {
     label: 'Keycap 5',
@@ -26964,7 +26964,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 7],
     hidden: ['facebook'],
-    shortName: 'five'
+    shortcode: 'five'
   },
   {
     label: 'Keycap 6',
@@ -26977,7 +26977,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 8],
     hidden: ['facebook'],
-    shortName: 'six'
+    shortcode: 'six'
   },
   {
     label: 'Keycap 7',
@@ -26991,7 +26991,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 9],
     hidden: ['facebook'],
-    shortName: 'seven'
+    shortcode: 'seven'
   },
   {
     label: 'Keycap 8',
@@ -27004,7 +27004,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 10],
     hidden: ['facebook'],
-    shortName: 'eight'
+    shortcode: 'eight'
   },
   {
     label: 'Keycap 9',
@@ -27017,7 +27017,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [0, 11],
     hidden: ['facebook'],
-    shortName: 'nine'
+    shortcode: 'nine'
   },
   {
     label: 'Keycap Ten',
@@ -27029,7 +27029,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [29, 56],
-    shortName: 'keycap_ten'
+    shortcode: 'keycap_ten'
   },
   {
     label: 'Input Symbol for Latin Capital Letters',
@@ -27041,7 +27041,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [29, 57],
-    shortName: 'capital_abcd'
+    shortcode: 'capital_abcd'
   },
   {
     label: 'Input Symbol for Latin Small Letters',
@@ -27052,7 +27052,7 @@ export const emojis: CompressedEmojiData[] = [
       'alphabet'
     ],
     sheet: [29, 58],
-    shortName: 'abcd'
+    shortcode: 'abcd'
   },
   {
     label: 'Input Symbol for Numbers',
@@ -27068,7 +27068,7 @@ export const emojis: CompressedEmojiData[] = [
       '4'
     ],
     sheet: [29, 59],
-    shortName: '1234'
+    shortcode: '1234'
   },
   {
     label: 'Input Symbol for Symbols',
@@ -27084,7 +27084,7 @@ export const emojis: CompressedEmojiData[] = [
       'characters'
     ],
     sheet: [29, 60],
-    shortName: 'symbols'
+    shortcode: 'symbols'
   },
   {
     label: 'Input Symbol for Latin Letters',
@@ -27095,7 +27095,7 @@ export const emojis: CompressedEmojiData[] = [
       'alphabet'
     ],
     sheet: [30, 0],
-    shortName: 'abc'
+    shortcode: 'abc'
   },
   {
     label: 'Negative Squared Latin Capital Letter a',
@@ -27107,7 +27107,7 @@ export const emojis: CompressedEmojiData[] = [
       'letter'
     ],
     sheet: [0, 16],
-    shortName: 'a'
+    shortcode: 'a'
   },
   {
     label: 'Negative Squared Ab',
@@ -27118,7 +27118,7 @@ export const emojis: CompressedEmojiData[] = [
       'alphabet'
     ],
     sheet: [0, 20],
-    shortName: 'ab'
+    shortcode: 'ab'
   },
   {
     label: 'Negative Squared Latin Capital Letter B',
@@ -27130,7 +27130,7 @@ export const emojis: CompressedEmojiData[] = [
       'letter'
     ],
     sheet: [0, 17],
-    shortName: 'b'
+    shortcode: 'b'
   },
   {
     label: 'Squared Cl',
@@ -27142,7 +27142,7 @@ export const emojis: CompressedEmojiData[] = [
       'red-square'
     ],
     sheet: [0, 21],
-    shortName: 'cl'
+    shortcode: 'cl'
   },
   {
     label: 'Squared Cool',
@@ -27153,7 +27153,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [0, 22],
-    shortName: 'cool'
+    shortcode: 'cool'
   },
   {
     label: 'Squared Free',
@@ -27164,7 +27164,7 @@ export const emojis: CompressedEmojiData[] = [
       'words'
     ],
     sheet: [0, 23],
-    shortName: 'free'
+    shortcode: 'free'
   },
   {
     label: 'Information Source',
@@ -27176,7 +27176,7 @@ export const emojis: CompressedEmojiData[] = [
       'letter'
     ],
     sheet: [56, 4],
-    shortName: 'information_source'
+    shortcode: 'information_source'
   },
   {
     label: 'Squared Id',
@@ -27187,7 +27187,7 @@ export const emojis: CompressedEmojiData[] = [
       'words'
     ],
     sheet: [0, 24],
-    shortName: 'id'
+    shortcode: 'id'
   },
   {
     label: 'Circled Latin Capital Letter M',
@@ -27199,7 +27199,7 @@ export const emojis: CompressedEmojiData[] = [
       'letter'
     ],
     sheet: [56, 31],
-    shortName: 'm'
+    shortcode: 'm'
   },
   {
     label: 'Squared New',
@@ -27211,7 +27211,7 @@ export const emojis: CompressedEmojiData[] = [
       'start'
     ],
     sheet: [0, 25],
-    shortName: 'new'
+    shortcode: 'new'
   },
   {
     label: 'Squared Ng',
@@ -27224,7 +27224,7 @@ export const emojis: CompressedEmojiData[] = [
       'icon'
     ],
     sheet: [0, 26],
-    shortName: 'ng'
+    shortcode: 'ng'
   },
   {
     label: 'Negative Squared Latin Capital Letter O',
@@ -27236,7 +27236,7 @@ export const emojis: CompressedEmojiData[] = [
       'letter'
     ],
     sheet: [0, 18],
-    shortName: 'o2'
+    shortcode: 'o2'
   },
   {
     label: 'Squared Ok',
@@ -27249,7 +27249,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [0, 27],
-    shortName: 'ok'
+    shortcode: 'ok'
   },
   {
     label: 'Negative Squared Latin Capital Letter P',
@@ -27262,7 +27262,7 @@ export const emojis: CompressedEmojiData[] = [
       'letter'
     ],
     sheet: [0, 19],
-    shortName: 'parking'
+    shortcode: 'parking'
   },
   {
     label: 'Squared Sos',
@@ -27276,7 +27276,7 @@ export const emojis: CompressedEmojiData[] = [
       '911'
     ],
     sheet: [0, 28],
-    shortName: 'sos'
+    shortcode: 'sos'
   },
   {
     label: 'Squared Up with Exclamation Mark',
@@ -27288,7 +27288,7 @@ export const emojis: CompressedEmojiData[] = [
       'high'
     ],
     sheet: [0, 29],
-    shortName: 'up'
+    shortcode: 'up'
   },
   {
     label: 'Squared Vs',
@@ -27299,7 +27299,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange-square'
     ],
     sheet: [0, 30],
-    shortName: 'vs'
+    shortcode: 'vs'
   },
   {
     label: 'Squared Katakana Koko',
@@ -27313,7 +27313,7 @@ export const emojis: CompressedEmojiData[] = [
       'destination'
     ],
     sheet: [4, 45],
-    shortName: 'koko'
+    shortcode: 'koko'
   },
   {
     label: 'Squared Katakana Sa',
@@ -27325,7 +27325,7 @@ export const emojis: CompressedEmojiData[] = [
       'katakana'
     ],
     sheet: [4, 46],
-    shortName: 'sa'
+    shortcode: 'sa'
   },
   {
     label: 'Squared Cjk Unified Ideograph-6708',
@@ -27340,7 +27340,7 @@ export const emojis: CompressedEmojiData[] = [
       'kanji'
     ],
     sheet: [4, 54],
-    shortName: 'u6708'
+    shortcode: 'u6708'
   },
   {
     label: 'Squared Cjk Unified Ideograph-6709',
@@ -27353,7 +27353,7 @@ export const emojis: CompressedEmojiData[] = [
       'kanji'
     ],
     sheet: [4, 53],
-    shortName: 'u6709'
+    shortcode: 'u6709'
   },
   {
     label: 'Squared Cjk Unified Ideograph-6307',
@@ -27366,7 +27366,7 @@ export const emojis: CompressedEmojiData[] = [
       'kanji'
     ],
     sheet: [4, 48],
-    shortName: 'u6307'
+    shortcode: 'u6307'
   },
   {
     label: 'Circled Ideograph Advantage',
@@ -27380,7 +27380,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [4, 58],
-    shortName: 'ideograph_advantage'
+    shortcode: 'ideograph_advantage'
   },
   {
     label: 'Squared Cjk Unified Ideograph-5272',
@@ -27394,7 +27394,7 @@ export const emojis: CompressedEmojiData[] = [
       'pink-square'
     ],
     sheet: [4, 56],
-    shortName: 'u5272'
+    shortcode: 'u5272'
   },
   {
     label: 'Squared Cjk Unified Ideograph-7121',
@@ -27408,7 +27408,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange-square'
     ],
     sheet: [4, 47],
-    shortName: 'u7121'
+    shortcode: 'u7121'
   },
   {
     label: 'Squared Cjk Unified Ideograph-7981',
@@ -27424,7 +27424,7 @@ export const emojis: CompressedEmojiData[] = [
       'red-square'
     ],
     sheet: [4, 49],
-    shortName: 'u7981'
+    shortcode: 'u7981'
   },
   {
     label: 'Circled Ideograph Accept',
@@ -27440,7 +27440,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange-circle'
     ],
     sheet: [4, 59],
-    shortName: 'accept'
+    shortcode: 'accept'
   },
   {
     label: 'Squared Cjk Unified Ideograph-7533',
@@ -27453,7 +27453,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange-square'
     ],
     sheet: [4, 55],
-    shortName: 'u7533'
+    shortcode: 'u7533'
   },
   {
     label: 'Squared Cjk Unified Ideograph-5408',
@@ -27467,7 +27467,7 @@ export const emojis: CompressedEmojiData[] = [
       'red-square'
     ],
     sheet: [4, 51],
-    shortName: 'u5408'
+    shortcode: 'u5408'
   },
   {
     label: 'Squared Cjk Unified Ideograph-7a7a',
@@ -27482,7 +27482,7 @@ export const emojis: CompressedEmojiData[] = [
       'blue-square'
     ],
     sheet: [4, 50],
-    shortName: 'u7a7a'
+    shortcode: 'u7a7a'
   },
   {
     label: 'Circled Ideograph Congratulation',
@@ -27495,7 +27495,7 @@ export const emojis: CompressedEmojiData[] = [
       'red-circle'
     ],
     sheet: [59, 28],
-    shortName: 'congratulations'
+    shortcode: 'congratulations'
   },
   {
     label: 'Circled Ideograph Secret',
@@ -27509,7 +27509,7 @@ export const emojis: CompressedEmojiData[] = [
       'red-circle'
     ],
     sheet: [59, 29],
-    shortName: 'secret'
+    shortcode: 'secret'
   },
   {
     label: 'Squared Cjk Unified Ideograph-55b6',
@@ -27521,7 +27521,7 @@ export const emojis: CompressedEmojiData[] = [
       'orange-square'
     ],
     sheet: [4, 57],
-    shortName: 'u55b6'
+    shortcode: 'u55b6'
   },
   {
     label: 'Squared Cjk Unified Ideograph-6e80',
@@ -27535,7 +27535,7 @@ export const emojis: CompressedEmojiData[] = [
       'kanji'
     ],
     sheet: [4, 52],
-    shortName: 'u6e80'
+    shortcode: 'u6e80'
   },
   {
     label: 'Large Red Circle',
@@ -27547,7 +27547,7 @@ export const emojis: CompressedEmojiData[] = [
       'danger'
     ],
     sheet: [30, 16],
-    shortName: 'red_circle'
+    shortcode: 'red_circle'
   },
   {
     label: 'Large Orange Circle',
@@ -27557,7 +27557,7 @@ export const emojis: CompressedEmojiData[] = [
       'round'
     ],
     sheet: [38, 31],
-    shortName: 'large_orange_circle'
+    shortcode: 'large_orange_circle'
   },
   {
     label: 'Large Yellow Circle',
@@ -27567,14 +27567,14 @@ export const emojis: CompressedEmojiData[] = [
       'round'
     ],
     sheet: [38, 32],
-    shortName: 'large_yellow_circle'
+    shortcode: 'large_yellow_circle'
   },
   {
     label: 'Large Green Circle',
     hexcode: '1F7E2',
     tags: ['green_circle', 'round'],
     sheet: [38, 33],
-    shortName: 'large_green_circle'
+    shortcode: 'large_green_circle'
   },
   {
     label: 'Large Blue Circle',
@@ -27586,7 +27586,7 @@ export const emojis: CompressedEmojiData[] = [
       'button'
     ],
     sheet: [30, 17],
-    shortName: 'large_blue_circle'
+    shortcode: 'large_blue_circle'
   },
   {
     label: 'Large Purple Circle',
@@ -27596,14 +27596,14 @@ export const emojis: CompressedEmojiData[] = [
       'round'
     ],
     sheet: [38, 34],
-    shortName: 'large_purple_circle'
+    shortcode: 'large_purple_circle'
   },
   {
     label: 'Large Brown Circle',
     hexcode: '1F7E4',
     tags: ['brown_circle', 'round'],
     sheet: [38, 35],
-    shortName: 'large_brown_circle'
+    shortcode: 'large_brown_circle'
   },
   {
     label: 'Medium Black Circle',
@@ -27615,7 +27615,7 @@ export const emojis: CompressedEmojiData[] = [
       'round'
     ],
     sheet: [57, 41],
-    shortName: 'black_circle'
+    shortcode: 'black_circle'
   },
   {
     label: 'Medium White Circle',
@@ -27626,56 +27626,56 @@ export const emojis: CompressedEmojiData[] = [
       'round'
     ],
     sheet: [57, 40],
-    shortName: 'white_circle'
+    shortcode: 'white_circle'
   },
   {
     label: 'Large Red Square',
     hexcode: '1F7E5',
     tags: ['red_square'],
     sheet: [38, 36],
-    shortName: 'large_red_square'
+    shortcode: 'large_red_square'
   },
   {
     label: 'Large Orange Square',
     hexcode: '1F7E7',
     tags: ['orange_square'],
     sheet: [38, 38],
-    shortName: 'large_orange_square'
+    shortcode: 'large_orange_square'
   },
   {
     label: 'Large Yellow Square',
     hexcode: '1F7E8',
     tags: ['yellow_square'],
     sheet: [38, 39],
-    shortName: 'large_yellow_square'
+    shortcode: 'large_yellow_square'
   },
   {
     label: 'Large Green Square',
     hexcode: '1F7E9',
     tags: ['green_square'],
     sheet: [38, 40],
-    shortName: 'large_green_square'
+    shortcode: 'large_green_square'
   },
   {
     label: 'Large Blue Square',
     hexcode: '1F7E6',
     tags: ['blue_square'],
     sheet: [38, 37],
-    shortName: 'large_blue_square'
+    shortcode: 'large_blue_square'
   },
   {
     label: 'Large Purple Square',
     hexcode: '1F7EA',
     tags: ['purple_square'],
     sheet: [38, 41],
-    shortName: 'large_purple_square'
+    shortcode: 'large_purple_square'
   },
   {
     label: 'Large Brown Square',
     hexcode: '1F7EB',
     tags: ['brown_square'],
     sheet: [38, 42],
-    shortName: 'large_brown_square'
+    shortcode: 'large_brown_square'
   },
   {
     label: 'Black Large Square',
@@ -27687,7 +27687,7 @@ export const emojis: CompressedEmojiData[] = [
       'button'
     ],
     sheet: [59, 22],
-    shortName: 'black_large_square'
+    shortcode: 'black_large_square'
   },
   {
     label: 'White Large Square',
@@ -27700,7 +27700,7 @@ export const emojis: CompressedEmojiData[] = [
       'button'
     ],
     sheet: [59, 23],
-    shortName: 'white_large_square'
+    shortcode: 'white_large_square'
   },
   {
     label: 'Black Medium Square',
@@ -27712,7 +27712,7 @@ export const emojis: CompressedEmojiData[] = [
       'icon'
     ],
     sheet: [56, 37],
-    shortName: 'black_medium_square'
+    shortcode: 'black_medium_square'
   },
   {
     label: 'White Medium Square',
@@ -27724,7 +27724,7 @@ export const emojis: CompressedEmojiData[] = [
       'icon'
     ],
     sheet: [56, 36],
-    shortName: 'white_medium_square'
+    shortcode: 'white_medium_square'
   },
   {
     label: 'Black Medium Small Square',
@@ -27736,7 +27736,7 @@ export const emojis: CompressedEmojiData[] = [
       'button'
     ],
     sheet: [56, 39],
-    shortName: 'black_medium_small_square'
+    shortcode: 'black_medium_small_square'
   },
   {
     label: 'White Medium Small Square',
@@ -27749,7 +27749,7 @@ export const emojis: CompressedEmojiData[] = [
       'button'
     ],
     sheet: [56, 38],
-    shortName: 'white_medium_small_square'
+    shortcode: 'white_medium_small_square'
   },
   {
     label: 'Black Small Square',
@@ -27760,7 +27760,7 @@ export const emojis: CompressedEmojiData[] = [
       'icon'
     ],
     sheet: [56, 32],
-    shortName: 'black_small_square'
+    shortcode: 'black_small_square'
   },
   {
     label: 'White Small Square',
@@ -27771,7 +27771,7 @@ export const emojis: CompressedEmojiData[] = [
       'icon'
     ],
     sheet: [56, 33],
-    shortName: 'white_small_square'
+    shortcode: 'white_small_square'
   },
   {
     label: 'Large Orange Diamond',
@@ -27783,7 +27783,7 @@ export const emojis: CompressedEmojiData[] = [
       'gem'
     ],
     sheet: [30, 18],
-    shortName: 'large_orange_diamond'
+    shortcode: 'large_orange_diamond'
   },
   {
     label: 'Large Blue Diamond',
@@ -27795,7 +27795,7 @@ export const emojis: CompressedEmojiData[] = [
       'gem'
     ],
     sheet: [30, 19],
-    shortName: 'large_blue_diamond'
+    shortcode: 'large_blue_diamond'
   },
   {
     label: 'Small Orange Diamond',
@@ -27807,7 +27807,7 @@ export const emojis: CompressedEmojiData[] = [
       'gem'
     ],
     sheet: [30, 20],
-    shortName: 'small_orange_diamond'
+    shortcode: 'small_orange_diamond'
   },
   {
     label: 'Small Blue Diamond',
@@ -27819,7 +27819,7 @@ export const emojis: CompressedEmojiData[] = [
       'gem'
     ],
     sheet: [30, 21],
-    shortName: 'small_blue_diamond'
+    shortcode: 'small_blue_diamond'
   },
   {
     label: 'Up-Pointing Red Triangle',
@@ -27832,7 +27832,7 @@ export const emojis: CompressedEmojiData[] = [
       'top'
     ],
     sheet: [30, 22],
-    shortName: 'small_red_triangle'
+    shortcode: 'small_red_triangle'
   },
   {
     label: 'Down-Pointing Red Triangle',
@@ -27844,7 +27844,7 @@ export const emojis: CompressedEmojiData[] = [
       'bottom'
     ],
     sheet: [30, 23],
-    shortName: 'small_red_triangle_down'
+    shortcode: 'small_red_triangle_down'
   },
   {
     label: 'Diamond Shape with a Dot Inside',
@@ -27858,7 +27858,7 @@ export const emojis: CompressedEmojiData[] = [
       'fancy'
     ],
     sheet: [27, 47],
-    shortName: 'diamond_shape_with_a_dot_inside'
+    shortcode: 'diamond_shape_with_a_dot_inside'
   },
   {
     label: 'Radio Button',
@@ -27871,7 +27871,7 @@ export const emojis: CompressedEmojiData[] = [
       'circle'
     ],
     sheet: [29, 49],
-    shortName: 'radio_button'
+    shortcode: 'radio_button'
   },
   {
     label: 'White Square Button',
@@ -27882,7 +27882,7 @@ export const emojis: CompressedEmojiData[] = [
       'input'
     ],
     sheet: [30, 15],
-    shortName: 'white_square_button'
+    shortcode: 'white_square_button'
   },
   {
     label: 'Black Square Button',
@@ -27894,7 +27894,7 @@ export const emojis: CompressedEmojiData[] = [
       'frame'
     ],
     sheet: [30, 14],
-    shortName: 'black_square_button'
+    shortcode: 'black_square_button'
   },
   {
     label: 'Chequered Flag',
@@ -27907,7 +27907,7 @@ export const emojis: CompressedEmojiData[] = [
       'gokart'
     ],
     sheet: [8, 7],
-    shortName: 'checkered_flag'
+    shortcode: 'checkered_flag'
   },
   {
     label: 'Triangular Flag on Post',
@@ -27919,7 +27919,7 @@ export const emojis: CompressedEmojiData[] = [
       'place'
     ],
     sheet: [36, 29],
-    shortName: 'triangular_flag_on_post'
+    shortcode: 'triangular_flag_on_post'
   },
   {
     label: 'Crossed Flags',
@@ -27932,14 +27932,14 @@ export const emojis: CompressedEmojiData[] = [
       'border'
     ],
     sheet: [7, 20],
-    shortName: 'crossed_flags'
+    shortcode: 'crossed_flags'
   },
   {
     label: 'Waving Black Flag',
     hexcode: '1F3F4',
     tags: ['black_flag', 'pirate'],
     sheet: [10, 35],
-    shortName: 'waving_black_flag'
+    shortcode: 'waving_black_flag'
   },
   {
     label: 'White Flag',
@@ -27954,7 +27954,7 @@ export const emojis: CompressedEmojiData[] = [
       'fail'
     ],
     sheet: [10, 30],
-    shortName: 'waving_white_flag'
+    shortcode: 'waving_white_flag'
   },
   {
     label: 'Rainbow Flag',
@@ -27974,7 +27974,7 @@ export const emojis: CompressedEmojiData[] = [
       'transgender'
     ],
     sheet: [10, 28],
-    shortName: 'rainbow-flag'
+    shortcode: 'rainbow-flag'
   },
   {
     label: 'Transgender Flag',
@@ -27985,7 +27985,7 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [10, 29],
     hidden: ['facebook'],
-    shortName: 'transgender_flag'
+    shortcode: 'transgender_flag'
   },
   {
     label: 'Pirate Flag',
@@ -27998,14 +27998,14 @@ export const emojis: CompressedEmojiData[] = [
       'banner'
     ],
     sheet: [10, 31],
-    shortName: 'pirate_flag'
+    shortcode: 'pirate_flag'
   },
   {
     label: 'Ascension Island Flag',
     hexcode: '1F1E6-1F1E8',
     tags: ['flag_ascension_island'],
     sheet: [0, 31],
-    shortName: 'flag-ac'
+    shortcode: 'flag-ac'
   },
   {
     label: 'Andorra Flag',
@@ -28020,7 +28020,7 @@ export const emojis: CompressedEmojiData[] = [
       'andorra'
     ],
     sheet: [0, 32],
-    shortName: 'flag-ad'
+    shortcode: 'flag-ad'
   },
   {
     label: 'United Arab Emirates Flag',
@@ -28037,7 +28037,7 @@ export const emojis: CompressedEmojiData[] = [
       'united_arab_emirates'
     ],
     sheet: [0, 33],
-    shortName: 'flag-ae'
+    shortcode: 'flag-ae'
   },
   {
     label: 'Afghanistan Flag',
@@ -28052,7 +28052,7 @@ export const emojis: CompressedEmojiData[] = [
       'afghanistan'
     ],
     sheet: [0, 34],
-    shortName: 'flag-af'
+    shortcode: 'flag-af'
   },
   {
     label: 'Antigua & Barbuda Flag',
@@ -28068,7 +28068,7 @@ export const emojis: CompressedEmojiData[] = [
       'antigua_barbuda'
     ],
     sheet: [0, 35],
-    shortName: 'flag-ag'
+    shortcode: 'flag-ag'
   },
   {
     label: 'Anguilla Flag',
@@ -28083,7 +28083,7 @@ export const emojis: CompressedEmojiData[] = [
       'anguilla'
     ],
     sheet: [0, 36],
-    shortName: 'flag-ai'
+    shortcode: 'flag-ai'
   },
   {
     label: 'Albania Flag',
@@ -28098,7 +28098,7 @@ export const emojis: CompressedEmojiData[] = [
       'albania'
     ],
     sheet: [0, 37],
-    shortName: 'flag-al'
+    shortcode: 'flag-al'
   },
   {
     label: 'Armenia Flag',
@@ -28113,7 +28113,7 @@ export const emojis: CompressedEmojiData[] = [
       'armenia'
     ],
     sheet: [0, 38],
-    shortName: 'flag-am'
+    shortcode: 'flag-am'
   },
   {
     label: 'Angola Flag',
@@ -28128,7 +28128,7 @@ export const emojis: CompressedEmojiData[] = [
       'angola'
     ],
     sheet: [0, 39],
-    shortName: 'flag-ao'
+    shortcode: 'flag-ao'
   },
   {
     label: 'Antarctica Flag',
@@ -28143,7 +28143,7 @@ export const emojis: CompressedEmojiData[] = [
       'antarctica'
     ],
     sheet: [0, 40],
-    shortName: 'flag-aq'
+    shortcode: 'flag-aq'
   },
   {
     label: 'Argentina Flag',
@@ -28158,7 +28158,7 @@ export const emojis: CompressedEmojiData[] = [
       'argentina'
     ],
     sheet: [0, 41],
-    shortName: 'flag-ar'
+    shortcode: 'flag-ar'
   },
   {
     label: 'American Samoa Flag',
@@ -28174,7 +28174,7 @@ export const emojis: CompressedEmojiData[] = [
       'american_samoa'
     ],
     sheet: [0, 42],
-    shortName: 'flag-as'
+    shortcode: 'flag-as'
   },
   {
     label: 'Austria Flag',
@@ -28189,7 +28189,7 @@ export const emojis: CompressedEmojiData[] = [
       'austria'
     ],
     sheet: [0, 43],
-    shortName: 'flag-at'
+    shortcode: 'flag-at'
   },
   {
     label: 'Australia Flag',
@@ -28204,7 +28204,7 @@ export const emojis: CompressedEmojiData[] = [
       'australia'
     ],
     sheet: [0, 44],
-    shortName: 'flag-au'
+    shortcode: 'flag-au'
   },
   {
     label: 'Aruba Flag',
@@ -28219,7 +28219,7 @@ export const emojis: CompressedEmojiData[] = [
       'aruba'
     ],
     sheet: [0, 45],
-    shortName: 'flag-aw'
+    shortcode: 'flag-aw'
   },
   {
     label: 'Åland Islands Flag',
@@ -28235,7 +28235,7 @@ export const emojis: CompressedEmojiData[] = [
       'aland_islands'
     ],
     sheet: [0, 46],
-    shortName: 'flag-ax'
+    shortcode: 'flag-ax'
   },
   {
     label: 'Azerbaijan Flag',
@@ -28250,7 +28250,7 @@ export const emojis: CompressedEmojiData[] = [
       'azerbaijan'
     ],
     sheet: [0, 47],
-    shortName: 'flag-az'
+    shortcode: 'flag-az'
   },
   {
     label: 'Bosnia & Herzegovina Flag',
@@ -28266,7 +28266,7 @@ export const emojis: CompressedEmojiData[] = [
       'bosnia_herzegovina'
     ],
     sheet: [0, 48],
-    shortName: 'flag-ba'
+    shortcode: 'flag-ba'
   },
   {
     label: 'Barbados Flag',
@@ -28281,7 +28281,7 @@ export const emojis: CompressedEmojiData[] = [
       'barbados'
     ],
     sheet: [0, 49],
-    shortName: 'flag-bb'
+    shortcode: 'flag-bb'
   },
   {
     label: 'Bangladesh Flag',
@@ -28296,7 +28296,7 @@ export const emojis: CompressedEmojiData[] = [
       'bangladesh'
     ],
     sheet: [0, 50],
-    shortName: 'flag-bd'
+    shortcode: 'flag-bd'
   },
   {
     label: 'Belgium Flag',
@@ -28311,7 +28311,7 @@ export const emojis: CompressedEmojiData[] = [
       'belgium'
     ],
     sheet: [0, 51],
-    shortName: 'flag-be'
+    shortcode: 'flag-be'
   },
   {
     label: 'Burkina Faso Flag',
@@ -28327,7 +28327,7 @@ export const emojis: CompressedEmojiData[] = [
       'burkina_faso'
     ],
     sheet: [0, 52],
-    shortName: 'flag-bf'
+    shortcode: 'flag-bf'
   },
   {
     label: 'Bulgaria Flag',
@@ -28342,7 +28342,7 @@ export const emojis: CompressedEmojiData[] = [
       'bulgaria'
     ],
     sheet: [0, 53],
-    shortName: 'flag-bg'
+    shortcode: 'flag-bg'
   },
   {
     label: 'Bahrain Flag',
@@ -28357,7 +28357,7 @@ export const emojis: CompressedEmojiData[] = [
       'bahrain'
     ],
     sheet: [0, 54],
-    shortName: 'flag-bh'
+    shortcode: 'flag-bh'
   },
   {
     label: 'Burundi Flag',
@@ -28372,7 +28372,7 @@ export const emojis: CompressedEmojiData[] = [
       'burundi'
     ],
     sheet: [0, 55],
-    shortName: 'flag-bi'
+    shortcode: 'flag-bi'
   },
   {
     label: 'Benin Flag',
@@ -28387,7 +28387,7 @@ export const emojis: CompressedEmojiData[] = [
       'benin'
     ],
     sheet: [0, 56],
-    shortName: 'flag-bj'
+    shortcode: 'flag-bj'
   },
   {
     label: 'St. Barthélemy Flag',
@@ -28403,7 +28403,7 @@ export const emojis: CompressedEmojiData[] = [
       'st_barthelemy'
     ],
     sheet: [0, 57],
-    shortName: 'flag-bl'
+    shortcode: 'flag-bl'
   },
   {
     label: 'Bermuda Flag',
@@ -28418,7 +28418,7 @@ export const emojis: CompressedEmojiData[] = [
       'bermuda'
     ],
     sheet: [0, 58],
-    shortName: 'flag-bm'
+    shortcode: 'flag-bm'
   },
   {
     label: 'Brunei Flag',
@@ -28434,7 +28434,7 @@ export const emojis: CompressedEmojiData[] = [
       'brunei'
     ],
     sheet: [0, 59],
-    shortName: 'flag-bn'
+    shortcode: 'flag-bn'
   },
   {
     label: 'Bolivia Flag',
@@ -28449,7 +28449,7 @@ export const emojis: CompressedEmojiData[] = [
       'bolivia'
     ],
     sheet: [0, 60],
-    shortName: 'flag-bo'
+    shortcode: 'flag-bo'
   },
   {
     label: 'Caribbean Netherlands Flag',
@@ -28464,7 +28464,7 @@ export const emojis: CompressedEmojiData[] = [
       'caribbean_netherlands'
     ],
     sheet: [1, 0],
-    shortName: 'flag-bq'
+    shortcode: 'flag-bq'
   },
   {
     label: 'Brazil Flag',
@@ -28479,7 +28479,7 @@ export const emojis: CompressedEmojiData[] = [
       'brazil'
     ],
     sheet: [1, 1],
-    shortName: 'flag-br'
+    shortcode: 'flag-br'
   },
   {
     label: 'Bahamas Flag',
@@ -28494,7 +28494,7 @@ export const emojis: CompressedEmojiData[] = [
       'bahamas'
     ],
     sheet: [1, 2],
-    shortName: 'flag-bs'
+    shortcode: 'flag-bs'
   },
   {
     label: 'Bhutan Flag',
@@ -28509,7 +28509,7 @@ export const emojis: CompressedEmojiData[] = [
       'bhutan'
     ],
     sheet: [1, 3],
-    shortName: 'flag-bt'
+    shortcode: 'flag-bt'
   },
   {
     label: 'Bouvet Island Flag',
@@ -28519,7 +28519,7 @@ export const emojis: CompressedEmojiData[] = [
       'norway'
     ],
     sheet: [1, 4],
-    shortName: 'flag-bv'
+    shortcode: 'flag-bv'
   },
   {
     label: 'Botswana Flag',
@@ -28534,7 +28534,7 @@ export const emojis: CompressedEmojiData[] = [
       'botswana'
     ],
     sheet: [1, 5],
-    shortName: 'flag-bw'
+    shortcode: 'flag-bw'
   },
   {
     label: 'Belarus Flag',
@@ -28549,7 +28549,7 @@ export const emojis: CompressedEmojiData[] = [
       'belarus'
     ],
     sheet: [1, 6],
-    shortName: 'flag-by'
+    shortcode: 'flag-by'
   },
   {
     label: 'Belize Flag',
@@ -28564,7 +28564,7 @@ export const emojis: CompressedEmojiData[] = [
       'belize'
     ],
     sheet: [1, 7],
-    shortName: 'flag-bz'
+    shortcode: 'flag-bz'
   },
   {
     label: 'Canada Flag',
@@ -28579,7 +28579,7 @@ export const emojis: CompressedEmojiData[] = [
       'canada'
     ],
     sheet: [1, 8],
-    shortName: 'flag-ca'
+    shortcode: 'flag-ca'
   },
   {
     label: 'Cocos (keeling) Islands Flag',
@@ -28596,7 +28596,7 @@ export const emojis: CompressedEmojiData[] = [
       'cocos_islands'
     ],
     sheet: [1, 9],
-    shortName: 'flag-cc'
+    shortcode: 'flag-cc'
   },
   {
     label: 'Congo - Kinshasa Flag',
@@ -28613,7 +28613,7 @@ export const emojis: CompressedEmojiData[] = [
       'congo_kinshasa'
     ],
     sheet: [1, 10],
-    shortName: 'flag-cd'
+    shortcode: 'flag-cd'
   },
   {
     label: 'Central African Republic Flag',
@@ -28630,7 +28630,7 @@ export const emojis: CompressedEmojiData[] = [
       'central_african_republic'
     ],
     sheet: [1, 11],
-    shortName: 'flag-cf'
+    shortcode: 'flag-cf'
   },
   {
     label: 'Congo - Brazzaville Flag',
@@ -28645,7 +28645,7 @@ export const emojis: CompressedEmojiData[] = [
       'congo_brazzaville'
     ],
     sheet: [1, 12],
-    shortName: 'flag-cg'
+    shortcode: 'flag-cg'
   },
   {
     label: 'Switzerland Flag',
@@ -28660,7 +28660,7 @@ export const emojis: CompressedEmojiData[] = [
       'switzerland'
     ],
     sheet: [1, 13],
-    shortName: 'flag-ch'
+    shortcode: 'flag-ch'
   },
   {
     label: 'Côte D’ivoire Flag',
@@ -28676,7 +28676,7 @@ export const emojis: CompressedEmojiData[] = [
       'cote_d_ivoire'
     ],
     sheet: [1, 14],
-    shortName: 'flag-ci'
+    shortcode: 'flag-ci'
   },
   {
     label: 'Cook Islands Flag',
@@ -28692,7 +28692,7 @@ export const emojis: CompressedEmojiData[] = [
       'cook_islands'
     ],
     sheet: [1, 15],
-    shortName: 'flag-ck'
+    shortcode: 'flag-ck'
   },
   {
     label: 'Chile Flag',
@@ -28706,7 +28706,7 @@ export const emojis: CompressedEmojiData[] = [
       'chile'
     ],
     sheet: [1, 16],
-    shortName: 'flag-cl'
+    shortcode: 'flag-cl'
   },
   {
     label: 'Cameroon Flag',
@@ -28721,7 +28721,7 @@ export const emojis: CompressedEmojiData[] = [
       'cameroon'
     ],
     sheet: [1, 17],
-    shortName: 'flag-cm'
+    shortcode: 'flag-cm'
   },
   {
     label: 'China Flag',
@@ -28738,8 +28738,8 @@ export const emojis: CompressedEmojiData[] = [
       'china'
     ],
     sheet: [1, 18],
-    shortNames: ['flag-cn'],
-    shortName: 'cn'
+    shortcodes: ['flag-cn'],
+    shortcode: 'cn'
   },
   {
     label: 'Colombia Flag',
@@ -28754,7 +28754,7 @@ export const emojis: CompressedEmojiData[] = [
       'colombia'
     ],
     sheet: [1, 19],
-    shortName: 'flag-co'
+    shortcode: 'flag-co'
   },
   {
     label: 'Clipperton Island Flag',
@@ -28763,7 +28763,7 @@ export const emojis: CompressedEmojiData[] = [
       'flag_clipperton_island'
     ],
     sheet: [1, 20],
-    shortName: 'flag-cp'
+    shortcode: 'flag-cp'
   },
   {
     label: 'Costa Rica Flag',
@@ -28779,7 +28779,7 @@ export const emojis: CompressedEmojiData[] = [
       'costa_rica'
     ],
     sheet: [1, 21],
-    shortName: 'flag-cr'
+    shortcode: 'flag-cr'
   },
   {
     label: 'Cuba Flag',
@@ -28794,7 +28794,7 @@ export const emojis: CompressedEmojiData[] = [
       'cuba'
     ],
     sheet: [1, 22],
-    shortName: 'flag-cu'
+    shortcode: 'flag-cu'
   },
   {
     label: 'Cape Verde Flag',
@@ -28810,7 +28810,7 @@ export const emojis: CompressedEmojiData[] = [
       'cape_verde'
     ],
     sheet: [1, 23],
-    shortName: 'flag-cv'
+    shortcode: 'flag-cv'
   },
   {
     label: 'Curaçao Flag',
@@ -28825,7 +28825,7 @@ export const emojis: CompressedEmojiData[] = [
       'curacao'
     ],
     sheet: [1, 24],
-    shortName: 'flag-cw'
+    shortcode: 'flag-cw'
   },
   {
     label: 'Christmas Island Flag',
@@ -28841,7 +28841,7 @@ export const emojis: CompressedEmojiData[] = [
       'christmas_island'
     ],
     sheet: [1, 25],
-    shortName: 'flag-cx'
+    shortcode: 'flag-cx'
   },
   {
     label: 'Cyprus Flag',
@@ -28856,7 +28856,7 @@ export const emojis: CompressedEmojiData[] = [
       'cyprus'
     ],
     sheet: [1, 26],
-    shortName: 'flag-cy'
+    shortcode: 'flag-cy'
   },
   {
     label: 'Czechia Flag',
@@ -28871,7 +28871,7 @@ export const emojis: CompressedEmojiData[] = [
       'czechia'
     ],
     sheet: [1, 27],
-    shortName: 'flag-cz'
+    shortcode: 'flag-cz'
   },
   {
     label: 'Germany Flag',
@@ -28886,15 +28886,15 @@ export const emojis: CompressedEmojiData[] = [
       'germany'
     ],
     sheet: [1, 28],
-    shortNames: ['flag-de'],
-    shortName: 'de'
+    shortcodes: ['flag-de'],
+    shortcode: 'de'
   },
   {
     label: 'Diego Garcia Flag',
     hexcode: '1F1E9-1F1EC',
     tags: ['flag_diego_garcia'],
     sheet: [1, 29],
-    shortName: 'flag-dg'
+    shortcode: 'flag-dg'
   },
   {
     label: 'Djibouti Flag',
@@ -28909,7 +28909,7 @@ export const emojis: CompressedEmojiData[] = [
       'djibouti'
     ],
     sheet: [1, 30],
-    shortName: 'flag-dj'
+    shortcode: 'flag-dj'
   },
   {
     label: 'Denmark Flag',
@@ -28924,7 +28924,7 @@ export const emojis: CompressedEmojiData[] = [
       'denmark'
     ],
     sheet: [1, 31],
-    shortName: 'flag-dk'
+    shortcode: 'flag-dk'
   },
   {
     label: 'Dominica Flag',
@@ -28939,7 +28939,7 @@ export const emojis: CompressedEmojiData[] = [
       'dominica'
     ],
     sheet: [1, 32],
-    shortName: 'flag-dm'
+    shortcode: 'flag-dm'
   },
   {
     label: 'Dominican Republic Flag',
@@ -28955,7 +28955,7 @@ export const emojis: CompressedEmojiData[] = [
       'dominican_republic'
     ],
     sheet: [1, 33],
-    shortName: 'flag-do'
+    shortcode: 'flag-do'
   },
   {
     label: 'Algeria Flag',
@@ -28970,14 +28970,14 @@ export const emojis: CompressedEmojiData[] = [
       'algeria'
     ],
     sheet: [1, 34],
-    shortName: 'flag-dz'
+    shortcode: 'flag-dz'
   },
   {
     label: 'Ceuta & Melilla Flag',
     hexcode: '1F1EA-1F1E6',
     tags: ['flag_ceuta_melilla'],
     sheet: [1, 35],
-    shortName: 'flag-ea'
+    shortcode: 'flag-ea'
   },
   {
     label: 'Ecuador Flag',
@@ -28992,7 +28992,7 @@ export const emojis: CompressedEmojiData[] = [
       'ecuador'
     ],
     sheet: [1, 36],
-    shortName: 'flag-ec'
+    shortcode: 'flag-ec'
   },
   {
     label: 'Estonia Flag',
@@ -29007,7 +29007,7 @@ export const emojis: CompressedEmojiData[] = [
       'estonia'
     ],
     sheet: [1, 37],
-    shortName: 'flag-ee'
+    shortcode: 'flag-ee'
   },
   {
     label: 'Egypt Flag',
@@ -29022,7 +29022,7 @@ export const emojis: CompressedEmojiData[] = [
       'egypt'
     ],
     sheet: [1, 38],
-    shortName: 'flag-eg'
+    shortcode: 'flag-eg'
   },
   {
     label: 'Western Sahara Flag',
@@ -29038,7 +29038,7 @@ export const emojis: CompressedEmojiData[] = [
       'western_sahara'
     ],
     sheet: [1, 39],
-    shortName: 'flag-eh'
+    shortcode: 'flag-eh'
   },
   {
     label: 'Eritrea Flag',
@@ -29053,7 +29053,7 @@ export const emojis: CompressedEmojiData[] = [
       'eritrea'
     ],
     sheet: [1, 40],
-    shortName: 'flag-er'
+    shortcode: 'flag-er'
   },
   {
     label: 'Spain Flag',
@@ -29068,8 +29068,8 @@ export const emojis: CompressedEmojiData[] = [
       'spain'
     ],
     sheet: [1, 41],
-    shortNames: ['flag-es'],
-    shortName: 'es'
+    shortcodes: ['flag-es'],
+    shortcode: 'es'
   },
   {
     label: 'Ethiopia Flag',
@@ -29084,7 +29084,7 @@ export const emojis: CompressedEmojiData[] = [
       'ethiopia'
     ],
     sheet: [1, 42],
-    shortName: 'flag-et'
+    shortcode: 'flag-et'
   },
   {
     label: 'European Union Flag',
@@ -29097,7 +29097,7 @@ export const emojis: CompressedEmojiData[] = [
       'banner'
     ],
     sheet: [1, 43],
-    shortName: 'flag-eu'
+    shortcode: 'flag-eu'
   },
   {
     label: 'Finland Flag',
@@ -29112,7 +29112,7 @@ export const emojis: CompressedEmojiData[] = [
       'finland'
     ],
     sheet: [1, 44],
-    shortName: 'flag-fi'
+    shortcode: 'flag-fi'
   },
   {
     label: 'Fiji Flag',
@@ -29127,7 +29127,7 @@ export const emojis: CompressedEmojiData[] = [
       'fiji'
     ],
     sheet: [1, 45],
-    shortName: 'flag-fj'
+    shortcode: 'flag-fj'
   },
   {
     label: 'Falkland Islands Flag',
@@ -29144,7 +29144,7 @@ export const emojis: CompressedEmojiData[] = [
       'falkland_islands'
     ],
     sheet: [1, 46],
-    shortName: 'flag-fk'
+    shortcode: 'flag-fk'
   },
   {
     label: 'Micronesia Flag',
@@ -29161,7 +29161,7 @@ export const emojis: CompressedEmojiData[] = [
       'micronesia'
     ],
     sheet: [1, 47],
-    shortName: 'flag-fm'
+    shortcode: 'flag-fm'
   },
   {
     label: 'Faroe Islands Flag',
@@ -29177,7 +29177,7 @@ export const emojis: CompressedEmojiData[] = [
       'faroe_islands'
     ],
     sheet: [1, 48],
-    shortName: 'flag-fo'
+    shortcode: 'flag-fo'
   },
   {
     label: 'France Flag',
@@ -29193,8 +29193,8 @@ export const emojis: CompressedEmojiData[] = [
       'france'
     ],
     sheet: [1, 49],
-    shortNames: ['flag-fr'],
-    shortName: 'fr'
+    shortcodes: ['flag-fr'],
+    shortcode: 'fr'
   },
   {
     label: 'Gabon Flag',
@@ -29209,7 +29209,7 @@ export const emojis: CompressedEmojiData[] = [
       'gabon'
     ],
     sheet: [1, 50],
-    shortName: 'flag-ga'
+    shortcode: 'flag-ga'
   },
   {
     label: 'United Kingdom Flag',
@@ -29234,8 +29234,8 @@ export const emojis: CompressedEmojiData[] = [
       'united_kingdom'
     ],
     sheet: [1, 51],
-    shortNames: ['uk', 'flag-gb'],
-    shortName: 'gb'
+    shortcodes: ['uk', 'flag-gb'],
+    shortcode: 'gb'
   },
   {
     label: 'Grenada Flag',
@@ -29250,7 +29250,7 @@ export const emojis: CompressedEmojiData[] = [
       'grenada'
     ],
     sheet: [1, 52],
-    shortName: 'flag-gd'
+    shortcode: 'flag-gd'
   },
   {
     label: 'Georgia Flag',
@@ -29265,7 +29265,7 @@ export const emojis: CompressedEmojiData[] = [
       'georgia'
     ],
     sheet: [1, 53],
-    shortName: 'flag-ge'
+    shortcode: 'flag-ge'
   },
   {
     label: 'French Guiana Flag',
@@ -29281,7 +29281,7 @@ export const emojis: CompressedEmojiData[] = [
       'french_guiana'
     ],
     sheet: [1, 54],
-    shortName: 'flag-gf'
+    shortcode: 'flag-gf'
   },
   {
     label: 'Guernsey Flag',
@@ -29296,7 +29296,7 @@ export const emojis: CompressedEmojiData[] = [
       'guernsey'
     ],
     sheet: [1, 55],
-    shortName: 'flag-gg'
+    shortcode: 'flag-gg'
   },
   {
     label: 'Ghana Flag',
@@ -29311,7 +29311,7 @@ export const emojis: CompressedEmojiData[] = [
       'ghana'
     ],
     sheet: [1, 56],
-    shortName: 'flag-gh'
+    shortcode: 'flag-gh'
   },
   {
     label: 'Gibraltar Flag',
@@ -29326,7 +29326,7 @@ export const emojis: CompressedEmojiData[] = [
       'gibraltar'
     ],
     sheet: [1, 57],
-    shortName: 'flag-gi'
+    shortcode: 'flag-gi'
   },
   {
     label: 'Greenland Flag',
@@ -29341,7 +29341,7 @@ export const emojis: CompressedEmojiData[] = [
       'greenland'
     ],
     sheet: [1, 58],
-    shortName: 'flag-gl'
+    shortcode: 'flag-gl'
   },
   {
     label: 'Gambia Flag',
@@ -29356,7 +29356,7 @@ export const emojis: CompressedEmojiData[] = [
       'gambia'
     ],
     sheet: [1, 59],
-    shortName: 'flag-gm'
+    shortcode: 'flag-gm'
   },
   {
     label: 'Guinea Flag',
@@ -29371,7 +29371,7 @@ export const emojis: CompressedEmojiData[] = [
       'guinea'
     ],
     sheet: [1, 60],
-    shortName: 'flag-gn'
+    shortcode: 'flag-gn'
   },
   {
     label: 'Guadeloupe Flag',
@@ -29386,7 +29386,7 @@ export const emojis: CompressedEmojiData[] = [
       'guadeloupe'
     ],
     sheet: [2, 0],
-    shortName: 'flag-gp'
+    shortcode: 'flag-gp'
   },
   {
     label: 'Equatorial Guinea Flag',
@@ -29402,7 +29402,7 @@ export const emojis: CompressedEmojiData[] = [
       'equatorial_guinea'
     ],
     sheet: [2, 1],
-    shortName: 'flag-gq'
+    shortcode: 'flag-gq'
   },
   {
     label: 'Greece Flag',
@@ -29417,7 +29417,7 @@ export const emojis: CompressedEmojiData[] = [
       'greece'
     ],
     sheet: [2, 2],
-    shortName: 'flag-gr'
+    shortcode: 'flag-gr'
   },
   {
     label: 'South Georgia & South Sandwich Islands Flag',
@@ -29435,7 +29435,7 @@ export const emojis: CompressedEmojiData[] = [
       'south_georgia_south_sandwich_islands'
     ],
     sheet: [2, 3],
-    shortName: 'flag-gs'
+    shortcode: 'flag-gs'
   },
   {
     label: 'Guatemala Flag',
@@ -29450,7 +29450,7 @@ export const emojis: CompressedEmojiData[] = [
       'guatemala'
     ],
     sheet: [2, 4],
-    shortName: 'flag-gt'
+    shortcode: 'flag-gt'
   },
   {
     label: 'Guam Flag',
@@ -29465,7 +29465,7 @@ export const emojis: CompressedEmojiData[] = [
       'guam'
     ],
     sheet: [2, 5],
-    shortName: 'flag-gu'
+    shortcode: 'flag-gu'
   },
   {
     label: 'Guinea-Bissau Flag',
@@ -29481,7 +29481,7 @@ export const emojis: CompressedEmojiData[] = [
       'guinea_bissau'
     ],
     sheet: [2, 6],
-    shortName: 'flag-gw'
+    shortcode: 'flag-gw'
   },
   {
     label: 'Guyana Flag',
@@ -29496,7 +29496,7 @@ export const emojis: CompressedEmojiData[] = [
       'guyana'
     ],
     sheet: [2, 7],
-    shortName: 'flag-gy'
+    shortcode: 'flag-gy'
   },
   {
     label: 'Hong Kong Sar China Flag',
@@ -29512,7 +29512,7 @@ export const emojis: CompressedEmojiData[] = [
       'hong_kong_sar_china'
     ],
     sheet: [2, 8],
-    shortName: 'flag-hk'
+    shortcode: 'flag-hk'
   },
   {
     label: 'Heard & Mcdonald Islands Flag',
@@ -29521,7 +29521,7 @@ export const emojis: CompressedEmojiData[] = [
       'flag_heard_mcdonald_islands'
     ],
     sheet: [2, 9],
-    shortName: 'flag-hm'
+    shortcode: 'flag-hm'
   },
   {
     label: 'Honduras Flag',
@@ -29536,7 +29536,7 @@ export const emojis: CompressedEmojiData[] = [
       'honduras'
     ],
     sheet: [2, 10],
-    shortName: 'flag-hn'
+    shortcode: 'flag-hn'
   },
   {
     label: 'Croatia Flag',
@@ -29551,7 +29551,7 @@ export const emojis: CompressedEmojiData[] = [
       'croatia'
     ],
     sheet: [2, 11],
-    shortName: 'flag-hr'
+    shortcode: 'flag-hr'
   },
   {
     label: 'Haiti Flag',
@@ -29566,7 +29566,7 @@ export const emojis: CompressedEmojiData[] = [
       'haiti'
     ],
     sheet: [2, 12],
-    shortName: 'flag-ht'
+    shortcode: 'flag-ht'
   },
   {
     label: 'Hungary Flag',
@@ -29581,7 +29581,7 @@ export const emojis: CompressedEmojiData[] = [
       'hungary'
     ],
     sheet: [2, 13],
-    shortName: 'flag-hu'
+    shortcode: 'flag-hu'
   },
   {
     label: 'Canary Islands Flag',
@@ -29597,7 +29597,7 @@ export const emojis: CompressedEmojiData[] = [
       'canary_islands'
     ],
     sheet: [2, 14],
-    shortName: 'flag-ic'
+    shortcode: 'flag-ic'
   },
   {
     label: 'Indonesia Flag',
@@ -29611,7 +29611,7 @@ export const emojis: CompressedEmojiData[] = [
       'indonesia'
     ],
     sheet: [2, 15],
-    shortName: 'flag-id'
+    shortcode: 'flag-id'
   },
   {
     label: 'Ireland Flag',
@@ -29626,7 +29626,7 @@ export const emojis: CompressedEmojiData[] = [
       'ireland'
     ],
     sheet: [2, 16],
-    shortName: 'flag-ie'
+    shortcode: 'flag-ie'
   },
   {
     label: 'Israel Flag',
@@ -29641,7 +29641,7 @@ export const emojis: CompressedEmojiData[] = [
       'israel'
     ],
     sheet: [2, 17],
-    shortName: 'flag-il'
+    shortcode: 'flag-il'
   },
   {
     label: 'Isle of Man Flag',
@@ -29657,7 +29657,7 @@ export const emojis: CompressedEmojiData[] = [
       'isle_of_man'
     ],
     sheet: [2, 18],
-    shortName: 'flag-im'
+    shortcode: 'flag-im'
   },
   {
     label: 'India Flag',
@@ -29672,7 +29672,7 @@ export const emojis: CompressedEmojiData[] = [
       'india'
     ],
     sheet: [2, 19],
-    shortName: 'flag-in'
+    shortcode: 'flag-in'
   },
   {
     label: 'British Indian Ocean Territory Flag',
@@ -29690,7 +29690,7 @@ export const emojis: CompressedEmojiData[] = [
       'british_indian_ocean_territory'
     ],
     sheet: [2, 20],
-    shortName: 'flag-io'
+    shortcode: 'flag-io'
   },
   {
     label: 'Iraq Flag',
@@ -29705,7 +29705,7 @@ export const emojis: CompressedEmojiData[] = [
       'iraq'
     ],
     sheet: [2, 21],
-    shortName: 'flag-iq'
+    shortcode: 'flag-iq'
   },
   {
     label: 'Iran Flag',
@@ -29722,7 +29722,7 @@ export const emojis: CompressedEmojiData[] = [
       'iran'
     ],
     sheet: [2, 22],
-    shortName: 'flag-ir'
+    shortcode: 'flag-ir'
   },
   {
     label: 'Iceland Flag',
@@ -29737,7 +29737,7 @@ export const emojis: CompressedEmojiData[] = [
       'iceland'
     ],
     sheet: [2, 23],
-    shortName: 'flag-is'
+    shortcode: 'flag-is'
   },
   {
     label: 'Italy Flag',
@@ -29752,8 +29752,8 @@ export const emojis: CompressedEmojiData[] = [
       'italy'
     ],
     sheet: [2, 24],
-    shortNames: ['flag-it'],
-    shortName: 'it'
+    shortcodes: ['flag-it'],
+    shortcode: 'it'
   },
   {
     label: 'Jersey Flag',
@@ -29768,7 +29768,7 @@ export const emojis: CompressedEmojiData[] = [
       'jersey'
     ],
     sheet: [2, 25],
-    shortName: 'flag-je'
+    shortcode: 'flag-je'
   },
   {
     label: 'Jamaica Flag',
@@ -29783,7 +29783,7 @@ export const emojis: CompressedEmojiData[] = [
       'jamaica'
     ],
     sheet: [2, 26],
-    shortName: 'flag-jm'
+    shortcode: 'flag-jm'
   },
   {
     label: 'Jordan Flag',
@@ -29798,7 +29798,7 @@ export const emojis: CompressedEmojiData[] = [
       'jordan'
     ],
     sheet: [2, 27],
-    shortName: 'flag-jo'
+    shortcode: 'flag-jo'
   },
   {
     label: 'Japan Flag',
@@ -29815,8 +29815,8 @@ export const emojis: CompressedEmojiData[] = [
       'ja'
     ],
     sheet: [2, 28],
-    shortNames: ['flag-jp'],
-    shortName: 'jp'
+    shortcodes: ['flag-jp'],
+    shortcode: 'jp'
   },
   {
     label: 'Kenya Flag',
@@ -29831,7 +29831,7 @@ export const emojis: CompressedEmojiData[] = [
       'kenya'
     ],
     sheet: [2, 29],
-    shortName: 'flag-ke'
+    shortcode: 'flag-ke'
   },
   {
     label: 'Kyrgyzstan Flag',
@@ -29846,7 +29846,7 @@ export const emojis: CompressedEmojiData[] = [
       'kyrgyzstan'
     ],
     sheet: [2, 30],
-    shortName: 'flag-kg'
+    shortcode: 'flag-kg'
   },
   {
     label: 'Cambodia Flag',
@@ -29861,7 +29861,7 @@ export const emojis: CompressedEmojiData[] = [
       'cambodia'
     ],
     sheet: [2, 31],
-    shortName: 'flag-kh'
+    shortcode: 'flag-kh'
   },
   {
     label: 'Kiribati Flag',
@@ -29876,7 +29876,7 @@ export const emojis: CompressedEmojiData[] = [
       'kiribati'
     ],
     sheet: [2, 32],
-    shortName: 'flag-ki'
+    shortcode: 'flag-ki'
   },
   {
     label: 'Comoros Flag',
@@ -29891,7 +29891,7 @@ export const emojis: CompressedEmojiData[] = [
       'comoros'
     ],
     sheet: [2, 33],
-    shortName: 'flag-km'
+    shortcode: 'flag-km'
   },
   {
     label: 'St. Kitts & Nevis Flag',
@@ -29908,7 +29908,7 @@ export const emojis: CompressedEmojiData[] = [
       'st_kitts_nevis'
     ],
     sheet: [2, 34],
-    shortName: 'flag-kn'
+    shortcode: 'flag-kn'
   },
   {
     label: 'North Korea Flag',
@@ -29924,7 +29924,7 @@ export const emojis: CompressedEmojiData[] = [
       'north_korea'
     ],
     sheet: [2, 35],
-    shortName: 'flag-kp'
+    shortcode: 'flag-kp'
   },
   {
     label: 'South Korea Flag',
@@ -29940,8 +29940,8 @@ export const emojis: CompressedEmojiData[] = [
       'south_korea'
     ],
     sheet: [2, 36],
-    shortNames: ['flag-kr'],
-    shortName: 'kr'
+    shortcodes: ['flag-kr'],
+    shortcode: 'kr'
   },
   {
     label: 'Kuwait Flag',
@@ -29956,7 +29956,7 @@ export const emojis: CompressedEmojiData[] = [
       'kuwait'
     ],
     sheet: [2, 37],
-    shortName: 'flag-kw'
+    shortcode: 'flag-kw'
   },
   {
     label: 'Cayman Islands Flag',
@@ -29972,7 +29972,7 @@ export const emojis: CompressedEmojiData[] = [
       'cayman_islands'
     ],
     sheet: [2, 38],
-    shortName: 'flag-ky'
+    shortcode: 'flag-ky'
   },
   {
     label: 'Kazakhstan Flag',
@@ -29987,7 +29987,7 @@ export const emojis: CompressedEmojiData[] = [
       'kazakhstan'
     ],
     sheet: [2, 39],
-    shortName: 'flag-kz'
+    shortcode: 'flag-kz'
   },
   {
     label: 'Laos Flag',
@@ -30004,7 +30004,7 @@ export const emojis: CompressedEmojiData[] = [
       'laos'
     ],
     sheet: [2, 40],
-    shortName: 'flag-la'
+    shortcode: 'flag-la'
   },
   {
     label: 'Lebanon Flag',
@@ -30019,7 +30019,7 @@ export const emojis: CompressedEmojiData[] = [
       'lebanon'
     ],
     sheet: [2, 41],
-    shortName: 'flag-lb'
+    shortcode: 'flag-lb'
   },
   {
     label: 'St. Lucia Flag',
@@ -30035,7 +30035,7 @@ export const emojis: CompressedEmojiData[] = [
       'st_lucia'
     ],
     sheet: [2, 42],
-    shortName: 'flag-lc'
+    shortcode: 'flag-lc'
   },
   {
     label: 'Liechtenstein Flag',
@@ -30050,7 +30050,7 @@ export const emojis: CompressedEmojiData[] = [
       'liechtenstein'
     ],
     sheet: [2, 43],
-    shortName: 'flag-li'
+    shortcode: 'flag-li'
   },
   {
     label: 'Sri Lanka Flag',
@@ -30066,7 +30066,7 @@ export const emojis: CompressedEmojiData[] = [
       'sri_lanka'
     ],
     sheet: [2, 44],
-    shortName: 'flag-lk'
+    shortcode: 'flag-lk'
   },
   {
     label: 'Liberia Flag',
@@ -30081,7 +30081,7 @@ export const emojis: CompressedEmojiData[] = [
       'liberia'
     ],
     sheet: [2, 45],
-    shortName: 'flag-lr'
+    shortcode: 'flag-lr'
   },
   {
     label: 'Lesotho Flag',
@@ -30096,7 +30096,7 @@ export const emojis: CompressedEmojiData[] = [
       'lesotho'
     ],
     sheet: [2, 46],
-    shortName: 'flag-ls'
+    shortcode: 'flag-ls'
   },
   {
     label: 'Lithuania Flag',
@@ -30111,7 +30111,7 @@ export const emojis: CompressedEmojiData[] = [
       'lithuania'
     ],
     sheet: [2, 47],
-    shortName: 'flag-lt'
+    shortcode: 'flag-lt'
   },
   {
     label: 'Luxembourg Flag',
@@ -30126,7 +30126,7 @@ export const emojis: CompressedEmojiData[] = [
       'luxembourg'
     ],
     sheet: [2, 48],
-    shortName: 'flag-lu'
+    shortcode: 'flag-lu'
   },
   {
     label: 'Latvia Flag',
@@ -30141,7 +30141,7 @@ export const emojis: CompressedEmojiData[] = [
       'latvia'
     ],
     sheet: [2, 49],
-    shortName: 'flag-lv'
+    shortcode: 'flag-lv'
   },
   {
     label: 'Libya Flag',
@@ -30156,7 +30156,7 @@ export const emojis: CompressedEmojiData[] = [
       'libya'
     ],
     sheet: [2, 50],
-    shortName: 'flag-ly'
+    shortcode: 'flag-ly'
   },
   {
     label: 'Morocco Flag',
@@ -30171,7 +30171,7 @@ export const emojis: CompressedEmojiData[] = [
       'morocco'
     ],
     sheet: [2, 51],
-    shortName: 'flag-ma'
+    shortcode: 'flag-ma'
   },
   {
     label: 'Monaco Flag',
@@ -30186,7 +30186,7 @@ export const emojis: CompressedEmojiData[] = [
       'monaco'
     ],
     sheet: [2, 52],
-    shortName: 'flag-mc'
+    shortcode: 'flag-mc'
   },
   {
     label: 'Moldova Flag',
@@ -30202,7 +30202,7 @@ export const emojis: CompressedEmojiData[] = [
       'moldova'
     ],
     sheet: [2, 53],
-    shortName: 'flag-md'
+    shortcode: 'flag-md'
   },
   {
     label: 'Montenegro Flag',
@@ -30217,14 +30217,14 @@ export const emojis: CompressedEmojiData[] = [
       'montenegro'
     ],
     sheet: [2, 54],
-    shortName: 'flag-me'
+    shortcode: 'flag-me'
   },
   {
     label: 'St. Martin Flag',
     hexcode: '1F1F2-1F1EB',
     tags: ['flag_st_martin'],
     sheet: [2, 55],
-    shortName: 'flag-mf'
+    shortcode: 'flag-mf'
   },
   {
     label: 'Madagascar Flag',
@@ -30239,7 +30239,7 @@ export const emojis: CompressedEmojiData[] = [
       'madagascar'
     ],
     sheet: [2, 56],
-    shortName: 'flag-mg'
+    shortcode: 'flag-mg'
   },
   {
     label: 'Marshall Islands Flag',
@@ -30255,7 +30255,7 @@ export const emojis: CompressedEmojiData[] = [
       'marshall_islands'
     ],
     sheet: [2, 57],
-    shortName: 'flag-mh'
+    shortcode: 'flag-mh'
   },
   {
     label: 'North Macedonia Flag',
@@ -30270,7 +30270,7 @@ export const emojis: CompressedEmojiData[] = [
       'north_macedonia'
     ],
     sheet: [2, 58],
-    shortName: 'flag-mk'
+    shortcode: 'flag-mk'
   },
   {
     label: 'Mali Flag',
@@ -30285,7 +30285,7 @@ export const emojis: CompressedEmojiData[] = [
       'mali'
     ],
     sheet: [2, 59],
-    shortName: 'flag-ml'
+    shortcode: 'flag-ml'
   },
   {
     label: 'Myanmar (burma) Flag',
@@ -30300,7 +30300,7 @@ export const emojis: CompressedEmojiData[] = [
       'myanmar'
     ],
     sheet: [2, 60],
-    shortName: 'flag-mm'
+    shortcode: 'flag-mm'
   },
   {
     label: 'Mongolia Flag',
@@ -30315,7 +30315,7 @@ export const emojis: CompressedEmojiData[] = [
       'mongolia'
     ],
     sheet: [3, 0],
-    shortName: 'flag-mn'
+    shortcode: 'flag-mn'
   },
   {
     label: 'Macao Sar China Flag',
@@ -30330,7 +30330,7 @@ export const emojis: CompressedEmojiData[] = [
       'macao_sar_china'
     ],
     sheet: [3, 1],
-    shortName: 'flag-mo'
+    shortcode: 'flag-mo'
   },
   {
     label: 'Northern Mariana Islands Flag',
@@ -30347,7 +30347,7 @@ export const emojis: CompressedEmojiData[] = [
       'northern_mariana_islands'
     ],
     sheet: [3, 2],
-    shortName: 'flag-mp'
+    shortcode: 'flag-mp'
   },
   {
     label: 'Martinique Flag',
@@ -30362,7 +30362,7 @@ export const emojis: CompressedEmojiData[] = [
       'martinique'
     ],
     sheet: [3, 3],
-    shortName: 'flag-mq'
+    shortcode: 'flag-mq'
   },
   {
     label: 'Mauritania Flag',
@@ -30377,7 +30377,7 @@ export const emojis: CompressedEmojiData[] = [
       'mauritania'
     ],
     sheet: [3, 4],
-    shortName: 'flag-mr'
+    shortcode: 'flag-mr'
   },
   {
     label: 'Montserrat Flag',
@@ -30392,7 +30392,7 @@ export const emojis: CompressedEmojiData[] = [
       'montserrat'
     ],
     sheet: [3, 5],
-    shortName: 'flag-ms'
+    shortcode: 'flag-ms'
   },
   {
     label: 'Malta Flag',
@@ -30407,7 +30407,7 @@ export const emojis: CompressedEmojiData[] = [
       'malta'
     ],
     sheet: [3, 6],
-    shortName: 'flag-mt'
+    shortcode: 'flag-mt'
   },
   {
     label: 'Mauritius Flag',
@@ -30422,7 +30422,7 @@ export const emojis: CompressedEmojiData[] = [
       'mauritius'
     ],
     sheet: [3, 7],
-    shortName: 'flag-mu'
+    shortcode: 'flag-mu'
   },
   {
     label: 'Maldives Flag',
@@ -30437,7 +30437,7 @@ export const emojis: CompressedEmojiData[] = [
       'maldives'
     ],
     sheet: [3, 8],
-    shortName: 'flag-mv'
+    shortcode: 'flag-mv'
   },
   {
     label: 'Malawi Flag',
@@ -30452,7 +30452,7 @@ export const emojis: CompressedEmojiData[] = [
       'malawi'
     ],
     sheet: [3, 9],
-    shortName: 'flag-mw'
+    shortcode: 'flag-mw'
   },
   {
     label: 'Mexico Flag',
@@ -30467,7 +30467,7 @@ export const emojis: CompressedEmojiData[] = [
       'mexico'
     ],
     sheet: [3, 10],
-    shortName: 'flag-mx'
+    shortcode: 'flag-mx'
   },
   {
     label: 'Malaysia Flag',
@@ -30482,7 +30482,7 @@ export const emojis: CompressedEmojiData[] = [
       'malaysia'
     ],
     sheet: [3, 11],
-    shortName: 'flag-my'
+    shortcode: 'flag-my'
   },
   {
     label: 'Mozambique Flag',
@@ -30497,7 +30497,7 @@ export const emojis: CompressedEmojiData[] = [
       'mozambique'
     ],
     sheet: [3, 12],
-    shortName: 'flag-mz'
+    shortcode: 'flag-mz'
   },
   {
     label: 'Namibia Flag',
@@ -30512,7 +30512,7 @@ export const emojis: CompressedEmojiData[] = [
       'namibia'
     ],
     sheet: [3, 13],
-    shortName: 'flag-na'
+    shortcode: 'flag-na'
   },
   {
     label: 'New Caledonia Flag',
@@ -30528,7 +30528,7 @@ export const emojis: CompressedEmojiData[] = [
       'new_caledonia'
     ],
     sheet: [3, 14],
-    shortName: 'flag-nc'
+    shortcode: 'flag-nc'
   },
   {
     label: 'Niger Flag',
@@ -30543,7 +30543,7 @@ export const emojis: CompressedEmojiData[] = [
       'niger'
     ],
     sheet: [3, 15],
-    shortName: 'flag-ne'
+    shortcode: 'flag-ne'
   },
   {
     label: 'Norfolk Island Flag',
@@ -30559,7 +30559,7 @@ export const emojis: CompressedEmojiData[] = [
       'norfolk_island'
     ],
     sheet: [3, 16],
-    shortName: 'flag-nf'
+    shortcode: 'flag-nf'
   },
   {
     label: 'Nigeria Flag',
@@ -30573,7 +30573,7 @@ export const emojis: CompressedEmojiData[] = [
       'nigeria'
     ],
     sheet: [3, 17],
-    shortName: 'flag-ng'
+    shortcode: 'flag-ng'
   },
   {
     label: 'Nicaragua Flag',
@@ -30588,7 +30588,7 @@ export const emojis: CompressedEmojiData[] = [
       'nicaragua'
     ],
     sheet: [3, 18],
-    shortName: 'flag-ni'
+    shortcode: 'flag-ni'
   },
   {
     label: 'Netherlands Flag',
@@ -30603,7 +30603,7 @@ export const emojis: CompressedEmojiData[] = [
       'netherlands'
     ],
     sheet: [3, 19],
-    shortName: 'flag-nl'
+    shortcode: 'flag-nl'
   },
   {
     label: 'Norway Flag',
@@ -30618,7 +30618,7 @@ export const emojis: CompressedEmojiData[] = [
       'norway'
     ],
     sheet: [3, 20],
-    shortName: 'flag-no'
+    shortcode: 'flag-no'
   },
   {
     label: 'Nepal Flag',
@@ -30633,7 +30633,7 @@ export const emojis: CompressedEmojiData[] = [
       'nepal'
     ],
     sheet: [3, 21],
-    shortName: 'flag-np'
+    shortcode: 'flag-np'
   },
   {
     label: 'Nauru Flag',
@@ -30648,7 +30648,7 @@ export const emojis: CompressedEmojiData[] = [
       'nauru'
     ],
     sheet: [3, 22],
-    shortName: 'flag-nr'
+    shortcode: 'flag-nr'
   },
   {
     label: 'Niue Flag',
@@ -30663,7 +30663,7 @@ export const emojis: CompressedEmojiData[] = [
       'niue'
     ],
     sheet: [3, 23],
-    shortName: 'flag-nu'
+    shortcode: 'flag-nu'
   },
   {
     label: 'New Zealand Flag',
@@ -30679,7 +30679,7 @@ export const emojis: CompressedEmojiData[] = [
       'new_zealand'
     ],
     sheet: [3, 24],
-    shortName: 'flag-nz'
+    shortcode: 'flag-nz'
   },
   {
     label: 'Oman Flag',
@@ -30694,7 +30694,7 @@ export const emojis: CompressedEmojiData[] = [
       'oman'
     ],
     sheet: [3, 25],
-    shortName: 'flag-om'
+    shortcode: 'flag-om'
   },
   {
     label: 'Panama Flag',
@@ -30709,7 +30709,7 @@ export const emojis: CompressedEmojiData[] = [
       'panama'
     ],
     sheet: [3, 26],
-    shortName: 'flag-pa'
+    shortcode: 'flag-pa'
   },
   {
     label: 'Peru Flag',
@@ -30724,7 +30724,7 @@ export const emojis: CompressedEmojiData[] = [
       'peru'
     ],
     sheet: [3, 27],
-    shortName: 'flag-pe'
+    shortcode: 'flag-pe'
   },
   {
     label: 'French Polynesia Flag',
@@ -30740,7 +30740,7 @@ export const emojis: CompressedEmojiData[] = [
       'french_polynesia'
     ],
     sheet: [3, 28],
-    shortName: 'flag-pf'
+    shortcode: 'flag-pf'
   },
   {
     label: 'Papua New Guinea Flag',
@@ -30757,7 +30757,7 @@ export const emojis: CompressedEmojiData[] = [
       'papua_new_guinea'
     ],
     sheet: [3, 29],
-    shortName: 'flag-pg'
+    shortcode: 'flag-pg'
   },
   {
     label: 'Philippines Flag',
@@ -30772,7 +30772,7 @@ export const emojis: CompressedEmojiData[] = [
       'philippines'
     ],
     sheet: [3, 30],
-    shortName: 'flag-ph'
+    shortcode: 'flag-ph'
   },
   {
     label: 'Pakistan Flag',
@@ -30787,7 +30787,7 @@ export const emojis: CompressedEmojiData[] = [
       'pakistan'
     ],
     sheet: [3, 31],
-    shortName: 'flag-pk'
+    shortcode: 'flag-pk'
   },
   {
     label: 'Poland Flag',
@@ -30802,7 +30802,7 @@ export const emojis: CompressedEmojiData[] = [
       'poland'
     ],
     sheet: [3, 32],
-    shortName: 'flag-pl'
+    shortcode: 'flag-pl'
   },
   {
     label: 'St. Pierre & Miquelon Flag',
@@ -30819,7 +30819,7 @@ export const emojis: CompressedEmojiData[] = [
       'st_pierre_miquelon'
     ],
     sheet: [3, 33],
-    shortName: 'flag-pm'
+    shortcode: 'flag-pm'
   },
   {
     label: 'Pitcairn Islands Flag',
@@ -30834,7 +30834,7 @@ export const emojis: CompressedEmojiData[] = [
       'pitcairn_islands'
     ],
     sheet: [3, 34],
-    shortName: 'flag-pn'
+    shortcode: 'flag-pn'
   },
   {
     label: 'Puerto Rico Flag',
@@ -30850,7 +30850,7 @@ export const emojis: CompressedEmojiData[] = [
       'puerto_rico'
     ],
     sheet: [3, 35],
-    shortName: 'flag-pr'
+    shortcode: 'flag-pr'
   },
   {
     label: 'Palestinian Territories Flag',
@@ -30867,7 +30867,7 @@ export const emojis: CompressedEmojiData[] = [
       'palestinian_territories'
     ],
     sheet: [3, 36],
-    shortName: 'flag-ps'
+    shortcode: 'flag-ps'
   },
   {
     label: 'Portugal Flag',
@@ -30882,7 +30882,7 @@ export const emojis: CompressedEmojiData[] = [
       'portugal'
     ],
     sheet: [3, 37],
-    shortName: 'flag-pt'
+    shortcode: 'flag-pt'
   },
   {
     label: 'Palau Flag',
@@ -30897,7 +30897,7 @@ export const emojis: CompressedEmojiData[] = [
       'palau'
     ],
     sheet: [3, 38],
-    shortName: 'flag-pw'
+    shortcode: 'flag-pw'
   },
   {
     label: 'Paraguay Flag',
@@ -30912,7 +30912,7 @@ export const emojis: CompressedEmojiData[] = [
       'paraguay'
     ],
     sheet: [3, 39],
-    shortName: 'flag-py'
+    shortcode: 'flag-py'
   },
   {
     label: 'Qatar Flag',
@@ -30927,7 +30927,7 @@ export const emojis: CompressedEmojiData[] = [
       'qatar'
     ],
     sheet: [3, 40],
-    shortName: 'flag-qa'
+    shortcode: 'flag-qa'
   },
   {
     label: 'Réunion Flag',
@@ -30942,7 +30942,7 @@ export const emojis: CompressedEmojiData[] = [
       'reunion'
     ],
     sheet: [3, 41],
-    shortName: 'flag-re'
+    shortcode: 'flag-re'
   },
   {
     label: 'Romania Flag',
@@ -30957,7 +30957,7 @@ export const emojis: CompressedEmojiData[] = [
       'romania'
     ],
     sheet: [3, 42],
-    shortName: 'flag-ro'
+    shortcode: 'flag-ro'
   },
   {
     label: 'Serbia Flag',
@@ -30972,7 +30972,7 @@ export const emojis: CompressedEmojiData[] = [
       'serbia'
     ],
     sheet: [3, 43],
-    shortName: 'flag-rs'
+    shortcode: 'flag-rs'
   },
   {
     label: 'Russia Flag',
@@ -30988,8 +30988,8 @@ export const emojis: CompressedEmojiData[] = [
       'russia'
     ],
     sheet: [3, 44],
-    shortNames: ['flag-ru'],
-    shortName: 'ru'
+    shortcodes: ['flag-ru'],
+    shortcode: 'ru'
   },
   {
     label: 'Rwanda Flag',
@@ -31004,7 +31004,7 @@ export const emojis: CompressedEmojiData[] = [
       'rwanda'
     ],
     sheet: [3, 45],
-    shortName: 'flag-rw'
+    shortcode: 'flag-rw'
   },
   {
     label: 'Saudi Arabia Flag',
@@ -31018,7 +31018,7 @@ export const emojis: CompressedEmojiData[] = [
       'saudi_arabia'
     ],
     sheet: [3, 46],
-    shortName: 'flag-sa'
+    shortcode: 'flag-sa'
   },
   {
     label: 'Solomon Islands Flag',
@@ -31034,7 +31034,7 @@ export const emojis: CompressedEmojiData[] = [
       'solomon_islands'
     ],
     sheet: [3, 47],
-    shortName: 'flag-sb'
+    shortcode: 'flag-sb'
   },
   {
     label: 'Seychelles Flag',
@@ -31049,7 +31049,7 @@ export const emojis: CompressedEmojiData[] = [
       'seychelles'
     ],
     sheet: [3, 48],
-    shortName: 'flag-sc'
+    shortcode: 'flag-sc'
   },
   {
     label: 'Sudan Flag',
@@ -31064,7 +31064,7 @@ export const emojis: CompressedEmojiData[] = [
       'sudan'
     ],
     sheet: [3, 49],
-    shortName: 'flag-sd'
+    shortcode: 'flag-sd'
   },
   {
     label: 'Sweden Flag',
@@ -31079,7 +31079,7 @@ export const emojis: CompressedEmojiData[] = [
       'sweden'
     ],
     sheet: [3, 50],
-    shortName: 'flag-se'
+    shortcode: 'flag-se'
   },
   {
     label: 'Singapore Flag',
@@ -31094,7 +31094,7 @@ export const emojis: CompressedEmojiData[] = [
       'singapore'
     ],
     sheet: [3, 51],
-    shortName: 'flag-sg'
+    shortcode: 'flag-sg'
   },
   {
     label: 'St. Helena Flag',
@@ -31113,7 +31113,7 @@ export const emojis: CompressedEmojiData[] = [
       'st_helena'
     ],
     sheet: [3, 52],
-    shortName: 'flag-sh'
+    shortcode: 'flag-sh'
   },
   {
     label: 'Slovenia Flag',
@@ -31128,7 +31128,7 @@ export const emojis: CompressedEmojiData[] = [
       'slovenia'
     ],
     sheet: [3, 53],
-    shortName: 'flag-si'
+    shortcode: 'flag-si'
   },
   {
     label: 'Svalbard & Jan Mayen Flag',
@@ -31137,7 +31137,7 @@ export const emojis: CompressedEmojiData[] = [
       'flag_svalbard_jan_mayen'
     ],
     sheet: [3, 54],
-    shortName: 'flag-sj'
+    shortcode: 'flag-sj'
   },
   {
     label: 'Slovakia Flag',
@@ -31152,7 +31152,7 @@ export const emojis: CompressedEmojiData[] = [
       'slovakia'
     ],
     sheet: [3, 55],
-    shortName: 'flag-sk'
+    shortcode: 'flag-sk'
   },
   {
     label: 'Sierra Leone Flag',
@@ -31168,7 +31168,7 @@ export const emojis: CompressedEmojiData[] = [
       'sierra_leone'
     ],
     sheet: [3, 56],
-    shortName: 'flag-sl'
+    shortcode: 'flag-sl'
   },
   {
     label: 'San Marino Flag',
@@ -31184,7 +31184,7 @@ export const emojis: CompressedEmojiData[] = [
       'san_marino'
     ],
     sheet: [3, 57],
-    shortName: 'flag-sm'
+    shortcode: 'flag-sm'
   },
   {
     label: 'Senegal Flag',
@@ -31199,7 +31199,7 @@ export const emojis: CompressedEmojiData[] = [
       'senegal'
     ],
     sheet: [3, 58],
-    shortName: 'flag-sn'
+    shortcode: 'flag-sn'
   },
   {
     label: 'Somalia Flag',
@@ -31214,7 +31214,7 @@ export const emojis: CompressedEmojiData[] = [
       'somalia'
     ],
     sheet: [3, 59],
-    shortName: 'flag-so'
+    shortcode: 'flag-so'
   },
   {
     label: 'Suriname Flag',
@@ -31229,7 +31229,7 @@ export const emojis: CompressedEmojiData[] = [
       'suriname'
     ],
     sheet: [3, 60],
-    shortName: 'flag-sr'
+    shortcode: 'flag-sr'
   },
   {
     label: 'South Sudan Flag',
@@ -31245,7 +31245,7 @@ export const emojis: CompressedEmojiData[] = [
       'south_sudan'
     ],
     sheet: [4, 0],
-    shortName: 'flag-ss'
+    shortcode: 'flag-ss'
   },
   {
     label: 'São Tomé & Príncipe Flag',
@@ -31262,7 +31262,7 @@ export const emojis: CompressedEmojiData[] = [
       'sao_tome_principe'
     ],
     sheet: [4, 1],
-    shortName: 'flag-st'
+    shortcode: 'flag-st'
   },
   {
     label: 'El Salvador Flag',
@@ -31278,7 +31278,7 @@ export const emojis: CompressedEmojiData[] = [
       'el_salvador'
     ],
     sheet: [4, 2],
-    shortName: 'flag-sv'
+    shortcode: 'flag-sv'
   },
   {
     label: 'Sint Maarten Flag',
@@ -31295,7 +31295,7 @@ export const emojis: CompressedEmojiData[] = [
       'sint_maarten'
     ],
     sheet: [4, 3],
-    shortName: 'flag-sx'
+    shortcode: 'flag-sx'
   },
   {
     label: 'Syria Flag',
@@ -31312,7 +31312,7 @@ export const emojis: CompressedEmojiData[] = [
       'syria'
     ],
     sheet: [4, 4],
-    shortName: 'flag-sy'
+    shortcode: 'flag-sy'
   },
   {
     label: 'Eswatini Flag',
@@ -31327,14 +31327,14 @@ export const emojis: CompressedEmojiData[] = [
       'eswatini'
     ],
     sheet: [4, 5],
-    shortName: 'flag-sz'
+    shortcode: 'flag-sz'
   },
   {
     label: 'Tristan Da Cunha Flag',
     hexcode: '1F1F9-1F1E6',
     tags: ['flag_tristan_da_cunha'],
     sheet: [4, 6],
-    shortName: 'flag-ta'
+    shortcode: 'flag-ta'
   },
   {
     label: 'Turks & Caicos Islands Flag',
@@ -31351,7 +31351,7 @@ export const emojis: CompressedEmojiData[] = [
       'turks_caicos_islands'
     ],
     sheet: [4, 7],
-    shortName: 'flag-tc'
+    shortcode: 'flag-tc'
   },
   {
     label: 'Chad Flag',
@@ -31366,7 +31366,7 @@ export const emojis: CompressedEmojiData[] = [
       'chad'
     ],
     sheet: [4, 8],
-    shortName: 'flag-td'
+    shortcode: 'flag-td'
   },
   {
     label: 'French Southern Territories Flag',
@@ -31383,7 +31383,7 @@ export const emojis: CompressedEmojiData[] = [
       'french_southern_territories'
     ],
     sheet: [4, 9],
-    shortName: 'flag-tf'
+    shortcode: 'flag-tf'
   },
   {
     label: 'Togo Flag',
@@ -31398,7 +31398,7 @@ export const emojis: CompressedEmojiData[] = [
       'togo'
     ],
     sheet: [4, 10],
-    shortName: 'flag-tg'
+    shortcode: 'flag-tg'
   },
   {
     label: 'Thailand Flag',
@@ -31413,7 +31413,7 @@ export const emojis: CompressedEmojiData[] = [
       'thailand'
     ],
     sheet: [4, 11],
-    shortName: 'flag-th'
+    shortcode: 'flag-th'
   },
   {
     label: 'Tajikistan Flag',
@@ -31428,7 +31428,7 @@ export const emojis: CompressedEmojiData[] = [
       'tajikistan'
     ],
     sheet: [4, 12],
-    shortName: 'flag-tj'
+    shortcode: 'flag-tj'
   },
   {
     label: 'Tokelau Flag',
@@ -31443,7 +31443,7 @@ export const emojis: CompressedEmojiData[] = [
       'tokelau'
     ],
     sheet: [4, 13],
-    shortName: 'flag-tk'
+    shortcode: 'flag-tk'
   },
   {
     label: 'Timor-Leste Flag',
@@ -31459,7 +31459,7 @@ export const emojis: CompressedEmojiData[] = [
       'timor_leste'
     ],
     sheet: [4, 14],
-    shortName: 'flag-tl'
+    shortcode: 'flag-tl'
   },
   {
     label: 'Turkmenistan Flag',
@@ -31473,7 +31473,7 @@ export const emojis: CompressedEmojiData[] = [
       'turkmenistan'
     ],
     sheet: [4, 15],
-    shortName: 'flag-tm'
+    shortcode: 'flag-tm'
   },
   {
     label: 'Tunisia Flag',
@@ -31488,7 +31488,7 @@ export const emojis: CompressedEmojiData[] = [
       'tunisia'
     ],
     sheet: [4, 16],
-    shortName: 'flag-tn'
+    shortcode: 'flag-tn'
   },
   {
     label: 'Tonga Flag',
@@ -31503,7 +31503,7 @@ export const emojis: CompressedEmojiData[] = [
       'tonga'
     ],
     sheet: [4, 17],
-    shortName: 'flag-to'
+    shortcode: 'flag-to'
   },
   {
     label: 'Turkey Flag',
@@ -31518,7 +31518,7 @@ export const emojis: CompressedEmojiData[] = [
       'turkey'
     ],
     sheet: [4, 18],
-    shortName: 'flag-tr'
+    shortcode: 'flag-tr'
   },
   {
     label: 'Trinidad & Tobago Flag',
@@ -31534,7 +31534,7 @@ export const emojis: CompressedEmojiData[] = [
       'trinidad_tobago'
     ],
     sheet: [4, 19],
-    shortName: 'flag-tt'
+    shortcode: 'flag-tt'
   },
   {
     label: 'Tuvalu Flag',
@@ -31548,7 +31548,7 @@ export const emojis: CompressedEmojiData[] = [
       'tuvalu'
     ],
     sheet: [4, 20],
-    shortName: 'flag-tv'
+    shortcode: 'flag-tv'
   },
   {
     label: 'Taiwan Flag',
@@ -31563,7 +31563,7 @@ export const emojis: CompressedEmojiData[] = [
       'taiwan'
     ],
     sheet: [4, 21],
-    shortName: 'flag-tw'
+    shortcode: 'flag-tw'
   },
   {
     label: 'Tanzania Flag',
@@ -31580,7 +31580,7 @@ export const emojis: CompressedEmojiData[] = [
       'tanzania'
     ],
     sheet: [4, 22],
-    shortName: 'flag-tz'
+    shortcode: 'flag-tz'
   },
   {
     label: 'Ukraine Flag',
@@ -31595,7 +31595,7 @@ export const emojis: CompressedEmojiData[] = [
       'ukraine'
     ],
     sheet: [4, 23],
-    shortName: 'flag-ua'
+    shortcode: 'flag-ua'
   },
   {
     label: 'Uganda Flag',
@@ -31610,7 +31610,7 @@ export const emojis: CompressedEmojiData[] = [
       'uganda'
     ],
     sheet: [4, 24],
-    shortName: 'flag-ug'
+    shortcode: 'flag-ug'
   },
   {
     label: 'U.s. Outlying Islands Flag',
@@ -31619,7 +31619,7 @@ export const emojis: CompressedEmojiData[] = [
       'flag_u_s_outlying_islands'
     ],
     sheet: [4, 25],
-    shortName: 'flag-um'
+    shortcode: 'flag-um'
   },
   {
     label: 'United Nations Flag',
@@ -31631,7 +31631,7 @@ export const emojis: CompressedEmojiData[] = [
       'banner'
     ],
     sheet: [4, 26],
-    shortName: 'flag-un'
+    shortcode: 'flag-un'
   },
   {
     label: 'United States Flag',
@@ -31648,8 +31648,8 @@ export const emojis: CompressedEmojiData[] = [
       'united_states'
     ],
     sheet: [4, 27],
-    shortNames: ['flag-us'],
-    shortName: 'us'
+    shortcodes: ['flag-us'],
+    shortcode: 'us'
   },
   {
     label: 'Uruguay Flag',
@@ -31664,7 +31664,7 @@ export const emojis: CompressedEmojiData[] = [
       'uruguay'
     ],
     sheet: [4, 28],
-    shortName: 'flag-uy'
+    shortcode: 'flag-uy'
   },
   {
     label: 'Uzbekistan Flag',
@@ -31679,7 +31679,7 @@ export const emojis: CompressedEmojiData[] = [
       'uzbekistan'
     ],
     sheet: [4, 29],
-    shortName: 'flag-uz'
+    shortcode: 'flag-uz'
   },
   {
     label: 'Vatican City Flag',
@@ -31695,7 +31695,7 @@ export const emojis: CompressedEmojiData[] = [
       'vatican_city'
     ],
     sheet: [4, 30],
-    shortName: 'flag-va'
+    shortcode: 'flag-va'
   },
   {
     label: 'St. Vincent & Grenadines Flag',
@@ -31712,7 +31712,7 @@ export const emojis: CompressedEmojiData[] = [
       'st_vincent_grenadines'
     ],
     sheet: [4, 31],
-    shortName: 'flag-vc'
+    shortcode: 'flag-vc'
   },
   {
     label: 'Venezuela Flag',
@@ -31729,7 +31729,7 @@ export const emojis: CompressedEmojiData[] = [
       'venezuela'
     ],
     sheet: [4, 32],
-    shortName: 'flag-ve'
+    shortcode: 'flag-ve'
   },
   {
     label: 'British Virgin Islands Flag',
@@ -31747,7 +31747,7 @@ export const emojis: CompressedEmojiData[] = [
       'british_virgin_islands'
     ],
     sheet: [4, 33],
-    shortName: 'flag-vg'
+    shortcode: 'flag-vg'
   },
   {
     label: 'U.s. Virgin Islands Flag',
@@ -31764,7 +31764,7 @@ export const emojis: CompressedEmojiData[] = [
       'u_s_virgin_islands'
     ],
     sheet: [4, 34],
-    shortName: 'flag-vi'
+    shortcode: 'flag-vi'
   },
   {
     label: 'Vietnam Flag',
@@ -31780,7 +31780,7 @@ export const emojis: CompressedEmojiData[] = [
       'vietnam'
     ],
     sheet: [4, 35],
-    shortName: 'flag-vn'
+    shortcode: 'flag-vn'
   },
   {
     label: 'Vanuatu Flag',
@@ -31795,7 +31795,7 @@ export const emojis: CompressedEmojiData[] = [
       'vanuatu'
     ],
     sheet: [4, 36],
-    shortName: 'flag-vu'
+    shortcode: 'flag-vu'
   },
   {
     label: 'Wallis & Futuna Flag',
@@ -31811,7 +31811,7 @@ export const emojis: CompressedEmojiData[] = [
       'wallis_futuna'
     ],
     sheet: [4, 37],
-    shortName: 'flag-wf'
+    shortcode: 'flag-wf'
   },
   {
     label: 'Samoa Flag',
@@ -31826,7 +31826,7 @@ export const emojis: CompressedEmojiData[] = [
       'samoa'
     ],
     sheet: [4, 38],
-    shortName: 'flag-ws'
+    shortcode: 'flag-ws'
   },
   {
     label: 'Kosovo Flag',
@@ -31841,7 +31841,7 @@ export const emojis: CompressedEmojiData[] = [
       'kosovo'
     ],
     sheet: [4, 39],
-    shortName: 'flag-xk'
+    shortcode: 'flag-xk'
   },
   {
     label: 'Yemen Flag',
@@ -31856,7 +31856,7 @@ export const emojis: CompressedEmojiData[] = [
       'yemen'
     ],
     sheet: [4, 40],
-    shortName: 'flag-ye'
+    shortcode: 'flag-ye'
   },
   {
     label: 'Mayotte Flag',
@@ -31871,7 +31871,7 @@ export const emojis: CompressedEmojiData[] = [
       'mayotte'
     ],
     sheet: [4, 41],
-    shortName: 'flag-yt'
+    shortcode: 'flag-yt'
   },
   {
     label: 'South Africa Flag',
@@ -31887,7 +31887,7 @@ export const emojis: CompressedEmojiData[] = [
       'south_africa'
     ],
     sheet: [4, 42],
-    shortName: 'flag-za'
+    shortcode: 'flag-za'
   },
   {
     label: 'Zambia Flag',
@@ -31902,7 +31902,7 @@ export const emojis: CompressedEmojiData[] = [
       'zambia'
     ],
     sheet: [4, 43],
-    shortName: 'flag-zm'
+    shortcode: 'flag-zm'
   },
   {
     label: 'Zimbabwe Flag',
@@ -31917,7 +31917,7 @@ export const emojis: CompressedEmojiData[] = [
       'zimbabwe'
     ],
     sheet: [4, 44],
-    shortName: 'flag-zw'
+    shortcode: 'flag-zw'
   },
   {
     label: 'England Flag',
@@ -31928,7 +31928,7 @@ export const emojis: CompressedEmojiData[] = [
       'english'
     ],
     sheet: [10, 32],
-    shortName: 'flag-england'
+    shortcode: 'flag-england'
   },
   {
     label: 'Scotland Flag',
@@ -31939,7 +31939,7 @@ export const emojis: CompressedEmojiData[] = [
       'scottish'
     ],
     sheet: [10, 33],
-    shortName: 'flag-scotland'
+    shortcode: 'flag-scotland'
   },
   {
     label: 'Wales Flag',
@@ -31950,6 +31950,6 @@ export const emojis: CompressedEmojiData[] = [
       'welsh'
     ],
     sheet: [10, 34],
-    shortName: 'flag-wales'
+    shortcode: 'flag-wales'
   }
 ];

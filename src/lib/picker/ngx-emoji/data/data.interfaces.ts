@@ -12,8 +12,8 @@ export interface EmojiCategory {
 export interface CompressedEmojiData {
   label: string;
   hexcode: string;
-  shortName?: string;
-  shortNames?: string[];
+  shortcode?: string;
+  shortcodes?: string[];
   sheet?: [number, number];
   tags?: string[];
   hidden?: string[];
@@ -28,8 +28,8 @@ export interface EmojiData {
   id: string;
   label: string;
   hexcode: string;
-  shortName: string;
-  shortNames: string[];
+  shortcode: string;
+  shortcodes: string[];
   sheet: [number, number];
   tags: string[];
   hidden: string[];
@@ -58,6 +58,6 @@ export interface EmojiVariation {
 export interface SkinData {
   name: string;
   unified: string;
-  shortName: string;
+  shortcode: string;
   sheet: [number, number];
 }

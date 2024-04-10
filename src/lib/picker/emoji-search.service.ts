@@ -30,7 +30,7 @@ export class EmojiSearch {
 
   addCustomToPool(custom: any, pool: any) {
     for (const emoji of custom) {
-      const emojiId = emoji.id || emoji.shortNames[0];
+      const emojiId = emoji.id || emoji.shortcodes[0];
 
       if (emojiId && !pool[emojiId]) {
         pool[emojiId] = this.emojiService.getData(emoji);
@@ -122,7 +122,7 @@ export class EmojiSearch {
                 if (!this.emojiSearch[id]) {
                   console.log(emoji);
                   this.emojiSearch[id] = this.buildSearch(
-                    emoji.short_names,
+                    emoji.shortcodes,
                     emoji.label,
                     emoji.id,
                     emoji.tags,

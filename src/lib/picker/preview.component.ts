@@ -35,9 +35,9 @@ import { SkinComponent } from './skins.component';
         <div class="emoji-mart-preview-shortname">
           <span
             class="emoji-mart-preview-shortname"
-            *ngFor="let short_name of emojiData.shortNames"
+            *ngFor="let shortcode of emojiData.shortcodes"
           >
-            :{{ short_name }}:
+            :{{ shortcode }}:
           </span>
         </div>
         <div class="emoji-mart-preview-emoticons">

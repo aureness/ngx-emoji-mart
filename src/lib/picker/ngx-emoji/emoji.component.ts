@@ -162,13 +162,13 @@ export class EmojiComponent implements OnChanges, Emoji, OnDestroy {
       return (this.isVisible = false);
     }
     if (this.tooltip) {
-      this.title = data.shortNames[0];
+      this.title = data.shortcodes[0];
     }
     if (data.obsoletedBy && this.hideObsolete) {
       return (this.isVisible = false);
     }
 
-    this.label = [data.native].concat(data.shortNames).filter(Boolean).join(', ');
+    this.label = [data.native].concat(data.shortcodes).filter(Boolean).join(', ');
 
     if (this.isNative && data.hexcode && data.native) {
       // hide older emoji before the split into gendered emoji

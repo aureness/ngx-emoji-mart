@@ -6,6 +6,8 @@ import { EmojiComponent, EmojiEvent } from '../lib/picker/ngx-emoji';
 import { PickerComponent } from '../lib/picker/picker.component';
 
 import ru from 'emojibase-data/ru/data.json';
+import shortcodes from 'emojibase-data/en/shortcodes/emojibase.json';
+import {joinShortcodes} from 'emojibase';
 
 const CUSTOM_EMOJIS = [
   {
@@ -35,7 +37,7 @@ const CUSTOM_EMOJIS = [
   imports: [CommonModule, PickerComponent, EmojiComponent],
 })
 export class AppComponent {
-  readonly ru = ru;
+  readonly ru = joinShortcodes(ru, [shortcodes]);
 
   themes = ['native', 'apple', 'google', 'twitter', 'facebook'];
   darkMode: undefined | boolean = !!(
