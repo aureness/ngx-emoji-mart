@@ -3,9 +3,10 @@ import { Emoji } from '../emoji.component';
 export interface EmojiCategory {
   id: string;
   name: string;
-  emojis: any[] | null;
+  emojis?: any[] | null;
   anchor?: boolean;
   first?: boolean;
+  group?: number,
 }
 
 export interface CompressedEmojiData {

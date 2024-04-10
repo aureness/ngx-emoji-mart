@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { CompressedEmojiData, EmojiData, EmojiVariation } from './data/data.interfaces';
+import { CompressedEmojiData, EmojiCategory, EmojiData, EmojiVariation } from './data/data.interfaces';
 import { emojis } from './data/emojis';
 import { Emoji } from './emoji.component';
 
@@ -16,7 +16,7 @@ export class EmojiService {
   uncompressed = false;
   names: { [key: string]: EmojiData } = {};
   emojis: EmojiData[] = [];
-  emojibase?: EmojibaseEmoji[];
+  emojibase: EmojibaseEmoji[] = [];
 
   constructor() {
     if (!this.uncompressed) {
@@ -187,5 +187,14 @@ export class EmojiService {
 
   getSanitizedData(emoji: string | EmojiData, skin?: Emoji['skin'], set?: Emoji['set']) {
     return this.sanitize(this.getData(emoji, skin, set));
+  }
+
+  populateCategories(categories: EmojiCategory[]) {
+    for (const category of categories) {
+      const list = this.emojibase.filter(emoji => emoji.group === category.group);
+      category.emojis = list.map(emoji => emoji.hexcode);
+    }
+
+    return categories;
   }
 }

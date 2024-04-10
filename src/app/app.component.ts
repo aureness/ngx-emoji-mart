@@ -5,7 +5,7 @@ import { environment } from '../environments/environment';
 import { EmojiComponent, EmojiEvent } from '../lib/picker/ngx-emoji';
 import { PickerComponent } from '../lib/picker/picker.component';
 
-import ru from 'emojibase-data/ru/compact.json';
+import ru from 'emojibase-data/ru/data.json';
 
 const CUSTOM_EMOJIS = [
   {

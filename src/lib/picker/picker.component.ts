@@ -178,7 +178,7 @@ export class PickerComponent implements OnInit, OnDestroy {
       this.emojiService.setEmojibase(this.emojibase);
     }
 
-    const allCategories = [...categories];
+    const allCategories = this.emojiService.populateCategories(categories);
 
     if (this.custom.length > 0) {
       this.CUSTOM_CATEGORY.emojis = this.custom.map(emoji => {
@@ -433,7 +433,7 @@ export class PickerComponent implements OnInit, OnDestroy {
     //       to any of these events.
 
     if (!emoji) {
-      if (this.SEARCH_CATEGORY.emojis !== null && this.SEARCH_CATEGORY.emojis.length) {
+      if (Array.isArray(this.SEARCH_CATEGORY.emojis) && this.SEARCH_CATEGORY.emojis.length) {
         emoji = this.SEARCH_CATEGORY.emojis[0];
         if (emoji) {
           dispatchInAngularContextIfObserved(this.emojiSelect, this.ngZone, { $event, emoji });
