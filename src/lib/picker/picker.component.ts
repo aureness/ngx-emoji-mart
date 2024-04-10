@@ -87,7 +87,7 @@ export class PickerComponent implements OnInit, OnDestroy {
   @Input() categories: EmojiCategory[] = [];
   /** used to temporarily draw categories */
   @Input() activeCategories: EmojiCategory[] = [];
-  @Input() set: Emoji['set'] = 'apple';
+  @Input() set: string = 'apple';
   @Input() skin: Emoji['skin'] = 1;
   /** Renders the native unicode emoji */
   @Input() isNative: Emoji['isNative'] = false;

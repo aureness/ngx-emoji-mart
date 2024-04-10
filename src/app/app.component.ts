@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { environment } from '../environments/environment';
 import { EmojiComponent, EmojiEvent } from '../lib/picker/ngx-emoji';
 import { PickerComponent } from '../lib/picker/picker.component';
-import { FooterComponent } from './footer.component';
 
 import ru from 'emojibase-data/ru/compact.json';
 
@@ -33,7 +32,7 @@ const CUSTOM_EMOJIS = [
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: true,
-  imports: [CommonModule, PickerComponent, EmojiComponent, FooterComponent],
+  imports: [CommonModule, PickerComponent, EmojiComponent],
 })
 export class AppComponent {
   readonly ru = ru;

@@ -1,8 +1,8 @@
 {
-  "name": "@ctrl/ngx-emoji-mart",
+  "name": "@aureness/ngx-emojibase-mart",
   "version": "0.0.0",
-  "homepage": "https://ngx-emoji-mart.vercel.app",
-  "repository": "scttcper/ngx-emoji-mart",
+  "homepage": "https://github.com/aureness/ngx-emojibase-mart",
+  "repository": "aureness/ngx-emojibase-mart",
   "license": "MIT",
   "description": "Customizable Slack-like emoji picker for Angular",
   "peerDependencies": {
@@ -17,7 +17,8 @@
   "keywords": [
     "angular",
     "emoji",
-    "picker"
+    "picker",
+    "emojibase"
   ],
   "publishConfig": {
     "access": "public",
@@ -25,7 +26,7 @@
   },
   "release": {
     "branches": [
-      "master"
+      "main"
     ]
   }
 }

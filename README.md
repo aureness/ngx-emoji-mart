@@ -1,37 +1,11 @@
 <img align="right" width="200" src="https://raw.githubusercontent.com/scttcper/ngx-emoji-mart/master/misc/preview.png" />
 
-# ngx-emoji-mart
+# ngx-emojibase-mart
 
-[![npm](https://badge.fury.io/js/%40ctrl%2Fngx-emoji-mart.svg)](https://www.npmjs.org/package/@ctrl/ngx-emoji-mart)
-[![codecov](https://img.shields.io/codecov/c/github/scttcper/ngx-emoji-mart.svg)](https://codecov.io/github/scttcper/ngx-emoji-mart)
+This project is a fork of [scttcper](https://github.com/aureness/ngx-emoji-mart#:~:text=forked%20from-,scttcper/ngx%2Demoji%2Dmart,-Pin)‘s port of [emoji-mart](https://github.com/missive/emoji-mart) by missive.
 
-**DEMO**: https://ngx-emoji-mart.vercel.app
+I have added support for the [emojibase](https://github.com/milesj/emojibase).
 
-This project is a port of [emoji-mart](https://github.com/missive/emoji-mart) by missive.
-
-## Installation
-
-```sh
-npm install @ctrl/ngx-emoji-mart
-# Or if you're using yarn
-yarn add @ctrl/ngx-emoji-mart
-# Or if you're using pnpm
-pnpm install @ctrl/ngx-emoji-mart
-```
-
-## Dependencies
-
-Latest version available for each version of Angular
-
-| @ctrl/ngx-emoji-mart | Angular   |
-| -------------------- | --------- |
-| 1.0.6                | 8.x       |
-| 3.1.0                | 9.x       |
-| 5.1.2                | 10.x 11.x |
-| 6.2.0                | 12.x 13.x |
-| 7.1.0                | 14.x      |
-| 8.2.0                | 15.x      |
-| current              | >=16.x    |
 
 ## Components
 

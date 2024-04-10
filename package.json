@@ -1,5 +1,5 @@
 {
-  "name": "@ctrl/ngx-emoji-mart",
+  "name": "@aureness/ngx-emojibase-mart",
   "version": "0.0.0-placeholder",
   "license": "MIT",
   "scripts": {
@@ -40,7 +40,6 @@
     "@angular/language-service": "16.0.5",
     "@angular/platform-browser": "16.0.5",
     "@angular/platform-browser-dynamic": "16.0.5",
-    "@ctrl/ngx-github-buttons": "9.0.0",
     "@types/inflection": "1.13.0",
     "@types/jasmine": "4.3.2",
     "@types/node": "20.2.5",
@@ -76,13 +75,13 @@
     "typescript": "5.0.4",
     "zone.js": "0.13.0"
   },
-  "repository": "scttcper/ngx-emoji-mart",
+  "repository": "aureness/ngx-emojibase-mart",
   "engines": {
     "node": ">= 14"
   },
   "release": {
     "branches": [
-      "master"
+      "main"
     ]
   }
 }
