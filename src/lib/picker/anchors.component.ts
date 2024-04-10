@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { EmojiCategory } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiCategory } from '@aureness/ngx-emojibase-mart-emoji';
 
 @Component({
   selector: 'emoji-mart-anchors',

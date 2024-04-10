@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { categories, EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { categories, EmojiData, EmojiService } from '@aureness/ngx-emojibase-mart-emoji';
 import { intersect } from './utils';
 
 @Injectable({ providedIn: 'root' })
@@ -16,17 +16,12 @@ export class EmojiSearch {
   emojiSearch: { [key: string]: string } = {};
 
   constructor(private emojiService: EmojiService) {
+    this.updatePool();
+  }
+
+  updatePool() {
     for (const emojiData of this.emojiService.emojis) {
-      const { shortNames, emoticons } = emojiData;
-      const id = shortNames[0];
-
-      for (const emoticon of emoticons) {
-        if (this.emoticonsList[emoticon]) {
-          continue;
-        }
-
-        this.emoticonsList[emoticon] = id;
-      }
+      const id = emojiData.hexcode;
 
       this.emojisList[id] = this.emojiService.getSanitizedData(id);
       this.originalPool[id] = emojiData;
@@ -125,11 +120,12 @@ export class EmojiSearch {
               for (const id of Object.keys(aPool)) {
                 const emoji = aPool[id];
                 if (!this.emojiSearch[id]) {
+                  console.log(emoji);
                   this.emojiSearch[id] = this.buildSearch(
                     emoji.short_names,
-                    emoji.name,
+                    emoji.label,
                     emoji.id,
-                    emoji.keywords,
+                    emoji.tags,
                     emoji.emoticons,
                   );
                 }

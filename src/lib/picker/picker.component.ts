@@ -19,12 +19,14 @@ import {
 } from '@angular/core';
 
 import {
-  categories,
   Emoji,
   EmojiCategory,
   EmojiData,
-  EmojiEvent, EmojiService,
-} from '@ctrl/ngx-emoji-mart/ngx-emoji';
+  EmojiService,
+  categories,
+  EmojiEvent,
+} from '@aureness/ngx-emojibase-mart-emoji';
+
 import { CategoryComponent } from './category.component';
 import { EmojiFrequentlyService } from './emoji-frequently.service';
 import { PreviewComponent } from './preview.component';

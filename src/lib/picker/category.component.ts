@@ -1,6 +1,3 @@
-import { Emoji, EmojiComponent } from './ngx-emoji/emoji.component'
-import { EmojiService } from './ngx-emoji/emoji.service';
-
 import {
   AfterViewInit,
   ChangeDetectionStrategy,
@@ -19,6 +16,7 @@ import { CommonModule } from '@angular/common';
 import { Observable, Subject } from 'rxjs';
 
 import { EmojiFrequentlyService } from './emoji-frequently.service';
+import { Emoji, EmojiComponent, EmojiService } from '@aureness/ngx-emojibase-mart-emoji';
 
 @Component({
   selector: 'emoji-category',
@@ -294,7 +292,7 @@ export class CategoryComponent implements OnChanges, OnInit, AfterViewInit {
         continue;
       }
       const data = this.emojiService.getData(emoji);
-      if (!data || (data.obsoletedBy && this.hideObsolete) || (!data.unified && !data.custom)) {
+      if (!data || (data.obsoletedBy && this.hideObsolete) || (!data.hexcode && !data.custom)) {
         continue;
       }
       newEmojis.push(emoji);

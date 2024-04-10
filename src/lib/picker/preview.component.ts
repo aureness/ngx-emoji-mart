@@ -1,4 +1,4 @@
-import { Emoji, EmojiComponent, EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji, EmojiComponent, EmojiData, EmojiService } from '@aureness/ngx-emojibase-mart-emoji';
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -31,7 +31,7 @@ import { SkinComponent } from './skins.component';
       </div>
 
       <div class="emoji-mart-preview-data">
-        <div class="emoji-mart-preview-name">{{ emojiData.name }}</div>
+        <div class="emoji-mart-preview-name">{{ emojiData.label }}</div>
         <div class="emoji-mart-preview-shortname">
           <span
             class="emoji-mart-preview-shortname"

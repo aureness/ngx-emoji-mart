@@ -1,10 +1,10 @@
 import { CompressedEmojiData } from './data.interfaces';
 export const emojis: CompressedEmojiData[] = [
   {
-    name: 'Grinning Face',
-    unified: '1F600',
+    label: 'Grinning Face',
+    hexcode: '1F600',
     text: ':D',
-    keywords: [
+    tags: [
       'grinning_face',
       'face',
       'smile',
@@ -17,11 +17,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'grinning'
   },
   {
-    name: 'Smiling Face with Open Mouth',
-    unified: '1F603',
+    label: 'Smiling Face with Open Mouth',
+    hexcode: '1F603',
     text: ':)',
     emoticons: ['=)', '=-)'],
-    keywords: [
+    tags: [
       'grinning_face_with_big_eyes',
       'face',
       'happy',
@@ -36,11 +36,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smiley'
   },
   {
-    name: 'Smiling Face with Open Mouth and Smiling Eyes',
-    unified: '1F604',
+    label: 'Smiling Face with Open Mouth and Smiling Eyes',
+    hexcode: '1F604',
     text: ':)',
     emoticons: ['C:', 'c:', ':D', ':-D'],
-    keywords: [
+    tags: [
       'grinning_face_with_smiling_eyes',
       'face',
       'happy',
@@ -57,9 +57,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smile'
   },
   {
-    name: 'Grinning Face with Smiling Eyes',
-    unified: '1F601',
-    keywords: [
+    label: 'Grinning Face with Smiling Eyes',
+    hexcode: '1F601',
+    tags: [
       'beaming_face_with_smiling_eyes',
       'face',
       'happy',
@@ -71,10 +71,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'grin'
   },
   {
-    name: 'Smiling Face with Open Mouth and Tightly-Closed Eyes',
-    unified: '1F606',
+    label: 'Smiling Face with Open Mouth and Tightly-Closed Eyes',
+    hexcode: '1F606',
     emoticons: [':>', ':->'],
-    keywords: [
+    tags: [
       'grinning_squinting_face',
       'happy',
       'joy',
@@ -91,9 +91,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'laughing'
   },
   {
-    name: 'Smiling Face with Open Mouth and Cold Sweat',
-    unified: '1F605',
-    keywords: [
+    label: 'Smiling Face with Open Mouth and Cold Sweat',
+    hexcode: '1F605',
+    tags: [
       'grinning_face_with_sweat',
       'face',
       'hot',
@@ -107,9 +107,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sweat_smile'
   },
   {
-    name: 'Rolling on the Floor Laughing',
-    unified: '1F923',
-    keywords: [
+    label: 'Rolling on the Floor Laughing',
+    hexcode: '1F923',
+    tags: [
       'rolling_on_the_floor_laughing',
       'face',
       'rolling',
@@ -123,9 +123,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rolling_on_the_floor_laughing'
   },
   {
-    name: 'Face with Tears of Joy',
-    unified: '1F602',
-    keywords: [
+    label: 'Face with Tears of Joy',
+    hexcode: '1F602',
+    tags: [
       'face_with_tears_of_joy',
       'face',
       'cry',
@@ -139,10 +139,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'joy'
   },
   {
-    name: 'Slightly Smiling Face',
-    unified: '1F642',
+    label: 'Slightly Smiling Face',
+    hexcode: '1F642',
     emoticons: [':)', '(:', ':-)'],
-    keywords: [
+    tags: [
       'slightly_smiling_face',
       'face',
       'smile'
@@ -151,9 +151,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'slightly_smiling_face'
   },
   {
-    name: 'Upside-Down Face',
-    unified: '1F643',
-    keywords: [
+    label: 'Upside-Down Face',
+    hexcode: '1F643',
+    tags: [
       'upside_down_face',
       'face',
       'flipped',
@@ -164,9 +164,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'upside_down_face'
   },
   {
-    name: 'Melting Face',
-    unified: '1FAE0',
-    keywords: [
+    label: 'Melting Face',
+    hexcode: '1FAE0',
+    tags: [
       'melting face',
       'hot',
       'heat'
@@ -176,11 +176,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'melting_face'
   },
   {
-    name: 'Winking Face',
-    unified: '1F609',
+    label: 'Winking Face',
+    hexcode: '1F609',
     text: ';)',
     emoticons: [';)', ';-)'],
-    keywords: [
+    tags: [
       'winking_face',
       'face',
       'happy',
@@ -194,10 +194,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wink'
   },
   {
-    name: 'Smiling Face with Smiling Eyes',
-    unified: '1F60A',
+    label: 'Smiling Face with Smiling Eyes',
+    hexcode: '1F60A',
     text: ':)',
-    keywords: [
+    tags: [
       'smiling_face_with_smiling_eyes',
       'face',
       'smile',
@@ -212,9 +212,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'blush'
   },
   {
-    name: 'Smiling Face with Halo',
-    unified: '1F607',
-    keywords: [
+    label: 'Smiling Face with Halo',
+    hexcode: '1F607',
+    tags: [
       'smiling_face_with_halo',
       'face',
       'angel',
@@ -226,9 +226,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'innocent'
   },
   {
-    name: 'Smiling Face with Smiling Eyes and Three Hearts',
-    unified: '1F970',
-    keywords: [
+    label: 'Smiling Face with Smiling Eyes and Three Hearts',
+    hexcode: '1F970',
+    tags: [
       'smiling_face_with_hearts',
       'face',
       'love',
@@ -244,9 +244,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smiling_face_with_3_hearts'
   },
   {
-    name: 'Smiling Face with Heart-Shaped Eyes',
-    unified: '1F60D',
-    keywords: [
+    label: 'Smiling Face with Heart-Shaped Eyes',
+    hexcode: '1F60D',
+    tags: [
       'smiling_face_with_heart_eyes',
       'face',
       'love',
@@ -261,9 +261,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heart_eyes'
   },
   {
-    name: 'Grinning Face with Star Eyes',
-    unified: '1F929',
-    keywords: [
+    label: 'Grinning Face with Star Eyes',
+    hexcode: '1F929',
+    tags: [
       'star_struck',
       'face',
       'smile',
@@ -278,10 +278,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'star-struck'
   },
   {
-    name: 'Face Throwing a Kiss',
-    unified: '1F618',
+    label: 'Face Throwing a Kiss',
+    hexcode: '1F618',
     emoticons: [':*', ':-*'],
-    keywords: [
+    tags: [
       'face_blowing_a_kiss',
       'face',
       'love',
@@ -295,9 +295,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kissing_heart'
   },
   {
-    name: 'Kissing Face',
-    unified: '1F617',
-    keywords: [
+    label: 'Kissing Face',
+    hexcode: '1F617',
+    tags: [
       'kissing_face',
       'love',
       'like',
@@ -311,9 +311,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kissing'
   },
   {
-    name: 'White Smiling Face',
-    unified: '263A-FE0F',
-    keywords: [
+    label: 'White Smiling Face',
+    hexcode: '263A-FE0F',
+    tags: [
       'smiling_face',
       'face',
       'blush',
@@ -324,9 +324,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'relaxed'
   },
   {
-    name: 'Kissing Face with Closed Eyes',
-    unified: '1F61A',
-    keywords: [
+    label: 'Kissing Face with Closed Eyes',
+    hexcode: '1F61A',
+    tags: [
       'kissing_face_with_closed_eyes',
       'face',
       'love',
@@ -340,9 +340,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kissing_closed_eyes'
   },
   {
-    name: 'Kissing Face with Smiling Eyes',
-    unified: '1F619',
-    keywords: [
+    label: 'Kissing Face with Smiling Eyes',
+    hexcode: '1F619',
+    tags: [
       'kissing_face_with_smiling_eyes',
       'face',
       'affection',
@@ -354,9 +354,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kissing_smiling_eyes'
   },
   {
-    name: 'Smiling Face with Tear',
-    unified: '1F972',
-    keywords: [
+    label: 'Smiling Face with Tear',
+    hexcode: '1F972',
+    tags: [
       'smiling face with tear',
       'sad',
       'cry',
@@ -366,9 +366,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smiling_face_with_tear'
   },
   {
-    name: 'Face Savouring Delicious Food',
-    unified: '1F60B',
-    keywords: [
+    label: 'Face Savouring Delicious Food',
+    hexcode: '1F60B',
+    tags: [
       'face_savoring_food',
       'happy',
       'joy',
@@ -385,8 +385,8 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'yum'
   },
   {
-    name: 'Face with Stuck-out Tongue',
-    unified: '1F61B',
+    label: 'Face with Stuck-out Tongue',
+    hexcode: '1F61B',
     text: ':p',
     emoticons: [
       ':p',
@@ -396,7 +396,7 @@ export const emojis: CompressedEmojiData[] = [
       ':b',
       ':-b'
     ],
-    keywords: [
+    tags: [
       'face_with_tongue',
       'face',
       'prank',
@@ -410,8 +410,8 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stuck_out_tongue'
   },
   {
-    name: 'Face with Stuck-out Tongue and Winking Eye',
-    unified: '1F61C',
+    label: 'Face with Stuck-out Tongue and Winking Eye',
+    hexcode: '1F61C',
     text: ';p',
     emoticons: [
       ';p',
@@ -421,7 +421,7 @@ export const emojis: CompressedEmojiData[] = [
       ';P',
       ';-P'
     ],
-    keywords: [
+    tags: [
       'winking_face_with_tongue',
       'face',
       'prank',
@@ -436,9 +436,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stuck_out_tongue_winking_eye'
   },
   {
-    name: 'Grinning Face with One Large and One Small Eye',
-    unified: '1F92A',
-    keywords: [
+    label: 'Grinning Face with One Large and One Small Eye',
+    hexcode: '1F92A',
+    tags: [
       'zany_face',
       'face',
       'goofy',
@@ -451,9 +451,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'zany_face'
   },
   {
-    name: 'Face with Stuck-out Tongue and Tightly-Closed Eyes',
-    unified: '1F61D',
-    keywords: [
+    label: 'Face with Stuck-out Tongue and Tightly-Closed Eyes',
+    hexcode: '1F61D',
+    tags: [
       'squinting_face_with_tongue',
       'face',
       'prank',
@@ -466,9 +466,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stuck_out_tongue_closed_eyes'
   },
   {
-    name: 'Money-Mouth Face',
-    unified: '1F911',
-    keywords: [
+    label: 'Money-Mouth Face',
+    hexcode: '1F911',
+    tags: [
       'money_mouth_face',
       'face',
       'rich',
@@ -479,9 +479,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'money_mouth_face'
   },
   {
-    name: 'Hugging Face',
-    unified: '1F917',
-    keywords: [
+    label: 'Hugging Face',
+    hexcode: '1F917',
+    tags: [
       'hugging_face',
       'face',
       'smile',
@@ -491,9 +491,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hugging_face'
   },
   {
-    name: 'Smiling Face with Smiling Eyes and Hand Covering Mouth',
-    unified: '1F92D',
-    keywords: [
+    label: 'Smiling Face with Smiling Eyes and Hand Covering Mouth',
+    hexcode: '1F92D',
+    tags: [
       'face_with_hand_over_mouth',
       'face',
       'whoops',
@@ -507,9 +507,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_hand_over_mouth'
   },
   {
-    name: 'Face with Open Eyes and Hand over Mouth',
-    unified: '1FAE2',
-    keywords: [
+    label: 'Face with Open Eyes and Hand over Mouth',
+    hexcode: '1FAE2',
+    tags: [
       'face with open eyes and hand over mouth',
       'silence',
       'secret',
@@ -521,9 +521,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_open_eyes_and_hand_over_mouth'
   },
   {
-    name: 'Face with Peeking Eye',
-    unified: '1FAE3',
-    keywords: [
+    label: 'Face with Peeking Eye',
+    hexcode: '1FAE3',
+    tags: [
       'face with peeking eye',
       'scared',
       'frightening',
@@ -535,9 +535,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_peeking_eye'
   },
   {
-    name: 'Face with Finger Covering Closed Lips',
-    unified: '1F92B',
-    keywords: [
+    label: 'Face with Finger Covering Closed Lips',
+    hexcode: '1F92B',
+    tags: [
       'shushing_face',
       'face',
       'quiet',
@@ -550,9 +550,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shushing_face'
   },
   {
-    name: 'Thinking Face',
-    unified: '1F914',
-    keywords: [
+    label: 'Thinking Face',
+    hexcode: '1F914',
+    tags: [
       'thinking_face',
       'face',
       'hmmm',
@@ -563,9 +563,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'thinking_face'
   },
   {
-    name: 'Saluting Face',
-    unified: '1FAE1',
-    keywords: [
+    label: 'Saluting Face',
+    hexcode: '1FAE1',
+    tags: [
       'saluting face',
       'respect',
       'salute'
@@ -575,9 +575,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'saluting_face'
   },
   {
-    name: 'Zipper-Mouth Face',
-    unified: '1F910',
-    keywords: [
+    label: 'Zipper-Mouth Face',
+    hexcode: '1F910',
+    tags: [
       'zipper_mouth_face',
       'face',
       'sealed',
@@ -588,9 +588,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'zipper_mouth_face'
   },
   {
-    name: 'Face with One Eyebrow Raised',
-    unified: '1F928',
-    keywords: [
+    label: 'Face with One Eyebrow Raised',
+    hexcode: '1F928',
+    tags: [
       'face_with_raised_eyebrow',
       'face',
       'distrust',
@@ -606,10 +606,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_raised_eyebrow'
   },
   {
-    name: 'Neutral Face',
-    unified: '1F610',
+    label: 'Neutral Face',
+    hexcode: '1F610',
     emoticons: [':|', ':-|'],
-    keywords: [
+    tags: [
       'neutral_face',
       'indifference',
       'meh',
@@ -620,9 +620,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'neutral_face'
   },
   {
-    name: 'Expressionless Face',
-    unified: '1F611',
-    keywords: [
+    label: 'Expressionless Face',
+    hexcode: '1F611',
+    tags: [
       'expressionless_face',
       'face',
       'indifferent',
@@ -634,9 +634,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'expressionless'
   },
   {
-    name: 'Face Without Mouth',
-    unified: '1F636',
-    keywords: [
+    label: 'Face Without Mouth',
+    hexcode: '1F636',
+    tags: [
       'face_without_mouth',
       'face',
       'hellokitty'
@@ -645,9 +645,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_mouth'
   },
   {
-    name: 'Dotted Line Face',
-    unified: '1FAE5',
-    keywords: [
+    label: 'Dotted Line Face',
+    hexcode: '1FAE5',
+    tags: [
       'dotted line face',
       'invisible',
       'lonely',
@@ -659,9 +659,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dotted_line_face'
   },
   {
-    name: 'Face in Clouds',
-    unified: '1F636-200D-1F32B-FE0F',
-    keywords: [
+    label: 'Face in Clouds',
+    hexcode: '1F636-200D-1F32B-FE0F',
+    tags: [
       'face in clouds',
       'shower',
       'steam',
@@ -672,9 +672,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_in_clouds'
   },
   {
-    name: 'Smirking Face',
-    unified: '1F60F',
-    keywords: [
+    label: 'Smirking Face',
+    hexcode: '1F60F',
+    tags: [
       'smirking_face',
       'face',
       'smile',
@@ -687,10 +687,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smirk'
   },
   {
-    name: 'Unamused Face',
-    unified: '1F612',
+    label: 'Unamused Face',
+    hexcode: '1F612',
     text: ':(',
-    keywords: [
+    tags: [
       'unamused_face',
       'indifference',
       'bored',
@@ -706,9 +706,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'unamused'
   },
   {
-    name: 'Face with Rolling Eyes',
-    unified: '1F644',
-    keywords: [
+    label: 'Face with Rolling Eyes',
+    hexcode: '1F644',
+    tags: [
       'face_with_rolling_eyes',
       'face',
       'eyeroll',
@@ -718,9 +718,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_rolling_eyes'
   },
   {
-    name: 'Grimacing Face',
-    unified: '1F62C',
-    keywords: [
+    label: 'Grimacing Face',
+    hexcode: '1F62C',
+    tags: [
       'grimacing_face',
       'face',
       'grimace',
@@ -730,9 +730,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'grimacing'
   },
   {
-    name: 'Face Exhaling',
-    unified: '1F62E-200D-1F4A8',
-    keywords: [
+    label: 'Face Exhaling',
+    hexcode: '1F62E-200D-1F4A8',
+    tags: [
       'face exhaling',
       'relieve',
       'relief',
@@ -744,9 +744,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_exhaling'
   },
   {
-    name: 'Lying Face',
-    unified: '1F925',
-    keywords: [
+    label: 'Lying Face',
+    hexcode: '1F925',
+    tags: [
       'lying_face',
       'face',
       'lie',
@@ -756,9 +756,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lying_face'
   },
   {
-    name: 'Relieved Face',
-    unified: '1F60C',
-    keywords: [
+    label: 'Relieved Face',
+    hexcode: '1F60C',
+    tags: [
       'relieved_face',
       'face',
       'relaxed',
@@ -770,9 +770,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'relieved'
   },
   {
-    name: 'Pensive Face',
-    unified: '1F614',
-    keywords: [
+    label: 'Pensive Face',
+    hexcode: '1F614',
+    tags: [
       'pensive_face',
       'face',
       'sad',
@@ -783,9 +783,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pensive'
   },
   {
-    name: 'Sleepy Face',
-    unified: '1F62A',
-    keywords: [
+    label: 'Sleepy Face',
+    hexcode: '1F62A',
+    tags: [
       'sleepy_face',
       'face',
       'tired',
@@ -796,16 +796,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sleepy'
   },
   {
-    name: 'Drooling Face',
-    unified: '1F924',
-    keywords: ['drooling_face', 'face'],
+    label: 'Drooling Face',
+    hexcode: '1F924',
+    tags: ['drooling_face', 'face'],
     sheet: [40, 16],
     shortName: 'drooling_face'
   },
   {
-    name: 'Sleeping Face',
-    unified: '1F634',
-    keywords: [
+    label: 'Sleeping Face',
+    hexcode: '1F634',
+    tags: [
       'sleeping_face',
       'face',
       'tired',
@@ -817,9 +817,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sleeping'
   },
   {
-    name: 'Face with Medical Mask',
-    unified: '1F637',
-    keywords: [
+    label: 'Face with Medical Mask',
+    hexcode: '1F637',
+    tags: [
       'face_with_medical_mask',
       'face',
       'sick',
@@ -831,9 +831,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mask'
   },
   {
-    name: 'Face with Thermometer',
-    unified: '1F912',
-    keywords: [
+    label: 'Face with Thermometer',
+    hexcode: '1F912',
+    tags: [
       'face_with_thermometer',
       'sick',
       'temperature',
@@ -846,9 +846,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_thermometer'
   },
   {
-    name: 'Face with Head-Bandage',
-    unified: '1F915',
-    keywords: [
+    label: 'Face with Head-Bandage',
+    hexcode: '1F915',
+    tags: [
       'face_with_head_bandage',
       'injured',
       'clumsy',
@@ -859,9 +859,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_head_bandage'
   },
   {
-    name: 'Nauseated Face',
-    unified: '1F922',
-    keywords: [
+    label: 'Nauseated Face',
+    hexcode: '1F922',
+    tags: [
       'nauseated_face',
       'face',
       'vomit',
@@ -875,9 +875,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nauseated_face'
   },
   {
-    name: 'Face with Open Mouth Vomiting',
-    unified: '1F92E',
-    keywords: [
+    label: 'Face with Open Mouth Vomiting',
+    hexcode: '1F92E',
+    tags: [
       'face_vomiting',
       'face',
       'sick'
@@ -889,9 +889,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_vomiting'
   },
   {
-    name: 'Sneezing Face',
-    unified: '1F927',
-    keywords: [
+    label: 'Sneezing Face',
+    hexcode: '1F927',
+    tags: [
       'sneezing_face',
       'face',
       'gesundheit',
@@ -903,9 +903,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sneezing_face'
   },
   {
-    name: 'Overheated Face',
-    unified: '1F975',
-    keywords: [
+    label: 'Overheated Face',
+    hexcode: '1F975',
+    tags: [
       'hot_face',
       'face',
       'feverish',
@@ -917,9 +917,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hot_face'
   },
   {
-    name: 'Freezing Face',
-    unified: '1F976',
-    keywords: [
+    label: 'Freezing Face',
+    hexcode: '1F976',
+    tags: [
       'cold_face',
       'face',
       'blue',
@@ -932,9 +932,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cold_face'
   },
   {
-    name: 'Face with Uneven Eyes and Wavy Mouth',
-    unified: '1F974',
-    keywords: [
+    label: 'Face with Uneven Eyes and Wavy Mouth',
+    hexcode: '1F974',
+    tags: [
       'woozy_face',
       'face',
       'dizzy',
@@ -946,9 +946,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woozy_face'
   },
   {
-    name: 'Dizzy Face',
-    unified: '1F635',
-    keywords: [
+    label: 'Dizzy Face',
+    hexcode: '1F635',
+    tags: [
       'dizzy_face',
       'spent',
       'unconscious',
@@ -959,9 +959,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dizzy_face'
   },
   {
-    name: 'Face with Spiral Eyes',
-    unified: '1F635-200D-1F4AB',
-    keywords: [
+    label: 'Face with Spiral Eyes',
+    hexcode: '1F635-200D-1F4AB',
+    tags: [
       'face with spiral eyes',
       'sick',
       'ill',
@@ -974,9 +974,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_spiral_eyes'
   },
   {
-    name: 'Shocked Face with Exploding Head',
-    unified: '1F92F',
-    keywords: [
+    label: 'Shocked Face with Exploding Head',
+    hexcode: '1F92F',
+    tags: [
       'exploding_head',
       'face',
       'shocked',
@@ -990,9 +990,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'exploding_head'
   },
   {
-    name: 'Face with Cowboy Hat',
-    unified: '1F920',
-    keywords: [
+    label: 'Face with Cowboy Hat',
+    hexcode: '1F920',
+    tags: [
       'cowboy_hat_face',
       'face',
       'cowgirl',
@@ -1002,9 +1002,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_cowboy_hat'
   },
   {
-    name: 'Face with Party Horn and Party Hat',
-    unified: '1F973',
-    keywords: [
+    label: 'Face with Party Horn and Party Hat',
+    hexcode: '1F973',
+    tags: [
       'partying_face',
       'face',
       'celebration',
@@ -1014,9 +1014,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'partying_face'
   },
   {
-    name: 'Disguised Face',
-    unified: '1F978',
-    keywords: [
+    label: 'Disguised Face',
+    hexcode: '1F978',
+    tags: [
       'disguised face',
       'pretent',
       'brows',
@@ -1027,10 +1027,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'disguised_face'
   },
   {
-    name: 'Smiling Face with Sunglasses',
-    unified: '1F60E',
+    label: 'Smiling Face with Sunglasses',
+    hexcode: '1F60E',
     emoticons: ['8)'],
-    keywords: [
+    tags: [
       'smiling_face_with_sunglasses',
       'face',
       'cool',
@@ -1043,9 +1043,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sunglasses'
   },
   {
-    name: 'Nerd Face',
-    unified: '1F913',
-    keywords: [
+    label: 'Nerd Face',
+    hexcode: '1F913',
+    tags: [
       'nerd_face',
       'face',
       'nerdy',
@@ -1056,9 +1056,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nerd_face'
   },
   {
-    name: 'Face with Monocle',
-    unified: '1F9D0',
-    keywords: [
+    label: 'Face with Monocle',
+    hexcode: '1F9D0',
+    tags: [
       'face_with_monocle',
       'face',
       'stuffy',
@@ -1068,15 +1068,15 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_monocle'
   },
   {
-    name: 'Confused Face',
-    unified: '1F615',
+    label: 'Confused Face',
+    hexcode: '1F615',
     emoticons: [
       ':\\\\',
       ':-\\\\',
       ':/',
       ':-/'
     ],
-    keywords: [
+    tags: [
       'confused_face',
       'face',
       'indifference',
@@ -1089,9 +1089,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'confused'
   },
   {
-    name: 'Face with Diagonal Mouth',
-    unified: '1FAE4',
-    keywords: [
+    label: 'Face with Diagonal Mouth',
+    hexcode: '1FAE4',
+    tags: [
       'face with diagonal mouth',
       'skeptic',
       'confuse',
@@ -1103,9 +1103,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_diagonal_mouth'
   },
   {
-    name: 'Worried Face',
-    unified: '1F61F',
-    keywords: [
+    label: 'Worried Face',
+    hexcode: '1F61F',
+    tags: [
       'worried_face',
       'face',
       'concern',
@@ -1116,9 +1116,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'worried'
   },
   {
-    name: 'Slightly Frowning Face',
-    unified: '1F641',
-    keywords: [
+    label: 'Slightly Frowning Face',
+    hexcode: '1F641',
+    tags: [
       'slightly_frowning_face',
       'face',
       'frowning',
@@ -1130,9 +1130,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'slightly_frowning_face'
   },
   {
-    name: 'Frowning Face',
-    unified: '2639-FE0F',
-    keywords: [
+    label: 'Frowning Face',
+    hexcode: '2639-FE0F',
+    tags: [
       'frowning_face',
       'face',
       'sad',
@@ -1143,15 +1143,15 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_frowning_face'
   },
   {
-    name: 'Face with Open Mouth',
-    unified: '1F62E',
+    label: 'Face with Open Mouth',
+    hexcode: '1F62E',
     emoticons: [
       ':o',
       ':-o',
       ':O',
       ':-O'
     ],
-    keywords: [
+    tags: [
       'face_with_open_mouth',
       'face',
       'surprise',
@@ -1164,9 +1164,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'open_mouth'
   },
   {
-    name: 'Hushed Face',
-    unified: '1F62F',
-    keywords: [
+    label: 'Hushed Face',
+    hexcode: '1F62F',
+    tags: [
       'hushed_face',
       'face',
       'woo',
@@ -1176,9 +1176,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hushed'
   },
   {
-    name: 'Astonished Face',
-    unified: '1F632',
-    keywords: [
+    label: 'Astonished Face',
+    hexcode: '1F632',
+    tags: [
       'astonished_face',
       'face',
       'xox',
@@ -1189,9 +1189,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'astonished'
   },
   {
-    name: 'Flushed Face',
-    unified: '1F633',
-    keywords: [
+    label: 'Flushed Face',
+    hexcode: '1F633',
+    tags: [
       'flushed_face',
       'face',
       'blush',
@@ -1202,9 +1202,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flushed'
   },
   {
-    name: 'Face with Pleading Eyes',
-    unified: '1F97A',
-    keywords: [
+    label: 'Face with Pleading Eyes',
+    hexcode: '1F97A',
+    tags: [
       'pleading_face',
       'face',
       'begging',
@@ -1218,9 +1218,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pleading_face'
   },
   {
-    name: 'Face Holding Back Tears',
-    unified: '1F979',
-    keywords: [
+    label: 'Face Holding Back Tears',
+    hexcode: '1F979',
+    tags: [
       'face holding back tears',
       'touched',
       'gratitude',
@@ -1231,9 +1231,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_holding_back_tears'
   },
   {
-    name: 'Frowning Face with Open Mouth',
-    unified: '1F626',
-    keywords: [
+    label: 'Frowning Face with Open Mouth',
+    hexcode: '1F626',
+    tags: [
       'frowning_face_with_open_mouth',
       'face',
       'aw',
@@ -1243,10 +1243,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'frowning'
   },
   {
-    name: 'Anguished Face',
-    unified: '1F627',
+    label: 'Anguished Face',
+    hexcode: '1F627',
     emoticons: ['D:'],
-    keywords: [
+    tags: [
       'anguished_face',
       'face',
       'stunned',
@@ -1256,9 +1256,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'anguished'
   },
   {
-    name: 'Fearful Face',
-    unified: '1F628',
-    keywords: [
+    label: 'Fearful Face',
+    hexcode: '1F628',
+    tags: [
       'fearful_face',
       'face',
       'scared',
@@ -1269,9 +1269,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fearful'
   },
   {
-    name: 'Face with Open Mouth and Cold Sweat',
-    unified: '1F630',
-    keywords: [
+    label: 'Face with Open Mouth and Cold Sweat',
+    hexcode: '1F630',
+    tags: [
       'anxious_face_with_sweat',
       'face',
       'nervous',
@@ -1281,9 +1281,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cold_sweat'
   },
   {
-    name: 'Disappointed but Relieved Face',
-    unified: '1F625',
-    keywords: [
+    label: 'Disappointed but Relieved Face',
+    hexcode: '1F625',
+    tags: [
       'sad_but_relieved_face',
       'face',
       'phew',
@@ -1294,11 +1294,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'disappointed_relieved'
   },
   {
-    name: 'Crying Face',
-    unified: '1F622',
+    label: 'Crying Face',
+    hexcode: '1F622',
     text: ':\'(',
     emoticons: [':\'('],
-    keywords: [
+    tags: [
       'crying_face',
       'face',
       'tears',
@@ -1311,10 +1311,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cry'
   },
   {
-    name: 'Loudly Crying Face',
-    unified: '1F62D',
+    label: 'Loudly Crying Face',
+    hexcode: '1F62D',
     text: ':\'(',
-    keywords: [
+    tags: [
       'loudly_crying_face',
       'face',
       'cry',
@@ -1327,9 +1327,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sob'
   },
   {
-    name: 'Face Screaming in Fear',
-    unified: '1F631',
-    keywords: [
+    label: 'Face Screaming in Fear',
+    hexcode: '1F631',
+    tags: [
       'face_screaming_in_fear',
       'face',
       'munch',
@@ -1340,9 +1340,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scream'
   },
   {
-    name: 'Confounded Face',
-    unified: '1F616',
-    keywords: [
+    label: 'Confounded Face',
+    hexcode: '1F616',
+    tags: [
       'confounded_face',
       'face',
       'confused',
@@ -1355,9 +1355,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'confounded'
   },
   {
-    name: 'Persevering Face',
-    unified: '1F623',
-    keywords: [
+    label: 'Persevering Face',
+    hexcode: '1F623',
+    tags: [
       'persevering_face',
       'face',
       'sick',
@@ -1369,11 +1369,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'persevere'
   },
   {
-    name: 'Disappointed Face',
-    unified: '1F61E',
+    label: 'Disappointed Face',
+    hexcode: '1F61E',
     text: ':(',
     emoticons: ['):', ':(', ':-('],
-    keywords: [
+    tags: [
       'disappointed_face',
       'face',
       'sad',
@@ -1385,9 +1385,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'disappointed'
   },
   {
-    name: 'Face with Cold Sweat',
-    unified: '1F613',
-    keywords: [
+    label: 'Face with Cold Sweat',
+    hexcode: '1F613',
+    tags: [
       'downcast_face_with_sweat',
       'face',
       'hot',
@@ -1399,9 +1399,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sweat'
   },
   {
-    name: 'Weary Face',
-    unified: '1F629',
-    keywords: [
+    label: 'Weary Face',
+    hexcode: '1F629',
+    tags: [
       'weary_face',
       'face',
       'tired',
@@ -1414,9 +1414,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'weary'
   },
   {
-    name: 'Tired Face',
-    unified: '1F62B',
-    keywords: [
+    label: 'Tired Face',
+    hexcode: '1F62B',
+    tags: [
       'tired_face',
       'sick',
       'whine',
@@ -1427,9 +1427,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tired_face'
   },
   {
-    name: 'Yawning Face',
-    unified: '1F971',
-    keywords: [
+    label: 'Yawning Face',
+    hexcode: '1F971',
+    tags: [
       'yawning_face',
       'tired',
       'sleepy'
@@ -1438,9 +1438,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'yawning_face'
   },
   {
-    name: 'Face with Look of Triumph',
-    unified: '1F624',
-    keywords: [
+    label: 'Face with Look of Triumph',
+    hexcode: '1F624',
+    tags: [
       'face_with_steam_from_nose',
       'face',
       'gas',
@@ -1452,9 +1452,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'triumph'
   },
   {
-    name: 'Pouting Face',
-    unified: '1F621',
-    keywords: [
+    label: 'Pouting Face',
+    hexcode: '1F621',
+    tags: [
       'pouting_face',
       'angry',
       'mad',
@@ -1465,10 +1465,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rage'
   },
   {
-    name: 'Angry Face',
-    unified: '1F620',
+    label: 'Angry Face',
+    hexcode: '1F620',
     emoticons: ['>:(', '>:-('],
-    keywords: [
+    tags: [
       'angry_face',
       'mad',
       'face',
@@ -1479,9 +1479,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'angry'
   },
   {
-    name: 'Serious Face with Symbols Covering Mouth',
-    unified: '1F92C',
-    keywords: [
+    label: 'Serious Face with Symbols Covering Mouth',
+    hexcode: '1F92C',
+    tags: [
       'face_with_symbols_on_mouth',
       'face',
       'swearing',
@@ -1497,9 +1497,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'face_with_symbols_on_mouth'
   },
   {
-    name: 'Smiling Face with Horns',
-    unified: '1F608',
-    keywords: [
+    label: 'Smiling Face with Horns',
+    hexcode: '1F608',
+    tags: [
       'smiling_face_with_horns',
       'devil',
       'horns'
@@ -1508,9 +1508,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smiling_imp'
   },
   {
-    name: 'Imp',
-    unified: '1F47F',
-    keywords: [
+    label: 'Imp',
+    hexcode: '1F47F',
+    tags: [
       'angry_face_with_horns',
       'devil',
       'angry',
@@ -1520,9 +1520,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'imp'
   },
   {
-    name: 'Skull',
-    unified: '1F480',
-    keywords: [
+    label: 'Skull',
+    hexcode: '1F480',
+    tags: [
       'skull',
       'dead',
       'skeleton',
@@ -1533,9 +1533,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'skull'
   },
   {
-    name: 'Skull and Crossbones',
-    unified: '2620-FE0F',
-    keywords: [
+    label: 'Skull and Crossbones',
+    hexcode: '2620-FE0F',
+    tags: [
       'skull_and_crossbones',
       'poison',
       'danger',
@@ -1549,9 +1549,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'skull_and_crossbones'
   },
   {
-    name: 'Pile of Poo',
-    unified: '1F4A9',
-    keywords: [
+    label: 'Pile of Poo',
+    hexcode: '1F4A9',
+    tags: [
       'pile_of_poo',
       'hankey',
       'shitface',
@@ -1564,16 +1564,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hankey'
   },
   {
-    name: 'Clown Face',
-    unified: '1F921',
-    keywords: ['clown_face', 'face'],
+    label: 'Clown Face',
+    hexcode: '1F921',
+    tags: ['clown_face', 'face'],
     sheet: [40, 13],
     shortName: 'clown_face'
   },
   {
-    name: 'Japanese Ogre',
-    unified: '1F479',
-    keywords: [
+    label: 'Japanese Ogre',
+    hexcode: '1F479',
+    tags: [
       'ogre',
       'monster',
       'red',
@@ -1590,9 +1590,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'japanese_ogre'
   },
   {
-    name: 'Japanese Goblin',
-    unified: '1F47A',
-    keywords: [
+    label: 'Japanese Goblin',
+    hexcode: '1F47A',
+    tags: [
       'goblin',
       'red',
       'evil',
@@ -1607,9 +1607,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'japanese_goblin'
   },
   {
-    name: 'Ghost',
-    unified: '1F47B',
-    keywords: [
+    label: 'Ghost',
+    hexcode: '1F47B',
+    tags: [
       'ghost',
       'halloween',
       'spooky',
@@ -1619,9 +1619,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ghost'
   },
   {
-    name: 'Extraterrestrial Alien',
-    unified: '1F47D',
-    keywords: [
+    label: 'Extraterrestrial Alien',
+    hexcode: '1F47D',
+    tags: [
       'alien',
       'UFO',
       'paul',
@@ -1632,9 +1632,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'alien'
   },
   {
-    name: 'Alien Monster',
-    unified: '1F47E',
-    keywords: [
+    label: 'Alien Monster',
+    hexcode: '1F47E',
+    tags: [
       'alien_monster',
       'game',
       'arcade',
@@ -1644,9 +1644,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'space_invader'
   },
   {
-    name: 'Robot Face',
-    unified: '1F916',
-    keywords: [
+    label: 'Robot Face',
+    hexcode: '1F916',
+    tags: [
       'robot',
       'computer',
       'machine',
@@ -1656,9 +1656,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'robot_face'
   },
   {
-    name: 'Smiling Cat Face with Open Mouth',
-    unified: '1F63A',
-    keywords: [
+    label: 'Smiling Cat Face with Open Mouth',
+    hexcode: '1F63A',
+    tags: [
       'grinning_cat',
       'animal',
       'cats',
@@ -1669,9 +1669,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smiley_cat'
   },
   {
-    name: 'Grinning Cat Face with Smiling Eyes',
-    unified: '1F638',
-    keywords: [
+    label: 'Grinning Cat Face with Smiling Eyes',
+    hexcode: '1F638',
+    tags: [
       'grinning_cat_with_smiling_eyes',
       'animal',
       'cats',
@@ -1681,9 +1681,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smile_cat'
   },
   {
-    name: 'Cat Face with Tears of Joy',
-    unified: '1F639',
-    keywords: [
+    label: 'Cat Face with Tears of Joy',
+    hexcode: '1F639',
+    tags: [
       'cat_with_tears_of_joy',
       'animal',
       'cats',
@@ -1695,9 +1695,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'joy_cat'
   },
   {
-    name: 'Smiling Cat Face with Heart-Shaped Eyes',
-    unified: '1F63B',
-    keywords: [
+    label: 'Smiling Cat Face with Heart-Shaped Eyes',
+    hexcode: '1F63B',
+    tags: [
       'smiling_cat_with_heart_eyes',
       'animal',
       'love',
@@ -1711,9 +1711,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heart_eyes_cat'
   },
   {
-    name: 'Cat Face with Wry Smile',
-    unified: '1F63C',
-    keywords: [
+    label: 'Cat Face with Wry Smile',
+    hexcode: '1F63C',
+    tags: [
       'cat_with_wry_smile',
       'animal',
       'cats',
@@ -1723,9 +1723,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smirk_cat'
   },
   {
-    name: 'Kissing Cat Face with Closed Eyes',
-    unified: '1F63D',
-    keywords: [
+    label: 'Kissing Cat Face with Closed Eyes',
+    hexcode: '1F63D',
+    tags: [
       'kissing_cat',
       'animal',
       'cats',
@@ -1735,9 +1735,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kissing_cat'
   },
   {
-    name: 'Weary Cat Face',
-    unified: '1F640',
-    keywords: [
+    label: 'Weary Cat Face',
+    hexcode: '1F640',
+    tags: [
       'weary_cat',
       'animal',
       'cats',
@@ -1749,9 +1749,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scream_cat'
   },
   {
-    name: 'Crying Cat Face',
-    unified: '1F63F',
-    keywords: [
+    label: 'Crying Cat Face',
+    hexcode: '1F63F',
+    tags: [
       'crying_cat',
       'animal',
       'tears',
@@ -1765,9 +1765,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crying_cat_face'
   },
   {
-    name: 'Pouting Cat Face',
-    unified: '1F63E',
-    keywords: [
+    label: 'Pouting Cat Face',
+    hexcode: '1F63E',
+    tags: [
       'pouting_cat',
       'animal',
       'cats'
@@ -1776,9 +1776,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pouting_cat'
   },
   {
-    name: 'See-No-Evil Monkey',
-    unified: '1F648',
-    keywords: [
+    label: 'See-No-Evil Monkey',
+    hexcode: '1F648',
+    tags: [
       'see_no_evil_monkey',
       'monkey',
       'animal',
@@ -1789,9 +1789,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'see_no_evil'
   },
   {
-    name: 'Hear-No-Evil Monkey',
-    unified: '1F649',
-    keywords: [
+    label: 'Hear-No-Evil Monkey',
+    hexcode: '1F649',
+    tags: [
       'hear_no_evil_monkey',
       'animal',
       'monkey',
@@ -1801,9 +1801,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hear_no_evil'
   },
   {
-    name: 'Speak-No-Evil Monkey',
-    unified: '1F64A',
-    keywords: [
+    label: 'Speak-No-Evil Monkey',
+    hexcode: '1F64A',
+    tags: [
       'speak_no_evil_monkey',
       'monkey',
       'animal',
@@ -1814,9 +1814,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'speak_no_evil'
   },
   {
-    name: 'Kiss Mark',
-    unified: '1F48B',
-    keywords: [
+    label: 'Kiss Mark',
+    hexcode: '1F48B',
+    tags: [
       'kiss_mark',
       'face',
       'lips',
@@ -1829,9 +1829,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kiss'
   },
   {
-    name: 'Love Letter',
-    unified: '1F48C',
-    keywords: [
+    label: 'Love Letter',
+    hexcode: '1F48C',
+    tags: [
       'love_letter',
       'email',
       'like',
@@ -1843,9 +1843,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'love_letter'
   },
   {
-    name: 'Heart with Arrow',
-    unified: '1F498',
-    keywords: [
+    label: 'Heart with Arrow',
+    hexcode: '1F498',
+    tags: [
       'heart_with_arrow',
       'love',
       'like',
@@ -1857,9 +1857,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cupid'
   },
   {
-    name: 'Heart with Ribbon',
-    unified: '1F49D',
-    keywords: [
+    label: 'Heart with Ribbon',
+    hexcode: '1F49D',
+    tags: [
       'heart_with_ribbon',
       'love',
       'valentines'
@@ -1868,9 +1868,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gift_heart'
   },
   {
-    name: 'Sparkling Heart',
-    unified: '1F496',
-    keywords: [
+    label: 'Sparkling Heart',
+    hexcode: '1F496',
+    tags: [
       'sparkling_heart',
       'love',
       'like',
@@ -1881,9 +1881,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sparkling_heart'
   },
   {
-    name: 'Growing Heart',
-    unified: '1F497',
-    keywords: [
+    label: 'Growing Heart',
+    hexcode: '1F497',
+    tags: [
       'growing_heart',
       'like',
       'love',
@@ -1895,9 +1895,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heartpulse'
   },
   {
-    name: 'Beating Heart',
-    unified: '1F493',
-    keywords: [
+    label: 'Beating Heart',
+    hexcode: '1F493',
+    tags: [
       'beating_heart',
       'love',
       'like',
@@ -1910,9 +1910,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heartbeat'
   },
   {
-    name: 'Revolving Hearts',
-    unified: '1F49E',
-    keywords: [
+    label: 'Revolving Hearts',
+    hexcode: '1F49E',
+    tags: [
       'revolving_hearts',
       'love',
       'like',
@@ -1923,9 +1923,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'revolving_hearts'
   },
   {
-    name: 'Two Hearts',
-    unified: '1F495',
-    keywords: [
+    label: 'Two Hearts',
+    hexcode: '1F495',
+    tags: [
       'two_hearts',
       'love',
       'like',
@@ -1937,9 +1937,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'two_hearts'
   },
   {
-    name: 'Heart Decoration',
-    unified: '1F49F',
-    keywords: [
+    label: 'Heart Decoration',
+    hexcode: '1F49F',
+    tags: [
       'heart_decoration',
       'purple-square',
       'love',
@@ -1949,9 +1949,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heart_decoration'
   },
   {
-    name: 'Heart Exclamation',
-    unified: '2763-FE0F',
-    keywords: [
+    label: 'Heart Exclamation',
+    hexcode: '2763-FE0F',
+    tags: [
       'heart_exclamation',
       'decoration',
       'love'
@@ -1960,11 +1960,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_heart_exclamation_mark_ornament'
   },
   {
-    name: 'Broken Heart',
-    unified: '1F494',
+    label: 'Broken Heart',
+    hexcode: '1F494',
     text: '</3',
     emoticons: ['</3'],
-    keywords: [
+    tags: [
       'broken_heart',
       'sad',
       'sorry',
@@ -1976,9 +1976,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'broken_heart'
   },
   {
-    name: 'Heart on Fire',
-    unified: '2764-FE0F-200D-1F525',
-    keywords: [
+    label: 'Heart on Fire',
+    hexcode: '2764-FE0F-200D-1F525',
+    tags: [
       'heart on fire',
       'passionate',
       'enthusiastic'
@@ -1988,9 +1988,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heart_on_fire'
   },
   {
-    name: 'Mending Heart',
-    unified: '2764-FE0F-200D-1FA79',
-    keywords: [
+    label: 'Mending Heart',
+    hexcode: '2764-FE0F-200D-1FA79',
+    tags: [
       'mending heart',
       'broken heart',
       'bandage',
@@ -2001,11 +2001,11 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mending_heart'
   },
   {
-    name: 'Heavy Black Heart',
-    unified: '2764-FE0F',
+    label: 'Heavy Black Heart',
+    hexcode: '2764-FE0F',
     text: '<3',
     emoticons: ['<3'],
-    keywords: [
+    tags: [
       'red_heart',
       'love',
       'like',
@@ -2015,9 +2015,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heart'
   },
   {
-    name: 'Orange Heart',
-    unified: '1F9E1',
-    keywords: [
+    label: 'Orange Heart',
+    hexcode: '1F9E1',
+    tags: [
       'orange_heart',
       'love',
       'like',
@@ -2028,10 +2028,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'orange_heart'
   },
   {
-    name: 'Yellow Heart',
-    unified: '1F49B',
+    label: 'Yellow Heart',
+    hexcode: '1F49B',
     text: '<3',
-    keywords: [
+    tags: [
       'yellow_heart',
       'love',
       'like',
@@ -2042,10 +2042,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'yellow_heart'
   },
   {
-    name: 'Green Heart',
-    unified: '1F49A',
+    label: 'Green Heart',
+    hexcode: '1F49A',
     text: '<3',
-    keywords: [
+    tags: [
       'green_heart',
       'love',
       'like',
@@ -2056,10 +2056,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'green_heart'
   },
   {
-    name: 'Blue Heart',
-    unified: '1F499',
+    label: 'Blue Heart',
+    hexcode: '1F499',
     text: '<3',
-    keywords: [
+    tags: [
       'blue_heart',
       'love',
       'like',
@@ -2070,10 +2070,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'blue_heart'
   },
   {
-    name: 'Purple Heart',
-    unified: '1F49C',
+    label: 'Purple Heart',
+    hexcode: '1F49C',
     text: '<3',
-    keywords: [
+    tags: [
       'purple_heart',
       'love',
       'like',
@@ -2084,30 +2084,30 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'purple_heart'
   },
   {
-    name: 'Brown Heart',
-    unified: '1F90E',
-    keywords: ['brown_heart', 'coffee'],
+    label: 'Brown Heart',
+    hexcode: '1F90E',
+    tags: ['brown_heart', 'coffee'],
     sheet: [38, 51],
     shortName: 'brown_heart'
   },
   {
-    name: 'Black Heart',
-    unified: '1F5A4',
-    keywords: ['black_heart', 'evil'],
+    label: 'Black Heart',
+    hexcode: '1F5A4',
+    tags: ['black_heart', 'evil'],
     sheet: [31, 55],
     shortName: 'black_heart'
   },
   {
-    name: 'White Heart',
-    unified: '1F90D',
-    keywords: ['white_heart', 'pure'],
+    label: 'White Heart',
+    hexcode: '1F90D',
+    tags: ['white_heart', 'pure'],
     sheet: [38, 50],
     shortName: 'white_heart'
   },
   {
-    name: 'Hundred Points Symbol',
-    unified: '1F4AF',
-    keywords: [
+    label: 'Hundred Points Symbol',
+    hexcode: '1F4AF',
+    tags: [
       'hundred_points',
       'score',
       'perfect',
@@ -2123,9 +2123,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: '100'
   },
   {
-    name: 'Anger Symbol',
-    unified: '1F4A2',
-    keywords: [
+    label: 'Anger Symbol',
+    hexcode: '1F4A2',
+    tags: [
       'anger_symbol',
       'angry',
       'mad'
@@ -2134,9 +2134,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'anger'
   },
   {
-    name: 'Collision Symbol',
-    unified: '1F4A5',
-    keywords: [
+    label: 'Collision Symbol',
+    hexcode: '1F4A5',
+    tags: [
       'collision',
       'bomb',
       'explode',
@@ -2149,9 +2149,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'boom'
   },
   {
-    name: 'Dizzy Symbol',
-    unified: '1F4AB',
-    keywords: [
+    label: 'Dizzy Symbol',
+    hexcode: '1F4AB',
+    tags: [
       'dizzy',
       'star',
       'sparkle',
@@ -2162,9 +2162,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dizzy'
   },
   {
-    name: 'Splashing Sweat Symbol',
-    unified: '1F4A6',
-    keywords: [
+    label: 'Splashing Sweat Symbol',
+    hexcode: '1F4A6',
+    tags: [
       'sweat_droplets',
       'water',
       'drip',
@@ -2174,9 +2174,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sweat_drops'
   },
   {
-    name: 'Dash Symbol',
-    unified: '1F4A8',
-    keywords: [
+    label: 'Dash Symbol',
+    hexcode: '1F4A8',
+    tags: [
       'dashing_away',
       'wind',
       'air',
@@ -2190,16 +2190,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dash'
   },
   {
-    name: 'Hole',
-    unified: '1F573-FE0F',
-    keywords: ['hole', 'embarrassing'],
+    label: 'Hole',
+    hexcode: '1F573-FE0F',
+    tags: ['hole', 'embarrassing'],
     sheet: [30, 58],
     shortName: 'hole'
   },
   {
-    name: 'Bomb',
-    unified: '1F4A3',
-    keywords: [
+    label: 'Bomb',
+    hexcode: '1F4A3',
+    tags: [
       'bomb',
       'boom',
       'explode',
@@ -2210,9 +2210,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bomb'
   },
   {
-    name: 'Speech Balloon',
-    unified: '1F4AC',
-    keywords: [
+    label: 'Speech Balloon',
+    hexcode: '1F4AC',
+    tags: [
       'speech_balloon',
       'bubble',
       'words',
@@ -2224,9 +2224,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'speech_balloon'
   },
   {
-    name: 'Eye in Speech Bubble',
-    unified: '1F441-FE0F-200D-1F5E8-FE0F',
-    keywords: [
+    label: 'Eye in Speech Bubble',
+    hexcode: '1F441-FE0F-200D-1F5E8-FE0F',
+    tags: [
       'eye_in_speech_bubble',
       'info'
     ],
@@ -2235,9 +2235,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eye-in-speech-bubble'
   },
   {
-    name: 'Left Speech Bubble',
-    unified: '1F5E8-FE0F',
-    keywords: [
+    label: 'Left Speech Bubble',
+    hexcode: '1F5E8-FE0F',
+    tags: [
       'left_speech_bubble',
       'words',
       'message',
@@ -2248,9 +2248,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'left_speech_bubble'
   },
   {
-    name: 'Right Anger Bubble',
-    unified: '1F5EF-FE0F',
-    keywords: [
+    label: 'Right Anger Bubble',
+    hexcode: '1F5EF-FE0F',
+    tags: [
       'right_anger_bubble',
       'caption',
       'speech',
@@ -2261,9 +2261,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'right_anger_bubble'
   },
   {
-    name: 'Thought Balloon',
-    unified: '1F4AD',
-    keywords: [
+    label: 'Thought Balloon',
+    hexcode: '1F4AD',
+    tags: [
       'thought_balloon',
       'bubble',
       'cloud',
@@ -2275,9 +2275,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'thought_balloon'
   },
   {
-    name: 'Sleeping Symbol',
-    unified: '1F4A4',
-    keywords: [
+    label: 'Sleeping Symbol',
+    hexcode: '1F4A4',
+    tags: [
       'zzz',
       'sleepy',
       'tired',
@@ -2287,9 +2287,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'zzz'
   },
   {
-    name: 'Waving Hand Sign',
-    unified: '1F44B',
-    keywords: [
+    label: 'Waving Hand Sign',
+    hexcode: '1F44B',
+    tags: [
       'waving_hand',
       'hands',
       'gesture',
@@ -2301,102 +2301,102 @@ export const emojis: CompressedEmojiData[] = [
       'palm'
     ],
     sheet: [12, 38],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F44B-1F3FB',
+        hexcode: '1F44B-1F3FB',
         sheet: [12, 39]
       },
       {
-        unified: '1F44B-1F3FC',
+        hexcode: '1F44B-1F3FC',
         sheet: [12, 40]
       },
       {
-        unified: '1F44B-1F3FD',
+        hexcode: '1F44B-1F3FD',
         sheet: [12, 41]
       },
       {
-        unified: '1F44B-1F3FE',
+        hexcode: '1F44B-1F3FE',
         sheet: [12, 42]
       },
       {
-        unified: '1F44B-1F3FF',
+        hexcode: '1F44B-1F3FF',
         sheet: [12, 43]
       }
     ],
     shortName: 'wave'
   },
   {
-    name: 'Raised Back of Hand',
-    unified: '1F91A',
-    keywords: [
+    label: 'Raised Back of Hand',
+    hexcode: '1F91A',
+    tags: [
       'raised_back_of_hand',
       'fingers',
       'raised',
       'backhand'
     ],
     sheet: [39, 17],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F91A-1F3FB',
+        hexcode: '1F91A-1F3FB',
         sheet: [39, 18]
       },
       {
-        unified: '1F91A-1F3FC',
+        hexcode: '1F91A-1F3FC',
         sheet: [39, 19]
       },
       {
-        unified: '1F91A-1F3FD',
+        hexcode: '1F91A-1F3FD',
         sheet: [39, 20]
       },
       {
-        unified: '1F91A-1F3FE',
+        hexcode: '1F91A-1F3FE',
         sheet: [39, 21]
       },
       {
-        unified: '1F91A-1F3FF',
+        hexcode: '1F91A-1F3FF',
         sheet: [39, 22]
       }
     ],
     shortName: 'raised_back_of_hand'
   },
   {
-    name: 'Hand with Fingers Splayed',
-    unified: '1F590-FE0F',
-    keywords: [
+    label: 'Hand with Fingers Splayed',
+    hexcode: '1F590-FE0F',
+    tags: [
       'hand_with_fingers_splayed',
       'hand',
       'fingers',
       'palm'
     ],
     sheet: [31, 37],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F590-1F3FB',
+        hexcode: '1F590-1F3FB',
         sheet: [31, 38]
       },
       {
-        unified: '1F590-1F3FC',
+        hexcode: '1F590-1F3FC',
         sheet: [31, 39]
       },
       {
-        unified: '1F590-1F3FD',
+        hexcode: '1F590-1F3FD',
         sheet: [31, 40]
       },
       {
-        unified: '1F590-1F3FE',
+        hexcode: '1F590-1F3FE',
         sheet: [31, 41]
       },
       {
-        unified: '1F590-1F3FF',
+        hexcode: '1F590-1F3FF',
         sheet: [31, 42]
       }
     ],
     shortName: 'raised_hand_with_fingers_splayed'
   },
   {
-    name: 'Raised Hand',
-    unified: '270B',
-    keywords: [
+    label: 'Raised Hand',
+    hexcode: '270B',
+    tags: [
       'raised_hand',
       'fingers',
       'stop',
@@ -2405,25 +2405,25 @@ export const emojis: CompressedEmojiData[] = [
       'ban'
     ],
     sheet: [58, 33],
-    skinVariations: [
+    skins: [
       {
-        unified: '270B-1F3FB',
+        hexcode: '270B-1F3FB',
         sheet: [58, 34]
       },
       {
-        unified: '270B-1F3FC',
+        hexcode: '270B-1F3FC',
         sheet: [58, 35]
       },
       {
-        unified: '270B-1F3FD',
+        hexcode: '270B-1F3FD',
         sheet: [58, 36]
       },
       {
-        unified: '270B-1F3FE',
+        hexcode: '270B-1F3FE',
         sheet: [58, 37]
       },
       {
-        unified: '270B-1F3FF',
+        hexcode: '270B-1F3FF',
         sheet: [58, 38]
       }
     ],
@@ -2431,9 +2431,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hand'
   },
   {
-    name: 'Raised Hand with Part Between Middle and Ring Fingers',
-    unified: '1F596',
-    keywords: [
+    label: 'Raised Hand with Part Between Middle and Ring Fingers',
+    hexcode: '1F596',
+    tags: [
       'vulcan_salute',
       'hand',
       'fingers',
@@ -2441,63 +2441,63 @@ export const emojis: CompressedEmojiData[] = [
       'star trek'
     ],
     sheet: [31, 49],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F596-1F3FB',
+        hexcode: '1F596-1F3FB',
         sheet: [31, 50]
       },
       {
-        unified: '1F596-1F3FC',
+        hexcode: '1F596-1F3FC',
         sheet: [31, 51]
       },
       {
-        unified: '1F596-1F3FD',
+        hexcode: '1F596-1F3FD',
         sheet: [31, 52]
       },
       {
-        unified: '1F596-1F3FE',
+        hexcode: '1F596-1F3FE',
         sheet: [31, 53]
       },
       {
-        unified: '1F596-1F3FF',
+        hexcode: '1F596-1F3FF',
         sheet: [31, 54]
       }
     ],
     shortName: 'spock-hand'
   },
   {
-    name: 'Rightwards Hand',
-    unified: '1FAF1',
-    keywords: [
+    label: 'Rightwards Hand',
+    hexcode: '1FAF1',
+    tags: [
       'rightwards hand',
       'palm',
       'offer'
     ],
     sheet: [55, 26],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF1-1F3FB',
+        hexcode: '1FAF1-1F3FB',
         sheet: [55, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FC',
+        hexcode: '1FAF1-1F3FC',
         sheet: [55, 28],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FD',
+        hexcode: '1FAF1-1F3FD',
         sheet: [55, 29],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FE',
+        hexcode: '1FAF1-1F3FE',
         sheet: [55, 30],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FF',
+        hexcode: '1FAF1-1F3FF',
         sheet: [55, 31],
         hidden: ['facebook']
       }
@@ -2505,38 +2505,38 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rightwards_hand'
   },
   {
-    name: 'Leftwards Hand',
-    unified: '1FAF2',
-    keywords: [
+    label: 'Leftwards Hand',
+    hexcode: '1FAF2',
+    tags: [
       'leftwards hand',
       'palm',
       'offer'
     ],
     sheet: [55, 32],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF2-1F3FB',
+        hexcode: '1FAF2-1F3FB',
         sheet: [55, 33],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF2-1F3FC',
+        hexcode: '1FAF2-1F3FC',
         sheet: [55, 34],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF2-1F3FD',
+        hexcode: '1FAF2-1F3FD',
         sheet: [55, 35],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF2-1F3FE',
+        hexcode: '1FAF2-1F3FE',
         sheet: [55, 36],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF2-1F3FF',
+        hexcode: '1FAF2-1F3FF',
         sheet: [55, 37],
         hidden: ['facebook']
       }
@@ -2544,38 +2544,38 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'leftwards_hand'
   },
   {
-    name: 'Palm Down Hand',
-    unified: '1FAF3',
-    keywords: [
+    label: 'Palm Down Hand',
+    hexcode: '1FAF3',
+    tags: [
       'palm down hand',
       'palm',
       'drop'
     ],
     sheet: [55, 38],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF3-1F3FB',
+        hexcode: '1FAF3-1F3FB',
         sheet: [55, 39],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF3-1F3FC',
+        hexcode: '1FAF3-1F3FC',
         sheet: [55, 40],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF3-1F3FD',
+        hexcode: '1FAF3-1F3FD',
         sheet: [55, 41],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF3-1F3FE',
+        hexcode: '1FAF3-1F3FE',
         sheet: [55, 42],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF3-1F3FF',
+        hexcode: '1FAF3-1F3FF',
         sheet: [55, 43],
         hidden: ['facebook']
       }
@@ -2583,9 +2583,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'palm_down_hand'
   },
   {
-    name: 'Palm Up Hand',
-    unified: '1FAF4',
-    keywords: [
+    label: 'Palm Up Hand',
+    hexcode: '1FAF4',
+    tags: [
       'palm up hand',
       'lift',
       'offer',
@@ -2593,29 +2593,29 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 44],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF4-1F3FB',
+        hexcode: '1FAF4-1F3FB',
         sheet: [55, 45],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF4-1F3FC',
+        hexcode: '1FAF4-1F3FC',
         sheet: [55, 46],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF4-1F3FD',
+        hexcode: '1FAF4-1F3FD',
         sheet: [55, 47],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF4-1F3FE',
+        hexcode: '1FAF4-1F3FE',
         sheet: [55, 48],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF4-1F3FF',
+        hexcode: '1FAF4-1F3FF',
         sheet: [55, 49],
         hidden: ['facebook']
       }
@@ -2623,9 +2623,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'palm_up_hand'
   },
   {
-    name: 'Ok Hand Sign',
-    unified: '1F44C',
-    keywords: [
+    label: 'Ok Hand Sign',
+    hexcode: '1F44C',
+    tags: [
       'ok_hand',
       'fingers',
       'limbs',
@@ -2634,102 +2634,102 @@ export const emojis: CompressedEmojiData[] = [
       'okay'
     ],
     sheet: [12, 44],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F44C-1F3FB',
+        hexcode: '1F44C-1F3FB',
         sheet: [12, 45]
       },
       {
-        unified: '1F44C-1F3FC',
+        hexcode: '1F44C-1F3FC',
         sheet: [12, 46]
       },
       {
-        unified: '1F44C-1F3FD',
+        hexcode: '1F44C-1F3FD',
         sheet: [12, 47]
       },
       {
-        unified: '1F44C-1F3FE',
+        hexcode: '1F44C-1F3FE',
         sheet: [12, 48]
       },
       {
-        unified: '1F44C-1F3FF',
+        hexcode: '1F44C-1F3FF',
         sheet: [12, 49]
       }
     ],
     shortName: 'ok_hand'
   },
   {
-    name: 'Pinched Fingers',
-    unified: '1F90C',
-    keywords: [
+    label: 'Pinched Fingers',
+    hexcode: '1F90C',
+    tags: [
       'pinched fingers',
       'size',
       'tiny',
       'small'
     ],
     sheet: [38, 44],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F90C-1F3FB',
+        hexcode: '1F90C-1F3FB',
         sheet: [38, 45]
       },
       {
-        unified: '1F90C-1F3FC',
+        hexcode: '1F90C-1F3FC',
         sheet: [38, 46]
       },
       {
-        unified: '1F90C-1F3FD',
+        hexcode: '1F90C-1F3FD',
         sheet: [38, 47]
       },
       {
-        unified: '1F90C-1F3FE',
+        hexcode: '1F90C-1F3FE',
         sheet: [38, 48]
       },
       {
-        unified: '1F90C-1F3FF',
+        hexcode: '1F90C-1F3FF',
         sheet: [38, 49]
       }
     ],
     shortName: 'pinched_fingers'
   },
   {
-    name: 'Pinching Hand',
-    unified: '1F90F',
-    keywords: [
+    label: 'Pinching Hand',
+    hexcode: '1F90F',
+    tags: [
       'pinching_hand',
       'tiny',
       'small',
       'size'
     ],
     sheet: [38, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F90F-1F3FB',
+        hexcode: '1F90F-1F3FB',
         sheet: [38, 53]
       },
       {
-        unified: '1F90F-1F3FC',
+        hexcode: '1F90F-1F3FC',
         sheet: [38, 54]
       },
       {
-        unified: '1F90F-1F3FD',
+        hexcode: '1F90F-1F3FD',
         sheet: [38, 55]
       },
       {
-        unified: '1F90F-1F3FE',
+        hexcode: '1F90F-1F3FE',
         sheet: [38, 56]
       },
       {
-        unified: '1F90F-1F3FF',
+        hexcode: '1F90F-1F3FF',
         sheet: [38, 57]
       }
     ],
     shortName: 'pinching_hand'
   },
   {
-    name: 'Victory Hand',
-    unified: '270C-FE0F',
-    keywords: [
+    label: 'Victory Hand',
+    hexcode: '270C-FE0F',
+    tags: [
       'victory_hand',
       'fingers',
       'ohyeah',
@@ -2739,58 +2739,58 @@ export const emojis: CompressedEmojiData[] = [
       'two'
     ],
     sheet: [58, 39],
-    skinVariations: [
+    skins: [
       {
-        unified: '270C-1F3FB',
+        hexcode: '270C-1F3FB',
         sheet: [58, 40]
       },
       {
-        unified: '270C-1F3FC',
+        hexcode: '270C-1F3FC',
         sheet: [58, 41]
       },
       {
-        unified: '270C-1F3FD',
+        hexcode: '270C-1F3FD',
         sheet: [58, 42]
       },
       {
-        unified: '270C-1F3FE',
+        hexcode: '270C-1F3FE',
         sheet: [58, 43]
       },
       {
-        unified: '270C-1F3FF',
+        hexcode: '270C-1F3FF',
         sheet: [58, 44]
       }
     ],
     shortName: 'v'
   },
   {
-    name: 'Hand with Index and Middle Fingers Crossed',
-    unified: '1F91E',
-    keywords: [
+    label: 'Hand with Index and Middle Fingers Crossed',
+    hexcode: '1F91E',
+    tags: [
       'crossed_fingers',
       'good',
       'lucky'
     ],
     sheet: [40, 0],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F91E-1F3FB',
+        hexcode: '1F91E-1F3FB',
         sheet: [40, 1]
       },
       {
-        unified: '1F91E-1F3FC',
+        hexcode: '1F91E-1F3FC',
         sheet: [40, 2]
       },
       {
-        unified: '1F91E-1F3FD',
+        hexcode: '1F91E-1F3FD',
         sheet: [40, 3]
       },
       {
-        unified: '1F91E-1F3FE',
+        hexcode: '1F91E-1F3FE',
         sheet: [40, 4]
       },
       {
-        unified: '1F91E-1F3FF',
+        hexcode: '1F91E-1F3FF',
         sheet: [40, 5]
       }
     ],
@@ -2800,9 +2800,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crossed_fingers'
   },
   {
-    name: 'Hand with Index Finger and Thumb Crossed',
-    unified: '1FAF0',
-    keywords: [
+    label: 'Hand with Index Finger and Thumb Crossed',
+    hexcode: '1FAF0',
+    tags: [
       'hand with index finger and thumb crossed',
       'heart',
       'love',
@@ -2811,29 +2811,29 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 20],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF0-1F3FB',
+        hexcode: '1FAF0-1F3FB',
         sheet: [55, 21],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF0-1F3FC',
+        hexcode: '1FAF0-1F3FC',
         sheet: [55, 22],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF0-1F3FD',
+        hexcode: '1FAF0-1F3FD',
         sheet: [55, 23],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF0-1F3FE',
+        hexcode: '1FAF0-1F3FE',
         sheet: [55, 24],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF0-1F3FF',
+        hexcode: '1FAF0-1F3FF',
         sheet: [55, 25],
         hidden: ['facebook']
       }
@@ -2841,43 +2841,43 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hand_with_index_finger_and_thumb_crossed'
   },
   {
-    name: 'I Love You Hand Sign',
-    unified: '1F91F',
-    keywords: [
+    label: 'I Love You Hand Sign',
+    hexcode: '1F91F',
+    tags: [
       'love_you_gesture',
       'hand',
       'fingers',
       'gesture'
     ],
     sheet: [40, 6],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F91F-1F3FB',
+        hexcode: '1F91F-1F3FB',
         sheet: [40, 7]
       },
       {
-        unified: '1F91F-1F3FC',
+        hexcode: '1F91F-1F3FC',
         sheet: [40, 8]
       },
       {
-        unified: '1F91F-1F3FD',
+        hexcode: '1F91F-1F3FD',
         sheet: [40, 9]
       },
       {
-        unified: '1F91F-1F3FE',
+        hexcode: '1F91F-1F3FE',
         sheet: [40, 10]
       },
       {
-        unified: '1F91F-1F3FF',
+        hexcode: '1F91F-1F3FF',
         sheet: [40, 11]
       }
     ],
     shortName: 'i_love_you_hand_sign'
   },
   {
-    name: 'Sign of the Horns',
-    unified: '1F918',
-    keywords: [
+    label: 'Sign of the Horns',
+    hexcode: '1F918',
+    tags: [
       'sign_of_the_horns',
       'hand',
       'fingers',
@@ -2886,25 +2886,25 @@ export const emojis: CompressedEmojiData[] = [
       'rock_on'
     ],
     sheet: [39, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F918-1F3FB',
+        hexcode: '1F918-1F3FB',
         sheet: [39, 6]
       },
       {
-        unified: '1F918-1F3FC',
+        hexcode: '1F918-1F3FC',
         sheet: [39, 7]
       },
       {
-        unified: '1F918-1F3FD',
+        hexcode: '1F918-1F3FD',
         sheet: [39, 8]
       },
       {
-        unified: '1F918-1F3FE',
+        hexcode: '1F918-1F3FE',
         sheet: [39, 9]
       },
       {
-        unified: '1F918-1F3FF',
+        hexcode: '1F918-1F3FF',
         sheet: [39, 10]
       }
     ],
@@ -2912,43 +2912,43 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'the_horns'
   },
   {
-    name: 'Call Me Hand',
-    unified: '1F919',
-    keywords: [
+    label: 'Call Me Hand',
+    hexcode: '1F919',
+    tags: [
       'call_me_hand',
       'hands',
       'gesture',
       'shaka'
     ],
     sheet: [39, 11],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F919-1F3FB',
+        hexcode: '1F919-1F3FB',
         sheet: [39, 12]
       },
       {
-        unified: '1F919-1F3FC',
+        hexcode: '1F919-1F3FC',
         sheet: [39, 13]
       },
       {
-        unified: '1F919-1F3FD',
+        hexcode: '1F919-1F3FD',
         sheet: [39, 14]
       },
       {
-        unified: '1F919-1F3FE',
+        hexcode: '1F919-1F3FE',
         sheet: [39, 15]
       },
       {
-        unified: '1F919-1F3FF',
+        hexcode: '1F919-1F3FF',
         sheet: [39, 16]
       }
     ],
     shortName: 'call_me_hand'
   },
   {
-    name: 'White Left Pointing Backhand Index',
-    unified: '1F448',
-    keywords: [
+    label: 'White Left Pointing Backhand Index',
+    hexcode: '1F448',
+    tags: [
       'backhand_index_pointing_left',
       'direction',
       'fingers',
@@ -2956,34 +2956,34 @@ export const emojis: CompressedEmojiData[] = [
       'left'
     ],
     sheet: [12, 20],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F448-1F3FB',
+        hexcode: '1F448-1F3FB',
         sheet: [12, 21]
       },
       {
-        unified: '1F448-1F3FC',
+        hexcode: '1F448-1F3FC',
         sheet: [12, 22]
       },
       {
-        unified: '1F448-1F3FD',
+        hexcode: '1F448-1F3FD',
         sheet: [12, 23]
       },
       {
-        unified: '1F448-1F3FE',
+        hexcode: '1F448-1F3FE',
         sheet: [12, 24]
       },
       {
-        unified: '1F448-1F3FF',
+        hexcode: '1F448-1F3FF',
         sheet: [12, 25]
       }
     ],
     shortName: 'point_left'
   },
   {
-    name: 'White Right Pointing Backhand Index',
-    unified: '1F449',
-    keywords: [
+    label: 'White Right Pointing Backhand Index',
+    hexcode: '1F449',
+    tags: [
       'backhand_index_pointing_right',
       'fingers',
       'hand',
@@ -2991,34 +2991,34 @@ export const emojis: CompressedEmojiData[] = [
       'right'
     ],
     sheet: [12, 26],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F449-1F3FB',
+        hexcode: '1F449-1F3FB',
         sheet: [12, 27]
       },
       {
-        unified: '1F449-1F3FC',
+        hexcode: '1F449-1F3FC',
         sheet: [12, 28]
       },
       {
-        unified: '1F449-1F3FD',
+        hexcode: '1F449-1F3FD',
         sheet: [12, 29]
       },
       {
-        unified: '1F449-1F3FE',
+        hexcode: '1F449-1F3FE',
         sheet: [12, 30]
       },
       {
-        unified: '1F449-1F3FF',
+        hexcode: '1F449-1F3FF',
         sheet: [12, 31]
       }
     ],
     shortName: 'point_right'
   },
   {
-    name: 'White Up Pointing Backhand Index',
-    unified: '1F446',
-    keywords: [
+    label: 'White Up Pointing Backhand Index',
+    hexcode: '1F446',
+    tags: [
       'backhand_index_pointing_up',
       'fingers',
       'hand',
@@ -3026,34 +3026,34 @@ export const emojis: CompressedEmojiData[] = [
       'up'
     ],
     sheet: [12, 8],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F446-1F3FB',
+        hexcode: '1F446-1F3FB',
         sheet: [12, 9]
       },
       {
-        unified: '1F446-1F3FC',
+        hexcode: '1F446-1F3FC',
         sheet: [12, 10]
       },
       {
-        unified: '1F446-1F3FD',
+        hexcode: '1F446-1F3FD',
         sheet: [12, 11]
       },
       {
-        unified: '1F446-1F3FE',
+        hexcode: '1F446-1F3FE',
         sheet: [12, 12]
       },
       {
-        unified: '1F446-1F3FF',
+        hexcode: '1F446-1F3FF',
         sheet: [12, 13]
       }
     ],
     shortName: 'point_up_2'
   },
   {
-    name: 'Reversed Hand with Middle Finger Extended',
-    unified: '1F595',
-    keywords: [
+    label: 'Reversed Hand with Middle Finger Extended',
+    hexcode: '1F595',
+    tags: [
       'middle_finger',
       'hand',
       'fingers',
@@ -3062,25 +3062,25 @@ export const emojis: CompressedEmojiData[] = [
       'flipping'
     ],
     sheet: [31, 43],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F595-1F3FB',
+        hexcode: '1F595-1F3FB',
         sheet: [31, 44]
       },
       {
-        unified: '1F595-1F3FC',
+        hexcode: '1F595-1F3FC',
         sheet: [31, 45]
       },
       {
-        unified: '1F595-1F3FD',
+        hexcode: '1F595-1F3FD',
         sheet: [31, 46]
       },
       {
-        unified: '1F595-1F3FE',
+        hexcode: '1F595-1F3FE',
         sheet: [31, 47]
       },
       {
-        unified: '1F595-1F3FF',
+        hexcode: '1F595-1F3FF',
         sheet: [31, 48]
       }
     ],
@@ -3090,9 +3090,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'middle_finger'
   },
   {
-    name: 'White Down Pointing Backhand Index',
-    unified: '1F447',
-    keywords: [
+    label: 'White Down Pointing Backhand Index',
+    hexcode: '1F447',
+    tags: [
       'backhand_index_pointing_down',
       'fingers',
       'hand',
@@ -3100,34 +3100,34 @@ export const emojis: CompressedEmojiData[] = [
       'down'
     ],
     sheet: [12, 14],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F447-1F3FB',
+        hexcode: '1F447-1F3FB',
         sheet: [12, 15]
       },
       {
-        unified: '1F447-1F3FC',
+        hexcode: '1F447-1F3FC',
         sheet: [12, 16]
       },
       {
-        unified: '1F447-1F3FD',
+        hexcode: '1F447-1F3FD',
         sheet: [12, 17]
       },
       {
-        unified: '1F447-1F3FE',
+        hexcode: '1F447-1F3FE',
         sheet: [12, 18]
       },
       {
-        unified: '1F447-1F3FF',
+        hexcode: '1F447-1F3FF',
         sheet: [12, 19]
       }
     ],
     shortName: 'point_down'
   },
   {
-    name: 'White Up Pointing Index',
-    unified: '261D-FE0F',
-    keywords: [
+    label: 'White Up Pointing Index',
+    hexcode: '261D-FE0F',
+    tags: [
       'index_pointing_up',
       'hand',
       'fingers',
@@ -3135,63 +3135,63 @@ export const emojis: CompressedEmojiData[] = [
       'up'
     ],
     sheet: [56, 50],
-    skinVariations: [
+    skins: [
       {
-        unified: '261D-1F3FB',
+        hexcode: '261D-1F3FB',
         sheet: [56, 51]
       },
       {
-        unified: '261D-1F3FC',
+        hexcode: '261D-1F3FC',
         sheet: [56, 52]
       },
       {
-        unified: '261D-1F3FD',
+        hexcode: '261D-1F3FD',
         sheet: [56, 53]
       },
       {
-        unified: '261D-1F3FE',
+        hexcode: '261D-1F3FE',
         sheet: [56, 54]
       },
       {
-        unified: '261D-1F3FF',
+        hexcode: '261D-1F3FF',
         sheet: [56, 55]
       }
     ],
     shortName: 'point_up'
   },
   {
-    name: 'Index Pointing at the Viewer',
-    unified: '1FAF5',
-    keywords: [
+    label: 'Index Pointing at the Viewer',
+    hexcode: '1FAF5',
+    tags: [
       'index pointing at the viewer',
       'you',
       'recruit'
     ],
     sheet: [55, 50],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF5-1F3FB',
+        hexcode: '1FAF5-1F3FB',
         sheet: [55, 51],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF5-1F3FC',
+        hexcode: '1FAF5-1F3FC',
         sheet: [55, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF5-1F3FD',
+        hexcode: '1FAF5-1F3FD',
         sheet: [55, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF5-1F3FE',
+        hexcode: '1FAF5-1F3FE',
         sheet: [55, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF5-1F3FF',
+        hexcode: '1FAF5-1F3FF',
         sheet: [55, 55],
         hidden: ['facebook']
       }
@@ -3199,9 +3199,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'index_pointing_at_the_viewer'
   },
   {
-    name: 'Thumbs Up Sign',
-    unified: '1F44D',
-    keywords: [
+    label: 'Thumbs Up Sign',
+    hexcode: '1F44D',
+    tags: [
       'thumbs_up',
       'thumbsup',
       'yes',
@@ -3215,25 +3215,25 @@ export const emojis: CompressedEmojiData[] = [
       '+1'
     ],
     sheet: [12, 50],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F44D-1F3FB',
+        hexcode: '1F44D-1F3FB',
         sheet: [12, 51]
       },
       {
-        unified: '1F44D-1F3FC',
+        hexcode: '1F44D-1F3FC',
         sheet: [12, 52]
       },
       {
-        unified: '1F44D-1F3FD',
+        hexcode: '1F44D-1F3FD',
         sheet: [12, 53]
       },
       {
-        unified: '1F44D-1F3FE',
+        hexcode: '1F44D-1F3FE',
         sheet: [12, 54]
       },
       {
-        unified: '1F44D-1F3FF',
+        hexcode: '1F44D-1F3FF',
         sheet: [12, 55]
       }
     ],
@@ -3241,9 +3241,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: '+1'
   },
   {
-    name: 'Thumbs Down Sign',
-    unified: '1F44E',
-    keywords: [
+    label: 'Thumbs Down Sign',
+    hexcode: '1F44E',
+    tags: [
       'thumbs_down',
       'thumbsdown',
       'no',
@@ -3252,25 +3252,25 @@ export const emojis: CompressedEmojiData[] = [
       '-1'
     ],
     sheet: [12, 56],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F44E-1F3FB',
+        hexcode: '1F44E-1F3FB',
         sheet: [12, 57]
       },
       {
-        unified: '1F44E-1F3FC',
+        hexcode: '1F44E-1F3FC',
         sheet: [12, 58]
       },
       {
-        unified: '1F44E-1F3FD',
+        hexcode: '1F44E-1F3FD',
         sheet: [12, 59]
       },
       {
-        unified: '1F44E-1F3FE',
+        hexcode: '1F44E-1F3FE',
         sheet: [12, 60]
       },
       {
-        unified: '1F44E-1F3FF',
+        hexcode: '1F44E-1F3FF',
         sheet: [13, 0]
       }
     ],
@@ -3278,43 +3278,43 @@ export const emojis: CompressedEmojiData[] = [
     shortName: '-1'
   },
   {
-    name: 'Raised Fist',
-    unified: '270A',
-    keywords: [
+    label: 'Raised Fist',
+    hexcode: '270A',
+    tags: [
       'raised_fist',
       'fingers',
       'hand',
       'grasp'
     ],
     sheet: [58, 27],
-    skinVariations: [
+    skins: [
       {
-        unified: '270A-1F3FB',
+        hexcode: '270A-1F3FB',
         sheet: [58, 28]
       },
       {
-        unified: '270A-1F3FC',
+        hexcode: '270A-1F3FC',
         sheet: [58, 29]
       },
       {
-        unified: '270A-1F3FD',
+        hexcode: '270A-1F3FD',
         sheet: [58, 30]
       },
       {
-        unified: '270A-1F3FE',
+        hexcode: '270A-1F3FE',
         sheet: [58, 31]
       },
       {
-        unified: '270A-1F3FF',
+        hexcode: '270A-1F3FF',
         sheet: [58, 32]
       }
     ],
     shortName: 'fist'
   },
   {
-    name: 'Fisted Hand Sign',
-    unified: '1F44A',
-    keywords: [
+    label: 'Fisted Hand Sign',
+    hexcode: '1F44A',
+    tags: [
       'oncoming_fist',
       'angry',
       'violence',
@@ -3324,25 +3324,25 @@ export const emojis: CompressedEmojiData[] = [
       'hand'
     ],
     sheet: [12, 32],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F44A-1F3FB',
+        hexcode: '1F44A-1F3FB',
         sheet: [12, 33]
       },
       {
-        unified: '1F44A-1F3FC',
+        hexcode: '1F44A-1F3FC',
         sheet: [12, 34]
       },
       {
-        unified: '1F44A-1F3FD',
+        hexcode: '1F44A-1F3FD',
         sheet: [12, 35]
       },
       {
-        unified: '1F44A-1F3FE',
+        hexcode: '1F44A-1F3FE',
         sheet: [12, 36]
       },
       {
-        unified: '1F44A-1F3FF',
+        hexcode: '1F44A-1F3FF',
         sheet: [12, 37]
       }
     ],
@@ -3350,75 +3350,75 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'facepunch'
   },
   {
-    name: 'Left-Facing Fist',
-    unified: '1F91B',
-    keywords: [
+    label: 'Left-Facing Fist',
+    hexcode: '1F91B',
+    tags: [
       'left_facing_fist',
       'hand',
       'fistbump'
     ],
     sheet: [39, 23],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F91B-1F3FB',
+        hexcode: '1F91B-1F3FB',
         sheet: [39, 24]
       },
       {
-        unified: '1F91B-1F3FC',
+        hexcode: '1F91B-1F3FC',
         sheet: [39, 25]
       },
       {
-        unified: '1F91B-1F3FD',
+        hexcode: '1F91B-1F3FD',
         sheet: [39, 26]
       },
       {
-        unified: '1F91B-1F3FE',
+        hexcode: '1F91B-1F3FE',
         sheet: [39, 27]
       },
       {
-        unified: '1F91B-1F3FF',
+        hexcode: '1F91B-1F3FF',
         sheet: [39, 28]
       }
     ],
     shortName: 'left-facing_fist'
   },
   {
-    name: 'Right-Facing Fist',
-    unified: '1F91C',
-    keywords: [
+    label: 'Right-Facing Fist',
+    hexcode: '1F91C',
+    tags: [
       'right_facing_fist',
       'hand',
       'fistbump'
     ],
     sheet: [39, 29],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F91C-1F3FB',
+        hexcode: '1F91C-1F3FB',
         sheet: [39, 30]
       },
       {
-        unified: '1F91C-1F3FC',
+        hexcode: '1F91C-1F3FC',
         sheet: [39, 31]
       },
       {
-        unified: '1F91C-1F3FD',
+        hexcode: '1F91C-1F3FD',
         sheet: [39, 32]
       },
       {
-        unified: '1F91C-1F3FE',
+        hexcode: '1F91C-1F3FE',
         sheet: [39, 33]
       },
       {
-        unified: '1F91C-1F3FF',
+        hexcode: '1F91C-1F3FF',
         sheet: [39, 34]
       }
     ],
     shortName: 'right-facing_fist'
   },
   {
-    name: 'Clapping Hands Sign',
-    unified: '1F44F',
-    keywords: [
+    label: 'Clapping Hands Sign',
+    hexcode: '1F44F',
+    tags: [
       'clapping_hands',
       'hands',
       'praise',
@@ -3427,34 +3427,34 @@ export const emojis: CompressedEmojiData[] = [
       'yay'
     ],
     sheet: [13, 1],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F44F-1F3FB',
+        hexcode: '1F44F-1F3FB',
         sheet: [13, 2]
       },
       {
-        unified: '1F44F-1F3FC',
+        hexcode: '1F44F-1F3FC',
         sheet: [13, 3]
       },
       {
-        unified: '1F44F-1F3FD',
+        hexcode: '1F44F-1F3FD',
         sheet: [13, 4]
       },
       {
-        unified: '1F44F-1F3FE',
+        hexcode: '1F44F-1F3FE',
         sheet: [13, 5]
       },
       {
-        unified: '1F44F-1F3FF',
+        hexcode: '1F44F-1F3FF',
         sheet: [13, 6]
       }
     ],
     shortName: 'clap'
   },
   {
-    name: 'Person Raising Both Hands in Celebration',
-    unified: '1F64C',
-    keywords: [
+    label: 'Person Raising Both Hands in Celebration',
+    hexcode: '1F64C',
+    tags: [
       'raising_hands',
       'gesture',
       'hooray',
@@ -3463,34 +3463,34 @@ export const emojis: CompressedEmojiData[] = [
       'hands'
     ],
     sheet: [34, 45],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64C-1F3FB',
+        hexcode: '1F64C-1F3FB',
         sheet: [34, 46]
       },
       {
-        unified: '1F64C-1F3FC',
+        hexcode: '1F64C-1F3FC',
         sheet: [34, 47]
       },
       {
-        unified: '1F64C-1F3FD',
+        hexcode: '1F64C-1F3FD',
         sheet: [34, 48]
       },
       {
-        unified: '1F64C-1F3FE',
+        hexcode: '1F64C-1F3FE',
         sheet: [34, 49]
       },
       {
-        unified: '1F64C-1F3FF',
+        hexcode: '1F64C-1F3FF',
         sheet: [34, 50]
       }
     ],
     shortName: 'raised_hands'
   },
   {
-    name: 'Heart Hands',
-    unified: '1FAF6',
-    keywords: [
+    label: 'Heart Hands',
+    hexcode: '1FAF6',
+    tags: [
       'heart hands',
       'love',
       'appreciation',
@@ -3498,29 +3498,29 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [55, 56],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAF6-1F3FB',
+        hexcode: '1FAF6-1F3FB',
         sheet: [55, 57],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF6-1F3FC',
+        hexcode: '1FAF6-1F3FC',
         sheet: [55, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF6-1F3FD',
+        hexcode: '1FAF6-1F3FD',
         sheet: [55, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF6-1F3FE',
+        hexcode: '1FAF6-1F3FE',
         sheet: [55, 60],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF6-1F3FF',
+        hexcode: '1FAF6-1F3FF',
         sheet: [56, 0],
         hidden: ['facebook']
       }
@@ -3528,9 +3528,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heart_hands'
   },
   {
-    name: 'Open Hands Sign',
-    unified: '1F450',
-    keywords: [
+    label: 'Open Hands Sign',
+    hexcode: '1F450',
+    tags: [
       'open_hands',
       'fingers',
       'butterfly',
@@ -3538,34 +3538,34 @@ export const emojis: CompressedEmojiData[] = [
       'open'
     ],
     sheet: [13, 7],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F450-1F3FB',
+        hexcode: '1F450-1F3FB',
         sheet: [13, 8]
       },
       {
-        unified: '1F450-1F3FC',
+        hexcode: '1F450-1F3FC',
         sheet: [13, 9]
       },
       {
-        unified: '1F450-1F3FD',
+        hexcode: '1F450-1F3FD',
         sheet: [13, 10]
       },
       {
-        unified: '1F450-1F3FE',
+        hexcode: '1F450-1F3FE',
         sheet: [13, 11]
       },
       {
-        unified: '1F450-1F3FF',
+        hexcode: '1F450-1F3FF',
         sheet: [13, 12]
       }
     ],
     shortName: 'open_hands'
   },
   {
-    name: 'Palms Up Together',
-    unified: '1F932',
-    keywords: [
+    label: 'Palms Up Together',
+    hexcode: '1F932',
+    tags: [
       'palms_up_together',
       'hands',
       'gesture',
@@ -3573,157 +3573,157 @@ export const emojis: CompressedEmojiData[] = [
       'prayer'
     ],
     sheet: [40, 57],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F932-1F3FB',
+        hexcode: '1F932-1F3FB',
         sheet: [40, 58]
       },
       {
-        unified: '1F932-1F3FC',
+        hexcode: '1F932-1F3FC',
         sheet: [40, 59]
       },
       {
-        unified: '1F932-1F3FD',
+        hexcode: '1F932-1F3FD',
         sheet: [40, 60]
       },
       {
-        unified: '1F932-1F3FE',
+        hexcode: '1F932-1F3FE',
         sheet: [41, 0]
       },
       {
-        unified: '1F932-1F3FF',
+        hexcode: '1F932-1F3FF',
         sheet: [41, 1]
       }
     ],
     shortName: 'palms_up_together'
   },
   {
-    name: 'Handshake',
-    unified: '1F91D',
-    keywords: [
+    label: 'Handshake',
+    hexcode: '1F91D',
+    tags: [
       'handshake',
       'agreement',
       'shake'
     ],
     sheet: [39, 35],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F91D-1F3FB',
+        hexcode: '1F91D-1F3FB',
         sheet: [39, 36]
       },
       {
-        unified: '1F91D-1F3FC',
+        hexcode: '1F91D-1F3FC',
         sheet: [39, 37]
       },
       {
-        unified: '1F91D-1F3FD',
+        hexcode: '1F91D-1F3FD',
         sheet: [39, 38]
       },
       {
-        unified: '1F91D-1F3FE',
+        hexcode: '1F91D-1F3FE',
         sheet: [39, 39]
       },
       {
-        unified: '1F91D-1F3FF',
+        hexcode: '1F91D-1F3FF',
         sheet: [39, 40]
       },
       {
-        unified: '1FAF1-1F3FB-200D-1FAF2-1F3FC',
+        hexcode: '1FAF1-1F3FB-200D-1FAF2-1F3FC',
         sheet: [39, 41],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FB-200D-1FAF2-1F3FD',
+        hexcode: '1FAF1-1F3FB-200D-1FAF2-1F3FD',
         sheet: [39, 42],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FB-200D-1FAF2-1F3FE',
+        hexcode: '1FAF1-1F3FB-200D-1FAF2-1F3FE',
         sheet: [39, 43],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FB-200D-1FAF2-1F3FF',
+        hexcode: '1FAF1-1F3FB-200D-1FAF2-1F3FF',
         sheet: [39, 44],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FC-200D-1FAF2-1F3FB',
+        hexcode: '1FAF1-1F3FC-200D-1FAF2-1F3FB',
         sheet: [39, 45],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FC-200D-1FAF2-1F3FD',
+        hexcode: '1FAF1-1F3FC-200D-1FAF2-1F3FD',
         sheet: [39, 46],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FC-200D-1FAF2-1F3FE',
+        hexcode: '1FAF1-1F3FC-200D-1FAF2-1F3FE',
         sheet: [39, 47],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FC-200D-1FAF2-1F3FF',
+        hexcode: '1FAF1-1F3FC-200D-1FAF2-1F3FF',
         sheet: [39, 48],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FD-200D-1FAF2-1F3FB',
+        hexcode: '1FAF1-1F3FD-200D-1FAF2-1F3FB',
         sheet: [39, 49],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FD-200D-1FAF2-1F3FC',
+        hexcode: '1FAF1-1F3FD-200D-1FAF2-1F3FC',
         sheet: [39, 50],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FD-200D-1FAF2-1F3FE',
+        hexcode: '1FAF1-1F3FD-200D-1FAF2-1F3FE',
         sheet: [39, 51],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FD-200D-1FAF2-1F3FF',
+        hexcode: '1FAF1-1F3FD-200D-1FAF2-1F3FF',
         sheet: [39, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FE-200D-1FAF2-1F3FB',
+        hexcode: '1FAF1-1F3FE-200D-1FAF2-1F3FB',
         sheet: [39, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FE-200D-1FAF2-1F3FC',
+        hexcode: '1FAF1-1F3FE-200D-1FAF2-1F3FC',
         sheet: [39, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FE-200D-1FAF2-1F3FD',
+        hexcode: '1FAF1-1F3FE-200D-1FAF2-1F3FD',
         sheet: [39, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FE-200D-1FAF2-1F3FF',
+        hexcode: '1FAF1-1F3FE-200D-1FAF2-1F3FF',
         sheet: [39, 56],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FF-200D-1FAF2-1F3FB',
+        hexcode: '1FAF1-1F3FF-200D-1FAF2-1F3FB',
         sheet: [39, 57],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FF-200D-1FAF2-1F3FC',
+        hexcode: '1FAF1-1F3FF-200D-1FAF2-1F3FC',
         sheet: [39, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FF-200D-1FAF2-1F3FD',
+        hexcode: '1FAF1-1F3FF-200D-1FAF2-1F3FD',
         sheet: [39, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1FAF1-1F3FF-200D-1FAF2-1F3FE',
+        hexcode: '1FAF1-1F3FF-200D-1FAF2-1F3FE',
         sheet: [39, 60],
         hidden: ['facebook']
       }
@@ -3731,9 +3731,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'handshake'
   },
   {
-    name: 'Person with Folded Hands',
-    unified: '1F64F',
-    keywords: [
+    label: 'Person with Folded Hands',
+    hexcode: '1F64F',
+    tags: [
       'folded_hands',
       'please',
       'hope',
@@ -3746,34 +3746,34 @@ export const emojis: CompressedEmojiData[] = [
       'appreciate'
     ],
     sheet: [35, 26],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64F-1F3FB',
+        hexcode: '1F64F-1F3FB',
         sheet: [35, 27]
       },
       {
-        unified: '1F64F-1F3FC',
+        hexcode: '1F64F-1F3FC',
         sheet: [35, 28]
       },
       {
-        unified: '1F64F-1F3FD',
+        hexcode: '1F64F-1F3FD',
         sheet: [35, 29]
       },
       {
-        unified: '1F64F-1F3FE',
+        hexcode: '1F64F-1F3FE',
         sheet: [35, 30]
       },
       {
-        unified: '1F64F-1F3FF',
+        hexcode: '1F64F-1F3FF',
         sheet: [35, 31]
       }
     ],
     shortName: 'pray'
   },
   {
-    name: 'Writing Hand',
-    unified: '270D-FE0F',
-    keywords: [
+    label: 'Writing Hand',
+    hexcode: '270D-FE0F',
+    tags: [
       'writing_hand',
       'lower_left_ballpoint_pen',
       'stationery',
@@ -3781,34 +3781,34 @@ export const emojis: CompressedEmojiData[] = [
       'compose'
     ],
     sheet: [58, 45],
-    skinVariations: [
+    skins: [
       {
-        unified: '270D-1F3FB',
+        hexcode: '270D-1F3FB',
         sheet: [58, 46]
       },
       {
-        unified: '270D-1F3FC',
+        hexcode: '270D-1F3FC',
         sheet: [58, 47]
       },
       {
-        unified: '270D-1F3FD',
+        hexcode: '270D-1F3FD',
         sheet: [58, 48]
       },
       {
-        unified: '270D-1F3FE',
+        hexcode: '270D-1F3FE',
         sheet: [58, 49]
       },
       {
-        unified: '270D-1F3FF',
+        hexcode: '270D-1F3FF',
         sheet: [58, 50]
       }
     ],
     shortName: 'writing_hand'
   },
   {
-    name: 'Nail Polish',
-    unified: '1F485',
-    keywords: [
+    label: 'Nail Polish',
+    hexcode: '1F485',
+    tags: [
       'nail_polish',
       'beauty',
       'manicure',
@@ -3817,67 +3817,67 @@ export const emojis: CompressedEmojiData[] = [
       'nail'
     ],
     sheet: [25, 53],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F485-1F3FB',
+        hexcode: '1F485-1F3FB',
         sheet: [25, 54]
       },
       {
-        unified: '1F485-1F3FC',
+        hexcode: '1F485-1F3FC',
         sheet: [25, 55]
       },
       {
-        unified: '1F485-1F3FD',
+        hexcode: '1F485-1F3FD',
         sheet: [25, 56]
       },
       {
-        unified: '1F485-1F3FE',
+        hexcode: '1F485-1F3FE',
         sheet: [25, 57]
       },
       {
-        unified: '1F485-1F3FF',
+        hexcode: '1F485-1F3FF',
         sheet: [25, 58]
       }
     ],
     shortName: 'nail_care'
   },
   {
-    name: 'Selfie',
-    unified: '1F933',
-    keywords: [
+    label: 'Selfie',
+    hexcode: '1F933',
+    tags: [
       'selfie',
       'camera',
       'phone'
     ],
     sheet: [41, 2],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F933-1F3FB',
+        hexcode: '1F933-1F3FB',
         sheet: [41, 3]
       },
       {
-        unified: '1F933-1F3FC',
+        hexcode: '1F933-1F3FC',
         sheet: [41, 4]
       },
       {
-        unified: '1F933-1F3FD',
+        hexcode: '1F933-1F3FD',
         sheet: [41, 5]
       },
       {
-        unified: '1F933-1F3FE',
+        hexcode: '1F933-1F3FE',
         sheet: [41, 6]
       },
       {
-        unified: '1F933-1F3FF',
+        hexcode: '1F933-1F3FF',
         sheet: [41, 7]
       }
     ],
     shortName: 'selfie'
   },
   {
-    name: 'Flexed Biceps',
-    unified: '1F4AA',
-    keywords: [
+    label: 'Flexed Biceps',
+    hexcode: '1F4AA',
+    tags: [
       'flexed_biceps',
       'arm',
       'flex',
@@ -3887,34 +3887,34 @@ export const emojis: CompressedEmojiData[] = [
       'biceps'
     ],
     sheet: [27, 57],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F4AA-1F3FB',
+        hexcode: '1F4AA-1F3FB',
         sheet: [27, 58]
       },
       {
-        unified: '1F4AA-1F3FC',
+        hexcode: '1F4AA-1F3FC',
         sheet: [27, 59]
       },
       {
-        unified: '1F4AA-1F3FD',
+        hexcode: '1F4AA-1F3FD',
         sheet: [27, 60]
       },
       {
-        unified: '1F4AA-1F3FE',
+        hexcode: '1F4AA-1F3FE',
         sheet: [28, 0]
       },
       {
-        unified: '1F4AA-1F3FF',
+        hexcode: '1F4AA-1F3FF',
         sheet: [28, 1]
       }
     ],
     shortName: 'muscle'
   },
   {
-    name: 'Mechanical Arm',
-    unified: '1F9BE',
-    keywords: [
+    label: 'Mechanical Arm',
+    hexcode: '1F9BE',
+    tags: [
       'mechanical_arm',
       'accessibility'
     ],
@@ -3922,9 +3922,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mechanical_arm'
   },
   {
-    name: 'Mechanical Leg',
-    unified: '1F9BF',
-    keywords: [
+    label: 'Mechanical Leg',
+    hexcode: '1F9BF',
+    tags: [
       'mechanical_leg',
       'accessibility'
     ],
@@ -3932,67 +3932,67 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mechanical_leg'
   },
   {
-    name: 'Leg',
-    unified: '1F9B5',
-    keywords: ['leg', 'kick', 'limb'],
+    label: 'Leg',
+    hexcode: '1F9B5',
+    tags: ['leg', 'kick', 'limb'],
     sheet: [45, 6],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B5-1F3FB',
+        hexcode: '1F9B5-1F3FB',
         sheet: [45, 7]
       },
       {
-        unified: '1F9B5-1F3FC',
+        hexcode: '1F9B5-1F3FC',
         sheet: [45, 8]
       },
       {
-        unified: '1F9B5-1F3FD',
+        hexcode: '1F9B5-1F3FD',
         sheet: [45, 9]
       },
       {
-        unified: '1F9B5-1F3FE',
+        hexcode: '1F9B5-1F3FE',
         sheet: [45, 10]
       },
       {
-        unified: '1F9B5-1F3FF',
+        hexcode: '1F9B5-1F3FF',
         sheet: [45, 11]
       }
     ],
     shortName: 'leg'
   },
   {
-    name: 'Foot',
-    unified: '1F9B6',
-    keywords: ['foot', 'kick', 'stomp'],
+    label: 'Foot',
+    hexcode: '1F9B6',
+    tags: ['foot', 'kick', 'stomp'],
     sheet: [45, 12],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B6-1F3FB',
+        hexcode: '1F9B6-1F3FB',
         sheet: [45, 13]
       },
       {
-        unified: '1F9B6-1F3FC',
+        hexcode: '1F9B6-1F3FC',
         sheet: [45, 14]
       },
       {
-        unified: '1F9B6-1F3FD',
+        hexcode: '1F9B6-1F3FD',
         sheet: [45, 15]
       },
       {
-        unified: '1F9B6-1F3FE',
+        hexcode: '1F9B6-1F3FE',
         sheet: [45, 16]
       },
       {
-        unified: '1F9B6-1F3FF',
+        hexcode: '1F9B6-1F3FF',
         sheet: [45, 17]
       }
     ],
     shortName: 'foot'
   },
   {
-    name: 'Ear',
-    unified: '1F442',
-    keywords: [
+    label: 'Ear',
+    hexcode: '1F442',
+    tags: [
       'ear',
       'face',
       'hear',
@@ -4000,99 +4000,99 @@ export const emojis: CompressedEmojiData[] = [
       'listen'
     ],
     sheet: [11, 55],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F442-1F3FB',
+        hexcode: '1F442-1F3FB',
         sheet: [11, 56]
       },
       {
-        unified: '1F442-1F3FC',
+        hexcode: '1F442-1F3FC',
         sheet: [11, 57]
       },
       {
-        unified: '1F442-1F3FD',
+        hexcode: '1F442-1F3FD',
         sheet: [11, 58]
       },
       {
-        unified: '1F442-1F3FE',
+        hexcode: '1F442-1F3FE',
         sheet: [11, 59]
       },
       {
-        unified: '1F442-1F3FF',
+        hexcode: '1F442-1F3FF',
         sheet: [11, 60]
       }
     ],
     shortName: 'ear'
   },
   {
-    name: 'Ear with Hearing Aid',
-    unified: '1F9BB',
-    keywords: [
+    label: 'Ear with Hearing Aid',
+    hexcode: '1F9BB',
+    tags: [
       'ear_with_hearing_aid',
       'accessibility'
     ],
     sheet: [45, 56],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9BB-1F3FB',
+        hexcode: '1F9BB-1F3FB',
         sheet: [45, 57]
       },
       {
-        unified: '1F9BB-1F3FC',
+        hexcode: '1F9BB-1F3FC',
         sheet: [45, 58]
       },
       {
-        unified: '1F9BB-1F3FD',
+        hexcode: '1F9BB-1F3FD',
         sheet: [45, 59]
       },
       {
-        unified: '1F9BB-1F3FE',
+        hexcode: '1F9BB-1F3FE',
         sheet: [45, 60]
       },
       {
-        unified: '1F9BB-1F3FF',
+        hexcode: '1F9BB-1F3FF',
         sheet: [46, 0]
       }
     ],
     shortName: 'ear_with_hearing_aid'
   },
   {
-    name: 'Nose',
-    unified: '1F443',
-    keywords: [
+    label: 'Nose',
+    hexcode: '1F443',
+    tags: [
       'nose',
       'smell',
       'sniff'
     ],
     sheet: [12, 0],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F443-1F3FB',
+        hexcode: '1F443-1F3FB',
         sheet: [12, 1]
       },
       {
-        unified: '1F443-1F3FC',
+        hexcode: '1F443-1F3FC',
         sheet: [12, 2]
       },
       {
-        unified: '1F443-1F3FD',
+        hexcode: '1F443-1F3FD',
         sheet: [12, 3]
       },
       {
-        unified: '1F443-1F3FE',
+        hexcode: '1F443-1F3FE',
         sheet: [12, 4]
       },
       {
-        unified: '1F443-1F3FF',
+        hexcode: '1F443-1F3FF',
         sheet: [12, 5]
       }
     ],
     shortName: 'nose'
   },
   {
-    name: 'Brain',
-    unified: '1F9E0',
-    keywords: [
+    label: 'Brain',
+    hexcode: '1F9E0',
+    tags: [
       'brain',
       'smart',
       'intelligent'
@@ -4101,9 +4101,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'brain'
   },
   {
-    name: 'Anatomical Heart',
-    unified: '1FAC0',
-    keywords: [
+    label: 'Anatomical Heart',
+    hexcode: '1FAC0',
+    tags: [
       'anatomical heart',
       'health',
       'heartbeat'
@@ -4112,16 +4112,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'anatomical_heart'
   },
   {
-    name: 'Lungs',
-    unified: '1FAC1',
-    keywords: ['lungs', 'breathe'],
+    label: 'Lungs',
+    hexcode: '1FAC1',
+    tags: ['lungs', 'breathe'],
     sheet: [54, 43],
     shortName: 'lungs'
   },
   {
-    name: 'Tooth',
-    unified: '1F9B7',
-    keywords: [
+    label: 'Tooth',
+    hexcode: '1F9B7',
+    tags: [
       'tooth',
       'teeth',
       'dentist'
@@ -4130,16 +4130,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tooth'
   },
   {
-    name: 'Bone',
-    unified: '1F9B4',
-    keywords: ['bone', 'skeleton'],
+    label: 'Bone',
+    hexcode: '1F9B4',
+    tags: ['bone', 'skeleton'],
     sheet: [45, 5],
     shortName: 'bone'
   },
   {
-    name: 'Eyes',
-    unified: '1F440',
-    keywords: [
+    label: 'Eyes',
+    hexcode: '1F440',
+    tags: [
       'eyes',
       'look',
       'watch',
@@ -4151,9 +4151,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eyes'
   },
   {
-    name: 'Eye',
-    unified: '1F441-FE0F',
-    keywords: [
+    label: 'Eye',
+    hexcode: '1F441-FE0F',
+    tags: [
       'eye',
       'face',
       'look',
@@ -4165,9 +4165,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eye'
   },
   {
-    name: 'Tongue',
-    unified: '1F445',
-    keywords: [
+    label: 'Tongue',
+    hexcode: '1F445',
+    tags: [
       'tongue',
       'mouth',
       'playful'
@@ -4176,9 +4176,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tongue'
   },
   {
-    name: 'Mouth',
-    unified: '1F444',
-    keywords: [
+    label: 'Mouth',
+    hexcode: '1F444',
+    tags: [
       'mouth',
       'mouth',
       'kiss'
@@ -4187,9 +4187,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lips'
   },
   {
-    name: 'Biting Lip',
-    unified: '1FAE6',
-    keywords: [
+    label: 'Biting Lip',
+    hexcode: '1FAE6',
+    tags: [
       'biting lip',
       'flirt',
       'sexy',
@@ -4201,9 +4201,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'biting_lip'
   },
   {
-    name: 'Baby',
-    unified: '1F476',
-    keywords: [
+    label: 'Baby',
+    hexcode: '1F476',
+    tags: [
       'baby',
       'child',
       'boy',
@@ -4211,67 +4211,67 @@ export const emojis: CompressedEmojiData[] = [
       'toddler'
     ],
     sheet: [24, 28],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F476-1F3FB',
+        hexcode: '1F476-1F3FB',
         sheet: [24, 29]
       },
       {
-        unified: '1F476-1F3FC',
+        hexcode: '1F476-1F3FC',
         sheet: [24, 30]
       },
       {
-        unified: '1F476-1F3FD',
+        hexcode: '1F476-1F3FD',
         sheet: [24, 31]
       },
       {
-        unified: '1F476-1F3FE',
+        hexcode: '1F476-1F3FE',
         sheet: [24, 32]
       },
       {
-        unified: '1F476-1F3FF',
+        hexcode: '1F476-1F3FF',
         sheet: [24, 33]
       }
     ],
     shortName: 'baby'
   },
   {
-    name: 'Child',
-    unified: '1F9D2',
-    keywords: [
+    label: 'Child',
+    hexcode: '1F9D2',
+    tags: [
       'child',
       'gender-neutral',
       'young'
     ],
     sheet: [50, 11],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D2-1F3FB',
+        hexcode: '1F9D2-1F3FB',
         sheet: [50, 12]
       },
       {
-        unified: '1F9D2-1F3FC',
+        hexcode: '1F9D2-1F3FC',
         sheet: [50, 13]
       },
       {
-        unified: '1F9D2-1F3FD',
+        hexcode: '1F9D2-1F3FD',
         sheet: [50, 14]
       },
       {
-        unified: '1F9D2-1F3FE',
+        hexcode: '1F9D2-1F3FE',
         sheet: [50, 15]
       },
       {
-        unified: '1F9D2-1F3FF',
+        hexcode: '1F9D2-1F3FF',
         sheet: [50, 16]
       }
     ],
     shortName: 'child'
   },
   {
-    name: 'Boy',
-    unified: '1F466',
-    keywords: [
+    label: 'Boy',
+    hexcode: '1F466',
+    tags: [
       'boy',
       'man',
       'male',
@@ -4279,124 +4279,124 @@ export const emojis: CompressedEmojiData[] = [
       'teenager'
     ],
     sheet: [13, 34],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F466-1F3FB',
+        hexcode: '1F466-1F3FB',
         sheet: [13, 35]
       },
       {
-        unified: '1F466-1F3FC',
+        hexcode: '1F466-1F3FC',
         sheet: [13, 36]
       },
       {
-        unified: '1F466-1F3FD',
+        hexcode: '1F466-1F3FD',
         sheet: [13, 37]
       },
       {
-        unified: '1F466-1F3FE',
+        hexcode: '1F466-1F3FE',
         sheet: [13, 38]
       },
       {
-        unified: '1F466-1F3FF',
+        hexcode: '1F466-1F3FF',
         sheet: [13, 39]
       }
     ],
     shortName: 'boy'
   },
   {
-    name: 'Girl',
-    unified: '1F467',
-    keywords: [
+    label: 'Girl',
+    hexcode: '1F467',
+    tags: [
       'girl',
       'female',
       'woman',
       'teenager'
     ],
     sheet: [13, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F467-1F3FB',
+        hexcode: '1F467-1F3FB',
         sheet: [13, 41]
       },
       {
-        unified: '1F467-1F3FC',
+        hexcode: '1F467-1F3FC',
         sheet: [13, 42]
       },
       {
-        unified: '1F467-1F3FD',
+        hexcode: '1F467-1F3FD',
         sheet: [13, 43]
       },
       {
-        unified: '1F467-1F3FE',
+        hexcode: '1F467-1F3FE',
         sheet: [13, 44]
       },
       {
-        unified: '1F467-1F3FF',
+        hexcode: '1F467-1F3FF',
         sheet: [13, 45]
       }
     ],
     shortName: 'girl'
   },
   {
-    name: 'Adult',
-    unified: '1F9D1',
-    keywords: [
+    label: 'Adult',
+    hexcode: '1F9D1',
+    tags: [
       'person',
       'gender-neutral',
       'person'
     ],
     sheet: [50, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FB',
         sheet: [50, 6]
       },
       {
-        unified: '1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FC',
         sheet: [50, 7]
       },
       {
-        unified: '1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FD',
         sheet: [50, 8]
       },
       {
-        unified: '1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FE',
         sheet: [50, 9]
       },
       {
-        unified: '1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FF',
         sheet: [50, 10]
       }
     ],
     shortName: 'adult'
   },
   {
-    name: 'Person with Blond Hair',
-    unified: '1F471',
-    keywords: [
+    label: 'Person with Blond Hair',
+    hexcode: '1F471',
+    tags: [
       'person_blond_hair',
       'hairstyle'
     ],
     sheet: [23, 47],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F471-1F3FB',
+        hexcode: '1F471-1F3FB',
         sheet: [23, 48]
       },
       {
-        unified: '1F471-1F3FC',
+        hexcode: '1F471-1F3FC',
         sheet: [23, 49]
       },
       {
-        unified: '1F471-1F3FD',
+        hexcode: '1F471-1F3FD',
         sheet: [23, 50]
       },
       {
-        unified: '1F471-1F3FE',
+        hexcode: '1F471-1F3FE',
         sheet: [23, 51]
       },
       {
-        unified: '1F471-1F3FF',
+        hexcode: '1F471-1F3FF',
         sheet: [23, 52]
       }
     ],
@@ -4404,9 +4404,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F471-200D-2642-FE0F'
   },
   {
-    name: 'Man',
-    unified: '1F468',
-    keywords: [
+    label: 'Man',
+    hexcode: '1F468',
+    tags: [
       'man',
       'mustache',
       'father',
@@ -4417,95 +4417,95 @@ export const emojis: CompressedEmojiData[] = [
       'moustache'
     ],
     sheet: [17, 13],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB',
+        hexcode: '1F468-1F3FB',
         sheet: [17, 14]
       },
       {
-        unified: '1F468-1F3FC',
+        hexcode: '1F468-1F3FC',
         sheet: [17, 15]
       },
       {
-        unified: '1F468-1F3FD',
+        hexcode: '1F468-1F3FD',
         sheet: [17, 16]
       },
       {
-        unified: '1F468-1F3FE',
+        hexcode: '1F468-1F3FE',
         sheet: [17, 17]
       },
       {
-        unified: '1F468-1F3FF',
+        hexcode: '1F468-1F3FF',
         sheet: [17, 18]
       }
     ],
     shortName: 'man'
   },
   {
-    name: 'Bearded Person',
-    unified: '1F9D4',
-    keywords: [
+    label: 'Bearded Person',
+    hexcode: '1F9D4',
+    tags: [
       'man_beard',
       'person',
       'bewhiskered'
     ],
     sheet: [50, 35],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D4-1F3FB',
+        hexcode: '1F9D4-1F3FB',
         sheet: [50, 36]
       },
       {
-        unified: '1F9D4-1F3FC',
+        hexcode: '1F9D4-1F3FC',
         sheet: [50, 37]
       },
       {
-        unified: '1F9D4-1F3FD',
+        hexcode: '1F9D4-1F3FD',
         sheet: [50, 38]
       },
       {
-        unified: '1F9D4-1F3FE',
+        hexcode: '1F9D4-1F3FE',
         sheet: [50, 39]
       },
       {
-        unified: '1F9D4-1F3FF',
+        hexcode: '1F9D4-1F3FF',
         sheet: [50, 40]
       }
     ],
     shortName: 'bearded_person'
   },
   {
-    name: 'Man: Beard',
-    unified: '1F9D4-200D-2642-FE0F',
-    keywords: [
+    label: 'Man: Beard',
+    hexcode: '1F9D4-200D-2642-FE0F',
+    tags: [
       'man beard',
       'facial hair'
     ],
     sheet: [50, 29],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D4-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9D4-1F3FB-200D-2642-FE0F',
         sheet: [50, 30],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9D4-1F3FC-200D-2642-FE0F',
         sheet: [50, 31],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9D4-1F3FD-200D-2642-FE0F',
         sheet: [50, 32],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9D4-1F3FE-200D-2642-FE0F',
         sheet: [50, 33],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9D4-1F3FF-200D-2642-FE0F',
         sheet: [50, 34],
         hidden: ['facebook']
       }
@@ -4513,37 +4513,37 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man_with_beard'
   },
   {
-    name: 'Woman: Beard',
-    unified: '1F9D4-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman: Beard',
+    hexcode: '1F9D4-200D-2640-FE0F',
+    tags: [
       'woman beard',
       'facial hair'
     ],
     sheet: [50, 23],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D4-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9D4-1F3FB-200D-2640-FE0F',
         sheet: [50, 24],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9D4-1F3FC-200D-2640-FE0F',
         sheet: [50, 25],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9D4-1F3FD-200D-2640-FE0F',
         sheet: [50, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9D4-1F3FE-200D-2640-FE0F',
         sheet: [50, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D4-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9D4-1F3FF-200D-2640-FE0F',
         sheet: [50, 28],
         hidden: ['facebook']
       }
@@ -4551,359 +4551,359 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman_with_beard'
   },
   {
-    name: 'Man: Red Hair',
-    unified: '1F468-200D-1F9B0',
-    keywords: [
+    label: 'Man: Red Hair',
+    hexcode: '1F468-200D-1F9B0',
+    tags: [
       'man_red_hair',
       'hairstyle'
     ],
     sheet: [15, 29],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9B0',
+        hexcode: '1F468-1F3FB-200D-1F9B0',
         sheet: [15, 30]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9B0',
+        hexcode: '1F468-1F3FC-200D-1F9B0',
         sheet: [15, 31]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9B0',
+        hexcode: '1F468-1F3FD-200D-1F9B0',
         sheet: [15, 32]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9B0',
+        hexcode: '1F468-1F3FE-200D-1F9B0',
         sheet: [15, 33]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9B0',
+        hexcode: '1F468-1F3FF-200D-1F9B0',
         sheet: [15, 34]
       }
     ],
     shortName: 'red_haired_man'
   },
   {
-    name: 'Man: Curly Hair',
-    unified: '1F468-200D-1F9B1',
-    keywords: [
+    label: 'Man: Curly Hair',
+    hexcode: '1F468-200D-1F9B1',
+    tags: [
       'man_curly_hair',
       'hairstyle'
     ],
     sheet: [15, 35],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9B1',
+        hexcode: '1F468-1F3FB-200D-1F9B1',
         sheet: [15, 36]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9B1',
+        hexcode: '1F468-1F3FC-200D-1F9B1',
         sheet: [15, 37]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9B1',
+        hexcode: '1F468-1F3FD-200D-1F9B1',
         sheet: [15, 38]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9B1',
+        hexcode: '1F468-1F3FE-200D-1F9B1',
         sheet: [15, 39]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9B1',
+        hexcode: '1F468-1F3FF-200D-1F9B1',
         sheet: [15, 40]
       }
     ],
     shortName: 'curly_haired_man'
   },
   {
-    name: 'Man: White Hair',
-    unified: '1F468-200D-1F9B3',
-    keywords: [
+    label: 'Man: White Hair',
+    hexcode: '1F468-200D-1F9B3',
+    tags: [
       'man_white_hair',
       'old',
       'elder'
     ],
     sheet: [15, 47],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9B3',
+        hexcode: '1F468-1F3FB-200D-1F9B3',
         sheet: [15, 48]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9B3',
+        hexcode: '1F468-1F3FC-200D-1F9B3',
         sheet: [15, 49]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9B3',
+        hexcode: '1F468-1F3FD-200D-1F9B3',
         sheet: [15, 50]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9B3',
+        hexcode: '1F468-1F3FE-200D-1F9B3',
         sheet: [15, 51]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9B3',
+        hexcode: '1F468-1F3FF-200D-1F9B3',
         sheet: [15, 52]
       }
     ],
     shortName: 'white_haired_man'
   },
   {
-    name: 'Man: Bald',
-    unified: '1F468-200D-1F9B2',
-    keywords: ['man_bald', 'hairless'],
+    label: 'Man: Bald',
+    hexcode: '1F468-200D-1F9B2',
+    tags: ['man_bald', 'hairless'],
     sheet: [15, 41],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9B2',
+        hexcode: '1F468-1F3FB-200D-1F9B2',
         sheet: [15, 42]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9B2',
+        hexcode: '1F468-1F3FC-200D-1F9B2',
         sheet: [15, 43]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9B2',
+        hexcode: '1F468-1F3FD-200D-1F9B2',
         sheet: [15, 44]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9B2',
+        hexcode: '1F468-1F3FE-200D-1F9B2',
         sheet: [15, 45]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9B2',
+        hexcode: '1F468-1F3FF-200D-1F9B2',
         sheet: [15, 46]
       }
     ],
     shortName: 'bald_man'
   },
   {
-    name: 'Woman',
-    unified: '1F469',
-    keywords: [
+    label: 'Woman',
+    hexcode: '1F469',
+    tags: [
       'woman',
       'female',
       'girls',
       'lady'
     ],
     sheet: [21, 33],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB',
+        hexcode: '1F469-1F3FB',
         sheet: [21, 34]
       },
       {
-        unified: '1F469-1F3FC',
+        hexcode: '1F469-1F3FC',
         sheet: [21, 35]
       },
       {
-        unified: '1F469-1F3FD',
+        hexcode: '1F469-1F3FD',
         sheet: [21, 36]
       },
       {
-        unified: '1F469-1F3FE',
+        hexcode: '1F469-1F3FE',
         sheet: [21, 37]
       },
       {
-        unified: '1F469-1F3FF',
+        hexcode: '1F469-1F3FF',
         sheet: [21, 38]
       }
     ],
     shortName: 'woman'
   },
   {
-    name: 'Woman: Red Hair',
-    unified: '1F469-200D-1F9B0',
-    keywords: [
+    label: 'Woman: Red Hair',
+    hexcode: '1F469-200D-1F9B0',
+    tags: [
       'woman_red_hair',
       'hairstyle'
     ],
     sheet: [18, 58],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9B0',
+        hexcode: '1F469-1F3FB-200D-1F9B0',
         sheet: [18, 59]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9B0',
+        hexcode: '1F469-1F3FC-200D-1F9B0',
         sheet: [18, 60]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9B0',
+        hexcode: '1F469-1F3FD-200D-1F9B0',
         sheet: [19, 0]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9B0',
+        hexcode: '1F469-1F3FE-200D-1F9B0',
         sheet: [19, 1]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9B0',
+        hexcode: '1F469-1F3FF-200D-1F9B0',
         sheet: [19, 2]
       }
     ],
     shortName: 'red_haired_woman'
   },
   {
-    name: 'Person: Red Hair',
-    unified: '1F9D1-200D-1F9B0',
-    keywords: [
+    label: 'Person: Red Hair',
+    hexcode: '1F9D1-200D-1F9B0',
+    tags: [
       'person_red_hair',
       'hairstyle'
     ],
     sheet: [49, 12],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9B0',
+        hexcode: '1F9D1-1F3FB-200D-1F9B0',
         sheet: [49, 13]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9B0',
+        hexcode: '1F9D1-1F3FC-200D-1F9B0',
         sheet: [49, 14]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9B0',
+        hexcode: '1F9D1-1F3FD-200D-1F9B0',
         sheet: [49, 15]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9B0',
+        hexcode: '1F9D1-1F3FE-200D-1F9B0',
         sheet: [49, 16]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9B0',
+        hexcode: '1F9D1-1F3FF-200D-1F9B0',
         sheet: [49, 17]
       }
     ],
     shortName: 'red_haired_person'
   },
   {
-    name: 'Woman: Curly Hair',
-    unified: '1F469-200D-1F9B1',
-    keywords: [
+    label: 'Woman: Curly Hair',
+    hexcode: '1F469-200D-1F9B1',
+    tags: [
       'woman_curly_hair',
       'hairstyle'
     ],
     sheet: [19, 3],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9B1',
+        hexcode: '1F469-1F3FB-200D-1F9B1',
         sheet: [19, 4]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9B1',
+        hexcode: '1F469-1F3FC-200D-1F9B1',
         sheet: [19, 5]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9B1',
+        hexcode: '1F469-1F3FD-200D-1F9B1',
         sheet: [19, 6]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9B1',
+        hexcode: '1F469-1F3FE-200D-1F9B1',
         sheet: [19, 7]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9B1',
+        hexcode: '1F469-1F3FF-200D-1F9B1',
         sheet: [19, 8]
       }
     ],
     shortName: 'curly_haired_woman'
   },
   {
-    name: 'Person: Curly Hair',
-    unified: '1F9D1-200D-1F9B1',
-    keywords: [
+    label: 'Person: Curly Hair',
+    hexcode: '1F9D1-200D-1F9B1',
+    tags: [
       'person_curly_hair',
       'hairstyle'
     ],
     sheet: [49, 18],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9B1',
+        hexcode: '1F9D1-1F3FB-200D-1F9B1',
         sheet: [49, 19]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9B1',
+        hexcode: '1F9D1-1F3FC-200D-1F9B1',
         sheet: [49, 20]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9B1',
+        hexcode: '1F9D1-1F3FD-200D-1F9B1',
         sheet: [49, 21]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9B1',
+        hexcode: '1F9D1-1F3FE-200D-1F9B1',
         sheet: [49, 22]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9B1',
+        hexcode: '1F9D1-1F3FF-200D-1F9B1',
         sheet: [49, 23]
       }
     ],
     shortName: 'curly_haired_person'
   },
   {
-    name: 'Woman: White Hair',
-    unified: '1F469-200D-1F9B3',
-    keywords: [
+    label: 'Woman: White Hair',
+    hexcode: '1F469-200D-1F9B3',
+    tags: [
       'woman_white_hair',
       'old',
       'elder'
     ],
     sheet: [19, 15],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9B3',
+        hexcode: '1F469-1F3FB-200D-1F9B3',
         sheet: [19, 16]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9B3',
+        hexcode: '1F469-1F3FC-200D-1F9B3',
         sheet: [19, 17]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9B3',
+        hexcode: '1F469-1F3FD-200D-1F9B3',
         sheet: [19, 18]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9B3',
+        hexcode: '1F469-1F3FE-200D-1F9B3',
         sheet: [19, 19]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9B3',
+        hexcode: '1F469-1F3FF-200D-1F9B3',
         sheet: [19, 20]
       }
     ],
     shortName: 'white_haired_woman'
   },
   {
-    name: 'Person: White Hair',
-    unified: '1F9D1-200D-1F9B3',
-    keywords: [
+    label: 'Person: White Hair',
+    hexcode: '1F9D1-200D-1F9B3',
+    tags: [
       'person_white_hair',
       'elder',
       'old'
     ],
     sheet: [49, 30],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9B3',
+        hexcode: '1F9D1-1F3FB-200D-1F9B3',
         sheet: [49, 31],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9B3',
+        hexcode: '1F9D1-1F3FC-200D-1F9B3',
         sheet: [49, 32],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9B3',
+        hexcode: '1F9D1-1F3FD-200D-1F9B3',
         sheet: [49, 33],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9B3',
+        hexcode: '1F9D1-1F3FE-200D-1F9B3',
         sheet: [49, 34],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9B3',
+        hexcode: '1F9D1-1F3FF-200D-1F9B3',
         sheet: [49, 35],
         hidden: ['facebook']
       }
@@ -4911,69 +4911,69 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_haired_person'
   },
   {
-    name: 'Woman: Bald',
-    unified: '1F469-200D-1F9B2',
-    keywords: [
+    label: 'Woman: Bald',
+    hexcode: '1F469-200D-1F9B2',
+    tags: [
       'woman_bald',
       'hairless'
     ],
     sheet: [19, 9],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9B2',
+        hexcode: '1F469-1F3FB-200D-1F9B2',
         sheet: [19, 10]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9B2',
+        hexcode: '1F469-1F3FC-200D-1F9B2',
         sheet: [19, 11]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9B2',
+        hexcode: '1F469-1F3FD-200D-1F9B2',
         sheet: [19, 12]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9B2',
+        hexcode: '1F469-1F3FE-200D-1F9B2',
         sheet: [19, 13]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9B2',
+        hexcode: '1F469-1F3FF-200D-1F9B2',
         sheet: [19, 14]
       }
     ],
     shortName: 'bald_woman'
   },
   {
-    name: 'Person: Bald',
-    unified: '1F9D1-200D-1F9B2',
-    keywords: [
+    label: 'Person: Bald',
+    hexcode: '1F9D1-200D-1F9B2',
+    tags: [
       'person_bald',
       'hairless'
     ],
     sheet: [49, 24],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9B2',
+        hexcode: '1F9D1-1F3FB-200D-1F9B2',
         sheet: [49, 25],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9B2',
+        hexcode: '1F9D1-1F3FC-200D-1F9B2',
         sheet: [49, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9B2',
+        hexcode: '1F9D1-1F3FD-200D-1F9B2',
         sheet: [49, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9B2',
+        hexcode: '1F9D1-1F3FE-200D-1F9B2',
         sheet: [49, 28],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9B2',
+        hexcode: '1F9D1-1F3FF-200D-1F9B2',
         sheet: [49, 29],
         hidden: ['facebook']
       }
@@ -4981,9 +4981,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bald_person'
   },
   {
-    name: 'Woman: Blond Hair',
-    unified: '1F471-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman: Blond Hair',
+    hexcode: '1F471-200D-2640-FE0F',
+    tags: [
       'woman_blond_hair',
       'woman',
       'female',
@@ -4992,35 +4992,35 @@ export const emojis: CompressedEmojiData[] = [
       'person'
     ],
     sheet: [23, 35],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F471-1F3FB-200D-2640-FE0F',
+        hexcode: '1F471-1F3FB-200D-2640-FE0F',
         sheet: [23, 36]
       },
       {
-        unified: '1F471-1F3FC-200D-2640-FE0F',
+        hexcode: '1F471-1F3FC-200D-2640-FE0F',
         sheet: [23, 37]
       },
       {
-        unified: '1F471-1F3FD-200D-2640-FE0F',
+        hexcode: '1F471-1F3FD-200D-2640-FE0F',
         sheet: [23, 38]
       },
       {
-        unified: '1F471-1F3FE-200D-2640-FE0F',
+        hexcode: '1F471-1F3FE-200D-2640-FE0F',
         sheet: [23, 39]
       },
       {
-        unified: '1F471-1F3FF-200D-2640-FE0F',
+        hexcode: '1F471-1F3FF-200D-2640-FE0F',
         sheet: [23, 40]
       }
     ],
     shortName: 'blond-haired-woman'
   },
   {
-    name: 'Man: Blond Hair',
-    unified: '1F471-200D-2642-FE0F',
+    label: 'Man: Blond Hair',
+    hexcode: '1F471-200D-2642-FE0F',
     obsoletes: '1F471',
-    keywords: [
+    tags: [
       'man_blond_hair',
       'man',
       'male',
@@ -5030,34 +5030,34 @@ export const emojis: CompressedEmojiData[] = [
       'person'
     ],
     sheet: [23, 41],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F471-1F3FB-200D-2642-FE0F',
+        hexcode: '1F471-1F3FB-200D-2642-FE0F',
         sheet: [23, 42]
       },
       {
-        unified: '1F471-1F3FC-200D-2642-FE0F',
+        hexcode: '1F471-1F3FC-200D-2642-FE0F',
         sheet: [23, 43]
       },
       {
-        unified: '1F471-1F3FD-200D-2642-FE0F',
+        hexcode: '1F471-1F3FD-200D-2642-FE0F',
         sheet: [23, 44]
       },
       {
-        unified: '1F471-1F3FE-200D-2642-FE0F',
+        hexcode: '1F471-1F3FE-200D-2642-FE0F',
         sheet: [23, 45]
       },
       {
-        unified: '1F471-1F3FF-200D-2642-FE0F',
+        hexcode: '1F471-1F3FF-200D-2642-FE0F',
         sheet: [23, 46]
       }
     ],
     shortName: 'blond-haired-man'
   },
   {
-    name: 'Older Adult',
-    unified: '1F9D3',
-    keywords: [
+    label: 'Older Adult',
+    hexcode: '1F9D3',
+    tags: [
       'older_person',
       'human',
       'elder',
@@ -5065,34 +5065,34 @@ export const emojis: CompressedEmojiData[] = [
       'gender-neutral'
     ],
     sheet: [50, 17],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D3-1F3FB',
+        hexcode: '1F9D3-1F3FB',
         sheet: [50, 18]
       },
       {
-        unified: '1F9D3-1F3FC',
+        hexcode: '1F9D3-1F3FC',
         sheet: [50, 19]
       },
       {
-        unified: '1F9D3-1F3FD',
+        hexcode: '1F9D3-1F3FD',
         sheet: [50, 20]
       },
       {
-        unified: '1F9D3-1F3FE',
+        hexcode: '1F9D3-1F3FE',
         sheet: [50, 21]
       },
       {
-        unified: '1F9D3-1F3FF',
+        hexcode: '1F9D3-1F3FF',
         sheet: [50, 22]
       }
     ],
     shortName: 'older_adult'
   },
   {
-    name: 'Older Man',
-    unified: '1F474',
-    keywords: [
+    label: 'Older Man',
+    hexcode: '1F474',
+    tags: [
       'old_man',
       'human',
       'male',
@@ -5102,34 +5102,34 @@ export const emojis: CompressedEmojiData[] = [
       'senior'
     ],
     sheet: [24, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F474-1F3FB',
+        hexcode: '1F474-1F3FB',
         sheet: [24, 17]
       },
       {
-        unified: '1F474-1F3FC',
+        hexcode: '1F474-1F3FC',
         sheet: [24, 18]
       },
       {
-        unified: '1F474-1F3FD',
+        hexcode: '1F474-1F3FD',
         sheet: [24, 19]
       },
       {
-        unified: '1F474-1F3FE',
+        hexcode: '1F474-1F3FE',
         sheet: [24, 20]
       },
       {
-        unified: '1F474-1F3FF',
+        hexcode: '1F474-1F3FF',
         sheet: [24, 21]
       }
     ],
     shortName: 'older_man'
   },
   {
-    name: 'Older Woman',
-    unified: '1F475',
-    keywords: [
+    label: 'Older Woman',
+    hexcode: '1F475',
+    tags: [
       'old_woman',
       'human',
       'female',
@@ -5140,57 +5140,57 @@ export const emojis: CompressedEmojiData[] = [
       'senior'
     ],
     sheet: [24, 22],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F475-1F3FB',
+        hexcode: '1F475-1F3FB',
         sheet: [24, 23]
       },
       {
-        unified: '1F475-1F3FC',
+        hexcode: '1F475-1F3FC',
         sheet: [24, 24]
       },
       {
-        unified: '1F475-1F3FD',
+        hexcode: '1F475-1F3FD',
         sheet: [24, 25]
       },
       {
-        unified: '1F475-1F3FE',
+        hexcode: '1F475-1F3FE',
         sheet: [24, 26]
       },
       {
-        unified: '1F475-1F3FF',
+        hexcode: '1F475-1F3FF',
         sheet: [24, 27]
       }
     ],
     shortName: 'older_woman'
   },
   {
-    name: 'Person Frowning',
-    unified: '1F64D',
-    keywords: [
+    label: 'Person Frowning',
+    hexcode: '1F64D',
+    tags: [
       'person_frowning',
       'worried'
     ],
     sheet: [35, 2],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64D-1F3FB',
+        hexcode: '1F64D-1F3FB',
         sheet: [35, 3]
       },
       {
-        unified: '1F64D-1F3FC',
+        hexcode: '1F64D-1F3FC',
         sheet: [35, 4]
       },
       {
-        unified: '1F64D-1F3FD',
+        hexcode: '1F64D-1F3FD',
         sheet: [35, 5]
       },
       {
-        unified: '1F64D-1F3FE',
+        hexcode: '1F64D-1F3FE',
         sheet: [35, 6]
       },
       {
-        unified: '1F64D-1F3FF',
+        hexcode: '1F64D-1F3FF',
         sheet: [35, 7]
       }
     ],
@@ -5198,9 +5198,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F64D-200D-2640-FE0F'
   },
   {
-    name: 'Man Frowning',
-    unified: '1F64D-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Frowning',
+    hexcode: '1F64D-200D-2642-FE0F',
+    tags: [
       'man_frowning',
       'male',
       'boy',
@@ -5211,35 +5211,35 @@ export const emojis: CompressedEmojiData[] = [
       'unhappy'
     ],
     sheet: [34, 57],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64D-1F3FB-200D-2642-FE0F',
+        hexcode: '1F64D-1F3FB-200D-2642-FE0F',
         sheet: [34, 58]
       },
       {
-        unified: '1F64D-1F3FC-200D-2642-FE0F',
+        hexcode: '1F64D-1F3FC-200D-2642-FE0F',
         sheet: [34, 59]
       },
       {
-        unified: '1F64D-1F3FD-200D-2642-FE0F',
+        hexcode: '1F64D-1F3FD-200D-2642-FE0F',
         sheet: [34, 60]
       },
       {
-        unified: '1F64D-1F3FE-200D-2642-FE0F',
+        hexcode: '1F64D-1F3FE-200D-2642-FE0F',
         sheet: [35, 0]
       },
       {
-        unified: '1F64D-1F3FF-200D-2642-FE0F',
+        hexcode: '1F64D-1F3FF-200D-2642-FE0F',
         sheet: [35, 1]
       }
     ],
     shortName: 'man-frowning'
   },
   {
-    name: 'Woman Frowning',
-    unified: '1F64D-200D-2640-FE0F',
+    label: 'Woman Frowning',
+    hexcode: '1F64D-200D-2640-FE0F',
     obsoletes: '1F64D',
-    keywords: [
+    tags: [
       'woman_frowning',
       'female',
       'girl',
@@ -5250,57 +5250,57 @@ export const emojis: CompressedEmojiData[] = [
       'unhappy'
     ],
     sheet: [34, 51],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64D-1F3FB-200D-2640-FE0F',
+        hexcode: '1F64D-1F3FB-200D-2640-FE0F',
         sheet: [34, 52]
       },
       {
-        unified: '1F64D-1F3FC-200D-2640-FE0F',
+        hexcode: '1F64D-1F3FC-200D-2640-FE0F',
         sheet: [34, 53]
       },
       {
-        unified: '1F64D-1F3FD-200D-2640-FE0F',
+        hexcode: '1F64D-1F3FD-200D-2640-FE0F',
         sheet: [34, 54]
       },
       {
-        unified: '1F64D-1F3FE-200D-2640-FE0F',
+        hexcode: '1F64D-1F3FE-200D-2640-FE0F',
         sheet: [34, 55]
       },
       {
-        unified: '1F64D-1F3FF-200D-2640-FE0F',
+        hexcode: '1F64D-1F3FF-200D-2640-FE0F',
         sheet: [34, 56]
       }
     ],
     shortName: 'woman-frowning'
   },
   {
-    name: 'Person with Pouting Face',
-    unified: '1F64E',
-    keywords: [
+    label: 'Person with Pouting Face',
+    hexcode: '1F64E',
+    tags: [
       'person_pouting',
       'upset'
     ],
     sheet: [35, 20],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64E-1F3FB',
+        hexcode: '1F64E-1F3FB',
         sheet: [35, 21]
       },
       {
-        unified: '1F64E-1F3FC',
+        hexcode: '1F64E-1F3FC',
         sheet: [35, 22]
       },
       {
-        unified: '1F64E-1F3FD',
+        hexcode: '1F64E-1F3FD',
         sheet: [35, 23]
       },
       {
-        unified: '1F64E-1F3FE',
+        hexcode: '1F64E-1F3FE',
         sheet: [35, 24]
       },
       {
-        unified: '1F64E-1F3FF',
+        hexcode: '1F64E-1F3FF',
         sheet: [35, 25]
       }
     ],
@@ -5308,101 +5308,101 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F64E-200D-2640-FE0F'
   },
   {
-    name: 'Man Pouting',
-    unified: '1F64E-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Pouting',
+    hexcode: '1F64E-200D-2642-FE0F',
+    tags: [
       'man_pouting',
       'male',
       'boy',
       'man'
     ],
     sheet: [35, 14],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64E-1F3FB-200D-2642-FE0F',
+        hexcode: '1F64E-1F3FB-200D-2642-FE0F',
         sheet: [35, 15]
       },
       {
-        unified: '1F64E-1F3FC-200D-2642-FE0F',
+        hexcode: '1F64E-1F3FC-200D-2642-FE0F',
         sheet: [35, 16]
       },
       {
-        unified: '1F64E-1F3FD-200D-2642-FE0F',
+        hexcode: '1F64E-1F3FD-200D-2642-FE0F',
         sheet: [35, 17]
       },
       {
-        unified: '1F64E-1F3FE-200D-2642-FE0F',
+        hexcode: '1F64E-1F3FE-200D-2642-FE0F',
         sheet: [35, 18]
       },
       {
-        unified: '1F64E-1F3FF-200D-2642-FE0F',
+        hexcode: '1F64E-1F3FF-200D-2642-FE0F',
         sheet: [35, 19]
       }
     ],
     shortName: 'man-pouting'
   },
   {
-    name: 'Woman Pouting',
-    unified: '1F64E-200D-2640-FE0F',
+    label: 'Woman Pouting',
+    hexcode: '1F64E-200D-2640-FE0F',
     obsoletes: '1F64E',
-    keywords: [
+    tags: [
       'woman_pouting',
       'female',
       'girl',
       'woman'
     ],
     sheet: [35, 8],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64E-1F3FB-200D-2640-FE0F',
+        hexcode: '1F64E-1F3FB-200D-2640-FE0F',
         sheet: [35, 9]
       },
       {
-        unified: '1F64E-1F3FC-200D-2640-FE0F',
+        hexcode: '1F64E-1F3FC-200D-2640-FE0F',
         sheet: [35, 10]
       },
       {
-        unified: '1F64E-1F3FD-200D-2640-FE0F',
+        hexcode: '1F64E-1F3FD-200D-2640-FE0F',
         sheet: [35, 11]
       },
       {
-        unified: '1F64E-1F3FE-200D-2640-FE0F',
+        hexcode: '1F64E-1F3FE-200D-2640-FE0F',
         sheet: [35, 12]
       },
       {
-        unified: '1F64E-1F3FF-200D-2640-FE0F',
+        hexcode: '1F64E-1F3FF-200D-2640-FE0F',
         sheet: [35, 13]
       }
     ],
     shortName: 'woman-pouting'
   },
   {
-    name: 'Face with No Good Gesture',
-    unified: '1F645',
-    keywords: [
+    label: 'Face with No Good Gesture',
+    hexcode: '1F645',
+    tags: [
       'person_gesturing_no',
       'decline'
     ],
     sheet: [33, 43],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F645-1F3FB',
+        hexcode: '1F645-1F3FB',
         sheet: [33, 44]
       },
       {
-        unified: '1F645-1F3FC',
+        hexcode: '1F645-1F3FC',
         sheet: [33, 45]
       },
       {
-        unified: '1F645-1F3FD',
+        hexcode: '1F645-1F3FD',
         sheet: [33, 46]
       },
       {
-        unified: '1F645-1F3FE',
+        hexcode: '1F645-1F3FE',
         sheet: [33, 47]
       },
       {
-        unified: '1F645-1F3FF',
+        hexcode: '1F645-1F3FF',
         sheet: [33, 48]
       }
     ],
@@ -5410,9 +5410,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F645-200D-2640-FE0F'
   },
   {
-    name: 'Man Gesturing No',
-    unified: '1F645-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Gesturing No',
+    hexcode: '1F645-200D-2642-FE0F',
+    tags: [
       'man_gesturing_no',
       'male',
       'boy',
@@ -5420,35 +5420,35 @@ export const emojis: CompressedEmojiData[] = [
       'nope'
     ],
     sheet: [33, 37],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F645-1F3FB-200D-2642-FE0F',
+        hexcode: '1F645-1F3FB-200D-2642-FE0F',
         sheet: [33, 38]
       },
       {
-        unified: '1F645-1F3FC-200D-2642-FE0F',
+        hexcode: '1F645-1F3FC-200D-2642-FE0F',
         sheet: [33, 39]
       },
       {
-        unified: '1F645-1F3FD-200D-2642-FE0F',
+        hexcode: '1F645-1F3FD-200D-2642-FE0F',
         sheet: [33, 40]
       },
       {
-        unified: '1F645-1F3FE-200D-2642-FE0F',
+        hexcode: '1F645-1F3FE-200D-2642-FE0F',
         sheet: [33, 41]
       },
       {
-        unified: '1F645-1F3FF-200D-2642-FE0F',
+        hexcode: '1F645-1F3FF-200D-2642-FE0F',
         sheet: [33, 42]
       }
     ],
     shortName: 'man-gesturing-no'
   },
   {
-    name: 'Woman Gesturing No',
-    unified: '1F645-200D-2640-FE0F',
+    label: 'Woman Gesturing No',
+    hexcode: '1F645-200D-2640-FE0F',
     obsoletes: '1F645',
-    keywords: [
+    tags: [
       'woman_gesturing_no',
       'female',
       'girl',
@@ -5456,57 +5456,57 @@ export const emojis: CompressedEmojiData[] = [
       'nope'
     ],
     sheet: [33, 31],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F645-1F3FB-200D-2640-FE0F',
+        hexcode: '1F645-1F3FB-200D-2640-FE0F',
         sheet: [33, 32]
       },
       {
-        unified: '1F645-1F3FC-200D-2640-FE0F',
+        hexcode: '1F645-1F3FC-200D-2640-FE0F',
         sheet: [33, 33]
       },
       {
-        unified: '1F645-1F3FD-200D-2640-FE0F',
+        hexcode: '1F645-1F3FD-200D-2640-FE0F',
         sheet: [33, 34]
       },
       {
-        unified: '1F645-1F3FE-200D-2640-FE0F',
+        hexcode: '1F645-1F3FE-200D-2640-FE0F',
         sheet: [33, 35]
       },
       {
-        unified: '1F645-1F3FF-200D-2640-FE0F',
+        hexcode: '1F645-1F3FF-200D-2640-FE0F',
         sheet: [33, 36]
       }
     ],
     shortName: 'woman-gesturing-no'
   },
   {
-    name: 'Face with Ok Gesture',
-    unified: '1F646',
-    keywords: [
+    label: 'Face with Ok Gesture',
+    hexcode: '1F646',
+    tags: [
       'person_gesturing_ok',
       'agree'
     ],
     sheet: [34, 0],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F646-1F3FB',
+        hexcode: '1F646-1F3FB',
         sheet: [34, 1]
       },
       {
-        unified: '1F646-1F3FC',
+        hexcode: '1F646-1F3FC',
         sheet: [34, 2]
       },
       {
-        unified: '1F646-1F3FD',
+        hexcode: '1F646-1F3FD',
         sheet: [34, 3]
       },
       {
-        unified: '1F646-1F3FE',
+        hexcode: '1F646-1F3FE',
         sheet: [34, 4]
       },
       {
-        unified: '1F646-1F3FF',
+        hexcode: '1F646-1F3FF',
         sheet: [34, 5]
       }
     ],
@@ -5514,9 +5514,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F646-200D-2640-FE0F'
   },
   {
-    name: 'Man Gesturing Ok',
-    unified: '1F646-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Gesturing Ok',
+    hexcode: '1F646-200D-2642-FE0F',
+    tags: [
       'man_gesturing_ok',
       'men',
       'boy',
@@ -5526,35 +5526,35 @@ export const emojis: CompressedEmojiData[] = [
       'man'
     ],
     sheet: [33, 55],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F646-1F3FB-200D-2642-FE0F',
+        hexcode: '1F646-1F3FB-200D-2642-FE0F',
         sheet: [33, 56]
       },
       {
-        unified: '1F646-1F3FC-200D-2642-FE0F',
+        hexcode: '1F646-1F3FC-200D-2642-FE0F',
         sheet: [33, 57]
       },
       {
-        unified: '1F646-1F3FD-200D-2642-FE0F',
+        hexcode: '1F646-1F3FD-200D-2642-FE0F',
         sheet: [33, 58]
       },
       {
-        unified: '1F646-1F3FE-200D-2642-FE0F',
+        hexcode: '1F646-1F3FE-200D-2642-FE0F',
         sheet: [33, 59]
       },
       {
-        unified: '1F646-1F3FF-200D-2642-FE0F',
+        hexcode: '1F646-1F3FF-200D-2642-FE0F',
         sheet: [33, 60]
       }
     ],
     shortName: 'man-gesturing-ok'
   },
   {
-    name: 'Woman Gesturing Ok',
-    unified: '1F646-200D-2640-FE0F',
+    label: 'Woman Gesturing Ok',
+    hexcode: '1F646-200D-2640-FE0F',
     obsoletes: '1F646',
-    keywords: [
+    tags: [
       'woman_gesturing_ok',
       'women',
       'girl',
@@ -5564,57 +5564,57 @@ export const emojis: CompressedEmojiData[] = [
       'woman'
     ],
     sheet: [33, 49],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F646-1F3FB-200D-2640-FE0F',
+        hexcode: '1F646-1F3FB-200D-2640-FE0F',
         sheet: [33, 50]
       },
       {
-        unified: '1F646-1F3FC-200D-2640-FE0F',
+        hexcode: '1F646-1F3FC-200D-2640-FE0F',
         sheet: [33, 51]
       },
       {
-        unified: '1F646-1F3FD-200D-2640-FE0F',
+        hexcode: '1F646-1F3FD-200D-2640-FE0F',
         sheet: [33, 52]
       },
       {
-        unified: '1F646-1F3FE-200D-2640-FE0F',
+        hexcode: '1F646-1F3FE-200D-2640-FE0F',
         sheet: [33, 53]
       },
       {
-        unified: '1F646-1F3FF-200D-2640-FE0F',
+        hexcode: '1F646-1F3FF-200D-2640-FE0F',
         sheet: [33, 54]
       }
     ],
     shortName: 'woman-gesturing-ok'
   },
   {
-    name: 'Information Desk Person',
-    unified: '1F481',
-    keywords: [
+    label: 'Information Desk Person',
+    hexcode: '1F481',
+    tags: [
       'person_tipping_hand',
       'information'
     ],
     sheet: [25, 22],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F481-1F3FB',
+        hexcode: '1F481-1F3FB',
         sheet: [25, 23]
       },
       {
-        unified: '1F481-1F3FC',
+        hexcode: '1F481-1F3FC',
         sheet: [25, 24]
       },
       {
-        unified: '1F481-1F3FD',
+        hexcode: '1F481-1F3FD',
         sheet: [25, 25]
       },
       {
-        unified: '1F481-1F3FE',
+        hexcode: '1F481-1F3FE',
         sheet: [25, 26]
       },
       {
-        unified: '1F481-1F3FF',
+        hexcode: '1F481-1F3FF',
         sheet: [25, 27]
       }
     ],
@@ -5622,9 +5622,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F481-200D-2640-FE0F'
   },
   {
-    name: 'Man Tipping Hand',
-    unified: '1F481-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Tipping Hand',
+    hexcode: '1F481-200D-2642-FE0F',
+    tags: [
       'man_tipping_hand',
       'male',
       'boy',
@@ -5633,35 +5633,35 @@ export const emojis: CompressedEmojiData[] = [
       'information'
     ],
     sheet: [25, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F481-1F3FB-200D-2642-FE0F',
+        hexcode: '1F481-1F3FB-200D-2642-FE0F',
         sheet: [25, 17]
       },
       {
-        unified: '1F481-1F3FC-200D-2642-FE0F',
+        hexcode: '1F481-1F3FC-200D-2642-FE0F',
         sheet: [25, 18]
       },
       {
-        unified: '1F481-1F3FD-200D-2642-FE0F',
+        hexcode: '1F481-1F3FD-200D-2642-FE0F',
         sheet: [25, 19]
       },
       {
-        unified: '1F481-1F3FE-200D-2642-FE0F',
+        hexcode: '1F481-1F3FE-200D-2642-FE0F',
         sheet: [25, 20]
       },
       {
-        unified: '1F481-1F3FF-200D-2642-FE0F',
+        hexcode: '1F481-1F3FF-200D-2642-FE0F',
         sheet: [25, 21]
       }
     ],
     shortName: 'man-tipping-hand'
   },
   {
-    name: 'Woman Tipping Hand',
-    unified: '1F481-200D-2640-FE0F',
+    label: 'Woman Tipping Hand',
+    hexcode: '1F481-200D-2640-FE0F',
     obsoletes: '1F481',
-    keywords: [
+    tags: [
       'woman_tipping_hand',
       'female',
       'girl',
@@ -5670,57 +5670,57 @@ export const emojis: CompressedEmojiData[] = [
       'information'
     ],
     sheet: [25, 10],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F481-1F3FB-200D-2640-FE0F',
+        hexcode: '1F481-1F3FB-200D-2640-FE0F',
         sheet: [25, 11]
       },
       {
-        unified: '1F481-1F3FC-200D-2640-FE0F',
+        hexcode: '1F481-1F3FC-200D-2640-FE0F',
         sheet: [25, 12]
       },
       {
-        unified: '1F481-1F3FD-200D-2640-FE0F',
+        hexcode: '1F481-1F3FD-200D-2640-FE0F',
         sheet: [25, 13]
       },
       {
-        unified: '1F481-1F3FE-200D-2640-FE0F',
+        hexcode: '1F481-1F3FE-200D-2640-FE0F',
         sheet: [25, 14]
       },
       {
-        unified: '1F481-1F3FF-200D-2640-FE0F',
+        hexcode: '1F481-1F3FF-200D-2640-FE0F',
         sheet: [25, 15]
       }
     ],
     shortName: 'woman-tipping-hand'
   },
   {
-    name: 'Happy Person Raising One Hand',
-    unified: '1F64B',
-    keywords: [
+    label: 'Happy Person Raising One Hand',
+    hexcode: '1F64B',
+    tags: [
       'person_raising_hand',
       'question'
     ],
     sheet: [34, 39],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64B-1F3FB',
+        hexcode: '1F64B-1F3FB',
         sheet: [34, 40]
       },
       {
-        unified: '1F64B-1F3FC',
+        hexcode: '1F64B-1F3FC',
         sheet: [34, 41]
       },
       {
-        unified: '1F64B-1F3FD',
+        hexcode: '1F64B-1F3FD',
         sheet: [34, 42]
       },
       {
-        unified: '1F64B-1F3FE',
+        hexcode: '1F64B-1F3FE',
         sheet: [34, 43]
       },
       {
-        unified: '1F64B-1F3FF',
+        hexcode: '1F64B-1F3FF',
         sheet: [34, 44]
       }
     ],
@@ -5728,197 +5728,197 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F64B-200D-2640-FE0F'
   },
   {
-    name: 'Man Raising Hand',
-    unified: '1F64B-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Raising Hand',
+    hexcode: '1F64B-200D-2642-FE0F',
+    tags: [
       'man_raising_hand',
       'male',
       'boy',
       'man'
     ],
     sheet: [34, 33],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64B-1F3FB-200D-2642-FE0F',
+        hexcode: '1F64B-1F3FB-200D-2642-FE0F',
         sheet: [34, 34]
       },
       {
-        unified: '1F64B-1F3FC-200D-2642-FE0F',
+        hexcode: '1F64B-1F3FC-200D-2642-FE0F',
         sheet: [34, 35]
       },
       {
-        unified: '1F64B-1F3FD-200D-2642-FE0F',
+        hexcode: '1F64B-1F3FD-200D-2642-FE0F',
         sheet: [34, 36]
       },
       {
-        unified: '1F64B-1F3FE-200D-2642-FE0F',
+        hexcode: '1F64B-1F3FE-200D-2642-FE0F',
         sheet: [34, 37]
       },
       {
-        unified: '1F64B-1F3FF-200D-2642-FE0F',
+        hexcode: '1F64B-1F3FF-200D-2642-FE0F',
         sheet: [34, 38]
       }
     ],
     shortName: 'man-raising-hand'
   },
   {
-    name: 'Woman Raising Hand',
-    unified: '1F64B-200D-2640-FE0F',
+    label: 'Woman Raising Hand',
+    hexcode: '1F64B-200D-2640-FE0F',
     obsoletes: '1F64B',
-    keywords: [
+    tags: [
       'woman_raising_hand',
       'female',
       'girl',
       'woman'
     ],
     sheet: [34, 27],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F64B-1F3FB-200D-2640-FE0F',
+        hexcode: '1F64B-1F3FB-200D-2640-FE0F',
         sheet: [34, 28]
       },
       {
-        unified: '1F64B-1F3FC-200D-2640-FE0F',
+        hexcode: '1F64B-1F3FC-200D-2640-FE0F',
         sheet: [34, 29]
       },
       {
-        unified: '1F64B-1F3FD-200D-2640-FE0F',
+        hexcode: '1F64B-1F3FD-200D-2640-FE0F',
         sheet: [34, 30]
       },
       {
-        unified: '1F64B-1F3FE-200D-2640-FE0F',
+        hexcode: '1F64B-1F3FE-200D-2640-FE0F',
         sheet: [34, 31]
       },
       {
-        unified: '1F64B-1F3FF-200D-2640-FE0F',
+        hexcode: '1F64B-1F3FF-200D-2640-FE0F',
         sheet: [34, 32]
       }
     ],
     shortName: 'woman-raising-hand'
   },
   {
-    name: 'Deaf Person',
-    unified: '1F9CF',
-    keywords: [
+    label: 'Deaf Person',
+    hexcode: '1F9CF',
+    tags: [
       'deaf_person',
       'accessibility'
     ],
     sheet: [47, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CF-1F3FB',
+        hexcode: '1F9CF-1F3FB',
         sheet: [47, 6]
       },
       {
-        unified: '1F9CF-1F3FC',
+        hexcode: '1F9CF-1F3FC',
         sheet: [47, 7]
       },
       {
-        unified: '1F9CF-1F3FD',
+        hexcode: '1F9CF-1F3FD',
         sheet: [47, 8]
       },
       {
-        unified: '1F9CF-1F3FE',
+        hexcode: '1F9CF-1F3FE',
         sheet: [47, 9]
       },
       {
-        unified: '1F9CF-1F3FF',
+        hexcode: '1F9CF-1F3FF',
         sheet: [47, 10]
       }
     ],
     shortName: 'deaf_person'
   },
   {
-    name: 'Deaf Man',
-    unified: '1F9CF-200D-2642-FE0F',
-    keywords: [
+    label: 'Deaf Man',
+    hexcode: '1F9CF-200D-2642-FE0F',
+    tags: [
       'deaf_man',
       'accessibility'
     ],
     sheet: [46, 60],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CF-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9CF-1F3FB-200D-2642-FE0F',
         sheet: [47, 0]
       },
       {
-        unified: '1F9CF-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9CF-1F3FC-200D-2642-FE0F',
         sheet: [47, 1]
       },
       {
-        unified: '1F9CF-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9CF-1F3FD-200D-2642-FE0F',
         sheet: [47, 2]
       },
       {
-        unified: '1F9CF-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9CF-1F3FE-200D-2642-FE0F',
         sheet: [47, 3]
       },
       {
-        unified: '1F9CF-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9CF-1F3FF-200D-2642-FE0F',
         sheet: [47, 4]
       }
     ],
     shortName: 'deaf_man'
   },
   {
-    name: 'Deaf Woman',
-    unified: '1F9CF-200D-2640-FE0F',
-    keywords: [
+    label: 'Deaf Woman',
+    hexcode: '1F9CF-200D-2640-FE0F',
+    tags: [
       'deaf_woman',
       'accessibility'
     ],
     sheet: [46, 54],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CF-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9CF-1F3FB-200D-2640-FE0F',
         sheet: [46, 55]
       },
       {
-        unified: '1F9CF-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9CF-1F3FC-200D-2640-FE0F',
         sheet: [46, 56]
       },
       {
-        unified: '1F9CF-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9CF-1F3FD-200D-2640-FE0F',
         sheet: [46, 57]
       },
       {
-        unified: '1F9CF-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9CF-1F3FE-200D-2640-FE0F',
         sheet: [46, 58]
       },
       {
-        unified: '1F9CF-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9CF-1F3FF-200D-2640-FE0F',
         sheet: [46, 59]
       }
     ],
     shortName: 'deaf_woman'
   },
   {
-    name: 'Person Bowing Deeply',
-    unified: '1F647',
-    keywords: [
+    label: 'Person Bowing Deeply',
+    hexcode: '1F647',
+    tags: [
       'person_bowing',
       'respectiful'
     ],
     sheet: [34, 18],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F647-1F3FB',
+        hexcode: '1F647-1F3FB',
         sheet: [34, 19]
       },
       {
-        unified: '1F647-1F3FC',
+        hexcode: '1F647-1F3FC',
         sheet: [34, 20]
       },
       {
-        unified: '1F647-1F3FD',
+        hexcode: '1F647-1F3FD',
         sheet: [34, 21]
       },
       {
-        unified: '1F647-1F3FE',
+        hexcode: '1F647-1F3FE',
         sheet: [34, 22]
       },
       {
-        unified: '1F647-1F3FF',
+        hexcode: '1F647-1F3FF',
         sheet: [34, 23]
       }
     ],
@@ -5926,110 +5926,110 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F647-200D-2642-FE0F'
   },
   {
-    name: 'Man Bowing',
-    unified: '1F647-200D-2642-FE0F',
+    label: 'Man Bowing',
+    hexcode: '1F647-200D-2642-FE0F',
     obsoletes: '1F647',
-    keywords: [
+    tags: [
       'man_bowing',
       'man',
       'male',
       'boy'
     ],
     sheet: [34, 12],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F647-1F3FB-200D-2642-FE0F',
+        hexcode: '1F647-1F3FB-200D-2642-FE0F',
         sheet: [34, 13]
       },
       {
-        unified: '1F647-1F3FC-200D-2642-FE0F',
+        hexcode: '1F647-1F3FC-200D-2642-FE0F',
         sheet: [34, 14]
       },
       {
-        unified: '1F647-1F3FD-200D-2642-FE0F',
+        hexcode: '1F647-1F3FD-200D-2642-FE0F',
         sheet: [34, 15]
       },
       {
-        unified: '1F647-1F3FE-200D-2642-FE0F',
+        hexcode: '1F647-1F3FE-200D-2642-FE0F',
         sheet: [34, 16]
       },
       {
-        unified: '1F647-1F3FF-200D-2642-FE0F',
+        hexcode: '1F647-1F3FF-200D-2642-FE0F',
         sheet: [34, 17]
       }
     ],
     shortName: 'man-bowing'
   },
   {
-    name: 'Woman Bowing',
-    unified: '1F647-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Bowing',
+    hexcode: '1F647-200D-2640-FE0F',
+    tags: [
       'woman_bowing',
       'woman',
       'female',
       'girl'
     ],
     sheet: [34, 6],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F647-1F3FB-200D-2640-FE0F',
+        hexcode: '1F647-1F3FB-200D-2640-FE0F',
         sheet: [34, 7]
       },
       {
-        unified: '1F647-1F3FC-200D-2640-FE0F',
+        hexcode: '1F647-1F3FC-200D-2640-FE0F',
         sheet: [34, 8]
       },
       {
-        unified: '1F647-1F3FD-200D-2640-FE0F',
+        hexcode: '1F647-1F3FD-200D-2640-FE0F',
         sheet: [34, 9]
       },
       {
-        unified: '1F647-1F3FE-200D-2640-FE0F',
+        hexcode: '1F647-1F3FE-200D-2640-FE0F',
         sheet: [34, 10]
       },
       {
-        unified: '1F647-1F3FF-200D-2640-FE0F',
+        hexcode: '1F647-1F3FF-200D-2640-FE0F',
         sheet: [34, 11]
       }
     ],
     shortName: 'woman-bowing'
   },
   {
-    name: 'Face Palm',
-    unified: '1F926',
-    keywords: [
+    label: 'Face Palm',
+    hexcode: '1F926',
+    tags: [
       'person_facepalming',
       'disappointed'
     ],
     sheet: [40, 30],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F926-1F3FB',
+        hexcode: '1F926-1F3FB',
         sheet: [40, 31]
       },
       {
-        unified: '1F926-1F3FC',
+        hexcode: '1F926-1F3FC',
         sheet: [40, 32]
       },
       {
-        unified: '1F926-1F3FD',
+        hexcode: '1F926-1F3FD',
         sheet: [40, 33]
       },
       {
-        unified: '1F926-1F3FE',
+        hexcode: '1F926-1F3FE',
         sheet: [40, 34]
       },
       {
-        unified: '1F926-1F3FF',
+        hexcode: '1F926-1F3FF',
         sheet: [40, 35]
       }
     ],
     shortName: 'face_palm'
   },
   {
-    name: 'Man Facepalming',
-    unified: '1F926-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Facepalming',
+    hexcode: '1F926-200D-2642-FE0F',
+    tags: [
       'man_facepalming',
       'man',
       'male',
@@ -6037,34 +6037,34 @@ export const emojis: CompressedEmojiData[] = [
       'disbelief'
     ],
     sheet: [40, 24],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F926-1F3FB-200D-2642-FE0F',
+        hexcode: '1F926-1F3FB-200D-2642-FE0F',
         sheet: [40, 25]
       },
       {
-        unified: '1F926-1F3FC-200D-2642-FE0F',
+        hexcode: '1F926-1F3FC-200D-2642-FE0F',
         sheet: [40, 26]
       },
       {
-        unified: '1F926-1F3FD-200D-2642-FE0F',
+        hexcode: '1F926-1F3FD-200D-2642-FE0F',
         sheet: [40, 27]
       },
       {
-        unified: '1F926-1F3FE-200D-2642-FE0F',
+        hexcode: '1F926-1F3FE-200D-2642-FE0F',
         sheet: [40, 28]
       },
       {
-        unified: '1F926-1F3FF-200D-2642-FE0F',
+        hexcode: '1F926-1F3FF-200D-2642-FE0F',
         sheet: [40, 29]
       }
     ],
     shortName: 'man-facepalming'
   },
   {
-    name: 'Woman Facepalming',
-    unified: '1F926-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Facepalming',
+    hexcode: '1F926-200D-2640-FE0F',
+    tags: [
       'woman_facepalming',
       'woman',
       'female',
@@ -6072,66 +6072,66 @@ export const emojis: CompressedEmojiData[] = [
       'disbelief'
     ],
     sheet: [40, 18],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F926-1F3FB-200D-2640-FE0F',
+        hexcode: '1F926-1F3FB-200D-2640-FE0F',
         sheet: [40, 19]
       },
       {
-        unified: '1F926-1F3FC-200D-2640-FE0F',
+        hexcode: '1F926-1F3FC-200D-2640-FE0F',
         sheet: [40, 20]
       },
       {
-        unified: '1F926-1F3FD-200D-2640-FE0F',
+        hexcode: '1F926-1F3FD-200D-2640-FE0F',
         sheet: [40, 21]
       },
       {
-        unified: '1F926-1F3FE-200D-2640-FE0F',
+        hexcode: '1F926-1F3FE-200D-2640-FE0F',
         sheet: [40, 22]
       },
       {
-        unified: '1F926-1F3FF-200D-2640-FE0F',
+        hexcode: '1F926-1F3FF-200D-2640-FE0F',
         sheet: [40, 23]
       }
     ],
     shortName: 'woman-facepalming'
   },
   {
-    name: 'Shrug',
-    unified: '1F937',
-    keywords: [
+    label: 'Shrug',
+    hexcode: '1F937',
+    tags: [
       'person_shrugging',
       'regardless'
     ],
     sheet: [41, 50],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F937-1F3FB',
+        hexcode: '1F937-1F3FB',
         sheet: [41, 51]
       },
       {
-        unified: '1F937-1F3FC',
+        hexcode: '1F937-1F3FC',
         sheet: [41, 52]
       },
       {
-        unified: '1F937-1F3FD',
+        hexcode: '1F937-1F3FD',
         sheet: [41, 53]
       },
       {
-        unified: '1F937-1F3FE',
+        hexcode: '1F937-1F3FE',
         sheet: [41, 54]
       },
       {
-        unified: '1F937-1F3FF',
+        hexcode: '1F937-1F3FF',
         sheet: [41, 55]
       }
     ],
     shortName: 'shrug'
   },
   {
-    name: 'Man Shrugging',
-    unified: '1F937-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Shrugging',
+    hexcode: '1F937-200D-2642-FE0F',
+    tags: [
       'man_shrugging',
       'man',
       'male',
@@ -6141,34 +6141,34 @@ export const emojis: CompressedEmojiData[] = [
       'doubt'
     ],
     sheet: [41, 44],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F937-1F3FB-200D-2642-FE0F',
+        hexcode: '1F937-1F3FB-200D-2642-FE0F',
         sheet: [41, 45]
       },
       {
-        unified: '1F937-1F3FC-200D-2642-FE0F',
+        hexcode: '1F937-1F3FC-200D-2642-FE0F',
         sheet: [41, 46]
       },
       {
-        unified: '1F937-1F3FD-200D-2642-FE0F',
+        hexcode: '1F937-1F3FD-200D-2642-FE0F',
         sheet: [41, 47]
       },
       {
-        unified: '1F937-1F3FE-200D-2642-FE0F',
+        hexcode: '1F937-1F3FE-200D-2642-FE0F',
         sheet: [41, 48]
       },
       {
-        unified: '1F937-1F3FF-200D-2642-FE0F',
+        hexcode: '1F937-1F3FF-200D-2642-FE0F',
         sheet: [41, 49]
       }
     ],
     shortName: 'man-shrugging'
   },
   {
-    name: 'Woman Shrugging',
-    unified: '1F937-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Shrugging',
+    hexcode: '1F937-200D-2640-FE0F',
+    tags: [
       'woman_shrugging',
       'woman',
       'female',
@@ -6178,66 +6178,66 @@ export const emojis: CompressedEmojiData[] = [
       'doubt'
     ],
     sheet: [41, 38],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F937-1F3FB-200D-2640-FE0F',
+        hexcode: '1F937-1F3FB-200D-2640-FE0F',
         sheet: [41, 39]
       },
       {
-        unified: '1F937-1F3FC-200D-2640-FE0F',
+        hexcode: '1F937-1F3FC-200D-2640-FE0F',
         sheet: [41, 40]
       },
       {
-        unified: '1F937-1F3FD-200D-2640-FE0F',
+        hexcode: '1F937-1F3FD-200D-2640-FE0F',
         sheet: [41, 41]
       },
       {
-        unified: '1F937-1F3FE-200D-2640-FE0F',
+        hexcode: '1F937-1F3FE-200D-2640-FE0F',
         sheet: [41, 42]
       },
       {
-        unified: '1F937-1F3FF-200D-2640-FE0F',
+        hexcode: '1F937-1F3FF-200D-2640-FE0F',
         sheet: [41, 43]
       }
     ],
     shortName: 'woman-shrugging'
   },
   {
-    name: 'Health Worker',
-    unified: '1F9D1-200D-2695-FE0F',
-    keywords: [
+    label: 'Health Worker',
+    hexcode: '1F9D1-200D-2695-FE0F',
+    tags: [
       'health_worker',
       'hospital'
     ],
     sheet: [49, 48],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-2695-FE0F',
+        hexcode: '1F9D1-1F3FB-200D-2695-FE0F',
         sheet: [49, 49]
       },
       {
-        unified: '1F9D1-1F3FC-200D-2695-FE0F',
+        hexcode: '1F9D1-1F3FC-200D-2695-FE0F',
         sheet: [49, 50]
       },
       {
-        unified: '1F9D1-1F3FD-200D-2695-FE0F',
+        hexcode: '1F9D1-1F3FD-200D-2695-FE0F',
         sheet: [49, 51]
       },
       {
-        unified: '1F9D1-1F3FE-200D-2695-FE0F',
+        hexcode: '1F9D1-1F3FE-200D-2695-FE0F',
         sheet: [49, 52]
       },
       {
-        unified: '1F9D1-1F3FF-200D-2695-FE0F',
+        hexcode: '1F9D1-1F3FF-200D-2695-FE0F',
         sheet: [49, 53]
       }
     ],
     shortName: 'health_worker'
   },
   {
-    name: 'Man Health Worker',
-    unified: '1F468-200D-2695-FE0F',
-    keywords: [
+    label: 'Man Health Worker',
+    hexcode: '1F468-200D-2695-FE0F',
+    tags: [
       'man_health_worker',
       'doctor',
       'nurse',
@@ -6247,34 +6247,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [16, 4],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-2695-FE0F',
+        hexcode: '1F468-1F3FB-200D-2695-FE0F',
         sheet: [16, 5]
       },
       {
-        unified: '1F468-1F3FC-200D-2695-FE0F',
+        hexcode: '1F468-1F3FC-200D-2695-FE0F',
         sheet: [16, 6]
       },
       {
-        unified: '1F468-1F3FD-200D-2695-FE0F',
+        hexcode: '1F468-1F3FD-200D-2695-FE0F',
         sheet: [16, 7]
       },
       {
-        unified: '1F468-1F3FE-200D-2695-FE0F',
+        hexcode: '1F468-1F3FE-200D-2695-FE0F',
         sheet: [16, 8]
       },
       {
-        unified: '1F468-1F3FF-200D-2695-FE0F',
+        hexcode: '1F468-1F3FF-200D-2695-FE0F',
         sheet: [16, 9]
       }
     ],
     shortName: 'male-doctor'
   },
   {
-    name: 'Woman Health Worker',
-    unified: '1F469-200D-2695-FE0F',
-    keywords: [
+    label: 'Woman Health Worker',
+    hexcode: '1F469-200D-2695-FE0F',
+    tags: [
       'woman_health_worker',
       'doctor',
       'nurse',
@@ -6284,160 +6284,160 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [19, 33],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2695-FE0F',
+        hexcode: '1F469-1F3FB-200D-2695-FE0F',
         sheet: [19, 34]
       },
       {
-        unified: '1F469-1F3FC-200D-2695-FE0F',
+        hexcode: '1F469-1F3FC-200D-2695-FE0F',
         sheet: [19, 35]
       },
       {
-        unified: '1F469-1F3FD-200D-2695-FE0F',
+        hexcode: '1F469-1F3FD-200D-2695-FE0F',
         sheet: [19, 36]
       },
       {
-        unified: '1F469-1F3FE-200D-2695-FE0F',
+        hexcode: '1F469-1F3FE-200D-2695-FE0F',
         sheet: [19, 37]
       },
       {
-        unified: '1F469-1F3FF-200D-2695-FE0F',
+        hexcode: '1F469-1F3FF-200D-2695-FE0F',
         sheet: [19, 38]
       }
     ],
     shortName: 'female-doctor'
   },
   {
-    name: 'Student',
-    unified: '1F9D1-200D-1F393',
-    keywords: ['student', 'learn'],
+    label: 'Student',
+    hexcode: '1F9D1-200D-1F393',
+    tags: ['student', 'learn'],
     sheet: [47, 36],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F393',
+        hexcode: '1F9D1-1F3FB-200D-1F393',
         sheet: [47, 37]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F393',
+        hexcode: '1F9D1-1F3FC-200D-1F393',
         sheet: [47, 38]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F393',
+        hexcode: '1F9D1-1F3FD-200D-1F393',
         sheet: [47, 39]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F393',
+        hexcode: '1F9D1-1F3FE-200D-1F393',
         sheet: [47, 40]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F393',
+        hexcode: '1F9D1-1F3FF-200D-1F393',
         sheet: [47, 41]
       }
     ],
     shortName: 'student'
   },
   {
-    name: 'Man Student',
-    unified: '1F468-200D-1F393',
-    keywords: [
+    label: 'Man Student',
+    hexcode: '1F468-200D-1F393',
+    tags: [
       'man_student',
       'graduate',
       'man',
       'human'
     ],
     sheet: [14, 3],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F393',
+        hexcode: '1F468-1F3FB-200D-1F393',
         sheet: [14, 4]
       },
       {
-        unified: '1F468-1F3FC-200D-1F393',
+        hexcode: '1F468-1F3FC-200D-1F393',
         sheet: [14, 5]
       },
       {
-        unified: '1F468-1F3FD-200D-1F393',
+        hexcode: '1F468-1F3FD-200D-1F393',
         sheet: [14, 6]
       },
       {
-        unified: '1F468-1F3FE-200D-1F393',
+        hexcode: '1F468-1F3FE-200D-1F393',
         sheet: [14, 7]
       },
       {
-        unified: '1F468-1F3FF-200D-1F393',
+        hexcode: '1F468-1F3FF-200D-1F393',
         sheet: [14, 8]
       }
     ],
     shortName: 'male-student'
   },
   {
-    name: 'Woman Student',
-    unified: '1F469-200D-1F393',
-    keywords: [
+    label: 'Woman Student',
+    hexcode: '1F469-200D-1F393',
+    tags: [
       'woman_student',
       'graduate',
       'woman',
       'human'
     ],
     sheet: [17, 37],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F393',
+        hexcode: '1F469-1F3FB-200D-1F393',
         sheet: [17, 38]
       },
       {
-        unified: '1F469-1F3FC-200D-1F393',
+        hexcode: '1F469-1F3FC-200D-1F393',
         sheet: [17, 39]
       },
       {
-        unified: '1F469-1F3FD-200D-1F393',
+        hexcode: '1F469-1F3FD-200D-1F393',
         sheet: [17, 40]
       },
       {
-        unified: '1F469-1F3FE-200D-1F393',
+        hexcode: '1F469-1F3FE-200D-1F393',
         sheet: [17, 41]
       },
       {
-        unified: '1F469-1F3FF-200D-1F393',
+        hexcode: '1F469-1F3FF-200D-1F393',
         sheet: [17, 42]
       }
     ],
     shortName: 'female-student'
   },
   {
-    name: 'Teacher',
-    unified: '1F9D1-200D-1F3EB',
-    keywords: ['teacher', 'professor'],
+    label: 'Teacher',
+    hexcode: '1F9D1-200D-1F3EB',
+    tags: ['teacher', 'professor'],
     sheet: [47, 54],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F3EB',
+        hexcode: '1F9D1-1F3FB-200D-1F3EB',
         sheet: [47, 55]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F3EB',
+        hexcode: '1F9D1-1F3FC-200D-1F3EB',
         sheet: [47, 56]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F3EB',
+        hexcode: '1F9D1-1F3FD-200D-1F3EB',
         sheet: [47, 57]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F3EB',
+        hexcode: '1F9D1-1F3FE-200D-1F3EB',
         sheet: [47, 58]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F3EB',
+        hexcode: '1F9D1-1F3FF-200D-1F3EB',
         sheet: [47, 59]
       }
     ],
     shortName: 'teacher'
   },
   {
-    name: 'Man Teacher',
-    unified: '1F468-200D-1F3EB',
-    keywords: [
+    label: 'Man Teacher',
+    hexcode: '1F468-200D-1F3EB',
+    tags: [
       'man_teacher',
       'instructor',
       'professor',
@@ -6445,34 +6445,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [14, 21],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F3EB',
+        hexcode: '1F468-1F3FB-200D-1F3EB',
         sheet: [14, 22]
       },
       {
-        unified: '1F468-1F3FC-200D-1F3EB',
+        hexcode: '1F468-1F3FC-200D-1F3EB',
         sheet: [14, 23]
       },
       {
-        unified: '1F468-1F3FD-200D-1F3EB',
+        hexcode: '1F468-1F3FD-200D-1F3EB',
         sheet: [14, 24]
       },
       {
-        unified: '1F468-1F3FE-200D-1F3EB',
+        hexcode: '1F468-1F3FE-200D-1F3EB',
         sheet: [14, 25]
       },
       {
-        unified: '1F468-1F3FF-200D-1F3EB',
+        hexcode: '1F468-1F3FF-200D-1F3EB',
         sheet: [14, 26]
       }
     ],
     shortName: 'male-teacher'
   },
   {
-    name: 'Woman Teacher',
-    unified: '1F469-200D-1F3EB',
-    keywords: [
+    label: 'Woman Teacher',
+    hexcode: '1F469-200D-1F3EB',
+    tags: [
       'woman_teacher',
       'instructor',
       'professor',
@@ -6480,63 +6480,63 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [17, 55],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F3EB',
+        hexcode: '1F469-1F3FB-200D-1F3EB',
         sheet: [17, 56]
       },
       {
-        unified: '1F469-1F3FC-200D-1F3EB',
+        hexcode: '1F469-1F3FC-200D-1F3EB',
         sheet: [17, 57]
       },
       {
-        unified: '1F469-1F3FD-200D-1F3EB',
+        hexcode: '1F469-1F3FD-200D-1F3EB',
         sheet: [17, 58]
       },
       {
-        unified: '1F469-1F3FE-200D-1F3EB',
+        hexcode: '1F469-1F3FE-200D-1F3EB',
         sheet: [17, 59]
       },
       {
-        unified: '1F469-1F3FF-200D-1F3EB',
+        hexcode: '1F469-1F3FF-200D-1F3EB',
         sheet: [17, 60]
       }
     ],
     shortName: 'female-teacher'
   },
   {
-    name: 'Judge',
-    unified: '1F9D1-200D-2696-FE0F',
-    keywords: ['judge', 'law'],
+    label: 'Judge',
+    hexcode: '1F9D1-200D-2696-FE0F',
+    tags: ['judge', 'law'],
     sheet: [49, 54],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-2696-FE0F',
+        hexcode: '1F9D1-1F3FB-200D-2696-FE0F',
         sheet: [49, 55]
       },
       {
-        unified: '1F9D1-1F3FC-200D-2696-FE0F',
+        hexcode: '1F9D1-1F3FC-200D-2696-FE0F',
         sheet: [49, 56]
       },
       {
-        unified: '1F9D1-1F3FD-200D-2696-FE0F',
+        hexcode: '1F9D1-1F3FD-200D-2696-FE0F',
         sheet: [49, 57]
       },
       {
-        unified: '1F9D1-1F3FE-200D-2696-FE0F',
+        hexcode: '1F9D1-1F3FE-200D-2696-FE0F',
         sheet: [49, 58]
       },
       {
-        unified: '1F9D1-1F3FF-200D-2696-FE0F',
+        hexcode: '1F9D1-1F3FF-200D-2696-FE0F',
         sheet: [49, 59]
       }
     ],
     shortName: 'judge'
   },
   {
-    name: 'Man Judge',
-    unified: '1F468-200D-2696-FE0F',
-    keywords: [
+    label: 'Man Judge',
+    hexcode: '1F468-200D-2696-FE0F',
+    tags: [
       'man_judge',
       'justice',
       'court',
@@ -6544,34 +6544,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [16, 10],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-2696-FE0F',
+        hexcode: '1F468-1F3FB-200D-2696-FE0F',
         sheet: [16, 11]
       },
       {
-        unified: '1F468-1F3FC-200D-2696-FE0F',
+        hexcode: '1F468-1F3FC-200D-2696-FE0F',
         sheet: [16, 12]
       },
       {
-        unified: '1F468-1F3FD-200D-2696-FE0F',
+        hexcode: '1F468-1F3FD-200D-2696-FE0F',
         sheet: [16, 13]
       },
       {
-        unified: '1F468-1F3FE-200D-2696-FE0F',
+        hexcode: '1F468-1F3FE-200D-2696-FE0F',
         sheet: [16, 14]
       },
       {
-        unified: '1F468-1F3FF-200D-2696-FE0F',
+        hexcode: '1F468-1F3FF-200D-2696-FE0F',
         sheet: [16, 15]
       }
     ],
     shortName: 'male-judge'
   },
   {
-    name: 'Woman Judge',
-    unified: '1F469-200D-2696-FE0F',
-    keywords: [
+    label: 'Woman Judge',
+    hexcode: '1F469-200D-2696-FE0F',
+    tags: [
       'woman_judge',
       'justice',
       'court',
@@ -6579,63 +6579,63 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [19, 39],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2696-FE0F',
+        hexcode: '1F469-1F3FB-200D-2696-FE0F',
         sheet: [19, 40]
       },
       {
-        unified: '1F469-1F3FC-200D-2696-FE0F',
+        hexcode: '1F469-1F3FC-200D-2696-FE0F',
         sheet: [19, 41]
       },
       {
-        unified: '1F469-1F3FD-200D-2696-FE0F',
+        hexcode: '1F469-1F3FD-200D-2696-FE0F',
         sheet: [19, 42]
       },
       {
-        unified: '1F469-1F3FE-200D-2696-FE0F',
+        hexcode: '1F469-1F3FE-200D-2696-FE0F',
         sheet: [19, 43]
       },
       {
-        unified: '1F469-1F3FF-200D-2696-FE0F',
+        hexcode: '1F469-1F3FF-200D-2696-FE0F',
         sheet: [19, 44]
       }
     ],
     shortName: 'female-judge'
   },
   {
-    name: 'Farmer',
-    unified: '1F9D1-200D-1F33E',
-    keywords: ['farmer', 'crops'],
+    label: 'Farmer',
+    hexcode: '1F9D1-200D-1F33E',
+    tags: ['farmer', 'crops'],
     sheet: [47, 12],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F33E',
+        hexcode: '1F9D1-1F3FB-200D-1F33E',
         sheet: [47, 13]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F33E',
+        hexcode: '1F9D1-1F3FC-200D-1F33E',
         sheet: [47, 14]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F33E',
+        hexcode: '1F9D1-1F3FD-200D-1F33E',
         sheet: [47, 15]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F33E',
+        hexcode: '1F9D1-1F3FE-200D-1F33E',
         sheet: [47, 16]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F33E',
+        hexcode: '1F9D1-1F3FF-200D-1F33E',
         sheet: [47, 17]
       }
     ],
     shortName: 'farmer'
   },
   {
-    name: 'Man Farmer',
-    unified: '1F468-200D-1F33E',
-    keywords: [
+    label: 'Man Farmer',
+    hexcode: '1F468-200D-1F33E',
+    tags: [
       'man_farmer',
       'rancher',
       'gardener',
@@ -6643,34 +6643,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [13, 46],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F33E',
+        hexcode: '1F468-1F3FB-200D-1F33E',
         sheet: [13, 47]
       },
       {
-        unified: '1F468-1F3FC-200D-1F33E',
+        hexcode: '1F468-1F3FC-200D-1F33E',
         sheet: [13, 48]
       },
       {
-        unified: '1F468-1F3FD-200D-1F33E',
+        hexcode: '1F468-1F3FD-200D-1F33E',
         sheet: [13, 49]
       },
       {
-        unified: '1F468-1F3FE-200D-1F33E',
+        hexcode: '1F468-1F3FE-200D-1F33E',
         sheet: [13, 50]
       },
       {
-        unified: '1F468-1F3FF-200D-1F33E',
+        hexcode: '1F468-1F3FF-200D-1F33E',
         sheet: [13, 51]
       }
     ],
     shortName: 'male-farmer'
   },
   {
-    name: 'Woman Farmer',
-    unified: '1F469-200D-1F33E',
-    keywords: [
+    label: 'Woman Farmer',
+    hexcode: '1F469-200D-1F33E',
+    tags: [
       'woman_farmer',
       'rancher',
       'gardener',
@@ -6678,169 +6678,169 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [17, 19],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F33E',
+        hexcode: '1F469-1F3FB-200D-1F33E',
         sheet: [17, 20]
       },
       {
-        unified: '1F469-1F3FC-200D-1F33E',
+        hexcode: '1F469-1F3FC-200D-1F33E',
         sheet: [17, 21]
       },
       {
-        unified: '1F469-1F3FD-200D-1F33E',
+        hexcode: '1F469-1F3FD-200D-1F33E',
         sheet: [17, 22]
       },
       {
-        unified: '1F469-1F3FE-200D-1F33E',
+        hexcode: '1F469-1F3FE-200D-1F33E',
         sheet: [17, 23]
       },
       {
-        unified: '1F469-1F3FF-200D-1F33E',
+        hexcode: '1F469-1F3FF-200D-1F33E',
         sheet: [17, 24]
       }
     ],
     shortName: 'female-farmer'
   },
   {
-    name: 'Cook',
-    unified: '1F9D1-200D-1F373',
-    keywords: [
+    label: 'Cook',
+    hexcode: '1F9D1-200D-1F373',
+    tags: [
       'cook',
       'food',
       'kitchen',
       'culinary'
     ],
     sheet: [47, 18],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F373',
+        hexcode: '1F9D1-1F3FB-200D-1F373',
         sheet: [47, 19]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F373',
+        hexcode: '1F9D1-1F3FC-200D-1F373',
         sheet: [47, 20]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F373',
+        hexcode: '1F9D1-1F3FD-200D-1F373',
         sheet: [47, 21]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F373',
+        hexcode: '1F9D1-1F3FE-200D-1F373',
         sheet: [47, 22]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F373',
+        hexcode: '1F9D1-1F3FF-200D-1F373',
         sheet: [47, 23]
       }
     ],
     shortName: 'cook'
   },
   {
-    name: 'Man Cook',
-    unified: '1F468-200D-1F373',
-    keywords: [
+    label: 'Man Cook',
+    hexcode: '1F468-200D-1F373',
+    tags: [
       'man_cook',
       'chef',
       'man',
       'human'
     ],
     sheet: [13, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F373',
+        hexcode: '1F468-1F3FB-200D-1F373',
         sheet: [13, 53]
       },
       {
-        unified: '1F468-1F3FC-200D-1F373',
+        hexcode: '1F468-1F3FC-200D-1F373',
         sheet: [13, 54]
       },
       {
-        unified: '1F468-1F3FD-200D-1F373',
+        hexcode: '1F468-1F3FD-200D-1F373',
         sheet: [13, 55]
       },
       {
-        unified: '1F468-1F3FE-200D-1F373',
+        hexcode: '1F468-1F3FE-200D-1F373',
         sheet: [13, 56]
       },
       {
-        unified: '1F468-1F3FF-200D-1F373',
+        hexcode: '1F468-1F3FF-200D-1F373',
         sheet: [13, 57]
       }
     ],
     shortName: 'male-cook'
   },
   {
-    name: 'Woman Cook',
-    unified: '1F469-200D-1F373',
-    keywords: [
+    label: 'Woman Cook',
+    hexcode: '1F469-200D-1F373',
+    tags: [
       'woman_cook',
       'chef',
       'woman',
       'human'
     ],
     sheet: [17, 25],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F373',
+        hexcode: '1F469-1F3FB-200D-1F373',
         sheet: [17, 26]
       },
       {
-        unified: '1F469-1F3FC-200D-1F373',
+        hexcode: '1F469-1F3FC-200D-1F373',
         sheet: [17, 27]
       },
       {
-        unified: '1F469-1F3FD-200D-1F373',
+        hexcode: '1F469-1F3FD-200D-1F373',
         sheet: [17, 28]
       },
       {
-        unified: '1F469-1F3FE-200D-1F373',
+        hexcode: '1F469-1F3FE-200D-1F373',
         sheet: [17, 29]
       },
       {
-        unified: '1F469-1F3FF-200D-1F373',
+        hexcode: '1F469-1F3FF-200D-1F373',
         sheet: [17, 30]
       }
     ],
     shortName: 'female-cook'
   },
   {
-    name: 'Mechanic',
-    unified: '1F9D1-200D-1F527',
-    keywords: [
+    label: 'Mechanic',
+    hexcode: '1F9D1-200D-1F527',
+    tags: [
       'mechanic',
       'worker',
       'technician'
     ],
     sheet: [48, 17],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F527',
+        hexcode: '1F9D1-1F3FB-200D-1F527',
         sheet: [48, 18]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F527',
+        hexcode: '1F9D1-1F3FC-200D-1F527',
         sheet: [48, 19]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F527',
+        hexcode: '1F9D1-1F3FD-200D-1F527',
         sheet: [48, 20]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F527',
+        hexcode: '1F9D1-1F3FE-200D-1F527',
         sheet: [48, 21]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F527',
+        hexcode: '1F9D1-1F3FF-200D-1F527',
         sheet: [48, 22]
       }
     ],
     shortName: 'mechanic'
   },
   {
-    name: 'Man Mechanic',
-    unified: '1F468-200D-1F527',
-    keywords: [
+    label: 'Man Mechanic',
+    hexcode: '1F468-200D-1F527',
+    tags: [
       'man_mechanic',
       'plumber',
       'man',
@@ -6848,34 +6848,34 @@ export const emojis: CompressedEmojiData[] = [
       'wrench'
     ],
     sheet: [14, 60],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F527',
+        hexcode: '1F468-1F3FB-200D-1F527',
         sheet: [15, 0]
       },
       {
-        unified: '1F468-1F3FC-200D-1F527',
+        hexcode: '1F468-1F3FC-200D-1F527',
         sheet: [15, 1]
       },
       {
-        unified: '1F468-1F3FD-200D-1F527',
+        hexcode: '1F468-1F3FD-200D-1F527',
         sheet: [15, 2]
       },
       {
-        unified: '1F468-1F3FE-200D-1F527',
+        hexcode: '1F468-1F3FE-200D-1F527',
         sheet: [15, 3]
       },
       {
-        unified: '1F468-1F3FF-200D-1F527',
+        hexcode: '1F468-1F3FF-200D-1F527',
         sheet: [15, 4]
       }
     ],
     shortName: 'male-mechanic'
   },
   {
-    name: 'Woman Mechanic',
-    unified: '1F469-200D-1F527',
-    keywords: [
+    label: 'Woman Mechanic',
+    hexcode: '1F469-200D-1F527',
+    tags: [
       'woman_mechanic',
       'plumber',
       'woman',
@@ -6883,66 +6883,66 @@ export const emojis: CompressedEmojiData[] = [
       'wrench'
     ],
     sheet: [18, 28],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F527',
+        hexcode: '1F469-1F3FB-200D-1F527',
         sheet: [18, 29]
       },
       {
-        unified: '1F469-1F3FC-200D-1F527',
+        hexcode: '1F469-1F3FC-200D-1F527',
         sheet: [18, 30]
       },
       {
-        unified: '1F469-1F3FD-200D-1F527',
+        hexcode: '1F469-1F3FD-200D-1F527',
         sheet: [18, 31]
       },
       {
-        unified: '1F469-1F3FE-200D-1F527',
+        hexcode: '1F469-1F3FE-200D-1F527',
         sheet: [18, 32]
       },
       {
-        unified: '1F469-1F3FF-200D-1F527',
+        hexcode: '1F469-1F3FF-200D-1F527',
         sheet: [18, 33]
       }
     ],
     shortName: 'female-mechanic'
   },
   {
-    name: 'Factory Worker',
-    unified: '1F9D1-200D-1F3ED',
-    keywords: [
+    label: 'Factory Worker',
+    hexcode: '1F9D1-200D-1F3ED',
+    tags: [
       'factory_worker',
       'labor'
     ],
     sheet: [47, 60],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F3ED',
+        hexcode: '1F9D1-1F3FB-200D-1F3ED',
         sheet: [48, 0]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F3ED',
+        hexcode: '1F9D1-1F3FC-200D-1F3ED',
         sheet: [48, 1]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F3ED',
+        hexcode: '1F9D1-1F3FD-200D-1F3ED',
         sheet: [48, 2]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F3ED',
+        hexcode: '1F9D1-1F3FE-200D-1F3ED',
         sheet: [48, 3]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F3ED',
+        hexcode: '1F9D1-1F3FF-200D-1F3ED',
         sheet: [48, 4]
       }
     ],
     shortName: 'factory_worker'
   },
   {
-    name: 'Man Factory Worker',
-    unified: '1F468-200D-1F3ED',
-    keywords: [
+    label: 'Man Factory Worker',
+    hexcode: '1F468-200D-1F3ED',
+    tags: [
       'man_factory_worker',
       'assembly',
       'industrial',
@@ -6950,34 +6950,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [14, 27],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F3ED',
+        hexcode: '1F468-1F3FB-200D-1F3ED',
         sheet: [14, 28]
       },
       {
-        unified: '1F468-1F3FC-200D-1F3ED',
+        hexcode: '1F468-1F3FC-200D-1F3ED',
         sheet: [14, 29]
       },
       {
-        unified: '1F468-1F3FD-200D-1F3ED',
+        hexcode: '1F468-1F3FD-200D-1F3ED',
         sheet: [14, 30]
       },
       {
-        unified: '1F468-1F3FE-200D-1F3ED',
+        hexcode: '1F468-1F3FE-200D-1F3ED',
         sheet: [14, 31]
       },
       {
-        unified: '1F468-1F3FF-200D-1F3ED',
+        hexcode: '1F468-1F3FF-200D-1F3ED',
         sheet: [14, 32]
       }
     ],
     shortName: 'male-factory-worker'
   },
   {
-    name: 'Woman Factory Worker',
-    unified: '1F469-200D-1F3ED',
-    keywords: [
+    label: 'Woman Factory Worker',
+    hexcode: '1F469-200D-1F3ED',
+    tags: [
       'woman_factory_worker',
       'assembly',
       'industrial',
@@ -6985,66 +6985,66 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [18, 0],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F3ED',
+        hexcode: '1F469-1F3FB-200D-1F3ED',
         sheet: [18, 1]
       },
       {
-        unified: '1F469-1F3FC-200D-1F3ED',
+        hexcode: '1F469-1F3FC-200D-1F3ED',
         sheet: [18, 2]
       },
       {
-        unified: '1F469-1F3FD-200D-1F3ED',
+        hexcode: '1F469-1F3FD-200D-1F3ED',
         sheet: [18, 3]
       },
       {
-        unified: '1F469-1F3FE-200D-1F3ED',
+        hexcode: '1F469-1F3FE-200D-1F3ED',
         sheet: [18, 4]
       },
       {
-        unified: '1F469-1F3FF-200D-1F3ED',
+        hexcode: '1F469-1F3FF-200D-1F3ED',
         sheet: [18, 5]
       }
     ],
     shortName: 'female-factory-worker'
   },
   {
-    name: 'Office Worker',
-    unified: '1F9D1-200D-1F4BC',
-    keywords: [
+    label: 'Office Worker',
+    hexcode: '1F9D1-200D-1F4BC',
+    tags: [
       'office_worker',
       'business'
     ],
     sheet: [48, 11],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F4BC',
+        hexcode: '1F9D1-1F3FB-200D-1F4BC',
         sheet: [48, 12]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F4BC',
+        hexcode: '1F9D1-1F3FC-200D-1F4BC',
         sheet: [48, 13]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F4BC',
+        hexcode: '1F9D1-1F3FD-200D-1F4BC',
         sheet: [48, 14]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F4BC',
+        hexcode: '1F9D1-1F3FE-200D-1F4BC',
         sheet: [48, 15]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F4BC',
+        hexcode: '1F9D1-1F3FF-200D-1F4BC',
         sheet: [48, 16]
       }
     ],
     shortName: 'office_worker'
   },
   {
-    name: 'Man Office Worker',
-    unified: '1F468-200D-1F4BC',
-    keywords: [
+    label: 'Man Office Worker',
+    hexcode: '1F468-200D-1F4BC',
+    tags: [
       'man_office_worker',
       'business',
       'manager',
@@ -7052,34 +7052,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [14, 54],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F4BC',
+        hexcode: '1F468-1F3FB-200D-1F4BC',
         sheet: [14, 55]
       },
       {
-        unified: '1F468-1F3FC-200D-1F4BC',
+        hexcode: '1F468-1F3FC-200D-1F4BC',
         sheet: [14, 56]
       },
       {
-        unified: '1F468-1F3FD-200D-1F4BC',
+        hexcode: '1F468-1F3FD-200D-1F4BC',
         sheet: [14, 57]
       },
       {
-        unified: '1F468-1F3FE-200D-1F4BC',
+        hexcode: '1F468-1F3FE-200D-1F4BC',
         sheet: [14, 58]
       },
       {
-        unified: '1F468-1F3FF-200D-1F4BC',
+        hexcode: '1F468-1F3FF-200D-1F4BC',
         sheet: [14, 59]
       }
     ],
     shortName: 'male-office-worker'
   },
   {
-    name: 'Woman Office Worker',
-    unified: '1F469-200D-1F4BC',
-    keywords: [
+    label: 'Woman Office Worker',
+    hexcode: '1F469-200D-1F4BC',
+    tags: [
       'woman_office_worker',
       'business',
       'manager',
@@ -7087,66 +7087,66 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [18, 22],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F4BC',
+        hexcode: '1F469-1F3FB-200D-1F4BC',
         sheet: [18, 23]
       },
       {
-        unified: '1F469-1F3FC-200D-1F4BC',
+        hexcode: '1F469-1F3FC-200D-1F4BC',
         sheet: [18, 24]
       },
       {
-        unified: '1F469-1F3FD-200D-1F4BC',
+        hexcode: '1F469-1F3FD-200D-1F4BC',
         sheet: [18, 25]
       },
       {
-        unified: '1F469-1F3FE-200D-1F4BC',
+        hexcode: '1F469-1F3FE-200D-1F4BC',
         sheet: [18, 26]
       },
       {
-        unified: '1F469-1F3FF-200D-1F4BC',
+        hexcode: '1F469-1F3FF-200D-1F4BC',
         sheet: [18, 27]
       }
     ],
     shortName: 'female-office-worker'
   },
   {
-    name: 'Scientist',
-    unified: '1F9D1-200D-1F52C',
-    keywords: [
+    label: 'Scientist',
+    hexcode: '1F9D1-200D-1F52C',
+    tags: [
       'scientist',
       'chemistry'
     ],
     sheet: [48, 23],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F52C',
+        hexcode: '1F9D1-1F3FB-200D-1F52C',
         sheet: [48, 24]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F52C',
+        hexcode: '1F9D1-1F3FC-200D-1F52C',
         sheet: [48, 25]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F52C',
+        hexcode: '1F9D1-1F3FD-200D-1F52C',
         sheet: [48, 26]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F52C',
+        hexcode: '1F9D1-1F3FE-200D-1F52C',
         sheet: [48, 27]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F52C',
+        hexcode: '1F9D1-1F3FF-200D-1F52C',
         sheet: [48, 28]
       }
     ],
     shortName: 'scientist'
   },
   {
-    name: 'Man Scientist',
-    unified: '1F468-200D-1F52C',
-    keywords: [
+    label: 'Man Scientist',
+    hexcode: '1F468-200D-1F52C',
+    tags: [
       'man_scientist',
       'biologist',
       'chemist',
@@ -7156,34 +7156,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [15, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F52C',
+        hexcode: '1F468-1F3FB-200D-1F52C',
         sheet: [15, 6]
       },
       {
-        unified: '1F468-1F3FC-200D-1F52C',
+        hexcode: '1F468-1F3FC-200D-1F52C',
         sheet: [15, 7]
       },
       {
-        unified: '1F468-1F3FD-200D-1F52C',
+        hexcode: '1F468-1F3FD-200D-1F52C',
         sheet: [15, 8]
       },
       {
-        unified: '1F468-1F3FE-200D-1F52C',
+        hexcode: '1F468-1F3FE-200D-1F52C',
         sheet: [15, 9]
       },
       {
-        unified: '1F468-1F3FF-200D-1F52C',
+        hexcode: '1F468-1F3FF-200D-1F52C',
         sheet: [15, 10]
       }
     ],
     shortName: 'male-scientist'
   },
   {
-    name: 'Woman Scientist',
-    unified: '1F469-200D-1F52C',
-    keywords: [
+    label: 'Woman Scientist',
+    hexcode: '1F469-200D-1F52C',
+    tags: [
       'woman_scientist',
       'biologist',
       'chemist',
@@ -7193,66 +7193,66 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [18, 34],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F52C',
+        hexcode: '1F469-1F3FB-200D-1F52C',
         sheet: [18, 35]
       },
       {
-        unified: '1F469-1F3FC-200D-1F52C',
+        hexcode: '1F469-1F3FC-200D-1F52C',
         sheet: [18, 36]
       },
       {
-        unified: '1F469-1F3FD-200D-1F52C',
+        hexcode: '1F469-1F3FD-200D-1F52C',
         sheet: [18, 37]
       },
       {
-        unified: '1F469-1F3FE-200D-1F52C',
+        hexcode: '1F469-1F3FE-200D-1F52C',
         sheet: [18, 38]
       },
       {
-        unified: '1F469-1F3FF-200D-1F52C',
+        hexcode: '1F469-1F3FF-200D-1F52C',
         sheet: [18, 39]
       }
     ],
     shortName: 'female-scientist'
   },
   {
-    name: 'Technologist',
-    unified: '1F9D1-200D-1F4BB',
-    keywords: [
+    label: 'Technologist',
+    hexcode: '1F9D1-200D-1F4BB',
+    tags: [
       'technologist',
       'computer'
     ],
     sheet: [48, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F4BB',
+        hexcode: '1F9D1-1F3FB-200D-1F4BB',
         sheet: [48, 6]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F4BB',
+        hexcode: '1F9D1-1F3FC-200D-1F4BB',
         sheet: [48, 7]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F4BB',
+        hexcode: '1F9D1-1F3FD-200D-1F4BB',
         sheet: [48, 8]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F4BB',
+        hexcode: '1F9D1-1F3FE-200D-1F4BB',
         sheet: [48, 9]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F4BB',
+        hexcode: '1F9D1-1F3FF-200D-1F4BB',
         sheet: [48, 10]
       }
     ],
     shortName: 'technologist'
   },
   {
-    name: 'Man Technologist',
-    unified: '1F468-200D-1F4BB',
-    keywords: [
+    label: 'Man Technologist',
+    hexcode: '1F468-200D-1F4BB',
+    tags: [
       'man_technologist',
       'coder',
       'developer',
@@ -7265,34 +7265,34 @@ export const emojis: CompressedEmojiData[] = [
       'computer'
     ],
     sheet: [14, 48],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F4BB',
+        hexcode: '1F468-1F3FB-200D-1F4BB',
         sheet: [14, 49]
       },
       {
-        unified: '1F468-1F3FC-200D-1F4BB',
+        hexcode: '1F468-1F3FC-200D-1F4BB',
         sheet: [14, 50]
       },
       {
-        unified: '1F468-1F3FD-200D-1F4BB',
+        hexcode: '1F468-1F3FD-200D-1F4BB',
         sheet: [14, 51]
       },
       {
-        unified: '1F468-1F3FE-200D-1F4BB',
+        hexcode: '1F468-1F3FE-200D-1F4BB',
         sheet: [14, 52]
       },
       {
-        unified: '1F468-1F3FF-200D-1F4BB',
+        hexcode: '1F468-1F3FF-200D-1F4BB',
         sheet: [14, 53]
       }
     ],
     shortName: 'male-technologist'
   },
   {
-    name: 'Woman Technologist',
-    unified: '1F469-200D-1F4BB',
-    keywords: [
+    label: 'Woman Technologist',
+    hexcode: '1F469-200D-1F4BB',
+    tags: [
       'woman_technologist',
       'coder',
       'developer',
@@ -7305,68 +7305,68 @@ export const emojis: CompressedEmojiData[] = [
       'computer'
     ],
     sheet: [18, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F4BB',
+        hexcode: '1F469-1F3FB-200D-1F4BB',
         sheet: [18, 17]
       },
       {
-        unified: '1F469-1F3FC-200D-1F4BB',
+        hexcode: '1F469-1F3FC-200D-1F4BB',
         sheet: [18, 18]
       },
       {
-        unified: '1F469-1F3FD-200D-1F4BB',
+        hexcode: '1F469-1F3FD-200D-1F4BB',
         sheet: [18, 19]
       },
       {
-        unified: '1F469-1F3FE-200D-1F4BB',
+        hexcode: '1F469-1F3FE-200D-1F4BB',
         sheet: [18, 20]
       },
       {
-        unified: '1F469-1F3FF-200D-1F4BB',
+        hexcode: '1F469-1F3FF-200D-1F4BB',
         sheet: [18, 21]
       }
     ],
     shortName: 'female-technologist'
   },
   {
-    name: 'Singer',
-    unified: '1F9D1-200D-1F3A4',
-    keywords: [
+    label: 'Singer',
+    hexcode: '1F9D1-200D-1F3A4',
+    tags: [
       'singer',
       'song',
       'artist',
       'performer'
     ],
     sheet: [47, 42],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F3A4',
+        hexcode: '1F9D1-1F3FB-200D-1F3A4',
         sheet: [47, 43]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F3A4',
+        hexcode: '1F9D1-1F3FC-200D-1F3A4',
         sheet: [47, 44]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F3A4',
+        hexcode: '1F9D1-1F3FD-200D-1F3A4',
         sheet: [47, 45]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F3A4',
+        hexcode: '1F9D1-1F3FE-200D-1F3A4',
         sheet: [47, 46]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F3A4',
+        hexcode: '1F9D1-1F3FF-200D-1F3A4',
         sheet: [47, 47]
       }
     ],
     shortName: 'singer'
   },
   {
-    name: 'Man Singer',
-    unified: '1F468-200D-1F3A4',
-    keywords: [
+    label: 'Man Singer',
+    hexcode: '1F468-200D-1F3A4',
+    tags: [
       'man_singer',
       'rockstar',
       'entertainer',
@@ -7374,34 +7374,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [14, 9],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F3A4',
+        hexcode: '1F468-1F3FB-200D-1F3A4',
         sheet: [14, 10]
       },
       {
-        unified: '1F468-1F3FC-200D-1F3A4',
+        hexcode: '1F468-1F3FC-200D-1F3A4',
         sheet: [14, 11]
       },
       {
-        unified: '1F468-1F3FD-200D-1F3A4',
+        hexcode: '1F468-1F3FD-200D-1F3A4',
         sheet: [14, 12]
       },
       {
-        unified: '1F468-1F3FE-200D-1F3A4',
+        hexcode: '1F468-1F3FE-200D-1F3A4',
         sheet: [14, 13]
       },
       {
-        unified: '1F468-1F3FF-200D-1F3A4',
+        hexcode: '1F468-1F3FF-200D-1F3A4',
         sheet: [14, 14]
       }
     ],
     shortName: 'male-singer'
   },
   {
-    name: 'Woman Singer',
-    unified: '1F469-200D-1F3A4',
-    keywords: [
+    label: 'Woman Singer',
+    hexcode: '1F469-200D-1F3A4',
+    tags: [
       'woman_singer',
       'rockstar',
       'entertainer',
@@ -7409,170 +7409,170 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [17, 43],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F3A4',
+        hexcode: '1F469-1F3FB-200D-1F3A4',
         sheet: [17, 44]
       },
       {
-        unified: '1F469-1F3FC-200D-1F3A4',
+        hexcode: '1F469-1F3FC-200D-1F3A4',
         sheet: [17, 45]
       },
       {
-        unified: '1F469-1F3FD-200D-1F3A4',
+        hexcode: '1F469-1F3FD-200D-1F3A4',
         sheet: [17, 46]
       },
       {
-        unified: '1F469-1F3FE-200D-1F3A4',
+        hexcode: '1F469-1F3FE-200D-1F3A4',
         sheet: [17, 47]
       },
       {
-        unified: '1F469-1F3FF-200D-1F3A4',
+        hexcode: '1F469-1F3FF-200D-1F3A4',
         sheet: [17, 48]
       }
     ],
     shortName: 'female-singer'
   },
   {
-    name: 'Artist',
-    unified: '1F9D1-200D-1F3A8',
-    keywords: [
+    label: 'Artist',
+    hexcode: '1F9D1-200D-1F3A8',
+    tags: [
       'artist',
       'painting',
       'draw',
       'creativity'
     ],
     sheet: [47, 48],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F3A8',
+        hexcode: '1F9D1-1F3FB-200D-1F3A8',
         sheet: [47, 49]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F3A8',
+        hexcode: '1F9D1-1F3FC-200D-1F3A8',
         sheet: [47, 50]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F3A8',
+        hexcode: '1F9D1-1F3FD-200D-1F3A8',
         sheet: [47, 51]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F3A8',
+        hexcode: '1F9D1-1F3FE-200D-1F3A8',
         sheet: [47, 52]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F3A8',
+        hexcode: '1F9D1-1F3FF-200D-1F3A8',
         sheet: [47, 53]
       }
     ],
     shortName: 'artist'
   },
   {
-    name: 'Man Artist',
-    unified: '1F468-200D-1F3A8',
-    keywords: [
+    label: 'Man Artist',
+    hexcode: '1F468-200D-1F3A8',
+    tags: [
       'man_artist',
       'painter',
       'man',
       'human'
     ],
     sheet: [14, 15],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F3A8',
+        hexcode: '1F468-1F3FB-200D-1F3A8',
         sheet: [14, 16]
       },
       {
-        unified: '1F468-1F3FC-200D-1F3A8',
+        hexcode: '1F468-1F3FC-200D-1F3A8',
         sheet: [14, 17]
       },
       {
-        unified: '1F468-1F3FD-200D-1F3A8',
+        hexcode: '1F468-1F3FD-200D-1F3A8',
         sheet: [14, 18]
       },
       {
-        unified: '1F468-1F3FE-200D-1F3A8',
+        hexcode: '1F468-1F3FE-200D-1F3A8',
         sheet: [14, 19]
       },
       {
-        unified: '1F468-1F3FF-200D-1F3A8',
+        hexcode: '1F468-1F3FF-200D-1F3A8',
         sheet: [14, 20]
       }
     ],
     shortName: 'male-artist'
   },
   {
-    name: 'Woman Artist',
-    unified: '1F469-200D-1F3A8',
-    keywords: [
+    label: 'Woman Artist',
+    hexcode: '1F469-200D-1F3A8',
+    tags: [
       'woman_artist',
       'painter',
       'woman',
       'human'
     ],
     sheet: [17, 49],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F3A8',
+        hexcode: '1F469-1F3FB-200D-1F3A8',
         sheet: [17, 50]
       },
       {
-        unified: '1F469-1F3FC-200D-1F3A8',
+        hexcode: '1F469-1F3FC-200D-1F3A8',
         sheet: [17, 51]
       },
       {
-        unified: '1F469-1F3FD-200D-1F3A8',
+        hexcode: '1F469-1F3FD-200D-1F3A8',
         sheet: [17, 52]
       },
       {
-        unified: '1F469-1F3FE-200D-1F3A8',
+        hexcode: '1F469-1F3FE-200D-1F3A8',
         sheet: [17, 53]
       },
       {
-        unified: '1F469-1F3FF-200D-1F3A8',
+        hexcode: '1F469-1F3FF-200D-1F3A8',
         sheet: [17, 54]
       }
     ],
     shortName: 'female-artist'
   },
   {
-    name: 'Pilot',
-    unified: '1F9D1-200D-2708-FE0F',
-    keywords: [
+    label: 'Pilot',
+    hexcode: '1F9D1-200D-2708-FE0F',
+    tags: [
       'pilot',
       'fly',
       'plane',
       'airplane'
     ],
     sheet: [49, 60],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-2708-FE0F',
+        hexcode: '1F9D1-1F3FB-200D-2708-FE0F',
         sheet: [50, 0]
       },
       {
-        unified: '1F9D1-1F3FC-200D-2708-FE0F',
+        hexcode: '1F9D1-1F3FC-200D-2708-FE0F',
         sheet: [50, 1]
       },
       {
-        unified: '1F9D1-1F3FD-200D-2708-FE0F',
+        hexcode: '1F9D1-1F3FD-200D-2708-FE0F',
         sheet: [50, 2]
       },
       {
-        unified: '1F9D1-1F3FE-200D-2708-FE0F',
+        hexcode: '1F9D1-1F3FE-200D-2708-FE0F',
         sheet: [50, 3]
       },
       {
-        unified: '1F9D1-1F3FF-200D-2708-FE0F',
+        hexcode: '1F9D1-1F3FF-200D-2708-FE0F',
         sheet: [50, 4]
       }
     ],
     shortName: 'pilot'
   },
   {
-    name: 'Man Pilot',
-    unified: '1F468-200D-2708-FE0F',
-    keywords: [
+    label: 'Man Pilot',
+    hexcode: '1F468-200D-2708-FE0F',
+    tags: [
       'man_pilot',
       'aviator',
       'plane',
@@ -7580,34 +7580,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [16, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-2708-FE0F',
+        hexcode: '1F468-1F3FB-200D-2708-FE0F',
         sheet: [16, 17]
       },
       {
-        unified: '1F468-1F3FC-200D-2708-FE0F',
+        hexcode: '1F468-1F3FC-200D-2708-FE0F',
         sheet: [16, 18]
       },
       {
-        unified: '1F468-1F3FD-200D-2708-FE0F',
+        hexcode: '1F468-1F3FD-200D-2708-FE0F',
         sheet: [16, 19]
       },
       {
-        unified: '1F468-1F3FE-200D-2708-FE0F',
+        hexcode: '1F468-1F3FE-200D-2708-FE0F',
         sheet: [16, 20]
       },
       {
-        unified: '1F468-1F3FF-200D-2708-FE0F',
+        hexcode: '1F468-1F3FF-200D-2708-FE0F',
         sheet: [16, 21]
       }
     ],
     shortName: 'male-pilot'
   },
   {
-    name: 'Woman Pilot',
-    unified: '1F469-200D-2708-FE0F',
-    keywords: [
+    label: 'Woman Pilot',
+    hexcode: '1F469-200D-2708-FE0F',
+    tags: [
       'woman_pilot',
       'aviator',
       'plane',
@@ -7615,66 +7615,66 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [19, 45],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2708-FE0F',
+        hexcode: '1F469-1F3FB-200D-2708-FE0F',
         sheet: [19, 46]
       },
       {
-        unified: '1F469-1F3FC-200D-2708-FE0F',
+        hexcode: '1F469-1F3FC-200D-2708-FE0F',
         sheet: [19, 47]
       },
       {
-        unified: '1F469-1F3FD-200D-2708-FE0F',
+        hexcode: '1F469-1F3FD-200D-2708-FE0F',
         sheet: [19, 48]
       },
       {
-        unified: '1F469-1F3FE-200D-2708-FE0F',
+        hexcode: '1F469-1F3FE-200D-2708-FE0F',
         sheet: [19, 49]
       },
       {
-        unified: '1F469-1F3FF-200D-2708-FE0F',
+        hexcode: '1F469-1F3FF-200D-2708-FE0F',
         sheet: [19, 50]
       }
     ],
     shortName: 'female-pilot'
   },
   {
-    name: 'Astronaut',
-    unified: '1F9D1-200D-1F680',
-    keywords: [
+    label: 'Astronaut',
+    hexcode: '1F9D1-200D-1F680',
+    tags: [
       'astronaut',
       'outerspace'
     ],
     sheet: [48, 29],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F680',
+        hexcode: '1F9D1-1F3FB-200D-1F680',
         sheet: [48, 30]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F680',
+        hexcode: '1F9D1-1F3FC-200D-1F680',
         sheet: [48, 31]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F680',
+        hexcode: '1F9D1-1F3FD-200D-1F680',
         sheet: [48, 32]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F680',
+        hexcode: '1F9D1-1F3FE-200D-1F680',
         sheet: [48, 33]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F680',
+        hexcode: '1F9D1-1F3FF-200D-1F680',
         sheet: [48, 34]
       }
     ],
     shortName: 'astronaut'
   },
   {
-    name: 'Man Astronaut',
-    unified: '1F468-200D-1F680',
-    keywords: [
+    label: 'Man Astronaut',
+    hexcode: '1F468-200D-1F680',
+    tags: [
       'man_astronaut',
       'space',
       'rocket',
@@ -7682,34 +7682,34 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [15, 11],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F680',
+        hexcode: '1F468-1F3FB-200D-1F680',
         sheet: [15, 12]
       },
       {
-        unified: '1F468-1F3FC-200D-1F680',
+        hexcode: '1F468-1F3FC-200D-1F680',
         sheet: [15, 13]
       },
       {
-        unified: '1F468-1F3FD-200D-1F680',
+        hexcode: '1F468-1F3FD-200D-1F680',
         sheet: [15, 14]
       },
       {
-        unified: '1F468-1F3FE-200D-1F680',
+        hexcode: '1F468-1F3FE-200D-1F680',
         sheet: [15, 15]
       },
       {
-        unified: '1F468-1F3FF-200D-1F680',
+        hexcode: '1F468-1F3FF-200D-1F680',
         sheet: [15, 16]
       }
     ],
     shortName: 'male-astronaut'
   },
   {
-    name: 'Woman Astronaut',
-    unified: '1F469-200D-1F680',
-    keywords: [
+    label: 'Woman Astronaut',
+    hexcode: '1F469-200D-1F680',
+    tags: [
       'woman_astronaut',
       'space',
       'rocket',
@@ -7717,151 +7717,151 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [18, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F680',
+        hexcode: '1F469-1F3FB-200D-1F680',
         sheet: [18, 41]
       },
       {
-        unified: '1F469-1F3FC-200D-1F680',
+        hexcode: '1F469-1F3FC-200D-1F680',
         sheet: [18, 42]
       },
       {
-        unified: '1F469-1F3FD-200D-1F680',
+        hexcode: '1F469-1F3FD-200D-1F680',
         sheet: [18, 43]
       },
       {
-        unified: '1F469-1F3FE-200D-1F680',
+        hexcode: '1F469-1F3FE-200D-1F680',
         sheet: [18, 44]
       },
       {
-        unified: '1F469-1F3FF-200D-1F680',
+        hexcode: '1F469-1F3FF-200D-1F680',
         sheet: [18, 45]
       }
     ],
     shortName: 'female-astronaut'
   },
   {
-    name: 'Firefighter',
-    unified: '1F9D1-200D-1F692',
-    keywords: ['firefighter', 'fire'],
+    label: 'Firefighter',
+    hexcode: '1F9D1-200D-1F692',
+    tags: ['firefighter', 'fire'],
     sheet: [48, 35],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F692',
+        hexcode: '1F9D1-1F3FB-200D-1F692',
         sheet: [48, 36]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F692',
+        hexcode: '1F9D1-1F3FC-200D-1F692',
         sheet: [48, 37]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F692',
+        hexcode: '1F9D1-1F3FD-200D-1F692',
         sheet: [48, 38]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F692',
+        hexcode: '1F9D1-1F3FE-200D-1F692',
         sheet: [48, 39]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F692',
+        hexcode: '1F9D1-1F3FF-200D-1F692',
         sheet: [48, 40]
       }
     ],
     shortName: 'firefighter'
   },
   {
-    name: 'Man Firefighter',
-    unified: '1F468-200D-1F692',
-    keywords: [
+    label: 'Man Firefighter',
+    hexcode: '1F468-200D-1F692',
+    tags: [
       'man_firefighter',
       'fireman',
       'man',
       'human'
     ],
     sheet: [15, 17],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F692',
+        hexcode: '1F468-1F3FB-200D-1F692',
         sheet: [15, 18]
       },
       {
-        unified: '1F468-1F3FC-200D-1F692',
+        hexcode: '1F468-1F3FC-200D-1F692',
         sheet: [15, 19]
       },
       {
-        unified: '1F468-1F3FD-200D-1F692',
+        hexcode: '1F468-1F3FD-200D-1F692',
         sheet: [15, 20]
       },
       {
-        unified: '1F468-1F3FE-200D-1F692',
+        hexcode: '1F468-1F3FE-200D-1F692',
         sheet: [15, 21]
       },
       {
-        unified: '1F468-1F3FF-200D-1F692',
+        hexcode: '1F468-1F3FF-200D-1F692',
         sheet: [15, 22]
       }
     ],
     shortName: 'male-firefighter'
   },
   {
-    name: 'Woman Firefighter',
-    unified: '1F469-200D-1F692',
-    keywords: [
+    label: 'Woman Firefighter',
+    hexcode: '1F469-200D-1F692',
+    tags: [
       'woman_firefighter',
       'fireman',
       'woman',
       'human'
     ],
     sheet: [18, 46],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F692',
+        hexcode: '1F469-1F3FB-200D-1F692',
         sheet: [18, 47]
       },
       {
-        unified: '1F469-1F3FC-200D-1F692',
+        hexcode: '1F469-1F3FC-200D-1F692',
         sheet: [18, 48]
       },
       {
-        unified: '1F469-1F3FD-200D-1F692',
+        hexcode: '1F469-1F3FD-200D-1F692',
         sheet: [18, 49]
       },
       {
-        unified: '1F469-1F3FE-200D-1F692',
+        hexcode: '1F469-1F3FE-200D-1F692',
         sheet: [18, 50]
       },
       {
-        unified: '1F469-1F3FF-200D-1F692',
+        hexcode: '1F469-1F3FF-200D-1F692',
         sheet: [18, 51]
       }
     ],
     shortName: 'female-firefighter'
   },
   {
-    name: 'Police Officer',
-    unified: '1F46E',
-    keywords: ['police_officer', 'cop'],
+    label: 'Police Officer',
+    hexcode: '1F46E',
+    tags: ['police_officer', 'cop'],
     sheet: [23, 8],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F46E-1F3FB',
+        hexcode: '1F46E-1F3FB',
         sheet: [23, 9]
       },
       {
-        unified: '1F46E-1F3FC',
+        hexcode: '1F46E-1F3FC',
         sheet: [23, 10]
       },
       {
-        unified: '1F46E-1F3FD',
+        hexcode: '1F46E-1F3FD',
         sheet: [23, 11]
       },
       {
-        unified: '1F46E-1F3FE',
+        hexcode: '1F46E-1F3FE',
         sheet: [23, 12]
       },
       {
-        unified: '1F46E-1F3FF',
+        hexcode: '1F46E-1F3FF',
         sheet: [23, 13]
       }
     ],
@@ -7869,10 +7869,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F46E-200D-2642-FE0F'
   },
   {
-    name: 'Man Police Officer',
-    unified: '1F46E-200D-2642-FE0F',
+    label: 'Man Police Officer',
+    hexcode: '1F46E-200D-2642-FE0F',
     obsoletes: '1F46E',
-    keywords: [
+    tags: [
       'man_police_officer',
       'man',
       'police',
@@ -7883,34 +7883,34 @@ export const emojis: CompressedEmojiData[] = [
       '911'
     ],
     sheet: [23, 2],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F46E-1F3FB-200D-2642-FE0F',
+        hexcode: '1F46E-1F3FB-200D-2642-FE0F',
         sheet: [23, 3]
       },
       {
-        unified: '1F46E-1F3FC-200D-2642-FE0F',
+        hexcode: '1F46E-1F3FC-200D-2642-FE0F',
         sheet: [23, 4]
       },
       {
-        unified: '1F46E-1F3FD-200D-2642-FE0F',
+        hexcode: '1F46E-1F3FD-200D-2642-FE0F',
         sheet: [23, 5]
       },
       {
-        unified: '1F46E-1F3FE-200D-2642-FE0F',
+        hexcode: '1F46E-1F3FE-200D-2642-FE0F',
         sheet: [23, 6]
       },
       {
-        unified: '1F46E-1F3FF-200D-2642-FE0F',
+        hexcode: '1F46E-1F3FF-200D-2642-FE0F',
         sheet: [23, 7]
       }
     ],
     shortName: 'male-police-officer'
   },
   {
-    name: 'Woman Police Officer',
-    unified: '1F46E-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Police Officer',
+    hexcode: '1F46E-200D-2640-FE0F',
+    tags: [
       'woman_police_officer',
       'woman',
       'police',
@@ -7922,59 +7922,59 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [22, 57],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F46E-1F3FB-200D-2640-FE0F',
+        hexcode: '1F46E-1F3FB-200D-2640-FE0F',
         sheet: [22, 58]
       },
       {
-        unified: '1F46E-1F3FC-200D-2640-FE0F',
+        hexcode: '1F46E-1F3FC-200D-2640-FE0F',
         sheet: [22, 59]
       },
       {
-        unified: '1F46E-1F3FD-200D-2640-FE0F',
+        hexcode: '1F46E-1F3FD-200D-2640-FE0F',
         sheet: [22, 60]
       },
       {
-        unified: '1F46E-1F3FE-200D-2640-FE0F',
+        hexcode: '1F46E-1F3FE-200D-2640-FE0F',
         sheet: [23, 0]
       },
       {
-        unified: '1F46E-1F3FF-200D-2640-FE0F',
+        hexcode: '1F46E-1F3FF-200D-2640-FE0F',
         sheet: [23, 1]
       }
     ],
     shortName: 'female-police-officer'
   },
   {
-    name: 'Detective',
-    unified: '1F575-FE0F',
-    keywords: [
+    label: 'Detective',
+    hexcode: '1F575-FE0F',
+    tags: [
       'detective',
       'human',
       'spy',
       'detective'
     ],
     sheet: [31, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F575-1F3FB',
+        hexcode: '1F575-1F3FB',
         sheet: [31, 17]
       },
       {
-        unified: '1F575-1F3FC',
+        hexcode: '1F575-1F3FC',
         sheet: [31, 18]
       },
       {
-        unified: '1F575-1F3FD',
+        hexcode: '1F575-1F3FD',
         sheet: [31, 19]
       },
       {
-        unified: '1F575-1F3FE',
+        hexcode: '1F575-1F3FE',
         sheet: [31, 20]
       },
       {
-        unified: '1F575-1F3FF',
+        hexcode: '1F575-1F3FF',
         sheet: [31, 21]
       }
     ],
@@ -7982,43 +7982,43 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F575-FE0F-200D-2642-FE0F'
   },
   {
-    name: 'Man Detective',
-    unified: '1F575-FE0F-200D-2642-FE0F',
+    label: 'Man Detective',
+    hexcode: '1F575-FE0F-200D-2642-FE0F',
     obsoletes: '1F575-FE0F',
-    keywords: [
+    tags: [
       'man_detective',
       'crime'
     ],
     sheet: [31, 10],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F575-1F3FB-200D-2642-FE0F',
+        hexcode: '1F575-1F3FB-200D-2642-FE0F',
         sheet: [31, 11]
       },
       {
-        unified: '1F575-1F3FC-200D-2642-FE0F',
+        hexcode: '1F575-1F3FC-200D-2642-FE0F',
         sheet: [31, 12]
       },
       {
-        unified: '1F575-1F3FD-200D-2642-FE0F',
+        hexcode: '1F575-1F3FD-200D-2642-FE0F',
         sheet: [31, 13]
       },
       {
-        unified: '1F575-1F3FE-200D-2642-FE0F',
+        hexcode: '1F575-1F3FE-200D-2642-FE0F',
         sheet: [31, 14]
       },
       {
-        unified: '1F575-1F3FF-200D-2642-FE0F',
+        hexcode: '1F575-1F3FF-200D-2642-FE0F',
         sheet: [31, 15]
       }
     ],
     shortName: 'male-detective'
   },
   {
-    name: 'Woman Detective',
-    unified: '1F575-FE0F-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Detective',
+    hexcode: '1F575-FE0F-200D-2640-FE0F',
+    tags: [
       'woman_detective',
       'human',
       'spy',
@@ -8028,54 +8028,54 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [31, 4],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F575-1F3FB-200D-2640-FE0F',
+        hexcode: '1F575-1F3FB-200D-2640-FE0F',
         sheet: [31, 5]
       },
       {
-        unified: '1F575-1F3FC-200D-2640-FE0F',
+        hexcode: '1F575-1F3FC-200D-2640-FE0F',
         sheet: [31, 6]
       },
       {
-        unified: '1F575-1F3FD-200D-2640-FE0F',
+        hexcode: '1F575-1F3FD-200D-2640-FE0F',
         sheet: [31, 7]
       },
       {
-        unified: '1F575-1F3FE-200D-2640-FE0F',
+        hexcode: '1F575-1F3FE-200D-2640-FE0F',
         sheet: [31, 8]
       },
       {
-        unified: '1F575-1F3FF-200D-2640-FE0F',
+        hexcode: '1F575-1F3FF-200D-2640-FE0F',
         sheet: [31, 9]
       }
     ],
     shortName: 'female-detective'
   },
   {
-    name: 'Guardsman',
-    unified: '1F482',
-    keywords: ['guard', 'protect'],
+    label: 'Guardsman',
+    hexcode: '1F482',
+    tags: ['guard', 'protect'],
     sheet: [25, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F482-1F3FB',
+        hexcode: '1F482-1F3FB',
         sheet: [25, 41]
       },
       {
-        unified: '1F482-1F3FC',
+        hexcode: '1F482-1F3FC',
         sheet: [25, 42]
       },
       {
-        unified: '1F482-1F3FD',
+        hexcode: '1F482-1F3FD',
         sheet: [25, 43]
       },
       {
-        unified: '1F482-1F3FE',
+        hexcode: '1F482-1F3FE',
         sheet: [25, 44]
       },
       {
-        unified: '1F482-1F3FF',
+        hexcode: '1F482-1F3FF',
         sheet: [25, 45]
       }
     ],
@@ -8083,10 +8083,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F482-200D-2642-FE0F'
   },
   {
-    name: 'Man Guard',
-    unified: '1F482-200D-2642-FE0F',
+    label: 'Man Guard',
+    hexcode: '1F482-200D-2642-FE0F',
     obsoletes: '1F482',
-    keywords: [
+    tags: [
       'man_guard',
       'uk',
       'gb',
@@ -8096,34 +8096,34 @@ export const emojis: CompressedEmojiData[] = [
       'royal'
     ],
     sheet: [25, 34],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F482-1F3FB-200D-2642-FE0F',
+        hexcode: '1F482-1F3FB-200D-2642-FE0F',
         sheet: [25, 35]
       },
       {
-        unified: '1F482-1F3FC-200D-2642-FE0F',
+        hexcode: '1F482-1F3FC-200D-2642-FE0F',
         sheet: [25, 36]
       },
       {
-        unified: '1F482-1F3FD-200D-2642-FE0F',
+        hexcode: '1F482-1F3FD-200D-2642-FE0F',
         sheet: [25, 37]
       },
       {
-        unified: '1F482-1F3FE-200D-2642-FE0F',
+        hexcode: '1F482-1F3FE-200D-2642-FE0F',
         sheet: [25, 38]
       },
       {
-        unified: '1F482-1F3FF-200D-2642-FE0F',
+        hexcode: '1F482-1F3FF-200D-2642-FE0F',
         sheet: [25, 39]
       }
     ],
     shortName: 'male-guard'
   },
   {
-    name: 'Woman Guard',
-    unified: '1F482-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Guard',
+    hexcode: '1F482-200D-2640-FE0F',
+    tags: [
       'woman_guard',
       'uk',
       'gb',
@@ -8133,92 +8133,92 @@ export const emojis: CompressedEmojiData[] = [
       'woman'
     ],
     sheet: [25, 28],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F482-1F3FB-200D-2640-FE0F',
+        hexcode: '1F482-1F3FB-200D-2640-FE0F',
         sheet: [25, 29]
       },
       {
-        unified: '1F482-1F3FC-200D-2640-FE0F',
+        hexcode: '1F482-1F3FC-200D-2640-FE0F',
         sheet: [25, 30]
       },
       {
-        unified: '1F482-1F3FD-200D-2640-FE0F',
+        hexcode: '1F482-1F3FD-200D-2640-FE0F',
         sheet: [25, 31]
       },
       {
-        unified: '1F482-1F3FE-200D-2640-FE0F',
+        hexcode: '1F482-1F3FE-200D-2640-FE0F',
         sheet: [25, 32]
       },
       {
-        unified: '1F482-1F3FF-200D-2640-FE0F',
+        hexcode: '1F482-1F3FF-200D-2640-FE0F',
         sheet: [25, 33]
       }
     ],
     shortName: 'female-guard'
   },
   {
-    name: 'Ninja',
-    unified: '1F977',
-    keywords: [
+    label: 'Ninja',
+    hexcode: '1F977',
+    tags: [
       'ninja',
       'ninjutsu',
       'skills',
       'japanese'
     ],
     sheet: [44, 4],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F977-1F3FB',
+        hexcode: '1F977-1F3FB',
         sheet: [44, 5]
       },
       {
-        unified: '1F977-1F3FC',
+        hexcode: '1F977-1F3FC',
         sheet: [44, 6]
       },
       {
-        unified: '1F977-1F3FD',
+        hexcode: '1F977-1F3FD',
         sheet: [44, 7]
       },
       {
-        unified: '1F977-1F3FE',
+        hexcode: '1F977-1F3FE',
         sheet: [44, 8]
       },
       {
-        unified: '1F977-1F3FF',
+        hexcode: '1F977-1F3FF',
         sheet: [44, 9]
       }
     ],
     shortName: 'ninja'
   },
   {
-    name: 'Construction Worker',
-    unified: '1F477',
-    keywords: [
+    label: 'Construction Worker',
+    hexcode: '1F477',
+    tags: [
       'construction_worker',
       'labor',
       'build'
     ],
     sheet: [24, 46],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F477-1F3FB',
+        hexcode: '1F477-1F3FB',
         sheet: [24, 47]
       },
       {
-        unified: '1F477-1F3FC',
+        hexcode: '1F477-1F3FC',
         sheet: [24, 48]
       },
       {
-        unified: '1F477-1F3FD',
+        hexcode: '1F477-1F3FD',
         sheet: [24, 49]
       },
       {
-        unified: '1F477-1F3FE',
+        hexcode: '1F477-1F3FE',
         sheet: [24, 50]
       },
       {
-        unified: '1F477-1F3FF',
+        hexcode: '1F477-1F3FF',
         sheet: [24, 51]
       }
     ],
@@ -8226,10 +8226,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F477-200D-2642-FE0F'
   },
   {
-    name: 'Man Construction Worker',
-    unified: '1F477-200D-2642-FE0F',
+    label: 'Man Construction Worker',
+    hexcode: '1F477-200D-2642-FE0F',
     obsoletes: '1F477',
-    keywords: [
+    tags: [
       'man_construction_worker',
       'male',
       'human',
@@ -8241,34 +8241,34 @@ export const emojis: CompressedEmojiData[] = [
       'labor'
     ],
     sheet: [24, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F477-1F3FB-200D-2642-FE0F',
+        hexcode: '1F477-1F3FB-200D-2642-FE0F',
         sheet: [24, 41]
       },
       {
-        unified: '1F477-1F3FC-200D-2642-FE0F',
+        hexcode: '1F477-1F3FC-200D-2642-FE0F',
         sheet: [24, 42]
       },
       {
-        unified: '1F477-1F3FD-200D-2642-FE0F',
+        hexcode: '1F477-1F3FD-200D-2642-FE0F',
         sheet: [24, 43]
       },
       {
-        unified: '1F477-1F3FE-200D-2642-FE0F',
+        hexcode: '1F477-1F3FE-200D-2642-FE0F',
         sheet: [24, 44]
       },
       {
-        unified: '1F477-1F3FF-200D-2642-FE0F',
+        hexcode: '1F477-1F3FF-200D-2642-FE0F',
         sheet: [24, 45]
       }
     ],
     shortName: 'male-construction-worker'
   },
   {
-    name: 'Woman Construction Worker',
-    unified: '1F477-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Construction Worker',
+    hexcode: '1F477-200D-2640-FE0F',
+    tags: [
       'woman_construction_worker',
       'female',
       'human',
@@ -8280,63 +8280,63 @@ export const emojis: CompressedEmojiData[] = [
       'woman'
     ],
     sheet: [24, 34],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F477-1F3FB-200D-2640-FE0F',
+        hexcode: '1F477-1F3FB-200D-2640-FE0F',
         sheet: [24, 35]
       },
       {
-        unified: '1F477-1F3FC-200D-2640-FE0F',
+        hexcode: '1F477-1F3FC-200D-2640-FE0F',
         sheet: [24, 36]
       },
       {
-        unified: '1F477-1F3FD-200D-2640-FE0F',
+        hexcode: '1F477-1F3FD-200D-2640-FE0F',
         sheet: [24, 37]
       },
       {
-        unified: '1F477-1F3FE-200D-2640-FE0F',
+        hexcode: '1F477-1F3FE-200D-2640-FE0F',
         sheet: [24, 38]
       },
       {
-        unified: '1F477-1F3FF-200D-2640-FE0F',
+        hexcode: '1F477-1F3FF-200D-2640-FE0F',
         sheet: [24, 39]
       }
     ],
     shortName: 'female-construction-worker'
   },
   {
-    name: 'Person with Crown',
-    unified: '1FAC5',
-    keywords: [
+    label: 'Person with Crown',
+    hexcode: '1FAC5',
+    tags: [
       'person with crown',
       'royalty',
       'power'
     ],
     sheet: [54, 57],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAC5-1F3FB',
+        hexcode: '1FAC5-1F3FB',
         sheet: [54, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC5-1F3FC',
+        hexcode: '1FAC5-1F3FC',
         sheet: [54, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC5-1F3FD',
+        hexcode: '1FAC5-1F3FD',
         sheet: [54, 60],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC5-1F3FE',
+        hexcode: '1FAC5-1F3FE',
         sheet: [55, 0],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC5-1F3FF',
+        hexcode: '1FAC5-1F3FF',
         sheet: [55, 1],
         hidden: ['facebook']
       }
@@ -8344,9 +8344,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'person_with_crown'
   },
   {
-    name: 'Prince',
-    unified: '1F934',
-    keywords: [
+    label: 'Prince',
+    hexcode: '1F934',
+    tags: [
       'prince',
       'boy',
       'man',
@@ -8356,34 +8356,34 @@ export const emojis: CompressedEmojiData[] = [
       'king'
     ],
     sheet: [41, 8],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F934-1F3FB',
+        hexcode: '1F934-1F3FB',
         sheet: [41, 9]
       },
       {
-        unified: '1F934-1F3FC',
+        hexcode: '1F934-1F3FC',
         sheet: [41, 10]
       },
       {
-        unified: '1F934-1F3FD',
+        hexcode: '1F934-1F3FD',
         sheet: [41, 11]
       },
       {
-        unified: '1F934-1F3FE',
+        hexcode: '1F934-1F3FE',
         sheet: [41, 12]
       },
       {
-        unified: '1F934-1F3FF',
+        hexcode: '1F934-1F3FF',
         sheet: [41, 13]
       }
     ],
     shortName: 'prince'
   },
   {
-    name: 'Princess',
-    unified: '1F478',
-    keywords: [
+    label: 'Princess',
+    hexcode: '1F478',
+    tags: [
       'princess',
       'girl',
       'woman',
@@ -8394,57 +8394,57 @@ export const emojis: CompressedEmojiData[] = [
       'queen'
     ],
     sheet: [24, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F478-1F3FB',
+        hexcode: '1F478-1F3FB',
         sheet: [24, 53]
       },
       {
-        unified: '1F478-1F3FC',
+        hexcode: '1F478-1F3FC',
         sheet: [24, 54]
       },
       {
-        unified: '1F478-1F3FD',
+        hexcode: '1F478-1F3FD',
         sheet: [24, 55]
       },
       {
-        unified: '1F478-1F3FE',
+        hexcode: '1F478-1F3FE',
         sheet: [24, 56]
       },
       {
-        unified: '1F478-1F3FF',
+        hexcode: '1F478-1F3FF',
         sheet: [24, 57]
       }
     ],
     shortName: 'princess'
   },
   {
-    name: 'Man with Turban',
-    unified: '1F473',
-    keywords: [
+    label: 'Man with Turban',
+    hexcode: '1F473',
+    tags: [
       'person_wearing_turban',
       'headdress'
     ],
     sheet: [24, 10],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F473-1F3FB',
+        hexcode: '1F473-1F3FB',
         sheet: [24, 11]
       },
       {
-        unified: '1F473-1F3FC',
+        hexcode: '1F473-1F3FC',
         sheet: [24, 12]
       },
       {
-        unified: '1F473-1F3FD',
+        hexcode: '1F473-1F3FD',
         sheet: [24, 13]
       },
       {
-        unified: '1F473-1F3FE',
+        hexcode: '1F473-1F3FE',
         sheet: [24, 14]
       },
       {
-        unified: '1F473-1F3FF',
+        hexcode: '1F473-1F3FF',
         sheet: [24, 15]
       }
     ],
@@ -8452,10 +8452,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F473-200D-2642-FE0F'
   },
   {
-    name: 'Man Wearing Turban',
-    unified: '1F473-200D-2642-FE0F',
+    label: 'Man Wearing Turban',
+    hexcode: '1F473-200D-2642-FE0F',
     obsoletes: '1F473',
-    keywords: [
+    tags: [
       'man_wearing_turban',
       'male',
       'indian',
@@ -8463,34 +8463,34 @@ export const emojis: CompressedEmojiData[] = [
       'arabs'
     ],
     sheet: [24, 4],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F473-1F3FB-200D-2642-FE0F',
+        hexcode: '1F473-1F3FB-200D-2642-FE0F',
         sheet: [24, 5]
       },
       {
-        unified: '1F473-1F3FC-200D-2642-FE0F',
+        hexcode: '1F473-1F3FC-200D-2642-FE0F',
         sheet: [24, 6]
       },
       {
-        unified: '1F473-1F3FD-200D-2642-FE0F',
+        hexcode: '1F473-1F3FD-200D-2642-FE0F',
         sheet: [24, 7]
       },
       {
-        unified: '1F473-1F3FE-200D-2642-FE0F',
+        hexcode: '1F473-1F3FE-200D-2642-FE0F',
         sheet: [24, 8]
       },
       {
-        unified: '1F473-1F3FF-200D-2642-FE0F',
+        hexcode: '1F473-1F3FF-200D-2642-FE0F',
         sheet: [24, 9]
       }
     ],
     shortName: 'man-wearing-turban'
   },
   {
-    name: 'Woman Wearing Turban',
-    unified: '1F473-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Wearing Turban',
+    hexcode: '1F473-200D-2640-FE0F',
+    tags: [
       'woman_wearing_turban',
       'female',
       'indian',
@@ -8499,68 +8499,68 @@ export const emojis: CompressedEmojiData[] = [
       'woman'
     ],
     sheet: [23, 59],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F473-1F3FB-200D-2640-FE0F',
+        hexcode: '1F473-1F3FB-200D-2640-FE0F',
         sheet: [23, 60]
       },
       {
-        unified: '1F473-1F3FC-200D-2640-FE0F',
+        hexcode: '1F473-1F3FC-200D-2640-FE0F',
         sheet: [24, 0]
       },
       {
-        unified: '1F473-1F3FD-200D-2640-FE0F',
+        hexcode: '1F473-1F3FD-200D-2640-FE0F',
         sheet: [24, 1]
       },
       {
-        unified: '1F473-1F3FE-200D-2640-FE0F',
+        hexcode: '1F473-1F3FE-200D-2640-FE0F',
         sheet: [24, 2]
       },
       {
-        unified: '1F473-1F3FF-200D-2640-FE0F',
+        hexcode: '1F473-1F3FF-200D-2640-FE0F',
         sheet: [24, 3]
       }
     ],
     shortName: 'woman-wearing-turban'
   },
   {
-    name: 'Man with Gua Pi Mao',
-    unified: '1F472',
-    keywords: [
+    label: 'Man with Gua Pi Mao',
+    hexcode: '1F472',
+    tags: [
       'man_with_skullcap',
       'male',
       'boy',
       'chinese'
     ],
     sheet: [23, 53],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F472-1F3FB',
+        hexcode: '1F472-1F3FB',
         sheet: [23, 54]
       },
       {
-        unified: '1F472-1F3FC',
+        hexcode: '1F472-1F3FC',
         sheet: [23, 55]
       },
       {
-        unified: '1F472-1F3FD',
+        hexcode: '1F472-1F3FD',
         sheet: [23, 56]
       },
       {
-        unified: '1F472-1F3FE',
+        hexcode: '1F472-1F3FE',
         sheet: [23, 57]
       },
       {
-        unified: '1F472-1F3FF',
+        hexcode: '1F472-1F3FF',
         sheet: [23, 58]
       }
     ],
     shortName: 'man_with_gua_pi_mao'
   },
   {
-    name: 'Person with Headscarf',
-    unified: '1F9D5',
-    keywords: [
+    label: 'Person with Headscarf',
+    hexcode: '1F9D5',
+    tags: [
       'woman_with_headscarf',
       'female',
       'hijab',
@@ -8568,34 +8568,34 @@ export const emojis: CompressedEmojiData[] = [
       'tichel'
     ],
     sheet: [50, 41],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D5-1F3FB',
+        hexcode: '1F9D5-1F3FB',
         sheet: [50, 42]
       },
       {
-        unified: '1F9D5-1F3FC',
+        hexcode: '1F9D5-1F3FC',
         sheet: [50, 43]
       },
       {
-        unified: '1F9D5-1F3FD',
+        hexcode: '1F9D5-1F3FD',
         sheet: [50, 44]
       },
       {
-        unified: '1F9D5-1F3FE',
+        hexcode: '1F9D5-1F3FE',
         sheet: [50, 45]
       },
       {
-        unified: '1F9D5-1F3FF',
+        hexcode: '1F9D5-1F3FF',
         sheet: [50, 46]
       }
     ],
     shortName: 'person_with_headscarf'
   },
   {
-    name: 'Man in Tuxedo',
-    unified: '1F935',
-    keywords: [
+    label: 'Man in Tuxedo',
+    hexcode: '1F935',
+    tags: [
       'man_in_tuxedo',
       'couple',
       'marriage',
@@ -8603,100 +8603,100 @@ export const emojis: CompressedEmojiData[] = [
       'groom'
     ],
     sheet: [41, 26],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F935-1F3FB',
+        hexcode: '1F935-1F3FB',
         sheet: [41, 27]
       },
       {
-        unified: '1F935-1F3FC',
+        hexcode: '1F935-1F3FC',
         sheet: [41, 28]
       },
       {
-        unified: '1F935-1F3FD',
+        hexcode: '1F935-1F3FD',
         sheet: [41, 29]
       },
       {
-        unified: '1F935-1F3FE',
+        hexcode: '1F935-1F3FE',
         sheet: [41, 30]
       },
       {
-        unified: '1F935-1F3FF',
+        hexcode: '1F935-1F3FF',
         sheet: [41, 31]
       }
     ],
     shortName: 'person_in_tuxedo'
   },
   {
-    name: 'Man in Tuxedo',
-    unified: '1F935-200D-2642-FE0F',
-    keywords: [
+    label: 'Man in Tuxedo',
+    hexcode: '1F935-200D-2642-FE0F',
+    tags: [
       'man in tuxedo',
       'formal',
       'fashion'
     ],
     sheet: [41, 20],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F935-1F3FB-200D-2642-FE0F',
+        hexcode: '1F935-1F3FB-200D-2642-FE0F',
         sheet: [41, 21]
       },
       {
-        unified: '1F935-1F3FC-200D-2642-FE0F',
+        hexcode: '1F935-1F3FC-200D-2642-FE0F',
         sheet: [41, 22]
       },
       {
-        unified: '1F935-1F3FD-200D-2642-FE0F',
+        hexcode: '1F935-1F3FD-200D-2642-FE0F',
         sheet: [41, 23]
       },
       {
-        unified: '1F935-1F3FE-200D-2642-FE0F',
+        hexcode: '1F935-1F3FE-200D-2642-FE0F',
         sheet: [41, 24]
       },
       {
-        unified: '1F935-1F3FF-200D-2642-FE0F',
+        hexcode: '1F935-1F3FF-200D-2642-FE0F',
         sheet: [41, 25]
       }
     ],
     shortName: 'man_in_tuxedo'
   },
   {
-    name: 'Woman in Tuxedo',
-    unified: '1F935-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman in Tuxedo',
+    hexcode: '1F935-200D-2640-FE0F',
+    tags: [
       'woman in tuxedo',
       'formal',
       'fashion'
     ],
     sheet: [41, 14],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F935-1F3FB-200D-2640-FE0F',
+        hexcode: '1F935-1F3FB-200D-2640-FE0F',
         sheet: [41, 15]
       },
       {
-        unified: '1F935-1F3FC-200D-2640-FE0F',
+        hexcode: '1F935-1F3FC-200D-2640-FE0F',
         sheet: [41, 16]
       },
       {
-        unified: '1F935-1F3FD-200D-2640-FE0F',
+        hexcode: '1F935-1F3FD-200D-2640-FE0F',
         sheet: [41, 17]
       },
       {
-        unified: '1F935-1F3FE-200D-2640-FE0F',
+        hexcode: '1F935-1F3FE-200D-2640-FE0F',
         sheet: [41, 18]
       },
       {
-        unified: '1F935-1F3FF-200D-2640-FE0F',
+        hexcode: '1F935-1F3FF-200D-2640-FE0F',
         sheet: [41, 19]
       }
     ],
     shortName: 'woman_in_tuxedo'
   },
   {
-    name: 'Bride with Veil',
-    unified: '1F470',
-    keywords: [
+    label: 'Bride with Veil',
+    hexcode: '1F470',
+    tags: [
       'bride_with_veil',
       'couple',
       'marriage',
@@ -8705,161 +8705,161 @@ export const emojis: CompressedEmojiData[] = [
       'bride'
     ],
     sheet: [23, 29],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F470-1F3FB',
+        hexcode: '1F470-1F3FB',
         sheet: [23, 30]
       },
       {
-        unified: '1F470-1F3FC',
+        hexcode: '1F470-1F3FC',
         sheet: [23, 31]
       },
       {
-        unified: '1F470-1F3FD',
+        hexcode: '1F470-1F3FD',
         sheet: [23, 32]
       },
       {
-        unified: '1F470-1F3FE',
+        hexcode: '1F470-1F3FE',
         sheet: [23, 33]
       },
       {
-        unified: '1F470-1F3FF',
+        hexcode: '1F470-1F3FF',
         sheet: [23, 34]
       }
     ],
     shortName: 'bride_with_veil'
   },
   {
-    name: 'Man with Veil',
-    unified: '1F470-200D-2642-FE0F',
-    keywords: [
+    label: 'Man with Veil',
+    hexcode: '1F470-200D-2642-FE0F',
+    tags: [
       'man with veil',
       'wedding',
       'marriage'
     ],
     sheet: [23, 23],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F470-1F3FB-200D-2642-FE0F',
+        hexcode: '1F470-1F3FB-200D-2642-FE0F',
         sheet: [23, 24]
       },
       {
-        unified: '1F470-1F3FC-200D-2642-FE0F',
+        hexcode: '1F470-1F3FC-200D-2642-FE0F',
         sheet: [23, 25]
       },
       {
-        unified: '1F470-1F3FD-200D-2642-FE0F',
+        hexcode: '1F470-1F3FD-200D-2642-FE0F',
         sheet: [23, 26]
       },
       {
-        unified: '1F470-1F3FE-200D-2642-FE0F',
+        hexcode: '1F470-1F3FE-200D-2642-FE0F',
         sheet: [23, 27]
       },
       {
-        unified: '1F470-1F3FF-200D-2642-FE0F',
+        hexcode: '1F470-1F3FF-200D-2642-FE0F',
         sheet: [23, 28]
       }
     ],
     shortName: 'man_with_veil'
   },
   {
-    name: 'Woman with Veil',
-    unified: '1F470-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman with Veil',
+    hexcode: '1F470-200D-2640-FE0F',
+    tags: [
       'woman with veil',
       'wedding',
       'marriage'
     ],
     sheet: [23, 17],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F470-1F3FB-200D-2640-FE0F',
+        hexcode: '1F470-1F3FB-200D-2640-FE0F',
         sheet: [23, 18]
       },
       {
-        unified: '1F470-1F3FC-200D-2640-FE0F',
+        hexcode: '1F470-1F3FC-200D-2640-FE0F',
         sheet: [23, 19]
       },
       {
-        unified: '1F470-1F3FD-200D-2640-FE0F',
+        hexcode: '1F470-1F3FD-200D-2640-FE0F',
         sheet: [23, 20]
       },
       {
-        unified: '1F470-1F3FE-200D-2640-FE0F',
+        hexcode: '1F470-1F3FE-200D-2640-FE0F',
         sheet: [23, 21]
       },
       {
-        unified: '1F470-1F3FF-200D-2640-FE0F',
+        hexcode: '1F470-1F3FF-200D-2640-FE0F',
         sheet: [23, 22]
       }
     ],
     shortName: 'woman_with_veil'
   },
   {
-    name: 'Pregnant Woman',
-    unified: '1F930',
-    keywords: [
+    label: 'Pregnant Woman',
+    hexcode: '1F930',
+    tags: [
       'pregnant_woman',
       'baby'
     ],
     sheet: [40, 45],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F930-1F3FB',
+        hexcode: '1F930-1F3FB',
         sheet: [40, 46]
       },
       {
-        unified: '1F930-1F3FC',
+        hexcode: '1F930-1F3FC',
         sheet: [40, 47]
       },
       {
-        unified: '1F930-1F3FD',
+        hexcode: '1F930-1F3FD',
         sheet: [40, 48]
       },
       {
-        unified: '1F930-1F3FE',
+        hexcode: '1F930-1F3FE',
         sheet: [40, 49]
       },
       {
-        unified: '1F930-1F3FF',
+        hexcode: '1F930-1F3FF',
         sheet: [40, 50]
       }
     ],
     shortName: 'pregnant_woman'
   },
   {
-    name: 'Pregnant Man',
-    unified: '1FAC3',
-    keywords: [
+    label: 'Pregnant Man',
+    hexcode: '1FAC3',
+    tags: [
       'pregnant man',
       'baby',
       'belly'
     ],
     sheet: [54, 45],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAC3-1F3FB',
+        hexcode: '1FAC3-1F3FB',
         sheet: [54, 46],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC3-1F3FC',
+        hexcode: '1FAC3-1F3FC',
         sheet: [54, 47],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC3-1F3FD',
+        hexcode: '1FAC3-1F3FD',
         sheet: [54, 48],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC3-1F3FE',
+        hexcode: '1FAC3-1F3FE',
         sheet: [54, 49],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC3-1F3FF',
+        hexcode: '1FAC3-1F3FF',
         sheet: [54, 50],
         hidden: ['facebook']
       }
@@ -8867,38 +8867,38 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pregnant_man'
   },
   {
-    name: 'Pregnant Person',
-    unified: '1FAC4',
-    keywords: [
+    label: 'Pregnant Person',
+    hexcode: '1FAC4',
+    tags: [
       'pregnant person',
       'baby',
       'belly'
     ],
     sheet: [54, 51],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1FAC4-1F3FB',
+        hexcode: '1FAC4-1F3FB',
         sheet: [54, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC4-1F3FC',
+        hexcode: '1FAC4-1F3FC',
         sheet: [54, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC4-1F3FD',
+        hexcode: '1FAC4-1F3FD',
         sheet: [54, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC4-1F3FE',
+        hexcode: '1FAC4-1F3FE',
         sheet: [54, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1FAC4-1F3FF',
+        hexcode: '1FAC4-1F3FF',
         sheet: [54, 56],
         hidden: ['facebook']
       }
@@ -8906,175 +8906,175 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pregnant_person'
   },
   {
-    name: 'Breast-Feeding',
-    unified: '1F931',
-    keywords: [
+    label: 'Breast-Feeding',
+    hexcode: '1F931',
+    tags: [
       'breast_feeding',
       'nursing',
       'baby'
     ],
     sheet: [40, 51],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F931-1F3FB',
+        hexcode: '1F931-1F3FB',
         sheet: [40, 52]
       },
       {
-        unified: '1F931-1F3FC',
+        hexcode: '1F931-1F3FC',
         sheet: [40, 53]
       },
       {
-        unified: '1F931-1F3FD',
+        hexcode: '1F931-1F3FD',
         sheet: [40, 54]
       },
       {
-        unified: '1F931-1F3FE',
+        hexcode: '1F931-1F3FE',
         sheet: [40, 55]
       },
       {
-        unified: '1F931-1F3FF',
+        hexcode: '1F931-1F3FF',
         sheet: [40, 56]
       }
     ],
     shortName: 'breast-feeding'
   },
   {
-    name: 'Woman Feeding Baby',
-    unified: '1F469-200D-1F37C',
-    keywords: [
+    label: 'Woman Feeding Baby',
+    hexcode: '1F469-200D-1F37C',
+    tags: [
       'woman feeding baby',
       'birth',
       'food'
     ],
     sheet: [17, 31],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F37C',
+        hexcode: '1F469-1F3FB-200D-1F37C',
         sheet: [17, 32]
       },
       {
-        unified: '1F469-1F3FC-200D-1F37C',
+        hexcode: '1F469-1F3FC-200D-1F37C',
         sheet: [17, 33]
       },
       {
-        unified: '1F469-1F3FD-200D-1F37C',
+        hexcode: '1F469-1F3FD-200D-1F37C',
         sheet: [17, 34]
       },
       {
-        unified: '1F469-1F3FE-200D-1F37C',
+        hexcode: '1F469-1F3FE-200D-1F37C',
         sheet: [17, 35]
       },
       {
-        unified: '1F469-1F3FF-200D-1F37C',
+        hexcode: '1F469-1F3FF-200D-1F37C',
         sheet: [17, 36]
       }
     ],
     shortName: 'woman_feeding_baby'
   },
   {
-    name: 'Man Feeding Baby',
-    unified: '1F468-200D-1F37C',
-    keywords: [
+    label: 'Man Feeding Baby',
+    hexcode: '1F468-200D-1F37C',
+    tags: [
       'man feeding baby',
       'birth',
       'food'
     ],
     sheet: [13, 58],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F37C',
+        hexcode: '1F468-1F3FB-200D-1F37C',
         sheet: [13, 59]
       },
       {
-        unified: '1F468-1F3FC-200D-1F37C',
+        hexcode: '1F468-1F3FC-200D-1F37C',
         sheet: [13, 60]
       },
       {
-        unified: '1F468-1F3FD-200D-1F37C',
+        hexcode: '1F468-1F3FD-200D-1F37C',
         sheet: [14, 0]
       },
       {
-        unified: '1F468-1F3FE-200D-1F37C',
+        hexcode: '1F468-1F3FE-200D-1F37C',
         sheet: [14, 1]
       },
       {
-        unified: '1F468-1F3FF-200D-1F37C',
+        hexcode: '1F468-1F3FF-200D-1F37C',
         sheet: [14, 2]
       }
     ],
     shortName: 'man_feeding_baby'
   },
   {
-    name: 'Person Feeding Baby',
-    unified: '1F9D1-200D-1F37C',
-    keywords: [
+    label: 'Person Feeding Baby',
+    hexcode: '1F9D1-200D-1F37C',
+    tags: [
       'person feeding baby',
       'birth',
       'food'
     ],
     sheet: [47, 24],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F37C',
+        hexcode: '1F9D1-1F3FB-200D-1F37C',
         sheet: [47, 25]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F37C',
+        hexcode: '1F9D1-1F3FC-200D-1F37C',
         sheet: [47, 26]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F37C',
+        hexcode: '1F9D1-1F3FD-200D-1F37C',
         sheet: [47, 27]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F37C',
+        hexcode: '1F9D1-1F3FE-200D-1F37C',
         sheet: [47, 28]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F37C',
+        hexcode: '1F9D1-1F3FF-200D-1F37C',
         sheet: [47, 29]
       }
     ],
     shortName: 'person_feeding_baby'
   },
   {
-    name: 'Baby Angel',
-    unified: '1F47C',
-    keywords: [
+    label: 'Baby Angel',
+    hexcode: '1F47C',
+    tags: [
       'baby_angel',
       'heaven',
       'wings',
       'halo'
     ],
     sheet: [25, 0],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F47C-1F3FB',
+        hexcode: '1F47C-1F3FB',
         sheet: [25, 1]
       },
       {
-        unified: '1F47C-1F3FC',
+        hexcode: '1F47C-1F3FC',
         sheet: [25, 2]
       },
       {
-        unified: '1F47C-1F3FD',
+        hexcode: '1F47C-1F3FD',
         sheet: [25, 3]
       },
       {
-        unified: '1F47C-1F3FE',
+        hexcode: '1F47C-1F3FE',
         sheet: [25, 4]
       },
       {
-        unified: '1F47C-1F3FF',
+        hexcode: '1F47C-1F3FF',
         sheet: [25, 5]
       }
     ],
     shortName: 'angel'
   },
   {
-    name: 'Father Christmas',
-    unified: '1F385',
-    keywords: [
+    label: 'Father Christmas',
+    hexcode: '1F385',
+    tags: [
       'santa_claus',
       'festival',
       'man',
@@ -9083,34 +9083,34 @@ export const emojis: CompressedEmojiData[] = [
       'father christmas'
     ],
     sheet: [7, 8],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F385-1F3FB',
+        hexcode: '1F385-1F3FB',
         sheet: [7, 9]
       },
       {
-        unified: '1F385-1F3FC',
+        hexcode: '1F385-1F3FC',
         sheet: [7, 10]
       },
       {
-        unified: '1F385-1F3FD',
+        hexcode: '1F385-1F3FD',
         sheet: [7, 11]
       },
       {
-        unified: '1F385-1F3FE',
+        hexcode: '1F385-1F3FE',
         sheet: [7, 12]
       },
       {
-        unified: '1F385-1F3FF',
+        hexcode: '1F385-1F3FF',
         sheet: [7, 13]
       }
     ],
     shortName: 'santa'
   },
   {
-    name: 'Mother Christmas',
-    unified: '1F936',
-    keywords: [
+    label: 'Mother Christmas',
+    hexcode: '1F936',
+    tags: [
       'mrs_claus',
       'woman',
       'female',
@@ -9118,25 +9118,25 @@ export const emojis: CompressedEmojiData[] = [
       'mother christmas'
     ],
     sheet: [41, 32],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F936-1F3FB',
+        hexcode: '1F936-1F3FB',
         sheet: [41, 33]
       },
       {
-        unified: '1F936-1F3FC',
+        hexcode: '1F936-1F3FC',
         sheet: [41, 34]
       },
       {
-        unified: '1F936-1F3FD',
+        hexcode: '1F936-1F3FD',
         sheet: [41, 35]
       },
       {
-        unified: '1F936-1F3FE',
+        hexcode: '1F936-1F3FE',
         sheet: [41, 36]
       },
       {
-        unified: '1F936-1F3FF',
+        hexcode: '1F936-1F3FF',
         sheet: [41, 37]
       }
     ],
@@ -9144,67 +9144,67 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mrs_claus'
   },
   {
-    name: 'Mx Claus',
-    unified: '1F9D1-200D-1F384',
-    keywords: ['mx claus', 'christmas'],
+    label: 'Mx Claus',
+    hexcode: '1F9D1-200D-1F384',
+    tags: ['mx claus', 'christmas'],
     sheet: [47, 30],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F384',
+        hexcode: '1F9D1-1F3FB-200D-1F384',
         sheet: [47, 31]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F384',
+        hexcode: '1F9D1-1F3FC-200D-1F384',
         sheet: [47, 32]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F384',
+        hexcode: '1F9D1-1F3FD-200D-1F384',
         sheet: [47, 33]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F384',
+        hexcode: '1F9D1-1F3FE-200D-1F384',
         sheet: [47, 34]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F384',
+        hexcode: '1F9D1-1F3FF-200D-1F384',
         sheet: [47, 35]
       }
     ],
     shortName: 'mx_claus'
   },
   {
-    name: 'Superhero',
-    unified: '1F9B8',
-    keywords: ['superhero', 'marvel'],
+    label: 'Superhero',
+    hexcode: '1F9B8',
+    tags: ['superhero', 'marvel'],
     sheet: [45, 31],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B8-1F3FB',
+        hexcode: '1F9B8-1F3FB',
         sheet: [45, 32]
       },
       {
-        unified: '1F9B8-1F3FC',
+        hexcode: '1F9B8-1F3FC',
         sheet: [45, 33]
       },
       {
-        unified: '1F9B8-1F3FD',
+        hexcode: '1F9B8-1F3FD',
         sheet: [45, 34]
       },
       {
-        unified: '1F9B8-1F3FE',
+        hexcode: '1F9B8-1F3FE',
         sheet: [45, 35]
       },
       {
-        unified: '1F9B8-1F3FF',
+        hexcode: '1F9B8-1F3FF',
         sheet: [45, 36]
       }
     ],
     shortName: 'superhero'
   },
   {
-    name: 'Man Superhero',
-    unified: '1F9B8-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Superhero',
+    hexcode: '1F9B8-200D-2642-FE0F',
+    tags: [
       'man_superhero',
       'man',
       'male',
@@ -9213,34 +9213,34 @@ export const emojis: CompressedEmojiData[] = [
       'superpowers'
     ],
     sheet: [45, 25],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B8-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9B8-1F3FB-200D-2642-FE0F',
         sheet: [45, 26]
       },
       {
-        unified: '1F9B8-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9B8-1F3FC-200D-2642-FE0F',
         sheet: [45, 27]
       },
       {
-        unified: '1F9B8-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9B8-1F3FD-200D-2642-FE0F',
         sheet: [45, 28]
       },
       {
-        unified: '1F9B8-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9B8-1F3FE-200D-2642-FE0F',
         sheet: [45, 29]
       },
       {
-        unified: '1F9B8-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9B8-1F3FF-200D-2642-FE0F',
         sheet: [45, 30]
       }
     ],
     shortName: 'male_superhero'
   },
   {
-    name: 'Woman Superhero',
-    unified: '1F9B8-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Superhero',
+    hexcode: '1F9B8-200D-2640-FE0F',
+    tags: [
       'woman_superhero',
       'woman',
       'female',
@@ -9249,66 +9249,66 @@ export const emojis: CompressedEmojiData[] = [
       'superpowers'
     ],
     sheet: [45, 19],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B8-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9B8-1F3FB-200D-2640-FE0F',
         sheet: [45, 20]
       },
       {
-        unified: '1F9B8-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9B8-1F3FC-200D-2640-FE0F',
         sheet: [45, 21]
       },
       {
-        unified: '1F9B8-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9B8-1F3FD-200D-2640-FE0F',
         sheet: [45, 22]
       },
       {
-        unified: '1F9B8-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9B8-1F3FE-200D-2640-FE0F',
         sheet: [45, 23]
       },
       {
-        unified: '1F9B8-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9B8-1F3FF-200D-2640-FE0F',
         sheet: [45, 24]
       }
     ],
     shortName: 'female_superhero'
   },
   {
-    name: 'Supervillain',
-    unified: '1F9B9',
-    keywords: [
+    label: 'Supervillain',
+    hexcode: '1F9B9',
+    tags: [
       'supervillain',
       'marvel'
     ],
     sheet: [45, 49],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B9-1F3FB',
+        hexcode: '1F9B9-1F3FB',
         sheet: [45, 50]
       },
       {
-        unified: '1F9B9-1F3FC',
+        hexcode: '1F9B9-1F3FC',
         sheet: [45, 51]
       },
       {
-        unified: '1F9B9-1F3FD',
+        hexcode: '1F9B9-1F3FD',
         sheet: [45, 52]
       },
       {
-        unified: '1F9B9-1F3FE',
+        hexcode: '1F9B9-1F3FE',
         sheet: [45, 53]
       },
       {
-        unified: '1F9B9-1F3FF',
+        hexcode: '1F9B9-1F3FF',
         sheet: [45, 54]
       }
     ],
     shortName: 'supervillain'
   },
   {
-    name: 'Man Supervillain',
-    unified: '1F9B9-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Supervillain',
+    hexcode: '1F9B9-200D-2642-FE0F',
+    tags: [
       'man_supervillain',
       'man',
       'male',
@@ -9319,34 +9319,34 @@ export const emojis: CompressedEmojiData[] = [
       'superpowers'
     ],
     sheet: [45, 43],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B9-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9B9-1F3FB-200D-2642-FE0F',
         sheet: [45, 44]
       },
       {
-        unified: '1F9B9-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9B9-1F3FC-200D-2642-FE0F',
         sheet: [45, 45]
       },
       {
-        unified: '1F9B9-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9B9-1F3FD-200D-2642-FE0F',
         sheet: [45, 46]
       },
       {
-        unified: '1F9B9-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9B9-1F3FE-200D-2642-FE0F',
         sheet: [45, 47]
       },
       {
-        unified: '1F9B9-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9B9-1F3FF-200D-2642-FE0F',
         sheet: [45, 48]
       }
     ],
     shortName: 'male_supervillain'
   },
   {
-    name: 'Woman Supervillain',
-    unified: '1F9B9-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Supervillain',
+    hexcode: '1F9B9-200D-2640-FE0F',
+    tags: [
       'woman_supervillain',
       'woman',
       'female',
@@ -9357,54 +9357,54 @@ export const emojis: CompressedEmojiData[] = [
       'superpowers'
     ],
     sheet: [45, 37],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9B9-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9B9-1F3FB-200D-2640-FE0F',
         sheet: [45, 38]
       },
       {
-        unified: '1F9B9-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9B9-1F3FC-200D-2640-FE0F',
         sheet: [45, 39]
       },
       {
-        unified: '1F9B9-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9B9-1F3FD-200D-2640-FE0F',
         sheet: [45, 40]
       },
       {
-        unified: '1F9B9-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9B9-1F3FE-200D-2640-FE0F',
         sheet: [45, 41]
       },
       {
-        unified: '1F9B9-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9B9-1F3FF-200D-2640-FE0F',
         sheet: [45, 42]
       }
     ],
     shortName: 'female_supervillain'
   },
   {
-    name: 'Mage',
-    unified: '1F9D9',
-    keywords: ['mage', 'magic'],
+    label: 'Mage',
+    hexcode: '1F9D9',
+    tags: ['mage', 'magic'],
     sheet: [51, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D9-1F3FB',
+        hexcode: '1F9D9-1F3FB',
         sheet: [51, 53]
       },
       {
-        unified: '1F9D9-1F3FC',
+        hexcode: '1F9D9-1F3FC',
         sheet: [51, 54]
       },
       {
-        unified: '1F9D9-1F3FD',
+        hexcode: '1F9D9-1F3FD',
         sheet: [51, 55]
       },
       {
-        unified: '1F9D9-1F3FE',
+        hexcode: '1F9D9-1F3FE',
         sheet: [51, 56]
       },
       {
-        unified: '1F9D9-1F3FF',
+        hexcode: '1F9D9-1F3FF',
         sheet: [51, 57]
       }
     ],
@@ -9412,9 +9412,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9D9-200D-2640-FE0F'
   },
   {
-    name: 'Man Mage',
-    unified: '1F9D9-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Mage',
+    hexcode: '1F9D9-200D-2642-FE0F',
+    tags: [
       'man_mage',
       'man',
       'male',
@@ -9422,35 +9422,35 @@ export const emojis: CompressedEmojiData[] = [
       'sorcerer'
     ],
     sheet: [51, 46],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D9-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9D9-1F3FB-200D-2642-FE0F',
         sheet: [51, 47]
       },
       {
-        unified: '1F9D9-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9D9-1F3FC-200D-2642-FE0F',
         sheet: [51, 48]
       },
       {
-        unified: '1F9D9-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9D9-1F3FD-200D-2642-FE0F',
         sheet: [51, 49]
       },
       {
-        unified: '1F9D9-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9D9-1F3FE-200D-2642-FE0F',
         sheet: [51, 50]
       },
       {
-        unified: '1F9D9-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9D9-1F3FF-200D-2642-FE0F',
         sheet: [51, 51]
       }
     ],
     shortName: 'male_mage'
   },
   {
-    name: 'Woman Mage',
-    unified: '1F9D9-200D-2640-FE0F',
+    label: 'Woman Mage',
+    hexcode: '1F9D9-200D-2640-FE0F',
     obsoletes: '1F9D9',
-    keywords: [
+    tags: [
       'woman_mage',
       'woman',
       'female',
@@ -9458,58 +9458,58 @@ export const emojis: CompressedEmojiData[] = [
       'witch'
     ],
     sheet: [51, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D9-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9D9-1F3FB-200D-2640-FE0F',
         sheet: [51, 41]
       },
       {
-        unified: '1F9D9-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9D9-1F3FC-200D-2640-FE0F',
         sheet: [51, 42]
       },
       {
-        unified: '1F9D9-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9D9-1F3FD-200D-2640-FE0F',
         sheet: [51, 43]
       },
       {
-        unified: '1F9D9-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9D9-1F3FE-200D-2640-FE0F',
         sheet: [51, 44]
       },
       {
-        unified: '1F9D9-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9D9-1F3FF-200D-2640-FE0F',
         sheet: [51, 45]
       }
     ],
     shortName: 'female_mage'
   },
   {
-    name: 'Fairy',
-    unified: '1F9DA',
-    keywords: [
+    label: 'Fairy',
+    hexcode: '1F9DA',
+    tags: [
       'fairy',
       'wings',
       'magical'
     ],
     sheet: [52, 9],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DA-1F3FB',
+        hexcode: '1F9DA-1F3FB',
         sheet: [52, 10]
       },
       {
-        unified: '1F9DA-1F3FC',
+        hexcode: '1F9DA-1F3FC',
         sheet: [52, 11]
       },
       {
-        unified: '1F9DA-1F3FD',
+        hexcode: '1F9DA-1F3FD',
         sheet: [52, 12]
       },
       {
-        unified: '1F9DA-1F3FE',
+        hexcode: '1F9DA-1F3FE',
         sheet: [52, 13]
       },
       {
-        unified: '1F9DA-1F3FF',
+        hexcode: '1F9DA-1F3FF',
         sheet: [52, 14]
       }
     ],
@@ -9517,100 +9517,100 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9DA-200D-2640-FE0F'
   },
   {
-    name: 'Man Fairy',
-    unified: '1F9DA-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Fairy',
+    hexcode: '1F9DA-200D-2642-FE0F',
+    tags: [
       'man_fairy',
       'man',
       'male'
     ],
     sheet: [52, 3],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DA-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9DA-1F3FB-200D-2642-FE0F',
         sheet: [52, 4]
       },
       {
-        unified: '1F9DA-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9DA-1F3FC-200D-2642-FE0F',
         sheet: [52, 5]
       },
       {
-        unified: '1F9DA-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9DA-1F3FD-200D-2642-FE0F',
         sheet: [52, 6]
       },
       {
-        unified: '1F9DA-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9DA-1F3FE-200D-2642-FE0F',
         sheet: [52, 7]
       },
       {
-        unified: '1F9DA-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9DA-1F3FF-200D-2642-FE0F',
         sheet: [52, 8]
       }
     ],
     shortName: 'male_fairy'
   },
   {
-    name: 'Woman Fairy',
-    unified: '1F9DA-200D-2640-FE0F',
+    label: 'Woman Fairy',
+    hexcode: '1F9DA-200D-2640-FE0F',
     obsoletes: '1F9DA',
-    keywords: [
+    tags: [
       'woman_fairy',
       'woman',
       'female'
     ],
     sheet: [51, 58],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DA-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9DA-1F3FB-200D-2640-FE0F',
         sheet: [51, 59]
       },
       {
-        unified: '1F9DA-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9DA-1F3FC-200D-2640-FE0F',
         sheet: [51, 60]
       },
       {
-        unified: '1F9DA-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9DA-1F3FD-200D-2640-FE0F',
         sheet: [52, 0]
       },
       {
-        unified: '1F9DA-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9DA-1F3FE-200D-2640-FE0F',
         sheet: [52, 1]
       },
       {
-        unified: '1F9DA-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9DA-1F3FF-200D-2640-FE0F',
         sheet: [52, 2]
       }
     ],
     shortName: 'female_fairy'
   },
   {
-    name: 'Vampire',
-    unified: '1F9DB',
-    keywords: [
+    label: 'Vampire',
+    hexcode: '1F9DB',
+    tags: [
       'vampire',
       'blood',
       'twilight'
     ],
     sheet: [52, 27],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DB-1F3FB',
+        hexcode: '1F9DB-1F3FB',
         sheet: [52, 28]
       },
       {
-        unified: '1F9DB-1F3FC',
+        hexcode: '1F9DB-1F3FC',
         sheet: [52, 29]
       },
       {
-        unified: '1F9DB-1F3FD',
+        hexcode: '1F9DB-1F3FD',
         sheet: [52, 30]
       },
       {
-        unified: '1F9DB-1F3FE',
+        hexcode: '1F9DB-1F3FE',
         sheet: [52, 31]
       },
       {
-        unified: '1F9DB-1F3FF',
+        hexcode: '1F9DB-1F3FF',
         sheet: [52, 32]
       }
     ],
@@ -9618,97 +9618,97 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9DB-200D-2640-FE0F'
   },
   {
-    name: 'Man Vampire',
-    unified: '1F9DB-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Vampire',
+    hexcode: '1F9DB-200D-2642-FE0F',
+    tags: [
       'man_vampire',
       'man',
       'male',
       'dracula'
     ],
     sheet: [52, 21],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DB-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9DB-1F3FB-200D-2642-FE0F',
         sheet: [52, 22]
       },
       {
-        unified: '1F9DB-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9DB-1F3FC-200D-2642-FE0F',
         sheet: [52, 23]
       },
       {
-        unified: '1F9DB-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9DB-1F3FD-200D-2642-FE0F',
         sheet: [52, 24]
       },
       {
-        unified: '1F9DB-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9DB-1F3FE-200D-2642-FE0F',
         sheet: [52, 25]
       },
       {
-        unified: '1F9DB-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9DB-1F3FF-200D-2642-FE0F',
         sheet: [52, 26]
       }
     ],
     shortName: 'male_vampire'
   },
   {
-    name: 'Woman Vampire',
-    unified: '1F9DB-200D-2640-FE0F',
+    label: 'Woman Vampire',
+    hexcode: '1F9DB-200D-2640-FE0F',
     obsoletes: '1F9DB',
-    keywords: [
+    tags: [
       'woman_vampire',
       'woman',
       'female'
     ],
     sheet: [52, 15],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DB-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9DB-1F3FB-200D-2640-FE0F',
         sheet: [52, 16]
       },
       {
-        unified: '1F9DB-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9DB-1F3FC-200D-2640-FE0F',
         sheet: [52, 17]
       },
       {
-        unified: '1F9DB-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9DB-1F3FD-200D-2640-FE0F',
         sheet: [52, 18]
       },
       {
-        unified: '1F9DB-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9DB-1F3FE-200D-2640-FE0F',
         sheet: [52, 19]
       },
       {
-        unified: '1F9DB-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9DB-1F3FF-200D-2640-FE0F',
         sheet: [52, 20]
       }
     ],
     shortName: 'female_vampire'
   },
   {
-    name: 'Merperson',
-    unified: '1F9DC',
-    keywords: ['merperson', 'sea'],
+    label: 'Merperson',
+    hexcode: '1F9DC',
+    tags: ['merperson', 'sea'],
     sheet: [52, 45],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DC-1F3FB',
+        hexcode: '1F9DC-1F3FB',
         sheet: [52, 46]
       },
       {
-        unified: '1F9DC-1F3FC',
+        hexcode: '1F9DC-1F3FC',
         sheet: [52, 47]
       },
       {
-        unified: '1F9DC-1F3FD',
+        hexcode: '1F9DC-1F3FD',
         sheet: [52, 48]
       },
       {
-        unified: '1F9DC-1F3FE',
+        hexcode: '1F9DC-1F3FE',
         sheet: [52, 49]
       },
       {
-        unified: '1F9DC-1F3FF',
+        hexcode: '1F9DC-1F3FF',
         sheet: [52, 50]
       }
     ],
@@ -9716,44 +9716,44 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9DC-200D-2642-FE0F'
   },
   {
-    name: 'Merman',
-    unified: '1F9DC-200D-2642-FE0F',
+    label: 'Merman',
+    hexcode: '1F9DC-200D-2642-FE0F',
     obsoletes: '1F9DC',
-    keywords: [
+    tags: [
       'merman',
       'man',
       'male',
       'triton'
     ],
     sheet: [52, 39],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DC-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9DC-1F3FB-200D-2642-FE0F',
         sheet: [52, 40]
       },
       {
-        unified: '1F9DC-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9DC-1F3FC-200D-2642-FE0F',
         sheet: [52, 41]
       },
       {
-        unified: '1F9DC-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9DC-1F3FD-200D-2642-FE0F',
         sheet: [52, 42]
       },
       {
-        unified: '1F9DC-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9DC-1F3FE-200D-2642-FE0F',
         sheet: [52, 43]
       },
       {
-        unified: '1F9DC-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9DC-1F3FF-200D-2642-FE0F',
         sheet: [52, 44]
       }
     ],
     shortName: 'merman'
   },
   {
-    name: 'Mermaid',
-    unified: '1F9DC-200D-2640-FE0F',
-    keywords: [
+    label: 'Mermaid',
+    hexcode: '1F9DC-200D-2640-FE0F',
+    tags: [
       'mermaid',
       'woman',
       'female',
@@ -9761,54 +9761,54 @@ export const emojis: CompressedEmojiData[] = [
       'ariel'
     ],
     sheet: [52, 33],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DC-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9DC-1F3FB-200D-2640-FE0F',
         sheet: [52, 34]
       },
       {
-        unified: '1F9DC-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9DC-1F3FC-200D-2640-FE0F',
         sheet: [52, 35]
       },
       {
-        unified: '1F9DC-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9DC-1F3FD-200D-2640-FE0F',
         sheet: [52, 36]
       },
       {
-        unified: '1F9DC-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9DC-1F3FE-200D-2640-FE0F',
         sheet: [52, 37]
       },
       {
-        unified: '1F9DC-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9DC-1F3FF-200D-2640-FE0F',
         sheet: [52, 38]
       }
     ],
     shortName: 'mermaid'
   },
   {
-    name: 'Elf',
-    unified: '1F9DD',
-    keywords: ['elf', 'magical'],
+    label: 'Elf',
+    hexcode: '1F9DD',
+    tags: ['elf', 'magical'],
     sheet: [53, 2],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DD-1F3FB',
+        hexcode: '1F9DD-1F3FB',
         sheet: [53, 3]
       },
       {
-        unified: '1F9DD-1F3FC',
+        hexcode: '1F9DD-1F3FC',
         sheet: [53, 4]
       },
       {
-        unified: '1F9DD-1F3FD',
+        hexcode: '1F9DD-1F3FD',
         sheet: [53, 5]
       },
       {
-        unified: '1F9DD-1F3FE',
+        hexcode: '1F9DD-1F3FE',
         sheet: [53, 6]
       },
       {
-        unified: '1F9DD-1F3FF',
+        hexcode: '1F9DD-1F3FF',
         sheet: [53, 7]
       }
     ],
@@ -9816,76 +9816,76 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9DD-200D-2642-FE0F'
   },
   {
-    name: 'Man Elf',
-    unified: '1F9DD-200D-2642-FE0F',
+    label: 'Man Elf',
+    hexcode: '1F9DD-200D-2642-FE0F',
     obsoletes: '1F9DD',
-    keywords: [
+    tags: [
       'man_elf',
       'man',
       'male'
     ],
     sheet: [52, 57],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DD-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9DD-1F3FB-200D-2642-FE0F',
         sheet: [52, 58]
       },
       {
-        unified: '1F9DD-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9DD-1F3FC-200D-2642-FE0F',
         sheet: [52, 59]
       },
       {
-        unified: '1F9DD-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9DD-1F3FD-200D-2642-FE0F',
         sheet: [52, 60]
       },
       {
-        unified: '1F9DD-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9DD-1F3FE-200D-2642-FE0F',
         sheet: [53, 0]
       },
       {
-        unified: '1F9DD-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9DD-1F3FF-200D-2642-FE0F',
         sheet: [53, 1]
       }
     ],
     shortName: 'male_elf'
   },
   {
-    name: 'Woman Elf',
-    unified: '1F9DD-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Elf',
+    hexcode: '1F9DD-200D-2640-FE0F',
+    tags: [
       'woman_elf',
       'woman',
       'female'
     ],
     sheet: [52, 51],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9DD-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9DD-1F3FB-200D-2640-FE0F',
         sheet: [52, 52]
       },
       {
-        unified: '1F9DD-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9DD-1F3FC-200D-2640-FE0F',
         sheet: [52, 53]
       },
       {
-        unified: '1F9DD-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9DD-1F3FD-200D-2640-FE0F',
         sheet: [52, 54]
       },
       {
-        unified: '1F9DD-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9DD-1F3FE-200D-2640-FE0F',
         sheet: [52, 55]
       },
       {
-        unified: '1F9DD-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9DD-1F3FF-200D-2640-FE0F',
         sheet: [52, 56]
       }
     ],
     shortName: 'female_elf'
   },
   {
-    name: 'Genie',
-    unified: '1F9DE',
-    keywords: [
+    label: 'Genie',
+    hexcode: '1F9DE',
+    tags: [
       'genie',
       'magical',
       'wishes'
@@ -9895,10 +9895,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9DE-200D-2642-FE0F'
   },
   {
-    name: 'Man Genie',
-    unified: '1F9DE-200D-2642-FE0F',
+    label: 'Man Genie',
+    hexcode: '1F9DE-200D-2642-FE0F',
     obsoletes: '1F9DE',
-    keywords: [
+    tags: [
       'man_genie',
       'man',
       'male'
@@ -9907,9 +9907,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'male_genie'
   },
   {
-    name: 'Woman Genie',
-    unified: '1F9DE-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Genie',
+    hexcode: '1F9DE-200D-2640-FE0F',
+    tags: [
       'woman_genie',
       'woman',
       'female'
@@ -9918,18 +9918,18 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'female_genie'
   },
   {
-    name: 'Zombie',
-    unified: '1F9DF',
-    keywords: ['zombie', 'dead'],
+    label: 'Zombie',
+    hexcode: '1F9DF',
+    tags: ['zombie', 'dead'],
     sheet: [53, 13],
     shortName: 'zombie',
     obsoletedBy: '1F9DF-200D-2642-FE0F'
   },
   {
-    name: 'Man Zombie',
-    unified: '1F9DF-200D-2642-FE0F',
+    label: 'Man Zombie',
+    hexcode: '1F9DF-200D-2642-FE0F',
     obsoletes: '1F9DF',
-    keywords: [
+    tags: [
       'man_zombie',
       'man',
       'male',
@@ -9941,9 +9941,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'male_zombie'
   },
   {
-    name: 'Woman Zombie',
-    unified: '1F9DF-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Zombie',
+    hexcode: '1F9DF-200D-2640-FE0F',
+    tags: [
       'woman_zombie',
       'woman',
       'female',
@@ -9954,9 +9954,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'female_zombie'
   },
   {
-    name: 'Troll',
-    unified: '1F9CC',
-    keywords: [
+    label: 'Troll',
+    hexcode: '1F9CC',
+    tags: [
       'troll',
       'mystical',
       'monster'
@@ -9966,32 +9966,32 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'troll'
   },
   {
-    name: 'Face Massage',
-    unified: '1F486',
-    keywords: [
+    label: 'Face Massage',
+    hexcode: '1F486',
+    tags: [
       'person_getting_massage',
       'relax'
     ],
     sheet: [26, 10],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F486-1F3FB',
+        hexcode: '1F486-1F3FB',
         sheet: [26, 11]
       },
       {
-        unified: '1F486-1F3FC',
+        hexcode: '1F486-1F3FC',
         sheet: [26, 12]
       },
       {
-        unified: '1F486-1F3FD',
+        hexcode: '1F486-1F3FD',
         sheet: [26, 13]
       },
       {
-        unified: '1F486-1F3FE',
+        hexcode: '1F486-1F3FE',
         sheet: [26, 14]
       },
       {
-        unified: '1F486-1F3FF',
+        hexcode: '1F486-1F3FF',
         sheet: [26, 15]
       }
     ],
@@ -9999,9 +9999,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F486-200D-2640-FE0F'
   },
   {
-    name: 'Man Getting Massage',
-    unified: '1F486-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Getting Massage',
+    hexcode: '1F486-200D-2642-FE0F',
+    tags: [
       'man_getting_massage',
       'male',
       'boy',
@@ -10009,35 +10009,35 @@ export const emojis: CompressedEmojiData[] = [
       'head'
     ],
     sheet: [26, 4],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F486-1F3FB-200D-2642-FE0F',
+        hexcode: '1F486-1F3FB-200D-2642-FE0F',
         sheet: [26, 5]
       },
       {
-        unified: '1F486-1F3FC-200D-2642-FE0F',
+        hexcode: '1F486-1F3FC-200D-2642-FE0F',
         sheet: [26, 6]
       },
       {
-        unified: '1F486-1F3FD-200D-2642-FE0F',
+        hexcode: '1F486-1F3FD-200D-2642-FE0F',
         sheet: [26, 7]
       },
       {
-        unified: '1F486-1F3FE-200D-2642-FE0F',
+        hexcode: '1F486-1F3FE-200D-2642-FE0F',
         sheet: [26, 8]
       },
       {
-        unified: '1F486-1F3FF-200D-2642-FE0F',
+        hexcode: '1F486-1F3FF-200D-2642-FE0F',
         sheet: [26, 9]
       }
     ],
     shortName: 'man-getting-massage'
   },
   {
-    name: 'Woman Getting Massage',
-    unified: '1F486-200D-2640-FE0F',
+    label: 'Woman Getting Massage',
+    hexcode: '1F486-200D-2640-FE0F',
     obsoletes: '1F486',
-    keywords: [
+    tags: [
       'woman_getting_massage',
       'female',
       'girl',
@@ -10045,57 +10045,57 @@ export const emojis: CompressedEmojiData[] = [
       'head'
     ],
     sheet: [25, 59],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F486-1F3FB-200D-2640-FE0F',
+        hexcode: '1F486-1F3FB-200D-2640-FE0F',
         sheet: [25, 60]
       },
       {
-        unified: '1F486-1F3FC-200D-2640-FE0F',
+        hexcode: '1F486-1F3FC-200D-2640-FE0F',
         sheet: [26, 0]
       },
       {
-        unified: '1F486-1F3FD-200D-2640-FE0F',
+        hexcode: '1F486-1F3FD-200D-2640-FE0F',
         sheet: [26, 1]
       },
       {
-        unified: '1F486-1F3FE-200D-2640-FE0F',
+        hexcode: '1F486-1F3FE-200D-2640-FE0F',
         sheet: [26, 2]
       },
       {
-        unified: '1F486-1F3FF-200D-2640-FE0F',
+        hexcode: '1F486-1F3FF-200D-2640-FE0F',
         sheet: [26, 3]
       }
     ],
     shortName: 'woman-getting-massage'
   },
   {
-    name: 'Haircut',
-    unified: '1F487',
-    keywords: [
+    label: 'Haircut',
+    hexcode: '1F487',
+    tags: [
       'person_getting_haircut',
       'hairstyle'
     ],
     sheet: [26, 28],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F487-1F3FB',
+        hexcode: '1F487-1F3FB',
         sheet: [26, 29]
       },
       {
-        unified: '1F487-1F3FC',
+        hexcode: '1F487-1F3FC',
         sheet: [26, 30]
       },
       {
-        unified: '1F487-1F3FD',
+        hexcode: '1F487-1F3FD',
         sheet: [26, 31]
       },
       {
-        unified: '1F487-1F3FE',
+        hexcode: '1F487-1F3FE',
         sheet: [26, 32]
       },
       {
-        unified: '1F487-1F3FF',
+        hexcode: '1F487-1F3FF',
         sheet: [26, 33]
       }
     ],
@@ -10103,101 +10103,101 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F487-200D-2640-FE0F'
   },
   {
-    name: 'Man Getting Haircut',
-    unified: '1F487-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Getting Haircut',
+    hexcode: '1F487-200D-2642-FE0F',
+    tags: [
       'man_getting_haircut',
       'male',
       'boy',
       'man'
     ],
     sheet: [26, 22],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F487-1F3FB-200D-2642-FE0F',
+        hexcode: '1F487-1F3FB-200D-2642-FE0F',
         sheet: [26, 23]
       },
       {
-        unified: '1F487-1F3FC-200D-2642-FE0F',
+        hexcode: '1F487-1F3FC-200D-2642-FE0F',
         sheet: [26, 24]
       },
       {
-        unified: '1F487-1F3FD-200D-2642-FE0F',
+        hexcode: '1F487-1F3FD-200D-2642-FE0F',
         sheet: [26, 25]
       },
       {
-        unified: '1F487-1F3FE-200D-2642-FE0F',
+        hexcode: '1F487-1F3FE-200D-2642-FE0F',
         sheet: [26, 26]
       },
       {
-        unified: '1F487-1F3FF-200D-2642-FE0F',
+        hexcode: '1F487-1F3FF-200D-2642-FE0F',
         sheet: [26, 27]
       }
     ],
     shortName: 'man-getting-haircut'
   },
   {
-    name: 'Woman Getting Haircut',
-    unified: '1F487-200D-2640-FE0F',
+    label: 'Woman Getting Haircut',
+    hexcode: '1F487-200D-2640-FE0F',
     obsoletes: '1F487',
-    keywords: [
+    tags: [
       'woman_getting_haircut',
       'female',
       'girl',
       'woman'
     ],
     sheet: [26, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F487-1F3FB-200D-2640-FE0F',
+        hexcode: '1F487-1F3FB-200D-2640-FE0F',
         sheet: [26, 17]
       },
       {
-        unified: '1F487-1F3FC-200D-2640-FE0F',
+        hexcode: '1F487-1F3FC-200D-2640-FE0F',
         sheet: [26, 18]
       },
       {
-        unified: '1F487-1F3FD-200D-2640-FE0F',
+        hexcode: '1F487-1F3FD-200D-2640-FE0F',
         sheet: [26, 19]
       },
       {
-        unified: '1F487-1F3FE-200D-2640-FE0F',
+        hexcode: '1F487-1F3FE-200D-2640-FE0F',
         sheet: [26, 20]
       },
       {
-        unified: '1F487-1F3FF-200D-2640-FE0F',
+        hexcode: '1F487-1F3FF-200D-2640-FE0F',
         sheet: [26, 21]
       }
     ],
     shortName: 'woman-getting-haircut'
   },
   {
-    name: 'Pedestrian',
-    unified: '1F6B6',
-    keywords: [
+    label: 'Pedestrian',
+    hexcode: '1F6B6',
+    tags: [
       'person_walking',
       'move'
     ],
     sheet: [37, 27],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B6-1F3FB',
+        hexcode: '1F6B6-1F3FB',
         sheet: [37, 28]
       },
       {
-        unified: '1F6B6-1F3FC',
+        hexcode: '1F6B6-1F3FC',
         sheet: [37, 29]
       },
       {
-        unified: '1F6B6-1F3FD',
+        hexcode: '1F6B6-1F3FD',
         sheet: [37, 30]
       },
       {
-        unified: '1F6B6-1F3FE',
+        hexcode: '1F6B6-1F3FE',
         sheet: [37, 31]
       },
       {
-        unified: '1F6B6-1F3FF',
+        hexcode: '1F6B6-1F3FF',
         sheet: [37, 32]
       }
     ],
@@ -10205,44 +10205,44 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F6B6-200D-2642-FE0F'
   },
   {
-    name: 'Man Walking',
-    unified: '1F6B6-200D-2642-FE0F',
+    label: 'Man Walking',
+    hexcode: '1F6B6-200D-2642-FE0F',
     obsoletes: '1F6B6',
-    keywords: [
+    tags: [
       'man_walking',
       'human',
       'feet',
       'steps'
     ],
     sheet: [37, 21],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B6-1F3FB-200D-2642-FE0F',
+        hexcode: '1F6B6-1F3FB-200D-2642-FE0F',
         sheet: [37, 22]
       },
       {
-        unified: '1F6B6-1F3FC-200D-2642-FE0F',
+        hexcode: '1F6B6-1F3FC-200D-2642-FE0F',
         sheet: [37, 23]
       },
       {
-        unified: '1F6B6-1F3FD-200D-2642-FE0F',
+        hexcode: '1F6B6-1F3FD-200D-2642-FE0F',
         sheet: [37, 24]
       },
       {
-        unified: '1F6B6-1F3FE-200D-2642-FE0F',
+        hexcode: '1F6B6-1F3FE-200D-2642-FE0F',
         sheet: [37, 25]
       },
       {
-        unified: '1F6B6-1F3FF-200D-2642-FE0F',
+        hexcode: '1F6B6-1F3FF-200D-2642-FE0F',
         sheet: [37, 26]
       }
     ],
     shortName: 'man-walking'
   },
   {
-    name: 'Woman Walking',
-    unified: '1F6B6-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Walking',
+    hexcode: '1F6B6-200D-2640-FE0F',
+    tags: [
       'woman_walking',
       'human',
       'feet',
@@ -10251,543 +10251,543 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [37, 15],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B6-1F3FB-200D-2640-FE0F',
+        hexcode: '1F6B6-1F3FB-200D-2640-FE0F',
         sheet: [37, 16]
       },
       {
-        unified: '1F6B6-1F3FC-200D-2640-FE0F',
+        hexcode: '1F6B6-1F3FC-200D-2640-FE0F',
         sheet: [37, 17]
       },
       {
-        unified: '1F6B6-1F3FD-200D-2640-FE0F',
+        hexcode: '1F6B6-1F3FD-200D-2640-FE0F',
         sheet: [37, 18]
       },
       {
-        unified: '1F6B6-1F3FE-200D-2640-FE0F',
+        hexcode: '1F6B6-1F3FE-200D-2640-FE0F',
         sheet: [37, 19]
       },
       {
-        unified: '1F6B6-1F3FF-200D-2640-FE0F',
+        hexcode: '1F6B6-1F3FF-200D-2640-FE0F',
         sheet: [37, 20]
       }
     ],
     shortName: 'woman-walking'
   },
   {
-    name: 'Standing Person',
-    unified: '1F9CD',
-    keywords: [
+    label: 'Standing Person',
+    hexcode: '1F9CD',
+    tags: [
       'person_standing',
       'still'
     ],
     sheet: [46, 30],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CD-1F3FB',
+        hexcode: '1F9CD-1F3FB',
         sheet: [46, 31]
       },
       {
-        unified: '1F9CD-1F3FC',
+        hexcode: '1F9CD-1F3FC',
         sheet: [46, 32]
       },
       {
-        unified: '1F9CD-1F3FD',
+        hexcode: '1F9CD-1F3FD',
         sheet: [46, 33]
       },
       {
-        unified: '1F9CD-1F3FE',
+        hexcode: '1F9CD-1F3FE',
         sheet: [46, 34]
       },
       {
-        unified: '1F9CD-1F3FF',
+        hexcode: '1F9CD-1F3FF',
         sheet: [46, 35]
       }
     ],
     shortName: 'standing_person'
   },
   {
-    name: 'Man Standing',
-    unified: '1F9CD-200D-2642-FE0F',
-    keywords: ['man_standing', 'still'],
+    label: 'Man Standing',
+    hexcode: '1F9CD-200D-2642-FE0F',
+    tags: ['man_standing', 'still'],
     sheet: [46, 24],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CD-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9CD-1F3FB-200D-2642-FE0F',
         sheet: [46, 25]
       },
       {
-        unified: '1F9CD-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9CD-1F3FC-200D-2642-FE0F',
         sheet: [46, 26]
       },
       {
-        unified: '1F9CD-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9CD-1F3FD-200D-2642-FE0F',
         sheet: [46, 27]
       },
       {
-        unified: '1F9CD-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9CD-1F3FE-200D-2642-FE0F',
         sheet: [46, 28]
       },
       {
-        unified: '1F9CD-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9CD-1F3FF-200D-2642-FE0F',
         sheet: [46, 29]
       }
     ],
     shortName: 'man_standing'
   },
   {
-    name: 'Woman Standing',
-    unified: '1F9CD-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Standing',
+    hexcode: '1F9CD-200D-2640-FE0F',
+    tags: [
       'woman_standing',
       'still'
     ],
     sheet: [46, 18],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CD-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9CD-1F3FB-200D-2640-FE0F',
         sheet: [46, 19]
       },
       {
-        unified: '1F9CD-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9CD-1F3FC-200D-2640-FE0F',
         sheet: [46, 20]
       },
       {
-        unified: '1F9CD-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9CD-1F3FD-200D-2640-FE0F',
         sheet: [46, 21]
       },
       {
-        unified: '1F9CD-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9CD-1F3FE-200D-2640-FE0F',
         sheet: [46, 22]
       },
       {
-        unified: '1F9CD-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9CD-1F3FF-200D-2640-FE0F',
         sheet: [46, 23]
       }
     ],
     shortName: 'woman_standing'
   },
   {
-    name: 'Kneeling Person',
-    unified: '1F9CE',
-    keywords: [
+    label: 'Kneeling Person',
+    hexcode: '1F9CE',
+    tags: [
       'person_kneeling',
       'pray',
       'respectful'
     ],
     sheet: [46, 48],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CE-1F3FB',
+        hexcode: '1F9CE-1F3FB',
         sheet: [46, 49]
       },
       {
-        unified: '1F9CE-1F3FC',
+        hexcode: '1F9CE-1F3FC',
         sheet: [46, 50]
       },
       {
-        unified: '1F9CE-1F3FD',
+        hexcode: '1F9CE-1F3FD',
         sheet: [46, 51]
       },
       {
-        unified: '1F9CE-1F3FE',
+        hexcode: '1F9CE-1F3FE',
         sheet: [46, 52]
       },
       {
-        unified: '1F9CE-1F3FF',
+        hexcode: '1F9CE-1F3FF',
         sheet: [46, 53]
       }
     ],
     shortName: 'kneeling_person'
   },
   {
-    name: 'Man Kneeling',
-    unified: '1F9CE-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Kneeling',
+    hexcode: '1F9CE-200D-2642-FE0F',
+    tags: [
       'man_kneeling',
       'pray',
       'respectful'
     ],
     sheet: [46, 42],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CE-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9CE-1F3FB-200D-2642-FE0F',
         sheet: [46, 43]
       },
       {
-        unified: '1F9CE-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9CE-1F3FC-200D-2642-FE0F',
         sheet: [46, 44]
       },
       {
-        unified: '1F9CE-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9CE-1F3FD-200D-2642-FE0F',
         sheet: [46, 45]
       },
       {
-        unified: '1F9CE-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9CE-1F3FE-200D-2642-FE0F',
         sheet: [46, 46]
       },
       {
-        unified: '1F9CE-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9CE-1F3FF-200D-2642-FE0F',
         sheet: [46, 47]
       }
     ],
     shortName: 'man_kneeling'
   },
   {
-    name: 'Woman Kneeling',
-    unified: '1F9CE-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Kneeling',
+    hexcode: '1F9CE-200D-2640-FE0F',
+    tags: [
       'woman_kneeling',
       'respectful',
       'pray'
     ],
     sheet: [46, 36],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9CE-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9CE-1F3FB-200D-2640-FE0F',
         sheet: [46, 37]
       },
       {
-        unified: '1F9CE-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9CE-1F3FC-200D-2640-FE0F',
         sheet: [46, 38]
       },
       {
-        unified: '1F9CE-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9CE-1F3FD-200D-2640-FE0F',
         sheet: [46, 39]
       },
       {
-        unified: '1F9CE-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9CE-1F3FE-200D-2640-FE0F',
         sheet: [46, 40]
       },
       {
-        unified: '1F9CE-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9CE-1F3FF-200D-2640-FE0F',
         sheet: [46, 41]
       }
     ],
     shortName: 'woman_kneeling'
   },
   {
-    name: 'Person with White Cane',
-    unified: '1F9D1-200D-1F9AF',
-    keywords: [
+    label: 'Person with White Cane',
+    hexcode: '1F9D1-200D-1F9AF',
+    tags: [
       'person_with_probing_cane',
       'blind'
     ],
     sheet: [49, 6],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9AF',
+        hexcode: '1F9D1-1F3FB-200D-1F9AF',
         sheet: [49, 7]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9AF',
+        hexcode: '1F9D1-1F3FC-200D-1F9AF',
         sheet: [49, 8]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9AF',
+        hexcode: '1F9D1-1F3FD-200D-1F9AF',
         sheet: [49, 9]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9AF',
+        hexcode: '1F9D1-1F3FE-200D-1F9AF',
         sheet: [49, 10]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9AF',
+        hexcode: '1F9D1-1F3FF-200D-1F9AF',
         sheet: [49, 11]
       }
     ],
     shortName: 'person_with_probing_cane'
   },
   {
-    name: 'Man with White Cane',
-    unified: '1F468-200D-1F9AF',
-    keywords: [
+    label: 'Man with White Cane',
+    hexcode: '1F468-200D-1F9AF',
+    tags: [
       'man_with_probing_cane',
       'blind'
     ],
     sheet: [15, 23],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9AF',
+        hexcode: '1F468-1F3FB-200D-1F9AF',
         sheet: [15, 24]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9AF',
+        hexcode: '1F468-1F3FC-200D-1F9AF',
         sheet: [15, 25]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9AF',
+        hexcode: '1F468-1F3FD-200D-1F9AF',
         sheet: [15, 26]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9AF',
+        hexcode: '1F468-1F3FE-200D-1F9AF',
         sheet: [15, 27]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9AF',
+        hexcode: '1F468-1F3FF-200D-1F9AF',
         sheet: [15, 28]
       }
     ],
     shortName: 'man_with_probing_cane'
   },
   {
-    name: 'Woman with White Cane',
-    unified: '1F469-200D-1F9AF',
-    keywords: [
+    label: 'Woman with White Cane',
+    hexcode: '1F469-200D-1F9AF',
+    tags: [
       'woman_with_probing_cane',
       'blind'
     ],
     sheet: [18, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9AF',
+        hexcode: '1F469-1F3FB-200D-1F9AF',
         sheet: [18, 53]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9AF',
+        hexcode: '1F469-1F3FC-200D-1F9AF',
         sheet: [18, 54]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9AF',
+        hexcode: '1F469-1F3FD-200D-1F9AF',
         sheet: [18, 55]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9AF',
+        hexcode: '1F469-1F3FE-200D-1F9AF',
         sheet: [18, 56]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9AF',
+        hexcode: '1F469-1F3FF-200D-1F9AF',
         sheet: [18, 57]
       }
     ],
     shortName: 'woman_with_probing_cane'
   },
   {
-    name: 'Person in Motorized Wheelchair',
-    unified: '1F9D1-200D-1F9BC',
-    keywords: [
+    label: 'Person in Motorized Wheelchair',
+    hexcode: '1F9D1-200D-1F9BC',
+    tags: [
       'person_in_motorized_wheelchair',
       'disability',
       'accessibility'
     ],
     sheet: [49, 36],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9BC',
+        hexcode: '1F9D1-1F3FB-200D-1F9BC',
         sheet: [49, 37]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9BC',
+        hexcode: '1F9D1-1F3FC-200D-1F9BC',
         sheet: [49, 38]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9BC',
+        hexcode: '1F9D1-1F3FD-200D-1F9BC',
         sheet: [49, 39]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9BC',
+        hexcode: '1F9D1-1F3FE-200D-1F9BC',
         sheet: [49, 40]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9BC',
+        hexcode: '1F9D1-1F3FF-200D-1F9BC',
         sheet: [49, 41]
       }
     ],
     shortName: 'person_in_motorized_wheelchair'
   },
   {
-    name: 'Man in Motorized Wheelchair',
-    unified: '1F468-200D-1F9BC',
-    keywords: [
+    label: 'Man in Motorized Wheelchair',
+    hexcode: '1F468-200D-1F9BC',
+    tags: [
       'man_in_motorized_wheelchair',
       'disability',
       'accessibility'
     ],
     sheet: [15, 53],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9BC',
+        hexcode: '1F468-1F3FB-200D-1F9BC',
         sheet: [15, 54]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9BC',
+        hexcode: '1F468-1F3FC-200D-1F9BC',
         sheet: [15, 55]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9BC',
+        hexcode: '1F468-1F3FD-200D-1F9BC',
         sheet: [15, 56]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9BC',
+        hexcode: '1F468-1F3FE-200D-1F9BC',
         sheet: [15, 57]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9BC',
+        hexcode: '1F468-1F3FF-200D-1F9BC',
         sheet: [15, 58]
       }
     ],
     shortName: 'man_in_motorized_wheelchair'
   },
   {
-    name: 'Woman in Motorized Wheelchair',
-    unified: '1F469-200D-1F9BC',
-    keywords: [
+    label: 'Woman in Motorized Wheelchair',
+    hexcode: '1F469-200D-1F9BC',
+    tags: [
       'woman_in_motorized_wheelchair',
       'disability',
       'accessibility'
     ],
     sheet: [19, 21],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9BC',
+        hexcode: '1F469-1F3FB-200D-1F9BC',
         sheet: [19, 22]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9BC',
+        hexcode: '1F469-1F3FC-200D-1F9BC',
         sheet: [19, 23]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9BC',
+        hexcode: '1F469-1F3FD-200D-1F9BC',
         sheet: [19, 24]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9BC',
+        hexcode: '1F469-1F3FE-200D-1F9BC',
         sheet: [19, 25]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9BC',
+        hexcode: '1F469-1F3FF-200D-1F9BC',
         sheet: [19, 26]
       }
     ],
     shortName: 'woman_in_motorized_wheelchair'
   },
   {
-    name: 'Person in Manual Wheelchair',
-    unified: '1F9D1-200D-1F9BD',
-    keywords: [
+    label: 'Person in Manual Wheelchair',
+    hexcode: '1F9D1-200D-1F9BD',
+    tags: [
       'person_in_manual_wheelchair',
       'disability',
       'accessibility'
     ],
     sheet: [49, 42],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F9BD',
+        hexcode: '1F9D1-1F3FB-200D-1F9BD',
         sheet: [49, 43]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F9BD',
+        hexcode: '1F9D1-1F3FC-200D-1F9BD',
         sheet: [49, 44]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F9BD',
+        hexcode: '1F9D1-1F3FD-200D-1F9BD',
         sheet: [49, 45]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F9BD',
+        hexcode: '1F9D1-1F3FE-200D-1F9BD',
         sheet: [49, 46]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F9BD',
+        hexcode: '1F9D1-1F3FF-200D-1F9BD',
         sheet: [49, 47]
       }
     ],
     shortName: 'person_in_manual_wheelchair'
   },
   {
-    name: 'Man in Manual Wheelchair',
-    unified: '1F468-200D-1F9BD',
-    keywords: [
+    label: 'Man in Manual Wheelchair',
+    hexcode: '1F468-200D-1F9BD',
+    tags: [
       'man_in_manual_wheelchair',
       'disability',
       'accessibility'
     ],
     sheet: [15, 59],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-1F9BD',
+        hexcode: '1F468-1F3FB-200D-1F9BD',
         sheet: [15, 60]
       },
       {
-        unified: '1F468-1F3FC-200D-1F9BD',
+        hexcode: '1F468-1F3FC-200D-1F9BD',
         sheet: [16, 0]
       },
       {
-        unified: '1F468-1F3FD-200D-1F9BD',
+        hexcode: '1F468-1F3FD-200D-1F9BD',
         sheet: [16, 1]
       },
       {
-        unified: '1F468-1F3FE-200D-1F9BD',
+        hexcode: '1F468-1F3FE-200D-1F9BD',
         sheet: [16, 2]
       },
       {
-        unified: '1F468-1F3FF-200D-1F9BD',
+        hexcode: '1F468-1F3FF-200D-1F9BD',
         sheet: [16, 3]
       }
     ],
     shortName: 'man_in_manual_wheelchair'
   },
   {
-    name: 'Woman in Manual Wheelchair',
-    unified: '1F469-200D-1F9BD',
-    keywords: [
+    label: 'Woman in Manual Wheelchair',
+    hexcode: '1F469-200D-1F9BD',
+    tags: [
       'woman_in_manual_wheelchair',
       'disability',
       'accessibility'
     ],
     sheet: [19, 27],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-1F9BD',
+        hexcode: '1F469-1F3FB-200D-1F9BD',
         sheet: [19, 28]
       },
       {
-        unified: '1F469-1F3FC-200D-1F9BD',
+        hexcode: '1F469-1F3FC-200D-1F9BD',
         sheet: [19, 29]
       },
       {
-        unified: '1F469-1F3FD-200D-1F9BD',
+        hexcode: '1F469-1F3FD-200D-1F9BD',
         sheet: [19, 30]
       },
       {
-        unified: '1F469-1F3FE-200D-1F9BD',
+        hexcode: '1F469-1F3FE-200D-1F9BD',
         sheet: [19, 31]
       },
       {
-        unified: '1F469-1F3FF-200D-1F9BD',
+        hexcode: '1F469-1F3FF-200D-1F9BD',
         sheet: [19, 32]
       }
     ],
     shortName: 'woman_in_manual_wheelchair'
   },
   {
-    name: 'Runner',
-    unified: '1F3C3',
-    keywords: [
+    label: 'Runner',
+    hexcode: '1F3C3',
+    tags: [
       'person_running',
       'move'
     ],
     sheet: [8, 26],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C3-1F3FB',
+        hexcode: '1F3C3-1F3FB',
         sheet: [8, 27]
       },
       {
-        unified: '1F3C3-1F3FC',
+        hexcode: '1F3C3-1F3FC',
         sheet: [8, 28]
       },
       {
-        unified: '1F3C3-1F3FD',
+        hexcode: '1F3C3-1F3FD',
         sheet: [8, 29]
       },
       {
-        unified: '1F3C3-1F3FE',
+        hexcode: '1F3C3-1F3FE',
         sheet: [8, 30]
       },
       {
-        unified: '1F3C3-1F3FF',
+        hexcode: '1F3C3-1F3FF',
         sheet: [8, 31]
       }
     ],
@@ -10796,10 +10796,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F3C3-200D-2642-FE0F'
   },
   {
-    name: 'Man Running',
-    unified: '1F3C3-200D-2642-FE0F',
+    label: 'Man Running',
+    hexcode: '1F3C3-200D-2642-FE0F',
     obsoletes: '1F3C3',
-    keywords: [
+    tags: [
       'man_running',
       'man',
       'walking',
@@ -10808,34 +10808,34 @@ export const emojis: CompressedEmojiData[] = [
       'running'
     ],
     sheet: [8, 20],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C3-1F3FB-200D-2642-FE0F',
+        hexcode: '1F3C3-1F3FB-200D-2642-FE0F',
         sheet: [8, 21]
       },
       {
-        unified: '1F3C3-1F3FC-200D-2642-FE0F',
+        hexcode: '1F3C3-1F3FC-200D-2642-FE0F',
         sheet: [8, 22]
       },
       {
-        unified: '1F3C3-1F3FD-200D-2642-FE0F',
+        hexcode: '1F3C3-1F3FD-200D-2642-FE0F',
         sheet: [8, 23]
       },
       {
-        unified: '1F3C3-1F3FE-200D-2642-FE0F',
+        hexcode: '1F3C3-1F3FE-200D-2642-FE0F',
         sheet: [8, 24]
       },
       {
-        unified: '1F3C3-1F3FF-200D-2642-FE0F',
+        hexcode: '1F3C3-1F3FF-200D-2642-FE0F',
         sheet: [8, 25]
       }
     ],
     shortName: 'man-running'
   },
   {
-    name: 'Woman Running',
-    unified: '1F3C3-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Running',
+    hexcode: '1F3C3-200D-2640-FE0F',
+    tags: [
       'woman_running',
       'woman',
       'walking',
@@ -10845,34 +10845,34 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [8, 14],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C3-1F3FB-200D-2640-FE0F',
+        hexcode: '1F3C3-1F3FB-200D-2640-FE0F',
         sheet: [8, 15]
       },
       {
-        unified: '1F3C3-1F3FC-200D-2640-FE0F',
+        hexcode: '1F3C3-1F3FC-200D-2640-FE0F',
         sheet: [8, 16]
       },
       {
-        unified: '1F3C3-1F3FD-200D-2640-FE0F',
+        hexcode: '1F3C3-1F3FD-200D-2640-FE0F',
         sheet: [8, 17]
       },
       {
-        unified: '1F3C3-1F3FE-200D-2640-FE0F',
+        hexcode: '1F3C3-1F3FE-200D-2640-FE0F',
         sheet: [8, 18]
       },
       {
-        unified: '1F3C3-1F3FF-200D-2640-FE0F',
+        hexcode: '1F3C3-1F3FF-200D-2640-FE0F',
         sheet: [8, 19]
       }
     ],
     shortName: 'woman-running'
   },
   {
-    name: 'Dancer',
-    unified: '1F483',
-    keywords: [
+    label: 'Dancer',
+    hexcode: '1F483',
+    tags: [
       'woman_dancing',
       'female',
       'girl',
@@ -10880,34 +10880,34 @@ export const emojis: CompressedEmojiData[] = [
       'fun'
     ],
     sheet: [25, 46],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F483-1F3FB',
+        hexcode: '1F483-1F3FB',
         sheet: [25, 47]
       },
       {
-        unified: '1F483-1F3FC',
+        hexcode: '1F483-1F3FC',
         sheet: [25, 48]
       },
       {
-        unified: '1F483-1F3FD',
+        hexcode: '1F483-1F3FD',
         sheet: [25, 49]
       },
       {
-        unified: '1F483-1F3FE',
+        hexcode: '1F483-1F3FE',
         sheet: [25, 50]
       },
       {
-        unified: '1F483-1F3FF',
+        hexcode: '1F483-1F3FF',
         sheet: [25, 51]
       }
     ],
     shortName: 'dancer'
   },
   {
-    name: 'Man Dancing',
-    unified: '1F57A',
-    keywords: [
+    label: 'Man Dancing',
+    hexcode: '1F57A',
+    tags: [
       'man_dancing',
       'male',
       'boy',
@@ -10915,34 +10915,34 @@ export const emojis: CompressedEmojiData[] = [
       'dancer'
     ],
     sheet: [31, 26],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F57A-1F3FB',
+        hexcode: '1F57A-1F3FB',
         sheet: [31, 27]
       },
       {
-        unified: '1F57A-1F3FC',
+        hexcode: '1F57A-1F3FC',
         sheet: [31, 28]
       },
       {
-        unified: '1F57A-1F3FD',
+        hexcode: '1F57A-1F3FD',
         sheet: [31, 29]
       },
       {
-        unified: '1F57A-1F3FE',
+        hexcode: '1F57A-1F3FE',
         sheet: [31, 30]
       },
       {
-        unified: '1F57A-1F3FF',
+        hexcode: '1F57A-1F3FF',
         sheet: [31, 31]
       }
     ],
     shortName: 'man_dancing'
   },
   {
-    name: 'Person in Suit Levitating',
-    unified: '1F574-FE0F',
-    keywords: [
+    label: 'Person in Suit Levitating',
+    hexcode: '1F574-FE0F',
+    tags: [
       'man_in_suit_levitating',
       'suit',
       'business',
@@ -10951,34 +10951,34 @@ export const emojis: CompressedEmojiData[] = [
       'jump'
     ],
     sheet: [30, 59],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F574-1F3FB',
+        hexcode: '1F574-1F3FB',
         sheet: [30, 60]
       },
       {
-        unified: '1F574-1F3FC',
+        hexcode: '1F574-1F3FC',
         sheet: [31, 0]
       },
       {
-        unified: '1F574-1F3FD',
+        hexcode: '1F574-1F3FD',
         sheet: [31, 1]
       },
       {
-        unified: '1F574-1F3FE',
+        hexcode: '1F574-1F3FE',
         sheet: [31, 2]
       },
       {
-        unified: '1F574-1F3FF',
+        hexcode: '1F574-1F3FF',
         sheet: [31, 3]
       }
     ],
     shortName: 'man_in_business_suit_levitating'
   },
   {
-    name: 'Woman with Bunny Ears',
-    unified: '1F46F',
-    keywords: [
+    label: 'Woman with Bunny Ears',
+    hexcode: '1F46F',
+    tags: [
       'people_with_bunny_ears',
       'perform',
       'costume'
@@ -10988,9 +10988,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F46F-200D-2640-FE0F'
   },
   {
-    name: 'Men with Bunny Ears',
-    unified: '1F46F-200D-2642-FE0F',
-    keywords: [
+    label: 'Men with Bunny Ears',
+    hexcode: '1F46F-200D-2642-FE0F',
+    tags: [
       'men_with_bunny_ears',
       'male',
       'bunny',
@@ -11004,10 +11004,10 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'men-with-bunny-ears-partying'
   },
   {
-    name: 'Women with Bunny Ears',
-    unified: '1F46F-200D-2640-FE0F',
+    label: 'Women with Bunny Ears',
+    hexcode: '1F46F-200D-2640-FE0F',
     obsoletes: '1F46F',
-    keywords: [
+    tags: [
       'women_with_bunny_ears',
       'female',
       'bunny',
@@ -11021,33 +11021,33 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'women-with-bunny-ears-partying'
   },
   {
-    name: 'Person in Steamy Room',
-    unified: '1F9D6',
-    keywords: [
+    label: 'Person in Steamy Room',
+    hexcode: '1F9D6',
+    tags: [
       'person_in_steamy_room',
       'relax',
       'spa'
     ],
     sheet: [50, 59],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D6-1F3FB',
+        hexcode: '1F9D6-1F3FB',
         sheet: [50, 60]
       },
       {
-        unified: '1F9D6-1F3FC',
+        hexcode: '1F9D6-1F3FC',
         sheet: [51, 0]
       },
       {
-        unified: '1F9D6-1F3FD',
+        hexcode: '1F9D6-1F3FD',
         sheet: [51, 1]
       },
       {
-        unified: '1F9D6-1F3FE',
+        hexcode: '1F9D6-1F3FE',
         sheet: [51, 2]
       },
       {
-        unified: '1F9D6-1F3FF',
+        hexcode: '1F9D6-1F3FF',
         sheet: [51, 3]
       }
     ],
@@ -11055,10 +11055,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9D6-200D-2642-FE0F'
   },
   {
-    name: 'Man in Steamy Room',
-    unified: '1F9D6-200D-2642-FE0F',
+    label: 'Man in Steamy Room',
+    hexcode: '1F9D6-200D-2642-FE0F',
     obsoletes: '1F9D6',
-    keywords: [
+    tags: [
       'man_in_steamy_room',
       'male',
       'man',
@@ -11067,34 +11067,34 @@ export const emojis: CompressedEmojiData[] = [
       'sauna'
     ],
     sheet: [50, 53],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D6-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9D6-1F3FB-200D-2642-FE0F',
         sheet: [50, 54]
       },
       {
-        unified: '1F9D6-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9D6-1F3FC-200D-2642-FE0F',
         sheet: [50, 55]
       },
       {
-        unified: '1F9D6-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9D6-1F3FD-200D-2642-FE0F',
         sheet: [50, 56]
       },
       {
-        unified: '1F9D6-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9D6-1F3FE-200D-2642-FE0F',
         sheet: [50, 57]
       },
       {
-        unified: '1F9D6-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9D6-1F3FF-200D-2642-FE0F',
         sheet: [50, 58]
       }
     ],
     shortName: 'man_in_steamy_room'
   },
   {
-    name: 'Woman in Steamy Room',
-    unified: '1F9D6-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman in Steamy Room',
+    hexcode: '1F9D6-200D-2640-FE0F',
+    tags: [
       'woman_in_steamy_room',
       'female',
       'woman',
@@ -11103,57 +11103,57 @@ export const emojis: CompressedEmojiData[] = [
       'sauna'
     ],
     sheet: [50, 47],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D6-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9D6-1F3FB-200D-2640-FE0F',
         sheet: [50, 48]
       },
       {
-        unified: '1F9D6-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9D6-1F3FC-200D-2640-FE0F',
         sheet: [50, 49]
       },
       {
-        unified: '1F9D6-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9D6-1F3FD-200D-2640-FE0F',
         sheet: [50, 50]
       },
       {
-        unified: '1F9D6-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9D6-1F3FE-200D-2640-FE0F',
         sheet: [50, 51]
       },
       {
-        unified: '1F9D6-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9D6-1F3FF-200D-2640-FE0F',
         sheet: [50, 52]
       }
     ],
     shortName: 'woman_in_steamy_room'
   },
   {
-    name: 'Person Climbing',
-    unified: '1F9D7',
-    keywords: [
+    label: 'Person Climbing',
+    hexcode: '1F9D7',
+    tags: [
       'person_climbing',
       'sport'
     ],
     sheet: [51, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D7-1F3FB',
+        hexcode: '1F9D7-1F3FB',
         sheet: [51, 17]
       },
       {
-        unified: '1F9D7-1F3FC',
+        hexcode: '1F9D7-1F3FC',
         sheet: [51, 18]
       },
       {
-        unified: '1F9D7-1F3FD',
+        hexcode: '1F9D7-1F3FD',
         sheet: [51, 19]
       },
       {
-        unified: '1F9D7-1F3FE',
+        hexcode: '1F9D7-1F3FE',
         sheet: [51, 20]
       },
       {
-        unified: '1F9D7-1F3FF',
+        hexcode: '1F9D7-1F3FF',
         sheet: [51, 21]
       }
     ],
@@ -11161,9 +11161,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9D7-200D-2640-FE0F'
   },
   {
-    name: 'Man Climbing',
-    unified: '1F9D7-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Climbing',
+    hexcode: '1F9D7-200D-2642-FE0F',
+    tags: [
       'man_climbing',
       'sports',
       'hobby',
@@ -11172,35 +11172,35 @@ export const emojis: CompressedEmojiData[] = [
       'rock'
     ],
     sheet: [51, 10],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D7-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9D7-1F3FB-200D-2642-FE0F',
         sheet: [51, 11]
       },
       {
-        unified: '1F9D7-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9D7-1F3FC-200D-2642-FE0F',
         sheet: [51, 12]
       },
       {
-        unified: '1F9D7-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9D7-1F3FD-200D-2642-FE0F',
         sheet: [51, 13]
       },
       {
-        unified: '1F9D7-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9D7-1F3FE-200D-2642-FE0F',
         sheet: [51, 14]
       },
       {
-        unified: '1F9D7-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9D7-1F3FF-200D-2642-FE0F',
         sheet: [51, 15]
       }
     ],
     shortName: 'man_climbing'
   },
   {
-    name: 'Woman Climbing',
-    unified: '1F9D7-200D-2640-FE0F',
+    label: 'Woman Climbing',
+    hexcode: '1F9D7-200D-2640-FE0F',
     obsoletes: '1F9D7',
-    keywords: [
+    tags: [
       'woman_climbing',
       'sports',
       'hobby',
@@ -11209,34 +11209,34 @@ export const emojis: CompressedEmojiData[] = [
       'rock'
     ],
     sheet: [51, 4],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D7-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9D7-1F3FB-200D-2640-FE0F',
         sheet: [51, 5]
       },
       {
-        unified: '1F9D7-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9D7-1F3FC-200D-2640-FE0F',
         sheet: [51, 6]
       },
       {
-        unified: '1F9D7-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9D7-1F3FD-200D-2640-FE0F',
         sheet: [51, 7]
       },
       {
-        unified: '1F9D7-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9D7-1F3FE-200D-2640-FE0F',
         sheet: [51, 8]
       },
       {
-        unified: '1F9D7-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9D7-1F3FF-200D-2640-FE0F',
         sheet: [51, 9]
       }
     ],
     shortName: 'woman_climbing'
   },
   {
-    name: 'Fencer',
-    unified: '1F93A',
-    keywords: [
+    label: 'Fencer',
+    hexcode: '1F93A',
+    tags: [
       'person_fencing',
       'sports',
       'fencing',
@@ -11246,9 +11246,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fencer'
   },
   {
-    name: 'Horse Racing',
-    unified: '1F3C7',
-    keywords: [
+    label: 'Horse Racing',
+    hexcode: '1F3C7',
+    tags: [
       'horse_racing',
       'animal',
       'betting',
@@ -11257,34 +11257,34 @@ export const emojis: CompressedEmojiData[] = [
       'luck'
     ],
     sheet: [8, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C7-1F3FB',
+        hexcode: '1F3C7-1F3FB',
         sheet: [8, 53]
       },
       {
-        unified: '1F3C7-1F3FC',
+        hexcode: '1F3C7-1F3FC',
         sheet: [8, 54]
       },
       {
-        unified: '1F3C7-1F3FD',
+        hexcode: '1F3C7-1F3FD',
         sheet: [8, 55]
       },
       {
-        unified: '1F3C7-1F3FE',
+        hexcode: '1F3C7-1F3FE',
         sheet: [8, 56]
       },
       {
-        unified: '1F3C7-1F3FF',
+        hexcode: '1F3C7-1F3FF',
         sheet: [8, 57]
       }
     ],
     shortName: 'horse_racing'
   },
   {
-    name: 'Skier',
-    unified: '26F7-FE0F',
-    keywords: [
+    label: 'Skier',
+    hexcode: '26F7-FE0F',
+    tags: [
       'skier',
       'sports',
       'winter',
@@ -11294,66 +11294,66 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'skier'
   },
   {
-    name: 'Snowboarder',
-    unified: '1F3C2',
-    keywords: [
+    label: 'Snowboarder',
+    hexcode: '1F3C2',
+    tags: [
       'snowboarder',
       'sports',
       'winter'
     ],
     sheet: [8, 8],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C2-1F3FB',
+        hexcode: '1F3C2-1F3FB',
         sheet: [8, 9]
       },
       {
-        unified: '1F3C2-1F3FC',
+        hexcode: '1F3C2-1F3FC',
         sheet: [8, 10]
       },
       {
-        unified: '1F3C2-1F3FD',
+        hexcode: '1F3C2-1F3FD',
         sheet: [8, 11]
       },
       {
-        unified: '1F3C2-1F3FE',
+        hexcode: '1F3C2-1F3FE',
         sheet: [8, 12]
       },
       {
-        unified: '1F3C2-1F3FF',
+        hexcode: '1F3C2-1F3FF',
         sheet: [8, 13]
       }
     ],
     shortName: 'snowboarder'
   },
   {
-    name: 'Person Golfing',
-    unified: '1F3CC-FE0F',
-    keywords: [
+    label: 'Person Golfing',
+    hexcode: '1F3CC-FE0F',
+    tags: [
       'person_golfing',
       'sports',
       'business'
     ],
     sheet: [9, 47],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CC-1F3FB',
+        hexcode: '1F3CC-1F3FB',
         sheet: [9, 48]
       },
       {
-        unified: '1F3CC-1F3FC',
+        hexcode: '1F3CC-1F3FC',
         sheet: [9, 49]
       },
       {
-        unified: '1F3CC-1F3FD',
+        hexcode: '1F3CC-1F3FD',
         sheet: [9, 50]
       },
       {
-        unified: '1F3CC-1F3FE',
+        hexcode: '1F3CC-1F3FE',
         sheet: [9, 51]
       },
       {
-        unified: '1F3CC-1F3FF',
+        hexcode: '1F3CC-1F3FF',
         sheet: [9, 52]
       }
     ],
@@ -11361,40 +11361,40 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F3CC-FE0F-200D-2642-FE0F'
   },
   {
-    name: 'Man Golfing',
-    unified: '1F3CC-FE0F-200D-2642-FE0F',
+    label: 'Man Golfing',
+    hexcode: '1F3CC-FE0F-200D-2642-FE0F',
     obsoletes: '1F3CC-FE0F',
-    keywords: ['man_golfing', 'sport'],
+    tags: ['man_golfing', 'sport'],
     sheet: [9, 41],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CC-1F3FB-200D-2642-FE0F',
+        hexcode: '1F3CC-1F3FB-200D-2642-FE0F',
         sheet: [9, 42]
       },
       {
-        unified: '1F3CC-1F3FC-200D-2642-FE0F',
+        hexcode: '1F3CC-1F3FC-200D-2642-FE0F',
         sheet: [9, 43]
       },
       {
-        unified: '1F3CC-1F3FD-200D-2642-FE0F',
+        hexcode: '1F3CC-1F3FD-200D-2642-FE0F',
         sheet: [9, 44]
       },
       {
-        unified: '1F3CC-1F3FE-200D-2642-FE0F',
+        hexcode: '1F3CC-1F3FE-200D-2642-FE0F',
         sheet: [9, 45]
       },
       {
-        unified: '1F3CC-1F3FF-200D-2642-FE0F',
+        hexcode: '1F3CC-1F3FF-200D-2642-FE0F',
         sheet: [9, 46]
       }
     ],
     shortName: 'man-golfing'
   },
   {
-    name: 'Woman Golfing',
-    unified: '1F3CC-FE0F-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Golfing',
+    hexcode: '1F3CC-FE0F-200D-2640-FE0F',
+    tags: [
       'woman_golfing',
       'sports',
       'business',
@@ -11403,58 +11403,58 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [9, 35],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CC-1F3FB-200D-2640-FE0F',
+        hexcode: '1F3CC-1F3FB-200D-2640-FE0F',
         sheet: [9, 36]
       },
       {
-        unified: '1F3CC-1F3FC-200D-2640-FE0F',
+        hexcode: '1F3CC-1F3FC-200D-2640-FE0F',
         sheet: [9, 37]
       },
       {
-        unified: '1F3CC-1F3FD-200D-2640-FE0F',
+        hexcode: '1F3CC-1F3FD-200D-2640-FE0F',
         sheet: [9, 38]
       },
       {
-        unified: '1F3CC-1F3FE-200D-2640-FE0F',
+        hexcode: '1F3CC-1F3FE-200D-2640-FE0F',
         sheet: [9, 39]
       },
       {
-        unified: '1F3CC-1F3FF-200D-2640-FE0F',
+        hexcode: '1F3CC-1F3FF-200D-2640-FE0F',
         sheet: [9, 40]
       }
     ],
     shortName: 'woman-golfing'
   },
   {
-    name: 'Surfer',
-    unified: '1F3C4',
-    keywords: [
+    label: 'Surfer',
+    hexcode: '1F3C4',
+    tags: [
       'person_surfing',
       'sport',
       'sea'
     ],
     sheet: [8, 44],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C4-1F3FB',
+        hexcode: '1F3C4-1F3FB',
         sheet: [8, 45]
       },
       {
-        unified: '1F3C4-1F3FC',
+        hexcode: '1F3C4-1F3FC',
         sheet: [8, 46]
       },
       {
-        unified: '1F3C4-1F3FD',
+        hexcode: '1F3C4-1F3FD',
         sheet: [8, 47]
       },
       {
-        unified: '1F3C4-1F3FE',
+        hexcode: '1F3C4-1F3FE',
         sheet: [8, 48]
       },
       {
-        unified: '1F3C4-1F3FF',
+        hexcode: '1F3C4-1F3FF',
         sheet: [8, 49]
       }
     ],
@@ -11462,10 +11462,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F3C4-200D-2642-FE0F'
   },
   {
-    name: 'Man Surfing',
-    unified: '1F3C4-200D-2642-FE0F',
+    label: 'Man Surfing',
+    hexcode: '1F3C4-200D-2642-FE0F',
     obsoletes: '1F3C4',
-    keywords: [
+    tags: [
       'man_surfing',
       'sports',
       'ocean',
@@ -11474,34 +11474,34 @@ export const emojis: CompressedEmojiData[] = [
       'beach'
     ],
     sheet: [8, 38],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C4-1F3FB-200D-2642-FE0F',
+        hexcode: '1F3C4-1F3FB-200D-2642-FE0F',
         sheet: [8, 39]
       },
       {
-        unified: '1F3C4-1F3FC-200D-2642-FE0F',
+        hexcode: '1F3C4-1F3FC-200D-2642-FE0F',
         sheet: [8, 40]
       },
       {
-        unified: '1F3C4-1F3FD-200D-2642-FE0F',
+        hexcode: '1F3C4-1F3FD-200D-2642-FE0F',
         sheet: [8, 41]
       },
       {
-        unified: '1F3C4-1F3FE-200D-2642-FE0F',
+        hexcode: '1F3C4-1F3FE-200D-2642-FE0F',
         sheet: [8, 42]
       },
       {
-        unified: '1F3C4-1F3FF-200D-2642-FE0F',
+        hexcode: '1F3C4-1F3FF-200D-2642-FE0F',
         sheet: [8, 43]
       }
     ],
     shortName: 'man-surfing'
   },
   {
-    name: 'Woman Surfing',
-    unified: '1F3C4-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Surfing',
+    hexcode: '1F3C4-200D-2640-FE0F',
+    tags: [
       'woman_surfing',
       'sports',
       'ocean',
@@ -11512,58 +11512,58 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [8, 32],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3C4-1F3FB-200D-2640-FE0F',
+        hexcode: '1F3C4-1F3FB-200D-2640-FE0F',
         sheet: [8, 33]
       },
       {
-        unified: '1F3C4-1F3FC-200D-2640-FE0F',
+        hexcode: '1F3C4-1F3FC-200D-2640-FE0F',
         sheet: [8, 34]
       },
       {
-        unified: '1F3C4-1F3FD-200D-2640-FE0F',
+        hexcode: '1F3C4-1F3FD-200D-2640-FE0F',
         sheet: [8, 35]
       },
       {
-        unified: '1F3C4-1F3FE-200D-2640-FE0F',
+        hexcode: '1F3C4-1F3FE-200D-2640-FE0F',
         sheet: [8, 36]
       },
       {
-        unified: '1F3C4-1F3FF-200D-2640-FE0F',
+        hexcode: '1F3C4-1F3FF-200D-2640-FE0F',
         sheet: [8, 37]
       }
     ],
     shortName: 'woman-surfing'
   },
   {
-    name: 'Rowboat',
-    unified: '1F6A3',
-    keywords: [
+    label: 'Rowboat',
+    hexcode: '1F6A3',
+    tags: [
       'person_rowing_boat',
       'sport',
       'move'
     ],
     sheet: [36, 18],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6A3-1F3FB',
+        hexcode: '1F6A3-1F3FB',
         sheet: [36, 19]
       },
       {
-        unified: '1F6A3-1F3FC',
+        hexcode: '1F6A3-1F3FC',
         sheet: [36, 20]
       },
       {
-        unified: '1F6A3-1F3FD',
+        hexcode: '1F6A3-1F3FD',
         sheet: [36, 21]
       },
       {
-        unified: '1F6A3-1F3FE',
+        hexcode: '1F6A3-1F3FE',
         sheet: [36, 22]
       },
       {
-        unified: '1F6A3-1F3FF',
+        hexcode: '1F6A3-1F3FF',
         sheet: [36, 23]
       }
     ],
@@ -11571,10 +11571,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F6A3-200D-2642-FE0F'
   },
   {
-    name: 'Man Rowing Boat',
-    unified: '1F6A3-200D-2642-FE0F',
+    label: 'Man Rowing Boat',
+    hexcode: '1F6A3-200D-2642-FE0F',
     obsoletes: '1F6A3',
-    keywords: [
+    tags: [
       'man_rowing_boat',
       'sports',
       'hobby',
@@ -11582,34 +11582,34 @@ export const emojis: CompressedEmojiData[] = [
       'ship'
     ],
     sheet: [36, 12],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6A3-1F3FB-200D-2642-FE0F',
+        hexcode: '1F6A3-1F3FB-200D-2642-FE0F',
         sheet: [36, 13]
       },
       {
-        unified: '1F6A3-1F3FC-200D-2642-FE0F',
+        hexcode: '1F6A3-1F3FC-200D-2642-FE0F',
         sheet: [36, 14]
       },
       {
-        unified: '1F6A3-1F3FD-200D-2642-FE0F',
+        hexcode: '1F6A3-1F3FD-200D-2642-FE0F',
         sheet: [36, 15]
       },
       {
-        unified: '1F6A3-1F3FE-200D-2642-FE0F',
+        hexcode: '1F6A3-1F3FE-200D-2642-FE0F',
         sheet: [36, 16]
       },
       {
-        unified: '1F6A3-1F3FF-200D-2642-FE0F',
+        hexcode: '1F6A3-1F3FF-200D-2642-FE0F',
         sheet: [36, 17]
       }
     ],
     shortName: 'man-rowing-boat'
   },
   {
-    name: 'Woman Rowing Boat',
-    unified: '1F6A3-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Rowing Boat',
+    hexcode: '1F6A3-200D-2640-FE0F',
+    tags: [
       'woman_rowing_boat',
       'sports',
       'hobby',
@@ -11619,58 +11619,58 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [36, 6],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6A3-1F3FB-200D-2640-FE0F',
+        hexcode: '1F6A3-1F3FB-200D-2640-FE0F',
         sheet: [36, 7]
       },
       {
-        unified: '1F6A3-1F3FC-200D-2640-FE0F',
+        hexcode: '1F6A3-1F3FC-200D-2640-FE0F',
         sheet: [36, 8]
       },
       {
-        unified: '1F6A3-1F3FD-200D-2640-FE0F',
+        hexcode: '1F6A3-1F3FD-200D-2640-FE0F',
         sheet: [36, 9]
       },
       {
-        unified: '1F6A3-1F3FE-200D-2640-FE0F',
+        hexcode: '1F6A3-1F3FE-200D-2640-FE0F',
         sheet: [36, 10]
       },
       {
-        unified: '1F6A3-1F3FF-200D-2640-FE0F',
+        hexcode: '1F6A3-1F3FF-200D-2640-FE0F',
         sheet: [36, 11]
       }
     ],
     shortName: 'woman-rowing-boat'
   },
   {
-    name: 'Swimmer',
-    unified: '1F3CA',
-    keywords: [
+    label: 'Swimmer',
+    hexcode: '1F3CA',
+    tags: [
       'person_swimming',
       'sport',
       'pool'
     ],
     sheet: [9, 11],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CA-1F3FB',
+        hexcode: '1F3CA-1F3FB',
         sheet: [9, 12]
       },
       {
-        unified: '1F3CA-1F3FC',
+        hexcode: '1F3CA-1F3FC',
         sheet: [9, 13]
       },
       {
-        unified: '1F3CA-1F3FD',
+        hexcode: '1F3CA-1F3FD',
         sheet: [9, 14]
       },
       {
-        unified: '1F3CA-1F3FE',
+        hexcode: '1F3CA-1F3FE',
         sheet: [9, 15]
       },
       {
-        unified: '1F3CA-1F3FF',
+        hexcode: '1F3CA-1F3FF',
         sheet: [9, 16]
       }
     ],
@@ -11678,10 +11678,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F3CA-200D-2642-FE0F'
   },
   {
-    name: 'Man Swimming',
-    unified: '1F3CA-200D-2642-FE0F',
+    label: 'Man Swimming',
+    hexcode: '1F3CA-200D-2642-FE0F',
     obsoletes: '1F3CA',
-    keywords: [
+    tags: [
       'man_swimming',
       'sports',
       'exercise',
@@ -11691,34 +11691,34 @@ export const emojis: CompressedEmojiData[] = [
       'summer'
     ],
     sheet: [9, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CA-1F3FB-200D-2642-FE0F',
+        hexcode: '1F3CA-1F3FB-200D-2642-FE0F',
         sheet: [9, 6]
       },
       {
-        unified: '1F3CA-1F3FC-200D-2642-FE0F',
+        hexcode: '1F3CA-1F3FC-200D-2642-FE0F',
         sheet: [9, 7]
       },
       {
-        unified: '1F3CA-1F3FD-200D-2642-FE0F',
+        hexcode: '1F3CA-1F3FD-200D-2642-FE0F',
         sheet: [9, 8]
       },
       {
-        unified: '1F3CA-1F3FE-200D-2642-FE0F',
+        hexcode: '1F3CA-1F3FE-200D-2642-FE0F',
         sheet: [9, 9]
       },
       {
-        unified: '1F3CA-1F3FF-200D-2642-FE0F',
+        hexcode: '1F3CA-1F3FF-200D-2642-FE0F',
         sheet: [9, 10]
       }
     ],
     shortName: 'man-swimming'
   },
   {
-    name: 'Woman Swimming',
-    unified: '1F3CA-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Swimming',
+    hexcode: '1F3CA-200D-2640-FE0F',
+    tags: [
       'woman_swimming',
       'sports',
       'exercise',
@@ -11730,58 +11730,58 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [8, 60],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CA-1F3FB-200D-2640-FE0F',
+        hexcode: '1F3CA-1F3FB-200D-2640-FE0F',
         sheet: [9, 0]
       },
       {
-        unified: '1F3CA-1F3FC-200D-2640-FE0F',
+        hexcode: '1F3CA-1F3FC-200D-2640-FE0F',
         sheet: [9, 1]
       },
       {
-        unified: '1F3CA-1F3FD-200D-2640-FE0F',
+        hexcode: '1F3CA-1F3FD-200D-2640-FE0F',
         sheet: [9, 2]
       },
       {
-        unified: '1F3CA-1F3FE-200D-2640-FE0F',
+        hexcode: '1F3CA-1F3FE-200D-2640-FE0F',
         sheet: [9, 3]
       },
       {
-        unified: '1F3CA-1F3FF-200D-2640-FE0F',
+        hexcode: '1F3CA-1F3FF-200D-2640-FE0F',
         sheet: [9, 4]
       }
     ],
     shortName: 'woman-swimming'
   },
   {
-    name: 'Person Bouncing Ball',
-    unified: '26F9-FE0F',
-    keywords: [
+    label: 'Person Bouncing Ball',
+    hexcode: '26F9-FE0F',
+    tags: [
       'person_bouncing_ball',
       'sports',
       'human'
     ],
     sheet: [58, 15],
-    skinVariations: [
+    skins: [
       {
-        unified: '26F9-1F3FB',
+        hexcode: '26F9-1F3FB',
         sheet: [58, 16]
       },
       {
-        unified: '26F9-1F3FC',
+        hexcode: '26F9-1F3FC',
         sheet: [58, 17]
       },
       {
-        unified: '26F9-1F3FD',
+        hexcode: '26F9-1F3FD',
         sheet: [58, 18]
       },
       {
-        unified: '26F9-1F3FE',
+        hexcode: '26F9-1F3FE',
         sheet: [58, 19]
       },
       {
-        unified: '26F9-1F3FF',
+        hexcode: '26F9-1F3FF',
         sheet: [58, 20]
       }
     ],
@@ -11789,43 +11789,43 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '26F9-FE0F-200D-2642-FE0F'
   },
   {
-    name: 'Man Bouncing Ball',
-    unified: '26F9-FE0F-200D-2642-FE0F',
+    label: 'Man Bouncing Ball',
+    hexcode: '26F9-FE0F-200D-2642-FE0F',
     obsoletes: '26F9-FE0F',
-    keywords: [
+    tags: [
       'man_bouncing_ball',
       'sport'
     ],
     sheet: [58, 9],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '26F9-1F3FB-200D-2642-FE0F',
+        hexcode: '26F9-1F3FB-200D-2642-FE0F',
         sheet: [58, 10]
       },
       {
-        unified: '26F9-1F3FC-200D-2642-FE0F',
+        hexcode: '26F9-1F3FC-200D-2642-FE0F',
         sheet: [58, 11]
       },
       {
-        unified: '26F9-1F3FD-200D-2642-FE0F',
+        hexcode: '26F9-1F3FD-200D-2642-FE0F',
         sheet: [58, 12]
       },
       {
-        unified: '26F9-1F3FE-200D-2642-FE0F',
+        hexcode: '26F9-1F3FE-200D-2642-FE0F',
         sheet: [58, 13]
       },
       {
-        unified: '26F9-1F3FF-200D-2642-FE0F',
+        hexcode: '26F9-1F3FF-200D-2642-FE0F',
         sheet: [58, 14]
       }
     ],
     shortName: 'man-bouncing-ball'
   },
   {
-    name: 'Woman Bouncing Ball',
-    unified: '26F9-FE0F-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Bouncing Ball',
+    hexcode: '26F9-FE0F-200D-2640-FE0F',
+    tags: [
       'woman_bouncing_ball',
       'sports',
       'human',
@@ -11834,59 +11834,59 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [58, 3],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '26F9-1F3FB-200D-2640-FE0F',
+        hexcode: '26F9-1F3FB-200D-2640-FE0F',
         sheet: [58, 4]
       },
       {
-        unified: '26F9-1F3FC-200D-2640-FE0F',
+        hexcode: '26F9-1F3FC-200D-2640-FE0F',
         sheet: [58, 5]
       },
       {
-        unified: '26F9-1F3FD-200D-2640-FE0F',
+        hexcode: '26F9-1F3FD-200D-2640-FE0F',
         sheet: [58, 6]
       },
       {
-        unified: '26F9-1F3FE-200D-2640-FE0F',
+        hexcode: '26F9-1F3FE-200D-2640-FE0F',
         sheet: [58, 7]
       },
       {
-        unified: '26F9-1F3FF-200D-2640-FE0F',
+        hexcode: '26F9-1F3FF-200D-2640-FE0F',
         sheet: [58, 8]
       }
     ],
     shortName: 'woman-bouncing-ball'
   },
   {
-    name: 'Person Lifting Weights',
-    unified: '1F3CB-FE0F',
-    keywords: [
+    label: 'Person Lifting Weights',
+    hexcode: '1F3CB-FE0F',
+    tags: [
       'person_lifting_weights',
       'sports',
       'training',
       'exercise'
     ],
     sheet: [9, 29],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CB-1F3FB',
+        hexcode: '1F3CB-1F3FB',
         sheet: [9, 30]
       },
       {
-        unified: '1F3CB-1F3FC',
+        hexcode: '1F3CB-1F3FC',
         sheet: [9, 31]
       },
       {
-        unified: '1F3CB-1F3FD',
+        hexcode: '1F3CB-1F3FD',
         sheet: [9, 32]
       },
       {
-        unified: '1F3CB-1F3FE',
+        hexcode: '1F3CB-1F3FE',
         sheet: [9, 33]
       },
       {
-        unified: '1F3CB-1F3FF',
+        hexcode: '1F3CB-1F3FF',
         sheet: [9, 34]
       }
     ],
@@ -11894,43 +11894,43 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F3CB-FE0F-200D-2642-FE0F'
   },
   {
-    name: 'Man Lifting Weights',
-    unified: '1F3CB-FE0F-200D-2642-FE0F',
+    label: 'Man Lifting Weights',
+    hexcode: '1F3CB-FE0F-200D-2642-FE0F',
     obsoletes: '1F3CB-FE0F',
-    keywords: [
+    tags: [
       'man_lifting_weights',
       'sport'
     ],
     sheet: [9, 23],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CB-1F3FB-200D-2642-FE0F',
+        hexcode: '1F3CB-1F3FB-200D-2642-FE0F',
         sheet: [9, 24]
       },
       {
-        unified: '1F3CB-1F3FC-200D-2642-FE0F',
+        hexcode: '1F3CB-1F3FC-200D-2642-FE0F',
         sheet: [9, 25]
       },
       {
-        unified: '1F3CB-1F3FD-200D-2642-FE0F',
+        hexcode: '1F3CB-1F3FD-200D-2642-FE0F',
         sheet: [9, 26]
       },
       {
-        unified: '1F3CB-1F3FE-200D-2642-FE0F',
+        hexcode: '1F3CB-1F3FE-200D-2642-FE0F',
         sheet: [9, 27]
       },
       {
-        unified: '1F3CB-1F3FF-200D-2642-FE0F',
+        hexcode: '1F3CB-1F3FF-200D-2642-FE0F',
         sheet: [9, 28]
       }
     ],
     shortName: 'man-lifting-weights'
   },
   {
-    name: 'Woman Lifting Weights',
-    unified: '1F3CB-FE0F-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Lifting Weights',
+    hexcode: '1F3CB-FE0F-200D-2640-FE0F',
+    tags: [
       'woman_lifting_weights',
       'sports',
       'training',
@@ -11940,58 +11940,58 @@ export const emojis: CompressedEmojiData[] = [
     ],
     sheet: [9, 17],
     hidden: ['facebook'],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F3CB-1F3FB-200D-2640-FE0F',
+        hexcode: '1F3CB-1F3FB-200D-2640-FE0F',
         sheet: [9, 18]
       },
       {
-        unified: '1F3CB-1F3FC-200D-2640-FE0F',
+        hexcode: '1F3CB-1F3FC-200D-2640-FE0F',
         sheet: [9, 19]
       },
       {
-        unified: '1F3CB-1F3FD-200D-2640-FE0F',
+        hexcode: '1F3CB-1F3FD-200D-2640-FE0F',
         sheet: [9, 20]
       },
       {
-        unified: '1F3CB-1F3FE-200D-2640-FE0F',
+        hexcode: '1F3CB-1F3FE-200D-2640-FE0F',
         sheet: [9, 21]
       },
       {
-        unified: '1F3CB-1F3FF-200D-2640-FE0F',
+        hexcode: '1F3CB-1F3FF-200D-2640-FE0F',
         sheet: [9, 22]
       }
     ],
     shortName: 'woman-lifting-weights'
   },
   {
-    name: 'Bicyclist',
-    unified: '1F6B4',
-    keywords: [
+    label: 'Bicyclist',
+    hexcode: '1F6B4',
+    tags: [
       'person_biking',
       'sport',
       'move'
     ],
     sheet: [36, 52],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B4-1F3FB',
+        hexcode: '1F6B4-1F3FB',
         sheet: [36, 53]
       },
       {
-        unified: '1F6B4-1F3FC',
+        hexcode: '1F6B4-1F3FC',
         sheet: [36, 54]
       },
       {
-        unified: '1F6B4-1F3FD',
+        hexcode: '1F6B4-1F3FD',
         sheet: [36, 55]
       },
       {
-        unified: '1F6B4-1F3FE',
+        hexcode: '1F6B4-1F3FE',
         sheet: [36, 56]
       },
       {
-        unified: '1F6B4-1F3FF',
+        hexcode: '1F6B4-1F3FF',
         sheet: [36, 57]
       }
     ],
@@ -11999,10 +11999,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F6B4-200D-2642-FE0F'
   },
   {
-    name: 'Man Biking',
-    unified: '1F6B4-200D-2642-FE0F',
+    label: 'Man Biking',
+    hexcode: '1F6B4-200D-2642-FE0F',
     obsoletes: '1F6B4',
-    keywords: [
+    tags: [
       'man_biking',
       'sports',
       'bike',
@@ -12010,34 +12010,34 @@ export const emojis: CompressedEmojiData[] = [
       'hipster'
     ],
     sheet: [36, 46],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B4-1F3FB-200D-2642-FE0F',
+        hexcode: '1F6B4-1F3FB-200D-2642-FE0F',
         sheet: [36, 47]
       },
       {
-        unified: '1F6B4-1F3FC-200D-2642-FE0F',
+        hexcode: '1F6B4-1F3FC-200D-2642-FE0F',
         sheet: [36, 48]
       },
       {
-        unified: '1F6B4-1F3FD-200D-2642-FE0F',
+        hexcode: '1F6B4-1F3FD-200D-2642-FE0F',
         sheet: [36, 49]
       },
       {
-        unified: '1F6B4-1F3FE-200D-2642-FE0F',
+        hexcode: '1F6B4-1F3FE-200D-2642-FE0F',
         sheet: [36, 50]
       },
       {
-        unified: '1F6B4-1F3FF-200D-2642-FE0F',
+        hexcode: '1F6B4-1F3FF-200D-2642-FE0F',
         sheet: [36, 51]
       }
     ],
     shortName: 'man-biking'
   },
   {
-    name: 'Woman Biking',
-    unified: '1F6B4-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Biking',
+    hexcode: '1F6B4-200D-2640-FE0F',
+    tags: [
       'woman_biking',
       'sports',
       'bike',
@@ -12047,58 +12047,58 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [36, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B4-1F3FB-200D-2640-FE0F',
+        hexcode: '1F6B4-1F3FB-200D-2640-FE0F',
         sheet: [36, 41]
       },
       {
-        unified: '1F6B4-1F3FC-200D-2640-FE0F',
+        hexcode: '1F6B4-1F3FC-200D-2640-FE0F',
         sheet: [36, 42]
       },
       {
-        unified: '1F6B4-1F3FD-200D-2640-FE0F',
+        hexcode: '1F6B4-1F3FD-200D-2640-FE0F',
         sheet: [36, 43]
       },
       {
-        unified: '1F6B4-1F3FE-200D-2640-FE0F',
+        hexcode: '1F6B4-1F3FE-200D-2640-FE0F',
         sheet: [36, 44]
       },
       {
-        unified: '1F6B4-1F3FF-200D-2640-FE0F',
+        hexcode: '1F6B4-1F3FF-200D-2640-FE0F',
         sheet: [36, 45]
       }
     ],
     shortName: 'woman-biking'
   },
   {
-    name: 'Mountain Bicyclist',
-    unified: '1F6B5',
-    keywords: [
+    label: 'Mountain Bicyclist',
+    hexcode: '1F6B5',
+    tags: [
       'person_mountain_biking',
       'sport',
       'move'
     ],
     sheet: [37, 9],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B5-1F3FB',
+        hexcode: '1F6B5-1F3FB',
         sheet: [37, 10]
       },
       {
-        unified: '1F6B5-1F3FC',
+        hexcode: '1F6B5-1F3FC',
         sheet: [37, 11]
       },
       {
-        unified: '1F6B5-1F3FD',
+        hexcode: '1F6B5-1F3FD',
         sheet: [37, 12]
       },
       {
-        unified: '1F6B5-1F3FE',
+        hexcode: '1F6B5-1F3FE',
         sheet: [37, 13]
       },
       {
-        unified: '1F6B5-1F3FF',
+        hexcode: '1F6B5-1F3FF',
         sheet: [37, 14]
       }
     ],
@@ -12106,10 +12106,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F6B5-200D-2642-FE0F'
   },
   {
-    name: 'Man Mountain Biking',
-    unified: '1F6B5-200D-2642-FE0F',
+    label: 'Man Mountain Biking',
+    hexcode: '1F6B5-200D-2642-FE0F',
     obsoletes: '1F6B5',
-    keywords: [
+    tags: [
       'man_mountain_biking',
       'transportation',
       'sports',
@@ -12118,34 +12118,34 @@ export const emojis: CompressedEmojiData[] = [
       'bike'
     ],
     sheet: [37, 3],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B5-1F3FB-200D-2642-FE0F',
+        hexcode: '1F6B5-1F3FB-200D-2642-FE0F',
         sheet: [37, 4]
       },
       {
-        unified: '1F6B5-1F3FC-200D-2642-FE0F',
+        hexcode: '1F6B5-1F3FC-200D-2642-FE0F',
         sheet: [37, 5]
       },
       {
-        unified: '1F6B5-1F3FD-200D-2642-FE0F',
+        hexcode: '1F6B5-1F3FD-200D-2642-FE0F',
         sheet: [37, 6]
       },
       {
-        unified: '1F6B5-1F3FE-200D-2642-FE0F',
+        hexcode: '1F6B5-1F3FE-200D-2642-FE0F',
         sheet: [37, 7]
       },
       {
-        unified: '1F6B5-1F3FF-200D-2642-FE0F',
+        hexcode: '1F6B5-1F3FF-200D-2642-FE0F',
         sheet: [37, 8]
       }
     ],
     shortName: 'man-mountain-biking'
   },
   {
-    name: 'Woman Mountain Biking',
-    unified: '1F6B5-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Mountain Biking',
+    hexcode: '1F6B5-200D-2640-FE0F',
+    tags: [
       'woman_mountain_biking',
       'transportation',
       'sports',
@@ -12156,131 +12156,131 @@ export const emojis: CompressedEmojiData[] = [
       'female'
     ],
     sheet: [36, 58],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6B5-1F3FB-200D-2640-FE0F',
+        hexcode: '1F6B5-1F3FB-200D-2640-FE0F',
         sheet: [36, 59]
       },
       {
-        unified: '1F6B5-1F3FC-200D-2640-FE0F',
+        hexcode: '1F6B5-1F3FC-200D-2640-FE0F',
         sheet: [36, 60]
       },
       {
-        unified: '1F6B5-1F3FD-200D-2640-FE0F',
+        hexcode: '1F6B5-1F3FD-200D-2640-FE0F',
         sheet: [37, 0]
       },
       {
-        unified: '1F6B5-1F3FE-200D-2640-FE0F',
+        hexcode: '1F6B5-1F3FE-200D-2640-FE0F',
         sheet: [37, 1]
       },
       {
-        unified: '1F6B5-1F3FF-200D-2640-FE0F',
+        hexcode: '1F6B5-1F3FF-200D-2640-FE0F',
         sheet: [37, 2]
       }
     ],
     shortName: 'woman-mountain-biking'
   },
   {
-    name: 'Person Doing Cartwheel',
-    unified: '1F938',
-    keywords: [
+    label: 'Person Doing Cartwheel',
+    hexcode: '1F938',
+    tags: [
       'person_cartwheeling',
       'sport',
       'gymnastic'
     ],
     sheet: [42, 7],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F938-1F3FB',
+        hexcode: '1F938-1F3FB',
         sheet: [42, 8]
       },
       {
-        unified: '1F938-1F3FC',
+        hexcode: '1F938-1F3FC',
         sheet: [42, 9]
       },
       {
-        unified: '1F938-1F3FD',
+        hexcode: '1F938-1F3FD',
         sheet: [42, 10]
       },
       {
-        unified: '1F938-1F3FE',
+        hexcode: '1F938-1F3FE',
         sheet: [42, 11]
       },
       {
-        unified: '1F938-1F3FF',
+        hexcode: '1F938-1F3FF',
         sheet: [42, 12]
       }
     ],
     shortName: 'person_doing_cartwheel'
   },
   {
-    name: 'Man Cartwheeling',
-    unified: '1F938-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Cartwheeling',
+    hexcode: '1F938-200D-2642-FE0F',
+    tags: [
       'man_cartwheeling',
       'gymnastics'
     ],
     sheet: [42, 1],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F938-1F3FB-200D-2642-FE0F',
+        hexcode: '1F938-1F3FB-200D-2642-FE0F',
         sheet: [42, 2]
       },
       {
-        unified: '1F938-1F3FC-200D-2642-FE0F',
+        hexcode: '1F938-1F3FC-200D-2642-FE0F',
         sheet: [42, 3]
       },
       {
-        unified: '1F938-1F3FD-200D-2642-FE0F',
+        hexcode: '1F938-1F3FD-200D-2642-FE0F',
         sheet: [42, 4]
       },
       {
-        unified: '1F938-1F3FE-200D-2642-FE0F',
+        hexcode: '1F938-1F3FE-200D-2642-FE0F',
         sheet: [42, 5]
       },
       {
-        unified: '1F938-1F3FF-200D-2642-FE0F',
+        hexcode: '1F938-1F3FF-200D-2642-FE0F',
         sheet: [42, 6]
       }
     ],
     shortName: 'man-cartwheeling'
   },
   {
-    name: 'Woman Cartwheeling',
-    unified: '1F938-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Cartwheeling',
+    hexcode: '1F938-200D-2640-FE0F',
+    tags: [
       'woman_cartwheeling',
       'gymnastics'
     ],
     sheet: [41, 56],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F938-1F3FB-200D-2640-FE0F',
+        hexcode: '1F938-1F3FB-200D-2640-FE0F',
         sheet: [41, 57]
       },
       {
-        unified: '1F938-1F3FC-200D-2640-FE0F',
+        hexcode: '1F938-1F3FC-200D-2640-FE0F',
         sheet: [41, 58]
       },
       {
-        unified: '1F938-1F3FD-200D-2640-FE0F',
+        hexcode: '1F938-1F3FD-200D-2640-FE0F',
         sheet: [41, 59]
       },
       {
-        unified: '1F938-1F3FE-200D-2640-FE0F',
+        hexcode: '1F938-1F3FE-200D-2640-FE0F',
         sheet: [41, 60]
       },
       {
-        unified: '1F938-1F3FF-200D-2640-FE0F',
+        hexcode: '1F938-1F3FF-200D-2640-FE0F',
         sheet: [42, 0]
       }
     ],
     shortName: 'woman-cartwheeling'
   },
   {
-    name: 'Wrestlers',
-    unified: '1F93C',
-    keywords: [
+    label: 'Wrestlers',
+    hexcode: '1F93C',
+    tags: [
       'people_wrestling',
       'sport'
     ],
@@ -12288,9 +12288,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wrestlers'
   },
   {
-    name: 'Men Wrestling',
-    unified: '1F93C-200D-2642-FE0F',
-    keywords: [
+    label: 'Men Wrestling',
+    hexcode: '1F93C-200D-2642-FE0F',
+    tags: [
       'men_wrestling',
       'sports',
       'wrestlers'
@@ -12299,9 +12299,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-wrestling'
   },
   {
-    name: 'Women Wrestling',
-    unified: '1F93C-200D-2640-FE0F',
-    keywords: [
+    label: 'Women Wrestling',
+    hexcode: '1F93C-200D-2640-FE0F',
+    tags: [
       'women_wrestling',
       'sports',
       'wrestlers'
@@ -12310,236 +12310,236 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-wrestling'
   },
   {
-    name: 'Water Polo',
-    unified: '1F93D',
-    keywords: [
+    label: 'Water Polo',
+    hexcode: '1F93D',
+    tags: [
       'person_playing_water_polo',
       'sport'
     ],
     sheet: [42, 47],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F93D-1F3FB',
+        hexcode: '1F93D-1F3FB',
         sheet: [42, 48]
       },
       {
-        unified: '1F93D-1F3FC',
+        hexcode: '1F93D-1F3FC',
         sheet: [42, 49]
       },
       {
-        unified: '1F93D-1F3FD',
+        hexcode: '1F93D-1F3FD',
         sheet: [42, 50]
       },
       {
-        unified: '1F93D-1F3FE',
+        hexcode: '1F93D-1F3FE',
         sheet: [42, 51]
       },
       {
-        unified: '1F93D-1F3FF',
+        hexcode: '1F93D-1F3FF',
         sheet: [42, 52]
       }
     ],
     shortName: 'water_polo'
   },
   {
-    name: 'Man Playing Water Polo',
-    unified: '1F93D-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Playing Water Polo',
+    hexcode: '1F93D-200D-2642-FE0F',
+    tags: [
       'man_playing_water_polo',
       'sports',
       'pool'
     ],
     sheet: [42, 41],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F93D-1F3FB-200D-2642-FE0F',
+        hexcode: '1F93D-1F3FB-200D-2642-FE0F',
         sheet: [42, 42]
       },
       {
-        unified: '1F93D-1F3FC-200D-2642-FE0F',
+        hexcode: '1F93D-1F3FC-200D-2642-FE0F',
         sheet: [42, 43]
       },
       {
-        unified: '1F93D-1F3FD-200D-2642-FE0F',
+        hexcode: '1F93D-1F3FD-200D-2642-FE0F',
         sheet: [42, 44]
       },
       {
-        unified: '1F93D-1F3FE-200D-2642-FE0F',
+        hexcode: '1F93D-1F3FE-200D-2642-FE0F',
         sheet: [42, 45]
       },
       {
-        unified: '1F93D-1F3FF-200D-2642-FE0F',
+        hexcode: '1F93D-1F3FF-200D-2642-FE0F',
         sheet: [42, 46]
       }
     ],
     shortName: 'man-playing-water-polo'
   },
   {
-    name: 'Woman Playing Water Polo',
-    unified: '1F93D-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Playing Water Polo',
+    hexcode: '1F93D-200D-2640-FE0F',
+    tags: [
       'woman_playing_water_polo',
       'sports',
       'pool'
     ],
     sheet: [42, 35],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F93D-1F3FB-200D-2640-FE0F',
+        hexcode: '1F93D-1F3FB-200D-2640-FE0F',
         sheet: [42, 36]
       },
       {
-        unified: '1F93D-1F3FC-200D-2640-FE0F',
+        hexcode: '1F93D-1F3FC-200D-2640-FE0F',
         sheet: [42, 37]
       },
       {
-        unified: '1F93D-1F3FD-200D-2640-FE0F',
+        hexcode: '1F93D-1F3FD-200D-2640-FE0F',
         sheet: [42, 38]
       },
       {
-        unified: '1F93D-1F3FE-200D-2640-FE0F',
+        hexcode: '1F93D-1F3FE-200D-2640-FE0F',
         sheet: [42, 39]
       },
       {
-        unified: '1F93D-1F3FF-200D-2640-FE0F',
+        hexcode: '1F93D-1F3FF-200D-2640-FE0F',
         sheet: [42, 40]
       }
     ],
     shortName: 'woman-playing-water-polo'
   },
   {
-    name: 'Handball',
-    unified: '1F93E',
-    keywords: [
+    label: 'Handball',
+    hexcode: '1F93E',
+    tags: [
       'person_playing_handball',
       'sport'
     ],
     sheet: [43, 4],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F93E-1F3FB',
+        hexcode: '1F93E-1F3FB',
         sheet: [43, 5]
       },
       {
-        unified: '1F93E-1F3FC',
+        hexcode: '1F93E-1F3FC',
         sheet: [43, 6]
       },
       {
-        unified: '1F93E-1F3FD',
+        hexcode: '1F93E-1F3FD',
         sheet: [43, 7]
       },
       {
-        unified: '1F93E-1F3FE',
+        hexcode: '1F93E-1F3FE',
         sheet: [43, 8]
       },
       {
-        unified: '1F93E-1F3FF',
+        hexcode: '1F93E-1F3FF',
         sheet: [43, 9]
       }
     ],
     shortName: 'handball'
   },
   {
-    name: 'Man Playing Handball',
-    unified: '1F93E-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Playing Handball',
+    hexcode: '1F93E-200D-2642-FE0F',
+    tags: [
       'man_playing_handball',
       'sports'
     ],
     sheet: [42, 59],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F93E-1F3FB-200D-2642-FE0F',
+        hexcode: '1F93E-1F3FB-200D-2642-FE0F',
         sheet: [42, 60]
       },
       {
-        unified: '1F93E-1F3FC-200D-2642-FE0F',
+        hexcode: '1F93E-1F3FC-200D-2642-FE0F',
         sheet: [43, 0]
       },
       {
-        unified: '1F93E-1F3FD-200D-2642-FE0F',
+        hexcode: '1F93E-1F3FD-200D-2642-FE0F',
         sheet: [43, 1]
       },
       {
-        unified: '1F93E-1F3FE-200D-2642-FE0F',
+        hexcode: '1F93E-1F3FE-200D-2642-FE0F',
         sheet: [43, 2]
       },
       {
-        unified: '1F93E-1F3FF-200D-2642-FE0F',
+        hexcode: '1F93E-1F3FF-200D-2642-FE0F',
         sheet: [43, 3]
       }
     ],
     shortName: 'man-playing-handball'
   },
   {
-    name: 'Woman Playing Handball',
-    unified: '1F93E-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Playing Handball',
+    hexcode: '1F93E-200D-2640-FE0F',
+    tags: [
       'woman_playing_handball',
       'sports'
     ],
     sheet: [42, 53],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F93E-1F3FB-200D-2640-FE0F',
+        hexcode: '1F93E-1F3FB-200D-2640-FE0F',
         sheet: [42, 54]
       },
       {
-        unified: '1F93E-1F3FC-200D-2640-FE0F',
+        hexcode: '1F93E-1F3FC-200D-2640-FE0F',
         sheet: [42, 55]
       },
       {
-        unified: '1F93E-1F3FD-200D-2640-FE0F',
+        hexcode: '1F93E-1F3FD-200D-2640-FE0F',
         sheet: [42, 56]
       },
       {
-        unified: '1F93E-1F3FE-200D-2640-FE0F',
+        hexcode: '1F93E-1F3FE-200D-2640-FE0F',
         sheet: [42, 57]
       },
       {
-        unified: '1F93E-1F3FF-200D-2640-FE0F',
+        hexcode: '1F93E-1F3FF-200D-2640-FE0F',
         sheet: [42, 58]
       }
     ],
     shortName: 'woman-playing-handball'
   },
   {
-    name: 'Juggling',
-    unified: '1F939',
-    keywords: [
+    label: 'Juggling',
+    hexcode: '1F939',
+    tags: [
       'person_juggling',
       'performance',
       'balance'
     ],
     sheet: [42, 25],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F939-1F3FB',
+        hexcode: '1F939-1F3FB',
         sheet: [42, 26]
       },
       {
-        unified: '1F939-1F3FC',
+        hexcode: '1F939-1F3FC',
         sheet: [42, 27]
       },
       {
-        unified: '1F939-1F3FD',
+        hexcode: '1F939-1F3FD',
         sheet: [42, 28]
       },
       {
-        unified: '1F939-1F3FE',
+        hexcode: '1F939-1F3FE',
         sheet: [42, 29]
       },
       {
-        unified: '1F939-1F3FF',
+        hexcode: '1F939-1F3FF',
         sheet: [42, 30]
       }
     ],
     shortName: 'juggling'
   },
   {
-    name: 'Man Juggling',
-    unified: '1F939-200D-2642-FE0F',
-    keywords: [
+    label: 'Man Juggling',
+    hexcode: '1F939-200D-2642-FE0F',
+    tags: [
       'man_juggling',
       'juggle',
       'balance',
@@ -12547,34 +12547,34 @@ export const emojis: CompressedEmojiData[] = [
       'multitask'
     ],
     sheet: [42, 19],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F939-1F3FB-200D-2642-FE0F',
+        hexcode: '1F939-1F3FB-200D-2642-FE0F',
         sheet: [42, 20]
       },
       {
-        unified: '1F939-1F3FC-200D-2642-FE0F',
+        hexcode: '1F939-1F3FC-200D-2642-FE0F',
         sheet: [42, 21]
       },
       {
-        unified: '1F939-1F3FD-200D-2642-FE0F',
+        hexcode: '1F939-1F3FD-200D-2642-FE0F',
         sheet: [42, 22]
       },
       {
-        unified: '1F939-1F3FE-200D-2642-FE0F',
+        hexcode: '1F939-1F3FE-200D-2642-FE0F',
         sheet: [42, 23]
       },
       {
-        unified: '1F939-1F3FF-200D-2642-FE0F',
+        hexcode: '1F939-1F3FF-200D-2642-FE0F',
         sheet: [42, 24]
       }
     ],
     shortName: 'man-juggling'
   },
   {
-    name: 'Woman Juggling',
-    unified: '1F939-200D-2640-FE0F',
-    keywords: [
+    label: 'Woman Juggling',
+    hexcode: '1F939-200D-2640-FE0F',
+    tags: [
       'woman_juggling',
       'juggle',
       'balance',
@@ -12582,57 +12582,57 @@ export const emojis: CompressedEmojiData[] = [
       'multitask'
     ],
     sheet: [42, 13],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F939-1F3FB-200D-2640-FE0F',
+        hexcode: '1F939-1F3FB-200D-2640-FE0F',
         sheet: [42, 14]
       },
       {
-        unified: '1F939-1F3FC-200D-2640-FE0F',
+        hexcode: '1F939-1F3FC-200D-2640-FE0F',
         sheet: [42, 15]
       },
       {
-        unified: '1F939-1F3FD-200D-2640-FE0F',
+        hexcode: '1F939-1F3FD-200D-2640-FE0F',
         sheet: [42, 16]
       },
       {
-        unified: '1F939-1F3FE-200D-2640-FE0F',
+        hexcode: '1F939-1F3FE-200D-2640-FE0F',
         sheet: [42, 17]
       },
       {
-        unified: '1F939-1F3FF-200D-2640-FE0F',
+        hexcode: '1F939-1F3FF-200D-2640-FE0F',
         sheet: [42, 18]
       }
     ],
     shortName: 'woman-juggling'
   },
   {
-    name: 'Person in Lotus Position',
-    unified: '1F9D8',
-    keywords: [
+    label: 'Person in Lotus Position',
+    hexcode: '1F9D8',
+    tags: [
       'person_in_lotus_position',
       'meditate'
     ],
     sheet: [51, 34],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D8-1F3FB',
+        hexcode: '1F9D8-1F3FB',
         sheet: [51, 35]
       },
       {
-        unified: '1F9D8-1F3FC',
+        hexcode: '1F9D8-1F3FC',
         sheet: [51, 36]
       },
       {
-        unified: '1F9D8-1F3FD',
+        hexcode: '1F9D8-1F3FD',
         sheet: [51, 37]
       },
       {
-        unified: '1F9D8-1F3FE',
+        hexcode: '1F9D8-1F3FE',
         sheet: [51, 38]
       },
       {
-        unified: '1F9D8-1F3FF',
+        hexcode: '1F9D8-1F3FF',
         sheet: [51, 39]
       }
     ],
@@ -12640,9 +12640,9 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F9D8-200D-2640-FE0F'
   },
   {
-    name: 'Man in Lotus Position',
-    unified: '1F9D8-200D-2642-FE0F',
-    keywords: [
+    label: 'Man in Lotus Position',
+    hexcode: '1F9D8-200D-2642-FE0F',
+    tags: [
       'man_in_lotus_position',
       'man',
       'male',
@@ -12653,35 +12653,35 @@ export const emojis: CompressedEmojiData[] = [
       'mindfulness'
     ],
     sheet: [51, 28],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D8-1F3FB-200D-2642-FE0F',
+        hexcode: '1F9D8-1F3FB-200D-2642-FE0F',
         sheet: [51, 29]
       },
       {
-        unified: '1F9D8-1F3FC-200D-2642-FE0F',
+        hexcode: '1F9D8-1F3FC-200D-2642-FE0F',
         sheet: [51, 30]
       },
       {
-        unified: '1F9D8-1F3FD-200D-2642-FE0F',
+        hexcode: '1F9D8-1F3FD-200D-2642-FE0F',
         sheet: [51, 31]
       },
       {
-        unified: '1F9D8-1F3FE-200D-2642-FE0F',
+        hexcode: '1F9D8-1F3FE-200D-2642-FE0F',
         sheet: [51, 32]
       },
       {
-        unified: '1F9D8-1F3FF-200D-2642-FE0F',
+        hexcode: '1F9D8-1F3FF-200D-2642-FE0F',
         sheet: [51, 33]
       }
     ],
     shortName: 'man_in_lotus_position'
   },
   {
-    name: 'Woman in Lotus Position',
-    unified: '1F9D8-200D-2640-FE0F',
+    label: 'Woman in Lotus Position',
+    hexcode: '1F9D8-200D-2640-FE0F',
     obsoletes: '1F9D8',
-    keywords: [
+    tags: [
       'woman_in_lotus_position',
       'woman',
       'female',
@@ -12692,223 +12692,223 @@ export const emojis: CompressedEmojiData[] = [
       'mindfulness'
     ],
     sheet: [51, 22],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D8-1F3FB-200D-2640-FE0F',
+        hexcode: '1F9D8-1F3FB-200D-2640-FE0F',
         sheet: [51, 23]
       },
       {
-        unified: '1F9D8-1F3FC-200D-2640-FE0F',
+        hexcode: '1F9D8-1F3FC-200D-2640-FE0F',
         sheet: [51, 24]
       },
       {
-        unified: '1F9D8-1F3FD-200D-2640-FE0F',
+        hexcode: '1F9D8-1F3FD-200D-2640-FE0F',
         sheet: [51, 25]
       },
       {
-        unified: '1F9D8-1F3FE-200D-2640-FE0F',
+        hexcode: '1F9D8-1F3FE-200D-2640-FE0F',
         sheet: [51, 26]
       },
       {
-        unified: '1F9D8-1F3FF-200D-2640-FE0F',
+        hexcode: '1F9D8-1F3FF-200D-2640-FE0F',
         sheet: [51, 27]
       }
     ],
     shortName: 'woman_in_lotus_position'
   },
   {
-    name: 'Bath',
-    unified: '1F6C0',
-    keywords: [
+    label: 'Bath',
+    hexcode: '1F6C0',
+    tags: [
       'person_taking_bath',
       'clean',
       'shower',
       'bathroom'
     ],
     sheet: [37, 42],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6C0-1F3FB',
+        hexcode: '1F6C0-1F3FB',
         sheet: [37, 43]
       },
       {
-        unified: '1F6C0-1F3FC',
+        hexcode: '1F6C0-1F3FC',
         sheet: [37, 44]
       },
       {
-        unified: '1F6C0-1F3FD',
+        hexcode: '1F6C0-1F3FD',
         sheet: [37, 45]
       },
       {
-        unified: '1F6C0-1F3FE',
+        hexcode: '1F6C0-1F3FE',
         sheet: [37, 46]
       },
       {
-        unified: '1F6C0-1F3FF',
+        hexcode: '1F6C0-1F3FF',
         sheet: [37, 47]
       }
     ],
     shortName: 'bath'
   },
   {
-    name: 'Sleeping Accommodation',
-    unified: '1F6CC',
-    keywords: [
+    label: 'Sleeping Accommodation',
+    hexcode: '1F6CC',
+    tags: [
       'person_in_bed',
       'bed',
       'rest'
     ],
     sheet: [37, 54],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F6CC-1F3FB',
+        hexcode: '1F6CC-1F3FB',
         sheet: [37, 55]
       },
       {
-        unified: '1F6CC-1F3FC',
+        hexcode: '1F6CC-1F3FC',
         sheet: [37, 56]
       },
       {
-        unified: '1F6CC-1F3FD',
+        hexcode: '1F6CC-1F3FD',
         sheet: [37, 57]
       },
       {
-        unified: '1F6CC-1F3FE',
+        hexcode: '1F6CC-1F3FE',
         sheet: [37, 58]
       },
       {
-        unified: '1F6CC-1F3FF',
+        hexcode: '1F6CC-1F3FF',
         sheet: [37, 59]
       }
     ],
     shortName: 'sleeping_accommodation'
   },
   {
-    name: 'People Holding Hands',
-    unified: '1F9D1-200D-1F91D-200D-1F9D1',
-    keywords: [
+    label: 'People Holding Hands',
+    hexcode: '1F9D1-200D-1F91D-200D-1F9D1',
+    tags: [
       'people_holding_hands',
       'friendship'
     ],
     sheet: [48, 41],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB',
         sheet: [48, 42]
       },
       {
-        unified: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC',
         sheet: [48, 43],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD',
         sheet: [48, 44],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE',
         sheet: [48, 45],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF',
         sheet: [48, 46],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB',
         sheet: [48, 47]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC',
         sheet: [48, 48]
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD',
         sheet: [48, 49],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE',
         sheet: [48, 50],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF',
         sheet: [48, 51],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB',
         sheet: [48, 52]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC',
         sheet: [48, 53]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD',
         sheet: [48, 54]
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE',
         sheet: [48, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF',
         sheet: [48, 56],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB',
         sheet: [48, 57]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC',
         sheet: [48, 58]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD',
         sheet: [48, 59]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE',
         sheet: [48, 60]
       },
       {
-        unified: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF',
         sheet: [49, 0],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB',
         sheet: [49, 1]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC',
         sheet: [49, 2]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD',
         sheet: [49, 3]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE',
         sheet: [49, 4]
       },
       {
-        unified: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF',
         sheet: [49, 5]
       }
     ],
     shortName: 'people_holding_hands'
   },
   {
-    name: 'Two Women Holding Hands',
-    unified: '1F46D',
-    keywords: [
+    label: 'Two Women Holding Hands',
+    hexcode: '1F46D',
+    tags: [
       'women_holding_hands',
       'pair',
       'friendship',
@@ -12920,115 +12920,115 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [22, 31],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F46D-1F3FB',
+        hexcode: '1F46D-1F3FB',
         sheet: [22, 32]
       },
       {
-        unified: '1F46D-1F3FC',
+        hexcode: '1F46D-1F3FC',
         sheet: [22, 33]
       },
       {
-        unified: '1F46D-1F3FD',
+        hexcode: '1F46D-1F3FD',
         sheet: [22, 34]
       },
       {
-        unified: '1F46D-1F3FE',
+        hexcode: '1F46D-1F3FE',
         sheet: [22, 35]
       },
       {
-        unified: '1F46D-1F3FF',
+        hexcode: '1F46D-1F3FF',
         sheet: [22, 36]
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC',
         sheet: [22, 37],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD',
         sheet: [22, 38],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE',
         sheet: [22, 39],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF',
         sheet: [22, 40],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB',
         sheet: [22, 41]
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD',
         sheet: [22, 42],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE',
         sheet: [22, 43],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF',
         sheet: [22, 44],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB',
         sheet: [22, 45]
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC',
         sheet: [22, 46]
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE',
         sheet: [22, 47],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF',
         sheet: [22, 48],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB',
         sheet: [22, 49]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC',
         sheet: [22, 50]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD',
         sheet: [22, 51]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF',
         sheet: [22, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB',
         sheet: [22, 53]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC',
         sheet: [22, 54]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD',
         sheet: [22, 55]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE',
         sheet: [22, 56]
       }
     ],
@@ -13036,9 +13036,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'two_women_holding_hands'
   },
   {
-    name: 'Man and Woman Holding Hands',
-    unified: '1F46B',
-    keywords: [
+    label: 'Man and Woman Holding Hands',
+    hexcode: '1F46B',
+    tags: [
       'woman_and_man_holding_hands',
       'pair',
       'people',
@@ -13052,105 +13052,105 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [21, 40],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F46B-1F3FB',
+        hexcode: '1F46B-1F3FB',
         sheet: [21, 41]
       },
       {
-        unified: '1F46B-1F3FC',
+        hexcode: '1F46B-1F3FC',
         sheet: [21, 42]
       },
       {
-        unified: '1F46B-1F3FD',
+        hexcode: '1F46B-1F3FD',
         sheet: [21, 43]
       },
       {
-        unified: '1F46B-1F3FE',
+        hexcode: '1F46B-1F3FE',
         sheet: [21, 44]
       },
       {
-        unified: '1F46B-1F3FF',
+        hexcode: '1F46B-1F3FF',
         sheet: [21, 45]
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC',
         sheet: [21, 46]
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD',
         sheet: [21, 47]
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE',
         sheet: [21, 48]
       },
       {
-        unified: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FB-200D-1F91D-200D-1F468-1F3FF',
         sheet: [21, 49]
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB',
         sheet: [21, 50]
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD',
         sheet: [21, 51]
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE',
         sheet: [21, 52]
       },
       {
-        unified: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF',
         sheet: [21, 53]
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB',
         sheet: [21, 54]
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC',
         sheet: [21, 55]
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE',
         sheet: [21, 56]
       },
       {
-        unified: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF',
         sheet: [21, 57]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB',
         sheet: [21, 58]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC',
         sheet: [21, 59]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD',
         sheet: [21, 60]
       },
       {
-        unified: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF',
         sheet: [22, 0]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB',
         sheet: [22, 1]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC',
         sheet: [22, 2]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD',
         sheet: [22, 3]
       },
       {
-        unified: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE',
         sheet: [22, 4]
       }
     ],
@@ -13161,9 +13161,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man_and_woman_holding_hands'
   },
   {
-    name: 'Two Men Holding Hands',
-    unified: '1F46C',
-    keywords: [
+    label: 'Two Men Holding Hands',
+    hexcode: '1F46C',
+    tags: [
       'men_holding_hands',
       'pair',
       'couple',
@@ -13175,115 +13175,115 @@ export const emojis: CompressedEmojiData[] = [
       'human'
     ],
     sheet: [22, 5],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F46C-1F3FB',
+        hexcode: '1F46C-1F3FB',
         sheet: [22, 6]
       },
       {
-        unified: '1F46C-1F3FC',
+        hexcode: '1F46C-1F3FC',
         sheet: [22, 7]
       },
       {
-        unified: '1F46C-1F3FD',
+        hexcode: '1F46C-1F3FD',
         sheet: [22, 8]
       },
       {
-        unified: '1F46C-1F3FE',
+        hexcode: '1F46C-1F3FE',
         sheet: [22, 9]
       },
       {
-        unified: '1F46C-1F3FF',
+        hexcode: '1F46C-1F3FF',
         sheet: [22, 10]
       },
       {
-        unified: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC',
         sheet: [22, 11],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD',
         sheet: [22, 12],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE',
         sheet: [22, 13],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF',
         sheet: [22, 14],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB',
         sheet: [22, 15]
       },
       {
-        unified: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD',
         sheet: [22, 16],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE',
         sheet: [22, 17],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF',
         sheet: [22, 18],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB',
         sheet: [22, 19]
       },
       {
-        unified: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC',
         sheet: [22, 20]
       },
       {
-        unified: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE',
         sheet: [22, 21],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF',
         sheet: [22, 22],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB',
         sheet: [22, 23]
       },
       {
-        unified: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC',
         sheet: [22, 24]
       },
       {
-        unified: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD',
         sheet: [22, 25]
       },
       {
-        unified: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF',
         sheet: [22, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB',
         sheet: [22, 27]
       },
       {
-        unified: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC',
         sheet: [22, 28]
       },
       {
-        unified: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD',
         sheet: [22, 29]
       },
       {
-        unified: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE',
         sheet: [22, 30]
       }
     ],
@@ -13291,9 +13291,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'two_men_holding_hands'
   },
   {
-    name: 'Kiss',
-    unified: '1F48F',
-    keywords: [
+    label: 'Kiss',
+    hexcode: '1F48F',
+    tags: [
       'kiss',
       'pair',
       'valentines',
@@ -13303,124 +13303,124 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [26, 41],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F48F-1F3FB',
+        hexcode: '1F48F-1F3FB',
         sheet: [26, 42]
       },
       {
-        unified: '1F48F-1F3FC',
+        hexcode: '1F48F-1F3FC',
         sheet: [26, 43]
       },
       {
-        unified: '1F48F-1F3FD',
+        hexcode: '1F48F-1F3FD',
         sheet: [26, 44]
       },
       {
-        unified: '1F48F-1F3FE',
+        hexcode: '1F48F-1F3FE',
         sheet: [26, 45]
       },
       {
-        unified: '1F48F-1F3FF',
+        hexcode: '1F48F-1F3FF',
         sheet: [26, 46]
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
         sheet: [26, 47],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
         sheet: [26, 48],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
         sheet: [26, 49],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
         sheet: [26, 50],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
         sheet: [26, 51],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
         sheet: [26, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
         sheet: [26, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
         sheet: [26, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
         sheet: [26, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
         sheet: [26, 56],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
         sheet: [26, 57],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
         sheet: [26, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
         sheet: [26, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
         sheet: [26, 60],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
         sheet: [27, 0],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF',
         sheet: [27, 1],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB',
         sheet: [27, 2],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC',
         sheet: [27, 3],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD',
         sheet: [27, 4],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE',
         sheet: [27, 5],
         hidden: ['facebook']
       }
@@ -13428,136 +13428,136 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'couplekiss'
   },
   {
-    name: 'Kiss: Woman, Man',
-    unified: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468',
-    keywords: [
+    label: 'Kiss: Woman, Man',
+    hexcode: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468',
+    tags: [
       'kiss_woman_man',
       'love'
     ],
     sheet: [20, 42],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [20, 43],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [20, 44],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [20, 45],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [20, 46],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [20, 47],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [20, 48],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [20, 49],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [20, 50],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [20, 51],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [20, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [20, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [20, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [20, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [20, 56],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [20, 57],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [20, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [20, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [20, 60],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [21, 0],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [21, 1],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [21, 2],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [21, 3],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [21, 4],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [21, 5],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [21, 6],
         hidden: ['facebook']
       }
@@ -13565,9 +13565,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-kiss-man'
   },
   {
-    name: 'Kiss: Man, Man',
-    unified: '1F468-200D-2764-FE0F-200D-1F48B-200D-1F468',
-    keywords: [
+    label: 'Kiss: Man, Man',
+    hexcode: '1F468-200D-2764-FE0F-200D-1F48B-200D-1F468',
+    tags: [
       'kiss_man_man',
       'pair',
       'valentines',
@@ -13577,129 +13577,129 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [16, 48],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [16, 49],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [16, 50],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [16, 51],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [16, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [16, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [16, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [16, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [16, 56],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [16, 57],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [16, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [16, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [16, 60],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [17, 0],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [17, 1],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [17, 2],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [17, 3],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [17, 4],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [17, 5],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [17, 6],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [17, 7],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB',
         sheet: [17, 8],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC',
         sheet: [17, 9],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD',
         sheet: [17, 10],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE',
         sheet: [17, 11],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF',
         sheet: [17, 12],
         hidden: ['facebook']
       }
@@ -13707,9 +13707,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-kiss-man'
   },
   {
-    name: 'Kiss: Woman, Woman',
-    unified: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469',
-    keywords: [
+    label: 'Kiss: Woman, Woman',
+    hexcode: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469',
+    tags: [
       'kiss_woman_woman',
       'pair',
       'valentines',
@@ -13719,129 +13719,129 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [21, 7],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
         sheet: [21, 8],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
         sheet: [21, 9],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
         sheet: [21, 10],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
         sheet: [21, 11],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
         sheet: [21, 12],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
         sheet: [21, 13],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
         sheet: [21, 14],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
         sheet: [21, 15],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
         sheet: [21, 16],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
         sheet: [21, 17],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
         sheet: [21, 18],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
         sheet: [21, 19],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
         sheet: [21, 20],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
         sheet: [21, 21],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
         sheet: [21, 22],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
         sheet: [21, 23],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
         sheet: [21, 24],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
         sheet: [21, 25],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
         sheet: [21, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
         sheet: [21, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB',
         sheet: [21, 28],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC',
         sheet: [21, 29],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD',
         sheet: [21, 30],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE',
         sheet: [21, 31],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF',
         sheet: [21, 32],
         hidden: ['facebook']
       }
@@ -13849,9 +13849,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-kiss-woman'
   },
   {
-    name: 'Couple with Heart',
-    unified: '1F491',
-    keywords: [
+    label: 'Couple with Heart',
+    hexcode: '1F491',
+    tags: [
       'couple_with_heart',
       'pair',
       'love',
@@ -13863,124 +13863,124 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [27, 7],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F491-1F3FB',
+        hexcode: '1F491-1F3FB',
         sheet: [27, 8]
       },
       {
-        unified: '1F491-1F3FC',
+        hexcode: '1F491-1F3FC',
         sheet: [27, 9]
       },
       {
-        unified: '1F491-1F3FD',
+        hexcode: '1F491-1F3FD',
         sheet: [27, 10]
       },
       {
-        unified: '1F491-1F3FE',
+        hexcode: '1F491-1F3FE',
         sheet: [27, 11]
       },
       {
-        unified: '1F491-1F3FF',
+        hexcode: '1F491-1F3FF',
         sheet: [27, 12]
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FC',
         sheet: [27, 13],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FD',
         sheet: [27, 14],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FE',
         sheet: [27, 15],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FF',
         sheet: [27, 16],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FB',
         sheet: [27, 17],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FD',
         sheet: [27, 18],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FE',
         sheet: [27, 19],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FF',
         sheet: [27, 20],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FB',
         sheet: [27, 21],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FC',
         sheet: [27, 22],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FE',
         sheet: [27, 23],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FF',
         sheet: [27, 24],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FB',
         sheet: [27, 25],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FC',
         sheet: [27, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FD',
         sheet: [27, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FF',
+        hexcode: '1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FF',
         sheet: [27, 28],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FB',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FB',
         sheet: [27, 29],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FC',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FC',
         sheet: [27, 30],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FD',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FD',
         sheet: [27, 31],
         hidden: ['facebook']
       },
       {
-        unified: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FE',
+        hexcode: '1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FE',
         sheet: [27, 32],
         hidden: ['facebook']
       }
@@ -13988,136 +13988,136 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'couple_with_heart'
   },
   {
-    name: 'Couple with Heart: Woman, Man',
-    unified: '1F469-200D-2764-FE0F-200D-1F468',
-    keywords: [
+    label: 'Couple with Heart: Woman, Man',
+    hexcode: '1F469-200D-2764-FE0F-200D-1F468',
+    tags: [
       'couple_with_heart_woman_man',
       'love'
     ],
     sheet: [19, 51],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [19, 52],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [19, 53],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [19, 54],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [19, 55],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [19, 56],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [19, 57],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [19, 58],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [19, 59],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [19, 60],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [20, 0],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [20, 1],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [20, 2],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [20, 3],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [20, 4],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [20, 5],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [20, 6],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [20, 7],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [20, 8],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [20, 9],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [20, 10],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [20, 11],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [20, 12],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [20, 13],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [20, 14],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [20, 15],
         hidden: ['facebook']
       }
@@ -14125,9 +14125,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-heart-man'
   },
   {
-    name: 'Couple with Heart: Man, Man',
-    unified: '1F468-200D-2764-FE0F-200D-1F468',
-    keywords: [
+    label: 'Couple with Heart: Man, Man',
+    hexcode: '1F468-200D-2764-FE0F-200D-1F468',
+    tags: [
       'couple_with_heart_man_man',
       'pair',
       'love',
@@ -14139,129 +14139,129 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [16, 22],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [16, 23],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [16, 24],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [16, 25],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [16, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [16, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [16, 28],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [16, 29],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [16, 30],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [16, 31],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [16, 32],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [16, 33],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [16, 34],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [16, 35],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [16, 36],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [16, 37],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [16, 38],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [16, 39],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [16, 40],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [16, 41],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [16, 42],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB',
         sheet: [16, 43],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC',
         sheet: [16, 44],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD',
         sheet: [16, 45],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE',
         sheet: [16, 46],
         hidden: ['facebook']
       },
       {
-        unified: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF',
+        hexcode: '1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF',
         sheet: [16, 47],
         hidden: ['facebook']
       }
@@ -14269,9 +14269,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-heart-man'
   },
   {
-    name: 'Couple with Heart: Woman, Woman',
-    unified: '1F469-200D-2764-FE0F-200D-1F469',
-    keywords: [
+    label: 'Couple with Heart: Woman, Woman',
+    hexcode: '1F469-200D-2764-FE0F-200D-1F469',
+    tags: [
       'couple_with_heart_woman_woman',
       'pair',
       'love',
@@ -14283,129 +14283,129 @@ export const emojis: CompressedEmojiData[] = [
       'marriage'
     ],
     sheet: [20, 16],
-    skinVariations: [
+    skins: [
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FB',
         sheet: [20, 17],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FC',
         sheet: [20, 18],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FD',
         sheet: [20, 19],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FE',
         sheet: [20, 20],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FF',
         sheet: [20, 21],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FB',
         sheet: [20, 22],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FC',
         sheet: [20, 23],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FD',
         sheet: [20, 24],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FE',
         sheet: [20, 25],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FF',
         sheet: [20, 26],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FB',
         sheet: [20, 27],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FC',
         sheet: [20, 28],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FD',
         sheet: [20, 29],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FE',
         sheet: [20, 30],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FF',
         sheet: [20, 31],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FB',
         sheet: [20, 32],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FC',
         sheet: [20, 33],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FD',
         sheet: [20, 34],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FE',
         sheet: [20, 35],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FF',
         sheet: [20, 36],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FB',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FB',
         sheet: [20, 37],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FC',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FC',
         sheet: [20, 38],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FD',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FD',
         sheet: [20, 39],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FE',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FE',
         sheet: [20, 40],
         hidden: ['facebook']
       },
       {
-        unified: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FF',
+        hexcode: '1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FF',
         sheet: [20, 41],
         hidden: ['facebook']
       }
@@ -14413,9 +14413,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-heart-woman'
   },
   {
-    name: 'Family',
-    unified: '1F46A',
-    keywords: [
+    label: 'Family',
+    hexcode: '1F46A',
+    tags: [
       'family',
       'home',
       'parents',
@@ -14432,10 +14432,10 @@ export const emojis: CompressedEmojiData[] = [
     obsoletedBy: '1F468-200D-1F469-200D-1F466'
   },
   {
-    name: 'Family: Man, Woman, Boy',
-    unified: '1F468-200D-1F469-200D-1F466',
+    label: 'Family: Man, Woman, Boy',
+    hexcode: '1F468-200D-1F469-200D-1F466',
     obsoletes: '1F46A',
-    keywords: [
+    tags: [
       'family_man_woman_boy',
       'love'
     ],
@@ -14443,9 +14443,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-woman-boy'
   },
   {
-    name: 'Family: Man, Woman, Girl',
-    unified: '1F468-200D-1F469-200D-1F467',
-    keywords: [
+    label: 'Family: Man, Woman, Girl',
+    hexcode: '1F468-200D-1F469-200D-1F467',
+    tags: [
       'family_man_woman_girl',
       'home',
       'parents',
@@ -14457,9 +14457,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-woman-girl'
   },
   {
-    name: 'Family: Man, Woman, Girl, Boy',
-    unified: '1F468-200D-1F469-200D-1F467-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Woman, Girl, Boy',
+    hexcode: '1F468-200D-1F469-200D-1F467-200D-1F466',
+    tags: [
       'family_man_woman_girl_boy',
       'home',
       'parents',
@@ -14471,9 +14471,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-woman-girl-boy'
   },
   {
-    name: 'Family: Man, Woman, Boy, Boy',
-    unified: '1F468-200D-1F469-200D-1F466-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Woman, Boy, Boy',
+    hexcode: '1F468-200D-1F469-200D-1F466-200D-1F466',
+    tags: [
       'family_man_woman_boy_boy',
       'home',
       'parents',
@@ -14485,9 +14485,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-woman-boy-boy'
   },
   {
-    name: 'Family: Man, Woman, Girl, Girl',
-    unified: '1F468-200D-1F469-200D-1F467-200D-1F467',
-    keywords: [
+    label: 'Family: Man, Woman, Girl, Girl',
+    hexcode: '1F468-200D-1F469-200D-1F467-200D-1F467',
+    tags: [
       'family_man_woman_girl_girl',
       'home',
       'parents',
@@ -14499,9 +14499,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-woman-girl-girl'
   },
   {
-    name: 'Family: Man, Man, Boy',
-    unified: '1F468-200D-1F468-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Man, Boy',
+    hexcode: '1F468-200D-1F468-200D-1F466',
+    tags: [
       'family_man_man_boy',
       'home',
       'parents',
@@ -14513,9 +14513,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-man-boy'
   },
   {
-    name: 'Family: Man, Man, Girl',
-    unified: '1F468-200D-1F468-200D-1F467',
-    keywords: [
+    label: 'Family: Man, Man, Girl',
+    hexcode: '1F468-200D-1F468-200D-1F467',
+    tags: [
       'family_man_man_girl',
       'home',
       'parents',
@@ -14527,9 +14527,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-man-girl'
   },
   {
-    name: 'Family: Man, Man, Girl, Boy',
-    unified: '1F468-200D-1F468-200D-1F467-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Man, Girl, Boy',
+    hexcode: '1F468-200D-1F468-200D-1F467-200D-1F466',
+    tags: [
       'family_man_man_girl_boy',
       'home',
       'parents',
@@ -14541,9 +14541,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-man-girl-boy'
   },
   {
-    name: 'Family: Man, Man, Boy, Boy',
-    unified: '1F468-200D-1F468-200D-1F466-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Man, Boy, Boy',
+    hexcode: '1F468-200D-1F468-200D-1F466-200D-1F466',
+    tags: [
       'family_man_man_boy_boy',
       'home',
       'parents',
@@ -14555,9 +14555,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-man-boy-boy'
   },
   {
-    name: 'Family: Man, Man, Girl, Girl',
-    unified: '1F468-200D-1F468-200D-1F467-200D-1F467',
-    keywords: [
+    label: 'Family: Man, Man, Girl, Girl',
+    hexcode: '1F468-200D-1F468-200D-1F467-200D-1F467',
+    tags: [
       'family_man_man_girl_girl',
       'home',
       'parents',
@@ -14569,9 +14569,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-man-girl-girl'
   },
   {
-    name: 'Family: Woman, Woman, Boy',
-    unified: '1F469-200D-1F469-200D-1F466',
-    keywords: [
+    label: 'Family: Woman, Woman, Boy',
+    hexcode: '1F469-200D-1F469-200D-1F466',
+    tags: [
       'family_woman_woman_boy',
       'home',
       'parents',
@@ -14583,9 +14583,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-woman-boy'
   },
   {
-    name: 'Family: Woman, Woman, Girl',
-    unified: '1F469-200D-1F469-200D-1F467',
-    keywords: [
+    label: 'Family: Woman, Woman, Girl',
+    hexcode: '1F469-200D-1F469-200D-1F467',
+    tags: [
       'family_woman_woman_girl',
       'home',
       'parents',
@@ -14597,9 +14597,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-woman-girl'
   },
   {
-    name: 'Family: Woman, Woman, Girl, Boy',
-    unified: '1F469-200D-1F469-200D-1F467-200D-1F466',
-    keywords: [
+    label: 'Family: Woman, Woman, Girl, Boy',
+    hexcode: '1F469-200D-1F469-200D-1F467-200D-1F466',
+    tags: [
       'family_woman_woman_girl_boy',
       'home',
       'parents',
@@ -14611,9 +14611,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-woman-girl-boy'
   },
   {
-    name: 'Family: Woman, Woman, Boy, Boy',
-    unified: '1F469-200D-1F469-200D-1F466-200D-1F466',
-    keywords: [
+    label: 'Family: Woman, Woman, Boy, Boy',
+    hexcode: '1F469-200D-1F469-200D-1F466-200D-1F466',
+    tags: [
       'family_woman_woman_boy_boy',
       'home',
       'parents',
@@ -14625,9 +14625,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-woman-boy-boy'
   },
   {
-    name: 'Family: Woman, Woman, Girl, Girl',
-    unified: '1F469-200D-1F469-200D-1F467-200D-1F467',
-    keywords: [
+    label: 'Family: Woman, Woman, Girl, Girl',
+    hexcode: '1F469-200D-1F469-200D-1F467-200D-1F467',
+    tags: [
       'family_woman_woman_girl_girl',
       'home',
       'parents',
@@ -14639,9 +14639,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-woman-girl-girl'
   },
   {
-    name: 'Family: Man, Boy',
-    unified: '1F468-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Boy',
+    hexcode: '1F468-200D-1F466',
+    tags: [
       'family_man_boy',
       'home',
       'parent',
@@ -14653,9 +14653,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-boy'
   },
   {
-    name: 'Family: Man, Boy, Boy',
-    unified: '1F468-200D-1F466-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Boy, Boy',
+    hexcode: '1F468-200D-1F466-200D-1F466',
+    tags: [
       'family_man_boy_boy',
       'home',
       'parent',
@@ -14667,9 +14667,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-boy-boy'
   },
   {
-    name: 'Family: Man, Girl',
-    unified: '1F468-200D-1F467',
-    keywords: [
+    label: 'Family: Man, Girl',
+    hexcode: '1F468-200D-1F467',
+    tags: [
       'family_man_girl',
       'home',
       'parent',
@@ -14681,9 +14681,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-girl'
   },
   {
-    name: 'Family: Man, Girl, Boy',
-    unified: '1F468-200D-1F467-200D-1F466',
-    keywords: [
+    label: 'Family: Man, Girl, Boy',
+    hexcode: '1F468-200D-1F467-200D-1F466',
+    tags: [
       'family_man_girl_boy',
       'home',
       'parent',
@@ -14695,9 +14695,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-girl-boy'
   },
   {
-    name: 'Family: Man, Girl, Girl',
-    unified: '1F468-200D-1F467-200D-1F467',
-    keywords: [
+    label: 'Family: Man, Girl, Girl',
+    hexcode: '1F468-200D-1F467-200D-1F467',
+    tags: [
       'family_man_girl_girl',
       'home',
       'parent',
@@ -14709,9 +14709,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'man-girl-girl'
   },
   {
-    name: 'Family: Woman, Boy',
-    unified: '1F469-200D-1F466',
-    keywords: [
+    label: 'Family: Woman, Boy',
+    hexcode: '1F469-200D-1F466',
+    tags: [
       'family_woman_boy',
       'home',
       'parent',
@@ -14723,9 +14723,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-boy'
   },
   {
-    name: 'Family: Woman, Boy, Boy',
-    unified: '1F469-200D-1F466-200D-1F466',
-    keywords: [
+    label: 'Family: Woman, Boy, Boy',
+    hexcode: '1F469-200D-1F466-200D-1F466',
+    tags: [
       'family_woman_boy_boy',
       'home',
       'parent',
@@ -14737,9 +14737,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-boy-boy'
   },
   {
-    name: 'Family: Woman, Girl',
-    unified: '1F469-200D-1F467',
-    keywords: [
+    label: 'Family: Woman, Girl',
+    hexcode: '1F469-200D-1F467',
+    tags: [
       'family_woman_girl',
       'home',
       'parent',
@@ -14751,9 +14751,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-girl'
   },
   {
-    name: 'Family: Woman, Girl, Boy',
-    unified: '1F469-200D-1F467-200D-1F466',
-    keywords: [
+    label: 'Family: Woman, Girl, Boy',
+    hexcode: '1F469-200D-1F467-200D-1F466',
+    tags: [
       'family_woman_girl_boy',
       'home',
       'parent',
@@ -14765,9 +14765,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-girl-boy'
   },
   {
-    name: 'Family: Woman, Girl, Girl',
-    unified: '1F469-200D-1F467-200D-1F467',
-    keywords: [
+    label: 'Family: Woman, Girl, Girl',
+    hexcode: '1F469-200D-1F467-200D-1F467',
+    tags: [
       'family_woman_girl_girl',
       'home',
       'parent',
@@ -14779,9 +14779,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'woman-girl-girl'
   },
   {
-    name: 'Speaking Head',
-    unified: '1F5E3-FE0F',
-    keywords: [
+    label: 'Speaking Head',
+    hexcode: '1F5E3-FE0F',
+    tags: [
       'speaking_head',
       'user',
       'person',
@@ -14794,9 +14794,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'speaking_head_in_silhouette'
   },
   {
-    name: 'Bust in Silhouette',
-    unified: '1F464',
-    keywords: [
+    label: 'Bust in Silhouette',
+    hexcode: '1F464',
+    tags: [
       'bust_in_silhouette',
       'user',
       'person',
@@ -14806,9 +14806,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bust_in_silhouette'
   },
   {
-    name: 'Busts in Silhouette',
-    unified: '1F465',
-    keywords: [
+    label: 'Busts in Silhouette',
+    hexcode: '1F465',
+    tags: [
       'busts_in_silhouette',
       'user',
       'person',
@@ -14820,9 +14820,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'busts_in_silhouette'
   },
   {
-    name: 'People Hugging',
-    unified: '1FAC2',
-    keywords: [
+    label: 'People Hugging',
+    hexcode: '1FAC2',
+    tags: [
       'people hugging',
       'care'
     ],
@@ -14830,9 +14830,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'people_hugging'
   },
   {
-    name: 'Footprints',
-    unified: '1F463',
-    keywords: [
+    label: 'Footprints',
+    hexcode: '1F463',
+    tags: [
       'footprints',
       'feet',
       'tracking',
@@ -14843,40 +14843,40 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'footprints'
   },
   {
-    name: 'Emoji Modifier Fitzpatrick Type-1-2',
-    unified: '1F3FB',
+    label: 'Emoji Modifier Fitzpatrick Type-1-2',
+    hexcode: '1F3FB',
     sheet: [10, 41],
     shortName: 'skin-tone-2'
   },
   {
-    name: 'Emoji Modifier Fitzpatrick Type-3',
-    unified: '1F3FC',
+    label: 'Emoji Modifier Fitzpatrick Type-3',
+    hexcode: '1F3FC',
     sheet: [10, 42],
     shortName: 'skin-tone-3'
   },
   {
-    name: 'Emoji Modifier Fitzpatrick Type-4',
-    unified: '1F3FD',
+    label: 'Emoji Modifier Fitzpatrick Type-4',
+    hexcode: '1F3FD',
     sheet: [10, 43],
     shortName: 'skin-tone-4'
   },
   {
-    name: 'Emoji Modifier Fitzpatrick Type-5',
-    unified: '1F3FE',
+    label: 'Emoji Modifier Fitzpatrick Type-5',
+    hexcode: '1F3FE',
     sheet: [10, 44],
     shortName: 'skin-tone-5'
   },
   {
-    name: 'Emoji Modifier Fitzpatrick Type-6',
-    unified: '1F3FF',
+    label: 'Emoji Modifier Fitzpatrick Type-6',
+    hexcode: '1F3FF',
     sheet: [10, 45],
     shortName: 'skin-tone-6'
   },
   {
-    name: 'Monkey Face',
-    unified: '1F435',
+    label: 'Monkey Face',
+    hexcode: '1F435',
     emoticons: [':o)'],
-    keywords: [
+    tags: [
       'monkey_face',
       'animal',
       'nature',
@@ -14886,9 +14886,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'monkey_face'
   },
   {
-    name: 'Monkey',
-    unified: '1F412',
-    keywords: [
+    label: 'Monkey',
+    hexcode: '1F412',
+    tags: [
       'monkey',
       'animal',
       'nature',
@@ -14899,9 +14899,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'monkey'
   },
   {
-    name: 'Gorilla',
-    unified: '1F98D',
-    keywords: [
+    label: 'Gorilla',
+    hexcode: '1F98D',
+    tags: [
       'gorilla',
       'animal',
       'nature',
@@ -14911,16 +14911,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gorilla'
   },
   {
-    name: 'Orangutan',
-    unified: '1F9A7',
-    keywords: ['orangutan', 'animal'],
+    label: 'Orangutan',
+    hexcode: '1F9A7',
+    tags: ['orangutan', 'animal'],
     sheet: [44, 57],
     shortName: 'orangutan'
   },
   {
-    name: 'Dog Face',
-    unified: '1F436',
-    keywords: [
+    label: 'Dog Face',
+    hexcode: '1F436',
+    tags: [
       'dog_face',
       'animal',
       'friend',
@@ -14934,9 +14934,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dog'
   },
   {
-    name: 'Dog',
-    unified: '1F415',
-    keywords: [
+    label: 'Dog',
+    hexcode: '1F415',
+    tags: [
       'dog',
       'animal',
       'nature',
@@ -14949,9 +14949,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dog2'
   },
   {
-    name: 'Guide Dog',
-    unified: '1F9AE',
-    keywords: [
+    label: 'Guide Dog',
+    hexcode: '1F9AE',
+    tags: [
       'guide_dog',
       'animal',
       'blind'
@@ -14960,9 +14960,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'guide_dog'
   },
   {
-    name: 'Service Dog',
-    unified: '1F415-200D-1F9BA',
-    keywords: [
+    label: 'Service Dog',
+    hexcode: '1F415-200D-1F9BA',
+    tags: [
       'service_dog',
       'blind',
       'animal'
@@ -14971,9 +14971,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'service_dog'
   },
   {
-    name: 'Poodle',
-    unified: '1F429',
-    keywords: [
+    label: 'Poodle',
+    hexcode: '1F429',
+    tags: [
       'poodle',
       'dog',
       'animal',
@@ -14985,9 +14985,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'poodle'
   },
   {
-    name: 'Wolf Face',
-    unified: '1F43A',
-    keywords: [
+    label: 'Wolf Face',
+    hexcode: '1F43A',
+    tags: [
       'wolf',
       'animal',
       'nature',
@@ -14997,9 +14997,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wolf'
   },
   {
-    name: 'Fox Face',
-    unified: '1F98A',
-    keywords: [
+    label: 'Fox Face',
+    hexcode: '1F98A',
+    tags: [
       'fox',
       'animal',
       'nature',
@@ -15009,9 +15009,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fox_face'
   },
   {
-    name: 'Raccoon',
-    unified: '1F99D',
-    keywords: [
+    label: 'Raccoon',
+    hexcode: '1F99D',
+    tags: [
       'raccoon',
       'animal',
       'nature'
@@ -15020,9 +15020,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'raccoon'
   },
   {
-    name: 'Cat Face',
-    unified: '1F431',
-    keywords: [
+    label: 'Cat Face',
+    hexcode: '1F431',
+    tags: [
       'cat_face',
       'animal',
       'meow',
@@ -15034,9 +15034,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cat'
   },
   {
-    name: 'Cat',
-    unified: '1F408',
-    keywords: [
+    label: 'Cat',
+    hexcode: '1F408',
+    tags: [
       'cat',
       'animal',
       'meow',
@@ -15047,9 +15047,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cat2'
   },
   {
-    name: 'Black Cat',
-    unified: '1F408-200D-2B1B',
-    keywords: [
+    label: 'Black Cat',
+    hexcode: '1F408-200D-2B1B',
+    tags: [
       'black cat',
       'superstition',
       'luck'
@@ -15058,9 +15058,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_cat'
   },
   {
-    name: 'Lion Face',
-    unified: '1F981',
-    keywords: [
+    label: 'Lion Face',
+    hexcode: '1F981',
+    tags: [
       'lion',
       'animal',
       'nature'
@@ -15069,9 +15069,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lion_face'
   },
   {
-    name: 'Tiger Face',
-    unified: '1F42F',
-    keywords: [
+    label: 'Tiger Face',
+    hexcode: '1F42F',
+    tags: [
       'tiger_face',
       'animal',
       'cat',
@@ -15084,9 +15084,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tiger'
   },
   {
-    name: 'Tiger',
-    unified: '1F405',
-    keywords: [
+    label: 'Tiger',
+    hexcode: '1F405',
+    tags: [
       'tiger',
       'animal',
       'nature',
@@ -15096,9 +15096,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tiger2'
   },
   {
-    name: 'Leopard',
-    unified: '1F406',
-    keywords: [
+    label: 'Leopard',
+    hexcode: '1F406',
+    tags: [
       'leopard',
       'animal',
       'nature'
@@ -15107,9 +15107,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'leopard'
   },
   {
-    name: 'Horse Face',
-    unified: '1F434',
-    keywords: [
+    label: 'Horse Face',
+    hexcode: '1F434',
+    tags: [
       'horse_face',
       'animal',
       'brown',
@@ -15119,9 +15119,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'horse'
   },
   {
-    name: 'Horse',
-    unified: '1F40E',
-    keywords: [
+    label: 'Horse',
+    hexcode: '1F40E',
+    tags: [
       'horse',
       'animal',
       'gamble',
@@ -15131,9 +15131,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'racehorse'
   },
   {
-    name: 'Unicorn Face',
-    unified: '1F984',
-    keywords: [
+    label: 'Unicorn Face',
+    hexcode: '1F984',
+    tags: [
       'unicorn',
       'animal',
       'nature',
@@ -15143,9 +15143,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'unicorn_face'
   },
   {
-    name: 'Zebra Face',
-    unified: '1F993',
-    keywords: [
+    label: 'Zebra Face',
+    hexcode: '1F993',
+    tags: [
       'zebra',
       'animal',
       'nature',
@@ -15156,9 +15156,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'zebra_face'
   },
   {
-    name: 'Deer',
-    unified: '1F98C',
-    keywords: [
+    label: 'Deer',
+    hexcode: '1F98C',
+    tags: [
       'deer',
       'animal',
       'nature',
@@ -15169,16 +15169,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'deer'
   },
   {
-    name: 'Bison',
-    unified: '1F9AC',
-    keywords: ['bison', 'ox'],
+    label: 'Bison',
+    hexcode: '1F9AC',
+    tags: ['bison', 'ox'],
     sheet: [45, 1],
     shortName: 'bison'
   },
   {
-    name: 'Cow Face',
-    unified: '1F42E',
-    keywords: [
+    label: 'Cow Face',
+    hexcode: '1F42E',
+    tags: [
       'cow_face',
       'beef',
       'ox',
@@ -15191,9 +15191,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cow'
   },
   {
-    name: 'Ox',
-    unified: '1F402',
-    keywords: [
+    label: 'Ox',
+    hexcode: '1F402',
+    tags: [
       'ox',
       'animal',
       'cow',
@@ -15203,9 +15203,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ox'
   },
   {
-    name: 'Water Buffalo',
-    unified: '1F403',
-    keywords: [
+    label: 'Water Buffalo',
+    hexcode: '1F403',
+    tags: [
       'water_buffalo',
       'animal',
       'nature',
@@ -15216,9 +15216,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'water_buffalo'
   },
   {
-    name: 'Cow',
-    unified: '1F404',
-    keywords: [
+    label: 'Cow',
+    hexcode: '1F404',
+    tags: [
       'cow',
       'beef',
       'ox',
@@ -15231,9 +15231,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cow2'
   },
   {
-    name: 'Pig Face',
-    unified: '1F437',
-    keywords: [
+    label: 'Pig Face',
+    hexcode: '1F437',
+    tags: [
       'pig_face',
       'animal',
       'oink',
@@ -15243,9 +15243,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pig'
   },
   {
-    name: 'Pig',
-    unified: '1F416',
-    keywords: [
+    label: 'Pig',
+    hexcode: '1F416',
+    tags: [
       'pig',
       'animal',
       'nature'
@@ -15254,9 +15254,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pig2'
   },
   {
-    name: 'Boar',
-    unified: '1F417',
-    keywords: [
+    label: 'Boar',
+    hexcode: '1F417',
+    tags: [
       'boar',
       'animal',
       'nature'
@@ -15265,9 +15265,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'boar'
   },
   {
-    name: 'Pig Nose',
-    unified: '1F43D',
-    keywords: [
+    label: 'Pig Nose',
+    hexcode: '1F43D',
+    tags: [
       'pig_nose',
       'animal',
       'oink'
@@ -15276,9 +15276,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pig_nose'
   },
   {
-    name: 'Ram',
-    unified: '1F40F',
-    keywords: [
+    label: 'Ram',
+    hexcode: '1F40F',
+    tags: [
       'ram',
       'animal',
       'sheep',
@@ -15288,9 +15288,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ram'
   },
   {
-    name: 'Sheep',
-    unified: '1F411',
-    keywords: [
+    label: 'Sheep',
+    hexcode: '1F411',
+    tags: [
       'ewe',
       'animal',
       'nature',
@@ -15301,9 +15301,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sheep'
   },
   {
-    name: 'Goat',
-    unified: '1F410',
-    keywords: [
+    label: 'Goat',
+    hexcode: '1F410',
+    tags: [
       'goat',
       'animal',
       'nature'
@@ -15312,9 +15312,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'goat'
   },
   {
-    name: 'Dromedary Camel',
-    unified: '1F42A',
-    keywords: [
+    label: 'Dromedary Camel',
+    hexcode: '1F42A',
+    tags: [
       'camel',
       'animal',
       'hot',
@@ -15325,9 +15325,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dromedary_camel'
   },
   {
-    name: 'Bactrian Camel',
-    unified: '1F42B',
-    keywords: [
+    label: 'Bactrian Camel',
+    hexcode: '1F42B',
+    tags: [
       'two_hump_camel',
       'animal',
       'nature',
@@ -15339,9 +15339,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'camel'
   },
   {
-    name: 'Llama',
-    unified: '1F999',
-    keywords: [
+    label: 'Llama',
+    hexcode: '1F999',
+    tags: [
       'llama',
       'animal',
       'nature',
@@ -15351,9 +15351,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'llama'
   },
   {
-    name: 'Giraffe Face',
-    unified: '1F992',
-    keywords: [
+    label: 'Giraffe Face',
+    hexcode: '1F992',
+    tags: [
       'giraffe',
       'animal',
       'nature',
@@ -15364,9 +15364,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'giraffe_face'
   },
   {
-    name: 'Elephant',
-    unified: '1F418',
-    keywords: [
+    label: 'Elephant',
+    hexcode: '1F418',
+    tags: [
       'elephant',
       'animal',
       'nature',
@@ -15378,9 +15378,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'elephant'
   },
   {
-    name: 'Mammoth',
-    unified: '1F9A3',
-    keywords: [
+    label: 'Mammoth',
+    hexcode: '1F9A3',
+    tags: [
       'mammoth',
       'elephant',
       'tusks'
@@ -15389,9 +15389,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mammoth'
   },
   {
-    name: 'Rhinoceros',
-    unified: '1F98F',
-    keywords: [
+    label: 'Rhinoceros',
+    hexcode: '1F98F',
+    tags: [
       'rhinoceros',
       'animal',
       'nature',
@@ -15401,9 +15401,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rhinoceros'
   },
   {
-    name: 'Hippopotamus',
-    unified: '1F99B',
-    keywords: [
+    label: 'Hippopotamus',
+    hexcode: '1F99B',
+    tags: [
       'hippopotamus',
       'animal',
       'nature'
@@ -15412,9 +15412,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hippopotamus'
   },
   {
-    name: 'Mouse Face',
-    unified: '1F42D',
-    keywords: [
+    label: 'Mouse Face',
+    hexcode: '1F42D',
+    tags: [
       'mouse_face',
       'animal',
       'nature',
@@ -15425,9 +15425,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mouse'
   },
   {
-    name: 'Mouse',
-    unified: '1F401',
-    keywords: [
+    label: 'Mouse',
+    hexcode: '1F401',
+    tags: [
       'mouse',
       'animal',
       'nature',
@@ -15437,9 +15437,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mouse2'
   },
   {
-    name: 'Rat',
-    unified: '1F400',
-    keywords: [
+    label: 'Rat',
+    hexcode: '1F400',
+    tags: [
       'rat',
       'animal',
       'mouse',
@@ -15449,9 +15449,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rat'
   },
   {
-    name: 'Hamster Face',
-    unified: '1F439',
-    keywords: [
+    label: 'Hamster Face',
+    hexcode: '1F439',
+    tags: [
       'hamster',
       'animal',
       'nature'
@@ -15460,9 +15460,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hamster'
   },
   {
-    name: 'Rabbit Face',
-    unified: '1F430',
-    keywords: [
+    label: 'Rabbit Face',
+    hexcode: '1F430',
+    tags: [
       'rabbit_face',
       'animal',
       'nature',
@@ -15475,9 +15475,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rabbit'
   },
   {
-    name: 'Rabbit',
-    unified: '1F407',
-    keywords: [
+    label: 'Rabbit',
+    hexcode: '1F407',
+    tags: [
       'rabbit',
       'animal',
       'nature',
@@ -15489,9 +15489,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rabbit2'
   },
   {
-    name: 'Chipmunk',
-    unified: '1F43F-FE0F',
-    keywords: [
+    label: 'Chipmunk',
+    hexcode: '1F43F-FE0F',
+    tags: [
       'chipmunk',
       'animal',
       'nature',
@@ -15502,9 +15502,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chipmunk'
   },
   {
-    name: 'Beaver',
-    unified: '1F9AB',
-    keywords: [
+    label: 'Beaver',
+    hexcode: '1F9AB',
+    tags: [
       'beaver',
       'animal',
       'rodent'
@@ -15513,9 +15513,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'beaver'
   },
   {
-    name: 'Hedgehog',
-    unified: '1F994',
-    keywords: [
+    label: 'Hedgehog',
+    hexcode: '1F994',
+    tags: [
       'hedgehog',
       'animal',
       'nature',
@@ -15525,9 +15525,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hedgehog'
   },
   {
-    name: 'Bat',
-    unified: '1F987',
-    keywords: [
+    label: 'Bat',
+    hexcode: '1F987',
+    tags: [
       'bat',
       'animal',
       'nature',
@@ -15538,9 +15538,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bat'
   },
   {
-    name: 'Bear Face',
-    unified: '1F43B',
-    keywords: [
+    label: 'Bear Face',
+    hexcode: '1F43B',
+    tags: [
       'bear',
       'animal',
       'nature',
@@ -15550,9 +15550,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bear'
   },
   {
-    name: 'Polar Bear',
-    unified: '1F43B-200D-2744-FE0F',
-    keywords: [
+    label: 'Polar Bear',
+    hexcode: '1F43B-200D-2744-FE0F',
+    tags: [
       'polar bear',
       'animal',
       'arctic'
@@ -15561,9 +15561,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'polar_bear'
   },
   {
-    name: 'Koala',
-    unified: '1F428',
-    keywords: [
+    label: 'Koala',
+    hexcode: '1F428',
+    tags: [
       'koala',
       'animal',
       'nature'
@@ -15572,9 +15572,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'koala'
   },
   {
-    name: 'Panda Face',
-    unified: '1F43C',
-    keywords: [
+    label: 'Panda Face',
+    hexcode: '1F43C',
+    tags: [
       'panda',
       'animal',
       'nature',
@@ -15584,30 +15584,30 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'panda_face'
   },
   {
-    name: 'Sloth',
-    unified: '1F9A5',
-    keywords: ['sloth', 'animal'],
+    label: 'Sloth',
+    hexcode: '1F9A5',
+    tags: ['sloth', 'animal'],
     sheet: [44, 55],
     shortName: 'sloth'
   },
   {
-    name: 'Otter',
-    unified: '1F9A6',
-    keywords: ['otter', 'animal'],
+    label: 'Otter',
+    hexcode: '1F9A6',
+    tags: ['otter', 'animal'],
     sheet: [44, 56],
     shortName: 'otter'
   },
   {
-    name: 'Skunk',
-    unified: '1F9A8',
-    keywords: ['skunk', 'animal'],
+    label: 'Skunk',
+    hexcode: '1F9A8',
+    tags: ['skunk', 'animal'],
     sheet: [44, 58],
     shortName: 'skunk'
   },
   {
-    name: 'Kangaroo',
-    unified: '1F998',
-    keywords: [
+    label: 'Kangaroo',
+    hexcode: '1F998',
+    tags: [
       'kangaroo',
       'animal',
       'nature',
@@ -15620,9 +15620,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kangaroo'
   },
   {
-    name: 'Badger',
-    unified: '1F9A1',
-    keywords: [
+    label: 'Badger',
+    hexcode: '1F9A1',
+    tags: [
       'badger',
       'animal',
       'nature',
@@ -15632,9 +15632,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'badger'
   },
   {
-    name: 'Paw Prints',
-    unified: '1F43E',
-    keywords: [
+    label: 'Paw Prints',
+    hexcode: '1F43E',
+    tags: [
       'paw_prints',
       'animal',
       'tracking',
@@ -15649,9 +15649,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'feet'
   },
   {
-    name: 'Turkey',
-    unified: '1F983',
-    keywords: [
+    label: 'Turkey',
+    hexcode: '1F983',
+    tags: [
       'turkey',
       'animal',
       'bird'
@@ -15660,9 +15660,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'turkey'
   },
   {
-    name: 'Chicken',
-    unified: '1F414',
-    keywords: [
+    label: 'Chicken',
+    hexcode: '1F414',
+    tags: [
       'chicken',
       'animal',
       'cluck',
@@ -15673,9 +15673,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chicken'
   },
   {
-    name: 'Rooster',
-    unified: '1F413',
-    keywords: [
+    label: 'Rooster',
+    hexcode: '1F413',
+    tags: [
       'rooster',
       'animal',
       'nature',
@@ -15685,9 +15685,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rooster'
   },
   {
-    name: 'Hatching Chick',
-    unified: '1F423',
-    keywords: [
+    label: 'Hatching Chick',
+    hexcode: '1F423',
+    tags: [
       'hatching_chick',
       'animal',
       'chicken',
@@ -15700,9 +15700,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hatching_chick'
   },
   {
-    name: 'Baby Chick',
-    unified: '1F424',
-    keywords: [
+    label: 'Baby Chick',
+    hexcode: '1F424',
+    tags: [
       'baby_chick',
       'animal',
       'chicken',
@@ -15712,9 +15712,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'baby_chick'
   },
   {
-    name: 'Front-Facing Baby Chick',
-    unified: '1F425',
-    keywords: [
+    label: 'Front-Facing Baby Chick',
+    hexcode: '1F425',
+    tags: [
       'front_facing_baby_chick',
       'animal',
       'chicken',
@@ -15725,9 +15725,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hatched_chick'
   },
   {
-    name: 'Bird',
-    unified: '1F426',
-    keywords: [
+    label: 'Bird',
+    hexcode: '1F426',
+    tags: [
       'bird',
       'animal',
       'nature',
@@ -15739,9 +15739,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bird'
   },
   {
-    name: 'Penguin',
-    unified: '1F427',
-    keywords: [
+    label: 'Penguin',
+    hexcode: '1F427',
+    tags: [
       'penguin',
       'animal',
       'nature'
@@ -15750,9 +15750,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'penguin'
   },
   {
-    name: 'Dove',
-    unified: '1F54A-FE0F',
-    keywords: [
+    label: 'Dove',
+    hexcode: '1F54A-FE0F',
+    tags: [
       'dove',
       'animal',
       'bird'
@@ -15761,9 +15761,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dove_of_peace'
   },
   {
-    name: 'Eagle',
-    unified: '1F985',
-    keywords: [
+    label: 'Eagle',
+    hexcode: '1F985',
+    tags: [
       'eagle',
       'animal',
       'nature',
@@ -15773,9 +15773,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eagle'
   },
   {
-    name: 'Duck',
-    unified: '1F986',
-    keywords: [
+    label: 'Duck',
+    hexcode: '1F986',
+    tags: [
       'duck',
       'animal',
       'nature',
@@ -15786,9 +15786,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'duck'
   },
   {
-    name: 'Swan',
-    unified: '1F9A2',
-    keywords: [
+    label: 'Swan',
+    hexcode: '1F9A2',
+    tags: [
       'swan',
       'animal',
       'nature',
@@ -15798,9 +15798,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'swan'
   },
   {
-    name: 'Owl',
-    unified: '1F989',
-    keywords: [
+    label: 'Owl',
+    hexcode: '1F989',
+    tags: [
       'owl',
       'animal',
       'nature',
@@ -15811,9 +15811,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'owl'
   },
   {
-    name: 'Dodo',
-    unified: '1F9A4',
-    keywords: [
+    label: 'Dodo',
+    hexcode: '1F9A4',
+    tags: [
       'dodo',
       'animal',
       'bird'
@@ -15822,9 +15822,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dodo'
   },
   {
-    name: 'Feather',
-    unified: '1FAB6',
-    keywords: [
+    label: 'Feather',
+    hexcode: '1FAB6',
+    tags: [
       'feather',
       'bird',
       'fly'
@@ -15833,16 +15833,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'feather'
   },
   {
-    name: 'Flamingo',
-    unified: '1F9A9',
-    keywords: ['flamingo', 'animal'],
+    label: 'Flamingo',
+    hexcode: '1F9A9',
+    tags: ['flamingo', 'animal'],
     sheet: [44, 59],
     shortName: 'flamingo'
   },
   {
-    name: 'Peacock',
-    unified: '1F99A',
-    keywords: [
+    label: 'Peacock',
+    hexcode: '1F99A',
+    tags: [
       'peacock',
       'animal',
       'nature',
@@ -15853,9 +15853,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'peacock'
   },
   {
-    name: 'Parrot',
-    unified: '1F99C',
-    keywords: [
+    label: 'Parrot',
+    hexcode: '1F99C',
+    tags: [
       'parrot',
       'animal',
       'nature',
@@ -15867,9 +15867,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'parrot'
   },
   {
-    name: 'Frog Face',
-    unified: '1F438',
-    keywords: [
+    label: 'Frog Face',
+    hexcode: '1F438',
+    tags: [
       'frog',
       'animal',
       'nature',
@@ -15880,9 +15880,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'frog'
   },
   {
-    name: 'Crocodile',
-    unified: '1F40A',
-    keywords: [
+    label: 'Crocodile',
+    hexcode: '1F40A',
+    tags: [
       'crocodile',
       'animal',
       'nature',
@@ -15894,9 +15894,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crocodile'
   },
   {
-    name: 'Turtle',
-    unified: '1F422',
-    keywords: [
+    label: 'Turtle',
+    hexcode: '1F422',
+    tags: [
       'turtle',
       'animal',
       'slow',
@@ -15907,9 +15907,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'turtle'
   },
   {
-    name: 'Lizard',
-    unified: '1F98E',
-    keywords: [
+    label: 'Lizard',
+    hexcode: '1F98E',
+    tags: [
       'lizard',
       'animal',
       'nature',
@@ -15919,9 +15919,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lizard'
   },
   {
-    name: 'Snake',
-    unified: '1F40D',
-    keywords: [
+    label: 'Snake',
+    hexcode: '1F40D',
+    tags: [
       'snake',
       'animal',
       'evil',
@@ -15933,9 +15933,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snake'
   },
   {
-    name: 'Dragon Face',
-    unified: '1F432',
-    keywords: [
+    label: 'Dragon Face',
+    hexcode: '1F432',
+    tags: [
       'dragon_face',
       'animal',
       'myth',
@@ -15947,9 +15947,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dragon_face'
   },
   {
-    name: 'Dragon',
-    unified: '1F409',
-    keywords: [
+    label: 'Dragon',
+    hexcode: '1F409',
+    tags: [
       'dragon',
       'animal',
       'myth',
@@ -15961,9 +15961,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dragon'
   },
   {
-    name: 'Sauropod',
-    unified: '1F995',
-    keywords: [
+    label: 'Sauropod',
+    hexcode: '1F995',
+    tags: [
       'sauropod',
       'animal',
       'nature',
@@ -15977,9 +15977,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sauropod'
   },
   {
-    name: 'T-Rex',
-    unified: '1F996',
-    keywords: [
+    label: 'T-Rex',
+    hexcode: '1F996',
+    tags: [
       't_rex',
       'animal',
       'nature',
@@ -15991,9 +15991,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 't-rex'
   },
   {
-    name: 'Spouting Whale',
-    unified: '1F433',
-    keywords: [
+    label: 'Spouting Whale',
+    hexcode: '1F433',
+    tags: [
       'spouting_whale',
       'animal',
       'nature',
@@ -16004,9 +16004,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'whale'
   },
   {
-    name: 'Whale',
-    unified: '1F40B',
-    keywords: [
+    label: 'Whale',
+    hexcode: '1F40B',
+    tags: [
       'whale',
       'animal',
       'nature',
@@ -16017,9 +16017,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'whale2'
   },
   {
-    name: 'Dolphin',
-    unified: '1F42C',
-    keywords: [
+    label: 'Dolphin',
+    hexcode: '1F42C',
+    tags: [
       'dolphin',
       'animal',
       'nature',
@@ -16035,9 +16035,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dolphin'
   },
   {
-    name: 'Seal',
-    unified: '1F9AD',
-    keywords: [
+    label: 'Seal',
+    hexcode: '1F9AD',
+    tags: [
       'seal',
       'animal',
       'creature',
@@ -16047,9 +16047,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'seal'
   },
   {
-    name: 'Fish',
-    unified: '1F41F',
-    keywords: [
+    label: 'Fish',
+    hexcode: '1F41F',
+    tags: [
       'fish',
       'animal',
       'food',
@@ -16059,9 +16059,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fish'
   },
   {
-    name: 'Tropical Fish',
-    unified: '1F420',
-    keywords: [
+    label: 'Tropical Fish',
+    hexcode: '1F420',
+    tags: [
       'tropical_fish',
       'animal',
       'swim',
@@ -16073,9 +16073,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tropical_fish'
   },
   {
-    name: 'Blowfish',
-    unified: '1F421',
-    keywords: [
+    label: 'Blowfish',
+    hexcode: '1F421',
+    tags: [
       'blowfish',
       'animal',
       'nature',
@@ -16087,9 +16087,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'blowfish'
   },
   {
-    name: 'Shark',
-    unified: '1F988',
-    keywords: [
+    label: 'Shark',
+    hexcode: '1F988',
+    tags: [
       'shark',
       'animal',
       'nature',
@@ -16104,9 +16104,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shark'
   },
   {
-    name: 'Octopus',
-    unified: '1F419',
-    keywords: [
+    label: 'Octopus',
+    hexcode: '1F419',
+    tags: [
       'octopus',
       'animal',
       'creature',
@@ -16119,9 +16119,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'octopus'
   },
   {
-    name: 'Spiral Shell',
-    unified: '1F41A',
-    keywords: [
+    label: 'Spiral Shell',
+    hexcode: '1F41A',
+    tags: [
       'spiral_shell',
       'nature',
       'sea',
@@ -16131,9 +16131,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shell'
   },
   {
-    name: 'Coral',
-    unified: '1FAB8',
-    keywords: [
+    label: 'Coral',
+    hexcode: '1FAB8',
+    tags: [
       'coral',
       'ocean',
       'sea',
@@ -16144,9 +16144,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'coral'
   },
   {
-    name: 'Snail',
-    unified: '1F40C',
-    keywords: [
+    label: 'Snail',
+    hexcode: '1F40C',
+    tags: [
       'snail',
       'slow',
       'animal',
@@ -16156,9 +16156,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snail'
   },
   {
-    name: 'Butterfly',
-    unified: '1F98B',
-    keywords: [
+    label: 'Butterfly',
+    hexcode: '1F98B',
+    tags: [
       'butterfly',
       'animal',
       'insect',
@@ -16169,9 +16169,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'butterfly'
   },
   {
-    name: 'Bug',
-    unified: '1F41B',
-    keywords: [
+    label: 'Bug',
+    hexcode: '1F41B',
+    tags: [
       'bug',
       'animal',
       'insect',
@@ -16182,9 +16182,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bug'
   },
   {
-    name: 'Ant',
-    unified: '1F41C',
-    keywords: [
+    label: 'Ant',
+    hexcode: '1F41C',
+    tags: [
       'ant',
       'animal',
       'insect',
@@ -16195,9 +16195,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ant'
   },
   {
-    name: 'Honeybee',
-    unified: '1F41D',
-    keywords: [
+    label: 'Honeybee',
+    hexcode: '1F41D',
+    tags: [
       'honeybee',
       'animal',
       'insect',
@@ -16211,16 +16211,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bee'
   },
   {
-    name: 'Beetle',
-    unified: '1FAB2',
-    keywords: ['beetle', 'insect'],
+    label: 'Beetle',
+    hexcode: '1FAB2',
+    tags: ['beetle', 'insect'],
     sheet: [54, 33],
     shortName: 'beetle'
   },
   {
-    name: 'Lady Beetle',
-    unified: '1F41E',
-    keywords: [
+    label: 'Lady Beetle',
+    hexcode: '1F41E',
+    tags: [
       'lady_beetle',
       'animal',
       'insect',
@@ -16232,9 +16232,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ladybug'
   },
   {
-    name: 'Cricket',
-    unified: '1F997',
-    keywords: [
+    label: 'Cricket',
+    hexcode: '1F997',
+    tags: [
       'cricket',
       'animal',
       'cricket',
@@ -16244,9 +16244,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cricket'
   },
   {
-    name: 'Cockroach',
-    unified: '1FAB3',
-    keywords: [
+    label: 'Cockroach',
+    hexcode: '1FAB3',
+    tags: [
       'cockroach',
       'insect',
       'pests'
@@ -16255,9 +16255,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cockroach'
   },
   {
-    name: 'Spider',
-    unified: '1F577-FE0F',
-    keywords: [
+    label: 'Spider',
+    hexcode: '1F577-FE0F',
+    tags: [
       'spider',
       'animal',
       'arachnid'
@@ -16266,9 +16266,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spider'
   },
   {
-    name: 'Spider Web',
-    unified: '1F578-FE0F',
-    keywords: [
+    label: 'Spider Web',
+    hexcode: '1F578-FE0F',
+    tags: [
       'spider_web',
       'animal',
       'insect',
@@ -16279,9 +16279,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spider_web'
   },
   {
-    name: 'Scorpion',
-    unified: '1F982',
-    keywords: [
+    label: 'Scorpion',
+    hexcode: '1F982',
+    tags: [
       'scorpion',
       'animal',
       'arachnid'
@@ -16290,9 +16290,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scorpion'
   },
   {
-    name: 'Mosquito',
-    unified: '1F99F',
-    keywords: [
+    label: 'Mosquito',
+    hexcode: '1F99F',
+    tags: [
       'mosquito',
       'animal',
       'nature',
@@ -16303,23 +16303,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mosquito'
   },
   {
-    name: 'Fly',
-    unified: '1FAB0',
-    keywords: ['fly', 'insect'],
+    label: 'Fly',
+    hexcode: '1FAB0',
+    tags: ['fly', 'insect'],
     sheet: [54, 31],
     shortName: 'fly'
   },
   {
-    name: 'Worm',
-    unified: '1FAB1',
-    keywords: ['worm', 'animal'],
+    label: 'Worm',
+    hexcode: '1FAB1',
+    tags: ['worm', 'animal'],
     sheet: [54, 32],
     shortName: 'worm'
   },
   {
-    name: 'Microbe',
-    unified: '1F9A0',
-    keywords: [
+    label: 'Microbe',
+    hexcode: '1F9A0',
+    tags: [
       'microbe',
       'amoeba',
       'bacteria',
@@ -16331,9 +16331,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'microbe'
   },
   {
-    name: 'Bouquet',
-    unified: '1F490',
-    keywords: [
+    label: 'Bouquet',
+    hexcode: '1F490',
+    tags: [
       'bouquet',
       'flowers',
       'nature',
@@ -16343,9 +16343,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bouquet'
   },
   {
-    name: 'Cherry Blossom',
-    unified: '1F338',
-    keywords: [
+    label: 'Cherry Blossom',
+    hexcode: '1F338',
+    tags: [
       'cherry_blossom',
       'nature',
       'plant',
@@ -16356,9 +16356,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cherry_blossom'
   },
   {
-    name: 'White Flower',
-    unified: '1F4AE',
-    keywords: [
+    label: 'White Flower',
+    hexcode: '1F4AE',
+    tags: [
       'white_flower',
       'japanese',
       'spring'
@@ -16367,9 +16367,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_flower'
   },
   {
-    name: 'Lotus',
-    unified: '1FAB7',
-    keywords: [
+    label: 'Lotus',
+    hexcode: '1FAB7',
+    tags: [
       'lotus',
       'flower',
       'calm',
@@ -16380,9 +16380,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lotus'
   },
   {
-    name: 'Rosette',
-    unified: '1F3F5-FE0F',
-    keywords: [
+    label: 'Rosette',
+    hexcode: '1F3F5-FE0F',
+    tags: [
       'rosette',
       'flower',
       'decoration',
@@ -16392,9 +16392,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rosette'
   },
   {
-    name: 'Rose',
-    unified: '1F339',
-    keywords: [
+    label: 'Rose',
+    hexcode: '1F339',
+    tags: [
       'rose',
       'flowers',
       'valentines',
@@ -16405,9 +16405,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rose'
   },
   {
-    name: 'Wilted Flower',
-    unified: '1F940',
-    keywords: [
+    label: 'Wilted Flower',
+    hexcode: '1F940',
+    tags: [
       'wilted_flower',
       'plant',
       'nature',
@@ -16418,9 +16418,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wilted_flower'
   },
   {
-    name: 'Hibiscus',
-    unified: '1F33A',
-    keywords: [
+    label: 'Hibiscus',
+    hexcode: '1F33A',
+    tags: [
       'hibiscus',
       'plant',
       'vegetable',
@@ -16431,9 +16431,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hibiscus'
   },
   {
-    name: 'Sunflower',
-    unified: '1F33B',
-    keywords: [
+    label: 'Sunflower',
+    hexcode: '1F33B',
+    tags: [
       'sunflower',
       'nature',
       'plant',
@@ -16443,9 +16443,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sunflower'
   },
   {
-    name: 'Blossom',
-    unified: '1F33C',
-    keywords: [
+    label: 'Blossom',
+    hexcode: '1F33C',
+    tags: [
       'blossom',
       'nature',
       'flowers',
@@ -16455,9 +16455,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'blossom'
   },
   {
-    name: 'Tulip',
-    unified: '1F337',
-    keywords: [
+    label: 'Tulip',
+    hexcode: '1F337',
+    tags: [
       'tulip',
       'flowers',
       'plant',
@@ -16469,9 +16469,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tulip'
   },
   {
-    name: 'Seedling',
-    unified: '1F331',
-    keywords: [
+    label: 'Seedling',
+    hexcode: '1F331',
+    tags: [
       'seedling',
       'plant',
       'nature',
@@ -16483,9 +16483,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'seedling'
   },
   {
-    name: 'Potted Plant',
-    unified: '1FAB4',
-    keywords: [
+    label: 'Potted Plant',
+    hexcode: '1FAB4',
+    tags: [
       'potted plant',
       'greenery',
       'house'
@@ -16494,9 +16494,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'potted_plant'
   },
   {
-    name: 'Evergreen Tree',
-    unified: '1F332',
-    keywords: [
+    label: 'Evergreen Tree',
+    hexcode: '1F332',
+    tags: [
       'evergreen_tree',
       'plant',
       'nature'
@@ -16505,9 +16505,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'evergreen_tree'
   },
   {
-    name: 'Deciduous Tree',
-    unified: '1F333',
-    keywords: [
+    label: 'Deciduous Tree',
+    hexcode: '1F333',
+    tags: [
       'deciduous_tree',
       'plant',
       'nature'
@@ -16516,9 +16516,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'deciduous_tree'
   },
   {
-    name: 'Palm Tree',
-    unified: '1F334',
-    keywords: [
+    label: 'Palm Tree',
+    hexcode: '1F334',
+    tags: [
       'palm_tree',
       'plant',
       'vegetable',
@@ -16532,9 +16532,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'palm_tree'
   },
   {
-    name: 'Cactus',
-    unified: '1F335',
-    keywords: [
+    label: 'Cactus',
+    hexcode: '1F335',
+    tags: [
       'cactus',
       'vegetable',
       'plant',
@@ -16544,9 +16544,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cactus'
   },
   {
-    name: 'Ear of Rice',
-    unified: '1F33E',
-    keywords: [
+    label: 'Ear of Rice',
+    hexcode: '1F33E',
+    tags: [
       'sheaf_of_rice',
       'nature',
       'plant'
@@ -16555,9 +16555,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ear_of_rice'
   },
   {
-    name: 'Herb',
-    unified: '1F33F',
-    keywords: [
+    label: 'Herb',
+    hexcode: '1F33F',
+    tags: [
       'herb',
       'vegetable',
       'plant',
@@ -16570,9 +16570,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'herb'
   },
   {
-    name: 'Shamrock',
-    unified: '2618-FE0F',
-    keywords: [
+    label: 'Shamrock',
+    hexcode: '2618-FE0F',
+    tags: [
       'shamrock',
       'vegetable',
       'plant',
@@ -16584,9 +16584,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shamrock'
   },
   {
-    name: 'Four Leaf Clover',
-    unified: '1F340',
-    keywords: [
+    label: 'Four Leaf Clover',
+    hexcode: '1F340',
+    tags: [
       'four_leaf_clover',
       'vegetable',
       'plant',
@@ -16598,9 +16598,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'four_leaf_clover'
   },
   {
-    name: 'Maple Leaf',
-    unified: '1F341',
-    keywords: [
+    label: 'Maple Leaf',
+    hexcode: '1F341',
+    tags: [
       'maple_leaf',
       'nature',
       'plant',
@@ -16612,9 +16612,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'maple_leaf'
   },
   {
-    name: 'Fallen Leaf',
-    unified: '1F342',
-    keywords: [
+    label: 'Fallen Leaf',
+    hexcode: '1F342',
+    tags: [
       'fallen_leaf',
       'nature',
       'plant',
@@ -16625,9 +16625,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fallen_leaf'
   },
   {
-    name: 'Leaf Fluttering in Wind',
-    unified: '1F343',
-    keywords: [
+    label: 'Leaf Fluttering in Wind',
+    hexcode: '1F343',
+    tags: [
       'leaf_fluttering_in_wind',
       'nature',
       'plant',
@@ -16641,17 +16641,17 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'leaves'
   },
   {
-    name: 'Empty Nest',
-    unified: '1FAB9',
-    keywords: ['empty nest', 'bird'],
+    label: 'Empty Nest',
+    hexcode: '1FAB9',
+    tags: ['empty nest', 'bird'],
     sheet: [54, 40],
     hidden: ['facebook'],
     shortName: 'empty_nest'
   },
   {
-    name: 'Nest with Eggs',
-    unified: '1FABA',
-    keywords: [
+    label: 'Nest with Eggs',
+    hexcode: '1FABA',
+    tags: [
       'nest with eggs',
       'bird'
     ],
@@ -16660,9 +16660,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nest_with_eggs'
   },
   {
-    name: 'Grapes',
-    unified: '1F347',
-    keywords: [
+    label: 'Grapes',
+    hexcode: '1F347',
+    tags: [
       'grapes',
       'fruit',
       'food',
@@ -16672,9 +16672,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'grapes'
   },
   {
-    name: 'Melon',
-    unified: '1F348',
-    keywords: [
+    label: 'Melon',
+    hexcode: '1F348',
+    tags: [
       'melon',
       'fruit',
       'nature',
@@ -16684,9 +16684,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'melon'
   },
   {
-    name: 'Watermelon',
-    unified: '1F349',
-    keywords: [
+    label: 'Watermelon',
+    hexcode: '1F349',
+    tags: [
       'watermelon',
       'fruit',
       'food',
@@ -16697,9 +16697,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'watermelon'
   },
   {
-    name: 'Tangerine',
-    unified: '1F34A',
-    keywords: [
+    label: 'Tangerine',
+    hexcode: '1F34A',
+    tags: [
       'tangerine',
       'food',
       'fruit',
@@ -16710,9 +16710,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tangerine'
   },
   {
-    name: 'Lemon',
-    unified: '1F34B',
-    keywords: [
+    label: 'Lemon',
+    hexcode: '1F34B',
+    tags: [
       'lemon',
       'fruit',
       'nature'
@@ -16721,9 +16721,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lemon'
   },
   {
-    name: 'Banana',
-    unified: '1F34C',
-    keywords: [
+    label: 'Banana',
+    hexcode: '1F34C',
+    tags: [
       'banana',
       'fruit',
       'food',
@@ -16733,9 +16733,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'banana'
   },
   {
-    name: 'Pineapple',
-    unified: '1F34D',
-    keywords: [
+    label: 'Pineapple',
+    hexcode: '1F34D',
+    tags: [
       'pineapple',
       'fruit',
       'nature',
@@ -16745,9 +16745,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pineapple'
   },
   {
-    name: 'Mango',
-    unified: '1F96D',
-    keywords: [
+    label: 'Mango',
+    hexcode: '1F96D',
+    tags: [
       'mango',
       'fruit',
       'food',
@@ -16757,9 +16757,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mango'
   },
   {
-    name: 'Red Apple',
-    unified: '1F34E',
-    keywords: [
+    label: 'Red Apple',
+    hexcode: '1F34E',
+    tags: [
       'red_apple',
       'fruit',
       'mac',
@@ -16769,9 +16769,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'apple'
   },
   {
-    name: 'Green Apple',
-    unified: '1F34F',
-    keywords: [
+    label: 'Green Apple',
+    hexcode: '1F34F',
+    tags: [
       'green_apple',
       'fruit',
       'nature'
@@ -16780,9 +16780,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'green_apple'
   },
   {
-    name: 'Pear',
-    unified: '1F350',
-    keywords: [
+    label: 'Pear',
+    hexcode: '1F350',
+    tags: [
       'pear',
       'fruit',
       'nature',
@@ -16792,9 +16792,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pear'
   },
   {
-    name: 'Peach',
-    unified: '1F351',
-    keywords: [
+    label: 'Peach',
+    hexcode: '1F351',
+    tags: [
       'peach',
       'fruit',
       'nature',
@@ -16804,9 +16804,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'peach'
   },
   {
-    name: 'Cherries',
-    unified: '1F352',
-    keywords: [
+    label: 'Cherries',
+    hexcode: '1F352',
+    tags: [
       'cherries',
       'food',
       'fruit'
@@ -16815,9 +16815,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cherries'
   },
   {
-    name: 'Strawberry',
-    unified: '1F353',
-    keywords: [
+    label: 'Strawberry',
+    hexcode: '1F353',
+    tags: [
       'strawberry',
       'fruit',
       'food',
@@ -16827,16 +16827,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'strawberry'
   },
   {
-    name: 'Blueberries',
-    unified: '1FAD0',
-    keywords: ['blueberries', 'fruit'],
+    label: 'Blueberries',
+    hexcode: '1FAD0',
+    tags: ['blueberries', 'fruit'],
     sheet: [55, 2],
     shortName: 'blueberries'
   },
   {
-    name: 'Kiwifruit',
-    unified: '1F95D',
-    keywords: [
+    label: 'Kiwifruit',
+    hexcode: '1F95D',
+    tags: [
       'kiwi_fruit',
       'fruit',
       'food'
@@ -16845,9 +16845,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kiwifruit'
   },
   {
-    name: 'Tomato',
-    unified: '1F345',
-    keywords: [
+    label: 'Tomato',
+    hexcode: '1F345',
+    tags: [
       'tomato',
       'fruit',
       'vegetable',
@@ -16858,16 +16858,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tomato'
   },
   {
-    name: 'Olive',
-    unified: '1FAD2',
-    keywords: ['olive', 'fruit'],
+    label: 'Olive',
+    hexcode: '1FAD2',
+    tags: ['olive', 'fruit'],
     sheet: [55, 4],
     shortName: 'olive'
   },
   {
-    name: 'Coconut',
-    unified: '1F965',
-    keywords: [
+    label: 'Coconut',
+    hexcode: '1F965',
+    tags: [
       'coconut',
       'fruit',
       'nature',
@@ -16878,9 +16878,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'coconut'
   },
   {
-    name: 'Avocado',
-    unified: '1F951',
-    keywords: [
+    label: 'Avocado',
+    hexcode: '1F951',
+    tags: [
       'avocado',
       'fruit',
       'food'
@@ -16889,9 +16889,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'avocado'
   },
   {
-    name: 'Aubergine',
-    unified: '1F346',
-    keywords: [
+    label: 'Aubergine',
+    hexcode: '1F346',
+    tags: [
       'eggplant',
       'vegetable',
       'nature',
@@ -16902,9 +16902,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eggplant'
   },
   {
-    name: 'Potato',
-    unified: '1F954',
-    keywords: [
+    label: 'Potato',
+    hexcode: '1F954',
+    tags: [
       'potato',
       'food',
       'tuber',
@@ -16915,9 +16915,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'potato'
   },
   {
-    name: 'Carrot',
-    unified: '1F955',
-    keywords: [
+    label: 'Carrot',
+    hexcode: '1F955',
+    tags: [
       'carrot',
       'vegetable',
       'food',
@@ -16927,9 +16927,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'carrot'
   },
   {
-    name: 'Ear of Maize',
-    unified: '1F33D',
-    keywords: [
+    label: 'Ear of Maize',
+    hexcode: '1F33D',
+    tags: [
       'ear_of_corn',
       'food',
       'vegetable',
@@ -16939,9 +16939,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'corn'
   },
   {
-    name: 'Hot Pepper',
-    unified: '1F336-FE0F',
-    keywords: [
+    label: 'Hot Pepper',
+    hexcode: '1F336-FE0F',
+    tags: [
       'hot_pepper',
       'food',
       'spicy',
@@ -16952,9 +16952,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hot_pepper'
   },
   {
-    name: 'Bell Pepper',
-    unified: '1FAD1',
-    keywords: [
+    label: 'Bell Pepper',
+    hexcode: '1FAD1',
+    tags: [
       'bell pepper',
       'fruit',
       'plant'
@@ -16963,9 +16963,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bell_pepper'
   },
   {
-    name: 'Cucumber',
-    unified: '1F952',
-    keywords: [
+    label: 'Cucumber',
+    hexcode: '1F952',
+    tags: [
       'cucumber',
       'fruit',
       'food',
@@ -16975,9 +16975,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cucumber'
   },
   {
-    name: 'Leafy Green',
-    unified: '1F96C',
-    keywords: [
+    label: 'Leafy Green',
+    hexcode: '1F96C',
+    tags: [
       'leafy_green',
       'food',
       'vegetable',
@@ -16991,9 +16991,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'leafy_green'
   },
   {
-    name: 'Broccoli',
-    unified: '1F966',
-    keywords: [
+    label: 'Broccoli',
+    hexcode: '1F966',
+    tags: [
       'broccoli',
       'fruit',
       'food',
@@ -17003,9 +17003,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'broccoli'
   },
   {
-    name: 'Garlic',
-    unified: '1F9C4',
-    keywords: [
+    label: 'Garlic',
+    hexcode: '1F9C4',
+    tags: [
       'garlic',
       'food',
       'spice',
@@ -17015,9 +17015,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'garlic'
   },
   {
-    name: 'Onion',
-    unified: '1F9C5',
-    keywords: [
+    label: 'Onion',
+    hexcode: '1F9C5',
+    tags: [
       'onion',
       'cook',
       'food',
@@ -17027,9 +17027,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'onion'
   },
   {
-    name: 'Mushroom',
-    unified: '1F344',
-    keywords: [
+    label: 'Mushroom',
+    hexcode: '1F344',
+    tags: [
       'mushroom',
       'plant',
       'vegetable'
@@ -17038,9 +17038,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mushroom'
   },
   {
-    name: 'Peanuts',
-    unified: '1F95C',
-    keywords: [
+    label: 'Peanuts',
+    hexcode: '1F95C',
+    tags: [
       'peanuts',
       'food',
       'nut'
@@ -17049,17 +17049,17 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'peanuts'
   },
   {
-    name: 'Beans',
-    unified: '1FAD8',
-    keywords: ['beans', 'food'],
+    label: 'Beans',
+    hexcode: '1FAD8',
+    tags: ['beans', 'food'],
     sheet: [55, 10],
     hidden: ['facebook'],
     shortName: 'beans'
   },
   {
-    name: 'Chestnut',
-    unified: '1F330',
-    keywords: [
+    label: 'Chestnut',
+    hexcode: '1F330',
+    tags: [
       'chestnut',
       'food',
       'squirrel'
@@ -17068,9 +17068,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chestnut'
   },
   {
-    name: 'Bread',
-    unified: '1F35E',
-    keywords: [
+    label: 'Bread',
+    hexcode: '1F35E',
+    tags: [
       'bread',
       'food',
       'wheat',
@@ -17081,9 +17081,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bread'
   },
   {
-    name: 'Croissant',
-    unified: '1F950',
-    keywords: [
+    label: 'Croissant',
+    hexcode: '1F950',
+    tags: [
       'croissant',
       'food',
       'bread',
@@ -17093,9 +17093,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'croissant'
   },
   {
-    name: 'Baguette Bread',
-    unified: '1F956',
-    keywords: [
+    label: 'Baguette Bread',
+    hexcode: '1F956',
+    tags: [
       'baguette_bread',
       'food',
       'bread',
@@ -17107,9 +17107,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'baguette_bread'
   },
   {
-    name: 'Flatbread',
-    unified: '1FAD3',
-    keywords: [
+    label: 'Flatbread',
+    hexcode: '1FAD3',
+    tags: [
       'flatbread',
       'flour',
       'food',
@@ -17119,9 +17119,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flatbread'
   },
   {
-    name: 'Pretzel',
-    unified: '1F968',
-    keywords: [
+    label: 'Pretzel',
+    hexcode: '1F968',
+    tags: [
       'pretzel',
       'food',
       'bread',
@@ -17133,9 +17133,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pretzel'
   },
   {
-    name: 'Bagel',
-    unified: '1F96F',
-    keywords: [
+    label: 'Bagel',
+    hexcode: '1F96F',
+    tags: [
       'bagel',
       'food',
       'bread',
@@ -17148,9 +17148,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bagel'
   },
   {
-    name: 'Pancakes',
-    unified: '1F95E',
-    keywords: [
+    label: 'Pancakes',
+    hexcode: '1F95E',
+    tags: [
       'pancakes',
       'food',
       'breakfast',
@@ -17162,9 +17162,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pancakes'
   },
   {
-    name: 'Waffle',
-    unified: '1F9C7',
-    keywords: [
+    label: 'Waffle',
+    hexcode: '1F9C7',
+    tags: [
       'waffle',
       'food',
       'breakfast',
@@ -17174,9 +17174,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'waffle'
   },
   {
-    name: 'Cheese Wedge',
-    unified: '1F9C0',
-    keywords: [
+    label: 'Cheese Wedge',
+    hexcode: '1F9C0',
+    tags: [
       'cheese_wedge',
       'food',
       'chadder',
@@ -17186,9 +17186,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cheese_wedge'
   },
   {
-    name: 'Meat on Bone',
-    unified: '1F356',
-    keywords: [
+    label: 'Meat on Bone',
+    hexcode: '1F356',
+    tags: [
       'meat_on_bone',
       'good',
       'food',
@@ -17198,9 +17198,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'meat_on_bone'
   },
   {
-    name: 'Poultry Leg',
-    unified: '1F357',
-    keywords: [
+    label: 'Poultry Leg',
+    hexcode: '1F357',
+    tags: [
       'poultry_leg',
       'food',
       'meat',
@@ -17213,9 +17213,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'poultry_leg'
   },
   {
-    name: 'Cut of Meat',
-    unified: '1F969',
-    keywords: [
+    label: 'Cut of Meat',
+    hexcode: '1F969',
+    tags: [
       'cut_of_meat',
       'food',
       'cow',
@@ -17229,9 +17229,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cut_of_meat'
   },
   {
-    name: 'Bacon',
-    unified: '1F953',
-    keywords: [
+    label: 'Bacon',
+    hexcode: '1F953',
+    tags: [
       'bacon',
       'food',
       'breakfast',
@@ -17244,9 +17244,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bacon'
   },
   {
-    name: 'Hamburger',
-    unified: '1F354',
-    keywords: [
+    label: 'Hamburger',
+    hexcode: '1F354',
+    tags: [
       'hamburger',
       'meat',
       'fast food',
@@ -17259,9 +17259,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hamburger'
   },
   {
-    name: 'French Fries',
-    unified: '1F35F',
-    keywords: [
+    label: 'French Fries',
+    hexcode: '1F35F',
+    tags: [
       'french_fries',
       'chips',
       'snack',
@@ -17272,9 +17272,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fries'
   },
   {
-    name: 'Slice of Pizza',
-    unified: '1F355',
-    keywords: [
+    label: 'Slice of Pizza',
+    hexcode: '1F355',
+    tags: [
       'pizza',
       'food',
       'party',
@@ -17284,9 +17284,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pizza'
   },
   {
-    name: 'Hot Dog',
-    unified: '1F32D',
-    keywords: [
+    label: 'Hot Dog',
+    hexcode: '1F32D',
+    tags: [
       'hot_dog',
       'food',
       'frankfurter',
@@ -17296,9 +17296,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hotdog'
   },
   {
-    name: 'Sandwich',
-    unified: '1F96A',
-    keywords: [
+    label: 'Sandwich',
+    hexcode: '1F96A',
+    tags: [
       'sandwich',
       'food',
       'lunch',
@@ -17310,9 +17310,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sandwich'
   },
   {
-    name: 'Taco',
-    unified: '1F32E',
-    keywords: [
+    label: 'Taco',
+    hexcode: '1F32E',
+    tags: [
       'taco',
       'food',
       'mexican'
@@ -17321,9 +17321,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'taco'
   },
   {
-    name: 'Burrito',
-    unified: '1F32F',
-    keywords: [
+    label: 'Burrito',
+    hexcode: '1F32F',
+    tags: [
       'burrito',
       'food',
       'mexican'
@@ -17332,9 +17332,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'burrito'
   },
   {
-    name: 'Tamale',
-    unified: '1FAD4',
-    keywords: [
+    label: 'Tamale',
+    hexcode: '1FAD4',
+    tags: [
       'tamale',
       'food',
       'masa'
@@ -17343,9 +17343,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tamale'
   },
   {
-    name: 'Stuffed Flatbread',
-    unified: '1F959',
-    keywords: [
+    label: 'Stuffed Flatbread',
+    hexcode: '1F959',
+    tags: [
       'stuffed_flatbread',
       'food',
       'flatbread',
@@ -17357,9 +17357,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stuffed_flatbread'
   },
   {
-    name: 'Falafel',
-    unified: '1F9C6',
-    keywords: [
+    label: 'Falafel',
+    hexcode: '1F9C6',
+    tags: [
       'falafel',
       'food',
       'mediterranean'
@@ -17368,9 +17368,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'falafel'
   },
   {
-    name: 'Egg',
-    unified: '1F95A',
-    keywords: [
+    label: 'Egg',
+    hexcode: '1F95A',
+    tags: [
       'egg',
       'food',
       'chicken',
@@ -17380,9 +17380,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'egg'
   },
   {
-    name: 'Cooking',
-    unified: '1F373',
-    keywords: [
+    label: 'Cooking',
+    hexcode: '1F373',
+    tags: [
       'cooking',
       'food',
       'breakfast',
@@ -17395,9 +17395,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fried_egg'
   },
   {
-    name: 'Shallow Pan of Food',
-    unified: '1F958',
-    keywords: [
+    label: 'Shallow Pan of Food',
+    hexcode: '1F958',
+    tags: [
       'shallow_pan_of_food',
       'food',
       'cooking',
@@ -17409,9 +17409,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shallow_pan_of_food'
   },
   {
-    name: 'Pot of Food',
-    unified: '1F372',
-    keywords: [
+    label: 'Pot of Food',
+    hexcode: '1F372',
+    tags: [
       'pot_of_food',
       'food',
       'meat',
@@ -17422,9 +17422,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stew'
   },
   {
-    name: 'Fondue',
-    unified: '1FAD5',
-    keywords: [
+    label: 'Fondue',
+    hexcode: '1FAD5',
+    tags: [
       'fondue',
       'cheese',
       'pot',
@@ -17434,9 +17434,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fondue'
   },
   {
-    name: 'Bowl with Spoon',
-    unified: '1F963',
-    keywords: [
+    label: 'Bowl with Spoon',
+    hexcode: '1F963',
+    tags: [
       'bowl_with_spoon',
       'food',
       'breakfast',
@@ -17448,9 +17448,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bowl_with_spoon'
   },
   {
-    name: 'Green Salad',
-    unified: '1F957',
-    keywords: [
+    label: 'Green Salad',
+    hexcode: '1F957',
+    tags: [
       'green_salad',
       'food',
       'healthy',
@@ -17461,9 +17461,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'green_salad'
   },
   {
-    name: 'Popcorn',
-    unified: '1F37F',
-    keywords: [
+    label: 'Popcorn',
+    hexcode: '1F37F',
+    tags: [
       'popcorn',
       'food',
       'movie theater',
@@ -17475,9 +17475,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'popcorn'
   },
   {
-    name: 'Butter',
-    unified: '1F9C8',
-    keywords: [
+    label: 'Butter',
+    hexcode: '1F9C8',
+    tags: [
       'butter',
       'food',
       'cook'
@@ -17486,9 +17486,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'butter'
   },
   {
-    name: 'Salt Shaker',
-    unified: '1F9C2',
-    keywords: [
+    label: 'Salt Shaker',
+    hexcode: '1F9C2',
+    tags: [
       'salt',
       'condiment',
       'shaker'
@@ -17497,9 +17497,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'salt'
   },
   {
-    name: 'Canned Food',
-    unified: '1F96B',
-    keywords: [
+    label: 'Canned Food',
+    hexcode: '1F96B',
+    tags: [
       'canned_food',
       'food',
       'soup',
@@ -17509,9 +17509,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'canned_food'
   },
   {
-    name: 'Bento Box',
-    unified: '1F371',
-    keywords: [
+    label: 'Bento Box',
+    hexcode: '1F371',
+    tags: [
       'bento_box',
       'food',
       'japanese',
@@ -17522,9 +17522,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bento'
   },
   {
-    name: 'Rice Cracker',
-    unified: '1F358',
-    keywords: [
+    label: 'Rice Cracker',
+    hexcode: '1F358',
+    tags: [
       'rice_cracker',
       'food',
       'japanese',
@@ -17534,9 +17534,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rice_cracker'
   },
   {
-    name: 'Rice Ball',
-    unified: '1F359',
-    keywords: [
+    label: 'Rice Ball',
+    hexcode: '1F359',
+    tags: [
       'rice_ball',
       'food',
       'japanese'
@@ -17545,9 +17545,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rice_ball'
   },
   {
-    name: 'Cooked Rice',
-    unified: '1F35A',
-    keywords: [
+    label: 'Cooked Rice',
+    hexcode: '1F35A',
+    tags: [
       'cooked_rice',
       'food',
       'asian'
@@ -17556,9 +17556,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rice'
   },
   {
-    name: 'Curry and Rice',
-    unified: '1F35B',
-    keywords: [
+    label: 'Curry and Rice',
+    hexcode: '1F35B',
+    tags: [
       'curry_rice',
       'food',
       'spicy',
@@ -17569,9 +17569,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'curry'
   },
   {
-    name: 'Steaming Bowl',
-    unified: '1F35C',
-    keywords: [
+    label: 'Steaming Bowl',
+    hexcode: '1F35C',
+    tags: [
       'steaming_bowl',
       'food',
       'japanese',
@@ -17583,9 +17583,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ramen'
   },
   {
-    name: 'Spaghetti',
-    unified: '1F35D',
-    keywords: [
+    label: 'Spaghetti',
+    hexcode: '1F35D',
+    tags: [
       'spaghetti',
       'food',
       'italian',
@@ -17596,9 +17596,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spaghetti'
   },
   {
-    name: 'Roasted Sweet Potato',
-    unified: '1F360',
-    keywords: [
+    label: 'Roasted Sweet Potato',
+    hexcode: '1F360',
+    tags: [
       'roasted_sweet_potato',
       'food',
       'nature',
@@ -17608,9 +17608,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sweet_potato'
   },
   {
-    name: 'Oden',
-    unified: '1F362',
-    keywords: [
+    label: 'Oden',
+    hexcode: '1F362',
+    tags: [
       'oden',
       'food',
       'japanese'
@@ -17619,9 +17619,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'oden'
   },
   {
-    name: 'Sushi',
-    unified: '1F363',
-    keywords: [
+    label: 'Sushi',
+    hexcode: '1F363',
+    tags: [
       'sushi',
       'food',
       'fish',
@@ -17632,9 +17632,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sushi'
   },
   {
-    name: 'Fried Shrimp',
-    unified: '1F364',
-    keywords: [
+    label: 'Fried Shrimp',
+    hexcode: '1F364',
+    tags: [
       'fried_shrimp',
       'food',
       'animal',
@@ -17645,9 +17645,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fried_shrimp'
   },
   {
-    name: 'Fish Cake with Swirl Design',
-    unified: '1F365',
-    keywords: [
+    label: 'Fish Cake with Swirl Design',
+    hexcode: '1F365',
+    tags: [
       'fish_cake_with_swirl',
       'food',
       'japan',
@@ -17664,9 +17664,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fish_cake'
   },
   {
-    name: 'Moon Cake',
-    unified: '1F96E',
-    keywords: [
+    label: 'Moon Cake',
+    hexcode: '1F96E',
+    tags: [
       'moon_cake',
       'food',
       'autumn',
@@ -17676,9 +17676,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'moon_cake'
   },
   {
-    name: 'Dango',
-    unified: '1F361',
-    keywords: [
+    label: 'Dango',
+    hexcode: '1F361',
+    tags: [
       'dango',
       'food',
       'dessert',
@@ -17691,9 +17691,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dango'
   },
   {
-    name: 'Dumpling',
-    unified: '1F95F',
-    keywords: [
+    label: 'Dumpling',
+    hexcode: '1F95F',
+    tags: [
       'dumpling',
       'food',
       'empanada',
@@ -17705,9 +17705,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dumpling'
   },
   {
-    name: 'Fortune Cookie',
-    unified: '1F960',
-    keywords: [
+    label: 'Fortune Cookie',
+    hexcode: '1F960',
+    tags: [
       'fortune_cookie',
       'food',
       'prophecy',
@@ -17717,9 +17717,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fortune_cookie'
   },
   {
-    name: 'Takeout Box',
-    unified: '1F961',
-    keywords: [
+    label: 'Takeout Box',
+    hexcode: '1F961',
+    tags: [
       'takeout_box',
       'food',
       'leftovers'
@@ -17728,9 +17728,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'takeout_box'
   },
   {
-    name: 'Crab',
-    unified: '1F980',
-    keywords: [
+    label: 'Crab',
+    hexcode: '1F980',
+    tags: [
       'crab',
       'animal',
       'crustacean'
@@ -17739,9 +17739,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crab'
   },
   {
-    name: 'Lobster',
-    unified: '1F99E',
-    keywords: [
+    label: 'Lobster',
+    hexcode: '1F99E',
+    tags: [
       'lobster',
       'animal',
       'nature',
@@ -17753,9 +17753,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lobster'
   },
   {
-    name: 'Shrimp',
-    unified: '1F990',
-    keywords: [
+    label: 'Shrimp',
+    hexcode: '1F990',
+    tags: [
       'shrimp',
       'animal',
       'ocean',
@@ -17766,9 +17766,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shrimp'
   },
   {
-    name: 'Squid',
-    unified: '1F991',
-    keywords: [
+    label: 'Squid',
+    hexcode: '1F991',
+    tags: [
       'squid',
       'animal',
       'nature',
@@ -17779,16 +17779,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'squid'
   },
   {
-    name: 'Oyster',
-    unified: '1F9AA',
-    keywords: ['oyster', 'food'],
+    label: 'Oyster',
+    hexcode: '1F9AA',
+    tags: ['oyster', 'food'],
     sheet: [44, 60],
     shortName: 'oyster'
   },
   {
-    name: 'Soft Ice Cream',
-    unified: '1F366',
-    keywords: [
+    label: 'Soft Ice Cream',
+    hexcode: '1F366',
+    tags: [
       'soft_ice_cream',
       'food',
       'hot',
@@ -17799,9 +17799,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'icecream'
   },
   {
-    name: 'Shaved Ice',
-    unified: '1F367',
-    keywords: [
+    label: 'Shaved Ice',
+    hexcode: '1F367',
+    tags: [
       'shaved_ice',
       'hot',
       'dessert',
@@ -17811,9 +17811,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shaved_ice'
   },
   {
-    name: 'Ice Cream',
-    unified: '1F368',
-    keywords: [
+    label: 'Ice Cream',
+    hexcode: '1F368',
+    tags: [
       'ice_cream',
       'food',
       'hot',
@@ -17823,9 +17823,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ice_cream'
   },
   {
-    name: 'Doughnut',
-    unified: '1F369',
-    keywords: [
+    label: 'Doughnut',
+    hexcode: '1F369',
+    tags: [
       'doughnut',
       'food',
       'dessert',
@@ -17837,9 +17837,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'doughnut'
   },
   {
-    name: 'Cookie',
-    unified: '1F36A',
-    keywords: [
+    label: 'Cookie',
+    hexcode: '1F36A',
+    tags: [
       'cookie',
       'food',
       'snack',
@@ -17852,9 +17852,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cookie'
   },
   {
-    name: 'Birthday Cake',
-    unified: '1F382',
-    keywords: [
+    label: 'Birthday Cake',
+    hexcode: '1F382',
+    tags: [
       'birthday_cake',
       'food',
       'dessert',
@@ -17864,9 +17864,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'birthday'
   },
   {
-    name: 'Shortcake',
-    unified: '1F370',
-    keywords: [
+    label: 'Shortcake',
+    hexcode: '1F370',
+    tags: [
       'shortcake',
       'food',
       'dessert'
@@ -17875,9 +17875,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cake'
   },
   {
-    name: 'Cupcake',
-    unified: '1F9C1',
-    keywords: [
+    label: 'Cupcake',
+    hexcode: '1F9C1',
+    tags: [
       'cupcake',
       'food',
       'dessert',
@@ -17888,9 +17888,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cupcake'
   },
   {
-    name: 'Pie',
-    unified: '1F967',
-    keywords: [
+    label: 'Pie',
+    hexcode: '1F967',
+    tags: [
       'pie',
       'food',
       'dessert',
@@ -17900,9 +17900,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pie'
   },
   {
-    name: 'Chocolate Bar',
-    unified: '1F36B',
-    keywords: [
+    label: 'Chocolate Bar',
+    hexcode: '1F36B',
+    tags: [
       'chocolate_bar',
       'food',
       'snack',
@@ -17913,9 +17913,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chocolate_bar'
   },
   {
-    name: 'Candy',
-    unified: '1F36C',
-    keywords: [
+    label: 'Candy',
+    hexcode: '1F36C',
+    tags: [
       'candy',
       'snack',
       'dessert',
@@ -17926,9 +17926,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'candy'
   },
   {
-    name: 'Lollipop',
-    unified: '1F36D',
-    keywords: [
+    label: 'Lollipop',
+    hexcode: '1F36D',
+    tags: [
       'lollipop',
       'food',
       'snack',
@@ -17939,9 +17939,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lollipop'
   },
   {
-    name: 'Custard',
-    unified: '1F36E',
-    keywords: [
+    label: 'Custard',
+    hexcode: '1F36E',
+    tags: [
       'custard',
       'dessert',
       'food'
@@ -17950,9 +17950,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'custard'
   },
   {
-    name: 'Honey Pot',
-    unified: '1F36F',
-    keywords: [
+    label: 'Honey Pot',
+    hexcode: '1F36F',
+    tags: [
       'honey_pot',
       'bees',
       'sweet',
@@ -17962,9 +17962,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'honey_pot'
   },
   {
-    name: 'Baby Bottle',
-    unified: '1F37C',
-    keywords: [
+    label: 'Baby Bottle',
+    hexcode: '1F37C',
+    tags: [
       'baby_bottle',
       'food',
       'container',
@@ -17974,9 +17974,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'baby_bottle'
   },
   {
-    name: 'Glass of Milk',
-    unified: '1F95B',
-    keywords: [
+    label: 'Glass of Milk',
+    hexcode: '1F95B',
+    tags: [
       'glass_of_milk',
       'beverage',
       'drink',
@@ -17986,9 +17986,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'glass_of_milk'
   },
   {
-    name: 'Hot Beverage',
-    unified: '2615',
-    keywords: [
+    label: 'Hot Beverage',
+    hexcode: '2615',
+    tags: [
       'hot_beverage',
       'beverage',
       'caffeine',
@@ -18001,9 +18001,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'coffee'
   },
   {
-    name: 'Teapot',
-    unified: '1FAD6',
-    keywords: [
+    label: 'Teapot',
+    hexcode: '1FAD6',
+    tags: [
       'teapot',
       'drink',
       'hot'
@@ -18012,9 +18012,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'teapot'
   },
   {
-    name: 'Teacup Without Handle',
-    unified: '1F375',
-    keywords: [
+    label: 'Teacup Without Handle',
+    hexcode: '1F375',
+    tags: [
       'teacup_without_handle',
       'drink',
       'bowl',
@@ -18026,9 +18026,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tea'
   },
   {
-    name: 'Sake Bottle and Cup',
-    unified: '1F376',
-    keywords: [
+    label: 'Sake Bottle and Cup',
+    hexcode: '1F376',
+    tags: [
       'sake',
       'wine',
       'drink',
@@ -18042,9 +18042,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sake'
   },
   {
-    name: 'Bottle with Popping Cork',
-    unified: '1F37E',
-    keywords: [
+    label: 'Bottle with Popping Cork',
+    hexcode: '1F37E',
+    tags: [
       'bottle_with_popping_cork',
       'drink',
       'wine',
@@ -18055,9 +18055,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'champagne'
   },
   {
-    name: 'Wine Glass',
-    unified: '1F377',
-    keywords: [
+    label: 'Wine Glass',
+    hexcode: '1F377',
+    tags: [
       'wine_glass',
       'drink',
       'beverage',
@@ -18069,9 +18069,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wine_glass'
   },
   {
-    name: 'Cocktail Glass',
-    unified: '1F378',
-    keywords: [
+    label: 'Cocktail Glass',
+    hexcode: '1F378',
+    tags: [
       'cocktail_glass',
       'drink',
       'drunk',
@@ -18084,9 +18084,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cocktail'
   },
   {
-    name: 'Tropical Drink',
-    unified: '1F379',
-    keywords: [
+    label: 'Tropical Drink',
+    hexcode: '1F379',
+    tags: [
       'tropical_drink',
       'beverage',
       'cocktail',
@@ -18100,9 +18100,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tropical_drink'
   },
   {
-    name: 'Beer Mug',
-    unified: '1F37A',
-    keywords: [
+    label: 'Beer Mug',
+    hexcode: '1F37A',
+    tags: [
       'beer_mug',
       'relax',
       'beverage',
@@ -18118,9 +18118,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'beer'
   },
   {
-    name: 'Clinking Beer Mugs',
-    unified: '1F37B',
-    keywords: [
+    label: 'Clinking Beer Mugs',
+    hexcode: '1F37B',
+    tags: [
       'clinking_beer_mugs',
       'relax',
       'beverage',
@@ -18136,9 +18136,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'beers'
   },
   {
-    name: 'Clinking Glasses',
-    unified: '1F942',
-    keywords: [
+    label: 'Clinking Glasses',
+    hexcode: '1F942',
+    tags: [
       'clinking_glasses',
       'beverage',
       'drink',
@@ -18154,9 +18154,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clinking_glasses'
   },
   {
-    name: 'Tumbler Glass',
-    unified: '1F943',
-    keywords: [
+    label: 'Tumbler Glass',
+    hexcode: '1F943',
+    tags: [
       'tumbler_glass',
       'drink',
       'beverage',
@@ -18174,9 +18174,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tumbler_glass'
   },
   {
-    name: 'Pouring Liquid',
-    unified: '1FAD7',
-    keywords: [
+    label: 'Pouring Liquid',
+    hexcode: '1FAD7',
+    tags: [
       'pouring liquid',
       'cup',
       'water'
@@ -18186,9 +18186,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pouring_liquid'
   },
   {
-    name: 'Cup with Straw',
-    unified: '1F964',
-    keywords: [
+    label: 'Cup with Straw',
+    hexcode: '1F964',
+    tags: [
       'cup_with_straw',
       'drink',
       'soda'
@@ -18197,9 +18197,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cup_with_straw'
   },
   {
-    name: 'Bubble Tea',
-    unified: '1F9CB',
-    keywords: [
+    label: 'Bubble Tea',
+    hexcode: '1F9CB',
+    tags: [
       'bubble tea',
       'taiwan',
       'boba',
@@ -18210,16 +18210,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bubble_tea'
   },
   {
-    name: 'Beverage Box',
-    unified: '1F9C3',
-    keywords: ['beverage_box', 'drink'],
+    label: 'Beverage Box',
+    hexcode: '1F9C3',
+    tags: ['beverage_box', 'drink'],
     sheet: [46, 8],
     shortName: 'beverage_box'
   },
   {
-    name: 'Mate Drink',
-    unified: '1F9C9',
-    keywords: [
+    label: 'Mate Drink',
+    hexcode: '1F9C9',
+    tags: [
       'mate',
       'drink',
       'tea',
@@ -18229,23 +18229,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mate_drink'
   },
   {
-    name: 'Ice Cube',
-    unified: '1F9CA',
-    keywords: ['ice', 'water', 'cold'],
+    label: 'Ice Cube',
+    hexcode: '1F9CA',
+    tags: ['ice', 'water', 'cold'],
     sheet: [46, 15],
     shortName: 'ice_cube'
   },
   {
-    name: 'Chopsticks',
-    unified: '1F962',
-    keywords: ['chopsticks', 'food'],
+    label: 'Chopsticks',
+    hexcode: '1F962',
+    tags: ['chopsticks', 'food'],
     sheet: [43, 44],
     shortName: 'chopsticks'
   },
   {
-    name: 'Fork and Knife with Plate',
-    unified: '1F37D-FE0F',
-    keywords: [
+    label: 'Fork and Knife with Plate',
+    hexcode: '1F37D-FE0F',
+    tags: [
       'fork_and_knife_with_plate',
       'food',
       'eat',
@@ -18258,9 +18258,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'knife_fork_plate'
   },
   {
-    name: 'Fork and Knife',
-    unified: '1F374',
-    keywords: [
+    label: 'Fork and Knife',
+    hexcode: '1F374',
+    tags: [
       'fork_and_knife',
       'cutlery',
       'kitchen'
@@ -18269,9 +18269,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fork_and_knife'
   },
   {
-    name: 'Spoon',
-    unified: '1F944',
-    keywords: [
+    label: 'Spoon',
+    hexcode: '1F944',
+    tags: [
       'spoon',
       'cutlery',
       'kitchen',
@@ -18281,9 +18281,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spoon'
   },
   {
-    name: 'Hocho',
-    unified: '1F52A',
-    keywords: [
+    label: 'Hocho',
+    hexcode: '1F52A',
+    tags: [
       'kitchen_knife',
       'knife',
       'blade',
@@ -18296,9 +18296,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hocho'
   },
   {
-    name: 'Jar',
-    unified: '1FAD9',
-    keywords: [
+    label: 'Jar',
+    hexcode: '1FAD9',
+    tags: [
       'jar',
       'container',
       'sauce'
@@ -18308,9 +18308,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'jar'
   },
   {
-    name: 'Amphora',
-    unified: '1F3FA',
-    keywords: [
+    label: 'Amphora',
+    hexcode: '1F3FA',
+    tags: [
       'amphora',
       'vase',
       'jar'
@@ -18319,9 +18319,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'amphora'
   },
   {
-    name: 'Earth Globe Europe-Africa',
-    unified: '1F30D',
-    keywords: [
+    label: 'Earth Globe Europe-Africa',
+    hexcode: '1F30D',
+    tags: [
       'globe_showing_europe_africa',
       'globe',
       'world',
@@ -18331,9 +18331,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'earth_africa'
   },
   {
-    name: 'Earth Globe Americas',
-    unified: '1F30E',
-    keywords: [
+    label: 'Earth Globe Americas',
+    hexcode: '1F30E',
+    tags: [
       'globe_showing_americas',
       'globe',
       'world',
@@ -18344,9 +18344,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'earth_americas'
   },
   {
-    name: 'Earth Globe Asia-Australia',
-    unified: '1F30F',
-    keywords: [
+    label: 'Earth Globe Asia-Australia',
+    hexcode: '1F30F',
+    tags: [
       'globe_showing_asia_australia',
       'globe',
       'world',
@@ -18357,9 +18357,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'earth_asia'
   },
   {
-    name: 'Globe with Meridians',
-    unified: '1F310',
-    keywords: [
+    label: 'Globe with Meridians',
+    hexcode: '1F310',
+    tags: [
       'globe_with_meridians',
       'earth',
       'international',
@@ -18372,9 +18372,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'globe_with_meridians'
   },
   {
-    name: 'World Map',
-    unified: '1F5FA-FE0F',
-    keywords: [
+    label: 'World Map',
+    hexcode: '1F5FA-FE0F',
+    tags: [
       'world_map',
       'location',
       'direction'
@@ -18383,9 +18383,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'world_map'
   },
   {
-    name: 'Silhouette of Japan',
-    unified: '1F5FE',
-    keywords: [
+    label: 'Silhouette of Japan',
+    hexcode: '1F5FE',
+    tags: [
       'map_of_japan',
       'nation',
       'country',
@@ -18396,9 +18396,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'japan'
   },
   {
-    name: 'Compass',
-    unified: '1F9ED',
-    keywords: [
+    label: 'Compass',
+    hexcode: '1F9ED',
+    tags: [
       'compass',
       'magnetic',
       'navigation',
@@ -18408,9 +18408,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'compass'
   },
   {
-    name: 'Snow-Capped Mountain',
-    unified: '1F3D4-FE0F',
-    keywords: [
+    label: 'Snow-Capped Mountain',
+    hexcode: '1F3D4-FE0F',
+    tags: [
       'snow_capped_mountain',
       'photo',
       'nature',
@@ -18422,9 +18422,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snow_capped_mountain'
   },
   {
-    name: 'Mountain',
-    unified: '26F0-FE0F',
-    keywords: [
+    label: 'Mountain',
+    hexcode: '26F0-FE0F',
+    tags: [
       'mountain',
       'photo',
       'nature',
@@ -18434,9 +18434,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mountain'
   },
   {
-    name: 'Volcano',
-    unified: '1F30B',
-    keywords: [
+    label: 'Volcano',
+    hexcode: '1F30B',
+    tags: [
       'volcano',
       'photo',
       'nature',
@@ -18446,9 +18446,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'volcano'
   },
   {
-    name: 'Mount Fuji',
-    unified: '1F5FB',
-    keywords: [
+    label: 'Mount Fuji',
+    hexcode: '1F5FB',
+    tags: [
       'mount_fuji',
       'photo',
       'mountain',
@@ -18459,9 +18459,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mount_fuji'
   },
   {
-    name: 'Camping',
-    unified: '1F3D5-FE0F',
-    keywords: [
+    label: 'Camping',
+    hexcode: '1F3D5-FE0F',
+    tags: [
       'camping',
       'photo',
       'outdoors',
@@ -18471,9 +18471,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'camping'
   },
   {
-    name: 'Beach with Umbrella',
-    unified: '1F3D6-FE0F',
-    keywords: [
+    label: 'Beach with Umbrella',
+    hexcode: '1F3D6-FE0F',
+    tags: [
       'beach_with_umbrella',
       'weather',
       'summer',
@@ -18485,9 +18485,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'beach_with_umbrella'
   },
   {
-    name: 'Desert',
-    unified: '1F3DC-FE0F',
-    keywords: [
+    label: 'Desert',
+    hexcode: '1F3DC-FE0F',
+    tags: [
       'desert',
       'photo',
       'warm',
@@ -18497,9 +18497,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'desert'
   },
   {
-    name: 'Desert Island',
-    unified: '1F3DD-FE0F',
-    keywords: [
+    label: 'Desert Island',
+    hexcode: '1F3DD-FE0F',
+    tags: [
       'desert_island',
       'photo',
       'tropical',
@@ -18509,9 +18509,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'desert_island'
   },
   {
-    name: 'National Park',
-    unified: '1F3DE-FE0F',
-    keywords: [
+    label: 'National Park',
+    hexcode: '1F3DE-FE0F',
+    tags: [
       'national_park',
       'photo',
       'environment',
@@ -18521,9 +18521,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'national_park'
   },
   {
-    name: 'Stadium',
-    unified: '1F3DF-FE0F',
-    keywords: [
+    label: 'Stadium',
+    hexcode: '1F3DF-FE0F',
+    tags: [
       'stadium',
       'photo',
       'place',
@@ -18535,9 +18535,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stadium'
   },
   {
-    name: 'Classical Building',
-    unified: '1F3DB-FE0F',
-    keywords: [
+    label: 'Classical Building',
+    hexcode: '1F3DB-FE0F',
+    tags: [
       'classical_building',
       'art',
       'culture',
@@ -18547,9 +18547,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'classical_building'
   },
   {
-    name: 'Building Construction',
-    unified: '1F3D7-FE0F',
-    keywords: [
+    label: 'Building Construction',
+    hexcode: '1F3D7-FE0F',
+    tags: [
       'building_construction',
       'wip',
       'working',
@@ -18559,23 +18559,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'building_construction'
   },
   {
-    name: 'Brick',
-    unified: '1F9F1',
-    keywords: ['brick', 'bricks'],
+    label: 'Brick',
+    hexcode: '1F9F1',
+    tags: ['brick', 'bricks'],
     sheet: [53, 31],
     shortName: 'bricks'
   },
   {
-    name: 'Rock',
-    unified: '1FAA8',
-    keywords: ['rock', 'stone'],
+    label: 'Rock',
+    hexcode: '1FAA8',
+    tags: ['rock', 'stone'],
     sheet: [54, 26],
     shortName: 'rock'
   },
   {
-    name: 'Wood',
-    unified: '1FAB5',
-    keywords: [
+    label: 'Wood',
+    hexcode: '1FAB5',
+    tags: [
       'wood',
       'nature',
       'timber',
@@ -18585,9 +18585,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wood'
   },
   {
-    name: 'Hut',
-    unified: '1F6D6',
-    keywords: [
+    label: 'Hut',
+    hexcode: '1F6D6',
+    tags: [
       'hut',
       'house',
       'structure'
@@ -18596,9 +18596,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hut'
   },
   {
-    name: 'Houses',
-    unified: '1F3D8-FE0F',
-    keywords: [
+    label: 'Houses',
+    hexcode: '1F3D8-FE0F',
+    tags: [
       'houses',
       'buildings',
       'photo'
@@ -18607,9 +18607,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'house_buildings'
   },
   {
-    name: 'Derelict House',
-    unified: '1F3DA-FE0F',
-    keywords: [
+    label: 'Derelict House',
+    hexcode: '1F3DA-FE0F',
+    tags: [
       'derelict_house',
       'abandon',
       'evict',
@@ -18620,9 +18620,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'derelict_house_building'
   },
   {
-    name: 'House Building',
-    unified: '1F3E0',
-    keywords: [
+    label: 'House Building',
+    hexcode: '1F3E0',
+    tags: [
       'house',
       'building',
       'home'
@@ -18631,9 +18631,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'house'
   },
   {
-    name: 'House with Garden',
-    unified: '1F3E1',
-    keywords: [
+    label: 'House with Garden',
+    hexcode: '1F3E1',
+    tags: [
       'house_with_garden',
       'home',
       'plant',
@@ -18643,9 +18643,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'house_with_garden'
   },
   {
-    name: 'Office Building',
-    unified: '1F3E2',
-    keywords: [
+    label: 'Office Building',
+    hexcode: '1F3E2',
+    tags: [
       'office_building',
       'building',
       'bureau',
@@ -18655,9 +18655,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'office'
   },
   {
-    name: 'Japanese Post Office',
-    unified: '1F3E3',
-    keywords: [
+    label: 'Japanese Post Office',
+    hexcode: '1F3E3',
+    tags: [
       'japanese_post_office',
       'building',
       'envelope',
@@ -18667,9 +18667,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'post_office'
   },
   {
-    name: 'European Post Office',
-    unified: '1F3E4',
-    keywords: [
+    label: 'European Post Office',
+    hexcode: '1F3E4',
+    tags: [
       'post_office',
       'building',
       'email'
@@ -18678,9 +18678,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'european_post_office'
   },
   {
-    name: 'Hospital',
-    unified: '1F3E5',
-    keywords: [
+    label: 'Hospital',
+    hexcode: '1F3E5',
+    tags: [
       'hospital',
       'building',
       'health',
@@ -18691,9 +18691,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hospital'
   },
   {
-    name: 'Bank',
-    unified: '1F3E6',
-    keywords: [
+    label: 'Bank',
+    hexcode: '1F3E6',
+    tags: [
       'bank',
       'building',
       'money',
@@ -18706,9 +18706,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bank'
   },
   {
-    name: 'Hotel',
-    unified: '1F3E8',
-    keywords: [
+    label: 'Hotel',
+    hexcode: '1F3E8',
+    tags: [
       'hotel',
       'building',
       'accomodation',
@@ -18718,9 +18718,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hotel'
   },
   {
-    name: 'Love Hotel',
-    unified: '1F3E9',
-    keywords: [
+    label: 'Love Hotel',
+    hexcode: '1F3E9',
+    tags: [
       'love_hotel',
       'like',
       'affection',
@@ -18730,9 +18730,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'love_hotel'
   },
   {
-    name: 'Convenience Store',
-    unified: '1F3EA',
-    keywords: [
+    label: 'Convenience Store',
+    hexcode: '1F3EA',
+    tags: [
       'convenience_store',
       'building',
       'shopping',
@@ -18742,9 +18742,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'convenience_store'
   },
   {
-    name: 'School',
-    unified: '1F3EB',
-    keywords: [
+    label: 'School',
+    hexcode: '1F3EB',
+    tags: [
       'school',
       'building',
       'student',
@@ -18756,9 +18756,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'school'
   },
   {
-    name: 'Department Store',
-    unified: '1F3EC',
-    keywords: [
+    label: 'Department Store',
+    hexcode: '1F3EC',
+    tags: [
       'department_store',
       'building',
       'shopping',
@@ -18768,9 +18768,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'department_store'
   },
   {
-    name: 'Factory',
-    unified: '1F3ED',
-    keywords: [
+    label: 'Factory',
+    hexcode: '1F3ED',
+    tags: [
       'factory',
       'building',
       'industry',
@@ -18781,9 +18781,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'factory'
   },
   {
-    name: 'Japanese Castle',
-    unified: '1F3EF',
-    keywords: [
+    label: 'Japanese Castle',
+    hexcode: '1F3EF',
+    tags: [
       'japanese_castle',
       'photo',
       'building'
@@ -18792,9 +18792,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'japanese_castle'
   },
   {
-    name: 'European Castle',
-    unified: '1F3F0',
-    keywords: [
+    label: 'European Castle',
+    hexcode: '1F3F0',
+    tags: [
       'castle',
       'building',
       'royalty',
@@ -18804,9 +18804,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'european_castle'
   },
   {
-    name: 'Wedding',
-    unified: '1F492',
-    keywords: [
+    label: 'Wedding',
+    hexcode: '1F492',
+    tags: [
       'wedding',
       'love',
       'like',
@@ -18820,9 +18820,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wedding'
   },
   {
-    name: 'Tokyo Tower',
-    unified: '1F5FC',
-    keywords: [
+    label: 'Tokyo Tower',
+    hexcode: '1F5FC',
+    tags: [
       'tokyo_tower',
       'photo',
       'japanese'
@@ -18831,9 +18831,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tokyo_tower'
   },
   {
-    name: 'Statue of Liberty',
-    unified: '1F5FD',
-    keywords: [
+    label: 'Statue of Liberty',
+    hexcode: '1F5FD',
+    tags: [
       'statue_of_liberty',
       'american',
       'newyork'
@@ -18842,9 +18842,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'statue_of_liberty'
   },
   {
-    name: 'Church',
-    unified: '26EA',
-    keywords: [
+    label: 'Church',
+    hexcode: '26EA',
+    tags: [
       'church',
       'building',
       'religion',
@@ -18854,9 +18854,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'church'
   },
   {
-    name: 'Mosque',
-    unified: '1F54C',
-    keywords: [
+    label: 'Mosque',
+    hexcode: '1F54C',
+    tags: [
       'mosque',
       'islam',
       'worship',
@@ -18866,9 +18866,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mosque'
   },
   {
-    name: 'Hindu Temple',
-    unified: '1F6D5',
-    keywords: [
+    label: 'Hindu Temple',
+    hexcode: '1F6D5',
+    tags: [
       'hindu_temple',
       'religion'
     ],
@@ -18876,9 +18876,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hindu_temple'
   },
   {
-    name: 'Synagogue',
-    unified: '1F54D',
-    keywords: [
+    label: 'Synagogue',
+    hexcode: '1F54D',
+    tags: [
       'synagogue',
       'judaism',
       'worship',
@@ -18889,9 +18889,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'synagogue'
   },
   {
-    name: 'Shinto Shrine',
-    unified: '26E9-FE0F',
-    keywords: [
+    label: 'Shinto Shrine',
+    hexcode: '26E9-FE0F',
+    tags: [
       'shinto_shrine',
       'temple',
       'japan',
@@ -18901,9 +18901,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shinto_shrine'
   },
   {
-    name: 'Kaaba',
-    unified: '1F54B',
-    keywords: [
+    label: 'Kaaba',
+    hexcode: '1F54B',
+    tags: [
       'kaaba',
       'mecca',
       'mosque',
@@ -18913,9 +18913,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kaaba'
   },
   {
-    name: 'Fountain',
-    unified: '26F2',
-    keywords: [
+    label: 'Fountain',
+    hexcode: '26F2',
+    tags: [
       'fountain',
       'photo',
       'summer',
@@ -18926,9 +18926,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fountain'
   },
   {
-    name: 'Tent',
-    unified: '26FA',
-    keywords: [
+    label: 'Tent',
+    hexcode: '26FA',
+    tags: [
       'tent',
       'photo',
       'camping',
@@ -18938,9 +18938,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tent'
   },
   {
-    name: 'Foggy',
-    unified: '1F301',
-    keywords: [
+    label: 'Foggy',
+    hexcode: '1F301',
+    tags: [
       'foggy',
       'photo',
       'mountain'
@@ -18949,9 +18949,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'foggy'
   },
   {
-    name: 'Night with Stars',
-    unified: '1F303',
-    keywords: [
+    label: 'Night with Stars',
+    hexcode: '1F303',
+    tags: [
       'night_with_stars',
       'evening',
       'city',
@@ -18961,9 +18961,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'night_with_stars'
   },
   {
-    name: 'Cityscape',
-    unified: '1F3D9-FE0F',
-    keywords: [
+    label: 'Cityscape',
+    hexcode: '1F3D9-FE0F',
+    tags: [
       'cityscape',
       'photo',
       'night life',
@@ -18973,9 +18973,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cityscape'
   },
   {
-    name: 'Sunrise over Mountains',
-    unified: '1F304',
-    keywords: [
+    label: 'Sunrise over Mountains',
+    hexcode: '1F304',
+    tags: [
       'sunrise_over_mountains',
       'view',
       'vacation',
@@ -18985,9 +18985,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sunrise_over_mountains'
   },
   {
-    name: 'Sunrise',
-    unified: '1F305',
-    keywords: [
+    label: 'Sunrise',
+    hexcode: '1F305',
+    tags: [
       'sunrise',
       'morning',
       'view',
@@ -18998,9 +18998,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sunrise'
   },
   {
-    name: 'Cityscape at Dusk',
-    unified: '1F306',
-    keywords: [
+    label: 'Cityscape at Dusk',
+    hexcode: '1F306',
+    tags: [
       'cityscape_at_dusk',
       'photo',
       'evening',
@@ -19011,9 +19011,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'city_sunset'
   },
   {
-    name: 'Sunset over Buildings',
-    unified: '1F307',
-    keywords: [
+    label: 'Sunset over Buildings',
+    hexcode: '1F307',
+    tags: [
       'sunset',
       'photo',
       'good morning',
@@ -19023,9 +19023,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'city_sunrise'
   },
   {
-    name: 'Bridge at Night',
-    unified: '1F309',
-    keywords: [
+    label: 'Bridge at Night',
+    hexcode: '1F309',
+    tags: [
       'bridge_at_night',
       'photo',
       'sanfrancisco'
@@ -19034,9 +19034,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bridge_at_night'
   },
   {
-    name: 'Hot Springs',
-    unified: '2668-FE0F',
-    keywords: [
+    label: 'Hot Springs',
+    hexcode: '2668-FE0F',
+    tags: [
       'hot_springs',
       'bath',
       'warm',
@@ -19046,9 +19046,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hotsprings'
   },
   {
-    name: 'Carousel Horse',
-    unified: '1F3A0',
-    keywords: [
+    label: 'Carousel Horse',
+    hexcode: '1F3A0',
+    tags: [
       'carousel_horse',
       'photo',
       'carnival'
@@ -19057,9 +19057,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'carousel_horse'
   },
   {
-    name: 'Playground Slide',
-    unified: '1F6DD',
-    keywords: [
+    label: 'Playground Slide',
+    hexcode: '1F6DD',
+    tags: [
       'playground slide',
       'fun',
       'park'
@@ -19069,9 +19069,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'playground_slide'
   },
   {
-    name: 'Ferris Wheel',
-    unified: '1F3A1',
-    keywords: [
+    label: 'Ferris Wheel',
+    hexcode: '1F3A1',
+    tags: [
       'ferris_wheel',
       'photo',
       'carnival',
@@ -19081,9 +19081,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ferris_wheel'
   },
   {
-    name: 'Roller Coaster',
-    unified: '1F3A2',
-    keywords: [
+    label: 'Roller Coaster',
+    hexcode: '1F3A2',
+    tags: [
       'roller_coaster',
       'carnival',
       'playground',
@@ -19094,9 +19094,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'roller_coaster'
   },
   {
-    name: 'Barber Pole',
-    unified: '1F488',
-    keywords: [
+    label: 'Barber Pole',
+    hexcode: '1F488',
+    tags: [
       'barber_pole',
       'hair',
       'salon',
@@ -19106,9 +19106,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'barber'
   },
   {
-    name: 'Circus Tent',
-    unified: '1F3AA',
-    keywords: [
+    label: 'Circus Tent',
+    hexcode: '1F3AA',
+    tags: [
       'circus_tent',
       'festival',
       'carnival',
@@ -19118,9 +19118,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'circus_tent'
   },
   {
-    name: 'Steam Locomotive',
-    unified: '1F682',
-    keywords: [
+    label: 'Steam Locomotive',
+    hexcode: '1F682',
+    tags: [
       'locomotive',
       'transportation',
       'vehicle',
@@ -19130,9 +19130,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'steam_locomotive'
   },
   {
-    name: 'Railway Car',
-    unified: '1F683',
-    keywords: [
+    label: 'Railway Car',
+    hexcode: '1F683',
+    tags: [
       'railway_car',
       'transportation',
       'vehicle'
@@ -19141,9 +19141,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'railway_car'
   },
   {
-    name: 'High-Speed Train',
-    unified: '1F684',
-    keywords: [
+    label: 'High-Speed Train',
+    hexcode: '1F684',
+    tags: [
       'high_speed_train',
       'transportation',
       'vehicle'
@@ -19152,9 +19152,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bullettrain_side'
   },
   {
-    name: 'High-Speed Train with Bullet Nose',
-    unified: '1F685',
-    keywords: [
+    label: 'High-Speed Train with Bullet Nose',
+    hexcode: '1F685',
+    tags: [
       'bullet_train',
       'transportation',
       'vehicle',
@@ -19167,9 +19167,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bullettrain_front'
   },
   {
-    name: 'Train',
-    unified: '1F686',
-    keywords: [
+    label: 'Train',
+    hexcode: '1F686',
+    tags: [
       'train',
       'transportation',
       'vehicle'
@@ -19178,9 +19178,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'train2'
   },
   {
-    name: 'Metro',
-    unified: '1F687',
-    keywords: [
+    label: 'Metro',
+    hexcode: '1F687',
+    tags: [
       'metro',
       'transportation',
       'blue-square',
@@ -19192,9 +19192,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'metro'
   },
   {
-    name: 'Light Rail',
-    unified: '1F688',
-    keywords: [
+    label: 'Light Rail',
+    hexcode: '1F688',
+    tags: [
       'light_rail',
       'transportation',
       'vehicle'
@@ -19203,9 +19203,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'light_rail'
   },
   {
-    name: 'Station',
-    unified: '1F689',
-    keywords: [
+    label: 'Station',
+    hexcode: '1F689',
+    tags: [
       'station',
       'transportation',
       'vehicle',
@@ -19215,9 +19215,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'station'
   },
   {
-    name: 'Tram',
-    unified: '1F68A',
-    keywords: [
+    label: 'Tram',
+    hexcode: '1F68A',
+    tags: [
       'tram',
       'transportation',
       'vehicle'
@@ -19226,9 +19226,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tram'
   },
   {
-    name: 'Monorail',
-    unified: '1F69D',
-    keywords: [
+    label: 'Monorail',
+    hexcode: '1F69D',
+    tags: [
       'monorail',
       'transportation',
       'vehicle'
@@ -19237,9 +19237,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'monorail'
   },
   {
-    name: 'Mountain Railway',
-    unified: '1F69E',
-    keywords: [
+    label: 'Mountain Railway',
+    hexcode: '1F69E',
+    tags: [
       'mountain_railway',
       'transportation',
       'vehicle'
@@ -19248,9 +19248,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mountain_railway'
   },
   {
-    name: 'Tram Car',
-    unified: '1F68B',
-    keywords: [
+    label: 'Tram Car',
+    hexcode: '1F68B',
+    tags: [
       'tram_car',
       'transportation',
       'vehicle',
@@ -19262,9 +19262,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'train'
   },
   {
-    name: 'Bus',
-    unified: '1F68C',
-    keywords: [
+    label: 'Bus',
+    hexcode: '1F68C',
+    tags: [
       'bus',
       'car',
       'vehicle',
@@ -19274,9 +19274,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bus'
   },
   {
-    name: 'Oncoming Bus',
-    unified: '1F68D',
-    keywords: [
+    label: 'Oncoming Bus',
+    hexcode: '1F68D',
+    tags: [
       'oncoming_bus',
       'vehicle',
       'transportation'
@@ -19285,9 +19285,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'oncoming_bus'
   },
   {
-    name: 'Trolleybus',
-    unified: '1F68E',
-    keywords: [
+    label: 'Trolleybus',
+    hexcode: '1F68E',
+    tags: [
       'trolleybus',
       'bart',
       'transportation',
@@ -19297,9 +19297,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'trolleybus'
   },
   {
-    name: 'Minibus',
-    unified: '1F690',
-    keywords: [
+    label: 'Minibus',
+    hexcode: '1F690',
+    tags: [
       'minibus',
       'vehicle',
       'car',
@@ -19309,9 +19309,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'minibus'
   },
   {
-    name: 'Ambulance',
-    unified: '1F691',
-    keywords: [
+    label: 'Ambulance',
+    hexcode: '1F691',
+    tags: [
       'ambulance',
       'health',
       '911',
@@ -19321,9 +19321,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ambulance'
   },
   {
-    name: 'Fire Engine',
-    unified: '1F692',
-    keywords: [
+    label: 'Fire Engine',
+    hexcode: '1F692',
+    tags: [
       'fire_engine',
       'transportation',
       'cars',
@@ -19333,9 +19333,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fire_engine'
   },
   {
-    name: 'Police Car',
-    unified: '1F693',
-    keywords: [
+    label: 'Police Car',
+    hexcode: '1F693',
+    tags: [
       'police_car',
       'vehicle',
       'cars',
@@ -19348,9 +19348,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'police_car'
   },
   {
-    name: 'Oncoming Police Car',
-    unified: '1F694',
-    keywords: [
+    label: 'Oncoming Police Car',
+    hexcode: '1F694',
+    tags: [
       'oncoming_police_car',
       'vehicle',
       'law',
@@ -19362,9 +19362,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'oncoming_police_car'
   },
   {
-    name: 'Taxi',
-    unified: '1F695',
-    keywords: [
+    label: 'Taxi',
+    hexcode: '1F695',
+    tags: [
       'taxi',
       'uber',
       'vehicle',
@@ -19375,9 +19375,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'taxi'
   },
   {
-    name: 'Oncoming Taxi',
-    unified: '1F696',
-    keywords: [
+    label: 'Oncoming Taxi',
+    hexcode: '1F696',
+    tags: [
       'oncoming_taxi',
       'vehicle',
       'cars',
@@ -19387,9 +19387,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'oncoming_taxi'
   },
   {
-    name: 'Automobile',
-    unified: '1F697',
-    keywords: [
+    label: 'Automobile',
+    hexcode: '1F697',
+    tags: [
       'automobile',
       'red',
       'transportation',
@@ -19400,9 +19400,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'car'
   },
   {
-    name: 'Oncoming Automobile',
-    unified: '1F698',
-    keywords: [
+    label: 'Oncoming Automobile',
+    hexcode: '1F698',
+    tags: [
       'oncoming_automobile',
       'car',
       'vehicle',
@@ -19412,9 +19412,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'oncoming_automobile'
   },
   {
-    name: 'Recreational Vehicle',
-    unified: '1F699',
-    keywords: [
+    label: 'Recreational Vehicle',
+    hexcode: '1F699',
+    tags: [
       'sport_utility_vehicle',
       'transportation',
       'vehicle'
@@ -19423,9 +19423,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'blue_car'
   },
   {
-    name: 'Pickup Truck',
-    unified: '1F6FB',
-    keywords: [
+    label: 'Pickup Truck',
+    hexcode: '1F6FB',
+    tags: [
       'pickup truck',
       'car',
       'transportation'
@@ -19434,9 +19434,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pickup_truck'
   },
   {
-    name: 'Delivery Truck',
-    unified: '1F69A',
-    keywords: [
+    label: 'Delivery Truck',
+    hexcode: '1F69A',
+    tags: [
       'delivery_truck',
       'cars',
       'transportation'
@@ -19445,9 +19445,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'truck'
   },
   {
-    name: 'Articulated Lorry',
-    unified: '1F69B',
-    keywords: [
+    label: 'Articulated Lorry',
+    hexcode: '1F69B',
+    tags: [
       'articulated_lorry',
       'vehicle',
       'cars',
@@ -19458,9 +19458,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'articulated_lorry'
   },
   {
-    name: 'Tractor',
-    unified: '1F69C',
-    keywords: [
+    label: 'Tractor',
+    hexcode: '1F69C',
+    tags: [
       'tractor',
       'vehicle',
       'car',
@@ -19471,9 +19471,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tractor'
   },
   {
-    name: 'Racing Car',
-    unified: '1F3CE-FE0F',
-    keywords: [
+    label: 'Racing Car',
+    hexcode: '1F3CE-FE0F',
+    tags: [
       'racing_car',
       'sports',
       'race',
@@ -19485,9 +19485,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'racing_car'
   },
   {
-    name: 'Motorcycle',
-    unified: '1F3CD-FE0F',
-    keywords: [
+    label: 'Motorcycle',
+    hexcode: '1F3CD-FE0F',
+    tags: [
       'motorcycle',
       'race',
       'sports',
@@ -19497,9 +19497,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'racing_motorcycle'
   },
   {
-    name: 'Motor Scooter',
-    unified: '1F6F5',
-    keywords: [
+    label: 'Motor Scooter',
+    hexcode: '1F6F5',
+    tags: [
       'motor_scooter',
       'vehicle',
       'vespa',
@@ -19509,9 +19509,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'motor_scooter'
   },
   {
-    name: 'Manual Wheelchair',
-    unified: '1F9BD',
-    keywords: [
+    label: 'Manual Wheelchair',
+    hexcode: '1F9BD',
+    tags: [
       'manual_wheelchair',
       'accessibility'
     ],
@@ -19519,9 +19519,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'manual_wheelchair'
   },
   {
-    name: 'Motorized Wheelchair',
-    unified: '1F9BC',
-    keywords: [
+    label: 'Motorized Wheelchair',
+    hexcode: '1F9BC',
+    tags: [
       'motorized_wheelchair',
       'accessibility'
     ],
@@ -19529,9 +19529,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'motorized_wheelchair'
   },
   {
-    name: 'Auto Rickshaw',
-    unified: '1F6FA',
-    keywords: [
+    label: 'Auto Rickshaw',
+    hexcode: '1F6FA',
+    tags: [
       'auto_rickshaw',
       'move',
       'transportation'
@@ -19540,9 +19540,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'auto_rickshaw'
   },
   {
-    name: 'Bicycle',
-    unified: '1F6B2',
-    keywords: [
+    label: 'Bicycle',
+    hexcode: '1F6B2',
+    tags: [
       'bicycle',
       'sports',
       'bicycle',
@@ -19553,9 +19553,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bike'
   },
   {
-    name: 'Scooter',
-    unified: '1F6F4',
-    keywords: [
+    label: 'Scooter',
+    hexcode: '1F6F4',
+    tags: [
       'kick_scooter',
       'vehicle',
       'kick',
@@ -19565,16 +19565,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scooter'
   },
   {
-    name: 'Skateboard',
-    unified: '1F6F9',
-    keywords: ['skateboard', 'board'],
+    label: 'Skateboard',
+    hexcode: '1F6F9',
+    tags: ['skateboard', 'board'],
     sheet: [38, 27],
     shortName: 'skateboard'
   },
   {
-    name: 'Roller Skate',
-    unified: '1F6FC',
-    keywords: [
+    label: 'Roller Skate',
+    hexcode: '1F6FC',
+    tags: [
       'roller skate',
       'footwear',
       'sports'
@@ -19583,9 +19583,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'roller_skate'
   },
   {
-    name: 'Bus Stop',
-    unified: '1F68F',
-    keywords: [
+    label: 'Bus Stop',
+    hexcode: '1F68F',
+    tags: [
       'bus_stop',
       'transportation',
       'wait'
@@ -19594,9 +19594,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'busstop'
   },
   {
-    name: 'Motorway',
-    unified: '1F6E3-FE0F',
-    keywords: [
+    label: 'Motorway',
+    hexcode: '1F6E3-FE0F',
+    tags: [
       'motorway',
       'road',
       'cupertino',
@@ -19607,9 +19607,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'motorway'
   },
   {
-    name: 'Railway Track',
-    unified: '1F6E4-FE0F',
-    keywords: [
+    label: 'Railway Track',
+    hexcode: '1F6E4-FE0F',
+    tags: [
       'railway_track',
       'train',
       'transportation'
@@ -19618,16 +19618,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'railway_track'
   },
   {
-    name: 'Oil Drum',
-    unified: '1F6E2-FE0F',
-    keywords: ['oil_drum', 'barrell'],
+    label: 'Oil Drum',
+    hexcode: '1F6E2-FE0F',
+    tags: ['oil_drum', 'barrell'],
     sheet: [38, 13],
     shortName: 'oil_drum'
   },
   {
-    name: 'Fuel Pump',
-    unified: '26FD',
-    keywords: [
+    label: 'Fuel Pump',
+    hexcode: '26FD',
+    tags: [
       'fuel_pump',
       'gas station',
       'petroleum'
@@ -19636,9 +19636,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fuelpump'
   },
   {
-    name: 'Wheel',
-    unified: '1F6DE',
-    keywords: [
+    label: 'Wheel',
+    hexcode: '1F6DE',
+    tags: [
       'wheel',
       'car',
       'transport'
@@ -19648,9 +19648,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wheel'
   },
   {
-    name: 'Police Cars Revolving Light',
-    unified: '1F6A8',
-    keywords: [
+    label: 'Police Cars Revolving Light',
+    hexcode: '1F6A8',
+    tags: [
       'police_car_light',
       'police',
       'ambulance',
@@ -19666,9 +19666,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rotating_light'
   },
   {
-    name: 'Horizontal Traffic Light',
-    unified: '1F6A5',
-    keywords: [
+    label: 'Horizontal Traffic Light',
+    hexcode: '1F6A5',
+    tags: [
       'horizontal_traffic_light',
       'transportation',
       'signal'
@@ -19677,9 +19677,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'traffic_light'
   },
   {
-    name: 'Vertical Traffic Light',
-    unified: '1F6A6',
-    keywords: [
+    label: 'Vertical Traffic Light',
+    hexcode: '1F6A6',
+    tags: [
       'vertical_traffic_light',
       'transportation',
       'driving'
@@ -19688,16 +19688,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'vertical_traffic_light'
   },
   {
-    name: 'Octagonal Sign',
-    unified: '1F6D1',
-    keywords: ['stop_sign', 'stop'],
+    label: 'Octagonal Sign',
+    hexcode: '1F6D1',
+    tags: ['stop_sign', 'stop'],
     sheet: [38, 3],
     shortName: 'octagonal_sign'
   },
   {
-    name: 'Construction Sign',
-    unified: '1F6A7',
-    keywords: [
+    label: 'Construction Sign',
+    hexcode: '1F6A7',
+    tags: [
       'construction',
       'wip',
       'progress',
@@ -19708,9 +19708,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'construction'
   },
   {
-    name: 'Anchor',
-    unified: '2693',
-    keywords: [
+    label: 'Anchor',
+    hexcode: '2693',
+    tags: [
       'anchor',
       'ship',
       'ferry',
@@ -19721,9 +19721,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'anchor'
   },
   {
-    name: 'Ring Buoy',
-    unified: '1F6DF',
-    keywords: [
+    label: 'Ring Buoy',
+    hexcode: '1F6DF',
+    tags: [
       'ring buoy',
       'life saver',
       'life preserver'
@@ -19733,9 +19733,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ring_buoy'
   },
   {
-    name: 'Sailboat',
-    unified: '26F5',
-    keywords: [
+    label: 'Sailboat',
+    hexcode: '26F5',
+    tags: [
       'sailboat',
       'ship',
       'summer',
@@ -19748,9 +19748,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'boat'
   },
   {
-    name: 'Canoe',
-    unified: '1F6F6',
-    keywords: [
+    label: 'Canoe',
+    hexcode: '1F6F6',
+    tags: [
       'canoe',
       'boat',
       'paddle',
@@ -19761,9 +19761,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'canoe'
   },
   {
-    name: 'Speedboat',
-    unified: '1F6A4',
-    keywords: [
+    label: 'Speedboat',
+    hexcode: '1F6A4',
+    tags: [
       'speedboat',
       'ship',
       'transportation',
@@ -19774,9 +19774,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'speedboat'
   },
   {
-    name: 'Passenger Ship',
-    unified: '1F6F3-FE0F',
-    keywords: [
+    label: 'Passenger Ship',
+    hexcode: '1F6F3-FE0F',
+    tags: [
       'passenger_ship',
       'yacht',
       'cruise',
@@ -19786,9 +19786,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'passenger_ship'
   },
   {
-    name: 'Ferry',
-    unified: '26F4-FE0F',
-    keywords: [
+    label: 'Ferry',
+    hexcode: '26F4-FE0F',
+    tags: [
       'ferry',
       'boat',
       'ship',
@@ -19798,16 +19798,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ferry'
   },
   {
-    name: 'Motor Boat',
-    unified: '1F6E5-FE0F',
-    keywords: ['motor_boat', 'ship'],
+    label: 'Motor Boat',
+    hexcode: '1F6E5-FE0F',
+    tags: ['motor_boat', 'ship'],
     sheet: [38, 16],
     shortName: 'motor_boat'
   },
   {
-    name: 'Ship',
-    unified: '1F6A2',
-    keywords: [
+    label: 'Ship',
+    hexcode: '1F6A2',
+    tags: [
       'ship',
       'transportation',
       'titanic',
@@ -19817,9 +19817,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ship'
   },
   {
-    name: 'Airplane',
-    unified: '2708-FE0F',
-    keywords: [
+    label: 'Airplane',
+    hexcode: '2708-FE0F',
+    tags: [
       'airplane',
       'vehicle',
       'transportation',
@@ -19830,9 +19830,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'airplane'
   },
   {
-    name: 'Small Airplane',
-    unified: '1F6E9-FE0F',
-    keywords: [
+    label: 'Small Airplane',
+    hexcode: '1F6E9-FE0F',
+    tags: [
       'small_airplane',
       'flight',
       'transportation',
@@ -19843,9 +19843,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'small_airplane'
   },
   {
-    name: 'Airplane Departure',
-    unified: '1F6EB',
-    keywords: [
+    label: 'Airplane Departure',
+    hexcode: '1F6EB',
+    tags: [
       'airplane_departure',
       'airport',
       'flight',
@@ -19855,9 +19855,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'airplane_departure'
   },
   {
-    name: 'Airplane Arriving',
-    unified: '1F6EC',
-    keywords: [
+    label: 'Airplane Arriving',
+    hexcode: '1F6EC',
+    tags: [
       'airplane_arrival',
       'airport',
       'flight',
@@ -19867,9 +19867,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'airplane_arriving'
   },
   {
-    name: 'Parachute',
-    unified: '1FA82',
-    keywords: [
+    label: 'Parachute',
+    hexcode: '1FA82',
+    tags: [
       'parachute',
       'fly',
       'glide'
@@ -19878,9 +19878,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'parachute'
   },
   {
-    name: 'Seat',
-    unified: '1F4BA',
-    keywords: [
+    label: 'Seat',
+    hexcode: '1F4BA',
+    tags: [
       'seat',
       'sit',
       'airplane',
@@ -19893,9 +19893,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'seat'
   },
   {
-    name: 'Helicopter',
-    unified: '1F681',
-    keywords: [
+    label: 'Helicopter',
+    hexcode: '1F681',
+    tags: [
       'helicopter',
       'transportation',
       'vehicle',
@@ -19905,9 +19905,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'helicopter'
   },
   {
-    name: 'Suspension Railway',
-    unified: '1F69F',
-    keywords: [
+    label: 'Suspension Railway',
+    hexcode: '1F69F',
+    tags: [
       'suspension_railway',
       'vehicle',
       'transportation'
@@ -19916,9 +19916,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'suspension_railway'
   },
   {
-    name: 'Mountain Cableway',
-    unified: '1F6A0',
-    keywords: [
+    label: 'Mountain Cableway',
+    hexcode: '1F6A0',
+    tags: [
       'mountain_cableway',
       'transportation',
       'vehicle',
@@ -19928,9 +19928,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mountain_cableway'
   },
   {
-    name: 'Aerial Tramway',
-    unified: '1F6A1',
-    keywords: [
+    label: 'Aerial Tramway',
+    hexcode: '1F6A1',
+    tags: [
       'aerial_tramway',
       'transportation',
       'vehicle',
@@ -19940,9 +19940,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'aerial_tramway'
   },
   {
-    name: 'Satellite',
-    unified: '1F6F0-FE0F',
-    keywords: [
+    label: 'Satellite',
+    hexcode: '1F6F0-FE0F',
+    tags: [
       'satellite',
       'communication',
       'gps',
@@ -19955,9 +19955,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'satellite'
   },
   {
-    name: 'Rocket',
-    unified: '1F680',
-    keywords: [
+    label: 'Rocket',
+    hexcode: '1F680',
+    tags: [
       'rocket',
       'launch',
       'ship',
@@ -19971,9 +19971,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rocket'
   },
   {
-    name: 'Flying Saucer',
-    unified: '1F6F8',
-    keywords: [
+    label: 'Flying Saucer',
+    hexcode: '1F6F8',
+    tags: [
       'flying_saucer',
       'transportation',
       'vehicle',
@@ -19983,9 +19983,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flying_saucer'
   },
   {
-    name: 'Bellhop Bell',
-    unified: '1F6CE-FE0F',
-    keywords: [
+    label: 'Bellhop Bell',
+    hexcode: '1F6CE-FE0F',
+    tags: [
       'bellhop_bell',
       'service'
     ],
@@ -19993,9 +19993,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bellhop_bell'
   },
   {
-    name: 'Luggage',
-    unified: '1F9F3',
-    keywords: [
+    label: 'Luggage',
+    hexcode: '1F9F3',
+    tags: [
       'luggage',
       'packing',
       'travel'
@@ -20004,9 +20004,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'luggage'
   },
   {
-    name: 'Hourglass',
-    unified: '231B',
-    keywords: [
+    label: 'Hourglass',
+    hexcode: '231B',
+    tags: [
       'hourglass_done',
       'time',
       'clock',
@@ -20020,9 +20020,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hourglass'
   },
   {
-    name: 'Hourglass with Flowing Sand',
-    unified: '23F3',
-    keywords: [
+    label: 'Hourglass with Flowing Sand',
+    hexcode: '23F3',
+    tags: [
       'hourglass_not_done',
       'oldschool',
       'time',
@@ -20032,9 +20032,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hourglass_flowing_sand'
   },
   {
-    name: 'Watch',
-    unified: '231A',
-    keywords: [
+    label: 'Watch',
+    hexcode: '231A',
+    tags: [
       'watch',
       'time',
       'accessories'
@@ -20043,9 +20043,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'watch'
   },
   {
-    name: 'Alarm Clock',
-    unified: '23F0',
-    keywords: [
+    label: 'Alarm Clock',
+    hexcode: '23F0',
+    tags: [
       'alarm_clock',
       'time',
       'wake'
@@ -20054,9 +20054,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'alarm_clock'
   },
   {
-    name: 'Stopwatch',
-    unified: '23F1-FE0F',
-    keywords: [
+    label: 'Stopwatch',
+    hexcode: '23F1-FE0F',
+    tags: [
       'stopwatch',
       'time',
       'deadline'
@@ -20065,16 +20065,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stopwatch'
   },
   {
-    name: 'Timer Clock',
-    unified: '23F2-FE0F',
-    keywords: ['timer_clock', 'alarm'],
+    label: 'Timer Clock',
+    hexcode: '23F2-FE0F',
+    tags: ['timer_clock', 'alarm'],
     sheet: [56, 26],
     shortName: 'timer_clock'
   },
   {
-    name: 'Mantelpiece Clock',
-    unified: '1F570-FE0F',
-    keywords: [
+    label: 'Mantelpiece Clock',
+    hexcode: '1F570-FE0F',
+    tags: [
       'mantelpiece_clock',
       'time'
     ],
@@ -20082,9 +20082,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mantelpiece_clock'
   },
   {
-    name: 'Clock Face Twelve Oclock',
-    unified: '1F55B',
-    keywords: [
+    label: 'Clock Face Twelve Oclock',
+    hexcode: '1F55B',
+    tags: [
       'twelve_o_clock',
       '12',
       '00:00',
@@ -20103,9 +20103,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock12'
   },
   {
-    name: 'Clock Face Twelve-Thirty',
-    unified: '1F567',
-    keywords: [
+    label: 'Clock Face Twelve-Thirty',
+    hexcode: '1F567',
+    tags: [
       'twelve_thirty',
       '00:30',
       '0030',
@@ -20120,9 +20120,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock1230'
   },
   {
-    name: 'Clock Face One Oclock',
-    unified: '1F550',
-    keywords: [
+    label: 'Clock Face One Oclock',
+    hexcode: '1F550',
+    tags: [
       'one_o_clock',
       '1',
       '1:00',
@@ -20138,9 +20138,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock1'
   },
   {
-    name: 'Clock Face One-Thirty',
-    unified: '1F55C',
-    keywords: [
+    label: 'Clock Face One-Thirty',
+    hexcode: '1F55C',
+    tags: [
       'one_thirty',
       '1:30',
       '130',
@@ -20155,9 +20155,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock130'
   },
   {
-    name: 'Clock Face Two Oclock',
-    unified: '1F551',
-    keywords: [
+    label: 'Clock Face Two Oclock',
+    hexcode: '1F551',
+    tags: [
       'two_o_clock',
       '2',
       '2:00',
@@ -20173,9 +20173,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock2'
   },
   {
-    name: 'Clock Face Two-Thirty',
-    unified: '1F55D',
-    keywords: [
+    label: 'Clock Face Two-Thirty',
+    hexcode: '1F55D',
+    tags: [
       'two_thirty',
       '2:30',
       '230',
@@ -20190,9 +20190,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock230'
   },
   {
-    name: 'Clock Face Three Oclock',
-    unified: '1F552',
-    keywords: [
+    label: 'Clock Face Three Oclock',
+    hexcode: '1F552',
+    tags: [
       'three_o_clock',
       '3',
       '3:00',
@@ -20208,9 +20208,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock3'
   },
   {
-    name: 'Clock Face Three-Thirty',
-    unified: '1F55E',
-    keywords: [
+    label: 'Clock Face Three-Thirty',
+    hexcode: '1F55E',
+    tags: [
       'three_thirty',
       '3:30',
       '330',
@@ -20225,9 +20225,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock330'
   },
   {
-    name: 'Clock Face Four Oclock',
-    unified: '1F553',
-    keywords: [
+    label: 'Clock Face Four Oclock',
+    hexcode: '1F553',
+    tags: [
       'four_o_clock',
       '4',
       '4:00',
@@ -20243,9 +20243,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock4'
   },
   {
-    name: 'Clock Face Four-Thirty',
-    unified: '1F55F',
-    keywords: [
+    label: 'Clock Face Four-Thirty',
+    hexcode: '1F55F',
+    tags: [
       'four_thirty',
       '4:30',
       '430',
@@ -20260,9 +20260,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock430'
   },
   {
-    name: 'Clock Face Five Oclock',
-    unified: '1F554',
-    keywords: [
+    label: 'Clock Face Five Oclock',
+    hexcode: '1F554',
+    tags: [
       'five_o_clock',
       '5',
       '5:00',
@@ -20278,9 +20278,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock5'
   },
   {
-    name: 'Clock Face Five-Thirty',
-    unified: '1F560',
-    keywords: [
+    label: 'Clock Face Five-Thirty',
+    hexcode: '1F560',
+    tags: [
       'five_thirty',
       '5:30',
       '530',
@@ -20295,9 +20295,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock530'
   },
   {
-    name: 'Clock Face Six Oclock',
-    unified: '1F555',
-    keywords: [
+    label: 'Clock Face Six Oclock',
+    hexcode: '1F555',
+    tags: [
       'six_o_clock',
       '6',
       '6:00',
@@ -20315,9 +20315,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock6'
   },
   {
-    name: 'Clock Face Six-Thirty',
-    unified: '1F561',
-    keywords: [
+    label: 'Clock Face Six-Thirty',
+    hexcode: '1F561',
+    tags: [
       'six_thirty',
       '6:30',
       '630',
@@ -20332,9 +20332,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock630'
   },
   {
-    name: 'Clock Face Seven Oclock',
-    unified: '1F556',
-    keywords: [
+    label: 'Clock Face Seven Oclock',
+    hexcode: '1F556',
+    tags: [
       'seven_o_clock',
       '7',
       '7:00',
@@ -20350,9 +20350,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock7'
   },
   {
-    name: 'Clock Face Seven-Thirty',
-    unified: '1F562',
-    keywords: [
+    label: 'Clock Face Seven-Thirty',
+    hexcode: '1F562',
+    tags: [
       'seven_thirty',
       '7:30',
       '730',
@@ -20367,9 +20367,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock730'
   },
   {
-    name: 'Clock Face Eight Oclock',
-    unified: '1F557',
-    keywords: [
+    label: 'Clock Face Eight Oclock',
+    hexcode: '1F557',
+    tags: [
       'eight_o_clock',
       '8',
       '8:00',
@@ -20385,9 +20385,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock8'
   },
   {
-    name: 'Clock Face Eight-Thirty',
-    unified: '1F563',
-    keywords: [
+    label: 'Clock Face Eight-Thirty',
+    hexcode: '1F563',
+    tags: [
       'eight_thirty',
       '8:30',
       '830',
@@ -20402,9 +20402,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock830'
   },
   {
-    name: 'Clock Face Nine Oclock',
-    unified: '1F558',
-    keywords: [
+    label: 'Clock Face Nine Oclock',
+    hexcode: '1F558',
+    tags: [
       'nine_o_clock',
       '9',
       '9:00',
@@ -20420,9 +20420,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock9'
   },
   {
-    name: 'Clock Face Nine-Thirty',
-    unified: '1F564',
-    keywords: [
+    label: 'Clock Face Nine-Thirty',
+    hexcode: '1F564',
+    tags: [
       'nine_thirty',
       '9:30',
       '930',
@@ -20437,9 +20437,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock930'
   },
   {
-    name: 'Clock Face Ten Oclock',
-    unified: '1F559',
-    keywords: [
+    label: 'Clock Face Ten Oclock',
+    hexcode: '1F559',
+    tags: [
       'ten_o_clock',
       '10',
       '10:00',
@@ -20455,9 +20455,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock10'
   },
   {
-    name: 'Clock Face Ten-Thirty',
-    unified: '1F565',
-    keywords: [
+    label: 'Clock Face Ten-Thirty',
+    hexcode: '1F565',
+    tags: [
       'ten_thirty',
       '10:30',
       '1030',
@@ -20472,9 +20472,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock1030'
   },
   {
-    name: 'Clock Face Eleven Oclock',
-    unified: '1F55A',
-    keywords: [
+    label: 'Clock Face Eleven Oclock',
+    hexcode: '1F55A',
+    tags: [
       'eleven_o_clock',
       '11',
       '11:00',
@@ -20490,9 +20490,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock11'
   },
   {
-    name: 'Clock Face Eleven-Thirty',
-    unified: '1F566',
-    keywords: [
+    label: 'Clock Face Eleven-Thirty',
+    hexcode: '1F566',
+    tags: [
       'eleven_thirty',
       '11:30',
       '1130',
@@ -20507,9 +20507,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clock1130'
   },
   {
-    name: 'New Moon Symbol',
-    unified: '1F311',
-    keywords: [
+    label: 'New Moon Symbol',
+    hexcode: '1F311',
+    tags: [
       'new_moon',
       'nature',
       'twilight',
@@ -20523,9 +20523,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'new_moon'
   },
   {
-    name: 'Waxing Crescent Moon Symbol',
-    unified: '1F312',
-    keywords: [
+    label: 'Waxing Crescent Moon Symbol',
+    hexcode: '1F312',
+    tags: [
       'waxing_crescent_moon',
       'nature',
       'twilight',
@@ -20539,9 +20539,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'waxing_crescent_moon'
   },
   {
-    name: 'First Quarter Moon Symbol',
-    unified: '1F313',
-    keywords: [
+    label: 'First Quarter Moon Symbol',
+    hexcode: '1F313',
+    tags: [
       'first_quarter_moon',
       'nature',
       'twilight',
@@ -20555,9 +20555,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'first_quarter_moon'
   },
   {
-    name: 'Waxing Gibbous Moon Symbol',
-    unified: '1F314',
-    keywords: [
+    label: 'Waxing Gibbous Moon Symbol',
+    hexcode: '1F314',
+    tags: [
       'waxing_gibbous_moon',
       'nature',
       'night',
@@ -20574,9 +20574,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'moon'
   },
   {
-    name: 'Full Moon Symbol',
-    unified: '1F315',
-    keywords: [
+    label: 'Full Moon Symbol',
+    hexcode: '1F315',
+    tags: [
       'full_moon',
       'nature',
       'yellow',
@@ -20591,9 +20591,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'full_moon'
   },
   {
-    name: 'Waning Gibbous Moon Symbol',
-    unified: '1F316',
-    keywords: [
+    label: 'Waning Gibbous Moon Symbol',
+    hexcode: '1F316',
+    tags: [
       'waning_gibbous_moon',
       'nature',
       'twilight',
@@ -20608,9 +20608,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'waning_gibbous_moon'
   },
   {
-    name: 'Last Quarter Moon Symbol',
-    unified: '1F317',
-    keywords: [
+    label: 'Last Quarter Moon Symbol',
+    hexcode: '1F317',
+    tags: [
       'last_quarter_moon',
       'nature',
       'twilight',
@@ -20624,9 +20624,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'last_quarter_moon'
   },
   {
-    name: 'Waning Crescent Moon Symbol',
-    unified: '1F318',
-    keywords: [
+    label: 'Waning Crescent Moon Symbol',
+    hexcode: '1F318',
+    tags: [
       'waning_crescent_moon',
       'nature',
       'twilight',
@@ -20640,9 +20640,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'waning_crescent_moon'
   },
   {
-    name: 'Crescent Moon',
-    unified: '1F319',
-    keywords: [
+    label: 'Crescent Moon',
+    hexcode: '1F319',
+    tags: [
       'crescent_moon',
       'night',
       'sleep',
@@ -20654,9 +20654,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crescent_moon'
   },
   {
-    name: 'New Moon with Face',
-    unified: '1F31A',
-    keywords: [
+    label: 'New Moon with Face',
+    hexcode: '1F31A',
+    tags: [
       'new_moon_face',
       'nature',
       'twilight',
@@ -20670,9 +20670,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'new_moon_with_face'
   },
   {
-    name: 'First Quarter Moon with Face',
-    unified: '1F31B',
-    keywords: [
+    label: 'First Quarter Moon with Face',
+    hexcode: '1F31B',
+    tags: [
       'first_quarter_moon_face',
       'nature',
       'twilight',
@@ -20686,9 +20686,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'first_quarter_moon_with_face'
   },
   {
-    name: 'Last Quarter Moon with Face',
-    unified: '1F31C',
-    keywords: [
+    label: 'Last Quarter Moon with Face',
+    hexcode: '1F31C',
+    tags: [
       'last_quarter_moon_face',
       'nature',
       'twilight',
@@ -20702,9 +20702,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'last_quarter_moon_with_face'
   },
   {
-    name: 'Thermometer',
-    unified: '1F321-FE0F',
-    keywords: [
+    label: 'Thermometer',
+    hexcode: '1F321-FE0F',
+    tags: [
       'thermometer',
       'weather',
       'temperature',
@@ -20715,9 +20715,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'thermometer'
   },
   {
-    name: 'Black Sun with Rays',
-    unified: '2600-FE0F',
-    keywords: [
+    label: 'Black Sun with Rays',
+    hexcode: '2600-FE0F',
+    tags: [
       'sun',
       'weather',
       'nature',
@@ -20730,9 +20730,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sunny'
   },
   {
-    name: 'Full Moon with Face',
-    unified: '1F31D',
-    keywords: [
+    label: 'Full Moon with Face',
+    hexcode: '1F31D',
+    tags: [
       'full_moon_face',
       'nature',
       'twilight',
@@ -20746,9 +20746,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'full_moon_with_face'
   },
   {
-    name: 'Sun with Face',
-    unified: '1F31E',
-    keywords: [
+    label: 'Sun with Face',
+    hexcode: '1F31E',
+    tags: [
       'sun_with_face',
       'nature',
       'morning',
@@ -20758,9 +20758,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sun_with_face'
   },
   {
-    name: 'Ringed Planet',
-    unified: '1FA90',
-    keywords: [
+    label: 'Ringed Planet',
+    hexcode: '1FA90',
+    tags: [
       'ringed_planet',
       'outerspace'
     ],
@@ -20768,9 +20768,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ringed_planet'
   },
   {
-    name: 'White Medium Star',
-    unified: '2B50',
-    keywords: [
+    label: 'White Medium Star',
+    hexcode: '2B50',
+    tags: [
       'star',
       'night',
       'yellow'
@@ -20779,9 +20779,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'star'
   },
   {
-    name: 'Glowing Star',
-    unified: '1F31F',
-    keywords: [
+    label: 'Glowing Star',
+    hexcode: '1F31F',
+    tags: [
       'glowing_star',
       'night',
       'sparkle',
@@ -20793,9 +20793,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'star2'
   },
   {
-    name: 'Shooting Star',
-    unified: '1F320',
-    keywords: [
+    label: 'Shooting Star',
+    hexcode: '1F320',
+    tags: [
       'shooting_star',
       'night',
       'photo'
@@ -20804,9 +20804,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'stars'
   },
   {
-    name: 'Milky Way',
-    unified: '1F30C',
-    keywords: [
+    label: 'Milky Way',
+    hexcode: '1F30C',
+    tags: [
       'milky_way',
       'photo',
       'space',
@@ -20816,9 +20816,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'milky_way'
   },
   {
-    name: 'Cloud',
-    unified: '2601-FE0F',
-    keywords: [
+    label: 'Cloud',
+    hexcode: '2601-FE0F',
+    tags: [
       'cloud',
       'weather',
       'sky'
@@ -20827,9 +20827,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cloud'
   },
   {
-    name: 'Sun Behind Cloud',
-    unified: '26C5',
-    keywords: [
+    label: 'Sun Behind Cloud',
+    hexcode: '26C5',
+    tags: [
       'sun_behind_cloud',
       'weather',
       'nature',
@@ -20842,9 +20842,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'partly_sunny'
   },
   {
-    name: 'Cloud with Lightning and Rain',
-    unified: '26C8-FE0F',
-    keywords: [
+    label: 'Cloud with Lightning and Rain',
+    hexcode: '26C8-FE0F',
+    tags: [
       'cloud_with_lightning_and_rain',
       'weather',
       'lightning'
@@ -20853,9 +20853,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'thunder_cloud_and_rain'
   },
   {
-    name: 'Sun Behind Small Cloud',
-    unified: '1F324-FE0F',
-    keywords: [
+    label: 'Sun Behind Small Cloud',
+    hexcode: '1F324-FE0F',
+    tags: [
       'sun_behind_small_cloud',
       'weather'
     ],
@@ -20864,9 +20864,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mostly_sunny'
   },
   {
-    name: 'Sun Behind Large Cloud',
-    unified: '1F325-FE0F',
-    keywords: [
+    label: 'Sun Behind Large Cloud',
+    hexcode: '1F325-FE0F',
+    tags: [
       'sun_behind_large_cloud',
       'weather'
     ],
@@ -20875,9 +20875,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'barely_sunny'
   },
   {
-    name: 'Sun Behind Rain Cloud',
-    unified: '1F326-FE0F',
-    keywords: [
+    label: 'Sun Behind Rain Cloud',
+    hexcode: '1F326-FE0F',
+    tags: [
       'sun_behind_rain_cloud',
       'weather'
     ],
@@ -20886,9 +20886,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'partly_sunny_rain'
   },
   {
-    name: 'Cloud with Rain',
-    unified: '1F327-FE0F',
-    keywords: [
+    label: 'Cloud with Rain',
+    hexcode: '1F327-FE0F',
+    tags: [
       'cloud_with_rain',
       'weather'
     ],
@@ -20896,9 +20896,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rain_cloud'
   },
   {
-    name: 'Cloud with Snow',
-    unified: '1F328-FE0F',
-    keywords: [
+    label: 'Cloud with Snow',
+    hexcode: '1F328-FE0F',
+    tags: [
       'cloud_with_snow',
       'weather'
     ],
@@ -20906,9 +20906,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snow_cloud'
   },
   {
-    name: 'Cloud with Lightning',
-    unified: '1F329-FE0F',
-    keywords: [
+    label: 'Cloud with Lightning',
+    hexcode: '1F329-FE0F',
+    tags: [
       'cloud_with_lightning',
       'weather',
       'thunder'
@@ -20918,9 +20918,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lightning'
   },
   {
-    name: 'Tornado',
-    unified: '1F32A-FE0F',
-    keywords: [
+    label: 'Tornado',
+    hexcode: '1F32A-FE0F',
+    tags: [
       'tornado',
       'weather',
       'cyclone',
@@ -20931,16 +20931,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tornado'
   },
   {
-    name: 'Fog',
-    unified: '1F32B-FE0F',
-    keywords: ['fog', 'weather'],
+    label: 'Fog',
+    hexcode: '1F32B-FE0F',
+    tags: ['fog', 'weather'],
     sheet: [5, 40],
     shortName: 'fog'
   },
   {
-    name: 'Wind Face',
-    unified: '1F32C-FE0F',
-    keywords: [
+    label: 'Wind Face',
+    hexcode: '1F32C-FE0F',
+    tags: [
       'wind_face',
       'gust',
       'air'
@@ -20949,9 +20949,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wind_blowing_face'
   },
   {
-    name: 'Cyclone',
-    unified: '1F300',
-    keywords: [
+    label: 'Cyclone',
+    hexcode: '1F300',
+    tags: [
       'cyclone',
       'weather',
       'swirl',
@@ -20969,9 +20969,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cyclone'
   },
   {
-    name: 'Rainbow',
-    unified: '1F308',
-    keywords: [
+    label: 'Rainbow',
+    hexcode: '1F308',
+    tags: [
       'rainbow',
       'nature',
       'happy',
@@ -20984,9 +20984,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rainbow'
   },
   {
-    name: 'Closed Umbrella',
-    unified: '1F302',
-    keywords: [
+    label: 'Closed Umbrella',
+    hexcode: '1F302',
+    tags: [
       'closed_umbrella',
       'weather',
       'rain',
@@ -20996,9 +20996,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'closed_umbrella'
   },
   {
-    name: 'Umbrella',
-    unified: '2602-FE0F',
-    keywords: [
+    label: 'Umbrella',
+    hexcode: '2602-FE0F',
+    tags: [
       'umbrella',
       'weather',
       'spring'
@@ -21007,9 +21007,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'umbrella'
   },
   {
-    name: 'Umbrella with Rain Drops',
-    unified: '2614',
-    keywords: [
+    label: 'Umbrella with Rain Drops',
+    hexcode: '2614',
+    tags: [
       'umbrella_with_rain_drops',
       'rainy',
       'weather',
@@ -21019,9 +21019,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'umbrella_with_rain_drops'
   },
   {
-    name: 'Umbrella on Ground',
-    unified: '26F1-FE0F',
-    keywords: [
+    label: 'Umbrella on Ground',
+    hexcode: '26F1-FE0F',
+    tags: [
       'umbrella_on_ground',
       'weather',
       'summer'
@@ -21030,9 +21030,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'umbrella_on_ground'
   },
   {
-    name: 'High Voltage Sign',
-    unified: '26A1',
-    keywords: [
+    label: 'High Voltage Sign',
+    hexcode: '26A1',
+    tags: [
       'high_voltage',
       'thunder',
       'weather',
@@ -21043,9 +21043,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'zap'
   },
   {
-    name: 'Snowflake',
-    unified: '2744-FE0F',
-    keywords: [
+    label: 'Snowflake',
+    hexcode: '2744-FE0F',
+    tags: [
       'snowflake',
       'winter',
       'season',
@@ -21058,9 +21058,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snowflake'
   },
   {
-    name: 'Snowman',
-    unified: '2603-FE0F',
-    keywords: [
+    label: 'Snowman',
+    hexcode: '2603-FE0F',
+    tags: [
       'snowman',
       'winter',
       'season',
@@ -21074,9 +21074,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snowman'
   },
   {
-    name: 'Snowman Without Snow',
-    unified: '26C4',
-    keywords: [
+    label: 'Snowman Without Snow',
+    hexcode: '26C4',
+    tags: [
       'snowman_without_snow',
       'winter',
       'season',
@@ -21091,16 +21091,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'snowman_without_snow'
   },
   {
-    name: 'Comet',
-    unified: '2604-FE0F',
-    keywords: ['comet', 'space'],
+    label: 'Comet',
+    hexcode: '2604-FE0F',
+    tags: ['comet', 'space'],
     sheet: [56, 44],
     shortName: 'comet'
   },
   {
-    name: 'Fire',
-    unified: '1F525',
-    keywords: [
+    label: 'Fire',
+    hexcode: '1F525',
+    tags: [
       'fire',
       'hot',
       'cook',
@@ -21110,9 +21110,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fire'
   },
   {
-    name: 'Droplet',
-    unified: '1F4A7',
-    keywords: [
+    label: 'Droplet',
+    hexcode: '1F4A7',
+    tags: [
       'droplet',
       'water',
       'drip',
@@ -21123,9 +21123,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'droplet'
   },
   {
-    name: 'Water Wave',
-    unified: '1F30A',
-    keywords: [
+    label: 'Water Wave',
+    hexcode: '1F30A',
+    tags: [
       'water_wave',
       'sea',
       'water',
@@ -21138,9 +21138,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ocean'
   },
   {
-    name: 'Jack-O-Lantern',
-    unified: '1F383',
-    keywords: [
+    label: 'Jack-O-Lantern',
+    hexcode: '1F383',
+    tags: [
       'jack_o_lantern',
       'halloween',
       'light',
@@ -21152,9 +21152,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'jack_o_lantern'
   },
   {
-    name: 'Christmas Tree',
-    unified: '1F384',
-    keywords: [
+    label: 'Christmas Tree',
+    hexcode: '1F384',
+    tags: [
       'christmas_tree',
       'festival',
       'vacation',
@@ -21166,9 +21166,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'christmas_tree'
   },
   {
-    name: 'Fireworks',
-    unified: '1F386',
-    keywords: [
+    label: 'Fireworks',
+    hexcode: '1F386',
+    tags: [
       'fireworks',
       'photo',
       'festival',
@@ -21179,9 +21179,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fireworks'
   },
   {
-    name: 'Firework Sparkler',
-    unified: '1F387',
-    keywords: [
+    label: 'Firework Sparkler',
+    hexcode: '1F387',
+    tags: [
       'sparkler',
       'stars',
       'night',
@@ -21191,9 +21191,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sparkler'
   },
   {
-    name: 'Firecracker',
-    unified: '1F9E8',
-    keywords: [
+    label: 'Firecracker',
+    hexcode: '1F9E8',
+    tags: [
       'firecracker',
       'dynamite',
       'boom',
@@ -21205,9 +21205,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'firecracker'
   },
   {
-    name: 'Sparkles',
-    unified: '2728',
-    keywords: [
+    label: 'Sparkles',
+    hexcode: '2728',
+    tags: [
       'sparkles',
       'stars',
       'shine',
@@ -21221,9 +21221,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sparkles'
   },
   {
-    name: 'Balloon',
-    unified: '1F388',
-    keywords: [
+    label: 'Balloon',
+    hexcode: '1F388',
+    tags: [
       'balloon',
       'party',
       'celebration',
@@ -21234,9 +21234,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'balloon'
   },
   {
-    name: 'Party Popper',
-    unified: '1F389',
-    keywords: [
+    label: 'Party Popper',
+    hexcode: '1F389',
+    tags: [
       'party_popper',
       'party',
       'congratulations',
@@ -21250,9 +21250,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tada'
   },
   {
-    name: 'Confetti Ball',
-    unified: '1F38A',
-    keywords: [
+    label: 'Confetti Ball',
+    hexcode: '1F38A',
+    tags: [
       'confetti_ball',
       'festival',
       'party',
@@ -21263,9 +21263,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'confetti_ball'
   },
   {
-    name: 'Tanabata Tree',
-    unified: '1F38B',
-    keywords: [
+    label: 'Tanabata Tree',
+    hexcode: '1F38B',
+    tags: [
       'tanabata_tree',
       'plant',
       'nature',
@@ -21280,9 +21280,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tanabata_tree'
   },
   {
-    name: 'Pine Decoration',
-    unified: '1F38D',
-    keywords: [
+    label: 'Pine Decoration',
+    hexcode: '1F38D',
+    tags: [
       'pine_decoration',
       'japanese',
       'plant',
@@ -21296,9 +21296,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bamboo'
   },
   {
-    name: 'Japanese Dolls',
-    unified: '1F38E',
-    keywords: [
+    label: 'Japanese Dolls',
+    hexcode: '1F38E',
+    tags: [
       'japanese_dolls',
       'japanese',
       'toy',
@@ -21308,9 +21308,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dolls'
   },
   {
-    name: 'Carp Streamer',
-    unified: '1F38F',
-    keywords: [
+    label: 'Carp Streamer',
+    hexcode: '1F38F',
+    tags: [
       'carp_streamer',
       'fish',
       'japanese',
@@ -21322,9 +21322,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flags'
   },
   {
-    name: 'Wind Chime',
-    unified: '1F390',
-    keywords: [
+    label: 'Wind Chime',
+    hexcode: '1F390',
+    tags: [
       'wind_chime',
       'nature',
       'ding',
@@ -21335,9 +21335,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wind_chime'
   },
   {
-    name: 'Moon Viewing Ceremony',
-    unified: '1F391',
-    keywords: [
+    label: 'Moon Viewing Ceremony',
+    hexcode: '1F391',
+    tags: [
       'moon_viewing_ceremony',
       'photo',
       'japan',
@@ -21348,16 +21348,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rice_scene'
   },
   {
-    name: 'Red Gift Envelope',
-    unified: '1F9E7',
-    keywords: ['red_envelope', 'gift'],
+    label: 'Red Gift Envelope',
+    hexcode: '1F9E7',
+    tags: ['red_envelope', 'gift'],
     sheet: [53, 21],
     shortName: 'red_envelope'
   },
   {
-    name: 'Ribbon',
-    unified: '1F380',
-    keywords: [
+    label: 'Ribbon',
+    hexcode: '1F380',
+    tags: [
       'ribbon',
       'decoration',
       'pink',
@@ -21368,9 +21368,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ribbon'
   },
   {
-    name: 'Wrapped Present',
-    unified: '1F381',
-    keywords: [
+    label: 'Wrapped Present',
+    hexcode: '1F381',
+    tags: [
       'wrapped_gift',
       'present',
       'birthday',
@@ -21381,9 +21381,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gift'
   },
   {
-    name: 'Reminder Ribbon',
-    unified: '1F397-FE0F',
-    keywords: [
+    label: 'Reminder Ribbon',
+    hexcode: '1F397-FE0F',
+    tags: [
       'reminder_ribbon',
       'sports',
       'cause',
@@ -21394,9 +21394,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'reminder_ribbon'
   },
   {
-    name: 'Admission Tickets',
-    unified: '1F39F-FE0F',
-    keywords: [
+    label: 'Admission Tickets',
+    hexcode: '1F39F-FE0F',
+    tags: [
       'admission_tickets',
       'sports',
       'concert',
@@ -21406,9 +21406,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'admission_tickets'
   },
   {
-    name: 'Ticket',
-    unified: '1F3AB',
-    keywords: [
+    label: 'Ticket',
+    hexcode: '1F3AB',
+    tags: [
       'ticket',
       'event',
       'concert',
@@ -21418,9 +21418,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ticket'
   },
   {
-    name: 'Military Medal',
-    unified: '1F396-FE0F',
-    keywords: [
+    label: 'Military Medal',
+    hexcode: '1F396-FE0F',
+    tags: [
       'military_medal',
       'award',
       'winning',
@@ -21430,9 +21430,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'medal'
   },
   {
-    name: 'Trophy',
-    unified: '1F3C6',
-    keywords: [
+    label: 'Trophy',
+    hexcode: '1F3C6',
+    tags: [
       'trophy',
       'win',
       'award',
@@ -21445,9 +21445,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'trophy'
   },
   {
-    name: 'Sports Medal',
-    unified: '1F3C5',
-    keywords: [
+    label: 'Sports Medal',
+    hexcode: '1F3C5',
+    tags: [
       'sports_medal',
       'award',
       'winning'
@@ -21456,9 +21456,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sports_medal'
   },
   {
-    name: 'First Place Medal',
-    unified: '1F947',
-    keywords: [
+    label: 'First Place Medal',
+    hexcode: '1F947',
+    tags: [
       '1st_place_medal',
       'award',
       'winning',
@@ -21468,9 +21468,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'first_place_medal'
   },
   {
-    name: 'Second Place Medal',
-    unified: '1F948',
-    keywords: [
+    label: 'Second Place Medal',
+    hexcode: '1F948',
+    tags: [
       '2nd_place_medal',
       'award',
       'second'
@@ -21479,9 +21479,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'second_place_medal'
   },
   {
-    name: 'Third Place Medal',
-    unified: '1F949',
-    keywords: [
+    label: 'Third Place Medal',
+    hexcode: '1F949',
+    tags: [
       '3rd_place_medal',
       'award',
       'third'
@@ -21490,9 +21490,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'third_place_medal'
   },
   {
-    name: 'Soccer Ball',
-    unified: '26BD',
-    keywords: [
+    label: 'Soccer Ball',
+    hexcode: '26BD',
+    tags: [
       'soccer_ball',
       'sports',
       'football'
@@ -21501,9 +21501,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'soccer'
   },
   {
-    name: 'Baseball',
-    unified: '26BE',
-    keywords: [
+    label: 'Baseball',
+    hexcode: '26BE',
+    tags: [
       'baseball',
       'sports',
       'balls'
@@ -21512,9 +21512,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'baseball'
   },
   {
-    name: 'Softball',
-    unified: '1F94E',
-    keywords: [
+    label: 'Softball',
+    hexcode: '1F94E',
+    tags: [
       'softball',
       'sports',
       'balls'
@@ -21523,9 +21523,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'softball'
   },
   {
-    name: 'Basketball and Hoop',
-    unified: '1F3C0',
-    keywords: [
+    label: 'Basketball and Hoop',
+    hexcode: '1F3C0',
+    tags: [
       'basketball',
       'sports',
       'balls',
@@ -21535,9 +21535,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'basketball'
   },
   {
-    name: 'Volleyball',
-    unified: '1F3D0',
-    keywords: [
+    label: 'Volleyball',
+    hexcode: '1F3D0',
+    tags: [
       'volleyball',
       'sports',
       'balls'
@@ -21546,9 +21546,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'volleyball'
   },
   {
-    name: 'American Football',
-    unified: '1F3C8',
-    keywords: [
+    label: 'American Football',
+    hexcode: '1F3C8',
+    tags: [
       'american_football',
       'sports',
       'balls',
@@ -21558,9 +21558,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'football'
   },
   {
-    name: 'Rugby Football',
-    unified: '1F3C9',
-    keywords: [
+    label: 'Rugby Football',
+    hexcode: '1F3C9',
+    tags: [
       'rugby_football',
       'sports',
       'team'
@@ -21569,9 +21569,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rugby_football'
   },
   {
-    name: 'Tennis Racquet and Ball',
-    unified: '1F3BE',
-    keywords: [
+    label: 'Tennis Racquet and Ball',
+    hexcode: '1F3BE',
+    tags: [
       'tennis',
       'sports',
       'balls',
@@ -21581,9 +21581,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tennis'
   },
   {
-    name: 'Flying Disc',
-    unified: '1F94F',
-    keywords: [
+    label: 'Flying Disc',
+    hexcode: '1F94F',
+    tags: [
       'flying_disc',
       'sports',
       'frisbee',
@@ -21593,9 +21593,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flying_disc'
   },
   {
-    name: 'Bowling',
-    unified: '1F3B3',
-    keywords: [
+    label: 'Bowling',
+    hexcode: '1F3B3',
+    tags: [
       'bowling',
       'sports',
       'fun',
@@ -21605,9 +21605,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bowling'
   },
   {
-    name: 'Cricket Bat and Ball',
-    unified: '1F3CF',
-    keywords: [
+    label: 'Cricket Bat and Ball',
+    hexcode: '1F3CF',
+    tags: [
       'cricket_game',
       'sports'
     ],
@@ -21615,9 +21615,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cricket_bat_and_ball'
   },
   {
-    name: 'Field Hockey Stick and Ball',
-    unified: '1F3D1',
-    keywords: [
+    label: 'Field Hockey Stick and Ball',
+    hexcode: '1F3D1',
+    tags: [
       'field_hockey',
       'sports'
     ],
@@ -21625,16 +21625,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'field_hockey_stick_and_ball'
   },
   {
-    name: 'Ice Hockey Stick and Puck',
-    unified: '1F3D2',
-    keywords: ['ice_hockey', 'sports'],
+    label: 'Ice Hockey Stick and Puck',
+    hexcode: '1F3D2',
+    tags: ['ice_hockey', 'sports'],
     sheet: [9, 58],
     shortName: 'ice_hockey_stick_and_puck'
   },
   {
-    name: 'Lacrosse Stick and Ball',
-    unified: '1F94D',
-    keywords: [
+    label: 'Lacrosse Stick and Ball',
+    hexcode: '1F94D',
+    tags: [
       'lacrosse',
       'sports',
       'ball',
@@ -21644,9 +21644,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lacrosse'
   },
   {
-    name: 'Table Tennis Paddle and Ball',
-    unified: '1F3D3',
-    keywords: [
+    label: 'Table Tennis Paddle and Ball',
+    hexcode: '1F3D3',
+    tags: [
       'ping_pong',
       'sports',
       'pingpong'
@@ -21655,16 +21655,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'table_tennis_paddle_and_ball'
   },
   {
-    name: 'Badminton Racquet and Shuttlecock',
-    unified: '1F3F8',
-    keywords: ['badminton', 'sports'],
+    label: 'Badminton Racquet and Shuttlecock',
+    hexcode: '1F3F8',
+    tags: ['badminton', 'sports'],
     sheet: [10, 38],
     shortName: 'badminton_racquet_and_shuttlecock'
   },
   {
-    name: 'Boxing Glove',
-    unified: '1F94A',
-    keywords: [
+    label: 'Boxing Glove',
+    hexcode: '1F94A',
+    tags: [
       'boxing_glove',
       'sports',
       'fighting'
@@ -21673,9 +21673,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'boxing_glove'
   },
   {
-    name: 'Martial Arts Uniform',
-    unified: '1F94B',
-    keywords: [
+    label: 'Martial Arts Uniform',
+    hexcode: '1F94B',
+    tags: [
       'martial_arts_uniform',
       'judo',
       'karate',
@@ -21685,16 +21685,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'martial_arts_uniform'
   },
   {
-    name: 'Goal Net',
-    unified: '1F945',
-    keywords: ['goal_net', 'sports'],
+    label: 'Goal Net',
+    hexcode: '1F945',
+    tags: ['goal_net', 'sports'],
     sheet: [43, 16],
     shortName: 'goal_net'
   },
   {
-    name: 'Flag in Hole',
-    unified: '26F3',
-    keywords: [
+    label: 'Flag in Hole',
+    hexcode: '26F3',
+    tags: [
       'flag_in_hole',
       'sports',
       'business',
@@ -21706,16 +21706,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'golf'
   },
   {
-    name: 'Ice Skate',
-    unified: '26F8-FE0F',
-    keywords: ['ice_skate', 'sports'],
+    label: 'Ice Skate',
+    hexcode: '26F8-FE0F',
+    tags: ['ice_skate', 'sports'],
     sheet: [58, 2],
     shortName: 'ice_skate'
   },
   {
-    name: 'Fishing Pole and Fish',
-    unified: '1F3A3',
-    keywords: [
+    label: 'Fishing Pole and Fish',
+    hexcode: '1F3A3',
+    tags: [
       'fishing_pole',
       'food',
       'hobby',
@@ -21725,9 +21725,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fishing_pole_and_fish'
   },
   {
-    name: 'Diving Mask',
-    unified: '1F93F',
-    keywords: [
+    label: 'Diving Mask',
+    hexcode: '1F93F',
+    tags: [
       'diving_mask',
       'sport',
       'ocean'
@@ -21736,9 +21736,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'diving_mask'
   },
   {
-    name: 'Running Shirt with Sash',
-    unified: '1F3BD',
-    keywords: [
+    label: 'Running Shirt with Sash',
+    hexcode: '1F3BD',
+    tags: [
       'running_shirt',
       'play',
       'pageant'
@@ -21747,9 +21747,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'running_shirt_with_sash'
   },
   {
-    name: 'Ski and Ski Boot',
-    unified: '1F3BF',
-    keywords: [
+    label: 'Ski and Ski Boot',
+    hexcode: '1F3BF',
+    tags: [
       'skis',
       'sports',
       'winter',
@@ -21760,9 +21760,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ski'
   },
   {
-    name: 'Sled',
-    unified: '1F6F7',
-    keywords: [
+    label: 'Sled',
+    hexcode: '1F6F7',
+    tags: [
       'sled',
       'sleigh',
       'luge',
@@ -21772,9 +21772,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sled'
   },
   {
-    name: 'Curling Stone',
-    unified: '1F94C',
-    keywords: [
+    label: 'Curling Stone',
+    hexcode: '1F94C',
+    tags: [
       'curling_stone',
       'sports'
     ],
@@ -21782,9 +21782,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'curling_stone'
   },
   {
-    name: 'Direct Hit',
-    unified: '1F3AF',
-    keywords: [
+    label: 'Direct Hit',
+    hexcode: '1F3AF',
+    tags: [
       'direct_hit',
       'game',
       'play',
@@ -21796,23 +21796,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dart'
   },
   {
-    name: 'Yo-Yo',
-    unified: '1FA80',
-    keywords: ['yo_yo', 'toy'],
+    label: 'Yo-Yo',
+    hexcode: '1FA80',
+    tags: ['yo_yo', 'toy'],
     sheet: [53, 56],
     shortName: 'yo-yo'
   },
   {
-    name: 'Kite',
-    unified: '1FA81',
-    keywords: ['kite', 'wind', 'fly'],
+    label: 'Kite',
+    hexcode: '1FA81',
+    tags: ['kite', 'wind', 'fly'],
     sheet: [53, 57],
     shortName: 'kite'
   },
   {
-    name: 'Billiards',
-    unified: '1F3B1',
-    keywords: [
+    label: 'Billiards',
+    hexcode: '1F3B1',
+    tags: [
       'pool_8_ball',
       'pool',
       'hobby',
@@ -21824,9 +21824,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: '8ball'
   },
   {
-    name: 'Crystal Ball',
-    unified: '1F52E',
-    keywords: [
+    label: 'Crystal Ball',
+    hexcode: '1F52E',
+    tags: [
       'crystal_ball',
       'disco',
       'party',
@@ -21838,9 +21838,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crystal_ball'
   },
   {
-    name: 'Magic Wand',
-    unified: '1FA84',
-    keywords: [
+    label: 'Magic Wand',
+    hexcode: '1FA84',
+    tags: [
       'magic wand',
       'supernature',
       'power'
@@ -21849,9 +21849,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'magic_wand'
   },
   {
-    name: 'Nazar Amulet',
-    unified: '1F9FF',
-    keywords: [
+    label: 'Nazar Amulet',
+    hexcode: '1F9FF',
+    tags: [
       'nazar_amulet',
       'bead',
       'charm'
@@ -21860,9 +21860,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nazar_amulet'
   },
   {
-    name: 'Hamsa',
-    unified: '1FAAC',
-    keywords: [
+    label: 'Hamsa',
+    hexcode: '1FAAC',
+    tags: [
       'hamsa',
       'religion',
       'protection'
@@ -21872,9 +21872,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hamsa'
   },
   {
-    name: 'Video Game',
-    unified: '1F3AE',
-    keywords: [
+    label: 'Video Game',
+    hexcode: '1F3AE',
+    tags: [
       'video_game',
       'play',
       'console',
@@ -21885,9 +21885,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'video_game'
   },
   {
-    name: 'Joystick',
-    unified: '1F579-FE0F',
-    keywords: [
+    label: 'Joystick',
+    hexcode: '1F579-FE0F',
+    tags: [
       'joystick',
       'game',
       'play'
@@ -21896,9 +21896,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'joystick'
   },
   {
-    name: 'Slot Machine',
-    unified: '1F3B0',
-    keywords: [
+    label: 'Slot Machine',
+    hexcode: '1F3B0',
+    tags: [
       'slot_machine',
       'bet',
       'gamble',
@@ -21911,9 +21911,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'slot_machine'
   },
   {
-    name: 'Game Die',
-    unified: '1F3B2',
-    keywords: [
+    label: 'Game Die',
+    hexcode: '1F3B2',
+    tags: [
       'game_die',
       'dice',
       'random',
@@ -21925,9 +21925,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'game_die'
   },
   {
-    name: 'Jigsaw Puzzle Piece',
-    unified: '1F9E9',
-    keywords: [
+    label: 'Jigsaw Puzzle Piece',
+    hexcode: '1F9E9',
+    tags: [
       'puzzle_piece',
       'interlocking',
       'puzzle',
@@ -21937,9 +21937,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'jigsaw'
   },
   {
-    name: 'Teddy Bear',
-    unified: '1F9F8',
-    keywords: [
+    label: 'Teddy Bear',
+    hexcode: '1F9F8',
+    tags: [
       'teddy_bear',
       'plush',
       'stuffed'
@@ -21948,9 +21948,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'teddy_bear'
   },
   {
-    name: 'Pinata',
-    unified: '1FA85',
-    keywords: [
+    label: 'Pinata',
+    hexcode: '1FA85',
+    tags: [
       'pinata',
       'mexico',
       'candy',
@@ -21960,9 +21960,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pinata'
   },
   {
-    name: 'Mirror Ball',
-    unified: '1FAA9',
-    keywords: [
+    label: 'Mirror Ball',
+    hexcode: '1FAA9',
+    tags: [
       'mirror ball',
       'disco',
       'dance',
@@ -21973,9 +21973,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mirror_ball'
   },
   {
-    name: 'Nesting Dolls',
-    unified: '1FA86',
-    keywords: [
+    label: 'Nesting Dolls',
+    hexcode: '1FA86',
+    tags: [
       'nesting dolls',
       'matryoshka',
       'toy'
@@ -21984,9 +21984,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nesting_dolls'
   },
   {
-    name: 'Black Spade Suit',
-    unified: '2660-FE0F',
-    keywords: [
+    label: 'Black Spade Suit',
+    hexcode: '2660-FE0F',
+    tags: [
       'spade_suit',
       'poker',
       'cards',
@@ -21997,9 +21997,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spades'
   },
   {
-    name: 'Black Heart Suit',
-    unified: '2665-FE0F',
-    keywords: [
+    label: 'Black Heart Suit',
+    hexcode: '2665-FE0F',
+    tags: [
       'heart_suit',
       'poker',
       'cards',
@@ -22010,9 +22010,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hearts'
   },
   {
-    name: 'Black Diamond Suit',
-    unified: '2666-FE0F',
-    keywords: [
+    label: 'Black Diamond Suit',
+    hexcode: '2666-FE0F',
+    tags: [
       'diamond_suit',
       'poker',
       'cards',
@@ -22023,9 +22023,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'diamonds'
   },
   {
-    name: 'Black Club Suit',
-    unified: '2663-FE0F',
-    keywords: [
+    label: 'Black Club Suit',
+    hexcode: '2663-FE0F',
+    tags: [
       'club_suit',
       'poker',
       'cards',
@@ -22036,9 +22036,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clubs'
   },
   {
-    name: 'Chess Pawn',
-    unified: '265F-FE0F',
-    keywords: [
+    label: 'Chess Pawn',
+    hexcode: '265F-FE0F',
+    tags: [
       'chess_pawn',
       'expendable'
     ],
@@ -22046,9 +22046,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chess_pawn'
   },
   {
-    name: 'Playing Card Black Joker',
-    unified: '1F0CF',
-    keywords: [
+    label: 'Playing Card Black Joker',
+    hexcode: '1F0CF',
+    tags: [
       'joker',
       'poker',
       'cards',
@@ -22060,9 +22060,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_joker'
   },
   {
-    name: 'Mahjong Tile Red Dragon',
-    unified: '1F004',
-    keywords: [
+    label: 'Mahjong Tile Red Dragon',
+    hexcode: '1F004',
+    tags: [
       'mahjong_red_dragon',
       'game',
       'play',
@@ -22073,9 +22073,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mahjong'
   },
   {
-    name: 'Flower Playing Cards',
-    unified: '1F3B4',
-    keywords: [
+    label: 'Flower Playing Cards',
+    hexcode: '1F3B4',
+    tags: [
       'flower_playing_cards',
       'game',
       'sunset',
@@ -22085,9 +22085,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flower_playing_cards'
   },
   {
-    name: 'Performing Arts',
-    unified: '1F3AD',
-    keywords: [
+    label: 'Performing Arts',
+    hexcode: '1F3AD',
+    tags: [
       'performing_arts',
       'acting',
       'theater',
@@ -22097,9 +22097,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'performing_arts'
   },
   {
-    name: 'Framed Picture',
-    unified: '1F5BC-FE0F',
-    keywords: [
+    label: 'Framed Picture',
+    hexcode: '1F5BC-FE0F',
+    tags: [
       'framed_picture',
       'photography'
     ],
@@ -22107,9 +22107,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'frame_with_picture'
   },
   {
-    name: 'Artist Palette',
-    unified: '1F3A8',
-    keywords: [
+    label: 'Artist Palette',
+    hexcode: '1F3A8',
+    tags: [
       'artist_palette',
       'design',
       'paint',
@@ -22120,9 +22120,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'art'
   },
   {
-    name: 'Spool of Thread',
-    unified: '1F9F5',
-    keywords: [
+    label: 'Spool of Thread',
+    hexcode: '1F9F5',
+    tags: [
       'thread',
       'needle',
       'sewing',
@@ -22133,9 +22133,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'thread'
   },
   {
-    name: 'Sewing Needle',
-    unified: '1FAA1',
-    keywords: [
+    label: 'Sewing Needle',
+    hexcode: '1FAA1',
+    tags: [
       'sewing needle',
       'stitches'
     ],
@@ -22143,9 +22143,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sewing_needle'
   },
   {
-    name: 'Ball of Yarn',
-    unified: '1F9F6',
-    keywords: [
+    label: 'Ball of Yarn',
+    hexcode: '1F9F6',
+    tags: [
       'yarn',
       'ball',
       'crochet',
@@ -22155,16 +22155,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'yarn'
   },
   {
-    name: 'Knot',
-    unified: '1FAA2',
-    keywords: ['knot', 'rope', 'scout'],
+    label: 'Knot',
+    hexcode: '1FAA2',
+    tags: ['knot', 'rope', 'scout'],
     sheet: [54, 20],
     shortName: 'knot'
   },
   {
-    name: 'Eyeglasses',
-    unified: '1F453',
-    keywords: [
+    label: 'Eyeglasses',
+    hexcode: '1F453',
+    tags: [
       'glasses',
       'fashion',
       'accessories',
@@ -22177,9 +22177,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eyeglasses'
   },
   {
-    name: 'Sunglasses',
-    unified: '1F576-FE0F',
-    keywords: [
+    label: 'Sunglasses',
+    hexcode: '1F576-FE0F',
+    tags: [
       'sunglasses',
       'face',
       'cool',
@@ -22189,9 +22189,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dark_sunglasses'
   },
   {
-    name: 'Goggles',
-    unified: '1F97D',
-    keywords: [
+    label: 'Goggles',
+    hexcode: '1F97D',
+    tags: [
       'goggles',
       'eyes',
       'protection',
@@ -22201,9 +22201,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'goggles'
   },
   {
-    name: 'Lab Coat',
-    unified: '1F97C',
-    keywords: [
+    label: 'Lab Coat',
+    hexcode: '1F97C',
+    tags: [
       'lab_coat',
       'doctor',
       'experiment',
@@ -22214,9 +22214,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lab_coat'
   },
   {
-    name: 'Safety Vest',
-    unified: '1F9BA',
-    keywords: [
+    label: 'Safety Vest',
+    hexcode: '1F9BA',
+    tags: [
       'safety_vest',
       'protection'
     ],
@@ -22224,9 +22224,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'safety_vest'
   },
   {
-    name: 'Necktie',
-    unified: '1F454',
-    keywords: [
+    label: 'Necktie',
+    hexcode: '1F454',
+    tags: [
       'necktie',
       'shirt',
       'suitup',
@@ -22239,9 +22239,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'necktie'
   },
   {
-    name: 'T-Shirt',
-    unified: '1F455',
-    keywords: [
+    label: 'T-Shirt',
+    hexcode: '1F455',
+    tags: [
       't_shirt',
       'fashion',
       'cloth',
@@ -22254,9 +22254,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shirt'
   },
   {
-    name: 'Jeans',
-    unified: '1F456',
-    keywords: [
+    label: 'Jeans',
+    hexcode: '1F456',
+    tags: [
       'jeans',
       'fashion',
       'shopping'
@@ -22265,9 +22265,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'jeans'
   },
   {
-    name: 'Scarf',
-    unified: '1F9E3',
-    keywords: [
+    label: 'Scarf',
+    hexcode: '1F9E3',
+    tags: [
       'scarf',
       'neck',
       'winter',
@@ -22277,9 +22277,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scarf'
   },
   {
-    name: 'Gloves',
-    unified: '1F9E4',
-    keywords: [
+    label: 'Gloves',
+    hexcode: '1F9E4',
+    tags: [
       'gloves',
       'hands',
       'winter',
@@ -22289,16 +22289,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gloves'
   },
   {
-    name: 'Coat',
-    unified: '1F9E5',
-    keywords: ['coat', 'jacket'],
+    label: 'Coat',
+    hexcode: '1F9E5',
+    tags: ['coat', 'jacket'],
     sheet: [53, 19],
     shortName: 'coat'
   },
   {
-    name: 'Socks',
-    unified: '1F9E6',
-    keywords: [
+    label: 'Socks',
+    hexcode: '1F9E6',
+    tags: [
       'socks',
       'stockings',
       'clothes'
@@ -22307,9 +22307,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'socks'
   },
   {
-    name: 'Dress',
-    unified: '1F457',
-    keywords: [
+    label: 'Dress',
+    hexcode: '1F457',
+    tags: [
       'dress',
       'clothes',
       'fashion',
@@ -22319,9 +22319,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dress'
   },
   {
-    name: 'Kimono',
-    unified: '1F458',
-    keywords: [
+    label: 'Kimono',
+    hexcode: '1F458',
+    tags: [
       'kimono',
       'dress',
       'fashion',
@@ -22333,16 +22333,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kimono'
   },
   {
-    name: 'Sari',
-    unified: '1F97B',
-    keywords: ['sari', 'dress'],
+    label: 'Sari',
+    hexcode: '1F97B',
+    tags: ['sari', 'dress'],
     sheet: [44, 13],
     shortName: 'sari'
   },
   {
-    name: 'One-Piece Swimsuit',
-    unified: '1FA71',
-    keywords: [
+    label: 'One-Piece Swimsuit',
+    hexcode: '1FA71',
+    tags: [
       'one_piece_swimsuit',
       'fashion'
     ],
@@ -22350,23 +22350,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'one-piece_swimsuit'
   },
   {
-    name: 'Briefs',
-    unified: '1FA72',
-    keywords: ['briefs', 'clothing'],
+    label: 'Briefs',
+    hexcode: '1FA72',
+    tags: ['briefs', 'clothing'],
     sheet: [53, 48],
     shortName: 'briefs'
   },
   {
-    name: 'Shorts',
-    unified: '1FA73',
-    keywords: ['shorts', 'clothing'],
+    label: 'Shorts',
+    hexcode: '1FA73',
+    tags: ['shorts', 'clothing'],
     sheet: [53, 49],
     shortName: 'shorts'
   },
   {
-    name: 'Bikini',
-    unified: '1F459',
-    keywords: [
+    label: 'Bikini',
+    hexcode: '1F459',
+    tags: [
       'bikini',
       'swimming',
       'female',
@@ -22380,9 +22380,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bikini'
   },
   {
-    name: 'Womans Clothes',
-    unified: '1F45A',
-    keywords: [
+    label: 'Womans Clothes',
+    hexcode: '1F45A',
+    tags: [
       'woman_s_clothes',
       'fashion',
       'shopping_bags',
@@ -22392,9 +22392,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'womans_clothes'
   },
   {
-    name: 'Purse',
-    unified: '1F45B',
-    keywords: [
+    label: 'Purse',
+    hexcode: '1F45B',
+    tags: [
       'purse',
       'fashion',
       'accessories',
@@ -22406,9 +22406,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'purse'
   },
   {
-    name: 'Handbag',
-    unified: '1F45C',
-    keywords: [
+    label: 'Handbag',
+    hexcode: '1F45C',
+    tags: [
       'handbag',
       'fashion',
       'accessory',
@@ -22419,9 +22419,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'handbag'
   },
   {
-    name: 'Pouch',
-    unified: '1F45D',
-    keywords: [
+    label: 'Pouch',
+    hexcode: '1F45D',
+    tags: [
       'clutch_bag',
       'bag',
       'accessories',
@@ -22431,9 +22431,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pouch'
   },
   {
-    name: 'Shopping Bags',
-    unified: '1F6CD-FE0F',
-    keywords: [
+    label: 'Shopping Bags',
+    hexcode: '1F6CD-FE0F',
+    tags: [
       'shopping_bags',
       'mall',
       'buy',
@@ -22443,9 +22443,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shopping_bags'
   },
   {
-    name: 'School Satchel',
-    unified: '1F392',
-    keywords: [
+    label: 'School Satchel',
+    hexcode: '1F392',
+    tags: [
       'backpack',
       'student',
       'education',
@@ -22456,9 +22456,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'school_satchel'
   },
   {
-    name: 'Thong Sandal',
-    unified: '1FA74',
-    keywords: [
+    label: 'Thong Sandal',
+    hexcode: '1FA74',
+    tags: [
       'thong sandal',
       'footwear',
       'summer'
@@ -22467,9 +22467,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'thong_sandal'
   },
   {
-    name: 'Mans Shoe',
-    unified: '1F45E',
-    keywords: [
+    label: 'Mans Shoe',
+    hexcode: '1F45E',
+    tags: [
       'man_s_shoe',
       'fashion',
       'male'
@@ -22479,9 +22479,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mans_shoe'
   },
   {
-    name: 'Athletic Shoe',
-    unified: '1F45F',
-    keywords: [
+    label: 'Athletic Shoe',
+    hexcode: '1F45F',
+    tags: [
       'running_shoe',
       'shoes',
       'sports',
@@ -22491,9 +22491,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'athletic_shoe'
   },
   {
-    name: 'Hiking Boot',
-    unified: '1F97E',
-    keywords: [
+    label: 'Hiking Boot',
+    hexcode: '1F97E',
+    tags: [
       'hiking_boot',
       'backpacking',
       'camping',
@@ -22503,9 +22503,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hiking_boot'
   },
   {
-    name: 'Flat Shoe',
-    unified: '1F97F',
-    keywords: [
+    label: 'Flat Shoe',
+    hexcode: '1F97F',
+    tags: [
       'flat_shoe',
       'ballet',
       'slip-on',
@@ -22515,9 +22515,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'womans_flat_shoe'
   },
   {
-    name: 'High-Heeled Shoe',
-    unified: '1F460',
-    keywords: [
+    label: 'High-Heeled Shoe',
+    hexcode: '1F460',
+    tags: [
       'high_heeled_shoe',
       'fashion',
       'shoes',
@@ -22529,9 +22529,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'high_heel'
   },
   {
-    name: 'Womans Sandal',
-    unified: '1F461',
-    keywords: [
+    label: 'Womans Sandal',
+    hexcode: '1F461',
+    tags: [
       'woman_s_sandal',
       'shoes',
       'fashion',
@@ -22541,16 +22541,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sandal'
   },
   {
-    name: 'Ballet Shoes',
-    unified: '1FA70',
-    keywords: ['ballet_shoes', 'dance'],
+    label: 'Ballet Shoes',
+    hexcode: '1FA70',
+    tags: ['ballet_shoes', 'dance'],
     sheet: [53, 46],
     shortName: 'ballet_shoes'
   },
   {
-    name: 'Womans Boots',
-    unified: '1F462',
-    keywords: [
+    label: 'Womans Boots',
+    hexcode: '1F462',
+    tags: [
       'woman_s_boot',
       'shoes',
       'fashion'
@@ -22559,9 +22559,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'boot'
   },
   {
-    name: 'Crown',
-    unified: '1F451',
-    keywords: [
+    label: 'Crown',
+    hexcode: '1F451',
+    tags: [
       'crown',
       'king',
       'kod',
@@ -22573,9 +22573,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crown'
   },
   {
-    name: 'Womans Hat',
-    unified: '1F452',
-    keywords: [
+    label: 'Womans Hat',
+    hexcode: '1F452',
+    tags: [
       'woman_s_hat',
       'fashion',
       'accessories',
@@ -22587,9 +22587,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'womans_hat'
   },
   {
-    name: 'Top Hat',
-    unified: '1F3A9',
-    keywords: [
+    label: 'Top Hat',
+    hexcode: '1F3A9',
+    tags: [
       'top_hat',
       'magic',
       'gentleman',
@@ -22600,9 +22600,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tophat'
   },
   {
-    name: 'Graduation Cap',
-    unified: '1F393',
-    keywords: [
+    label: 'Graduation Cap',
+    hexcode: '1F393',
+    tags: [
       'graduation_cap',
       'school',
       'college',
@@ -22619,9 +22619,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mortar_board'
   },
   {
-    name: 'Billed Cap',
-    unified: '1F9E2',
-    keywords: [
+    label: 'Billed Cap',
+    hexcode: '1F9E2',
+    tags: [
       'billed_cap',
       'cap',
       'baseball'
@@ -22630,9 +22630,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'billed_cap'
   },
   {
-    name: 'Military Helmet',
-    unified: '1FA96',
-    keywords: [
+    label: 'Military Helmet',
+    hexcode: '1FA96',
+    tags: [
       'military helmet',
       'army',
       'protection'
@@ -22641,9 +22641,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'military_helmet'
   },
   {
-    name: 'Rescue Worker’s Helmet',
-    unified: '26D1-FE0F',
-    keywords: [
+    label: 'Rescue Worker’s Helmet',
+    hexcode: '26D1-FE0F',
+    tags: [
       'rescue_worker_s_helmet',
       'construction',
       'build'
@@ -22652,9 +22652,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'helmet_with_white_cross'
   },
   {
-    name: 'Prayer Beads',
-    unified: '1F4FF',
-    keywords: [
+    label: 'Prayer Beads',
+    hexcode: '1F4FF',
+    tags: [
       'prayer_beads',
       'dhikr',
       'religious'
@@ -22663,9 +22663,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'prayer_beads'
   },
   {
-    name: 'Lipstick',
-    unified: '1F484',
-    keywords: [
+    label: 'Lipstick',
+    hexcode: '1F484',
+    tags: [
       'lipstick',
       'female',
       'girl',
@@ -22676,9 +22676,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lipstick'
   },
   {
-    name: 'Ring',
-    unified: '1F48D',
-    keywords: [
+    label: 'Ring',
+    hexcode: '1F48D',
+    tags: [
       'ring',
       'wedding',
       'propose',
@@ -22694,9 +22694,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ring'
   },
   {
-    name: 'Gem Stone',
-    unified: '1F48E',
-    keywords: [
+    label: 'Gem Stone',
+    hexcode: '1F48E',
+    tags: [
       'gem_stone',
       'blue',
       'ruby',
@@ -22707,9 +22707,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gem'
   },
   {
-    name: 'Speaker with Cancellation Stroke',
-    unified: '1F507',
-    keywords: [
+    label: 'Speaker with Cancellation Stroke',
+    hexcode: '1F507',
+    tags: [
       'muted_speaker',
       'sound',
       'volume',
@@ -22720,9 +22720,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mute'
   },
   {
-    name: 'Speaker',
-    unified: '1F508',
-    keywords: [
+    label: 'Speaker',
+    hexcode: '1F508',
+    tags: [
       'speaker_low_volume',
       'sound',
       'volume',
@@ -22733,9 +22733,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'speaker'
   },
   {
-    name: 'Speaker with One Sound Wave',
-    unified: '1F509',
-    keywords: [
+    label: 'Speaker with One Sound Wave',
+    hexcode: '1F509',
+    tags: [
       'speaker_medium_volume',
       'volume',
       'speaker',
@@ -22745,9 +22745,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sound'
   },
   {
-    name: 'Speaker with Three Sound Waves',
-    unified: '1F50A',
-    keywords: [
+    label: 'Speaker with Three Sound Waves',
+    hexcode: '1F50A',
+    tags: [
       'speaker_high_volume',
       'volume',
       'noise',
@@ -22759,9 +22759,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'loud_sound'
   },
   {
-    name: 'Public Address Loudspeaker',
-    unified: '1F4E2',
-    keywords: [
+    label: 'Public Address Loudspeaker',
+    hexcode: '1F4E2',
+    tags: [
       'loudspeaker',
       'volume',
       'sound'
@@ -22770,9 +22770,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'loudspeaker'
   },
   {
-    name: 'Cheering Megaphone',
-    unified: '1F4E3',
-    keywords: [
+    label: 'Cheering Megaphone',
+    hexcode: '1F4E3',
+    tags: [
       'megaphone',
       'sound',
       'speaker',
@@ -22782,9 +22782,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mega'
   },
   {
-    name: 'Postal Horn',
-    unified: '1F4EF',
-    keywords: [
+    label: 'Postal Horn',
+    hexcode: '1F4EF',
+    tags: [
       'postal_horn',
       'instrument',
       'music'
@@ -22793,9 +22793,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'postal_horn'
   },
   {
-    name: 'Bell',
-    unified: '1F514',
-    keywords: [
+    label: 'Bell',
+    hexcode: '1F514',
+    tags: [
       'bell',
       'sound',
       'notification',
@@ -22807,9 +22807,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bell'
   },
   {
-    name: 'Bell with Cancellation Stroke',
-    unified: '1F515',
-    keywords: [
+    label: 'Bell with Cancellation Stroke',
+    hexcode: '1F515',
+    tags: [
       'bell_with_slash',
       'sound',
       'volume',
@@ -22821,9 +22821,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_bell'
   },
   {
-    name: 'Musical Score',
-    unified: '1F3BC',
-    keywords: [
+    label: 'Musical Score',
+    hexcode: '1F3BC',
+    tags: [
       'musical_score',
       'treble',
       'clef',
@@ -22833,9 +22833,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'musical_score'
   },
   {
-    name: 'Musical Note',
-    unified: '1F3B5',
-    keywords: [
+    label: 'Musical Note',
+    hexcode: '1F3B5',
+    tags: [
       'musical_note',
       'score',
       'tone',
@@ -22845,9 +22845,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'musical_note'
   },
   {
-    name: 'Multiple Musical Notes',
-    unified: '1F3B6',
-    keywords: [
+    label: 'Multiple Musical Notes',
+    hexcode: '1F3B6',
+    tags: [
       'musical_notes',
       'music',
       'score'
@@ -22856,9 +22856,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'notes'
   },
   {
-    name: 'Studio Microphone',
-    unified: '1F399-FE0F',
-    keywords: [
+    label: 'Studio Microphone',
+    hexcode: '1F399-FE0F',
+    tags: [
       'studio_microphone',
       'sing',
       'recording',
@@ -22869,23 +22869,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'studio_microphone'
   },
   {
-    name: 'Level Slider',
-    unified: '1F39A-FE0F',
-    keywords: ['level_slider', 'scale'],
+    label: 'Level Slider',
+    hexcode: '1F39A-FE0F',
+    tags: ['level_slider', 'scale'],
     sheet: [7, 31],
     shortName: 'level_slider'
   },
   {
-    name: 'Control Knobs',
-    unified: '1F39B-FE0F',
-    keywords: ['control_knobs', 'dial'],
+    label: 'Control Knobs',
+    hexcode: '1F39B-FE0F',
+    tags: ['control_knobs', 'dial'],
     sheet: [7, 32],
     shortName: 'control_knobs'
   },
   {
-    name: 'Microphone',
-    unified: '1F3A4',
-    keywords: [
+    label: 'Microphone',
+    hexcode: '1F3A4',
+    tags: [
       'microphone',
       'sound',
       'music',
@@ -22897,9 +22897,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'microphone'
   },
   {
-    name: 'Headphone',
-    unified: '1F3A7',
-    keywords: [
+    label: 'Headphone',
+    hexcode: '1F3A7',
+    tags: [
       'headphone',
       'music',
       'score',
@@ -22909,9 +22909,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'headphones'
   },
   {
-    name: 'Radio',
-    unified: '1F4FB',
-    keywords: [
+    label: 'Radio',
+    hexcode: '1F4FB',
+    tags: [
       'radio',
       'communication',
       'music',
@@ -22922,9 +22922,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'radio'
   },
   {
-    name: 'Saxophone',
-    unified: '1F3B7',
-    keywords: [
+    label: 'Saxophone',
+    hexcode: '1F3B7',
+    tags: [
       'saxophone',
       'music',
       'instrument',
@@ -22935,16 +22935,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'saxophone'
   },
   {
-    name: 'Accordion',
-    unified: '1FA97',
-    keywords: ['accordion', 'music'],
+    label: 'Accordion',
+    hexcode: '1FA97',
+    tags: ['accordion', 'music'],
     sheet: [54, 9],
     shortName: 'accordion'
   },
   {
-    name: 'Guitar',
-    unified: '1F3B8',
-    keywords: [
+    label: 'Guitar',
+    hexcode: '1F3B8',
+    tags: [
       'guitar',
       'music',
       'instrument'
@@ -22953,9 +22953,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'guitar'
   },
   {
-    name: 'Musical Keyboard',
-    unified: '1F3B9',
-    keywords: [
+    label: 'Musical Keyboard',
+    hexcode: '1F3B9',
+    tags: [
       'musical_keyboard',
       'piano',
       'instrument',
@@ -22965,9 +22965,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'musical_keyboard'
   },
   {
-    name: 'Trumpet',
-    unified: '1F3BA',
-    keywords: [
+    label: 'Trumpet',
+    hexcode: '1F3BA',
+    tags: [
       'trumpet',
       'music',
       'brass'
@@ -22976,9 +22976,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'trumpet'
   },
   {
-    name: 'Violin',
-    unified: '1F3BB',
-    keywords: [
+    label: 'Violin',
+    hexcode: '1F3BB',
+    tags: [
       'violin',
       'music',
       'instrument',
@@ -22989,9 +22989,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'violin'
   },
   {
-    name: 'Banjo',
-    unified: '1FA95',
-    keywords: [
+    label: 'Banjo',
+    hexcode: '1FA95',
+    tags: [
       'banjo',
       'music',
       'instructment'
@@ -23000,9 +23000,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'banjo'
   },
   {
-    name: 'Drum with Drumsticks',
-    unified: '1F941',
-    keywords: [
+    label: 'Drum with Drumsticks',
+    hexcode: '1F941',
+    tags: [
       'drum',
       'music',
       'instrument',
@@ -23013,16 +23013,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'drum_with_drumsticks'
   },
   {
-    name: 'Long Drum',
-    unified: '1FA98',
-    keywords: ['long drum', 'music'],
+    label: 'Long Drum',
+    hexcode: '1FA98',
+    tags: ['long drum', 'music'],
     sheet: [54, 10],
     shortName: 'long_drum'
   },
   {
-    name: 'Mobile Phone',
-    unified: '1F4F1',
-    keywords: [
+    label: 'Mobile Phone',
+    hexcode: '1F4F1',
+    tags: [
       'mobile_phone',
       'technology',
       'apple',
@@ -23033,9 +23033,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'iphone'
   },
   {
-    name: 'Mobile Phone with Rightwards Arrow at Left',
-    unified: '1F4F2',
-    keywords: [
+    label: 'Mobile Phone with Rightwards Arrow at Left',
+    hexcode: '1F4F2',
+    tags: [
       'mobile_phone_with_arrow',
       'iphone',
       'incoming'
@@ -23044,9 +23044,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'calling'
   },
   {
-    name: 'Black Telephone',
-    unified: '260E-FE0F',
-    keywords: [
+    label: 'Black Telephone',
+    hexcode: '260E-FE0F',
+    tags: [
       'telephone',
       'technology',
       'communication',
@@ -23058,9 +23058,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'phone'
   },
   {
-    name: 'Telephone Receiver',
-    unified: '1F4DE',
-    keywords: [
+    label: 'Telephone Receiver',
+    hexcode: '1F4DE',
+    tags: [
       'telephone_receiver',
       'technology',
       'communication',
@@ -23070,9 +23070,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'telephone_receiver'
   },
   {
-    name: 'Pager',
-    unified: '1F4DF',
-    keywords: [
+    label: 'Pager',
+    hexcode: '1F4DF',
+    tags: [
       'pager',
       'bbcall',
       'oldschool',
@@ -23082,9 +23082,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pager'
   },
   {
-    name: 'Fax Machine',
-    unified: '1F4E0',
-    keywords: [
+    label: 'Fax Machine',
+    hexcode: '1F4E0',
+    tags: [
       'fax_machine',
       'communication',
       'technology'
@@ -23093,9 +23093,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fax'
   },
   {
-    name: 'Battery',
-    unified: '1F50B',
-    keywords: [
+    label: 'Battery',
+    hexcode: '1F50B',
+    tags: [
       'battery',
       'power',
       'energy',
@@ -23105,9 +23105,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'battery'
   },
   {
-    name: 'Low Battery',
-    unified: '1FAAB',
-    keywords: [
+    label: 'Low Battery',
+    hexcode: '1FAAB',
+    tags: [
       'low battery',
       'drained',
       'dead'
@@ -23117,9 +23117,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'low_battery'
   },
   {
-    name: 'Electric Plug',
-    unified: '1F50C',
-    keywords: [
+    label: 'Electric Plug',
+    hexcode: '1F50C',
+    tags: [
       'electric_plug',
       'charger',
       'power'
@@ -23128,9 +23128,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'electric_plug'
   },
   {
-    name: 'Personal Computer',
-    unified: '1F4BB',
-    keywords: [
+    label: 'Personal Computer',
+    hexcode: '1F4BB',
+    tags: [
       'laptop',
       'technology',
       'laptop',
@@ -23142,9 +23142,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'computer'
   },
   {
-    name: 'Desktop Computer',
-    unified: '1F5A5-FE0F',
-    keywords: [
+    label: 'Desktop Computer',
+    hexcode: '1F5A5-FE0F',
+    tags: [
       'desktop_computer',
       'technology',
       'computing',
@@ -23154,9 +23154,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'desktop_computer'
   },
   {
-    name: 'Printer',
-    unified: '1F5A8-FE0F',
-    keywords: [
+    label: 'Printer',
+    hexcode: '1F5A8-FE0F',
+    tags: [
       'printer',
       'paper',
       'ink'
@@ -23165,9 +23165,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'printer'
   },
   {
-    name: 'Keyboard',
-    unified: '2328-FE0F',
-    keywords: [
+    label: 'Keyboard',
+    hexcode: '2328-FE0F',
+    tags: [
       'keyboard',
       'technology',
       'computer',
@@ -23179,9 +23179,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'keyboard'
   },
   {
-    name: 'Computer Mouse',
-    unified: '1F5B1-FE0F',
-    keywords: [
+    label: 'Computer Mouse',
+    hexcode: '1F5B1-FE0F',
+    tags: [
       'computer_mouse',
       'click'
     ],
@@ -23189,9 +23189,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'three_button_mouse'
   },
   {
-    name: 'Trackball',
-    unified: '1F5B2-FE0F',
-    keywords: [
+    label: 'Trackball',
+    hexcode: '1F5B2-FE0F',
+    tags: [
       'trackball',
       'technology',
       'trackpad'
@@ -23200,9 +23200,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'trackball'
   },
   {
-    name: 'Minidisc',
-    unified: '1F4BD',
-    keywords: [
+    label: 'Minidisc',
+    hexcode: '1F4BD',
+    tags: [
       'computer_disk',
       'technology',
       'record',
@@ -23214,9 +23214,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'minidisc'
   },
   {
-    name: 'Floppy Disk',
-    unified: '1F4BE',
-    keywords: [
+    label: 'Floppy Disk',
+    hexcode: '1F4BE',
+    tags: [
       'floppy_disk',
       'oldschool',
       'technology',
@@ -23228,9 +23228,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'floppy_disk'
   },
   {
-    name: 'Optical Disc',
-    unified: '1F4BF',
-    keywords: [
+    label: 'Optical Disc',
+    hexcode: '1F4BF',
+    tags: [
       'optical_disk',
       'technology',
       'dvd',
@@ -23242,9 +23242,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cd'
   },
   {
-    name: 'Dvd',
-    unified: '1F4C0',
-    keywords: [
+    label: 'Dvd',
+    hexcode: '1F4C0',
+    tags: [
       'dvd',
       'cd',
       'disk',
@@ -23254,16 +23254,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dvd'
   },
   {
-    name: 'Abacus',
-    unified: '1F9EE',
-    keywords: ['abacus', 'calculation'],
+    label: 'Abacus',
+    hexcode: '1F9EE',
+    tags: ['abacus', 'calculation'],
     sheet: [53, 28],
     shortName: 'abacus'
   },
   {
-    name: 'Movie Camera',
-    unified: '1F3A5',
-    keywords: [
+    label: 'Movie Camera',
+    hexcode: '1F3A5',
+    tags: [
       'movie_camera',
       'film',
       'record'
@@ -23272,16 +23272,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'movie_camera'
   },
   {
-    name: 'Film Frames',
-    unified: '1F39E-FE0F',
-    keywords: ['film_frames', 'movie'],
+    label: 'Film Frames',
+    hexcode: '1F39E-FE0F',
+    tags: ['film_frames', 'movie'],
     sheet: [7, 33],
     shortName: 'film_frames'
   },
   {
-    name: 'Film Projector',
-    unified: '1F4FD-FE0F',
-    keywords: [
+    label: 'Film Projector',
+    hexcode: '1F4FD-FE0F',
+    tags: [
       'film_projector',
       'video',
       'tape',
@@ -23292,9 +23292,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'film_projector'
   },
   {
-    name: 'Clapper Board',
-    unified: '1F3AC',
-    keywords: [
+    label: 'Clapper Board',
+    hexcode: '1F3AC',
+    tags: [
       'clapper_board',
       'movie',
       'film',
@@ -23304,9 +23304,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clapper'
   },
   {
-    name: 'Television',
-    unified: '1F4FA',
-    keywords: [
+    label: 'Television',
+    hexcode: '1F4FA',
+    tags: [
       'television',
       'technology',
       'program',
@@ -23318,9 +23318,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tv'
   },
   {
-    name: 'Camera',
-    unified: '1F4F7',
-    keywords: [
+    label: 'Camera',
+    hexcode: '1F4F7',
+    tags: [
       'camera',
       'gadgets',
       'photography'
@@ -23329,9 +23329,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'camera'
   },
   {
-    name: 'Camera with Flash',
-    unified: '1F4F8',
-    keywords: [
+    label: 'Camera with Flash',
+    hexcode: '1F4F8',
+    tags: [
       'camera_with_flash',
       'photography',
       'gadgets'
@@ -23340,9 +23340,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'camera_with_flash'
   },
   {
-    name: 'Video Camera',
-    unified: '1F4F9',
-    keywords: [
+    label: 'Video Camera',
+    hexcode: '1F4F9',
+    tags: [
       'video_camera',
       'film',
       'record'
@@ -23351,9 +23351,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'video_camera'
   },
   {
-    name: 'Videocassette',
-    unified: '1F4FC',
-    keywords: [
+    label: 'Videocassette',
+    hexcode: '1F4FC',
+    tags: [
       'videocassette',
       'record',
       'video',
@@ -23365,9 +23365,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'vhs'
   },
   {
-    name: 'Left-Pointing Magnifying Glass',
-    unified: '1F50D',
-    keywords: [
+    label: 'Left-Pointing Magnifying Glass',
+    hexcode: '1F50D',
+    tags: [
       'magnifying_glass_tilted_left',
       'search',
       'zoom',
@@ -23378,9 +23378,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mag'
   },
   {
-    name: 'Right-Pointing Magnifying Glass',
-    unified: '1F50E',
-    keywords: [
+    label: 'Right-Pointing Magnifying Glass',
+    hexcode: '1F50E',
+    tags: [
       'magnifying_glass_tilted_right',
       'search',
       'zoom',
@@ -23391,16 +23391,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mag_right'
   },
   {
-    name: 'Candle',
-    unified: '1F56F-FE0F',
-    keywords: ['candle', 'fire', 'wax'],
+    label: 'Candle',
+    hexcode: '1F56F-FE0F',
+    tags: ['candle', 'fire', 'wax'],
     sheet: [30, 56],
     shortName: 'candle'
   },
   {
-    name: 'Electric Light Bulb',
-    unified: '1F4A1',
-    keywords: [
+    label: 'Electric Light Bulb',
+    hexcode: '1F4A1',
+    tags: [
       'light_bulb',
       'light',
       'electricity',
@@ -23410,9 +23410,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bulb'
   },
   {
-    name: 'Electric Torch',
-    unified: '1F526',
-    keywords: [
+    label: 'Electric Torch',
+    hexcode: '1F526',
+    tags: [
       'flashlight',
       'dark',
       'camping',
@@ -23423,9 +23423,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flashlight'
   },
   {
-    name: 'Izakaya Lantern',
-    unified: '1F3EE',
-    keywords: [
+    label: 'Izakaya Lantern',
+    hexcode: '1F3EE',
+    tags: [
       'red_paper_lantern',
       'light',
       'paper',
@@ -23437,16 +23437,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'izakaya_lantern'
   },
   {
-    name: 'Diya Lamp',
-    unified: '1FA94',
-    keywords: ['diya_lamp', 'lighting'],
+    label: 'Diya Lamp',
+    hexcode: '1FA94',
+    tags: ['diya_lamp', 'lighting'],
     sheet: [54, 6],
     shortName: 'diya_lamp'
   },
   {
-    name: 'Notebook with Decorative Cover',
-    unified: '1F4D4',
-    keywords: [
+    label: 'Notebook with Decorative Cover',
+    hexcode: '1F4D4',
+    tags: [
       'notebook_with_decorative_cover',
       'classroom',
       'notes',
@@ -23458,9 +23458,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'notebook_with_decorative_cover'
   },
   {
-    name: 'Closed Book',
-    unified: '1F4D5',
-    keywords: [
+    label: 'Closed Book',
+    hexcode: '1F4D5',
+    tags: [
       'closed_book',
       'read',
       'library',
@@ -23472,9 +23472,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'closed_book'
   },
   {
-    name: 'Open Book',
-    unified: '1F4D6',
-    keywords: [
+    label: 'Open Book',
+    hexcode: '1F4D6',
+    tags: [
       'open_book',
       'book',
       'read',
@@ -23489,9 +23489,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'book'
   },
   {
-    name: 'Green Book',
-    unified: '1F4D7',
-    keywords: [
+    label: 'Green Book',
+    hexcode: '1F4D7',
+    tags: [
       'green_book',
       'read',
       'library',
@@ -23502,9 +23502,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'green_book'
   },
   {
-    name: 'Blue Book',
-    unified: '1F4D8',
-    keywords: [
+    label: 'Blue Book',
+    hexcode: '1F4D8',
+    tags: [
       'blue_book',
       'read',
       'library',
@@ -23516,9 +23516,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'blue_book'
   },
   {
-    name: 'Orange Book',
-    unified: '1F4D9',
-    keywords: [
+    label: 'Orange Book',
+    hexcode: '1F4D9',
+    tags: [
       'orange_book',
       'read',
       'library',
@@ -23530,9 +23530,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'orange_book'
   },
   {
-    name: 'Books',
-    unified: '1F4DA',
-    keywords: [
+    label: 'Books',
+    hexcode: '1F4DA',
+    tags: [
       'books',
       'literature',
       'library',
@@ -23542,9 +23542,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'books'
   },
   {
-    name: 'Notebook',
-    unified: '1F4D3',
-    keywords: [
+    label: 'Notebook',
+    hexcode: '1F4D3',
+    tags: [
       'notebook',
       'stationery',
       'record',
@@ -23556,9 +23556,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'notebook'
   },
   {
-    name: 'Ledger',
-    unified: '1F4D2',
-    keywords: [
+    label: 'Ledger',
+    hexcode: '1F4D2',
+    tags: [
       'ledger',
       'notes',
       'paper'
@@ -23567,9 +23567,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ledger'
   },
   {
-    name: 'Page with Curl',
-    unified: '1F4C3',
-    keywords: [
+    label: 'Page with Curl',
+    hexcode: '1F4C3',
+    tags: [
       'page_with_curl',
       'documents',
       'office',
@@ -23579,9 +23579,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'page_with_curl'
   },
   {
-    name: 'Scroll',
-    unified: '1F4DC',
-    keywords: [
+    label: 'Scroll',
+    hexcode: '1F4DC',
+    tags: [
       'scroll',
       'documents',
       'ancient',
@@ -23592,9 +23592,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scroll'
   },
   {
-    name: 'Page Facing Up',
-    unified: '1F4C4',
-    keywords: [
+    label: 'Page Facing Up',
+    hexcode: '1F4C4',
+    tags: [
       'page_facing_up',
       'documents',
       'office',
@@ -23605,9 +23605,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'page_facing_up'
   },
   {
-    name: 'Newspaper',
-    unified: '1F4F0',
-    keywords: [
+    label: 'Newspaper',
+    hexcode: '1F4F0',
+    tags: [
       'newspaper',
       'press',
       'headline'
@@ -23616,9 +23616,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'newspaper'
   },
   {
-    name: 'Rolled-Up Newspaper',
-    unified: '1F5DE-FE0F',
-    keywords: [
+    label: 'Rolled-Up Newspaper',
+    hexcode: '1F5DE-FE0F',
+    tags: [
       'rolled_up_newspaper',
       'press',
       'headline'
@@ -23627,9 +23627,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rolled_up_newspaper'
   },
   {
-    name: 'Bookmark Tabs',
-    unified: '1F4D1',
-    keywords: [
+    label: 'Bookmark Tabs',
+    hexcode: '1F4D1',
+    tags: [
       'bookmark_tabs',
       'favorite',
       'save',
@@ -23640,9 +23640,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bookmark_tabs'
   },
   {
-    name: 'Bookmark',
-    unified: '1F516',
-    keywords: [
+    label: 'Bookmark',
+    hexcode: '1F516',
+    tags: [
       'bookmark',
       'favorite',
       'label',
@@ -23652,16 +23652,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bookmark'
   },
   {
-    name: 'Label',
-    unified: '1F3F7-FE0F',
-    keywords: ['label', 'sale', 'tag'],
+    label: 'Label',
+    hexcode: '1F3F7-FE0F',
+    tags: ['label', 'sale', 'tag'],
     sheet: [10, 37],
     shortName: 'label'
   },
   {
-    name: 'Money Bag',
-    unified: '1F4B0',
-    keywords: [
+    label: 'Money Bag',
+    hexcode: '1F4B0',
+    tags: [
       'money_bag',
       'dollar',
       'payment',
@@ -23672,9 +23672,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'moneybag'
   },
   {
-    name: 'Coin',
-    unified: '1FA99',
-    keywords: [
+    label: 'Coin',
+    hexcode: '1FA99',
+    tags: [
       'coin',
       'money',
       'currency'
@@ -23683,9 +23683,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'coin'
   },
   {
-    name: 'Banknote with Yen Sign',
-    unified: '1F4B4',
-    keywords: [
+    label: 'Banknote with Yen Sign',
+    hexcode: '1F4B4',
+    tags: [
       'yen_banknote',
       'money',
       'sales',
@@ -23697,9 +23697,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'yen'
   },
   {
-    name: 'Banknote with Dollar Sign',
-    unified: '1F4B5',
-    keywords: [
+    label: 'Banknote with Dollar Sign',
+    hexcode: '1F4B5',
+    tags: [
       'dollar_banknote',
       'money',
       'sales',
@@ -23710,9 +23710,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dollar'
   },
   {
-    name: 'Banknote with Euro Sign',
-    unified: '1F4B6',
-    keywords: [
+    label: 'Banknote with Euro Sign',
+    hexcode: '1F4B6',
+    tags: [
       'euro_banknote',
       'money',
       'sales',
@@ -23723,9 +23723,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'euro'
   },
   {
-    name: 'Banknote with Pound Sign',
-    unified: '1F4B7',
-    keywords: [
+    label: 'Banknote with Pound Sign',
+    hexcode: '1F4B7',
+    tags: [
       'pound_banknote',
       'british',
       'sterling',
@@ -23740,9 +23740,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pound'
   },
   {
-    name: 'Money with Wings',
-    unified: '1F4B8',
-    keywords: [
+    label: 'Money with Wings',
+    hexcode: '1F4B8',
+    tags: [
       'money_with_wings',
       'dollar',
       'bills',
@@ -23753,9 +23753,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'money_with_wings'
   },
   {
-    name: 'Credit Card',
-    unified: '1F4B3',
-    keywords: [
+    label: 'Credit Card',
+    hexcode: '1F4B3',
+    tags: [
       'credit_card',
       'money',
       'sales',
@@ -23768,9 +23768,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'credit_card'
   },
   {
-    name: 'Receipt',
-    unified: '1F9FE',
-    keywords: [
+    label: 'Receipt',
+    hexcode: '1F9FE',
+    tags: [
       'receipt',
       'accounting',
       'expenses'
@@ -23779,9 +23779,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'receipt'
   },
   {
-    name: 'Chart with Upwards Trend and Yen Sign',
-    unified: '1F4B9',
-    keywords: [
+    label: 'Chart with Upwards Trend and Yen Sign',
+    hexcode: '1F4B9',
+    tags: [
       'chart_increasing_with_yen',
       'green-square',
       'graph',
@@ -23792,9 +23792,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chart'
   },
   {
-    name: 'Envelope',
-    unified: '2709-FE0F',
-    keywords: [
+    label: 'Envelope',
+    hexcode: '2709-FE0F',
+    tags: [
       'envelope',
       'letter',
       'postal',
@@ -23806,9 +23806,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'email'
   },
   {
-    name: 'E-Mail Symbol',
-    unified: '1F4E7',
-    keywords: [
+    label: 'E-Mail Symbol',
+    hexcode: '1F4E7',
+    tags: [
       'e_mail',
       'communication',
       'inbox'
@@ -23817,9 +23817,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'e-mail'
   },
   {
-    name: 'Incoming Envelope',
-    unified: '1F4E8',
-    keywords: [
+    label: 'Incoming Envelope',
+    hexcode: '1F4E8',
+    tags: [
       'incoming_envelope',
       'email',
       'inbox'
@@ -23828,9 +23828,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'incoming_envelope'
   },
   {
-    name: 'Envelope with Downwards Arrow Above',
-    unified: '1F4E9',
-    keywords: [
+    label: 'Envelope with Downwards Arrow Above',
+    hexcode: '1F4E9',
+    tags: [
       'envelope_with_arrow',
       'email',
       'communication'
@@ -23839,9 +23839,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'envelope_with_arrow'
   },
   {
-    name: 'Outbox Tray',
-    unified: '1F4E4',
-    keywords: [
+    label: 'Outbox Tray',
+    hexcode: '1F4E4',
+    tags: [
       'outbox_tray',
       'inbox',
       'email'
@@ -23850,9 +23850,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'outbox_tray'
   },
   {
-    name: 'Inbox Tray',
-    unified: '1F4E5',
-    keywords: [
+    label: 'Inbox Tray',
+    hexcode: '1F4E5',
+    tags: [
       'inbox_tray',
       'email',
       'documents'
@@ -23861,9 +23861,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'inbox_tray'
   },
   {
-    name: 'Package',
-    unified: '1F4E6',
-    keywords: [
+    label: 'Package',
+    hexcode: '1F4E6',
+    tags: [
       'package',
       'mail',
       'gift',
@@ -23875,9 +23875,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'package'
   },
   {
-    name: 'Closed Mailbox with Raised Flag',
-    unified: '1F4EB',
-    keywords: [
+    label: 'Closed Mailbox with Raised Flag',
+    hexcode: '1F4EB',
+    tags: [
       'closed_mailbox_with_raised_flag',
       'email',
       'inbox',
@@ -23887,9 +23887,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mailbox'
   },
   {
-    name: 'Closed Mailbox with Lowered Flag',
-    unified: '1F4EA',
-    keywords: [
+    label: 'Closed Mailbox with Lowered Flag',
+    hexcode: '1F4EA',
+    tags: [
       'closed_mailbox_with_lowered_flag',
       'email',
       'communication',
@@ -23899,9 +23899,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mailbox_closed'
   },
   {
-    name: 'Open Mailbox with Raised Flag',
-    unified: '1F4EC',
-    keywords: [
+    label: 'Open Mailbox with Raised Flag',
+    hexcode: '1F4EC',
+    tags: [
       'open_mailbox_with_raised_flag',
       'email',
       'inbox',
@@ -23911,9 +23911,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mailbox_with_mail'
   },
   {
-    name: 'Open Mailbox with Lowered Flag',
-    unified: '1F4ED',
-    keywords: [
+    label: 'Open Mailbox with Lowered Flag',
+    hexcode: '1F4ED',
+    tags: [
       'open_mailbox_with_lowered_flag',
       'email',
       'inbox'
@@ -23922,9 +23922,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mailbox_with_no_mail'
   },
   {
-    name: 'Postbox',
-    unified: '1F4EE',
-    keywords: [
+    label: 'Postbox',
+    hexcode: '1F4EE',
+    tags: [
       'postbox',
       'email',
       'letter',
@@ -23934,9 +23934,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'postbox'
   },
   {
-    name: 'Ballot Box with Ballot',
-    unified: '1F5F3-FE0F',
-    keywords: [
+    label: 'Ballot Box with Ballot',
+    hexcode: '1F5F3-FE0F',
+    tags: [
       'ballot_box_with_ballot',
       'election',
       'vote'
@@ -23945,9 +23945,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ballot_box_with_ballot'
   },
   {
-    name: 'Pencil',
-    unified: '270F-FE0F',
-    keywords: [
+    label: 'Pencil',
+    hexcode: '270F-FE0F',
+    tags: [
       'pencil',
       'stationery',
       'write',
@@ -23960,9 +23960,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pencil2'
   },
   {
-    name: 'Black Nib',
-    unified: '2712-FE0F',
-    keywords: [
+    label: 'Black Nib',
+    hexcode: '2712-FE0F',
+    tags: [
       'black_nib',
       'pen',
       'stationery',
@@ -23973,9 +23973,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_nib'
   },
   {
-    name: 'Fountain Pen',
-    unified: '1F58B-FE0F',
-    keywords: [
+    label: 'Fountain Pen',
+    hexcode: '1F58B-FE0F',
+    tags: [
       'fountain_pen',
       'stationery',
       'writing',
@@ -23985,9 +23985,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lower_left_fountain_pen'
   },
   {
-    name: 'Pen',
-    unified: '1F58A-FE0F',
-    keywords: [
+    label: 'Pen',
+    hexcode: '1F58A-FE0F',
+    tags: [
       'pen',
       'stationery',
       'writing',
@@ -23997,9 +23997,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lower_left_ballpoint_pen'
   },
   {
-    name: 'Paintbrush',
-    unified: '1F58C-FE0F',
-    keywords: [
+    label: 'Paintbrush',
+    hexcode: '1F58C-FE0F',
+    tags: [
       'paintbrush',
       'drawing',
       'creativity',
@@ -24009,9 +24009,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lower_left_paintbrush'
   },
   {
-    name: 'Crayon',
-    unified: '1F58D-FE0F',
-    keywords: [
+    label: 'Crayon',
+    hexcode: '1F58D-FE0F',
+    tags: [
       'crayon',
       'drawing',
       'creativity'
@@ -24020,9 +24020,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lower_left_crayon'
   },
   {
-    name: 'Memo',
-    unified: '1F4DD',
-    keywords: [
+    label: 'Memo',
+    hexcode: '1F4DD',
+    tags: [
       'memo',
       'write',
       'documents',
@@ -24042,9 +24042,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'memo'
   },
   {
-    name: 'Briefcase',
-    unified: '1F4BC',
-    keywords: [
+    label: 'Briefcase',
+    hexcode: '1F4BC',
+    tags: [
       'briefcase',
       'business',
       'documents',
@@ -24058,9 +24058,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'briefcase'
   },
   {
-    name: 'File Folder',
-    unified: '1F4C1',
-    keywords: [
+    label: 'File Folder',
+    hexcode: '1F4C1',
+    tags: [
       'file_folder',
       'documents',
       'business',
@@ -24070,9 +24070,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'file_folder'
   },
   {
-    name: 'Open File Folder',
-    unified: '1F4C2',
-    keywords: [
+    label: 'Open File Folder',
+    hexcode: '1F4C2',
+    tags: [
       'open_file_folder',
       'documents',
       'load'
@@ -24081,9 +24081,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'open_file_folder'
   },
   {
-    name: 'Card Index Dividers',
-    unified: '1F5C2-FE0F',
-    keywords: [
+    label: 'Card Index Dividers',
+    hexcode: '1F5C2-FE0F',
+    tags: [
       'card_index_dividers',
       'organizing',
       'business',
@@ -24093,9 +24093,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'card_index_dividers'
   },
   {
-    name: 'Calendar',
-    unified: '1F4C5',
-    keywords: [
+    label: 'Calendar',
+    hexcode: '1F4C5',
+    tags: [
       'calendar',
       'calendar',
       'schedule'
@@ -24104,9 +24104,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'date'
   },
   {
-    name: 'Tear-off Calendar',
-    unified: '1F4C6',
-    keywords: [
+    label: 'Tear-off Calendar',
+    hexcode: '1F4C6',
+    tags: [
       'tear_off_calendar',
       'schedule',
       'date',
@@ -24116,9 +24116,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'calendar'
   },
   {
-    name: 'Spiral Notepad',
-    unified: '1F5D2-FE0F',
-    keywords: [
+    label: 'Spiral Notepad',
+    hexcode: '1F5D2-FE0F',
+    tags: [
       'spiral_notepad',
       'memo',
       'stationery'
@@ -24127,9 +24127,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spiral_note_pad'
   },
   {
-    name: 'Spiral Calendar',
-    unified: '1F5D3-FE0F',
-    keywords: [
+    label: 'Spiral Calendar',
+    hexcode: '1F5D3-FE0F',
+    tags: [
       'spiral_calendar',
       'date',
       'schedule',
@@ -24139,9 +24139,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'spiral_calendar_pad'
   },
   {
-    name: 'Card Index',
-    unified: '1F4C7',
-    keywords: [
+    label: 'Card Index',
+    hexcode: '1F4C7',
+    tags: [
       'card_index',
       'business',
       'stationery'
@@ -24150,9 +24150,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'card_index'
   },
   {
-    name: 'Chart with Upwards Trend',
-    unified: '1F4C8',
-    keywords: [
+    label: 'Chart with Upwards Trend',
+    hexcode: '1F4C8',
+    tags: [
       'chart_increasing',
       'graph',
       'presentation',
@@ -24169,9 +24169,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chart_with_upwards_trend'
   },
   {
-    name: 'Chart with Downwards Trend',
-    unified: '1F4C9',
-    keywords: [
+    label: 'Chart with Downwards Trend',
+    hexcode: '1F4C9',
+    tags: [
       'chart_decreasing',
       'graph',
       'presentation',
@@ -24188,9 +24188,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chart_with_downwards_trend'
   },
   {
-    name: 'Bar Chart',
-    unified: '1F4CA',
-    keywords: [
+    label: 'Bar Chart',
+    hexcode: '1F4CA',
+    tags: [
       'bar_chart',
       'graph',
       'presentation',
@@ -24200,9 +24200,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bar_chart'
   },
   {
-    name: 'Clipboard',
-    unified: '1F4CB',
-    keywords: [
+    label: 'Clipboard',
+    hexcode: '1F4CB',
+    tags: [
       'clipboard',
       'stationery',
       'documents'
@@ -24211,9 +24211,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'clipboard'
   },
   {
-    name: 'Pushpin',
-    unified: '1F4CC',
-    keywords: [
+    label: 'Pushpin',
+    hexcode: '1F4CC',
+    tags: [
       'pushpin',
       'stationery',
       'mark',
@@ -24223,9 +24223,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pushpin'
   },
   {
-    name: 'Round Pushpin',
-    unified: '1F4CD',
-    keywords: [
+    label: 'Round Pushpin',
+    hexcode: '1F4CD',
+    tags: [
       'round_pushpin',
       'stationery',
       'location',
@@ -24236,9 +24236,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'round_pushpin'
   },
   {
-    name: 'Paperclip',
-    unified: '1F4CE',
-    keywords: [
+    label: 'Paperclip',
+    hexcode: '1F4CE',
+    tags: [
       'paperclip',
       'documents',
       'stationery'
@@ -24247,9 +24247,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'paperclip'
   },
   {
-    name: 'Linked Paperclips',
-    unified: '1F587-FE0F',
-    keywords: [
+    label: 'Linked Paperclips',
+    hexcode: '1F587-FE0F',
+    tags: [
       'linked_paperclips',
       'documents',
       'stationery'
@@ -24258,9 +24258,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'linked_paperclips'
   },
   {
-    name: 'Straight Ruler',
-    unified: '1F4CF',
-    keywords: [
+    label: 'Straight Ruler',
+    hexcode: '1F4CF',
+    tags: [
       'straight_ruler',
       'stationery',
       'calculate',
@@ -24275,9 +24275,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'straight_ruler'
   },
   {
-    name: 'Triangular Ruler',
-    unified: '1F4D0',
-    keywords: [
+    label: 'Triangular Ruler',
+    hexcode: '1F4D0',
+    tags: [
       'triangular_ruler',
       'stationery',
       'math',
@@ -24288,9 +24288,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'triangular_ruler'
   },
   {
-    name: 'Black Scissors',
-    unified: '2702-FE0F',
-    keywords: [
+    label: 'Black Scissors',
+    hexcode: '2702-FE0F',
+    tags: [
       'scissors',
       'stationery',
       'cut'
@@ -24299,9 +24299,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scissors'
   },
   {
-    name: 'Card File Box',
-    unified: '1F5C3-FE0F',
-    keywords: [
+    label: 'Card File Box',
+    hexcode: '1F5C3-FE0F',
+    tags: [
       'card_file_box',
       'business',
       'stationery'
@@ -24310,9 +24310,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'card_file_box'
   },
   {
-    name: 'File Cabinet',
-    unified: '1F5C4-FE0F',
-    keywords: [
+    label: 'File Cabinet',
+    hexcode: '1F5C4-FE0F',
+    tags: [
       'file_cabinet',
       'filing',
       'organizing'
@@ -24321,9 +24321,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'file_cabinet'
   },
   {
-    name: 'Wastebasket',
-    unified: '1F5D1-FE0F',
-    keywords: [
+    label: 'Wastebasket',
+    hexcode: '1F5D1-FE0F',
+    tags: [
       'wastebasket',
       'bin',
       'trash',
@@ -24335,9 +24335,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wastebasket'
   },
   {
-    name: 'Lock',
-    unified: '1F512',
-    keywords: [
+    label: 'Lock',
+    hexcode: '1F512',
+    tags: [
       'locked',
       'security',
       'password',
@@ -24347,9 +24347,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lock'
   },
   {
-    name: 'Open Lock',
-    unified: '1F513',
-    keywords: [
+    label: 'Open Lock',
+    hexcode: '1F513',
+    tags: [
       'unlocked',
       'privacy',
       'security'
@@ -24358,9 +24358,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'unlock'
   },
   {
-    name: 'Lock with Ink Pen',
-    unified: '1F50F',
-    keywords: [
+    label: 'Lock with Ink Pen',
+    hexcode: '1F50F',
+    tags: [
       'locked_with_pen',
       'security',
       'secret'
@@ -24369,9 +24369,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lock_with_ink_pen'
   },
   {
-    name: 'Closed Lock with Key',
-    unified: '1F510',
-    keywords: [
+    label: 'Closed Lock with Key',
+    hexcode: '1F510',
+    tags: [
       'locked_with_key',
       'security',
       'privacy'
@@ -24380,9 +24380,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'closed_lock_with_key'
   },
   {
-    name: 'Key',
-    unified: '1F511',
-    keywords: [
+    label: 'Key',
+    hexcode: '1F511',
+    tags: [
       'key',
       'lock',
       'door',
@@ -24392,9 +24392,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'key'
   },
   {
-    name: 'Old Key',
-    unified: '1F5DD-FE0F',
-    keywords: [
+    label: 'Old Key',
+    hexcode: '1F5DD-FE0F',
+    tags: [
       'old_key',
       'lock',
       'door',
@@ -24404,9 +24404,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'old_key'
   },
   {
-    name: 'Hammer',
-    unified: '1F528',
-    keywords: [
+    label: 'Hammer',
+    hexcode: '1F528',
+    tags: [
       'hammer',
       'tools',
       'build',
@@ -24416,9 +24416,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hammer'
   },
   {
-    name: 'Axe',
-    unified: '1FA93',
-    keywords: [
+    label: 'Axe',
+    hexcode: '1FA93',
+    tags: [
       'axe',
       'tool',
       'chop',
@@ -24428,16 +24428,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'axe'
   },
   {
-    name: 'Pick',
-    unified: '26CF-FE0F',
-    keywords: ['pick', 'tools', 'dig'],
+    label: 'Pick',
+    hexcode: '26CF-FE0F',
+    tags: ['pick', 'tools', 'dig'],
     sheet: [57, 50],
     shortName: 'pick'
   },
   {
-    name: 'Hammer and Pick',
-    unified: '2692-FE0F',
-    keywords: [
+    label: 'Hammer and Pick',
+    hexcode: '2692-FE0F',
+    tags: [
       'hammer_and_pick',
       'tools',
       'build',
@@ -24447,9 +24447,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hammer_and_pick'
   },
   {
-    name: 'Hammer and Wrench',
-    unified: '1F6E0-FE0F',
-    keywords: [
+    label: 'Hammer and Wrench',
+    hexcode: '1F6E0-FE0F',
+    tags: [
       'hammer_and_wrench',
       'tools',
       'build',
@@ -24459,16 +24459,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hammer_and_wrench'
   },
   {
-    name: 'Dagger',
-    unified: '1F5E1-FE0F',
-    keywords: ['dagger', 'weapon'],
+    label: 'Dagger',
+    hexcode: '1F5E1-FE0F',
+    tags: ['dagger', 'weapon'],
     sheet: [32, 9],
     shortName: 'dagger_knife'
   },
   {
-    name: 'Crossed Swords',
-    unified: '2694-FE0F',
-    keywords: [
+    label: 'Crossed Swords',
+    hexcode: '2694-FE0F',
+    tags: [
       'crossed_swords',
       'weapon'
     ],
@@ -24476,9 +24476,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crossed_swords'
   },
   {
-    name: 'Pistol',
-    unified: '1F52B',
-    keywords: [
+    label: 'Pistol',
+    hexcode: '1F52B',
+    tags: [
       'pistol',
       'violence',
       'weapon',
@@ -24489,16 +24489,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gun'
   },
   {
-    name: 'Boomerang',
-    unified: '1FA83',
-    keywords: ['boomerang', 'weapon'],
+    label: 'Boomerang',
+    hexcode: '1FA83',
+    tags: ['boomerang', 'weapon'],
     sheet: [53, 59],
     shortName: 'boomerang'
   },
   {
-    name: 'Bow and Arrow',
-    unified: '1F3F9',
-    keywords: [
+    label: 'Bow and Arrow',
+    hexcode: '1F3F9',
+    tags: [
       'bow_and_arrow',
       'sports'
     ],
@@ -24506,9 +24506,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bow_and_arrow'
   },
   {
-    name: 'Shield',
-    unified: '1F6E1-FE0F',
-    keywords: [
+    label: 'Shield',
+    hexcode: '1F6E1-FE0F',
+    tags: [
       'shield',
       'protection',
       'security'
@@ -24517,9 +24517,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shield'
   },
   {
-    name: 'Carpentry Saw',
-    unified: '1FA9A',
-    keywords: [
+    label: 'Carpentry Saw',
+    hexcode: '1FA9A',
+    tags: [
       'carpentry saw',
       'cut',
       'chop'
@@ -24528,9 +24528,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'carpentry_saw'
   },
   {
-    name: 'Wrench',
-    unified: '1F527',
-    keywords: [
+    label: 'Wrench',
+    hexcode: '1F527',
+    tags: [
       'wrench',
       'tools',
       'diy',
@@ -24542,16 +24542,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wrench'
   },
   {
-    name: 'Screwdriver',
-    unified: '1FA9B',
-    keywords: ['screwdriver', 'tools'],
+    label: 'Screwdriver',
+    hexcode: '1FA9B',
+    tags: ['screwdriver', 'tools'],
     sheet: [54, 13],
     shortName: 'screwdriver'
   },
   {
-    name: 'Nut and Bolt',
-    unified: '1F529',
-    keywords: [
+    label: 'Nut and Bolt',
+    hexcode: '1F529',
+    tags: [
       'nut_and_bolt',
       'handy',
       'tools',
@@ -24561,23 +24561,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nut_and_bolt'
   },
   {
-    name: 'Gear',
-    unified: '2699-FE0F',
-    keywords: ['gear', 'cog'],
+    label: 'Gear',
+    hexcode: '2699-FE0F',
+    tags: ['gear', 'cog'],
     sheet: [57, 34],
     shortName: 'gear'
   },
   {
-    name: 'Clamp',
-    unified: '1F5DC-FE0F',
-    keywords: ['clamp', 'tool'],
+    label: 'Clamp',
+    hexcode: '1F5DC-FE0F',
+    tags: ['clamp', 'tool'],
     sheet: [32, 6],
     shortName: 'compression'
   },
   {
-    name: 'Balance Scale',
-    unified: '2696-FE0F',
-    keywords: [
+    label: 'Balance Scale',
+    hexcode: '2696-FE0F',
+    tags: [
       'balance_scale',
       'law',
       'fairness',
@@ -24587,9 +24587,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scales'
   },
   {
-    name: 'Probing Cane',
-    unified: '1F9AF',
-    keywords: [
+    label: 'Probing Cane',
+    hexcode: '1F9AF',
+    tags: [
       'probing_cane',
       'accessibility'
     ],
@@ -24597,16 +24597,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'probing_cane'
   },
   {
-    name: 'Link Symbol',
-    unified: '1F517',
-    keywords: ['link', 'rings', 'url'],
+    label: 'Link Symbol',
+    hexcode: '1F517',
+    tags: ['link', 'rings', 'url'],
     sheet: [29, 48],
     shortName: 'link'
   },
   {
-    name: 'Chains',
-    unified: '26D3-FE0F',
-    keywords: [
+    label: 'Chains',
+    hexcode: '26D3-FE0F',
+    tags: [
       'chains',
       'lock',
       'arrest'
@@ -24615,16 +24615,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chains'
   },
   {
-    name: 'Hook',
-    unified: '1FA9D',
-    keywords: ['hook', 'tools'],
+    label: 'Hook',
+    hexcode: '1FA9D',
+    tags: ['hook', 'tools'],
     sheet: [54, 15],
     shortName: 'hook'
   },
   {
-    name: 'Toolbox',
-    unified: '1F9F0',
-    keywords: [
+    label: 'Toolbox',
+    hexcode: '1F9F0',
+    tags: [
       'toolbox',
       'tools',
       'diy',
@@ -24636,9 +24636,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'toolbox'
   },
   {
-    name: 'Magnet',
-    unified: '1F9F2',
-    keywords: [
+    label: 'Magnet',
+    hexcode: '1F9F2',
+    tags: [
       'magnet',
       'attraction',
       'magnetic'
@@ -24647,16 +24647,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'magnet'
   },
   {
-    name: 'Ladder',
-    unified: '1FA9C',
-    keywords: ['ladder', 'tools'],
+    label: 'Ladder',
+    hexcode: '1FA9C',
+    tags: ['ladder', 'tools'],
     sheet: [54, 14],
     shortName: 'ladder'
   },
   {
-    name: 'Alembic',
-    unified: '2697-FE0F',
-    keywords: [
+    label: 'Alembic',
+    hexcode: '2697-FE0F',
+    tags: [
       'alembic',
       'distilling',
       'science',
@@ -24667,9 +24667,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'alembic'
   },
   {
-    name: 'Test Tube',
-    unified: '1F9EA',
-    keywords: [
+    label: 'Test Tube',
+    hexcode: '1F9EA',
+    tags: [
       'test_tube',
       'chemistry',
       'experiment',
@@ -24680,9 +24680,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'test_tube'
   },
   {
-    name: 'Petri Dish',
-    unified: '1F9EB',
-    keywords: [
+    label: 'Petri Dish',
+    hexcode: '1F9EB',
+    tags: [
       'petri_dish',
       'bacteria',
       'biology',
@@ -24693,9 +24693,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'petri_dish'
   },
   {
-    name: 'Dna Double Helix',
-    unified: '1F9EC',
-    keywords: [
+    label: 'Dna Double Helix',
+    hexcode: '1F9EC',
+    tags: [
       'dna',
       'biologist',
       'genetics',
@@ -24705,9 +24705,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'dna'
   },
   {
-    name: 'Microscope',
-    unified: '1F52C',
-    keywords: [
+    label: 'Microscope',
+    hexcode: '1F52C',
+    tags: [
       'microscope',
       'laboratory',
       'experiment',
@@ -24719,9 +24719,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'microscope'
   },
   {
-    name: 'Telescope',
-    unified: '1F52D',
-    keywords: [
+    label: 'Telescope',
+    hexcode: '1F52D',
+    tags: [
       'telescope',
       'stars',
       'space',
@@ -24733,9 +24733,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'telescope'
   },
   {
-    name: 'Satellite Antenna',
-    unified: '1F4E1',
-    keywords: [
+    label: 'Satellite Antenna',
+    hexcode: '1F4E1',
+    tags: [
       'satellite_antenna',
       'communication',
       'future',
@@ -24746,9 +24746,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'satellite_antenna'
   },
   {
-    name: 'Syringe',
-    unified: '1F489',
-    keywords: [
+    label: 'Syringe',
+    hexcode: '1F489',
+    tags: [
       'syringe',
       'health',
       'hospital',
@@ -24763,9 +24763,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'syringe'
   },
   {
-    name: 'Drop of Blood',
-    unified: '1FA78',
-    keywords: [
+    label: 'Drop of Blood',
+    hexcode: '1FA78',
+    tags: [
       'drop_of_blood',
       'period',
       'hurt',
@@ -24776,9 +24776,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'drop_of_blood'
   },
   {
-    name: 'Pill',
-    unified: '1F48A',
-    keywords: [
+    label: 'Pill',
+    hexcode: '1F48A',
+    tags: [
       'pill',
       'health',
       'medicine',
@@ -24790,9 +24790,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pill'
   },
   {
-    name: 'Adhesive Bandage',
-    unified: '1FA79',
-    keywords: [
+    label: 'Adhesive Bandage',
+    hexcode: '1FA79',
+    tags: [
       'adhesive_bandage',
       'heal'
     ],
@@ -24800,9 +24800,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'adhesive_bandage'
   },
   {
-    name: 'Crutch',
-    unified: '1FA7C',
-    keywords: [
+    label: 'Crutch',
+    hexcode: '1FA7C',
+    tags: [
       'crutch',
       'accessibility',
       'assist'
@@ -24812,16 +24812,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crutch'
   },
   {
-    name: 'Stethoscope',
-    unified: '1FA7A',
-    keywords: ['stethoscope', 'health'],
+    label: 'Stethoscope',
+    hexcode: '1FA7A',
+    tags: ['stethoscope', 'health'],
     sheet: [53, 53],
     shortName: 'stethoscope'
   },
   {
-    name: 'X-Ray',
-    unified: '1FA7B',
-    keywords: [
+    label: 'X-Ray',
+    hexcode: '1FA7B',
+    tags: [
       'x-ray',
       'skeleton',
       'medicine'
@@ -24831,9 +24831,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'x-ray'
   },
   {
-    name: 'Door',
-    unified: '1F6AA',
-    keywords: [
+    label: 'Door',
+    hexcode: '1F6AA',
+    tags: [
       'door',
       'house',
       'entry',
@@ -24843,37 +24843,37 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'door'
   },
   {
-    name: 'Elevator',
-    unified: '1F6D7',
-    keywords: ['elevator', 'lift'],
+    label: 'Elevator',
+    hexcode: '1F6D7',
+    tags: ['elevator', 'lift'],
     sheet: [38, 7],
     shortName: 'elevator'
   },
   {
-    name: 'Mirror',
-    unified: '1FA9E',
-    keywords: ['mirror', 'reflection'],
+    label: 'Mirror',
+    hexcode: '1FA9E',
+    tags: ['mirror', 'reflection'],
     sheet: [54, 16],
     shortName: 'mirror'
   },
   {
-    name: 'Window',
-    unified: '1FA9F',
-    keywords: ['window', 'scenery'],
+    label: 'Window',
+    hexcode: '1FA9F',
+    tags: ['window', 'scenery'],
     sheet: [54, 17],
     shortName: 'window'
   },
   {
-    name: 'Bed',
-    unified: '1F6CF-FE0F',
-    keywords: ['bed', 'sleep', 'rest'],
+    label: 'Bed',
+    hexcode: '1F6CF-FE0F',
+    tags: ['bed', 'sleep', 'rest'],
     sheet: [38, 1],
     shortName: 'bed'
   },
   {
-    name: 'Couch and Lamp',
-    unified: '1F6CB-FE0F',
-    keywords: [
+    label: 'Couch and Lamp',
+    hexcode: '1F6CB-FE0F',
+    tags: [
       'couch_and_lamp',
       'read',
       'chill'
@@ -24882,9 +24882,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'couch_and_lamp'
   },
   {
-    name: 'Chair',
-    unified: '1FA91',
-    keywords: [
+    label: 'Chair',
+    hexcode: '1FA91',
+    tags: [
       'chair',
       'sit',
       'furniture'
@@ -24893,9 +24893,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'chair'
   },
   {
-    name: 'Toilet',
-    unified: '1F6BD',
-    keywords: [
+    label: 'Toilet',
+    hexcode: '1F6BD',
+    tags: [
       'toilet',
       'restroom',
       'wc',
@@ -24907,16 +24907,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'toilet'
   },
   {
-    name: 'Plunger',
-    unified: '1FAA0',
-    keywords: ['plunger', 'toilet'],
+    label: 'Plunger',
+    hexcode: '1FAA0',
+    tags: ['plunger', 'toilet'],
     sheet: [54, 18],
     shortName: 'plunger'
   },
   {
-    name: 'Shower',
-    unified: '1F6BF',
-    keywords: [
+    label: 'Shower',
+    hexcode: '1F6BF',
+    tags: [
       'shower',
       'clean',
       'water',
@@ -24926,9 +24926,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shower'
   },
   {
-    name: 'Bathtub',
-    unified: '1F6C1',
-    keywords: [
+    label: 'Bathtub',
+    hexcode: '1F6C1',
+    tags: [
       'bathtub',
       'clean',
       'shower',
@@ -24938,23 +24938,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bathtub'
   },
   {
-    name: 'Mouse Trap',
-    unified: '1FAA4',
-    keywords: ['mouse trap', 'cheese'],
+    label: 'Mouse Trap',
+    hexcode: '1FAA4',
+    tags: ['mouse trap', 'cheese'],
     sheet: [54, 22],
     shortName: 'mouse_trap'
   },
   {
-    name: 'Razor',
-    unified: '1FA92',
-    keywords: ['razor', 'cut'],
+    label: 'Razor',
+    hexcode: '1FA92',
+    tags: ['razor', 'cut'],
     sheet: [54, 4],
     shortName: 'razor'
   },
   {
-    name: 'Lotion Bottle',
-    unified: '1F9F4',
-    keywords: [
+    label: 'Lotion Bottle',
+    hexcode: '1F9F4',
+    tags: [
       'lotion_bottle',
       'moisturizer',
       'sunscreen'
@@ -24963,16 +24963,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'lotion_bottle'
   },
   {
-    name: 'Safety Pin',
-    unified: '1F9F7',
-    keywords: ['safety_pin', 'diaper'],
+    label: 'Safety Pin',
+    hexcode: '1F9F7',
+    tags: ['safety_pin', 'diaper'],
     sheet: [53, 37],
     shortName: 'safety_pin'
   },
   {
-    name: 'Broom',
-    unified: '1F9F9',
-    keywords: [
+    label: 'Broom',
+    hexcode: '1F9F9',
+    tags: [
       'broom',
       'cleaning',
       'sweeping',
@@ -24982,23 +24982,23 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'broom'
   },
   {
-    name: 'Basket',
-    unified: '1F9FA',
-    keywords: ['basket', 'laundry'],
+    label: 'Basket',
+    hexcode: '1F9FA',
+    tags: ['basket', 'laundry'],
     sheet: [53, 40],
     shortName: 'basket'
   },
   {
-    name: 'Roll of Paper',
-    unified: '1F9FB',
-    keywords: ['roll_of_paper', 'roll'],
+    label: 'Roll of Paper',
+    hexcode: '1F9FB',
+    tags: ['roll_of_paper', 'roll'],
     sheet: [53, 41],
     shortName: 'roll_of_paper'
   },
   {
-    name: 'Bucket',
-    unified: '1FAA3',
-    keywords: [
+    label: 'Bucket',
+    hexcode: '1FAA3',
+    tags: [
       'bucket',
       'water',
       'container'
@@ -25007,9 +25007,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bucket'
   },
   {
-    name: 'Bar of Soap',
-    unified: '1F9FC',
-    keywords: [
+    label: 'Bar of Soap',
+    hexcode: '1F9FC',
+    tags: [
       'soap',
       'bar',
       'bathing',
@@ -25020,9 +25020,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'soap'
   },
   {
-    name: 'Bubbles',
-    unified: '1FAE7',
-    keywords: [
+    label: 'Bubbles',
+    hexcode: '1FAE7',
+    tags: [
       'bubbles',
       'soap',
       'fun',
@@ -25034,9 +25034,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bubbles'
   },
   {
-    name: 'Toothbrush',
-    unified: '1FAA5',
-    keywords: [
+    label: 'Toothbrush',
+    hexcode: '1FAA5',
+    tags: [
       'toothbrush',
       'hygiene',
       'dental'
@@ -25045,9 +25045,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'toothbrush'
   },
   {
-    name: 'Sponge',
-    unified: '1F9FD',
-    keywords: [
+    label: 'Sponge',
+    hexcode: '1F9FD',
+    tags: [
       'sponge',
       'absorbing',
       'cleaning',
@@ -25057,9 +25057,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sponge'
   },
   {
-    name: 'Fire Extinguisher',
-    unified: '1F9EF',
-    keywords: [
+    label: 'Fire Extinguisher',
+    hexcode: '1F9EF',
+    tags: [
       'fire_extinguisher',
       'quench'
     ],
@@ -25067,9 +25067,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fire_extinguisher'
   },
   {
-    name: 'Shopping Trolley',
-    unified: '1F6D2',
-    keywords: [
+    label: 'Shopping Trolley',
+    hexcode: '1F6D2',
+    tags: [
       'shopping_cart',
       'trolley'
     ],
@@ -25077,9 +25077,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'shopping_trolley'
   },
   {
-    name: 'Smoking Symbol',
-    unified: '1F6AC',
-    keywords: [
+    label: 'Smoking Symbol',
+    hexcode: '1F6AC',
+    tags: [
       'cigarette',
       'kills',
       'tobacco',
@@ -25091,9 +25091,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'smoking'
   },
   {
-    name: 'Coffin',
-    unified: '26B0-FE0F',
-    keywords: [
+    label: 'Coffin',
+    hexcode: '26B0-FE0F',
+    tags: [
       'coffin',
       'vampire',
       'dead',
@@ -25110,9 +25110,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'coffin'
   },
   {
-    name: 'Headstone',
-    unified: '1FAA6',
-    keywords: [
+    label: 'Headstone',
+    hexcode: '1FAA6',
+    tags: [
       'headstone',
       'death',
       'rip',
@@ -25122,9 +25122,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'headstone'
   },
   {
-    name: 'Funeral Urn',
-    unified: '26B1-FE0F',
-    keywords: [
+    label: 'Funeral Urn',
+    hexcode: '26B1-FE0F',
+    tags: [
       'funeral_urn',
       'dead',
       'die',
@@ -25136,9 +25136,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'funeral_urn'
   },
   {
-    name: 'Moyai',
-    unified: '1F5FF',
-    keywords: [
+    label: 'Moyai',
+    hexcode: '1F5FF',
+    tags: [
       'moai',
       'rock',
       'easter island',
@@ -25148,9 +25148,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'moyai'
   },
   {
-    name: 'Placard',
-    unified: '1FAA7',
-    keywords: [
+    label: 'Placard',
+    hexcode: '1FAA7',
+    tags: [
       'placard',
       'announcement'
     ],
@@ -25158,9 +25158,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'placard'
   },
   {
-    name: 'Identification Card',
-    unified: '1FAAA',
-    keywords: [
+    label: 'Identification Card',
+    hexcode: '1FAAA',
+    tags: [
       'identification card',
       'document'
     ],
@@ -25169,9 +25169,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'identification_card'
   },
   {
-    name: 'Automated Teller Machine',
-    unified: '1F3E7',
-    keywords: [
+    label: 'Automated Teller Machine',
+    hexcode: '1F3E7',
+    tags: [
       'atm_sign',
       'money',
       'sales',
@@ -25184,9 +25184,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'atm'
   },
   {
-    name: 'Put Litter in Its Place Symbol',
-    unified: '1F6AE',
-    keywords: [
+    label: 'Put Litter in Its Place Symbol',
+    hexcode: '1F6AE',
+    tags: [
       'litter_in_bin_sign',
       'blue-square',
       'sign',
@@ -25197,9 +25197,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'put_litter_in_its_place'
   },
   {
-    name: 'Potable Water Symbol',
-    unified: '1F6B0',
-    keywords: [
+    label: 'Potable Water Symbol',
+    hexcode: '1F6B0',
+    tags: [
       'potable_water',
       'blue-square',
       'liquid',
@@ -25211,9 +25211,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'potable_water'
   },
   {
-    name: 'Wheelchair Symbol',
-    unified: '267F',
-    keywords: [
+    label: 'Wheelchair Symbol',
+    hexcode: '267F',
+    tags: [
       'wheelchair_symbol',
       'blue-square',
       'disabled',
@@ -25223,9 +25223,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wheelchair'
   },
   {
-    name: 'Mens Symbol',
-    unified: '1F6B9',
-    keywords: [
+    label: 'Mens Symbol',
+    hexcode: '1F6B9',
+    tags: [
       'men_s_room',
       'toilet',
       'restroom',
@@ -25238,9 +25238,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mens'
   },
   {
-    name: 'Womens Symbol',
-    unified: '1F6BA',
-    keywords: [
+    label: 'Womens Symbol',
+    hexcode: '1F6BA',
+    tags: [
       'women_s_room',
       'purple-square',
       'woman',
@@ -25254,9 +25254,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'womens'
   },
   {
-    name: 'Restroom',
-    unified: '1F6BB',
-    keywords: [
+    label: 'Restroom',
+    hexcode: '1F6BB',
+    tags: [
       'restroom',
       'blue-square',
       'toilet',
@@ -25268,9 +25268,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'restroom'
   },
   {
-    name: 'Baby Symbol',
-    unified: '1F6BC',
-    keywords: [
+    label: 'Baby Symbol',
+    hexcode: '1F6BC',
+    tags: [
       'baby_symbol',
       'orange-square',
       'child'
@@ -25279,9 +25279,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'baby_symbol'
   },
   {
-    name: 'Water Closet',
-    unified: '1F6BE',
-    keywords: [
+    label: 'Water Closet',
+    hexcode: '1F6BE',
+    tags: [
       'water_closet',
       'toilet',
       'restroom',
@@ -25291,9 +25291,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wc'
   },
   {
-    name: 'Passport Control',
-    unified: '1F6C2',
-    keywords: [
+    label: 'Passport Control',
+    hexcode: '1F6C2',
+    tags: [
       'passport_control',
       'custom',
       'blue-square'
@@ -25302,9 +25302,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'passport_control'
   },
   {
-    name: 'Customs',
-    unified: '1F6C3',
-    keywords: [
+    label: 'Customs',
+    hexcode: '1F6C3',
+    tags: [
       'customs',
       'passport',
       'border',
@@ -25314,9 +25314,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'customs'
   },
   {
-    name: 'Baggage Claim',
-    unified: '1F6C4',
-    keywords: [
+    label: 'Baggage Claim',
+    hexcode: '1F6C4',
+    tags: [
       'baggage_claim',
       'blue-square',
       'airport',
@@ -25326,9 +25326,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'baggage_claim'
   },
   {
-    name: 'Left Luggage',
-    unified: '1F6C5',
-    keywords: [
+    label: 'Left Luggage',
+    hexcode: '1F6C5',
+    tags: [
       'left_luggage',
       'blue-square',
       'travel'
@@ -25337,9 +25337,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'left_luggage'
   },
   {
-    name: 'Warning Sign',
-    unified: '26A0-FE0F',
-    keywords: [
+    label: 'Warning Sign',
+    hexcode: '26A0-FE0F',
+    tags: [
       'warning',
       'exclamation',
       'wip',
@@ -25352,9 +25352,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'warning'
   },
   {
-    name: 'Children Crossing',
-    unified: '1F6B8',
-    keywords: [
+    label: 'Children Crossing',
+    hexcode: '1F6B8',
+    tags: [
       'children_crossing',
       'school',
       'warning',
@@ -25367,9 +25367,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'children_crossing'
   },
   {
-    name: 'No Entry',
-    unified: '26D4',
-    keywords: [
+    label: 'No Entry',
+    hexcode: '26D4',
+    tags: [
       'no_entry',
       'limit',
       'security',
@@ -25383,9 +25383,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_entry'
   },
   {
-    name: 'No Entry Sign',
-    unified: '1F6AB',
-    keywords: [
+    label: 'No Entry Sign',
+    hexcode: '1F6AB',
+    tags: [
       'prohibited',
       'forbid',
       'stop',
@@ -25398,9 +25398,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_entry_sign'
   },
   {
-    name: 'No Bicycles',
-    unified: '1F6B3',
-    keywords: [
+    label: 'No Bicycles',
+    hexcode: '1F6B3',
+    tags: [
       'no_bicycles',
       'cyclist',
       'prohibited',
@@ -25410,9 +25410,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_bicycles'
   },
   {
-    name: 'No Smoking Symbol',
-    unified: '1F6AD',
-    keywords: [
+    label: 'No Smoking Symbol',
+    hexcode: '1F6AD',
+    tags: [
       'no_smoking',
       'cigarette',
       'blue-square',
@@ -25423,9 +25423,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_smoking'
   },
   {
-    name: 'Do Not Litter Symbol',
-    unified: '1F6AF',
-    keywords: [
+    label: 'Do Not Litter Symbol',
+    hexcode: '1F6AF',
+    tags: [
       'no_littering',
       'trash',
       'bin',
@@ -25436,9 +25436,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'do_not_litter'
   },
   {
-    name: 'Non-Potable Water Symbol',
-    unified: '1F6B1',
-    keywords: [
+    label: 'Non-Potable Water Symbol',
+    hexcode: '1F6B1',
+    tags: [
       'non_potable_water',
       'drink',
       'faucet',
@@ -25449,9 +25449,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'non-potable_water'
   },
   {
-    name: 'No Pedestrians',
-    unified: '1F6B7',
-    keywords: [
+    label: 'No Pedestrians',
+    hexcode: '1F6B7',
+    tags: [
       'no_pedestrians',
       'rules',
       'crossing',
@@ -25462,9 +25462,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_pedestrians'
   },
   {
-    name: 'No Mobile Phones',
-    unified: '1F4F5',
-    keywords: [
+    label: 'No Mobile Phones',
+    hexcode: '1F4F5',
+    tags: [
       'no_mobile_phones',
       'iphone',
       'mute',
@@ -25474,9 +25474,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'no_mobile_phones'
   },
   {
-    name: 'No One Under Eighteen Symbol',
-    unified: '1F51E',
-    keywords: [
+    label: 'No One Under Eighteen Symbol',
+    hexcode: '1F51E',
+    tags: [
       'no_one_under_eighteen',
       '18',
       'drink',
@@ -25489,9 +25489,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'underage'
   },
   {
-    name: 'Radioactive',
-    unified: '2622-FE0F',
-    keywords: [
+    label: 'Radioactive',
+    hexcode: '2622-FE0F',
+    tags: [
       'radioactive',
       'nuclear',
       'danger'
@@ -25500,16 +25500,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'radioactive_sign'
   },
   {
-    name: 'Biohazard',
-    unified: '2623-FE0F',
-    keywords: ['biohazard', 'danger'],
+    label: 'Biohazard',
+    hexcode: '2623-FE0F',
+    tags: ['biohazard', 'danger'],
     sheet: [56, 58],
     shortName: 'biohazard_sign'
   },
   {
-    name: 'Upwards Black Arrow',
-    unified: '2B06-FE0F',
-    keywords: [
+    label: 'Upwards Black Arrow',
+    hexcode: '2B06-FE0F',
+    tags: [
       'up_arrow',
       'blue-square',
       'continue',
@@ -25520,9 +25520,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_up'
   },
   {
-    name: 'North East Arrow',
-    unified: '2197-FE0F',
-    keywords: [
+    label: 'North East Arrow',
+    hexcode: '2197-FE0F',
+    tags: [
       'up_right_arrow',
       'blue-square',
       'point',
@@ -25534,9 +25534,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_upper_right'
   },
   {
-    name: 'Black Rightwards Arrow',
-    unified: '27A1-FE0F',
-    keywords: [
+    label: 'Black Rightwards Arrow',
+    hexcode: '27A1-FE0F',
+    tags: [
       'right_arrow',
       'blue-square',
       'next'
@@ -25545,9 +25545,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_right'
   },
   {
-    name: 'South East Arrow',
-    unified: '2198-FE0F',
-    keywords: [
+    label: 'South East Arrow',
+    hexcode: '2198-FE0F',
+    tags: [
       'down_right_arrow',
       'blue-square',
       'direction',
@@ -25558,9 +25558,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_lower_right'
   },
   {
-    name: 'Downwards Black Arrow',
-    unified: '2B07-FE0F',
-    keywords: [
+    label: 'Downwards Black Arrow',
+    hexcode: '2B07-FE0F',
+    tags: [
       'down_arrow',
       'blue-square',
       'direction',
@@ -25570,9 +25570,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_down'
   },
   {
-    name: 'South West Arrow',
-    unified: '2199-FE0F',
-    keywords: [
+    label: 'South West Arrow',
+    hexcode: '2199-FE0F',
+    tags: [
       'down_left_arrow',
       'blue-square',
       'direction',
@@ -25583,9 +25583,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_lower_left'
   },
   {
-    name: 'Leftwards Black Arrow',
-    unified: '2B05-FE0F',
-    keywords: [
+    label: 'Leftwards Black Arrow',
+    hexcode: '2B05-FE0F',
+    tags: [
       'left_arrow',
       'blue-square',
       'previous',
@@ -25595,9 +25595,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_left'
   },
   {
-    name: 'North West Arrow',
-    unified: '2196-FE0F',
-    keywords: [
+    label: 'North West Arrow',
+    hexcode: '2196-FE0F',
+    tags: [
       'up_left_arrow',
       'blue-square',
       'point',
@@ -25609,9 +25609,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_upper_left'
   },
   {
-    name: 'Up Down Arrow',
-    unified: '2195-FE0F',
-    keywords: [
+    label: 'Up Down Arrow',
+    hexcode: '2195-FE0F',
+    tags: [
       'up_down_arrow',
       'blue-square',
       'direction',
@@ -25622,9 +25622,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_up_down'
   },
   {
-    name: 'Left Right Arrow',
-    unified: '2194-FE0F',
-    keywords: [
+    label: 'Left Right Arrow',
+    hexcode: '2194-FE0F',
+    tags: [
       'left_right_arrow',
       'shape',
       'direction',
@@ -25635,9 +25635,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'left_right_arrow'
   },
   {
-    name: 'Leftwards Arrow with Hook',
-    unified: '21A9-FE0F',
-    keywords: [
+    label: 'Leftwards Arrow with Hook',
+    hexcode: '21A9-FE0F',
+    tags: [
       'right_arrow_curving_left',
       'back',
       'return',
@@ -25649,9 +25649,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'leftwards_arrow_with_hook'
   },
   {
-    name: 'Rightwards Arrow with Hook',
-    unified: '21AA-FE0F',
-    keywords: [
+    label: 'Rightwards Arrow with Hook',
+    hexcode: '21AA-FE0F',
+    tags: [
       'left_arrow_curving_right',
       'blue-square',
       'return',
@@ -25662,9 +25662,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_right_hook'
   },
   {
-    name: 'Arrow Pointing Rightwards Then Curving Upwards',
-    unified: '2934-FE0F',
-    keywords: [
+    label: 'Arrow Pointing Rightwards Then Curving Upwards',
+    hexcode: '2934-FE0F',
+    tags: [
       'right_arrow_curving_up',
       'blue-square',
       'direction',
@@ -25674,9 +25674,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_heading_up'
   },
   {
-    name: 'Arrow Pointing Rightwards Then Curving Downwards',
-    unified: '2935-FE0F',
-    keywords: [
+    label: 'Arrow Pointing Rightwards Then Curving Downwards',
+    hexcode: '2935-FE0F',
+    tags: [
       'right_arrow_curving_down',
       'blue-square',
       'direction',
@@ -25686,9 +25686,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_heading_down'
   },
   {
-    name: 'Clockwise Downwards and Upwards Open Circle Arrows',
-    unified: '1F503',
-    keywords: [
+    label: 'Clockwise Downwards and Upwards Open Circle Arrows',
+    hexcode: '1F503',
+    tags: [
       'clockwise_vertical_arrows',
       'sync',
       'cycle',
@@ -25699,9 +25699,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrows_clockwise'
   },
   {
-    name: 'Anticlockwise Downwards and Upwards Open Circle Arrows',
-    unified: '1F504',
-    keywords: [
+    label: 'Anticlockwise Downwards and Upwards Open Circle Arrows',
+    hexcode: '1F504',
+    tags: [
       'counterclockwise_arrows_button',
       'blue-square',
       'sync',
@@ -25711,9 +25711,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrows_counterclockwise'
   },
   {
-    name: 'Back with Leftwards Arrow Above',
-    unified: '1F519',
-    keywords: [
+    label: 'Back with Leftwards Arrow Above',
+    hexcode: '1F519',
+    tags: [
       'back_arrow',
       'arrow',
       'words',
@@ -25723,9 +25723,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'back'
   },
   {
-    name: 'End with Leftwards Arrow Above',
-    unified: '1F51A',
-    keywords: [
+    label: 'End with Leftwards Arrow Above',
+    hexcode: '1F51A',
+    tags: [
       'end_arrow',
       'words',
       'arrow'
@@ -25734,9 +25734,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'end'
   },
   {
-    name: 'On with Exclamation Mark with Left Right Arrow Above',
-    unified: '1F51B',
-    keywords: [
+    label: 'On with Exclamation Mark with Left Right Arrow Above',
+    hexcode: '1F51B',
+    tags: [
       'on_arrow',
       'arrow',
       'words'
@@ -25745,9 +25745,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'on'
   },
   {
-    name: 'Soon with Rightwards Arrow Above',
-    unified: '1F51C',
-    keywords: [
+    label: 'Soon with Rightwards Arrow Above',
+    hexcode: '1F51C',
+    tags: [
       'soon_arrow',
       'arrow',
       'words'
@@ -25756,9 +25756,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'soon'
   },
   {
-    name: 'Top with Upwards Arrow Above',
-    unified: '1F51D',
-    keywords: [
+    label: 'Top with Upwards Arrow Above',
+    hexcode: '1F51D',
+    tags: [
       'top_arrow',
       'words',
       'blue-square'
@@ -25767,9 +25767,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'top'
   },
   {
-    name: 'Place of Worship',
-    unified: '1F6D0',
-    keywords: [
+    label: 'Place of Worship',
+    hexcode: '1F6D0',
+    tags: [
       'place_of_worship',
       'religion',
       'church',
@@ -25780,9 +25780,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'place_of_worship'
   },
   {
-    name: 'Atom Symbol',
-    unified: '269B-FE0F',
-    keywords: [
+    label: 'Atom Symbol',
+    hexcode: '269B-FE0F',
+    tags: [
       'atom_symbol',
       'science',
       'physics',
@@ -25792,9 +25792,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'atom_symbol'
   },
   {
-    name: 'Om',
-    unified: '1F549-FE0F',
-    keywords: [
+    label: 'Om',
+    hexcode: '1F549-FE0F',
+    tags: [
       'om',
       'hinduism',
       'buddhism',
@@ -25805,9 +25805,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'om_symbol'
   },
   {
-    name: 'Star of David',
-    unified: '2721-FE0F',
-    keywords: [
+    label: 'Star of David',
+    hexcode: '2721-FE0F',
+    tags: [
       'star_of_david',
       'judaism'
     ],
@@ -25815,9 +25815,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'star_of_david'
   },
   {
-    name: 'Wheel of Dharma',
-    unified: '2638-FE0F',
-    keywords: [
+    label: 'Wheel of Dharma',
+    hexcode: '2638-FE0F',
+    tags: [
       'wheel_of_dharma',
       'hinduism',
       'buddhism',
@@ -25828,16 +25828,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wheel_of_dharma'
   },
   {
-    name: 'Yin Yang',
-    unified: '262F-FE0F',
-    keywords: ['yin_yang', 'balance'],
+    label: 'Yin Yang',
+    hexcode: '262F-FE0F',
+    tags: ['yin_yang', 'balance'],
     sheet: [57, 1],
     shortName: 'yin_yang'
   },
   {
-    name: 'Latin Cross',
-    unified: '271D-FE0F',
-    keywords: [
+    label: 'Latin Cross',
+    hexcode: '271D-FE0F',
+    tags: [
       'latin_cross',
       'christianity'
     ],
@@ -25845,9 +25845,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'latin_cross'
   },
   {
-    name: 'Orthodox Cross',
-    unified: '2626-FE0F',
-    keywords: [
+    label: 'Orthodox Cross',
+    hexcode: '2626-FE0F',
+    tags: [
       'orthodox_cross',
       'suppedaneum',
       'religion'
@@ -25856,9 +25856,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'orthodox_cross'
   },
   {
-    name: 'Star and Crescent',
-    unified: '262A-FE0F',
-    keywords: [
+    label: 'Star and Crescent',
+    hexcode: '262A-FE0F',
+    tags: [
       'star_and_crescent',
       'islam'
     ],
@@ -25866,9 +25866,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'star_and_crescent'
   },
   {
-    name: 'Peace Symbol',
-    unified: '262E-FE0F',
-    keywords: [
+    label: 'Peace Symbol',
+    hexcode: '262E-FE0F',
+    tags: [
       'peace_symbol',
       'hippie'
     ],
@@ -25876,9 +25876,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'peace_symbol'
   },
   {
-    name: 'Menorah with Nine Branches',
-    unified: '1F54E',
-    keywords: [
+    label: 'Menorah with Nine Branches',
+    hexcode: '1F54E',
+    tags: [
       'menorah',
       'hanukkah',
       'candles',
@@ -25888,9 +25888,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'menorah_with_nine_branches'
   },
   {
-    name: 'Six Pointed Star with Middle Dot',
-    unified: '1F52F',
-    keywords: [
+    label: 'Six Pointed Star with Middle Dot',
+    hexcode: '1F52F',
+    tags: [
       'dotted_six_pointed_star',
       'purple-square',
       'religion',
@@ -25901,9 +25901,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'six_pointed_star'
   },
   {
-    name: 'Aries',
-    unified: '2648',
-    keywords: [
+    label: 'Aries',
+    hexcode: '2648',
+    tags: [
       'aries',
       'sign',
       'purple-square',
@@ -25914,9 +25914,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'aries'
   },
   {
-    name: 'Taurus',
-    unified: '2649',
-    keywords: [
+    label: 'Taurus',
+    hexcode: '2649',
+    tags: [
       'taurus',
       'purple-square',
       'sign',
@@ -25927,9 +25927,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'taurus'
   },
   {
-    name: 'Gemini',
-    unified: '264A',
-    keywords: [
+    label: 'Gemini',
+    hexcode: '264A',
+    tags: [
       'gemini',
       'sign',
       'zodiac',
@@ -25940,9 +25940,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gemini'
   },
   {
-    name: 'Cancer',
-    unified: '264B',
-    keywords: [
+    label: 'Cancer',
+    hexcode: '264B',
+    tags: [
       'cancer',
       'sign',
       'zodiac',
@@ -25953,9 +25953,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cancer'
   },
   {
-    name: 'Leo',
-    unified: '264C',
-    keywords: [
+    label: 'Leo',
+    hexcode: '264C',
+    tags: [
       'leo',
       'sign',
       'purple-square',
@@ -25966,9 +25966,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'leo'
   },
   {
-    name: 'Virgo',
-    unified: '264D',
-    keywords: [
+    label: 'Virgo',
+    hexcode: '264D',
+    tags: [
       'virgo',
       'sign',
       'zodiac',
@@ -25979,9 +25979,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'virgo'
   },
   {
-    name: 'Libra',
-    unified: '264E',
-    keywords: [
+    label: 'Libra',
+    hexcode: '264E',
+    tags: [
       'libra',
       'sign',
       'purple-square',
@@ -25992,9 +25992,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'libra'
   },
   {
-    name: 'Scorpius',
-    unified: '264F',
-    keywords: [
+    label: 'Scorpius',
+    hexcode: '264F',
+    tags: [
       'scorpio',
       'sign',
       'zodiac',
@@ -26006,9 +26006,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'scorpius'
   },
   {
-    name: 'Sagittarius',
-    unified: '2650',
-    keywords: [
+    label: 'Sagittarius',
+    hexcode: '2650',
+    tags: [
       'sagittarius',
       'sign',
       'zodiac',
@@ -26019,9 +26019,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sagittarius'
   },
   {
-    name: 'Capricorn',
-    unified: '2651',
-    keywords: [
+    label: 'Capricorn',
+    hexcode: '2651',
+    tags: [
       'capricorn',
       'sign',
       'zodiac',
@@ -26032,9 +26032,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'capricorn'
   },
   {
-    name: 'Aquarius',
-    unified: '2652',
-    keywords: [
+    label: 'Aquarius',
+    hexcode: '2652',
+    tags: [
       'aquarius',
       'sign',
       'purple-square',
@@ -26045,9 +26045,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'aquarius'
   },
   {
-    name: 'Pisces',
-    unified: '2653',
-    keywords: [
+    label: 'Pisces',
+    hexcode: '2653',
+    tags: [
       'pisces',
       'purple-square',
       'sign',
@@ -26058,9 +26058,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pisces'
   },
   {
-    name: 'Ophiuchus',
-    unified: '26CE',
-    keywords: [
+    label: 'Ophiuchus',
+    hexcode: '26CE',
+    tags: [
       'ophiuchus',
       'sign',
       'purple-square',
@@ -26071,9 +26071,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ophiuchus'
   },
   {
-    name: 'Twisted Rightwards Arrows',
-    unified: '1F500',
-    keywords: [
+    label: 'Twisted Rightwards Arrows',
+    hexcode: '1F500',
+    tags: [
       'shuffle_tracks_button',
       'blue-square',
       'shuffle',
@@ -26084,9 +26084,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'twisted_rightwards_arrows'
   },
   {
-    name: 'Clockwise Rightwards and Leftwards Open Circle Arrows',
-    unified: '1F501',
-    keywords: [
+    label: 'Clockwise Rightwards and Leftwards Open Circle Arrows',
+    hexcode: '1F501',
+    tags: [
       'repeat_button',
       'loop',
       'record'
@@ -26095,9 +26095,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'repeat'
   },
   {
-    name: 'Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay',
-    unified: '1F502',
-    keywords: [
+    label: 'Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay',
+    hexcode: '1F502',
+    tags: [
       'repeat_single_button',
       'blue-square',
       'loop'
@@ -26106,9 +26106,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'repeat_one'
   },
   {
-    name: 'Black Right-Pointing Triangle',
-    unified: '25B6-FE0F',
-    keywords: [
+    label: 'Black Right-Pointing Triangle',
+    hexcode: '25B6-FE0F',
+    tags: [
       'play_button',
       'blue-square',
       'right',
@@ -26119,9 +26119,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_forward'
   },
   {
-    name: 'Black Right-Pointing Double Triangle',
-    unified: '23E9',
-    keywords: [
+    label: 'Black Right-Pointing Double Triangle',
+    hexcode: '23E9',
+    tags: [
       'fast_forward_button',
       'blue-square',
       'play',
@@ -26132,9 +26132,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fast_forward'
   },
   {
-    name: 'Next Track Button',
-    unified: '23ED-FE0F',
-    keywords: [
+    label: 'Next Track Button',
+    hexcode: '23ED-FE0F',
+    tags: [
       'next_track_button',
       'forward',
       'next',
@@ -26144,9 +26144,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_right_pointing_double_triangle_with_vertical_bar'
   },
   {
-    name: 'Play or Pause Button',
-    unified: '23EF-FE0F',
-    keywords: [
+    label: 'Play or Pause Button',
+    hexcode: '23EF-FE0F',
+    tags: [
       'play_or_pause_button',
       'blue-square',
       'play',
@@ -26156,9 +26156,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_right_pointing_triangle_with_double_vertical_bar'
   },
   {
-    name: 'Black Left-Pointing Triangle',
-    unified: '25C0-FE0F',
-    keywords: [
+    label: 'Black Left-Pointing Triangle',
+    hexcode: '25C0-FE0F',
+    tags: [
       'reverse_button',
       'blue-square',
       'left',
@@ -26168,9 +26168,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_backward'
   },
   {
-    name: 'Black Left-Pointing Double Triangle',
-    unified: '23EA',
-    keywords: [
+    label: 'Black Left-Pointing Double Triangle',
+    hexcode: '23EA',
+    tags: [
       'fast_reverse_button',
       'play',
       'blue-square'
@@ -26179,9 +26179,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rewind'
   },
   {
-    name: 'Last Track Button',
-    unified: '23EE-FE0F',
-    keywords: [
+    label: 'Last Track Button',
+    hexcode: '23EE-FE0F',
+    tags: [
       'last_track_button',
       'backward'
     ],
@@ -26189,9 +26189,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_left_pointing_double_triangle_with_vertical_bar'
   },
   {
-    name: 'Up-Pointing Small Red Triangle',
-    unified: '1F53C',
-    keywords: [
+    label: 'Up-Pointing Small Red Triangle',
+    hexcode: '1F53C',
+    tags: [
       'upwards_button',
       'blue-square',
       'triangle',
@@ -26204,9 +26204,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_up_small'
   },
   {
-    name: 'Black Up-Pointing Double Triangle',
-    unified: '23EB',
-    keywords: [
+    label: 'Black Up-Pointing Double Triangle',
+    hexcode: '23EB',
+    tags: [
       'fast_up_button',
       'blue-square',
       'direction',
@@ -26216,9 +26216,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_double_up'
   },
   {
-    name: 'Down-Pointing Small Red Triangle',
-    unified: '1F53D',
-    keywords: [
+    label: 'Down-Pointing Small Red Triangle',
+    hexcode: '1F53D',
+    tags: [
       'downwards_button',
       'blue-square',
       'direction',
@@ -26228,9 +26228,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_down_small'
   },
   {
-    name: 'Black Down-Pointing Double Triangle',
-    unified: '23EC',
-    keywords: [
+    label: 'Black Down-Pointing Double Triangle',
+    hexcode: '23EC',
+    tags: [
       'fast_down_button',
       'blue-square',
       'direction',
@@ -26240,9 +26240,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'arrow_double_down'
   },
   {
-    name: 'Pause Button',
-    unified: '23F8-FE0F',
-    keywords: [
+    label: 'Pause Button',
+    hexcode: '23F8-FE0F',
+    tags: [
       'pause_button',
       'pause',
       'blue-square'
@@ -26251,9 +26251,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'double_vertical_bar'
   },
   {
-    name: 'Stop Button',
-    unified: '23F9-FE0F',
-    keywords: [
+    label: 'Stop Button',
+    hexcode: '23F9-FE0F',
+    tags: [
       'stop_button',
       'blue-square'
     ],
@@ -26261,9 +26261,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_square_for_stop'
   },
   {
-    name: 'Record Button',
-    unified: '23FA-FE0F',
-    keywords: [
+    label: 'Record Button',
+    hexcode: '23FA-FE0F',
+    tags: [
       'record_button',
       'blue-square'
     ],
@@ -26271,9 +26271,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_circle_for_record'
   },
   {
-    name: 'Eject Button',
-    unified: '23CF-FE0F',
-    keywords: [
+    label: 'Eject Button',
+    hexcode: '23CF-FE0F',
+    tags: [
       'eject_button',
       'blue-square'
     ],
@@ -26281,9 +26281,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eject'
   },
   {
-    name: 'Cinema',
-    unified: '1F3A6',
-    keywords: [
+    label: 'Cinema',
+    hexcode: '1F3A6',
+    tags: [
       'cinema',
       'blue-square',
       'record',
@@ -26297,9 +26297,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cinema'
   },
   {
-    name: 'Low Brightness Symbol',
-    unified: '1F505',
-    keywords: [
+    label: 'Low Brightness Symbol',
+    hexcode: '1F505',
+    tags: [
       'dim_button',
       'sun',
       'afternoon',
@@ -26310,9 +26310,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'low_brightness'
   },
   {
-    name: 'High Brightness Symbol',
-    unified: '1F506',
-    keywords: [
+    label: 'High Brightness Symbol',
+    hexcode: '1F506',
+    tags: [
       'bright_button',
       'sun',
       'light'
@@ -26321,9 +26321,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'high_brightness'
   },
   {
-    name: 'Antenna with Bars',
-    unified: '1F4F6',
-    keywords: [
+    label: 'Antenna with Bars',
+    hexcode: '1F4F6',
+    tags: [
       'antenna_bars',
       'blue-square',
       'reception',
@@ -26338,9 +26338,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'signal_strength'
   },
   {
-    name: 'Vibration Mode',
-    unified: '1F4F3',
-    keywords: [
+    label: 'Vibration Mode',
+    hexcode: '1F4F3',
+    tags: [
       'vibration_mode',
       'orange-square',
       'phone'
@@ -26349,9 +26349,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'vibration_mode'
   },
   {
-    name: 'Mobile Phone off',
-    unified: '1F4F4',
-    keywords: [
+    label: 'Mobile Phone off',
+    hexcode: '1F4F4',
+    tags: [
       'mobile_phone_off',
       'mute',
       'orange-square',
@@ -26362,9 +26362,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'mobile_phone_off'
   },
   {
-    name: 'Female Sign',
-    unified: '2640-FE0F',
-    keywords: [
+    label: 'Female Sign',
+    hexcode: '2640-FE0F',
+    tags: [
       'female_sign',
       'woman',
       'women',
@@ -26376,9 +26376,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'female_sign'
   },
   {
-    name: 'Male Sign',
-    unified: '2642-FE0F',
-    keywords: [
+    label: 'Male Sign',
+    hexcode: '2642-FE0F',
+    tags: [
       'male_sign',
       'man',
       'boy',
@@ -26389,9 +26389,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'male_sign'
   },
   {
-    name: 'Transgender Symbol',
-    unified: '26A7-FE0F',
-    keywords: [
+    label: 'Transgender Symbol',
+    hexcode: '26A7-FE0F',
+    tags: [
       'transgender symbol',
       'lgbtq'
     ],
@@ -26399,9 +26399,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'transgender_symbol'
   },
   {
-    name: 'Heavy Multiplication X',
-    unified: '2716-FE0F',
-    keywords: [
+    label: 'Heavy Multiplication X',
+    hexcode: '2716-FE0F',
+    tags: [
       'multiplication_sign',
       'math',
       'calculation'
@@ -26410,9 +26410,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_multiplication_x'
   },
   {
-    name: 'Heavy Plus Sign',
-    unified: '2795',
-    keywords: [
+    label: 'Heavy Plus Sign',
+    hexcode: '2795',
+    tags: [
       'plus_sign',
       'math',
       'calculation',
@@ -26424,9 +26424,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_plus_sign'
   },
   {
-    name: 'Heavy Minus Sign',
-    unified: '2796',
-    keywords: [
+    label: 'Heavy Minus Sign',
+    hexcode: '2796',
+    tags: [
       'minus_sign',
       'math',
       'calculation',
@@ -26437,9 +26437,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_minus_sign'
   },
   {
-    name: 'Heavy Division Sign',
-    unified: '2797',
-    keywords: [
+    label: 'Heavy Division Sign',
+    hexcode: '2797',
+    tags: [
       'division_sign',
       'divide',
       'math',
@@ -26449,9 +26449,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_division_sign'
   },
   {
-    name: 'Heavy Equals Sign',
-    unified: '1F7F0',
-    keywords: [
+    label: 'Heavy Equals Sign',
+    hexcode: '1F7F0',
+    tags: [
       'heavy equals sign',
       'math'
     ],
@@ -26460,16 +26460,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_equals_sign'
   },
   {
-    name: 'Infinity',
-    unified: '267E-FE0F',
-    keywords: ['infinity', 'forever'],
+    label: 'Infinity',
+    hexcode: '267E-FE0F',
+    tags: ['infinity', 'forever'],
     sheet: [57, 26],
     shortName: 'infinity'
   },
   {
-    name: 'Double Exclamation Mark',
-    unified: '203C-FE0F',
-    keywords: [
+    label: 'Double Exclamation Mark',
+    hexcode: '203C-FE0F',
+    tags: [
       'double_exclamation_mark',
       'exclamation',
       'surprise'
@@ -26478,9 +26478,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'bangbang'
   },
   {
-    name: 'Exclamation Question Mark',
-    unified: '2049-FE0F',
-    keywords: [
+    label: 'Exclamation Question Mark',
+    hexcode: '2049-FE0F',
+    tags: [
       'exclamation_question_mark',
       'wat',
       'punctuation',
@@ -26490,9 +26490,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'interrobang'
   },
   {
-    name: 'Black Question Mark Ornament',
-    unified: '2753',
-    keywords: [
+    label: 'Black Question Mark Ornament',
+    hexcode: '2753',
+    tags: [
       'question_mark',
       'doubt',
       'confused'
@@ -26501,9 +26501,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'question'
   },
   {
-    name: 'White Question Mark Ornament',
-    unified: '2754',
-    keywords: [
+    label: 'White Question Mark Ornament',
+    hexcode: '2754',
+    tags: [
       'white_question_mark',
       'doubts',
       'gray',
@@ -26514,9 +26514,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'grey_question'
   },
   {
-    name: 'White Exclamation Mark Ornament',
-    unified: '2755',
-    keywords: [
+    label: 'White Exclamation Mark Ornament',
+    hexcode: '2755',
+    tags: [
       'white_exclamation_mark',
       'surprise',
       'punctuation',
@@ -26528,9 +26528,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'grey_exclamation'
   },
   {
-    name: 'Heavy Exclamation Mark Symbol',
-    unified: '2757',
-    keywords: [
+    label: 'Heavy Exclamation Mark Symbol',
+    hexcode: '2757',
+    tags: [
       'exclamation_mark',
       'heavy_exclamation_mark',
       'danger',
@@ -26546,9 +26546,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'exclamation'
   },
   {
-    name: 'Wavy Dash',
-    unified: '3030-FE0F',
-    keywords: [
+    label: 'Wavy Dash',
+    hexcode: '3030-FE0F',
+    tags: [
       'wavy_dash',
       'draw',
       'line',
@@ -26561,9 +26561,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'wavy_dash'
   },
   {
-    name: 'Currency Exchange',
-    unified: '1F4B1',
-    keywords: [
+    label: 'Currency Exchange',
+    hexcode: '1F4B1',
+    tags: [
       'currency_exchange',
       'money',
       'sales',
@@ -26574,9 +26574,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'currency_exchange'
   },
   {
-    name: 'Heavy Dollar Sign',
-    unified: '1F4B2',
-    keywords: [
+    label: 'Heavy Dollar Sign',
+    hexcode: '1F4B2',
+    tags: [
       'heavy_dollar_sign',
       'money',
       'sales',
@@ -26588,9 +26588,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_dollar_sign'
   },
   {
-    name: 'Medical Symbol',
-    unified: '2695-FE0F',
-    keywords: [
+    label: 'Medical Symbol',
+    hexcode: '2695-FE0F',
+    tags: [
       'medical_symbol',
       'health',
       'hospital'
@@ -26601,9 +26601,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'medical_symbol'
   },
   {
-    name: 'Black Universal Recycling Symbol',
-    unified: '267B-FE0F',
-    keywords: [
+    label: 'Black Universal Recycling Symbol',
+    hexcode: '267B-FE0F',
+    tags: [
       'recycling_symbol',
       'arrow',
       'environment',
@@ -26614,9 +26614,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'recycle'
   },
   {
-    name: 'Fleur-De-Lis',
-    unified: '269C-FE0F',
-    keywords: [
+    label: 'Fleur-De-Lis',
+    hexcode: '269C-FE0F',
+    tags: [
       'fleur_de_lis',
       'decorative',
       'scout'
@@ -26625,9 +26625,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fleur_de_lis'
   },
   {
-    name: 'Trident Emblem',
-    unified: '1F531',
-    keywords: [
+    label: 'Trident Emblem',
+    hexcode: '1F531',
+    tags: [
       'trident_emblem',
       'weapon',
       'spear'
@@ -26636,9 +26636,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'trident'
   },
   {
-    name: 'Name Badge',
-    unified: '1F4DB',
-    keywords: [
+    label: 'Name Badge',
+    hexcode: '1F4DB',
+    tags: [
       'name_badge',
       'fire',
       'forbid'
@@ -26647,9 +26647,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'name_badge'
   },
   {
-    name: 'Japanese Symbol for Beginner',
-    unified: '1F530',
-    keywords: [
+    label: 'Japanese Symbol for Beginner',
+    hexcode: '1F530',
+    tags: [
       'japanese_symbol_for_beginner',
       'badge',
       'shield'
@@ -26658,9 +26658,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'beginner'
   },
   {
-    name: 'Heavy Large Circle',
-    unified: '2B55',
-    keywords: [
+    label: 'Heavy Large Circle',
+    hexcode: '2B55',
+    tags: [
       'hollow_red_circle',
       'circle',
       'round'
@@ -26669,9 +26669,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'o'
   },
   {
-    name: 'White Heavy Check Mark',
-    unified: '2705',
-    keywords: [
+    label: 'White Heavy Check Mark',
+    hexcode: '2705',
+    tags: [
       'check_mark_button',
       'green-square',
       'ok',
@@ -26685,9 +26685,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_check_mark'
   },
   {
-    name: 'Ballot Box with Check',
-    unified: '2611-FE0F',
-    keywords: [
+    label: 'Ballot Box with Check',
+    hexcode: '2611-FE0F',
+    tags: [
       'check_box_with_check',
       'ok',
       'agree',
@@ -26702,9 +26702,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ballot_box_with_check'
   },
   {
-    name: 'Heavy Check Mark',
-    unified: '2714-FE0F',
-    keywords: [
+    label: 'Heavy Check Mark',
+    hexcode: '2714-FE0F',
+    tags: [
       'check_mark',
       'ok',
       'nike',
@@ -26716,9 +26716,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'heavy_check_mark'
   },
   {
-    name: 'Cross Mark',
-    unified: '274C',
-    keywords: [
+    label: 'Cross Mark',
+    hexcode: '274C',
+    tags: [
       'cross_mark',
       'no',
       'delete',
@@ -26730,9 +26730,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'x'
   },
   {
-    name: 'Negative Squared Cross Mark',
-    unified: '274E',
-    keywords: [
+    label: 'Negative Squared Cross Mark',
+    hexcode: '274E',
+    tags: [
       'cross_mark_button',
       'x',
       'green-square',
@@ -26743,9 +26743,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'negative_squared_cross_mark'
   },
   {
-    name: 'Curly Loop',
-    unified: '27B0',
-    keywords: [
+    label: 'Curly Loop',
+    hexcode: '27B0',
+    tags: [
       'curly_loop',
       'scribble',
       'draw',
@@ -26756,9 +26756,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'curly_loop'
   },
   {
-    name: 'Double Curly Loop',
-    unified: '27BF',
-    keywords: [
+    label: 'Double Curly Loop',
+    hexcode: '27BF',
+    tags: [
       'double_curly_loop',
       'tape',
       'cassette'
@@ -26767,9 +26767,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'loop'
   },
   {
-    name: 'Part Alternation Mark',
-    unified: '303D-FE0F',
-    keywords: [
+    label: 'Part Alternation Mark',
+    hexcode: '303D-FE0F',
+    tags: [
       'part_alternation_mark',
       'graph',
       'presentation',
@@ -26782,9 +26782,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'part_alternation_mark'
   },
   {
-    name: 'Eight Spoked Asterisk',
-    unified: '2733-FE0F',
-    keywords: [
+    label: 'Eight Spoked Asterisk',
+    hexcode: '2733-FE0F',
+    tags: [
       'eight_spoked_asterisk',
       'star',
       'sparkle',
@@ -26794,9 +26794,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eight_spoked_asterisk'
   },
   {
-    name: 'Eight Pointed Black Star',
-    unified: '2734-FE0F',
-    keywords: [
+    label: 'Eight Pointed Black Star',
+    hexcode: '2734-FE0F',
+    tags: [
       'eight_pointed_star',
       'orange-square',
       'shape',
@@ -26806,9 +26806,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eight_pointed_black_star'
   },
   {
-    name: 'Sparkle',
-    unified: '2747-FE0F',
-    keywords: [
+    label: 'Sparkle',
+    hexcode: '2747-FE0F',
+    tags: [
       'sparkle',
       'stars',
       'green-square',
@@ -26820,9 +26820,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sparkle'
   },
   {
-    name: 'Copyright Sign',
-    unified: '00A9-FE0F',
-    keywords: [
+    label: 'Copyright Sign',
+    hexcode: '00A9-FE0F',
+    tags: [
       'copyright',
       'ip',
       'license',
@@ -26835,9 +26835,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'copyright'
   },
   {
-    name: 'Registered Sign',
-    unified: '00AE-FE0F',
-    keywords: [
+    label: 'Registered Sign',
+    hexcode: '00AE-FE0F',
+    tags: [
       'registered',
       'alphabet',
       'circle'
@@ -26847,9 +26847,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'registered'
   },
   {
-    name: 'Trade Mark Sign',
-    unified: '2122-FE0F',
-    keywords: [
+    label: 'Trade Mark Sign',
+    hexcode: '2122-FE0F',
+    tags: [
       'trade_mark',
       'trademark',
       'brand',
@@ -26860,9 +26860,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'tm'
   },
   {
-    name: 'Hash Key',
-    unified: '0023-FE0F-20E3',
-    keywords: [
+    label: 'Hash Key',
+    hexcode: '0023-FE0F-20E3',
+    tags: [
       'keycap_',
       'symbol',
       'blue-square',
@@ -26873,9 +26873,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'hash'
   },
   {
-    name: 'Keycap: *',
-    unified: '002A-FE0F-20E3',
-    keywords: [
+    label: 'Keycap: *',
+    hexcode: '002A-FE0F-20E3',
+    tags: [
       'keycap_',
       'star',
       'keycap'
@@ -26885,9 +26885,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'keycap_star'
   },
   {
-    name: 'Keycap 0',
-    unified: '0030-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 0',
+    hexcode: '0030-FE0F-20E3',
+    tags: [
       'keycap_0',
       '0',
       'numbers',
@@ -26899,9 +26899,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'zero'
   },
   {
-    name: 'Keycap 1',
-    unified: '0031-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 1',
+    hexcode: '0031-FE0F-20E3',
+    tags: [
       'keycap_1',
       'blue-square',
       'numbers',
@@ -26912,9 +26912,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'one'
   },
   {
-    name: 'Keycap 2',
-    unified: '0032-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 2',
+    hexcode: '0032-FE0F-20E3',
+    tags: [
       'keycap_2',
       'numbers',
       '2',
@@ -26926,9 +26926,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'two'
   },
   {
-    name: 'Keycap 3',
-    unified: '0033-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 3',
+    hexcode: '0033-FE0F-20E3',
+    tags: [
       'keycap_3',
       '3',
       'numbers',
@@ -26940,9 +26940,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'three'
   },
   {
-    name: 'Keycap 4',
-    unified: '0034-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 4',
+    hexcode: '0034-FE0F-20E3',
+    tags: [
       'keycap_4',
       '4',
       'numbers',
@@ -26953,9 +26953,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'four'
   },
   {
-    name: 'Keycap 5',
-    unified: '0035-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 5',
+    hexcode: '0035-FE0F-20E3',
+    tags: [
       'keycap_5',
       '5',
       'numbers',
@@ -26967,9 +26967,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'five'
   },
   {
-    name: 'Keycap 6',
-    unified: '0036-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 6',
+    hexcode: '0036-FE0F-20E3',
+    tags: [
       'keycap_6',
       '6',
       'numbers',
@@ -26980,9 +26980,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'six'
   },
   {
-    name: 'Keycap 7',
-    unified: '0037-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 7',
+    hexcode: '0037-FE0F-20E3',
+    tags: [
       'keycap_7',
       '7',
       'numbers',
@@ -26994,9 +26994,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'seven'
   },
   {
-    name: 'Keycap 8',
-    unified: '0038-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 8',
+    hexcode: '0038-FE0F-20E3',
+    tags: [
       'keycap_8',
       '8',
       'blue-square',
@@ -27007,9 +27007,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'eight'
   },
   {
-    name: 'Keycap 9',
-    unified: '0039-FE0F-20E3',
-    keywords: [
+    label: 'Keycap 9',
+    hexcode: '0039-FE0F-20E3',
+    tags: [
       'keycap_9',
       'blue-square',
       'numbers',
@@ -27020,9 +27020,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'nine'
   },
   {
-    name: 'Keycap Ten',
-    unified: '1F51F',
-    keywords: [
+    label: 'Keycap Ten',
+    hexcode: '1F51F',
+    tags: [
       'keycap_10',
       'numbers',
       '10',
@@ -27032,9 +27032,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'keycap_ten'
   },
   {
-    name: 'Input Symbol for Latin Capital Letters',
-    unified: '1F520',
-    keywords: [
+    label: 'Input Symbol for Latin Capital Letters',
+    hexcode: '1F520',
+    tags: [
       'input_latin_uppercase',
       'alphabet',
       'words',
@@ -27044,9 +27044,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'capital_abcd'
   },
   {
-    name: 'Input Symbol for Latin Small Letters',
-    unified: '1F521',
-    keywords: [
+    label: 'Input Symbol for Latin Small Letters',
+    hexcode: '1F521',
+    tags: [
       'input_latin_lowercase',
       'blue-square',
       'alphabet'
@@ -27055,9 +27055,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'abcd'
   },
   {
-    name: 'Input Symbol for Numbers',
-    unified: '1F522',
-    keywords: [
+    label: 'Input Symbol for Numbers',
+    hexcode: '1F522',
+    tags: [
       'input_numbers',
       'numbers',
       'blue-square',
@@ -27071,9 +27071,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: '1234'
   },
   {
-    name: 'Input Symbol for Symbols',
-    unified: '1F523',
-    keywords: [
+    label: 'Input Symbol for Symbols',
+    hexcode: '1F523',
+    tags: [
       'input_symbols',
       'blue-square',
       'music',
@@ -27087,9 +27087,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'symbols'
   },
   {
-    name: 'Input Symbol for Latin Letters',
-    unified: '1F524',
-    keywords: [
+    label: 'Input Symbol for Latin Letters',
+    hexcode: '1F524',
+    tags: [
       'input_latin_letters',
       'blue-square',
       'alphabet'
@@ -27098,9 +27098,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'abc'
   },
   {
-    name: 'Negative Squared Latin Capital Letter a',
-    unified: '1F170-FE0F',
-    keywords: [
+    label: 'Negative Squared Latin Capital Letter a',
+    hexcode: '1F170-FE0F',
+    tags: [
       'a_button',
       'red-square',
       'alphabet',
@@ -27110,9 +27110,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'a'
   },
   {
-    name: 'Negative Squared Ab',
-    unified: '1F18E',
-    keywords: [
+    label: 'Negative Squared Ab',
+    hexcode: '1F18E',
+    tags: [
       'ab_button',
       'red-square',
       'alphabet'
@@ -27121,9 +27121,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ab'
   },
   {
-    name: 'Negative Squared Latin Capital Letter B',
-    unified: '1F171-FE0F',
-    keywords: [
+    label: 'Negative Squared Latin Capital Letter B',
+    hexcode: '1F171-FE0F',
+    tags: [
       'b_button',
       'red-square',
       'alphabet',
@@ -27133,9 +27133,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'b'
   },
   {
-    name: 'Squared Cl',
-    unified: '1F191',
-    keywords: [
+    label: 'Squared Cl',
+    hexcode: '1F191',
+    tags: [
       'cl_button',
       'alphabet',
       'words',
@@ -27145,9 +27145,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cl'
   },
   {
-    name: 'Squared Cool',
-    unified: '1F192',
-    keywords: [
+    label: 'Squared Cool',
+    hexcode: '1F192',
+    tags: [
       'cool_button',
       'words',
       'blue-square'
@@ -27156,9 +27156,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cool'
   },
   {
-    name: 'Squared Free',
-    unified: '1F193',
-    keywords: [
+    label: 'Squared Free',
+    hexcode: '1F193',
+    tags: [
       'free_button',
       'blue-square',
       'words'
@@ -27167,9 +27167,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'free'
   },
   {
-    name: 'Information Source',
-    unified: '2139-FE0F',
-    keywords: [
+    label: 'Information Source',
+    hexcode: '2139-FE0F',
+    tags: [
       'information',
       'blue-square',
       'alphabet',
@@ -27179,9 +27179,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'information_source'
   },
   {
-    name: 'Squared Id',
-    unified: '1F194',
-    keywords: [
+    label: 'Squared Id',
+    hexcode: '1F194',
+    tags: [
       'id_button',
       'purple-square',
       'words'
@@ -27190,9 +27190,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'id'
   },
   {
-    name: 'Circled Latin Capital Letter M',
-    unified: '24C2-FE0F',
-    keywords: [
+    label: 'Circled Latin Capital Letter M',
+    hexcode: '24C2-FE0F',
+    tags: [
       'circled_m',
       'alphabet',
       'blue-circle',
@@ -27202,9 +27202,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'm'
   },
   {
-    name: 'Squared New',
-    unified: '1F195',
-    keywords: [
+    label: 'Squared New',
+    hexcode: '1F195',
+    tags: [
       'new_button',
       'blue-square',
       'words',
@@ -27214,9 +27214,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'new'
   },
   {
-    name: 'Squared Ng',
-    unified: '1F196',
-    keywords: [
+    label: 'Squared Ng',
+    hexcode: '1F196',
+    tags: [
       'ng_button',
       'blue-square',
       'words',
@@ -27227,9 +27227,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ng'
   },
   {
-    name: 'Negative Squared Latin Capital Letter O',
-    unified: '1F17E-FE0F',
-    keywords: [
+    label: 'Negative Squared Latin Capital Letter O',
+    hexcode: '1F17E-FE0F',
+    tags: [
       'o_button',
       'alphabet',
       'red-square',
@@ -27239,9 +27239,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'o2'
   },
   {
-    name: 'Squared Ok',
-    unified: '1F197',
-    keywords: [
+    label: 'Squared Ok',
+    hexcode: '1F197',
+    tags: [
       'ok_button',
       'good',
       'agree',
@@ -27252,9 +27252,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ok'
   },
   {
-    name: 'Negative Squared Latin Capital Letter P',
-    unified: '1F17F-FE0F',
-    keywords: [
+    label: 'Negative Squared Latin Capital Letter P',
+    hexcode: '1F17F-FE0F',
+    tags: [
       'p_button',
       'cars',
       'blue-square',
@@ -27265,9 +27265,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'parking'
   },
   {
-    name: 'Squared Sos',
-    unified: '1F198',
-    keywords: [
+    label: 'Squared Sos',
+    hexcode: '1F198',
+    tags: [
       'sos_button',
       'help',
       'red-square',
@@ -27279,9 +27279,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sos'
   },
   {
-    name: 'Squared Up with Exclamation Mark',
-    unified: '1F199',
-    keywords: [
+    label: 'Squared Up with Exclamation Mark',
+    hexcode: '1F199',
+    tags: [
       'up_button',
       'blue-square',
       'above',
@@ -27291,9 +27291,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'up'
   },
   {
-    name: 'Squared Vs',
-    unified: '1F19A',
-    keywords: [
+    label: 'Squared Vs',
+    hexcode: '1F19A',
+    tags: [
       'vs_button',
       'words',
       'orange-square'
@@ -27302,9 +27302,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'vs'
   },
   {
-    name: 'Squared Katakana Koko',
-    unified: '1F201',
-    keywords: [
+    label: 'Squared Katakana Koko',
+    hexcode: '1F201',
+    tags: [
       'japanese_here_button',
       'blue-square',
       'here',
@@ -27316,9 +27316,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'koko'
   },
   {
-    name: 'Squared Katakana Sa',
-    unified: '1F202-FE0F',
-    keywords: [
+    label: 'Squared Katakana Sa',
+    hexcode: '1F202-FE0F',
+    tags: [
       'japanese_service_charge_button',
       'japanese',
       'blue-square',
@@ -27328,9 +27328,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'sa'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-6708',
-    unified: '1F237-FE0F',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-6708',
+    hexcode: '1F237-FE0F',
+    tags: [
       'japanese_monthly_amount_button',
       'chinese',
       'month',
@@ -27343,9 +27343,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u6708'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-6709',
-    unified: '1F236',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-6709',
+    hexcode: '1F236',
+    tags: [
       'japanese_not_free_of_charge_button',
       'orange-square',
       'chinese',
@@ -27356,9 +27356,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u6709'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-6307',
-    unified: '1F22F',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-6307',
+    hexcode: '1F22F',
+    tags: [
       'japanese_reserved_button',
       'chinese',
       'point',
@@ -27369,9 +27369,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u6307'
   },
   {
-    name: 'Circled Ideograph Advantage',
-    unified: '1F250',
-    keywords: [
+    label: 'Circled Ideograph Advantage',
+    hexcode: '1F250',
+    tags: [
       'japanese_bargain_button',
       'chinese',
       'kanji',
@@ -27383,9 +27383,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ideograph_advantage'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-5272',
-    unified: '1F239',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-5272',
+    hexcode: '1F239',
+    tags: [
       'japanese_discount_button',
       'cut',
       'divide',
@@ -27397,9 +27397,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u5272'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-7121',
-    unified: '1F21A',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-7121',
+    hexcode: '1F21A',
+    tags: [
       'japanese_free_of_charge_button',
       'nothing',
       'chinese',
@@ -27411,9 +27411,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u7121'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-7981',
-    unified: '1F232',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-7981',
+    hexcode: '1F232',
+    tags: [
       'japanese_prohibited_button',
       'kanji',
       'japanese',
@@ -27427,9 +27427,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u7981'
   },
   {
-    name: 'Circled Ideograph Accept',
-    unified: '1F251',
-    keywords: [
+    label: 'Circled Ideograph Accept',
+    hexcode: '1F251',
+    tags: [
       'japanese_acceptable_button',
       'ok',
       'good',
@@ -27443,9 +27443,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'accept'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-7533',
-    unified: '1F238',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-7533',
+    hexcode: '1F238',
+    tags: [
       'japanese_application_button',
       'chinese',
       'japanese',
@@ -27456,9 +27456,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u7533'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-5408',
-    unified: '1F234',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-5408',
+    hexcode: '1F234',
+    tags: [
       'japanese_passing_grade_button',
       'japanese',
       'chinese',
@@ -27470,9 +27470,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u5408'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-7a7a',
-    unified: '1F233',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-7a7a',
+    hexcode: '1F233',
+    tags: [
       'japanese_vacancy_button',
       'kanji',
       'japanese',
@@ -27485,9 +27485,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u7a7a'
   },
   {
-    name: 'Circled Ideograph Congratulation',
-    unified: '3297-FE0F',
-    keywords: [
+    label: 'Circled Ideograph Congratulation',
+    hexcode: '3297-FE0F',
+    tags: [
       'japanese_congratulations_button',
       'chinese',
       'kanji',
@@ -27498,9 +27498,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'congratulations'
   },
   {
-    name: 'Circled Ideograph Secret',
-    unified: '3299-FE0F',
-    keywords: [
+    label: 'Circled Ideograph Secret',
+    hexcode: '3299-FE0F',
+    tags: [
       'japanese_secret_button',
       'privacy',
       'chinese',
@@ -27512,9 +27512,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'secret'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-55b6',
-    unified: '1F23A',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-55b6',
+    hexcode: '1F23A',
+    tags: [
       'japanese_open_for_business_button',
       'japanese',
       'opening hours',
@@ -27524,9 +27524,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u55b6'
   },
   {
-    name: 'Squared Cjk Unified Ideograph-6e80',
-    unified: '1F235',
-    keywords: [
+    label: 'Squared Cjk Unified Ideograph-6e80',
+    hexcode: '1F235',
+    tags: [
       'japanese_no_vacancy_button',
       'full',
       'chinese',
@@ -27538,9 +27538,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'u6e80'
   },
   {
-    name: 'Large Red Circle',
-    unified: '1F534',
-    keywords: [
+    label: 'Large Red Circle',
+    hexcode: '1F534',
+    tags: [
       'red_circle',
       'shape',
       'error',
@@ -27550,9 +27550,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'red_circle'
   },
   {
-    name: 'Large Orange Circle',
-    unified: '1F7E0',
-    keywords: [
+    label: 'Large Orange Circle',
+    hexcode: '1F7E0',
+    tags: [
       'orange_circle',
       'round'
     ],
@@ -27560,9 +27560,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'large_orange_circle'
   },
   {
-    name: 'Large Yellow Circle',
-    unified: '1F7E1',
-    keywords: [
+    label: 'Large Yellow Circle',
+    hexcode: '1F7E1',
+    tags: [
       'yellow_circle',
       'round'
     ],
@@ -27570,16 +27570,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'large_yellow_circle'
   },
   {
-    name: 'Large Green Circle',
-    unified: '1F7E2',
-    keywords: ['green_circle', 'round'],
+    label: 'Large Green Circle',
+    hexcode: '1F7E2',
+    tags: ['green_circle', 'round'],
     sheet: [38, 33],
     shortName: 'large_green_circle'
   },
   {
-    name: 'Large Blue Circle',
-    unified: '1F535',
-    keywords: [
+    label: 'Large Blue Circle',
+    hexcode: '1F535',
+    tags: [
       'blue_circle',
       'shape',
       'icon',
@@ -27589,9 +27589,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'large_blue_circle'
   },
   {
-    name: 'Large Purple Circle',
-    unified: '1F7E3',
-    keywords: [
+    label: 'Large Purple Circle',
+    hexcode: '1F7E3',
+    tags: [
       'purple_circle',
       'round'
     ],
@@ -27599,16 +27599,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'large_purple_circle'
   },
   {
-    name: 'Large Brown Circle',
-    unified: '1F7E4',
-    keywords: ['brown_circle', 'round'],
+    label: 'Large Brown Circle',
+    hexcode: '1F7E4',
+    tags: ['brown_circle', 'round'],
     sheet: [38, 35],
     shortName: 'large_brown_circle'
   },
   {
-    name: 'Medium Black Circle',
-    unified: '26AB',
-    keywords: [
+    label: 'Medium Black Circle',
+    hexcode: '26AB',
+    tags: [
       'black_circle',
       'shape',
       'button',
@@ -27618,9 +27618,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_circle'
   },
   {
-    name: 'Medium White Circle',
-    unified: '26AA',
-    keywords: [
+    label: 'Medium White Circle',
+    hexcode: '26AA',
+    tags: [
       'white_circle',
       'shape',
       'round'
@@ -27629,58 +27629,58 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_circle'
   },
   {
-    name: 'Large Red Square',
-    unified: '1F7E5',
-    keywords: ['red_square'],
+    label: 'Large Red Square',
+    hexcode: '1F7E5',
+    tags: ['red_square'],
     sheet: [38, 36],
     shortName: 'large_red_square'
   },
   {
-    name: 'Large Orange Square',
-    unified: '1F7E7',
-    keywords: ['orange_square'],
+    label: 'Large Orange Square',
+    hexcode: '1F7E7',
+    tags: ['orange_square'],
     sheet: [38, 38],
     shortName: 'large_orange_square'
   },
   {
-    name: 'Large Yellow Square',
-    unified: '1F7E8',
-    keywords: ['yellow_square'],
+    label: 'Large Yellow Square',
+    hexcode: '1F7E8',
+    tags: ['yellow_square'],
     sheet: [38, 39],
     shortName: 'large_yellow_square'
   },
   {
-    name: 'Large Green Square',
-    unified: '1F7E9',
-    keywords: ['green_square'],
+    label: 'Large Green Square',
+    hexcode: '1F7E9',
+    tags: ['green_square'],
     sheet: [38, 40],
     shortName: 'large_green_square'
   },
   {
-    name: 'Large Blue Square',
-    unified: '1F7E6',
-    keywords: ['blue_square'],
+    label: 'Large Blue Square',
+    hexcode: '1F7E6',
+    tags: ['blue_square'],
     sheet: [38, 37],
     shortName: 'large_blue_square'
   },
   {
-    name: 'Large Purple Square',
-    unified: '1F7EA',
-    keywords: ['purple_square'],
+    label: 'Large Purple Square',
+    hexcode: '1F7EA',
+    tags: ['purple_square'],
     sheet: [38, 41],
     shortName: 'large_purple_square'
   },
   {
-    name: 'Large Brown Square',
-    unified: '1F7EB',
-    keywords: ['brown_square'],
+    label: 'Large Brown Square',
+    hexcode: '1F7EB',
+    tags: ['brown_square'],
     sheet: [38, 42],
     shortName: 'large_brown_square'
   },
   {
-    name: 'Black Large Square',
-    unified: '2B1B',
-    keywords: [
+    label: 'Black Large Square',
+    hexcode: '2B1B',
+    tags: [
       'black_large_square',
       'shape',
       'icon',
@@ -27690,9 +27690,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_large_square'
   },
   {
-    name: 'White Large Square',
-    unified: '2B1C',
-    keywords: [
+    label: 'White Large Square',
+    hexcode: '2B1C',
+    tags: [
       'white_large_square',
       'shape',
       'icon',
@@ -27703,9 +27703,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_large_square'
   },
   {
-    name: 'Black Medium Square',
-    unified: '25FC-FE0F',
-    keywords: [
+    label: 'Black Medium Square',
+    hexcode: '25FC-FE0F',
+    tags: [
       'black_medium_square',
       'shape',
       'button',
@@ -27715,9 +27715,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_medium_square'
   },
   {
-    name: 'White Medium Square',
-    unified: '25FB-FE0F',
-    keywords: [
+    label: 'White Medium Square',
+    hexcode: '25FB-FE0F',
+    tags: [
       'white_medium_square',
       'shape',
       'stone',
@@ -27727,9 +27727,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_medium_square'
   },
   {
-    name: 'Black Medium Small Square',
-    unified: '25FE',
-    keywords: [
+    label: 'Black Medium Small Square',
+    hexcode: '25FE',
+    tags: [
       'black_medium_small_square',
       'icon',
       'shape',
@@ -27739,9 +27739,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_medium_small_square'
   },
   {
-    name: 'White Medium Small Square',
-    unified: '25FD',
-    keywords: [
+    label: 'White Medium Small Square',
+    hexcode: '25FD',
+    tags: [
       'white_medium_small_square',
       'shape',
       'stone',
@@ -27752,9 +27752,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_medium_small_square'
   },
   {
-    name: 'Black Small Square',
-    unified: '25AA-FE0F',
-    keywords: [
+    label: 'Black Small Square',
+    hexcode: '25AA-FE0F',
+    tags: [
       'black_small_square',
       'shape',
       'icon'
@@ -27763,9 +27763,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_small_square'
   },
   {
-    name: 'White Small Square',
-    unified: '25AB-FE0F',
-    keywords: [
+    label: 'White Small Square',
+    hexcode: '25AB-FE0F',
+    tags: [
       'white_small_square',
       'shape',
       'icon'
@@ -27774,9 +27774,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_small_square'
   },
   {
-    name: 'Large Orange Diamond',
-    unified: '1F536',
-    keywords: [
+    label: 'Large Orange Diamond',
+    hexcode: '1F536',
+    tags: [
       'large_orange_diamond',
       'shape',
       'jewel',
@@ -27786,9 +27786,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'large_orange_diamond'
   },
   {
-    name: 'Large Blue Diamond',
-    unified: '1F537',
-    keywords: [
+    label: 'Large Blue Diamond',
+    hexcode: '1F537',
+    tags: [
       'large_blue_diamond',
       'shape',
       'jewel',
@@ -27798,9 +27798,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'large_blue_diamond'
   },
   {
-    name: 'Small Orange Diamond',
-    unified: '1F538',
-    keywords: [
+    label: 'Small Orange Diamond',
+    hexcode: '1F538',
+    tags: [
       'small_orange_diamond',
       'shape',
       'jewel',
@@ -27810,9 +27810,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'small_orange_diamond'
   },
   {
-    name: 'Small Blue Diamond',
-    unified: '1F539',
-    keywords: [
+    label: 'Small Blue Diamond',
+    hexcode: '1F539',
+    tags: [
       'small_blue_diamond',
       'shape',
       'jewel',
@@ -27822,9 +27822,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'small_blue_diamond'
   },
   {
-    name: 'Up-Pointing Red Triangle',
-    unified: '1F53A',
-    keywords: [
+    label: 'Up-Pointing Red Triangle',
+    hexcode: '1F53A',
+    tags: [
       'red_triangle_pointed_up',
       'shape',
       'direction',
@@ -27835,9 +27835,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'small_red_triangle'
   },
   {
-    name: 'Down-Pointing Red Triangle',
-    unified: '1F53B',
-    keywords: [
+    label: 'Down-Pointing Red Triangle',
+    hexcode: '1F53B',
+    tags: [
       'red_triangle_pointed_down',
       'shape',
       'direction',
@@ -27847,9 +27847,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'small_red_triangle_down'
   },
   {
-    name: 'Diamond Shape with a Dot Inside',
-    unified: '1F4A0',
-    keywords: [
+    label: 'Diamond Shape with a Dot Inside',
+    hexcode: '1F4A0',
+    tags: [
       'diamond_with_a_dot',
       'jewel',
       'blue',
@@ -27861,9 +27861,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'diamond_shape_with_a_dot_inside'
   },
   {
-    name: 'Radio Button',
-    unified: '1F518',
-    keywords: [
+    label: 'Radio Button',
+    hexcode: '1F518',
+    tags: [
       'radio_button',
       'input',
       'old',
@@ -27874,9 +27874,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'radio_button'
   },
   {
-    name: 'White Square Button',
-    unified: '1F533',
-    keywords: [
+    label: 'White Square Button',
+    hexcode: '1F533',
+    tags: [
       'white_square_button',
       'shape',
       'input'
@@ -27885,9 +27885,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'white_square_button'
   },
   {
-    name: 'Black Square Button',
-    unified: '1F532',
-    keywords: [
+    label: 'Black Square Button',
+    hexcode: '1F532',
+    tags: [
       'black_square_button',
       'shape',
       'input',
@@ -27897,9 +27897,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'black_square_button'
   },
   {
-    name: 'Chequered Flag',
-    unified: '1F3C1',
-    keywords: [
+    label: 'Chequered Flag',
+    hexcode: '1F3C1',
+    tags: [
       'chequered_flag',
       'contest',
       'finishline',
@@ -27910,9 +27910,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'checkered_flag'
   },
   {
-    name: 'Triangular Flag on Post',
-    unified: '1F6A9',
-    keywords: [
+    label: 'Triangular Flag on Post',
+    hexcode: '1F6A9',
+    tags: [
       'triangular_flag',
       'mark',
       'milestone',
@@ -27922,9 +27922,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'triangular_flag_on_post'
   },
   {
-    name: 'Crossed Flags',
-    unified: '1F38C',
-    keywords: [
+    label: 'Crossed Flags',
+    hexcode: '1F38C',
+    tags: [
       'crossed_flags',
       'japanese',
       'nation',
@@ -27935,16 +27935,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'crossed_flags'
   },
   {
-    name: 'Waving Black Flag',
-    unified: '1F3F4',
-    keywords: ['black_flag', 'pirate'],
+    label: 'Waving Black Flag',
+    hexcode: '1F3F4',
+    tags: ['black_flag', 'pirate'],
     sheet: [10, 35],
     shortName: 'waving_black_flag'
   },
   {
-    name: 'White Flag',
-    unified: '1F3F3-FE0F',
-    keywords: [
+    label: 'White Flag',
+    hexcode: '1F3F3-FE0F',
+    tags: [
       'white_flag',
       'losing',
       'loser',
@@ -27957,9 +27957,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'waving_white_flag'
   },
   {
-    name: 'Rainbow Flag',
-    unified: '1F3F3-FE0F-200D-1F308',
-    keywords: [
+    label: 'Rainbow Flag',
+    hexcode: '1F3F3-FE0F-200D-1F308',
+    tags: [
       'rainbow_flag',
       'flag',
       'rainbow',
@@ -27977,9 +27977,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'rainbow-flag'
   },
   {
-    name: 'Transgender Flag',
-    unified: '1F3F3-FE0F-200D-26A7-FE0F',
-    keywords: [
+    label: 'Transgender Flag',
+    hexcode: '1F3F3-FE0F-200D-26A7-FE0F',
+    tags: [
       'transgender flag',
       'lgbtq'
     ],
@@ -27988,9 +27988,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'transgender_flag'
   },
   {
-    name: 'Pirate Flag',
-    unified: '1F3F4-200D-2620-FE0F',
-    keywords: [
+    label: 'Pirate Flag',
+    hexcode: '1F3F4-200D-2620-FE0F',
+    tags: [
       'pirate_flag',
       'skull',
       'crossbones',
@@ -28001,16 +28001,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'pirate_flag'
   },
   {
-    name: 'Ascension Island Flag',
-    unified: '1F1E6-1F1E8',
-    keywords: ['flag_ascension_island'],
+    label: 'Ascension Island Flag',
+    hexcode: '1F1E6-1F1E8',
+    tags: ['flag_ascension_island'],
     sheet: [0, 31],
     shortName: 'flag-ac'
   },
   {
-    name: 'Andorra Flag',
-    unified: '1F1E6-1F1E9',
-    keywords: [
+    label: 'Andorra Flag',
+    hexcode: '1F1E6-1F1E9',
+    tags: [
       'flag_andorra',
       'ad',
       'flag',
@@ -28023,9 +28023,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ad'
   },
   {
-    name: 'United Arab Emirates Flag',
-    unified: '1F1E6-1F1EA',
-    keywords: [
+    label: 'United Arab Emirates Flag',
+    hexcode: '1F1E6-1F1EA',
+    tags: [
       'flag_united_arab_emirates',
       'united',
       'arab',
@@ -28040,9 +28040,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ae'
   },
   {
-    name: 'Afghanistan Flag',
-    unified: '1F1E6-1F1EB',
-    keywords: [
+    label: 'Afghanistan Flag',
+    hexcode: '1F1E6-1F1EB',
+    tags: [
       'flag_afghanistan',
       'af',
       'flag',
@@ -28055,9 +28055,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-af'
   },
   {
-    name: 'Antigua & Barbuda Flag',
-    unified: '1F1E6-1F1EC',
-    keywords: [
+    label: 'Antigua & Barbuda Flag',
+    hexcode: '1F1E6-1F1EC',
+    tags: [
       'flag_antigua_barbuda',
       'antigua',
       'barbuda',
@@ -28071,9 +28071,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ag'
   },
   {
-    name: 'Anguilla Flag',
-    unified: '1F1E6-1F1EE',
-    keywords: [
+    label: 'Anguilla Flag',
+    hexcode: '1F1E6-1F1EE',
+    tags: [
       'flag_anguilla',
       'ai',
       'flag',
@@ -28086,9 +28086,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ai'
   },
   {
-    name: 'Albania Flag',
-    unified: '1F1E6-1F1F1',
-    keywords: [
+    label: 'Albania Flag',
+    hexcode: '1F1E6-1F1F1',
+    tags: [
       'flag_albania',
       'al',
       'flag',
@@ -28101,9 +28101,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-al'
   },
   {
-    name: 'Armenia Flag',
-    unified: '1F1E6-1F1F2',
-    keywords: [
+    label: 'Armenia Flag',
+    hexcode: '1F1E6-1F1F2',
+    tags: [
       'flag_armenia',
       'am',
       'flag',
@@ -28116,9 +28116,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-am'
   },
   {
-    name: 'Angola Flag',
-    unified: '1F1E6-1F1F4',
-    keywords: [
+    label: 'Angola Flag',
+    hexcode: '1F1E6-1F1F4',
+    tags: [
       'flag_angola',
       'ao',
       'flag',
@@ -28131,9 +28131,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ao'
   },
   {
-    name: 'Antarctica Flag',
-    unified: '1F1E6-1F1F6',
-    keywords: [
+    label: 'Antarctica Flag',
+    hexcode: '1F1E6-1F1F6',
+    tags: [
       'flag_antarctica',
       'aq',
       'flag',
@@ -28146,9 +28146,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-aq'
   },
   {
-    name: 'Argentina Flag',
-    unified: '1F1E6-1F1F7',
-    keywords: [
+    label: 'Argentina Flag',
+    hexcode: '1F1E6-1F1F7',
+    tags: [
       'flag_argentina',
       'ar',
       'flag',
@@ -28161,9 +28161,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ar'
   },
   {
-    name: 'American Samoa Flag',
-    unified: '1F1E6-1F1F8',
-    keywords: [
+    label: 'American Samoa Flag',
+    hexcode: '1F1E6-1F1F8',
+    tags: [
       'flag_american_samoa',
       'american',
       'ws',
@@ -28177,9 +28177,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-as'
   },
   {
-    name: 'Austria Flag',
-    unified: '1F1E6-1F1F9',
-    keywords: [
+    label: 'Austria Flag',
+    hexcode: '1F1E6-1F1F9',
+    tags: [
       'flag_austria',
       'at',
       'flag',
@@ -28192,9 +28192,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-at'
   },
   {
-    name: 'Australia Flag',
-    unified: '1F1E6-1F1FA',
-    keywords: [
+    label: 'Australia Flag',
+    hexcode: '1F1E6-1F1FA',
+    tags: [
       'flag_australia',
       'au',
       'flag',
@@ -28207,9 +28207,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-au'
   },
   {
-    name: 'Aruba Flag',
-    unified: '1F1E6-1F1FC',
-    keywords: [
+    label: 'Aruba Flag',
+    hexcode: '1F1E6-1F1FC',
+    tags: [
       'flag_aruba',
       'aw',
       'flag',
@@ -28222,9 +28222,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-aw'
   },
   {
-    name: 'Åland Islands Flag',
-    unified: '1F1E6-1F1FD',
-    keywords: [
+    label: 'Åland Islands Flag',
+    hexcode: '1F1E6-1F1FD',
+    tags: [
       'flag_aland_islands',
       'Åland',
       'islands',
@@ -28238,9 +28238,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ax'
   },
   {
-    name: 'Azerbaijan Flag',
-    unified: '1F1E6-1F1FF',
-    keywords: [
+    label: 'Azerbaijan Flag',
+    hexcode: '1F1E6-1F1FF',
+    tags: [
       'flag_azerbaijan',
       'az',
       'flag',
@@ -28253,9 +28253,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-az'
   },
   {
-    name: 'Bosnia & Herzegovina Flag',
-    unified: '1F1E7-1F1E6',
-    keywords: [
+    label: 'Bosnia & Herzegovina Flag',
+    hexcode: '1F1E7-1F1E6',
+    tags: [
       'flag_bosnia_herzegovina',
       'bosnia',
       'herzegovina',
@@ -28269,9 +28269,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ba'
   },
   {
-    name: 'Barbados Flag',
-    unified: '1F1E7-1F1E7',
-    keywords: [
+    label: 'Barbados Flag',
+    hexcode: '1F1E7-1F1E7',
+    tags: [
       'flag_barbados',
       'bb',
       'flag',
@@ -28284,9 +28284,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bb'
   },
   {
-    name: 'Bangladesh Flag',
-    unified: '1F1E7-1F1E9',
-    keywords: [
+    label: 'Bangladesh Flag',
+    hexcode: '1F1E7-1F1E9',
+    tags: [
       'flag_bangladesh',
       'bd',
       'flag',
@@ -28299,9 +28299,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bd'
   },
   {
-    name: 'Belgium Flag',
-    unified: '1F1E7-1F1EA',
-    keywords: [
+    label: 'Belgium Flag',
+    hexcode: '1F1E7-1F1EA',
+    tags: [
       'flag_belgium',
       'be',
       'flag',
@@ -28314,9 +28314,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-be'
   },
   {
-    name: 'Burkina Faso Flag',
-    unified: '1F1E7-1F1EB',
-    keywords: [
+    label: 'Burkina Faso Flag',
+    hexcode: '1F1E7-1F1EB',
+    tags: [
       'flag_burkina_faso',
       'burkina',
       'faso',
@@ -28330,9 +28330,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bf'
   },
   {
-    name: 'Bulgaria Flag',
-    unified: '1F1E7-1F1EC',
-    keywords: [
+    label: 'Bulgaria Flag',
+    hexcode: '1F1E7-1F1EC',
+    tags: [
       'flag_bulgaria',
       'bg',
       'flag',
@@ -28345,9 +28345,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bg'
   },
   {
-    name: 'Bahrain Flag',
-    unified: '1F1E7-1F1ED',
-    keywords: [
+    label: 'Bahrain Flag',
+    hexcode: '1F1E7-1F1ED',
+    tags: [
       'flag_bahrain',
       'bh',
       'flag',
@@ -28360,9 +28360,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bh'
   },
   {
-    name: 'Burundi Flag',
-    unified: '1F1E7-1F1EE',
-    keywords: [
+    label: 'Burundi Flag',
+    hexcode: '1F1E7-1F1EE',
+    tags: [
       'flag_burundi',
       'bi',
       'flag',
@@ -28375,9 +28375,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bi'
   },
   {
-    name: 'Benin Flag',
-    unified: '1F1E7-1F1EF',
-    keywords: [
+    label: 'Benin Flag',
+    hexcode: '1F1E7-1F1EF',
+    tags: [
       'flag_benin',
       'bj',
       'flag',
@@ -28390,9 +28390,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bj'
   },
   {
-    name: 'St. Barthélemy Flag',
-    unified: '1F1E7-1F1F1',
-    keywords: [
+    label: 'St. Barthélemy Flag',
+    hexcode: '1F1E7-1F1F1',
+    tags: [
       'flag_st_barthelemy',
       'saint',
       'barthélemy',
@@ -28406,9 +28406,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bl'
   },
   {
-    name: 'Bermuda Flag',
-    unified: '1F1E7-1F1F2',
-    keywords: [
+    label: 'Bermuda Flag',
+    hexcode: '1F1E7-1F1F2',
+    tags: [
       'flag_bermuda',
       'bm',
       'flag',
@@ -28421,9 +28421,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bm'
   },
   {
-    name: 'Brunei Flag',
-    unified: '1F1E7-1F1F3',
-    keywords: [
+    label: 'Brunei Flag',
+    hexcode: '1F1E7-1F1F3',
+    tags: [
       'flag_brunei',
       'bn',
       'darussalam',
@@ -28437,9 +28437,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bn'
   },
   {
-    name: 'Bolivia Flag',
-    unified: '1F1E7-1F1F4',
-    keywords: [
+    label: 'Bolivia Flag',
+    hexcode: '1F1E7-1F1F4',
+    tags: [
       'flag_bolivia',
       'bo',
       'flag',
@@ -28452,9 +28452,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bo'
   },
   {
-    name: 'Caribbean Netherlands Flag',
-    unified: '1F1E7-1F1F6',
-    keywords: [
+    label: 'Caribbean Netherlands Flag',
+    hexcode: '1F1E7-1F1F6',
+    tags: [
       'flag_caribbean_netherlands',
       'bonaire',
       'flag',
@@ -28467,9 +28467,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bq'
   },
   {
-    name: 'Brazil Flag',
-    unified: '1F1E7-1F1F7',
-    keywords: [
+    label: 'Brazil Flag',
+    hexcode: '1F1E7-1F1F7',
+    tags: [
       'flag_brazil',
       'br',
       'flag',
@@ -28482,9 +28482,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-br'
   },
   {
-    name: 'Bahamas Flag',
-    unified: '1F1E7-1F1F8',
-    keywords: [
+    label: 'Bahamas Flag',
+    hexcode: '1F1E7-1F1F8',
+    tags: [
       'flag_bahamas',
       'bs',
       'flag',
@@ -28497,9 +28497,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bs'
   },
   {
-    name: 'Bhutan Flag',
-    unified: '1F1E7-1F1F9',
-    keywords: [
+    label: 'Bhutan Flag',
+    hexcode: '1F1E7-1F1F9',
+    tags: [
       'flag_bhutan',
       'bt',
       'flag',
@@ -28512,9 +28512,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bt'
   },
   {
-    name: 'Bouvet Island Flag',
-    unified: '1F1E7-1F1FB',
-    keywords: [
+    label: 'Bouvet Island Flag',
+    hexcode: '1F1E7-1F1FB',
+    tags: [
       'flag_bouvet_island',
       'norway'
     ],
@@ -28522,9 +28522,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bv'
   },
   {
-    name: 'Botswana Flag',
-    unified: '1F1E7-1F1FC',
-    keywords: [
+    label: 'Botswana Flag',
+    hexcode: '1F1E7-1F1FC',
+    tags: [
       'flag_botswana',
       'bw',
       'flag',
@@ -28537,9 +28537,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bw'
   },
   {
-    name: 'Belarus Flag',
-    unified: '1F1E7-1F1FE',
-    keywords: [
+    label: 'Belarus Flag',
+    hexcode: '1F1E7-1F1FE',
+    tags: [
       'flag_belarus',
       'by',
       'flag',
@@ -28552,9 +28552,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-by'
   },
   {
-    name: 'Belize Flag',
-    unified: '1F1E7-1F1FF',
-    keywords: [
+    label: 'Belize Flag',
+    hexcode: '1F1E7-1F1FF',
+    tags: [
       'flag_belize',
       'bz',
       'flag',
@@ -28567,9 +28567,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-bz'
   },
   {
-    name: 'Canada Flag',
-    unified: '1F1E8-1F1E6',
-    keywords: [
+    label: 'Canada Flag',
+    hexcode: '1F1E8-1F1E6',
+    tags: [
       'flag_canada',
       'ca',
       'flag',
@@ -28582,9 +28582,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ca'
   },
   {
-    name: 'Cocos (keeling) Islands Flag',
-    unified: '1F1E8-1F1E8',
-    keywords: [
+    label: 'Cocos (keeling) Islands Flag',
+    hexcode: '1F1E8-1F1E8',
+    tags: [
       'flag_cocos_islands',
       'cocos',
       'keeling',
@@ -28599,9 +28599,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cc'
   },
   {
-    name: 'Congo - Kinshasa Flag',
-    unified: '1F1E8-1F1E9',
-    keywords: [
+    label: 'Congo - Kinshasa Flag',
+    hexcode: '1F1E8-1F1E9',
+    tags: [
       'flag_congo_kinshasa',
       'congo',
       'democratic',
@@ -28616,9 +28616,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cd'
   },
   {
-    name: 'Central African Republic Flag',
-    unified: '1F1E8-1F1EB',
-    keywords: [
+    label: 'Central African Republic Flag',
+    hexcode: '1F1E8-1F1EB',
+    tags: [
       'flag_central_african_republic',
       'central',
       'african',
@@ -28633,9 +28633,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cf'
   },
   {
-    name: 'Congo - Brazzaville Flag',
-    unified: '1F1E8-1F1EC',
-    keywords: [
+    label: 'Congo - Brazzaville Flag',
+    hexcode: '1F1E8-1F1EC',
+    tags: [
       'flag_congo_brazzaville',
       'congo',
       'flag',
@@ -28648,9 +28648,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cg'
   },
   {
-    name: 'Switzerland Flag',
-    unified: '1F1E8-1F1ED',
-    keywords: [
+    label: 'Switzerland Flag',
+    hexcode: '1F1E8-1F1ED',
+    tags: [
       'flag_switzerland',
       'ch',
       'flag',
@@ -28663,9 +28663,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ch'
   },
   {
-    name: 'Côte D’ivoire Flag',
-    unified: '1F1E8-1F1EE',
-    keywords: [
+    label: 'Côte D’ivoire Flag',
+    hexcode: '1F1E8-1F1EE',
+    tags: [
       'flag_cote_d_ivoire',
       'ivory',
       'coast',
@@ -28679,9 +28679,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ci'
   },
   {
-    name: 'Cook Islands Flag',
-    unified: '1F1E8-1F1F0',
-    keywords: [
+    label: 'Cook Islands Flag',
+    hexcode: '1F1E8-1F1F0',
+    tags: [
       'flag_cook_islands',
       'cook',
       'islands',
@@ -28695,9 +28695,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ck'
   },
   {
-    name: 'Chile Flag',
-    unified: '1F1E8-1F1F1',
-    keywords: [
+    label: 'Chile Flag',
+    hexcode: '1F1E8-1F1F1',
+    tags: [
       'flag_chile',
       'flag',
       'nation',
@@ -28709,9 +28709,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cl'
   },
   {
-    name: 'Cameroon Flag',
-    unified: '1F1E8-1F1F2',
-    keywords: [
+    label: 'Cameroon Flag',
+    hexcode: '1F1E8-1F1F2',
+    tags: [
       'flag_cameroon',
       'cm',
       'flag',
@@ -28724,9 +28724,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cm'
   },
   {
-    name: 'China Flag',
-    unified: '1F1E8-1F1F3',
-    keywords: [
+    label: 'China Flag',
+    hexcode: '1F1E8-1F1F3',
+    tags: [
       'flag_china',
       'china',
       'chinese',
@@ -28742,9 +28742,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'cn'
   },
   {
-    name: 'Colombia Flag',
-    unified: '1F1E8-1F1F4',
-    keywords: [
+    label: 'Colombia Flag',
+    hexcode: '1F1E8-1F1F4',
+    tags: [
       'flag_colombia',
       'co',
       'flag',
@@ -28757,18 +28757,18 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-co'
   },
   {
-    name: 'Clipperton Island Flag',
-    unified: '1F1E8-1F1F5',
-    keywords: [
+    label: 'Clipperton Island Flag',
+    hexcode: '1F1E8-1F1F5',
+    tags: [
       'flag_clipperton_island'
     ],
     sheet: [1, 20],
     shortName: 'flag-cp'
   },
   {
-    name: 'Costa Rica Flag',
-    unified: '1F1E8-1F1F7',
-    keywords: [
+    label: 'Costa Rica Flag',
+    hexcode: '1F1E8-1F1F7',
+    tags: [
       'flag_costa_rica',
       'costa',
       'rica',
@@ -28782,9 +28782,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cr'
   },
   {
-    name: 'Cuba Flag',
-    unified: '1F1E8-1F1FA',
-    keywords: [
+    label: 'Cuba Flag',
+    hexcode: '1F1E8-1F1FA',
+    tags: [
       'flag_cuba',
       'cu',
       'flag',
@@ -28797,9 +28797,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cu'
   },
   {
-    name: 'Cape Verde Flag',
-    unified: '1F1E8-1F1FB',
-    keywords: [
+    label: 'Cape Verde Flag',
+    hexcode: '1F1E8-1F1FB',
+    tags: [
       'flag_cape_verde',
       'cabo',
       'verde',
@@ -28813,9 +28813,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cv'
   },
   {
-    name: 'Curaçao Flag',
-    unified: '1F1E8-1F1FC',
-    keywords: [
+    label: 'Curaçao Flag',
+    hexcode: '1F1E8-1F1FC',
+    tags: [
       'flag_curacao',
       'curaçao',
       'flag',
@@ -28828,9 +28828,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cw'
   },
   {
-    name: 'Christmas Island Flag',
-    unified: '1F1E8-1F1FD',
-    keywords: [
+    label: 'Christmas Island Flag',
+    hexcode: '1F1E8-1F1FD',
+    tags: [
       'flag_christmas_island',
       'christmas',
       'island',
@@ -28844,9 +28844,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cx'
   },
   {
-    name: 'Cyprus Flag',
-    unified: '1F1E8-1F1FE',
-    keywords: [
+    label: 'Cyprus Flag',
+    hexcode: '1F1E8-1F1FE',
+    tags: [
       'flag_cyprus',
       'cy',
       'flag',
@@ -28859,9 +28859,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cy'
   },
   {
-    name: 'Czechia Flag',
-    unified: '1F1E8-1F1FF',
-    keywords: [
+    label: 'Czechia Flag',
+    hexcode: '1F1E8-1F1FF',
+    tags: [
       'flag_czechia',
       'cz',
       'flag',
@@ -28874,9 +28874,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-cz'
   },
   {
-    name: 'Germany Flag',
-    unified: '1F1E9-1F1EA',
-    keywords: [
+    label: 'Germany Flag',
+    hexcode: '1F1E9-1F1EA',
+    tags: [
       'flag_germany',
       'german',
       'nation',
@@ -28890,16 +28890,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'de'
   },
   {
-    name: 'Diego Garcia Flag',
-    unified: '1F1E9-1F1EC',
-    keywords: ['flag_diego_garcia'],
+    label: 'Diego Garcia Flag',
+    hexcode: '1F1E9-1F1EC',
+    tags: ['flag_diego_garcia'],
     sheet: [1, 29],
     shortName: 'flag-dg'
   },
   {
-    name: 'Djibouti Flag',
-    unified: '1F1E9-1F1EF',
-    keywords: [
+    label: 'Djibouti Flag',
+    hexcode: '1F1E9-1F1EF',
+    tags: [
       'flag_djibouti',
       'dj',
       'flag',
@@ -28912,9 +28912,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-dj'
   },
   {
-    name: 'Denmark Flag',
-    unified: '1F1E9-1F1F0',
-    keywords: [
+    label: 'Denmark Flag',
+    hexcode: '1F1E9-1F1F0',
+    tags: [
       'flag_denmark',
       'dk',
       'flag',
@@ -28927,9 +28927,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-dk'
   },
   {
-    name: 'Dominica Flag',
-    unified: '1F1E9-1F1F2',
-    keywords: [
+    label: 'Dominica Flag',
+    hexcode: '1F1E9-1F1F2',
+    tags: [
       'flag_dominica',
       'dm',
       'flag',
@@ -28942,9 +28942,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-dm'
   },
   {
-    name: 'Dominican Republic Flag',
-    unified: '1F1E9-1F1F4',
-    keywords: [
+    label: 'Dominican Republic Flag',
+    hexcode: '1F1E9-1F1F4',
+    tags: [
       'flag_dominican_republic',
       'dominican',
       'republic',
@@ -28958,9 +28958,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-do'
   },
   {
-    name: 'Algeria Flag',
-    unified: '1F1E9-1F1FF',
-    keywords: [
+    label: 'Algeria Flag',
+    hexcode: '1F1E9-1F1FF',
+    tags: [
       'flag_algeria',
       'dz',
       'flag',
@@ -28973,16 +28973,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-dz'
   },
   {
-    name: 'Ceuta & Melilla Flag',
-    unified: '1F1EA-1F1E6',
-    keywords: ['flag_ceuta_melilla'],
+    label: 'Ceuta & Melilla Flag',
+    hexcode: '1F1EA-1F1E6',
+    tags: ['flag_ceuta_melilla'],
     sheet: [1, 35],
     shortName: 'flag-ea'
   },
   {
-    name: 'Ecuador Flag',
-    unified: '1F1EA-1F1E8',
-    keywords: [
+    label: 'Ecuador Flag',
+    hexcode: '1F1EA-1F1E8',
+    tags: [
       'flag_ecuador',
       'ec',
       'flag',
@@ -28995,9 +28995,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ec'
   },
   {
-    name: 'Estonia Flag',
-    unified: '1F1EA-1F1EA',
-    keywords: [
+    label: 'Estonia Flag',
+    hexcode: '1F1EA-1F1EA',
+    tags: [
       'flag_estonia',
       'ee',
       'flag',
@@ -29010,9 +29010,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ee'
   },
   {
-    name: 'Egypt Flag',
-    unified: '1F1EA-1F1EC',
-    keywords: [
+    label: 'Egypt Flag',
+    hexcode: '1F1EA-1F1EC',
+    tags: [
       'flag_egypt',
       'eg',
       'flag',
@@ -29025,9 +29025,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-eg'
   },
   {
-    name: 'Western Sahara Flag',
-    unified: '1F1EA-1F1ED',
-    keywords: [
+    label: 'Western Sahara Flag',
+    hexcode: '1F1EA-1F1ED',
+    tags: [
       'flag_western_sahara',
       'western',
       'sahara',
@@ -29041,9 +29041,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-eh'
   },
   {
-    name: 'Eritrea Flag',
-    unified: '1F1EA-1F1F7',
-    keywords: [
+    label: 'Eritrea Flag',
+    hexcode: '1F1EA-1F1F7',
+    tags: [
       'flag_eritrea',
       'er',
       'flag',
@@ -29056,9 +29056,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-er'
   },
   {
-    name: 'Spain Flag',
-    unified: '1F1EA-1F1F8',
-    keywords: [
+    label: 'Spain Flag',
+    hexcode: '1F1EA-1F1F8',
+    tags: [
       'flag_spain',
       'spain',
       'flag',
@@ -29072,9 +29072,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'es'
   },
   {
-    name: 'Ethiopia Flag',
-    unified: '1F1EA-1F1F9',
-    keywords: [
+    label: 'Ethiopia Flag',
+    hexcode: '1F1EA-1F1F9',
+    tags: [
       'flag_ethiopia',
       'et',
       'flag',
@@ -29087,9 +29087,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-et'
   },
   {
-    name: 'European Union Flag',
-    unified: '1F1EA-1F1FA',
-    keywords: [
+    label: 'European Union Flag',
+    hexcode: '1F1EA-1F1FA',
+    tags: [
       'flag_european_union',
       'european',
       'union',
@@ -29100,9 +29100,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-eu'
   },
   {
-    name: 'Finland Flag',
-    unified: '1F1EB-1F1EE',
-    keywords: [
+    label: 'Finland Flag',
+    hexcode: '1F1EB-1F1EE',
+    tags: [
       'flag_finland',
       'fi',
       'flag',
@@ -29115,9 +29115,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-fi'
   },
   {
-    name: 'Fiji Flag',
-    unified: '1F1EB-1F1EF',
-    keywords: [
+    label: 'Fiji Flag',
+    hexcode: '1F1EB-1F1EF',
+    tags: [
       'flag_fiji',
       'fj',
       'flag',
@@ -29130,9 +29130,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-fj'
   },
   {
-    name: 'Falkland Islands Flag',
-    unified: '1F1EB-1F1F0',
-    keywords: [
+    label: 'Falkland Islands Flag',
+    hexcode: '1F1EB-1F1F0',
+    tags: [
       'flag_falkland_islands',
       'falkland',
       'islands',
@@ -29147,9 +29147,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-fk'
   },
   {
-    name: 'Micronesia Flag',
-    unified: '1F1EB-1F1F2',
-    keywords: [
+    label: 'Micronesia Flag',
+    hexcode: '1F1EB-1F1F2',
+    tags: [
       'flag_micronesia',
       'micronesia',
       'federated',
@@ -29164,9 +29164,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-fm'
   },
   {
-    name: 'Faroe Islands Flag',
-    unified: '1F1EB-1F1F4',
-    keywords: [
+    label: 'Faroe Islands Flag',
+    hexcode: '1F1EB-1F1F4',
+    tags: [
       'flag_faroe_islands',
       'faroe',
       'islands',
@@ -29180,9 +29180,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-fo'
   },
   {
-    name: 'France Flag',
-    unified: '1F1EB-1F1F7',
-    keywords: [
+    label: 'France Flag',
+    hexcode: '1F1EB-1F1F7',
+    tags: [
       'flag_france',
       'banner',
       'flag',
@@ -29197,9 +29197,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'fr'
   },
   {
-    name: 'Gabon Flag',
-    unified: '1F1EC-1F1E6',
-    keywords: [
+    label: 'Gabon Flag',
+    hexcode: '1F1EC-1F1E6',
+    tags: [
       'flag_gabon',
       'ga',
       'flag',
@@ -29212,9 +29212,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ga'
   },
   {
-    name: 'United Kingdom Flag',
-    unified: '1F1EC-1F1E7',
-    keywords: [
+    label: 'United Kingdom Flag',
+    hexcode: '1F1EC-1F1E7',
+    tags: [
       'flag_united_kingdom',
       'united',
       'kingdom',
@@ -29238,9 +29238,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'gb'
   },
   {
-    name: 'Grenada Flag',
-    unified: '1F1EC-1F1E9',
-    keywords: [
+    label: 'Grenada Flag',
+    hexcode: '1F1EC-1F1E9',
+    tags: [
       'flag_grenada',
       'gd',
       'flag',
@@ -29253,9 +29253,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gd'
   },
   {
-    name: 'Georgia Flag',
-    unified: '1F1EC-1F1EA',
-    keywords: [
+    label: 'Georgia Flag',
+    hexcode: '1F1EC-1F1EA',
+    tags: [
       'flag_georgia',
       'ge',
       'flag',
@@ -29268,9 +29268,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ge'
   },
   {
-    name: 'French Guiana Flag',
-    unified: '1F1EC-1F1EB',
-    keywords: [
+    label: 'French Guiana Flag',
+    hexcode: '1F1EC-1F1EB',
+    tags: [
       'flag_french_guiana',
       'french',
       'guiana',
@@ -29284,9 +29284,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gf'
   },
   {
-    name: 'Guernsey Flag',
-    unified: '1F1EC-1F1EC',
-    keywords: [
+    label: 'Guernsey Flag',
+    hexcode: '1F1EC-1F1EC',
+    tags: [
       'flag_guernsey',
       'gg',
       'flag',
@@ -29299,9 +29299,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gg'
   },
   {
-    name: 'Ghana Flag',
-    unified: '1F1EC-1F1ED',
-    keywords: [
+    label: 'Ghana Flag',
+    hexcode: '1F1EC-1F1ED',
+    tags: [
       'flag_ghana',
       'gh',
       'flag',
@@ -29314,9 +29314,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gh'
   },
   {
-    name: 'Gibraltar Flag',
-    unified: '1F1EC-1F1EE',
-    keywords: [
+    label: 'Gibraltar Flag',
+    hexcode: '1F1EC-1F1EE',
+    tags: [
       'flag_gibraltar',
       'gi',
       'flag',
@@ -29329,9 +29329,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gi'
   },
   {
-    name: 'Greenland Flag',
-    unified: '1F1EC-1F1F1',
-    keywords: [
+    label: 'Greenland Flag',
+    hexcode: '1F1EC-1F1F1',
+    tags: [
       'flag_greenland',
       'gl',
       'flag',
@@ -29344,9 +29344,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gl'
   },
   {
-    name: 'Gambia Flag',
-    unified: '1F1EC-1F1F2',
-    keywords: [
+    label: 'Gambia Flag',
+    hexcode: '1F1EC-1F1F2',
+    tags: [
       'flag_gambia',
       'gm',
       'flag',
@@ -29359,9 +29359,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gm'
   },
   {
-    name: 'Guinea Flag',
-    unified: '1F1EC-1F1F3',
-    keywords: [
+    label: 'Guinea Flag',
+    hexcode: '1F1EC-1F1F3',
+    tags: [
       'flag_guinea',
       'gn',
       'flag',
@@ -29374,9 +29374,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gn'
   },
   {
-    name: 'Guadeloupe Flag',
-    unified: '1F1EC-1F1F5',
-    keywords: [
+    label: 'Guadeloupe Flag',
+    hexcode: '1F1EC-1F1F5',
+    tags: [
       'flag_guadeloupe',
       'gp',
       'flag',
@@ -29389,9 +29389,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gp'
   },
   {
-    name: 'Equatorial Guinea Flag',
-    unified: '1F1EC-1F1F6',
-    keywords: [
+    label: 'Equatorial Guinea Flag',
+    hexcode: '1F1EC-1F1F6',
+    tags: [
       'flag_equatorial_guinea',
       'equatorial',
       'gn',
@@ -29405,9 +29405,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gq'
   },
   {
-    name: 'Greece Flag',
-    unified: '1F1EC-1F1F7',
-    keywords: [
+    label: 'Greece Flag',
+    hexcode: '1F1EC-1F1F7',
+    tags: [
       'flag_greece',
       'gr',
       'flag',
@@ -29420,9 +29420,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gr'
   },
   {
-    name: 'South Georgia & South Sandwich Islands Flag',
-    unified: '1F1EC-1F1F8',
-    keywords: [
+    label: 'South Georgia & South Sandwich Islands Flag',
+    hexcode: '1F1EC-1F1F8',
+    tags: [
       'flag_south_georgia_south_sandwich_islands',
       'south',
       'georgia',
@@ -29438,9 +29438,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gs'
   },
   {
-    name: 'Guatemala Flag',
-    unified: '1F1EC-1F1F9',
-    keywords: [
+    label: 'Guatemala Flag',
+    hexcode: '1F1EC-1F1F9',
+    tags: [
       'flag_guatemala',
       'gt',
       'flag',
@@ -29453,9 +29453,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gt'
   },
   {
-    name: 'Guam Flag',
-    unified: '1F1EC-1F1FA',
-    keywords: [
+    label: 'Guam Flag',
+    hexcode: '1F1EC-1F1FA',
+    tags: [
       'flag_guam',
       'gu',
       'flag',
@@ -29468,9 +29468,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gu'
   },
   {
-    name: 'Guinea-Bissau Flag',
-    unified: '1F1EC-1F1FC',
-    keywords: [
+    label: 'Guinea-Bissau Flag',
+    hexcode: '1F1EC-1F1FC',
+    tags: [
       'flag_guinea_bissau',
       'gw',
       'bissau',
@@ -29484,9 +29484,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gw'
   },
   {
-    name: 'Guyana Flag',
-    unified: '1F1EC-1F1FE',
-    keywords: [
+    label: 'Guyana Flag',
+    hexcode: '1F1EC-1F1FE',
+    tags: [
       'flag_guyana',
       'gy',
       'flag',
@@ -29499,9 +29499,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-gy'
   },
   {
-    name: 'Hong Kong Sar China Flag',
-    unified: '1F1ED-1F1F0',
-    keywords: [
+    label: 'Hong Kong Sar China Flag',
+    hexcode: '1F1ED-1F1F0',
+    tags: [
       'flag_hong_kong_sar_china',
       'hong',
       'kong',
@@ -29515,18 +29515,18 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-hk'
   },
   {
-    name: 'Heard & Mcdonald Islands Flag',
-    unified: '1F1ED-1F1F2',
-    keywords: [
+    label: 'Heard & Mcdonald Islands Flag',
+    hexcode: '1F1ED-1F1F2',
+    tags: [
       'flag_heard_mcdonald_islands'
     ],
     sheet: [2, 9],
     shortName: 'flag-hm'
   },
   {
-    name: 'Honduras Flag',
-    unified: '1F1ED-1F1F3',
-    keywords: [
+    label: 'Honduras Flag',
+    hexcode: '1F1ED-1F1F3',
+    tags: [
       'flag_honduras',
       'hn',
       'flag',
@@ -29539,9 +29539,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-hn'
   },
   {
-    name: 'Croatia Flag',
-    unified: '1F1ED-1F1F7',
-    keywords: [
+    label: 'Croatia Flag',
+    hexcode: '1F1ED-1F1F7',
+    tags: [
       'flag_croatia',
       'hr',
       'flag',
@@ -29554,9 +29554,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-hr'
   },
   {
-    name: 'Haiti Flag',
-    unified: '1F1ED-1F1F9',
-    keywords: [
+    label: 'Haiti Flag',
+    hexcode: '1F1ED-1F1F9',
+    tags: [
       'flag_haiti',
       'ht',
       'flag',
@@ -29569,9 +29569,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ht'
   },
   {
-    name: 'Hungary Flag',
-    unified: '1F1ED-1F1FA',
-    keywords: [
+    label: 'Hungary Flag',
+    hexcode: '1F1ED-1F1FA',
+    tags: [
       'flag_hungary',
       'hu',
       'flag',
@@ -29584,9 +29584,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-hu'
   },
   {
-    name: 'Canary Islands Flag',
-    unified: '1F1EE-1F1E8',
-    keywords: [
+    label: 'Canary Islands Flag',
+    hexcode: '1F1EE-1F1E8',
+    tags: [
       'flag_canary_islands',
       'canary',
       'islands',
@@ -29600,9 +29600,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ic'
   },
   {
-    name: 'Indonesia Flag',
-    unified: '1F1EE-1F1E9',
-    keywords: [
+    label: 'Indonesia Flag',
+    hexcode: '1F1EE-1F1E9',
+    tags: [
       'flag_indonesia',
       'flag',
       'nation',
@@ -29614,9 +29614,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-id'
   },
   {
-    name: 'Ireland Flag',
-    unified: '1F1EE-1F1EA',
-    keywords: [
+    label: 'Ireland Flag',
+    hexcode: '1F1EE-1F1EA',
+    tags: [
       'flag_ireland',
       'ie',
       'flag',
@@ -29629,9 +29629,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ie'
   },
   {
-    name: 'Israel Flag',
-    unified: '1F1EE-1F1F1',
-    keywords: [
+    label: 'Israel Flag',
+    hexcode: '1F1EE-1F1F1',
+    tags: [
       'flag_israel',
       'il',
       'flag',
@@ -29644,9 +29644,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-il'
   },
   {
-    name: 'Isle of Man Flag',
-    unified: '1F1EE-1F1F2',
-    keywords: [
+    label: 'Isle of Man Flag',
+    hexcode: '1F1EE-1F1F2',
+    tags: [
       'flag_isle_of_man',
       'isle',
       'man',
@@ -29660,9 +29660,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-im'
   },
   {
-    name: 'India Flag',
-    unified: '1F1EE-1F1F3',
-    keywords: [
+    label: 'India Flag',
+    hexcode: '1F1EE-1F1F3',
+    tags: [
       'flag_india',
       'in',
       'flag',
@@ -29675,9 +29675,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-in'
   },
   {
-    name: 'British Indian Ocean Territory Flag',
-    unified: '1F1EE-1F1F4',
-    keywords: [
+    label: 'British Indian Ocean Territory Flag',
+    hexcode: '1F1EE-1F1F4',
+    tags: [
       'flag_british_indian_ocean_territory',
       'british',
       'indian',
@@ -29693,9 +29693,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-io'
   },
   {
-    name: 'Iraq Flag',
-    unified: '1F1EE-1F1F6',
-    keywords: [
+    label: 'Iraq Flag',
+    hexcode: '1F1EE-1F1F6',
+    tags: [
       'flag_iraq',
       'iq',
       'flag',
@@ -29708,9 +29708,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-iq'
   },
   {
-    name: 'Iran Flag',
-    unified: '1F1EE-1F1F7',
-    keywords: [
+    label: 'Iran Flag',
+    hexcode: '1F1EE-1F1F7',
+    tags: [
       'flag_iran',
       'iran',
       'islamic',
@@ -29725,9 +29725,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ir'
   },
   {
-    name: 'Iceland Flag',
-    unified: '1F1EE-1F1F8',
-    keywords: [
+    label: 'Iceland Flag',
+    hexcode: '1F1EE-1F1F8',
+    tags: [
       'flag_iceland',
       'is',
       'flag',
@@ -29740,9 +29740,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-is'
   },
   {
-    name: 'Italy Flag',
-    unified: '1F1EE-1F1F9',
-    keywords: [
+    label: 'Italy Flag',
+    hexcode: '1F1EE-1F1F9',
+    tags: [
       'flag_italy',
       'italy',
       'flag',
@@ -29756,9 +29756,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'it'
   },
   {
-    name: 'Jersey Flag',
-    unified: '1F1EF-1F1EA',
-    keywords: [
+    label: 'Jersey Flag',
+    hexcode: '1F1EF-1F1EA',
+    tags: [
       'flag_jersey',
       'je',
       'flag',
@@ -29771,9 +29771,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-je'
   },
   {
-    name: 'Jamaica Flag',
-    unified: '1F1EF-1F1F2',
-    keywords: [
+    label: 'Jamaica Flag',
+    hexcode: '1F1EF-1F1F2',
+    tags: [
       'flag_jamaica',
       'jm',
       'flag',
@@ -29786,9 +29786,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-jm'
   },
   {
-    name: 'Jordan Flag',
-    unified: '1F1EF-1F1F4',
-    keywords: [
+    label: 'Jordan Flag',
+    hexcode: '1F1EF-1F1F4',
+    tags: [
       'flag_jordan',
       'jo',
       'flag',
@@ -29801,9 +29801,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-jo'
   },
   {
-    name: 'Japan Flag',
-    unified: '1F1EF-1F1F5',
-    keywords: [
+    label: 'Japan Flag',
+    hexcode: '1F1EF-1F1F5',
+    tags: [
       'flag_japan',
       'japanese',
       'nation',
@@ -29819,9 +29819,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'jp'
   },
   {
-    name: 'Kenya Flag',
-    unified: '1F1F0-1F1EA',
-    keywords: [
+    label: 'Kenya Flag',
+    hexcode: '1F1F0-1F1EA',
+    tags: [
       'flag_kenya',
       'ke',
       'flag',
@@ -29834,9 +29834,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ke'
   },
   {
-    name: 'Kyrgyzstan Flag',
-    unified: '1F1F0-1F1EC',
-    keywords: [
+    label: 'Kyrgyzstan Flag',
+    hexcode: '1F1F0-1F1EC',
+    tags: [
       'flag_kyrgyzstan',
       'kg',
       'flag',
@@ -29849,9 +29849,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-kg'
   },
   {
-    name: 'Cambodia Flag',
-    unified: '1F1F0-1F1ED',
-    keywords: [
+    label: 'Cambodia Flag',
+    hexcode: '1F1F0-1F1ED',
+    tags: [
       'flag_cambodia',
       'kh',
       'flag',
@@ -29864,9 +29864,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-kh'
   },
   {
-    name: 'Kiribati Flag',
-    unified: '1F1F0-1F1EE',
-    keywords: [
+    label: 'Kiribati Flag',
+    hexcode: '1F1F0-1F1EE',
+    tags: [
       'flag_kiribati',
       'ki',
       'flag',
@@ -29879,9 +29879,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ki'
   },
   {
-    name: 'Comoros Flag',
-    unified: '1F1F0-1F1F2',
-    keywords: [
+    label: 'Comoros Flag',
+    hexcode: '1F1F0-1F1F2',
+    tags: [
       'flag_comoros',
       'km',
       'flag',
@@ -29894,9 +29894,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-km'
   },
   {
-    name: 'St. Kitts & Nevis Flag',
-    unified: '1F1F0-1F1F3',
-    keywords: [
+    label: 'St. Kitts & Nevis Flag',
+    hexcode: '1F1F0-1F1F3',
+    tags: [
       'flag_st_kitts_nevis',
       'saint',
       'kitts',
@@ -29911,9 +29911,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-kn'
   },
   {
-    name: 'North Korea Flag',
-    unified: '1F1F0-1F1F5',
-    keywords: [
+    label: 'North Korea Flag',
+    hexcode: '1F1F0-1F1F5',
+    tags: [
       'flag_north_korea',
       'north',
       'korea',
@@ -29927,9 +29927,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-kp'
   },
   {
-    name: 'South Korea Flag',
-    unified: '1F1F0-1F1F7',
-    keywords: [
+    label: 'South Korea Flag',
+    hexcode: '1F1F0-1F1F7',
+    tags: [
       'flag_south_korea',
       'south',
       'korea',
@@ -29944,9 +29944,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'kr'
   },
   {
-    name: 'Kuwait Flag',
-    unified: '1F1F0-1F1FC',
-    keywords: [
+    label: 'Kuwait Flag',
+    hexcode: '1F1F0-1F1FC',
+    tags: [
       'flag_kuwait',
       'kw',
       'flag',
@@ -29959,9 +29959,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-kw'
   },
   {
-    name: 'Cayman Islands Flag',
-    unified: '1F1F0-1F1FE',
-    keywords: [
+    label: 'Cayman Islands Flag',
+    hexcode: '1F1F0-1F1FE',
+    tags: [
       'flag_cayman_islands',
       'cayman',
       'islands',
@@ -29975,9 +29975,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ky'
   },
   {
-    name: 'Kazakhstan Flag',
-    unified: '1F1F0-1F1FF',
-    keywords: [
+    label: 'Kazakhstan Flag',
+    hexcode: '1F1F0-1F1FF',
+    tags: [
       'flag_kazakhstan',
       'kz',
       'flag',
@@ -29990,9 +29990,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-kz'
   },
   {
-    name: 'Laos Flag',
-    unified: '1F1F1-1F1E6',
-    keywords: [
+    label: 'Laos Flag',
+    hexcode: '1F1F1-1F1E6',
+    tags: [
       'flag_laos',
       'lao',
       'democratic',
@@ -30007,9 +30007,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-la'
   },
   {
-    name: 'Lebanon Flag',
-    unified: '1F1F1-1F1E7',
-    keywords: [
+    label: 'Lebanon Flag',
+    hexcode: '1F1F1-1F1E7',
+    tags: [
       'flag_lebanon',
       'lb',
       'flag',
@@ -30022,9 +30022,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lb'
   },
   {
-    name: 'St. Lucia Flag',
-    unified: '1F1F1-1F1E8',
-    keywords: [
+    label: 'St. Lucia Flag',
+    hexcode: '1F1F1-1F1E8',
+    tags: [
       'flag_st_lucia',
       'saint',
       'lucia',
@@ -30038,9 +30038,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lc'
   },
   {
-    name: 'Liechtenstein Flag',
-    unified: '1F1F1-1F1EE',
-    keywords: [
+    label: 'Liechtenstein Flag',
+    hexcode: '1F1F1-1F1EE',
+    tags: [
       'flag_liechtenstein',
       'li',
       'flag',
@@ -30053,9 +30053,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-li'
   },
   {
-    name: 'Sri Lanka Flag',
-    unified: '1F1F1-1F1F0',
-    keywords: [
+    label: 'Sri Lanka Flag',
+    hexcode: '1F1F1-1F1F0',
+    tags: [
       'flag_sri_lanka',
       'sri',
       'lanka',
@@ -30069,9 +30069,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lk'
   },
   {
-    name: 'Liberia Flag',
-    unified: '1F1F1-1F1F7',
-    keywords: [
+    label: 'Liberia Flag',
+    hexcode: '1F1F1-1F1F7',
+    tags: [
       'flag_liberia',
       'lr',
       'flag',
@@ -30084,9 +30084,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lr'
   },
   {
-    name: 'Lesotho Flag',
-    unified: '1F1F1-1F1F8',
-    keywords: [
+    label: 'Lesotho Flag',
+    hexcode: '1F1F1-1F1F8',
+    tags: [
       'flag_lesotho',
       'ls',
       'flag',
@@ -30099,9 +30099,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ls'
   },
   {
-    name: 'Lithuania Flag',
-    unified: '1F1F1-1F1F9',
-    keywords: [
+    label: 'Lithuania Flag',
+    hexcode: '1F1F1-1F1F9',
+    tags: [
       'flag_lithuania',
       'lt',
       'flag',
@@ -30114,9 +30114,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lt'
   },
   {
-    name: 'Luxembourg Flag',
-    unified: '1F1F1-1F1FA',
-    keywords: [
+    label: 'Luxembourg Flag',
+    hexcode: '1F1F1-1F1FA',
+    tags: [
       'flag_luxembourg',
       'lu',
       'flag',
@@ -30129,9 +30129,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lu'
   },
   {
-    name: 'Latvia Flag',
-    unified: '1F1F1-1F1FB',
-    keywords: [
+    label: 'Latvia Flag',
+    hexcode: '1F1F1-1F1FB',
+    tags: [
       'flag_latvia',
       'lv',
       'flag',
@@ -30144,9 +30144,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-lv'
   },
   {
-    name: 'Libya Flag',
-    unified: '1F1F1-1F1FE',
-    keywords: [
+    label: 'Libya Flag',
+    hexcode: '1F1F1-1F1FE',
+    tags: [
       'flag_libya',
       'ly',
       'flag',
@@ -30159,9 +30159,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ly'
   },
   {
-    name: 'Morocco Flag',
-    unified: '1F1F2-1F1E6',
-    keywords: [
+    label: 'Morocco Flag',
+    hexcode: '1F1F2-1F1E6',
+    tags: [
       'flag_morocco',
       'ma',
       'flag',
@@ -30174,9 +30174,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ma'
   },
   {
-    name: 'Monaco Flag',
-    unified: '1F1F2-1F1E8',
-    keywords: [
+    label: 'Monaco Flag',
+    hexcode: '1F1F2-1F1E8',
+    tags: [
       'flag_monaco',
       'mc',
       'flag',
@@ -30189,9 +30189,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mc'
   },
   {
-    name: 'Moldova Flag',
-    unified: '1F1F2-1F1E9',
-    keywords: [
+    label: 'Moldova Flag',
+    hexcode: '1F1F2-1F1E9',
+    tags: [
       'flag_moldova',
       'moldova',
       'republic',
@@ -30205,9 +30205,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-md'
   },
   {
-    name: 'Montenegro Flag',
-    unified: '1F1F2-1F1EA',
-    keywords: [
+    label: 'Montenegro Flag',
+    hexcode: '1F1F2-1F1EA',
+    tags: [
       'flag_montenegro',
       'me',
       'flag',
@@ -30220,16 +30220,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-me'
   },
   {
-    name: 'St. Martin Flag',
-    unified: '1F1F2-1F1EB',
-    keywords: ['flag_st_martin'],
+    label: 'St. Martin Flag',
+    hexcode: '1F1F2-1F1EB',
+    tags: ['flag_st_martin'],
     sheet: [2, 55],
     shortName: 'flag-mf'
   },
   {
-    name: 'Madagascar Flag',
-    unified: '1F1F2-1F1EC',
-    keywords: [
+    label: 'Madagascar Flag',
+    hexcode: '1F1F2-1F1EC',
+    tags: [
       'flag_madagascar',
       'mg',
       'flag',
@@ -30242,9 +30242,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mg'
   },
   {
-    name: 'Marshall Islands Flag',
-    unified: '1F1F2-1F1ED',
-    keywords: [
+    label: 'Marshall Islands Flag',
+    hexcode: '1F1F2-1F1ED',
+    tags: [
       'flag_marshall_islands',
       'marshall',
       'islands',
@@ -30258,9 +30258,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mh'
   },
   {
-    name: 'North Macedonia Flag',
-    unified: '1F1F2-1F1F0',
-    keywords: [
+    label: 'North Macedonia Flag',
+    hexcode: '1F1F2-1F1F0',
+    tags: [
       'flag_north_macedonia',
       'macedonia',
       'flag',
@@ -30273,9 +30273,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mk'
   },
   {
-    name: 'Mali Flag',
-    unified: '1F1F2-1F1F1',
-    keywords: [
+    label: 'Mali Flag',
+    hexcode: '1F1F2-1F1F1',
+    tags: [
       'flag_mali',
       'ml',
       'flag',
@@ -30288,9 +30288,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ml'
   },
   {
-    name: 'Myanmar (burma) Flag',
-    unified: '1F1F2-1F1F2',
-    keywords: [
+    label: 'Myanmar (burma) Flag',
+    hexcode: '1F1F2-1F1F2',
+    tags: [
       'flag_myanmar',
       'mm',
       'flag',
@@ -30303,9 +30303,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mm'
   },
   {
-    name: 'Mongolia Flag',
-    unified: '1F1F2-1F1F3',
-    keywords: [
+    label: 'Mongolia Flag',
+    hexcode: '1F1F2-1F1F3',
+    tags: [
       'flag_mongolia',
       'mn',
       'flag',
@@ -30318,9 +30318,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mn'
   },
   {
-    name: 'Macao Sar China Flag',
-    unified: '1F1F2-1F1F4',
-    keywords: [
+    label: 'Macao Sar China Flag',
+    hexcode: '1F1F2-1F1F4',
+    tags: [
       'flag_macao_sar_china',
       'macao',
       'flag',
@@ -30333,9 +30333,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mo'
   },
   {
-    name: 'Northern Mariana Islands Flag',
-    unified: '1F1F2-1F1F5',
-    keywords: [
+    label: 'Northern Mariana Islands Flag',
+    hexcode: '1F1F2-1F1F5',
+    tags: [
       'flag_northern_mariana_islands',
       'northern',
       'mariana',
@@ -30350,9 +30350,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mp'
   },
   {
-    name: 'Martinique Flag',
-    unified: '1F1F2-1F1F6',
-    keywords: [
+    label: 'Martinique Flag',
+    hexcode: '1F1F2-1F1F6',
+    tags: [
       'flag_martinique',
       'mq',
       'flag',
@@ -30365,9 +30365,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mq'
   },
   {
-    name: 'Mauritania Flag',
-    unified: '1F1F2-1F1F7',
-    keywords: [
+    label: 'Mauritania Flag',
+    hexcode: '1F1F2-1F1F7',
+    tags: [
       'flag_mauritania',
       'mr',
       'flag',
@@ -30380,9 +30380,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mr'
   },
   {
-    name: 'Montserrat Flag',
-    unified: '1F1F2-1F1F8',
-    keywords: [
+    label: 'Montserrat Flag',
+    hexcode: '1F1F2-1F1F8',
+    tags: [
       'flag_montserrat',
       'ms',
       'flag',
@@ -30395,9 +30395,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ms'
   },
   {
-    name: 'Malta Flag',
-    unified: '1F1F2-1F1F9',
-    keywords: [
+    label: 'Malta Flag',
+    hexcode: '1F1F2-1F1F9',
+    tags: [
       'flag_malta',
       'mt',
       'flag',
@@ -30410,9 +30410,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mt'
   },
   {
-    name: 'Mauritius Flag',
-    unified: '1F1F2-1F1FA',
-    keywords: [
+    label: 'Mauritius Flag',
+    hexcode: '1F1F2-1F1FA',
+    tags: [
       'flag_mauritius',
       'mu',
       'flag',
@@ -30425,9 +30425,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mu'
   },
   {
-    name: 'Maldives Flag',
-    unified: '1F1F2-1F1FB',
-    keywords: [
+    label: 'Maldives Flag',
+    hexcode: '1F1F2-1F1FB',
+    tags: [
       'flag_maldives',
       'mv',
       'flag',
@@ -30440,9 +30440,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mv'
   },
   {
-    name: 'Malawi Flag',
-    unified: '1F1F2-1F1FC',
-    keywords: [
+    label: 'Malawi Flag',
+    hexcode: '1F1F2-1F1FC',
+    tags: [
       'flag_malawi',
       'mw',
       'flag',
@@ -30455,9 +30455,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mw'
   },
   {
-    name: 'Mexico Flag',
-    unified: '1F1F2-1F1FD',
-    keywords: [
+    label: 'Mexico Flag',
+    hexcode: '1F1F2-1F1FD',
+    tags: [
       'flag_mexico',
       'mx',
       'flag',
@@ -30470,9 +30470,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mx'
   },
   {
-    name: 'Malaysia Flag',
-    unified: '1F1F2-1F1FE',
-    keywords: [
+    label: 'Malaysia Flag',
+    hexcode: '1F1F2-1F1FE',
+    tags: [
       'flag_malaysia',
       'my',
       'flag',
@@ -30485,9 +30485,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-my'
   },
   {
-    name: 'Mozambique Flag',
-    unified: '1F1F2-1F1FF',
-    keywords: [
+    label: 'Mozambique Flag',
+    hexcode: '1F1F2-1F1FF',
+    tags: [
       'flag_mozambique',
       'mz',
       'flag',
@@ -30500,9 +30500,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-mz'
   },
   {
-    name: 'Namibia Flag',
-    unified: '1F1F3-1F1E6',
-    keywords: [
+    label: 'Namibia Flag',
+    hexcode: '1F1F3-1F1E6',
+    tags: [
       'flag_namibia',
       'na',
       'flag',
@@ -30515,9 +30515,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-na'
   },
   {
-    name: 'New Caledonia Flag',
-    unified: '1F1F3-1F1E8',
-    keywords: [
+    label: 'New Caledonia Flag',
+    hexcode: '1F1F3-1F1E8',
+    tags: [
       'flag_new_caledonia',
       'new',
       'caledonia',
@@ -30531,9 +30531,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-nc'
   },
   {
-    name: 'Niger Flag',
-    unified: '1F1F3-1F1EA',
-    keywords: [
+    label: 'Niger Flag',
+    hexcode: '1F1F3-1F1EA',
+    tags: [
       'flag_niger',
       'ne',
       'flag',
@@ -30546,9 +30546,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ne'
   },
   {
-    name: 'Norfolk Island Flag',
-    unified: '1F1F3-1F1EB',
-    keywords: [
+    label: 'Norfolk Island Flag',
+    hexcode: '1F1F3-1F1EB',
+    tags: [
       'flag_norfolk_island',
       'norfolk',
       'island',
@@ -30562,9 +30562,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-nf'
   },
   {
-    name: 'Nigeria Flag',
-    unified: '1F1F3-1F1EC',
-    keywords: [
+    label: 'Nigeria Flag',
+    hexcode: '1F1F3-1F1EC',
+    tags: [
       'flag_nigeria',
       'flag',
       'nation',
@@ -30576,9 +30576,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ng'
   },
   {
-    name: 'Nicaragua Flag',
-    unified: '1F1F3-1F1EE',
-    keywords: [
+    label: 'Nicaragua Flag',
+    hexcode: '1F1F3-1F1EE',
+    tags: [
       'flag_nicaragua',
       'ni',
       'flag',
@@ -30591,9 +30591,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ni'
   },
   {
-    name: 'Netherlands Flag',
-    unified: '1F1F3-1F1F1',
-    keywords: [
+    label: 'Netherlands Flag',
+    hexcode: '1F1F3-1F1F1',
+    tags: [
       'flag_netherlands',
       'nl',
       'flag',
@@ -30606,9 +30606,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-nl'
   },
   {
-    name: 'Norway Flag',
-    unified: '1F1F3-1F1F4',
-    keywords: [
+    label: 'Norway Flag',
+    hexcode: '1F1F3-1F1F4',
+    tags: [
       'flag_norway',
       'no',
       'flag',
@@ -30621,9 +30621,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-no'
   },
   {
-    name: 'Nepal Flag',
-    unified: '1F1F3-1F1F5',
-    keywords: [
+    label: 'Nepal Flag',
+    hexcode: '1F1F3-1F1F5',
+    tags: [
       'flag_nepal',
       'np',
       'flag',
@@ -30636,9 +30636,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-np'
   },
   {
-    name: 'Nauru Flag',
-    unified: '1F1F3-1F1F7',
-    keywords: [
+    label: 'Nauru Flag',
+    hexcode: '1F1F3-1F1F7',
+    tags: [
       'flag_nauru',
       'nr',
       'flag',
@@ -30651,9 +30651,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-nr'
   },
   {
-    name: 'Niue Flag',
-    unified: '1F1F3-1F1FA',
-    keywords: [
+    label: 'Niue Flag',
+    hexcode: '1F1F3-1F1FA',
+    tags: [
       'flag_niue',
       'nu',
       'flag',
@@ -30666,9 +30666,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-nu'
   },
   {
-    name: 'New Zealand Flag',
-    unified: '1F1F3-1F1FF',
-    keywords: [
+    label: 'New Zealand Flag',
+    hexcode: '1F1F3-1F1FF',
+    tags: [
       'flag_new_zealand',
       'new',
       'zealand',
@@ -30682,9 +30682,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-nz'
   },
   {
-    name: 'Oman Flag',
-    unified: '1F1F4-1F1F2',
-    keywords: [
+    label: 'Oman Flag',
+    hexcode: '1F1F4-1F1F2',
+    tags: [
       'flag_oman',
       'om_symbol',
       'flag',
@@ -30697,9 +30697,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-om'
   },
   {
-    name: 'Panama Flag',
-    unified: '1F1F5-1F1E6',
-    keywords: [
+    label: 'Panama Flag',
+    hexcode: '1F1F5-1F1E6',
+    tags: [
       'flag_panama',
       'pa',
       'flag',
@@ -30712,9 +30712,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pa'
   },
   {
-    name: 'Peru Flag',
-    unified: '1F1F5-1F1EA',
-    keywords: [
+    label: 'Peru Flag',
+    hexcode: '1F1F5-1F1EA',
+    tags: [
       'flag_peru',
       'pe',
       'flag',
@@ -30727,9 +30727,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pe'
   },
   {
-    name: 'French Polynesia Flag',
-    unified: '1F1F5-1F1EB',
-    keywords: [
+    label: 'French Polynesia Flag',
+    hexcode: '1F1F5-1F1EB',
+    tags: [
       'flag_french_polynesia',
       'french',
       'polynesia',
@@ -30743,9 +30743,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pf'
   },
   {
-    name: 'Papua New Guinea Flag',
-    unified: '1F1F5-1F1EC',
-    keywords: [
+    label: 'Papua New Guinea Flag',
+    hexcode: '1F1F5-1F1EC',
+    tags: [
       'flag_papua_new_guinea',
       'papua',
       'new',
@@ -30760,9 +30760,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pg'
   },
   {
-    name: 'Philippines Flag',
-    unified: '1F1F5-1F1ED',
-    keywords: [
+    label: 'Philippines Flag',
+    hexcode: '1F1F5-1F1ED',
+    tags: [
       'flag_philippines',
       'ph',
       'flag',
@@ -30775,9 +30775,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ph'
   },
   {
-    name: 'Pakistan Flag',
-    unified: '1F1F5-1F1F0',
-    keywords: [
+    label: 'Pakistan Flag',
+    hexcode: '1F1F5-1F1F0',
+    tags: [
       'flag_pakistan',
       'pk',
       'flag',
@@ -30790,9 +30790,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pk'
   },
   {
-    name: 'Poland Flag',
-    unified: '1F1F5-1F1F1',
-    keywords: [
+    label: 'Poland Flag',
+    hexcode: '1F1F5-1F1F1',
+    tags: [
       'flag_poland',
       'pl',
       'flag',
@@ -30805,9 +30805,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pl'
   },
   {
-    name: 'St. Pierre & Miquelon Flag',
-    unified: '1F1F5-1F1F2',
-    keywords: [
+    label: 'St. Pierre & Miquelon Flag',
+    hexcode: '1F1F5-1F1F2',
+    tags: [
       'flag_st_pierre_miquelon',
       'saint',
       'pierre',
@@ -30822,9 +30822,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pm'
   },
   {
-    name: 'Pitcairn Islands Flag',
-    unified: '1F1F5-1F1F3',
-    keywords: [
+    label: 'Pitcairn Islands Flag',
+    hexcode: '1F1F5-1F1F3',
+    tags: [
       'flag_pitcairn_islands',
       'pitcairn',
       'flag',
@@ -30837,9 +30837,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pn'
   },
   {
-    name: 'Puerto Rico Flag',
-    unified: '1F1F5-1F1F7',
-    keywords: [
+    label: 'Puerto Rico Flag',
+    hexcode: '1F1F5-1F1F7',
+    tags: [
       'flag_puerto_rico',
       'puerto',
       'rico',
@@ -30853,9 +30853,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pr'
   },
   {
-    name: 'Palestinian Territories Flag',
-    unified: '1F1F5-1F1F8',
-    keywords: [
+    label: 'Palestinian Territories Flag',
+    hexcode: '1F1F5-1F1F8',
+    tags: [
       'flag_palestinian_territories',
       'palestine',
       'palestinian',
@@ -30870,9 +30870,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ps'
   },
   {
-    name: 'Portugal Flag',
-    unified: '1F1F5-1F1F9',
-    keywords: [
+    label: 'Portugal Flag',
+    hexcode: '1F1F5-1F1F9',
+    tags: [
       'flag_portugal',
       'pt',
       'flag',
@@ -30885,9 +30885,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pt'
   },
   {
-    name: 'Palau Flag',
-    unified: '1F1F5-1F1FC',
-    keywords: [
+    label: 'Palau Flag',
+    hexcode: '1F1F5-1F1FC',
+    tags: [
       'flag_palau',
       'pw',
       'flag',
@@ -30900,9 +30900,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-pw'
   },
   {
-    name: 'Paraguay Flag',
-    unified: '1F1F5-1F1FE',
-    keywords: [
+    label: 'Paraguay Flag',
+    hexcode: '1F1F5-1F1FE',
+    tags: [
       'flag_paraguay',
       'py',
       'flag',
@@ -30915,9 +30915,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-py'
   },
   {
-    name: 'Qatar Flag',
-    unified: '1F1F6-1F1E6',
-    keywords: [
+    label: 'Qatar Flag',
+    hexcode: '1F1F6-1F1E6',
+    tags: [
       'flag_qatar',
       'qa',
       'flag',
@@ -30930,9 +30930,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-qa'
   },
   {
-    name: 'Réunion Flag',
-    unified: '1F1F7-1F1EA',
-    keywords: [
+    label: 'Réunion Flag',
+    hexcode: '1F1F7-1F1EA',
+    tags: [
       'flag_reunion',
       'réunion',
       'flag',
@@ -30945,9 +30945,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-re'
   },
   {
-    name: 'Romania Flag',
-    unified: '1F1F7-1F1F4',
-    keywords: [
+    label: 'Romania Flag',
+    hexcode: '1F1F7-1F1F4',
+    tags: [
       'flag_romania',
       'ro',
       'flag',
@@ -30960,9 +30960,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ro'
   },
   {
-    name: 'Serbia Flag',
-    unified: '1F1F7-1F1F8',
-    keywords: [
+    label: 'Serbia Flag',
+    hexcode: '1F1F7-1F1F8',
+    tags: [
       'flag_serbia',
       'rs',
       'flag',
@@ -30975,9 +30975,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-rs'
   },
   {
-    name: 'Russia Flag',
-    unified: '1F1F7-1F1FA',
-    keywords: [
+    label: 'Russia Flag',
+    hexcode: '1F1F7-1F1FA',
+    tags: [
       'flag_russia',
       'russian',
       'federation',
@@ -30992,9 +30992,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'ru'
   },
   {
-    name: 'Rwanda Flag',
-    unified: '1F1F7-1F1FC',
-    keywords: [
+    label: 'Rwanda Flag',
+    hexcode: '1F1F7-1F1FC',
+    tags: [
       'flag_rwanda',
       'rw',
       'flag',
@@ -31007,9 +31007,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-rw'
   },
   {
-    name: 'Saudi Arabia Flag',
-    unified: '1F1F8-1F1E6',
-    keywords: [
+    label: 'Saudi Arabia Flag',
+    hexcode: '1F1F8-1F1E6',
+    tags: [
       'flag_saudi_arabia',
       'flag',
       'nation',
@@ -31021,9 +31021,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sa'
   },
   {
-    name: 'Solomon Islands Flag',
-    unified: '1F1F8-1F1E7',
-    keywords: [
+    label: 'Solomon Islands Flag',
+    hexcode: '1F1F8-1F1E7',
+    tags: [
       'flag_solomon_islands',
       'solomon',
       'islands',
@@ -31037,9 +31037,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sb'
   },
   {
-    name: 'Seychelles Flag',
-    unified: '1F1F8-1F1E8',
-    keywords: [
+    label: 'Seychelles Flag',
+    hexcode: '1F1F8-1F1E8',
+    tags: [
       'flag_seychelles',
       'sc',
       'flag',
@@ -31052,9 +31052,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sc'
   },
   {
-    name: 'Sudan Flag',
-    unified: '1F1F8-1F1E9',
-    keywords: [
+    label: 'Sudan Flag',
+    hexcode: '1F1F8-1F1E9',
+    tags: [
       'flag_sudan',
       'sd',
       'flag',
@@ -31067,9 +31067,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sd'
   },
   {
-    name: 'Sweden Flag',
-    unified: '1F1F8-1F1EA',
-    keywords: [
+    label: 'Sweden Flag',
+    hexcode: '1F1F8-1F1EA',
+    tags: [
       'flag_sweden',
       'se',
       'flag',
@@ -31082,9 +31082,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-se'
   },
   {
-    name: 'Singapore Flag',
-    unified: '1F1F8-1F1EC',
-    keywords: [
+    label: 'Singapore Flag',
+    hexcode: '1F1F8-1F1EC',
+    tags: [
       'flag_singapore',
       'sg',
       'flag',
@@ -31097,9 +31097,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sg'
   },
   {
-    name: 'St. Helena Flag',
-    unified: '1F1F8-1F1ED',
-    keywords: [
+    label: 'St. Helena Flag',
+    hexcode: '1F1F8-1F1ED',
+    tags: [
       'flag_st_helena',
       'saint',
       'helena',
@@ -31116,9 +31116,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sh'
   },
   {
-    name: 'Slovenia Flag',
-    unified: '1F1F8-1F1EE',
-    keywords: [
+    label: 'Slovenia Flag',
+    hexcode: '1F1F8-1F1EE',
+    tags: [
       'flag_slovenia',
       'si',
       'flag',
@@ -31131,18 +31131,18 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-si'
   },
   {
-    name: 'Svalbard & Jan Mayen Flag',
-    unified: '1F1F8-1F1EF',
-    keywords: [
+    label: 'Svalbard & Jan Mayen Flag',
+    hexcode: '1F1F8-1F1EF',
+    tags: [
       'flag_svalbard_jan_mayen'
     ],
     sheet: [3, 54],
     shortName: 'flag-sj'
   },
   {
-    name: 'Slovakia Flag',
-    unified: '1F1F8-1F1F0',
-    keywords: [
+    label: 'Slovakia Flag',
+    hexcode: '1F1F8-1F1F0',
+    tags: [
       'flag_slovakia',
       'sk',
       'flag',
@@ -31155,9 +31155,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sk'
   },
   {
-    name: 'Sierra Leone Flag',
-    unified: '1F1F8-1F1F1',
-    keywords: [
+    label: 'Sierra Leone Flag',
+    hexcode: '1F1F8-1F1F1',
+    tags: [
       'flag_sierra_leone',
       'sierra',
       'leone',
@@ -31171,9 +31171,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sl'
   },
   {
-    name: 'San Marino Flag',
-    unified: '1F1F8-1F1F2',
-    keywords: [
+    label: 'San Marino Flag',
+    hexcode: '1F1F8-1F1F2',
+    tags: [
       'flag_san_marino',
       'san',
       'marino',
@@ -31187,9 +31187,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sm'
   },
   {
-    name: 'Senegal Flag',
-    unified: '1F1F8-1F1F3',
-    keywords: [
+    label: 'Senegal Flag',
+    hexcode: '1F1F8-1F1F3',
+    tags: [
       'flag_senegal',
       'sn',
       'flag',
@@ -31202,9 +31202,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sn'
   },
   {
-    name: 'Somalia Flag',
-    unified: '1F1F8-1F1F4',
-    keywords: [
+    label: 'Somalia Flag',
+    hexcode: '1F1F8-1F1F4',
+    tags: [
       'flag_somalia',
       'so',
       'flag',
@@ -31217,9 +31217,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-so'
   },
   {
-    name: 'Suriname Flag',
-    unified: '1F1F8-1F1F7',
-    keywords: [
+    label: 'Suriname Flag',
+    hexcode: '1F1F8-1F1F7',
+    tags: [
       'flag_suriname',
       'sr',
       'flag',
@@ -31232,9 +31232,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sr'
   },
   {
-    name: 'South Sudan Flag',
-    unified: '1F1F8-1F1F8',
-    keywords: [
+    label: 'South Sudan Flag',
+    hexcode: '1F1F8-1F1F8',
+    tags: [
       'flag_south_sudan',
       'south',
       'sd',
@@ -31248,9 +31248,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ss'
   },
   {
-    name: 'São Tomé & Príncipe Flag',
-    unified: '1F1F8-1F1F9',
-    keywords: [
+    label: 'São Tomé & Príncipe Flag',
+    hexcode: '1F1F8-1F1F9',
+    tags: [
       'flag_sao_tome_principe',
       'sao',
       'tome',
@@ -31265,9 +31265,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-st'
   },
   {
-    name: 'El Salvador Flag',
-    unified: '1F1F8-1F1FB',
-    keywords: [
+    label: 'El Salvador Flag',
+    hexcode: '1F1F8-1F1FB',
+    tags: [
       'flag_el_salvador',
       'el',
       'salvador',
@@ -31281,9 +31281,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sv'
   },
   {
-    name: 'Sint Maarten Flag',
-    unified: '1F1F8-1F1FD',
-    keywords: [
+    label: 'Sint Maarten Flag',
+    hexcode: '1F1F8-1F1FD',
+    tags: [
       'flag_sint_maarten',
       'sint',
       'maarten',
@@ -31298,9 +31298,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sx'
   },
   {
-    name: 'Syria Flag',
-    unified: '1F1F8-1F1FE',
-    keywords: [
+    label: 'Syria Flag',
+    hexcode: '1F1F8-1F1FE',
+    tags: [
       'flag_syria',
       'syrian',
       'arab',
@@ -31315,9 +31315,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sy'
   },
   {
-    name: 'Eswatini Flag',
-    unified: '1F1F8-1F1FF',
-    keywords: [
+    label: 'Eswatini Flag',
+    hexcode: '1F1F8-1F1FF',
+    tags: [
       'flag_eswatini',
       'sz',
       'flag',
@@ -31330,16 +31330,16 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-sz'
   },
   {
-    name: 'Tristan Da Cunha Flag',
-    unified: '1F1F9-1F1E6',
-    keywords: ['flag_tristan_da_cunha'],
+    label: 'Tristan Da Cunha Flag',
+    hexcode: '1F1F9-1F1E6',
+    tags: ['flag_tristan_da_cunha'],
     sheet: [4, 6],
     shortName: 'flag-ta'
   },
   {
-    name: 'Turks & Caicos Islands Flag',
-    unified: '1F1F9-1F1E8',
-    keywords: [
+    label: 'Turks & Caicos Islands Flag',
+    hexcode: '1F1F9-1F1E8',
+    tags: [
       'flag_turks_caicos_islands',
       'turks',
       'caicos',
@@ -31354,9 +31354,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tc'
   },
   {
-    name: 'Chad Flag',
-    unified: '1F1F9-1F1E9',
-    keywords: [
+    label: 'Chad Flag',
+    hexcode: '1F1F9-1F1E9',
+    tags: [
       'flag_chad',
       'td',
       'flag',
@@ -31369,9 +31369,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-td'
   },
   {
-    name: 'French Southern Territories Flag',
-    unified: '1F1F9-1F1EB',
-    keywords: [
+    label: 'French Southern Territories Flag',
+    hexcode: '1F1F9-1F1EB',
+    tags: [
       'flag_french_southern_territories',
       'french',
       'southern',
@@ -31386,9 +31386,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tf'
   },
   {
-    name: 'Togo Flag',
-    unified: '1F1F9-1F1EC',
-    keywords: [
+    label: 'Togo Flag',
+    hexcode: '1F1F9-1F1EC',
+    tags: [
       'flag_togo',
       'tg',
       'flag',
@@ -31401,9 +31401,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tg'
   },
   {
-    name: 'Thailand Flag',
-    unified: '1F1F9-1F1ED',
-    keywords: [
+    label: 'Thailand Flag',
+    hexcode: '1F1F9-1F1ED',
+    tags: [
       'flag_thailand',
       'th',
       'flag',
@@ -31416,9 +31416,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-th'
   },
   {
-    name: 'Tajikistan Flag',
-    unified: '1F1F9-1F1EF',
-    keywords: [
+    label: 'Tajikistan Flag',
+    hexcode: '1F1F9-1F1EF',
+    tags: [
       'flag_tajikistan',
       'tj',
       'flag',
@@ -31431,9 +31431,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tj'
   },
   {
-    name: 'Tokelau Flag',
-    unified: '1F1F9-1F1F0',
-    keywords: [
+    label: 'Tokelau Flag',
+    hexcode: '1F1F9-1F1F0',
+    tags: [
       'flag_tokelau',
       'tk',
       'flag',
@@ -31446,9 +31446,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tk'
   },
   {
-    name: 'Timor-Leste Flag',
-    unified: '1F1F9-1F1F1',
-    keywords: [
+    label: 'Timor-Leste Flag',
+    hexcode: '1F1F9-1F1F1',
+    tags: [
       'flag_timor_leste',
       'timor',
       'leste',
@@ -31462,9 +31462,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tl'
   },
   {
-    name: 'Turkmenistan Flag',
-    unified: '1F1F9-1F1F2',
-    keywords: [
+    label: 'Turkmenistan Flag',
+    hexcode: '1F1F9-1F1F2',
+    tags: [
       'flag_turkmenistan',
       'flag',
       'nation',
@@ -31476,9 +31476,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tm'
   },
   {
-    name: 'Tunisia Flag',
-    unified: '1F1F9-1F1F3',
-    keywords: [
+    label: 'Tunisia Flag',
+    hexcode: '1F1F9-1F1F3',
+    tags: [
       'flag_tunisia',
       'tn',
       'flag',
@@ -31491,9 +31491,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tn'
   },
   {
-    name: 'Tonga Flag',
-    unified: '1F1F9-1F1F4',
-    keywords: [
+    label: 'Tonga Flag',
+    hexcode: '1F1F9-1F1F4',
+    tags: [
       'flag_tonga',
       'to',
       'flag',
@@ -31506,9 +31506,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-to'
   },
   {
-    name: 'Turkey Flag',
-    unified: '1F1F9-1F1F7',
-    keywords: [
+    label: 'Turkey Flag',
+    hexcode: '1F1F9-1F1F7',
+    tags: [
       'flag_turkey',
       'turkey',
       'flag',
@@ -31521,9 +31521,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tr'
   },
   {
-    name: 'Trinidad & Tobago Flag',
-    unified: '1F1F9-1F1F9',
-    keywords: [
+    label: 'Trinidad & Tobago Flag',
+    hexcode: '1F1F9-1F1F9',
+    tags: [
       'flag_trinidad_tobago',
       'trinidad',
       'tobago',
@@ -31537,9 +31537,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tt'
   },
   {
-    name: 'Tuvalu Flag',
-    unified: '1F1F9-1F1FB',
-    keywords: [
+    label: 'Tuvalu Flag',
+    hexcode: '1F1F9-1F1FB',
+    tags: [
       'flag_tuvalu',
       'flag',
       'nation',
@@ -31551,9 +31551,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tv'
   },
   {
-    name: 'Taiwan Flag',
-    unified: '1F1F9-1F1FC',
-    keywords: [
+    label: 'Taiwan Flag',
+    hexcode: '1F1F9-1F1FC',
+    tags: [
       'flag_taiwan',
       'tw',
       'flag',
@@ -31566,9 +31566,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tw'
   },
   {
-    name: 'Tanzania Flag',
-    unified: '1F1F9-1F1FF',
-    keywords: [
+    label: 'Tanzania Flag',
+    hexcode: '1F1F9-1F1FF',
+    tags: [
       'flag_tanzania',
       'tanzania',
       'united',
@@ -31583,9 +31583,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-tz'
   },
   {
-    name: 'Ukraine Flag',
-    unified: '1F1FA-1F1E6',
-    keywords: [
+    label: 'Ukraine Flag',
+    hexcode: '1F1FA-1F1E6',
+    tags: [
       'flag_ukraine',
       'ua',
       'flag',
@@ -31598,9 +31598,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ua'
   },
   {
-    name: 'Uganda Flag',
-    unified: '1F1FA-1F1EC',
-    keywords: [
+    label: 'Uganda Flag',
+    hexcode: '1F1FA-1F1EC',
+    tags: [
       'flag_uganda',
       'ug',
       'flag',
@@ -31613,18 +31613,18 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ug'
   },
   {
-    name: 'U.s. Outlying Islands Flag',
-    unified: '1F1FA-1F1F2',
-    keywords: [
+    label: 'U.s. Outlying Islands Flag',
+    hexcode: '1F1FA-1F1F2',
+    tags: [
       'flag_u_s_outlying_islands'
     ],
     sheet: [4, 25],
     shortName: 'flag-um'
   },
   {
-    name: 'United Nations Flag',
-    unified: '1F1FA-1F1F3',
-    keywords: [
+    label: 'United Nations Flag',
+    hexcode: '1F1FA-1F1F3',
+    tags: [
       'flag_united_nations',
       'un',
       'flag',
@@ -31634,9 +31634,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-un'
   },
   {
-    name: 'United States Flag',
-    unified: '1F1FA-1F1F8',
-    keywords: [
+    label: 'United States Flag',
+    hexcode: '1F1FA-1F1F8',
+    tags: [
       'flag_united_states',
       'united',
       'states',
@@ -31652,9 +31652,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'us'
   },
   {
-    name: 'Uruguay Flag',
-    unified: '1F1FA-1F1FE',
-    keywords: [
+    label: 'Uruguay Flag',
+    hexcode: '1F1FA-1F1FE',
+    tags: [
       'flag_uruguay',
       'uy',
       'flag',
@@ -31667,9 +31667,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-uy'
   },
   {
-    name: 'Uzbekistan Flag',
-    unified: '1F1FA-1F1FF',
-    keywords: [
+    label: 'Uzbekistan Flag',
+    hexcode: '1F1FA-1F1FF',
+    tags: [
       'flag_uzbekistan',
       'uz',
       'flag',
@@ -31682,9 +31682,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-uz'
   },
   {
-    name: 'Vatican City Flag',
-    unified: '1F1FB-1F1E6',
-    keywords: [
+    label: 'Vatican City Flag',
+    hexcode: '1F1FB-1F1E6',
+    tags: [
       'flag_vatican_city',
       'vatican',
       'city',
@@ -31698,9 +31698,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-va'
   },
   {
-    name: 'St. Vincent & Grenadines Flag',
-    unified: '1F1FB-1F1E8',
-    keywords: [
+    label: 'St. Vincent & Grenadines Flag',
+    hexcode: '1F1FB-1F1E8',
+    tags: [
       'flag_st_vincent_grenadines',
       'saint',
       'vincent',
@@ -31715,9 +31715,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-vc'
   },
   {
-    name: 'Venezuela Flag',
-    unified: '1F1FB-1F1EA',
-    keywords: [
+    label: 'Venezuela Flag',
+    hexcode: '1F1FB-1F1EA',
+    tags: [
       'flag_venezuela',
       've',
       'bolivarian',
@@ -31732,9 +31732,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ve'
   },
   {
-    name: 'British Virgin Islands Flag',
-    unified: '1F1FB-1F1EC',
-    keywords: [
+    label: 'British Virgin Islands Flag',
+    hexcode: '1F1FB-1F1EC',
+    tags: [
       'flag_british_virgin_islands',
       'british',
       'virgin',
@@ -31750,9 +31750,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-vg'
   },
   {
-    name: 'U.s. Virgin Islands Flag',
-    unified: '1F1FB-1F1EE',
-    keywords: [
+    label: 'U.s. Virgin Islands Flag',
+    hexcode: '1F1FB-1F1EE',
+    tags: [
       'flag_u_s_virgin_islands',
       'virgin',
       'islands',
@@ -31767,9 +31767,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-vi'
   },
   {
-    name: 'Vietnam Flag',
-    unified: '1F1FB-1F1F3',
-    keywords: [
+    label: 'Vietnam Flag',
+    hexcode: '1F1FB-1F1F3',
+    tags: [
       'flag_vietnam',
       'viet',
       'nam',
@@ -31783,9 +31783,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-vn'
   },
   {
-    name: 'Vanuatu Flag',
-    unified: '1F1FB-1F1FA',
-    keywords: [
+    label: 'Vanuatu Flag',
+    hexcode: '1F1FB-1F1FA',
+    tags: [
       'flag_vanuatu',
       'vu',
       'flag',
@@ -31798,9 +31798,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-vu'
   },
   {
-    name: 'Wallis & Futuna Flag',
-    unified: '1F1FC-1F1EB',
-    keywords: [
+    label: 'Wallis & Futuna Flag',
+    hexcode: '1F1FC-1F1EB',
+    tags: [
       'flag_wallis_futuna',
       'wallis',
       'futuna',
@@ -31814,9 +31814,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-wf'
   },
   {
-    name: 'Samoa Flag',
-    unified: '1F1FC-1F1F8',
-    keywords: [
+    label: 'Samoa Flag',
+    hexcode: '1F1FC-1F1F8',
+    tags: [
       'flag_samoa',
       'ws',
       'flag',
@@ -31829,9 +31829,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ws'
   },
   {
-    name: 'Kosovo Flag',
-    unified: '1F1FD-1F1F0',
-    keywords: [
+    label: 'Kosovo Flag',
+    hexcode: '1F1FD-1F1F0',
+    tags: [
       'flag_kosovo',
       'xk',
       'flag',
@@ -31844,9 +31844,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-xk'
   },
   {
-    name: 'Yemen Flag',
-    unified: '1F1FE-1F1EA',
-    keywords: [
+    label: 'Yemen Flag',
+    hexcode: '1F1FE-1F1EA',
+    tags: [
       'flag_yemen',
       'ye',
       'flag',
@@ -31859,9 +31859,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-ye'
   },
   {
-    name: 'Mayotte Flag',
-    unified: '1F1FE-1F1F9',
-    keywords: [
+    label: 'Mayotte Flag',
+    hexcode: '1F1FE-1F1F9',
+    tags: [
       'flag_mayotte',
       'yt',
       'flag',
@@ -31874,9 +31874,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-yt'
   },
   {
-    name: 'South Africa Flag',
-    unified: '1F1FF-1F1E6',
-    keywords: [
+    label: 'South Africa Flag',
+    hexcode: '1F1FF-1F1E6',
+    tags: [
       'flag_south_africa',
       'south',
       'africa',
@@ -31890,9 +31890,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-za'
   },
   {
-    name: 'Zambia Flag',
-    unified: '1F1FF-1F1F2',
-    keywords: [
+    label: 'Zambia Flag',
+    hexcode: '1F1FF-1F1F2',
+    tags: [
       'flag_zambia',
       'zm',
       'flag',
@@ -31905,9 +31905,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-zm'
   },
   {
-    name: 'Zimbabwe Flag',
-    unified: '1F1FF-1F1FC',
-    keywords: [
+    label: 'Zimbabwe Flag',
+    hexcode: '1F1FF-1F1FC',
+    tags: [
       'flag_zimbabwe',
       'zw',
       'flag',
@@ -31920,9 +31920,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-zw'
   },
   {
-    name: 'England Flag',
-    unified: '1F3F4-E0067-E0062-E0065-E006E-E0067-E007F',
-    keywords: [
+    label: 'England Flag',
+    hexcode: '1F3F4-E0067-E0062-E0065-E006E-E0067-E007F',
+    tags: [
       'flag_england',
       'flag',
       'english'
@@ -31931,9 +31931,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-england'
   },
   {
-    name: 'Scotland Flag',
-    unified: '1F3F4-E0067-E0062-E0073-E0063-E0074-E007F',
-    keywords: [
+    label: 'Scotland Flag',
+    hexcode: '1F3F4-E0067-E0062-E0073-E0063-E0074-E007F',
+    tags: [
       'flag_scotland',
       'flag',
       'scottish'
@@ -31942,9 +31942,9 @@ export const emojis: CompressedEmojiData[] = [
     shortName: 'flag-scotland'
   },
   {
-    name: 'Wales Flag',
-    unified: '1F3F4-E0067-E0062-E0077-E006C-E0073-E007F',
-    keywords: [
+    label: 'Wales Flag',
+    hexcode: '1F3F4-E0067-E0062-E0077-E006C-E0073-E007F',
+    tags: [
       'flag_wales',
       'flag',
       'welsh'

@@ -33,14 +33,18 @@ export class EmojiService {
       }
       data.shortNames.unshift(data.shortName);
       data.id = data.shortName;
-      data.native = this.unifiedToNative(data.unified);
+      data.native = this.unifiedToNative(data.hexcode);
 
       if (!data.skinVariations) {
         data.skinVariations = [];
       }
 
-      if (!data.keywords) {
-        data.keywords = [];
+      if (!data.tags) {
+        data.tags = [];
+      }
+
+      if (!data.sheet) {
+        data.sheet = [0, 0];
       }
 
       if (!data.emoticons) {
@@ -57,17 +61,17 @@ export class EmojiService {
 
       if (data.obsoletes) {
         // get keywords from emoji that it obsoletes since that is shared
-        const f = list.find(x => x.unified === data.obsoletes);
+        const f = list.find(x => x.hexcode === data.obsoletes);
         if (f) {
-          if (f.keywords) {
-            data.keywords = [...data.keywords, ...f.keywords, f.shortName];
+          if (f.tags) {
+            data.tags = [...data.tags, ...f.tags, f.shortName];
           } else {
-            data.keywords = [...data.keywords, f.shortName];
+            data.tags = [...data.tags, f.shortName];
           }
         }
       }
 
-      this.names[data.unified] = data;
+      this.names[data.hexcode] = data;
       for (const n of data.shortNames) {
         this.names[n] = data;
       }
@@ -77,10 +81,15 @@ export class EmojiService {
 
   setEmojibase(emojibase: EmojibaseEmoji[]) {
     this.emojibase = emojibase;
+    this.uncompress(emojibase);
   }
 
   getData(emoji: EmojiData | string, skin?: Emoji['skin'], set?: Emoji['set']): EmojiData | null {
     let emojiData: any;
+    // TODO investigate
+    if (!emoji) {
+      return null;
+    }
 
     if (typeof emoji === 'string') {
       const matches = emoji.match(COLONS_REGEX);
@@ -99,8 +108,8 @@ export class EmojiService {
       }
     } else if (emoji.id) {
       emojiData = this.names[emoji.id];
-    } else if (emoji.unified) {
-      emojiData = this.names[emoji.unified.toUpperCase()];
+    } else if (emoji.hexcode) {
+      emojiData = this.names[emoji.hexcode.toUpperCase()];
     }
 
     if (!emojiData) {
@@ -114,27 +123,17 @@ export class EmojiService {
 
       const skinKey = SKINS[skin - 1];
       const variationData = emojiData.skinVariations.find((n: EmojiVariation) =>
-        n.unified.includes(skinKey),
+        n.hexcode.includes(skinKey),
       );
 
       if (!variationData.hidden || !variationData.hidden.includes(set)) {
         emojiData.skinTone = skin;
         emojiData = { ...emojiData, ...variationData };
       }
-      emojiData.native = this.unifiedToNative(emojiData.unified);
+      emojiData.native = this.unifiedToNative(emojiData.hexcode);
     }
 
     emojiData.set = set || '';
-
-    // localization
-    if (this.emojibase) {
-      const emojibaseEntry = this.emojibase.find(entry => entry.hexcode === emojiData.unified);
-
-      if (emojibaseEntry) {
-        emojiData.name = emojibaseEntry.label;
-        emojiData.keywords = emojibaseEntry.tags;
-      }
-    }
 
     return emojiData as EmojiData;
   }

@@ -158,7 +158,7 @@ export class EmojiComponent implements OnChanges, Emoji, OnDestroy {
     if (data.custom) {
       this.custom = data.custom;
     }
-    if (!data.unified && !data.custom) {
+    if (!data.hexcode && !data.custom) {
       return (this.isVisible = false);
     }
     if (this.tooltip) {
@@ -170,7 +170,7 @@ export class EmojiComponent implements OnChanges, Emoji, OnDestroy {
 
     this.label = [data.native].concat(data.shortNames).filter(Boolean).join(', ');
 
-    if (this.isNative && data.unified && data.native) {
+    if (this.isNative && data.hexcode && data.native) {
       // hide older emoji before the split into gendered emoji
       this.style = { fontSize: `${this.size}px` };
 
