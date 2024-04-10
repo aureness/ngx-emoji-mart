@@ -23,7 +23,7 @@ import {
   Emoji,
   EmojiCategory,
   EmojiData,
-  EmojiEvent,
+  EmojiEvent, EmojiService,
 } from '@ctrl/ngx-emoji-mart/ngx-emoji';
 import { CategoryComponent } from './category.component';
 import { EmojiFrequentlyService } from './emoji-frequently.service';
@@ -33,6 +33,7 @@ import * as icons from './svgs';
 import { measureScrollbar } from './utils';
 
 import { AnchorsComponent } from './anchors.component';
+import {Emoji as EmojibaseEmoji} from 'emojibase/src/types'
 
 const I18N: any = {
   search: 'Search',
@@ -150,12 +151,14 @@ export class PickerComponent implements OnInit, OnDestroy {
   @Input()
   backgroundImageFn: Emoji['backgroundImageFn'] = (set: string, sheetSize: number) =>
     `https://cdn.jsdelivr.net/npm/emoji-datasource-${set}@14.0.0/img/${set}/sheets-256/${sheetSize}.png`;
+  @Input() emojibase?: EmojibaseEmoji[];
 
   constructor(
     private ngZone: NgZone,
     private renderer: Renderer2,
     private ref: ChangeDetectorRef,
     private frequently: EmojiFrequentlyService,
+    private emojiService: EmojiService,
     @Inject(PLATFORM_ID) private platformId: string,
   ) {}
 
@@ -170,6 +173,10 @@ export class PickerComponent implements OnInit, OnDestroy {
         (isPlatformBrowser(this.platformId) && localStorage.getItem(`${this.NAMESPACE}.skin`)) ||
           'null',
       ) || this.skin;
+
+    if (this.emojibase) {
+      this.emojiService.setEmojibase(this.emojibase);
+    }
 
     const allCategories = [...categories];
 

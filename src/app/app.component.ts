@@ -6,6 +6,8 @@ import { EmojiComponent, EmojiEvent } from '../lib/picker/ngx-emoji';
 import { PickerComponent } from '../lib/picker/picker.component';
 import { FooterComponent } from './footer.component';
 
+import ru from 'emojibase-data/ru/compact.json';
+
 const CUSTOM_EMOJIS = [
   {
     name: 'Party Parrot',
@@ -34,6 +36,8 @@ const CUSTOM_EMOJIS = [
   imports: [CommonModule, PickerComponent, EmojiComponent, FooterComponent],
 })
 export class AppComponent {
+  readonly ru = ru;
+
   themes = ['native', 'apple', 'google', 'twitter', 'facebook'];
   darkMode: undefined | boolean = !!(
     typeof matchMedia === 'function' && matchMedia('(prefers-color-scheme: dark)').matches

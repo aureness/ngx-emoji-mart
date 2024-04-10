@@ -9,11 +9,14 @@ const SKINS = ['1F3FA', '1F3FB', '1F3FC', '1F3FD', '1F3FE', '1F3FF'];
 export const DEFAULT_BACKGROUNDFN = (set: string, sheetSize: number) =>
   `https://cdn.jsdelivr.net/npm/emoji-datasource-${set}@14.0.0/img/${set}/sheets-256/${sheetSize}.png`;
 
+import {Emoji as EmojibaseEmoji} from 'emojibase/src/types'
+
 @Injectable({ providedIn: 'root' })
 export class EmojiService {
   uncompressed = false;
   names: { [key: string]: EmojiData } = {};
   emojis: EmojiData[] = [];
+  emojibase?: EmojibaseEmoji[];
 
   constructor() {
     if (!this.uncompressed) {
@@ -72,6 +75,10 @@ export class EmojiService {
     });
   }
 
+  setEmojibase(emojibase: EmojibaseEmoji[]) {
+    this.emojibase = emojibase;
+  }
+
   getData(emoji: EmojiData | string, skin?: Emoji['skin'], set?: Emoji['set']): EmojiData | null {
     let emojiData: any;
 
@@ -118,6 +125,17 @@ export class EmojiService {
     }
 
     emojiData.set = set || '';
+
+    // localization
+    if (this.emojibase) {
+      const emojibaseEntry = this.emojibase.find(entry => entry.hexcode === emojiData.unified);
+
+      if (emojibaseEntry) {
+        emojiData.name = emojibaseEntry.label;
+        emojiData.keywords = emojibaseEntry.tags;
+      }
+    }
+
     return emojiData as EmojiData;
   }
 

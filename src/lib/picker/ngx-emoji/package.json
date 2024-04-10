@@ -3,5 +3,7 @@
   "author": "scttcper",
   "repository": "scttcper/ngx-emoji-mart",
   "license": "MIT",
-  "sideEffects": [ "*.css" ]
+  "sideEffects": [
+    "*.css"
+  ]
 }
